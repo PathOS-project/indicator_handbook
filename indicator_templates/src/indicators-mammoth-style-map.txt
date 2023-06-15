@@ -1,0 +1,4 @@
+p[style-name='Title'] => title
+p[style-name='Description'] => !
+p[style-name='Code'] => pre > code:separator('\n')
+p[style-name='Bibliography'] => p
