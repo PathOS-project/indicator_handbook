@@ -1,13 +1,14 @@
 project:
   type: book
   output-dir: _book
+  execute-dir: project
 
 book:
   title: Open Science Indicator Handbook
   reader-mode: true
 
   site-url: https://pathos-project.eu/
-  repo-url: https://github.com/vtraag/indicator_handbook/
+  repo-url: https://github.com/PathOS-project/indicator_handbook/
   repo-branch: main
   repo-actions: [edit, issue]
 
