@@ -28,3 +28,8 @@ jobs:
         with:
           to: html # If set, it will be equivalent to `quarto render --to html`
 
+      - name: Upload rendered book as GHA artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: indicators_handbook
+          path: _book/
