@@ -1,2 +1,3 @@
 /.quarto/
-_book/
+/site_libs/
+/_book/
