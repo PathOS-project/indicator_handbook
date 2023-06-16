@@ -9,15 +9,19 @@ on:
 name: Render indicator handbook
 
 jobs:
+
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
       - name: Setup quarto
         uses: quarto-dev/quarto-actions/setup@v2
         - run: |
             quarto --version
+
       - name: Render quarto project
         uses: quarto-dev/quarto-actions/render@v2
         with:
