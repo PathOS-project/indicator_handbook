@@ -46,6 +46,17 @@ book:
     - part: Economic Impact
 
     - part: Reproducibility
+      chapters:
+        - 'indicator_templates/quarto/5_reproducibility/consistency_in_reported_numbers.qmd'
+        - 'indicator_templates/quarto/5_reproducibility/impact_of_open_code_in_research.qmd'
+        - 'indicator_templates/quarto/5_reproducibility/impact_of_open_data_in_research.qmd'
+        - 'indicator_templates/quarto/5_reproducibility/inclusion_in_systematic_reviews_or_meta-analyses.qmd'
+        - 'indicator_templates/quarto/5_reproducibility/indicator_template.qmd'
+        - 'indicator_templates/quarto/5_reproducibility/levels_of_replication_found.qmd'
+        - 'indicator_templates/quarto/5_reproducibility/polarity_of_publications.qmd'
+        - 'indicator_templates/quarto/5_reproducibility/reuse_of_code_in_research.qmd'
+        - 'indicator_templates/quarto/5_reproducibility/reuse_of_data_in_research.qmd'
+        - 'indicator_templates/quarto/5_reproducibility/rigour_in_reporting.qmd'
 
 format:
   html:
