@@ -1,0 +1,542 @@
+# Impact of open data in research
+
+History (please fill out in reverse chronological order, latest revision
+on top):
+
+|         |               |                              |                           |
+| ------- | ------------- | ---------------------------- | ------------------------- |
+| Version | Revision date | Revision                     | Author                    |
+| 1.1     | 2023-05-11    | First draft                  | Petros Stavropoulos       |
+| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
+
+## Description
+
+Impact of open data in research refers to the effect of making research
+data openly accessible and reusable to the scientific and industrial
+community, and society as a whole. This indicator aims to capture the
+extent to which open data practices are being adopted in research, and
+their potential impact on the scientific output and societal benefits.
+The indicator can be used to assess the level of openness and
+accessibility of research data within a specific scientific community or
+field, and to identify potential barriers or incentives for the adoption
+of open data practices.
+
+## Metrics
+
+### FWCI for publications that have introduced open datasets
+
+This metric calculates the Field-Weighted Citation Impact (FWCI) for
+publications that have introduced open datasets. FWCI is a measure of
+the citation impact of a publication, adjusted for differences in
+citation practices across scientific fields. The FWCI for publications
+that have introduced open datasets can indicate the potential impact of
+open data practices on the visibility and influence of research
+findings.
+
+One limitation of this metric is that it may not capture the impact of
+open data practices on research findings that are not directly related
+to the introduction of open datasets. Additionally, the use of FWCI as a
+metric has been criticized for its potential biases and limitations,
+such as the inability to fully account for differences in research
+quality or the influence of non-citation-based impact measures.
+Therefore, it is recommended to use this metric in conjunction with
+other metrics to obtain a more comprehensive assessment of the impact of
+open data practices on research output.
+
+#### Measurement.
+
+To measure this metric, we can start by searching for publications that
+have introduced open datasets. This can be done by looking for
+publications in OpenAIRE, or by using automatic tools that extract
+introduced datasets such as the PathOS work in Task 2.5. Once we have
+identified the relevant publications, we need to determine their
+discipline to calculate their FWCI score. Indicatively, we can use
+toolkits like SciNoBo or Elsevier’s SciVal, which provide
+discipline-specific citation impact metadata. Alternatively, we can also
+use the Web of Science and Scopus classifications to determine the
+disciplines of the relevant publications.
+
+However, one potential limitation of this approach is that not all open
+datasets may be registered in data repositories, making it challenging
+to identify all relevant publications. Additionally, the accuracy of the
+FWCI score may be affected by the availability and quality of citation
+data in different scientific fields. Therefore, it is important to
+carefully consider the potential biases and limitations of the data
+sources and methodologies used to measure this metric.
+
+##### Existing datasources:
+
+###### OpenAIRE
+
+OpenAIRE is a European platform that provides open access to research
+outputs, including publications, datasets, and software. OpenAIRE
+collects metadata from various data sources, including institutional
+repositories, data repositories, and publishers.
+
+For the FWCI for publications that have introduced open datasets metric,
+we can use OpenAIRE to identify publications that have introduced open
+datasets. We can search for publications by looking for OpenAIRE records
+that have a dataset identifier in the references section or by using
+OpenAIRE's API to search for publications that are linked to a specific
+dataset.
+
+One limitation of using OpenAIRE for this metric is that not all open
+datasets may be registered in OpenAIRE, which could lead to
+underestimation of the number of publications that have introduced open
+datasets.
+
+##### Existing methodologies
+
+###### PathOS work in Task 2.5
+
+This an automated tool used to identify datasets mentioned in the text
+of publications and extract metadata associated with them, such as name,
+version, license, etc. This tool can also classify whether the dataset
+has been introduced by the authors of the publication.
+
+To measure the FWCI for publications that have (re)used open datasets,
+the tool can be used to identify relevant publications that have
+introduced open datasets.
+
+###### SciNoBo toolkit
+
+The SciNoBo toolkit can be used to classify scientific publications into
+specific fields of science, which can then be used to calculate their
+FWCI score. The tool utilizes the citation-graph of a publication and
+its references to identify its discipline and assign it to a specific
+Field-of-Science (FoS) taxonomy. The classification system of
+publications is based on the structural properties of a publication and
+its citations and references organized in a multilayer network.
+
+To use SciNoBo to measure this metric, we would need to input the
+publications identified from the data sources. This would result in the
+classification of the publications into specific fields of science and
+their corresponding FWCI score.
+
+### FWCI for publications that have (re)used open datasets
+
+This metric calculates the Field-Weighted Citation Impact (FWCI) for
+publications that have (re)used open datasets. It is a measure of the
+citation impact of research publications that have utilized open
+datasets, adjusted for differences in citation practices across
+scientific fields. The FWCI for publications that have (re)used open
+datasets can indicate the potential impact of data sharing and reuse
+practices on the visibility and influence of research findings. A higher
+FWCI score for such publications indicates a higher level of scientific
+collaboration and sharing of data within a scientific community or
+field.
+
+A limitation of this metric is that it may not capture the impact of
+open data practices on research findings that are not directly related
+to the use of open datasets. Additionally, the use of FWCI as a metric
+has been criticized for its potential biases and limitations, such as
+the inability to fully account for differences in research quality or
+the influence of non-citation-based impact measures. Therefore, it is
+recommended to use this metric in conjunction with other metrics to
+obtain a more comprehensive assessment of the impact of open data
+practices on research output.
+
+#### Measurement.
+
+To measure this metric, we can start by identifying publications that
+have (re)used open datasets. This can be done by searching for
+publications in OpenAIRE, or by using automatic tools that extract
+reused datasets. Once we have identified the relevant publications, we
+need to determine their discipline in order to calculate their FWCI
+score. Indicatively, we can use toolkits like SciNoBo or Elsevier’s
+SciVal, which provide discipline-specific citation impact metadata.
+
+One potential limitation of this approach is that not all open datasets
+may be registered in data repositories, making it challenging to
+identify all relevant publications. Additionally, the accuracy of the
+FWCI score may be affected by the availability and quality of citation
+data in different scientific fields. Therefore, it is important to
+carefully consider the potential biases and limitations of the data
+sources and methodologies used to measure this metric.
+
+##### Existing datasources:
+
+###### OpenAIRE
+
+OpenAIRE is a European platform that provides open access to research
+outputs, including publications, datasets, and software. OpenAIRE
+collects metadata from various data sources, including institutional
+repositories, data repositories, and publishers.
+
+For the FWCI for publications that have (re)used open datasets metric,
+we can use OpenAIRE to identify publications that have (re)used open
+datasets. We can search for publications by looking for OpenAIRE records
+that have a dataset identifier in the references section or by using
+OpenAIRE's API to search for publications that are linked to a specific
+dataset.
+
+One limitation of using OpenAIRE for this metric is that not all open
+datasets may be registered in OpenAIRE, which could lead to
+underestimation of the number of publications that have introduced open
+datasets.
+
+##### Existing methodologies
+
+###### PathOS work in Task 2.5
+
+This is an automated tool used to identify open datasets mentioned in
+the text of publications and extract metadata associated with them, such
+as name, version, license, etc. This tool can also classify whether the
+dataset has been reused by the authors of the publication.
+
+To measure the FWCI for publications that have (re)used open datasets,
+the tool can be used to identify relevant publications that have
+(re)used open datasets.
+
+###### SciNoBo toolkit
+
+The SciNoBo toolkit can be used to classify scientific publications into
+specific fields of science, which can then be used to calculate their
+FWCI score. The tool utilizes the citation-graph of a publication and
+its references to identify its discipline and assign it to a specific
+Field-of-Science (FoS) taxonomy. The classification system of
+publications is based on the structural properties of a publication and
+its citations and references organized in a multilayer network.
+
+To use SciNoBo to measure this metric, we would need to input the
+publications identified from the data sources. This would result in the
+classification of the publications into specific fields of science and
+their corresponding FWCI score.
+
+### Dataset downloads/usage counts/stars from repositories
+
+This metric measures the number of downloads, usage counts, or stars
+(depending on the repository) of a given open dataset. It provides an
+indication of the level of interest and use of the dataset by the
+scientific community, and can serve as a proxy for the potential impact
+of the dataset on scientific research. It should be noted that this
+metric may not capture the full impact of open datasets on scientific
+research, as the number of downloads or usage counts may not necessarily
+reflect the quality or impact of the research that utilizes the dataset.
+
+One limitation of this metric is that it only captures usage of open
+datasets from specific repositories, and may not reflect usage of the
+same dataset that is hosted elsewhere. Additionally, differences in
+repository usage and user behavior may affect the comparability of
+download/usage count/star data across repositories. Finally, this metric
+does not capture non-public uses of open datasets, such as internal use
+within an organization or personal use by researchers, which may also
+contribute to the impact of open datasets on scientific research.
+
+#### Measurement.
+
+To measure this metric, we can use data from various data repositories,
+such as DataCite and Zenodo, or data from OpenAIRE, which provide
+download or usage statistics for hosted datasets. We can also use
+platforms such as GitHub or GitLab, which provide star counts as a
+measure of user engagement with open source code repositories that may
+include open datasets. However, it is important to note that different
+repositories may provide different types of usage statistics, and these
+statistics may not be directly comparable across repositories.
+Additionally, not all repositories may track usage statistics, making it
+difficult to obtain comprehensive data for all open datasets.
+
+The data can be computationally obtained using web scraping tools, API
+queries, or by manually accessing the download/usage count/star data for
+each dataset.
+
+##### Existing datasources:
+
+###### DataCite
+
+DataCite is a global registry of research data repositories and
+datasets, providing persistent identifiers for research data to ensure
+that they are discoverable, citable, and reusable. The dataset landing
+pages on DataCite contain information about the dataset, such as
+metadata, version history, and download statistics. This information can
+be used to measure the usage and impact of open datasets.
+
+To calculate the usage count of a dataset, we can use the "Views" field
+provided on the dataset landing page on DataCite, which indicates the
+number of times the landing page has been accessed. To calculate the
+number of downloads, we can use the "Downloads" field, which indicates
+the number of times the dataset has been downloaded. The number of stars
+or likes can be used as a measure of the popularity of the dataset among
+users.
+
+###### Zenodo
+
+Zenodo is a general-purpose open-access repository developed by CERN to
+store scientific data. It accepts various types of research outputs,
+including datasets, software, and publications. Zenodo assigns a unique
+digital object identifier (DOI) to each deposited item, which can be
+used to track its usage and citations.
+
+To calculate the metric of dataset views and downloads from Zenodo, we
+can extract the relevant metadata from the Zenodo API, which provides
+programmatic access to the repository's contents. The API allows us to
+retrieve information about a specific item, such as its title, author,
+publication date, and number of views / downloads. We can then aggregate
+this data to obtain usage statistics for a particular dataset or set of
+datasets.
+
+###### OpenAIRE
+
+OpenAIRE is a European open science platform that provides access to
+millions of openly available research publications, datasets, software,
+and other research outputs. OpenAIRE aggregates content from various
+sources, including institutional and thematic repositories, data
+archives, and publishers. This platform provides usage statistics for
+each research output in the form of downloads, views, and citations,
+which can be used to measure the impact and reuse of research outputs,
+including open datasets.
+
+To calculate this metric using OpenAIRE, we can retrieve the download
+and view counts for the relevant open datasets, which can be accessed
+through the OpenAIRE REST API. The API returns JSON-formatted metadata
+for each research output, which includes information such as the title,
+authors, publication date, download counts, and view counts. The
+download and view counts can be used to calculate the total number of
+times the dataset has been accessed or viewed, respectively.
+
+###### GitHub
+
+GitHub is a web-based platform used for version control and
+collaborative software development. It allows users to create and host
+code repositories, including those for open source software and
+datasets. The number of downloads, usage counts, and stars on GitHub can
+be used as a metric for the impact and popularity of open datasets.
+
+To measure this metric, we can search for the relevant repositories on
+GitHub and extract the relevant download, usage, and star data. This
+data can be accessed via the GitHub API, which provides programmatic
+access to repository data. The API can be queried using HTTP requests,
+and the resulting data can be parsed and analyzed using programming
+languages such as Python.
+
+###### GitLab
+
+GitLab is a web-based Git repository manager that provides source code
+management, continuous integration and deployment, and more. It can be
+used as a data source for metrics related to the usage of open-source
+software projects, including the number of downloads, stars, and forks.
+
+To calculate the metric of dataset downloads/usage counts/stars from
+GitLab, we need to identify the relevant repositories and extract the
+relevant information. The number of downloads can be obtained by looking
+at the download statistics for a particular release of the repository.
+The number of stars can be obtained by looking at the number of users
+who have starred the repository. The number of forks can be obtained by
+looking at the number of users who have forked the repository.
+
+To access this information, we can use the GitLab API.
+
+##### Existing methodologies
+
+###### Scrapers / REST API Clients ?
+
+\[Add text here\]
+
+### Downloads / views of published DMPs
+
+This metric measures the number of downloads or views of published Data
+Management Plans (DMPs) from data repositories, such as DataCite,
+Zenodo, or institutional repositories. A DMP is a document that outlines
+how research data will be managed throughout a research project,
+including details on data collection, storage, sharing, and
+preservation. The number of downloads or views of published DMPs can
+indicate the level of interest and engagement of researchers and other
+stakeholders in open data practices and the importance of data
+management planning in the research process.
+
+A limitation of this metric is that it only captures the number of
+downloads or views of DMPs, which may not necessarily indicate the
+actual implementation of the DMP or the quality of the data management
+practices. Therefore, it is important to use this metric in conjunction
+with other metrics to obtain a more comprehensive assessment of the
+impact of open data practices on research output.
+
+#### Measurement.
+
+To measure this metric, we can start by identifying published DMPs in
+data repositories, such as DataCite, Zenodo, or institutional
+repositories. Once we have identified the relevant DMPs, we can track
+the number of downloads or views of these DMPs over a specified period
+of time.
+
+Potential measurement problems and limitations of this metric include
+the possibility of multiple downloads or views by the same user, which
+can inflate the metric. Additionally, the number of downloads or views
+may not reflect the actual use or implementation of the DMP, as some
+researchers may download or view DMPs out of curiosity or to gain
+insight into best practices. Therefore, it is important to interpret the
+results of this metric in the context of other metrics and qualitative
+data on the use and effectiveness of DMPs.
+
+Existing data sources and methodologies for this metric include the data
+repositories and web analytics tools mentioned above. DataCite and
+Zenodo provide download counts for their published content, including
+DMPs, while Google Analytics can be used to track views of DMPs on
+institutional or funder websites. However, there may be gaps in the
+availability of download or view counts for DMPs published on other
+platforms or websites. In such cases, it may be necessary to manually
+track the number of downloads or views through user surveys or by
+contacting individual users who have downloaded or viewed the DMP.
+
+##### Existing datasources:
+
+###### DataCite
+
+DataCite is a global registry for research data that provides persistent
+identifiers (DOIs) for research datasets. To measure the number of
+downloads or views of published DMPs in DataCite, we can use the
+DataCite REST API to search for DMPs by the keyword "Data Management
+Plan" and filter the results by the download count or view count
+metadata. The API also allows filtering by date range and repository
+location, which can provide additional context for the measurement.
+
+One potential limitation of using DataCite for this metric is that not
+all DMPs may be registered with DataCite, and the search results may not
+capture all relevant DMPs. Additionally, the download or view count
+metadata may not always accurately reflect the actual use or engagement
+with the DMP, as these metrics can be affected by factors such as
+availability, accessibility, and discoverability of the DMP.
+
+###### Zenodo
+
+Zenodo is a data repository that allows researchers to upload and share
+research outputs, including DMPs. To calculate the number of downloads
+or views of published DMPs on Zenodo, we can use the Zenodo REST API to
+retrieve the relevant metadata for each DMP, such as the number of views
+and downloads. This can be done by searching for DMPs on Zenodo using
+their unique identifiers or keywords, and then extracting the relevant
+metadata for each search result.
+
+One limitation of using Zenodo to measure this metric is that not all
+DMPs may be published on this repository. Additionally, the number of
+views and downloads may not necessarily reflect the actual use or
+implementation of the DMP, as users may simply be browsing or
+downloading the document for reference purposes. Finally, the number of
+downloads and views may be influenced by factors such as the popularity
+of the topic or the visibility of the DMP on the repository.
+
+##### Existing methodologies
+
+###### Scrapers / REST API Clients ?
+
+\[Add text here\]
+
+### Number of datasets reused inside DMPs
+
+This metric measures the number of datasets that are reused in Data
+Management Plans (DMPs). A DMP is a document that outlines how research
+data will be managed throughout a research project, including details on
+data collection, storage, sharing, and preservation. The number of
+datasets reused in DMPs can indicate the level of engagement of
+researchers in open data practices and the potential impact of data
+sharing and reuse practices on research output.
+
+A limitation of this metric is that it may not capture the full range of
+open data practices that are being utilized by researchers, such as the
+sharing of data outside of DMPs or the creation of new datasets for
+reuse. Additionally, the metric may not capture the quality or impact of
+the datasets being reused in DMPs. Therefore, it is important to use
+this metric in conjunction with other metrics to obtain a more
+comprehensive assessment of the impact of open data practices on
+research output.
+
+#### Measurement.
+
+To measure this metric, we can start by identifying published DMPs in
+data repositories, such as DataCite, Zenodo, or institutional
+repositories. We can then analyze the content of published DMPs to
+identify the datasets that are being reused through automated text
+mining techniques (e.g. using the PathOS work in Task 2.5).
+
+However, there are some limitations to this approach. One limitation is
+that not all DMPs are publicly available, which may limit the scope of
+the analysis. Additionally, automated techniques may not capture all
+instances of dataset reuse if they are not explicitly mentioned in the
+text of the DMP.
+
+##### Existing datasources:
+
+###### DataCite
+
+DataCite is a metadata repository that provides persistent identifiers
+for research datasets. It collects metadata from various sources,
+including data centers, publishers, and institutional repositories. The
+metadata includes information on the dataset, such as the title, author,
+publisher, date of publication, and the identifier of the dataset.
+
+To measure the number of datasets reused inside DMPs using DataCite, we
+can search for published DMPs in DataCite, extract the metadata for each
+DMP, and analyze the content of the DMP to identify the datasets that
+are being reused. This can be done using automated text mining
+techniques to identify dataset names or identifiers mentioned in the
+DMP.
+
+However, it is important to note that not all DMPs may be available in
+DataCite, and some datasets may not have persistent identifiers, which
+may limit the scope of the analysis. Additionally, automated text mining
+techniques may not capture all instances of dataset reuse if they are
+not explicitly mentioned in the text of the DMP.
+
+To obtain the metadata for published DMPs in DataCite, we can use the
+DataCite REST API to search for DMPs that have been registered with
+DataCite. The metadata can be obtained in various formats, including
+JSON and XML.
+
+###### Zenodo
+
+Zenodo is a general-purpose data repository that allows users to upload
+any kind of research output, including datasets and data management
+plans (DMPs). Zenodo assigns a unique Digital Object Identifier (DOI) to
+each uploaded item, which can be used to track usage and reuse.
+
+To measure the number of datasets reused inside DMPs based on Zenodo, we
+can search for published DMPs on Zenodo using keywords and filters, such
+as the "data management plan" keyword and the "DMP" tag. Once we have
+identified a set of DMPs, we can use automated text mining techniques to
+identify the datasets that are being reused. This can involve searching
+for mentions of dataset names or identifiers in the text of the DMPs.
+
+However, it is important to note that not all DMPs on Zenodo may contain
+information on reused datasets, and some datasets may not be explicitly
+mentioned in the text of the DMP. Additionally, the automated text
+mining techniques used to identify reused datasets may not capture all
+instances of reuse, particularly if the datasets are referred to in a
+non-standard way or if they are combined with other datasets.
+
+##### Existing methodologies
+
+###### Scrapers / REST API Clients ?
+
+\[Add text here\]
+
+###### PathOS work in Task 2.5
+
+This is an automated tool used to identify datasets mentioned in the
+text of DMPs and extract metadata associated with them, such as name,
+version, license, etc. This tool can also classify whether the dataset
+has been reused by the authors of the publication.
+
+To use the tool to measure the number of datasets reused inside DMPs, we
+can input a collection of DMPs into the tool and extract the metadata
+associated with each dataset mentioned in the text. We can then analyze
+the output to identify which datasets have been reused by the authors of
+the publication, as classified by the machine learning algorithms of the
+tool.
+
+One limitation of this methodology is that it may not capture all
+instances of dataset reuse if they are not explicitly mentioned in the
+text of the DMP. Additionally, the machine learning algorithms used by
+the tool may not always accurately classify whether a dataset has been
+reused, and may require manual validation.
+
+## Known correlates
+
+\[Add text here\]
+
+## Notes
+
+\[Add text here\]
+
+## References
+
+\[Add Zotero bibliography here\]
