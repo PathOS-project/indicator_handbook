@@ -1,6 +1,6 @@
 [submodule "indicator_templates"]
 	path = indicator_templates
-	url = git@github.com:vtraag/indicator_templates.git
+	url = git@github.com:PathOS-project/indicator_templates.git
 [submodule "causal_intro"]
 	path = causal_intro
-	url = git@github.com:vtraag/causal_intro.git
+	url = git@github.com:PathOS-project/causal_intro.git
