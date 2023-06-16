@@ -1,0 +1,58 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: Open Science Indicator Handbook
+  reader-mode: true
+
+  site-url: https://pathos-project.eu/
+  repo-url: https://github.com/vtraag/indicator_handbook/
+  repo-branch: main
+  repo-actions: [edit, issue]
+
+  chapters:
+    - index.qmd
+
+    # - causal_intro/article/intro-causality.qmd Skip causal intro for now
+
+    - part: Open Science
+      chapters:
+        - indicator_templates/quarto/1_open_science/APC_costs.qmd
+        - indicator_templates/quarto/1_open_science/availability_data_repositories.qmd
+        - indicator_templates/quarto/1_open_science/availability_preprint_repositories.qmd
+        - indicator_templates/quarto/1_open_science/availability_publication_repositories.qmd
+        - indicator_templates/quarto/1_open_science/citizens_science.qmd
+        - indicator_templates/quarto/1_open_science/deposition_open_metadata.qmd
+        - indicator_templates/quarto/1_open_science/evaluation_open_science_in_research_assessment.qmd
+        - indicator_templates/quarto/1_open_science/open_access_journals.qmd
+        - indicator_templates/quarto/1_open_science/open_access_uptake.qmd
+        - indicator_templates/quarto/1_open_science/open_science_training_facilities.qmd
+        - indicator_templates/quarto/1_open_science/prevalence_national_open_science_policies.qmd
+        - indicator_templates/quarto/1_open_science/prevalence_open_fair_data_practices.qmd
+        - indicator_templates/quarto/1_open_science/prevalence_open_method_practices.qmd
+        - indicator_templates/quarto/1_open_science/prevalence_open_peer_review.qmd
+        - indicator_templates/quarto/1_open_science/prevalence_open_science_funding_policies.qmd
+        - indicator_templates/quarto/1_open_science/prevalence_open_science_support.qmd
+        - indicator_templates/quarto/1_open_science/prevalence_preprinting.qmd
+        - indicator_templates/quarto/1_open_science/prevalence_replication_studies.qmd
+        - indicator_templates/quarto/1_open_science/transformative_publishing_agreements.qmd
+
+    - part: Academic Impact
+
+    - part: Societal Impact
+
+    - part: Economic Impact
+
+    - part: Reproducibility
+
+format:
+  html:
+    theme:
+      - cosmo
+    code-link: true
+
+    author-meta: "V.A. Traag, etc..."
+    callout-appearance: simple
+
+editor: visual
