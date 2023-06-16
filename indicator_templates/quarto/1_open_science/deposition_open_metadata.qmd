@@ -1,0 +1,190 @@
+# Deposition of open metadata
+
+History (please fill out in reverse chronological order, latest revision
+on top):
+
+|         |               |                              |                           |
+| ------- | ------------- | ---------------------------- | ------------------------- |
+| Version | Revision date | Revision                     | Author                    |
+| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
+
+## Description
+
+Scientific publications have metadata that describes important
+properties of the publication, such as the title, the authors, the
+publication date, and the references. This metadata is used to help
+researchers and others find relevant literature. Metadata of
+publications is also often used in bibliometric analyses to support
+research evaluation and research management.
+
+Traditionally the metadata of scientific publications is made available
+in proprietary commercial databases. However, the importance of openness
+of this metadata is increasingly recognized, as shown for instance by
+the [Initiative for Open Citations](https://i4oc.org/) and the
+[Initiative for Open Abstracts](https://i4oa.org/).
+
+Our focus is on openness of the metadata of research articles. We
+acknowledge the importance of openness of other types of publications,
+such as books, book chapters, and policy reports. Nevertheless, in most
+scientific fields, research articles are seen as the most important
+publication type, and we therefore restrict ourselves to this
+publication type.
+
+## Metrics
+
+### Journal articles with open references
+
+This metric provides the number or the percentage of journal articles
+for which the references are openly available.
+
+#### Measurement.
+
+Crossref is the datasource for this metric. Crossref makes the
+references of articles openly available, but it can do this only for
+articles for which the publisher submitted the references to Crossref.
+The metric is obtained by determining for each article whether it has a
+Crossref DOI and whether the metadata for this DOI includes references.
+
+If the metadata of an article in Crossref does not include references,
+this means that either the publisher did not submit the references to
+Crossref or the article does not have any references. There is no
+straightforward way to distinguish between these two possibilities.
+
+The [Crossref Participation
+Reports](https://www.crossref.org/members/prep/) provide this metric at
+the level of publishers and journals. The metric is also used in [this
+article on open metadata in
+Crossref](https://doi.org/10.31222/osf.io/smxe5).
+
+##### Existing datasources:
+
+###### \<datasource name\>
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+\[Add text here\]
+
+### Journal articles with open abstracts
+
+This metric provides the number or the percentage of journal articles
+for which the abstract is openly available.
+
+#### Measurement.
+
+Crossref is the datasource for this metric. Crossref makes the abstracts
+of articles openly available, but it can do this only for articles for
+which the publisher submitted the abstract to Crossref. The metric is
+obtained by determining for each article whether it has a Crossref DOI
+and whether the metadata for this DOI includes an abstract.
+
+If the metadata of an article in Crossref does not include an abstract,
+this means that either the publisher did not submit the abstract to
+Crossref or the article does not have an abstract. There is no
+straightforward way to distinguish between these two possibilities.
+
+The [Crossref Participation
+Reports](https://www.crossref.org/members/prep/) provide this metric at
+the level of publishers and journals. The metric is also used in [this
+article on open metadata in
+Crossref](https://doi.org/10.31222/osf.io/smxe5).
+
+##### Existing datasources:
+
+###### \<datasource name\>
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+\[Add text here\]
+
+### Journal articles with open author affiliations
+
+This metric provides the number or the percentage of journal articles
+for which author affiliations are openly available.
+
+#### Measurement.
+
+Crossref is the datasource for this metric. Crossref makes the
+affiliations of the authors of articles openly available, but it can do
+this only for articles for which the publisher submitted the author
+affiliations to Crossref. The metric is obtained by determining for each
+article whether it has a Crossref DOI and whether the metadata for this
+DOI includes author affiliations.
+
+If the metadata of an article in Crossref does not include author
+affiliations, this means that either the publisher did not submit the
+author affiliations to Crossref or the article does not include any
+author affiliations. There is no straightforward way to distinguish
+between these two possibilities.
+
+This metric is used in [this article on open metadata in
+Crossref](https://doi.org/10.31222/osf.io/smxe5).
+
+##### Existing datasources:
+
+###### \<datasource name\>
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+\[Add text here\]
+
+### Journal articles with open funding information
+
+This metric provides the number or the percentage of journal articles
+for which funding information is openly available.
+
+#### Measurement.
+
+Crossref is the datasource for this metric. Crossref makes funding
+information of articles openly available, but it can do this only for
+articles for which the publisher submitted funding information to
+Crossref. The metric is obtained by determining for each article whether
+it has a Crossref DOI and whether the metadata for this DOI includes
+funding information.
+
+If the metadata of an article in Crossref does not include funding
+information, this means that either the publisher did not submit funding
+information to Crossref or the article does not include any funding
+information. There is no straightforward way to distinguish between
+these two possibilities.
+
+The [Crossref Participation
+Reports](https://www.crossref.org/members/prep/) provide this metric at
+the level of publishers and journals. The metric is also used in [this
+article on open metadata in
+Crossref](https://doi.org/10.31222/osf.io/smxe5).
+
+##### Existing datasources:
+
+###### \<datasource name\>
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+\[Add text here\]
+
+## Known correlates
+
+\[Add text here\]
+
+## Notes
+
+\[Add text here\]
+
+## References
+
+\[Add Zotero bibliography here\]

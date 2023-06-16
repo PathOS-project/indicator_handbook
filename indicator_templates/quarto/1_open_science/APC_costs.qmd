@@ -1,0 +1,275 @@
+# APC Costs
+
+History (please fill out in reverse chronological order, latest revision
+on top):
+
+|         |               |             |                                                         |
+| ------- | ------------- | ----------- | ------------------------------------------------------- |
+| Version | Revision date | Revision    | Author                                                  |
+| 0.1     | 2023-05-09    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
+
+## Description
+
+Αrticle Processing Charges (APCs) capture the affordability and
+accessibility of Open Access publishing for different types of
+stakeholders, such as researchers, institutions, and funding agencies.
+It is also relevant for policy-makers seeking to optimize Open Science
+policies.
+
+Tracking and comparing APCs could also be used to encourage publishers
+to adopt more transparent and equitable APC pricing policies and support
+the development of sustainable Open Access publishing models accessible
+to all researchers regardless of their financial resources.
+
+APCs have both benefits and drawbacks. In countries where funder
+reimbursement of APC costs or transformative agreements do not cover
+these costs, APCs can create a financial barrier that limits access to
+Open Access journals. On the other hand, APCs also incentivize
+publishers to offer Open Access publishing, which promotes Open Science.
+
+## Metrics
+
+### Number of publications with an APC cost
+
+This metric measures the number of research articles published in
+journals and have incurred an APC.
+
+Limitation:
+
+  - Not knowing who incurred that APC (funder, institution, author,
+    etc.) limits the usefulness of this indicator.
+
+#### Measurement.
+
+##### Existing datasources:
+
+###### OpenAIRE Graph
+
+The OpenAIRE graph (graph.openaire.eu)\*  
+
+  - OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as
+    part of its dump yet, but it is expected before the end of PathOS.
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+(Via OpenAIRE MONITOR)
+
+1.  Take all Gold OA publications from OpenAIRE (i.e. those published in
+    a fully OA journal), remove those that are also Diamond OA (i.e. no
+    APC). The remaining are Gold OA publications that paid an APC.
+2.  Add to the set Hybrid and Bronze OA publications (also incur an APC)
+3.  Use the APCs in OpenAIRE (from OpenAPC – openapc.net) to verify that
+    there are no additional publications that have incurred an APC that
+    are not already counted.
+4.  Count the number of number of result OA publications that incurred
+    an APC
+
+Notes:
+
+  - Is it true that all Hybrid and Bronze OA publications incurred an
+    APC?
+
+Limitations:
+
+  - This methodology is a workaround chosen as it provides better
+    coverage than any APC dataset we are aware of, however it is not a
+    direct source of whether a publication has incurred an APC or not.
+
+### % Publications with an APC
+
+This metric measures the percentage of research articles published in
+Open Access that require payment of an Article Processing Charge (APC)
+and it provides a more nuanced understanding of the affordability and
+accessibility of Open Access publishing than the "Number of publications
+with an APC " metric. This metric can be used to compare the
+affordability and accessibility of Open Access publishing across
+different journals, publishers, and regions in a more meaningful way.
+
+Limitations:
+
+  - This metric could be more useful when put together with % Diamond OA
+    publications, as opposed to stand alone.
+  - Not knowing who incurred that APC (funder, institution, author,
+    etc.) limits the usefulness of this metric.
+
+#### Measurement.
+
+##### Existing datasources:
+
+###### OpenAIRE Graph
+
+The OpenAIRE graph (graph.openaire.eu)\*  
+
+  - OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as
+    part of its dump yet, but it is expected before the end of PathOS.
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+(Via OpenAIRE MONITOR)
+
+1.  Take all Gold OA publications from OpenAIRE (i.e. those published in
+    a fully OA journal), remove those that are also Diamond OA (i.e. no
+    APC). The remaining are Gold OA publications that paid an APC.
+2.  Add to the set Hybrid and Bronze OA publications (also incur an APC)
+3.  Use the APCs in OpenAIRE (from OpenAPC – openapc.net) to verify that
+    there are no additional publications that have incurred an APC that
+    are not already counted.
+4.  This set contains the OA publications that incurred an APC, use the
+    set of all OA publications at your level of interest (e.g. country)
+    to calculate the share.
+
+Limitations:
+
+  - Same as II.2
+
+### Average APC
+
+Description:
+
+The "average APC" metric measures the average cost of Article Processing
+Charges (APCs) across a defined level of interest (per year, country,
+organization, etc.).
+
+Usefulness:
+
+The "average APC" metric can help assess the affordability and
+accessibility of Open Access publishing. It provides a broad
+understanding of the cost of Open Access publishing and identifies
+trends and changes in APC pricing over time. This metric can help
+researchers, institutions, and funding agencies to compare the
+cost-effectiveness of different Open Access publishing models and
+identify affordable publishing options.
+
+Limitations:
+
+  - The cost of APCs can vary widely depending on the field of research,
+    the region, and the specific publisher or journal, therefore taking
+    an average may be misleading.
+  - Not knowing who incurred that APC (funder, institution, author,
+    etc.) limits the usefulness of this metric.
+
+#### Measurement.
+
+##### Existing datasources:
+
+###### OpenAIRE Graph
+
+The OpenAPC APC dataset, which is integrated in the OpenAIRE graph
+(graph.openaire.eu)
+
+Limitations:
+
+  - Incomplete data: Publishers do not generally provide data on their
+    APC fees, OpenAPC has a growing collection but it is not complete.
+  - In an (organization, publication, APC cost) triplet it is not
+    possible to distinguish if the APC cost is the entire cost of the
+    publication or just the what the organization paid.
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+(Via OpenAIRE MONITOR)
+
+1.  Identify the unit of analysis (e.g. average APCs for an institution)
+2.  Examine the coverage of APCs for the relevant publications (see
+    metric Number of OA publications with APC).
+3.  Examine if the coverage is adequate and the distribution of costs
+    meaningful for taking an average.
+4.  Take the average APC for that level of analysis.
+
+Limitations:
+
+  - Averages have the benefit of summarizing and normalizing
+    information, however depending on the underlying distribution of
+    costs, they may be misleading (e.g. via outliers)
+
+### Total APC
+
+Description:
+
+The "Total APC" metric measures the total cost of Article Processing
+Charges (APCs) for a defined level of interest (per year, country,
+organization, etc.)
+
+Usefulness:
+
+The "total APC" metric can help assess the affordability and
+accessibility of Open Access publishing. It provides a broad
+understanding of the cost of Open Access publishing and identifies
+trends and changes in APC pricing over time. By summing the APCs this
+metric measures the total financial burden of OA publishing for the unit
+of analysis and can be compared to other aggregate measures.
+
+Limitations:
+
+  - Not knowing who incurred that APC (funder, institution, author,
+    etc.) limits the usefulness of this metric, more than the previous
+    ones.
+  - It does not contain information of the distribution of APCs across a
+    subdomain, e.g. Total cost does not give info on how it is
+    distributed across scientific domains.
+
+#### Measurement.
+
+##### Existing datasources:
+
+###### OpenAIRE Graph
+
+The OpenAPC APC dataset, which is integrated in the OpenAIRE graph
+(graph.openaire.eu)
+
+Limitations:
+
+  - Incomplete data: Publishers do not generally provide data on their
+    APC fees, OpenAPC has a growing collection but it is not complete.
+  - In an (organization, publication, APC cost) triplet it is not
+    possible to distinguish if the APC cost is the entire cost of the
+    publication or just the what the organization paid.
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+(Via OpenAIRE MONITOR)
+
+1.  Identify the unit of analysis (e.g. total APCs for an institution)
+2.  Examine the coverage of APCs for the relevant publications (see
+    metric Number of OA publications with APC).
+3.  Examine if the coverage is adequate.
+4.  Sum the APCs for that level of analysis.
+
+Limitations:
+
+  - Totals have the benefit of giving a bird’s eye view, however
+    depending on the underlying distribution of costs, they can have
+    different implications.
+
+## Known correlates
+
+Via:
+https://direct.mit.edu/qss/article/1/1/6/15582/Article-processing-charges-Mirroring-the-citation
+
+  - Year
+  - Publisher
+  - Hybrid vs. Gold OA
+  - SNIP
+
+## Notes
+
+We conducted an APC extrapolation exercise that may be useful here, what
+do you think?
+
+<https://research-and-innovation.ec.europa.eu/knowledge-publications-tools-and-data/publications/all-publications/monitoring-open-access-policy-horizon-2020_en>
+
+(page 107)
+
+## References
+
+Schönfelder, Nina. "Article processing charges: Mirroring the citation
+impact or legacy of the subscription-based model?." *Quantitative
+Science Studies* 1.1 (2020): 6-27.

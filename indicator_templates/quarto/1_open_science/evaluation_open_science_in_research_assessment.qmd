@@ -1,0 +1,76 @@
+# Evaluation of open science in research assessment
+
+History (please fill out in reverse chronological order, latest revision
+on top):
+
+|         |               |                              |                           |
+| ------- | ------------- | ---------------------------- | ------------------------- |
+| Version | Revision date | Revision                     | Author                    |
+| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
+
+## Description
+
+\[Add text here\] The Dutch Strategy Evaluation protocol aims at
+assessing both academic as societal quality and relevance. This is done
+on the basis of three criteria, namely Output, Usage, and Recognition.
+The latest SEP, covering the period 2021-2027 also focuses on four
+particular topics, one of which is Open Science. The
+<span id="_Int_xKrMZ5FL"></span>SEP states with respect to the research
+assessment of Open Science the following:
+
+  - consider the extent to which the research unit involves
+    stakeholders, if possible and relevant, in the preparation and
+    execution of the aims and strategy
+  - consider to which extent the research unit opens up its work to
+    other researchers and societal stakeholders in the context of its
+    strategy and policy.
+  - consider whether the research unit reuses data where possible; how
+    it stores the research data according to the FAIR principles; how it
+    makes its research data, methods and materials available; and when
+    publications are available through open access.
+  - Even if Open Science was not yet considered by the research unit for
+    the past period, the assessment evaluates the unit’s considerations
+    and plans for the future with regard to Open Science.
+
+This describes the primary knowledge creation process, of which only the
+publishing part is well taken care off in terms of available data to
+create valid and trustworthy indicators (see the template on Open Access
+publishing). On most other dimensions of the primary knowledge creation
+process, such information is not or only fragmented available. Given the
+requirements mentioned above, indicators have to be relatively simple
+(e.g., straight counts of occurrences would do), embedded in a narrative
+to explain the situation concerning such an indicator.
+
+## Metrics
+
+### \<metric name\>
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### \<datasource name\>
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+\[Add text here\]
+
+## Known correlates
+
+\[Add text here\]
+
+## Notes
+
+\[Add text here\]
+
+## References
+
+\[Add Zotero bibliography here\]

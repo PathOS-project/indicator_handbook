@@ -1,0 +1,91 @@
+# Prevalence of open method practices
+
+History (please fill out in reverse chronological order, latest revision
+on top):
+
+|         |               |             |                                                         |
+| ------- | ------------- | ----------- | ------------------------------------------------------- |
+| Version | Revision date | Revision    | Author                                                  |
+| 0.1     | 2023-02-12    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
+
+## Description
+
+“*Methods describe the processes, procedures, and materials used in a
+research investigation. Methods can take many forms depending on the
+field and approach, including study designs, protocols, code, materials
+and reagents, databases and more.”<sup>[\[1\]](#footnote-2)</sup>*
+
+Open methods refer to:
+
+1.  Open access to the various elements of the scientific method
+    (datasets, software/code, protocols, materials, etc.)
+2.  FAIRness of the same elements (i.e. following the FAIR principles),
+    and,
+3.  an Open and FAIR documentation, that facilitates reproducibility and
+    reuse of the study methods.
+
+## Metrics
+
+### Number/share of publications with open source code
+
+**Description:** Number of publications with open source code: This is
+the number of publications for which the code that was developed in this
+context to produce the scientific outcomes included in the publication
+is shared/can be found with open access in open repositories.
+
+**Benefits:** Providing open access to software/code of the scientific
+method is of key importance of understanding, evaluating, replicating
+and extending the study.
+
+**Limitations:** In most cases, detailed documentation must accompany
+the code including data management, cleansing and pre-processing,
+configuration files and workflows.
+
+**Differences:** ..?
+
+#### Measurement.
+
+There is no comprehensive list of publication-software pairs. The metric
+is partially covered by well-established repositories like GitHub or
+existing data sources like OpenAIRE. Automated approaches have been
+built (e.g., PapersWithCode) or are under development in the scientific
+community, scanning the publication text and spotting mentions of
+software/code and its FAIR metadata.
+
+##### Existing datasources: **GitHub, OpenAIRE**
+
+###### \<datasource name\>
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+There is no well-established methodology to automatically find
+publications with code. Some suggested methods are the following:
+
+1.  Text mining and machine learning algorithm to find mentions of open
+    software/code and its FAIR metadata in the publication text.
+2.  Search relevant fields or tags in specific databases to find
+    publications with software/code.
+
+## Known correlates
+
+\[Add text here\]
+
+## Notes
+
+\[Add text here\]
+
+## References
+
+\[Add Zotero bibliography here\]
+
+1.  
+    
+    <div id="footnote-2">
+    
+    https://plos.org/open-science/open-methods/ [↑](#footnote-ref-2)
+    
+    </div>
