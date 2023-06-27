@@ -1,6 +1,3 @@
-[submodule "indicator_templates"]
-	path = indicator_templates
-	url = git@github.com:PathOS-project/indicator_templates.git
 [submodule "causal_intro"]
 	path = causal_intro
 	url = git@github.com:PathOS-project/causal_intro.git
