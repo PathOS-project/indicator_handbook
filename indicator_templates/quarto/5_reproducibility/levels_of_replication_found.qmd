@@ -1,10 +1,10 @@
-# Levels of replication found
+# Levels of replication found {#levels-of-replication-found .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |                              |                           |
-| ------- | ------------- | ---------------------------- | ------------------------- |
+|---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
 | 1.1     | 2023-04-26    | First draft                  | Eva Kormann               |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
@@ -57,33 +57,33 @@ cannot be assessed.
 
 Levels of replication can directly be examined by analyzing the
 proportion of successful replication attempts. Therefore, the number of
-<span id="_Int_gMAAW99w"></span>replication attempts and their
-success/failure need to be measured. Then, the percentage can be
-calculated as the proportion of successful replications within all
-replication attempts. Difficulties, however, lie in the definition of
-what constitutes a successful replication. A common argument in the
-literature on replication and reproducibility is that exact replications
-are not possible, since the exact setting, context, sample, etc. usually
-cannot be recreated fully (Nosek et al., 2022; Schmidt, 2009). A study
-might be seen as a replication “when the differences to the original
-study are believed to be irrelevant for obtaining the evidence about the
-same finding” (Nosek et al., 2022), but this cannot easily be determined
-and appears quite subjective.
+[]{#_Int_gMAAW99w}replication attempts and their success/failure need to
+be measured. Then, the percentage can be calculated as the proportion of
+successful replications within all replication attempts. Difficulties,
+however, lie in the definition of what constitutes a successful
+replication. A common argument in the literature on replication and
+reproducibility is that exact replications are not possible, since the
+exact setting, context, sample, etc. usually cannot be recreated fully
+(Nosek et al., 2022; Schmidt, 2009). A study might be seen as a
+replication “when the differences to the original study are believed to
+be irrelevant for obtaining the evidence about the same finding” (Nosek
+et al., 2022), but this cannot easily be determined and appears quite
+subjective.
 
 To calculate the number or percentage of successful replications, a
 dichotomous indicator is needed for success of replication (Nosek et
 al., 2022). Multiple ways of indicating success of replication are in
 use (see Nosek et al., 2022):
 
-  - The null hypothesis is rejected in the same direction (*p* \< α).
-  - An estimate is within a confidence or prediction interval.
-  - The detected effect size is consistent with the original study.
-  - The findings are similar when assessed subjectively.
+-   The null hypothesis is rejected in the same direction (*p* &lt; α).
+-   An estimate is within a confidence or prediction interval.
+-   The detected effect size is consistent with the original study.
+-   The findings are similar when assessed subjectively.
 
 There are also continuous measures that can be dichotomized:
 
-  - Bayes factors for comparison of original and replication findings.
-  - Bayesian tests to compare null distribution and posterior
+-   Bayes factors for comparison of original and replication findings.
+-   Bayesian tests to compare null distribution and posterior
     distribution of the original study.
 
 ##### Existing datasources:
@@ -114,13 +114,12 @@ of
 
 Since multiple reperformed studies are needed to determine the
 percentage of successful replications, standalone replication attempts
-provide only limited information. Scoping reviews
-<span id="_Int_uDP97nC2"></span>are one way to synthesize singular
-replication attempts to gain an overview and to estimate the percentage
-of successful replications more precisely. However, singular replication
-studies synthesized within a review might be inconsistent in their
-procedures and employ different measures of success, complicating
-synthesis or comparison.
+provide only limited information. Scoping reviews []{#_Int_uDP97nC2}are
+one way to synthesize singular replication attempts to gain an overview
+and to estimate the percentage of successful replications more
+precisely. However, singular replication studies synthesized within a
+review might be inconsistent in their procedures and employ different
+measures of success, complicating synthesis or comparison.
 
 \[Add text here\]
 
@@ -174,7 +173,7 @@ through expert predictions of the replicability of studies (mostly
 captured as the predicted probability of successful replication). A
 percentage or number of studies predicted to successfully replicate can
 be calculated after dichotomizing this probability (e.g., interpreting
-probability \> .5 as prediction of success). While these predictions
+probability &gt; .5 as prediction of success). While these predictions
 might be less accurate compared to other measures of replicability,
 studies would not actually have to be reperformed when only employing
 this measure.
@@ -203,7 +202,7 @@ studies (e.g., hypothesis, effect size, p-value, link to the original
 paper, etc.). Surveys have been validated with subsequent replication
 attempts and compared to prediction markets (see next section). While
 some studies see many prediction errors and low accuracy when predicting
-whether the null hypothesis will be rejected (*p* \< α) in the same
+whether the null hypothesis will be rejected (*p* &lt; α) in the same
 direction (Dreber et al., 2015; Forsell et al., 2019), other findings
 show better general accuracy of these predictions (Gordon et al., 2021)
 and better performance predicting relative effect sizes compared to

@@ -1,10 +1,10 @@
-# Prevalence of preprinting
+# Prevalence of preprinting {#prevalence-of-preprinting .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |             |                                                         |
-| ------- | ------------- | ----------- | ------------------------------------------------------- |
+|---------|---------------|-------------|---------------------------------------------------------|
 | Version | Revision date | Revision    | Author                                                  |
 | 0.1     | 2023-05-9     | First draft | N. Manola, I. Grypari, P. Stavropoulos, H. Papageorgiou |
 
@@ -12,7 +12,7 @@ on top):
 
 Description:
 
-  - The "prevalence of preprinting" indicator measures the frequency of
+-   The "prevalence of preprinting" indicator measures the frequency of
     preprints that are made publicly available prior to peer review and
     publication in a journal. Preprinting allows researchers to share
     their work quickly and receive feedback from their peers before
@@ -21,21 +21,21 @@ Description:
 
 Usefulness:
 
-  - The "prevalence of preprinting" indicator can help assess the impact
+-   The "prevalence of preprinting" indicator can help assess the impact
     of preprinting on scholarly communication and the dissemination of
     research findings.
-  - It provides insight into the growing trend of sharing research
+-   It provides insight into the growing trend of sharing research
     findings before they are formally published in a peer-reviewed
     journal.
-  - It can hep measure the effectiveness of preprinting in speeding up
+-   It can hep measure the effectiveness of preprinting in speeding up
     the dissemination of research results.
 
 Limitations:
 
-  - Not all fields or research areas may have a culture of preprinting,
+-   Not all fields or research areas may have a culture of preprinting,
     which can affect the applicability of the indicator in different
     contexts.
-  - As a standalone this indicator also does not account for other forms
+-   As a standalone this indicator also does not account for other forms
     of informal communication, such as conference presentations,
     personal communications, or social media discussions, which can also
     play a role in the dissemination of research findings.
@@ -46,22 +46,22 @@ Limitations:
 
 Description:
 
-  - The "number of preprints" metric measures the absolute quantity of
+-   The "number of preprints" metric measures the absolute quantity of
     preprints.
 
 Usefulness:
 
-  - The "number of preprints" metric provides a quantitative measure of
+-   The "number of preprints" metric provides a quantitative measure of
     the prevalence of preprints in a particular field or research area
     or any other unit of analysis.
 
 Limitations:
 
-  - The pre-prints that are early in the research cycle (early work in
+-   The pre-prints that are early in the research cycle (early work in
     progress) may not be ready for dissemination and may not be useful
     in a repository (not written in a clear away, too much of a rough
     draft).
-  - View also the limitations in section I.
+-   View also the limitations in section I.
 
 #### Measurement.
 
@@ -77,7 +77,7 @@ problem.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 Not aware if this is an existing methodology but it is quite simple, as
 required in this case.
@@ -100,16 +100,16 @@ required in this case.
 
 Limitations
 
-  -   -   - Coverage of data for 1. (in other words, many preprints that
+-   -   -   Coverage of data for 1. (in other words, many preprints that
             are not described as preprints). If there are repositories
             that only accept preprints
-          - For 2. Different preprint servers may have different
+        -   For 2. Different preprint servers may have different
             policies regarding the types of preprints they accept, the
             length of time they allow preprints to be available, and the
             types of metadata that are included with preprints. These
             variations can affect the completeness and accuracy of the
             data used to calculate the metric.
-          - For step 3.c. date of deposition is not a metadata element
+        -   For step 3.c. date of deposition is not a metadata element
             regularly exposed by repositories. This provides an
             additional problem as this metric is most meaningful if one
             can identify how long before publication something was
@@ -120,13 +120,13 @@ Limitations
 
 Description:
 
-  -   -   - The "share of publications that have a preprint" metric
+-   -   -   The "share of publications that have a preprint" metric
             measures the proportion of articles that are available as
             preprints.
 
 Usefulness:
 
-  -   -   - The "share of publications that have a preprint" metric can
+-   -   -   The "share of publications that have a preprint" metric can
             help assess the adoption of preprinting as a form of
             scholarly communication in a particular field or research
             area, and using a share as opposed to a relative value is
@@ -134,7 +134,7 @@ Usefulness:
 
 Limitations:
 
-  -   -   - See limitations in previous metric.
+-   -   -   See limitations in previous metric.
 
 #### Measurement.
 
@@ -150,7 +150,7 @@ problem.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 1.  Take all the publications for unit of analysis
 2.  Identify those with a preprint available, from the set of preprints
@@ -159,37 +159,37 @@ problem.
 
 Limitations
 
-  -   -   - Like previous metric
+-   -   -   Like previous metric
 
 ### % of preprints that are published
 
 Description:
 
-  -   -   - The "% of preprints that are published" metric measures the
+-   -   -   The "% of preprints that are published" metric measures the
             proportion of preprints that are eventually published in
             peer-reviewed journals.
 
 Usefulness:
 
-  -   -   - The "% of preprints that are published" metric provides
+-   -   -   The "% of preprints that are published" metric provides
             insight into the effectiveness of preprinting as a tool for
             disseminating research findings and as a precursor to formal
             publication in peer-reviewed journals.
-          - It can help researchers, institutions, and funding agencies
+        -   It can help researchers, institutions, and funding agencies
             to evaluate the impact of preprinting on the overall
             scholarly communication landscape.
-          - This metric can also be used to identify trends in preprint
+        -   This metric can also be used to identify trends in preprint
             adoption and publishing across different fields or research
             areas.
 
 Limitations:
 
-  -   -   - The "% of preprints that are published" metric has
+-   -   -   The "% of preprints that are published" metric has
             limitations because it does not account for the time lag
             between preprinting and formal publication in a
             peer-reviewed journal, which can vary widely depending on
             the field or research area.
-          - This metric also does not account for the quality or impact
+        -   This metric also does not account for the quality or impact
             of the preprint, which can affect its likelihood of being
             published in a peer-reviewed journal.
 
@@ -207,7 +207,7 @@ problem.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 1.  Identify preprints as in previous metrics
 2.  Find those that are published
@@ -215,19 +215,19 @@ problem.
 
 Limitations
 
-  -   -   - Like previous metric
+-   -   -   Like previous metric
 
 ## Known correlates
 
 We are unsure whether these are known but we would assume the following
 are correlates:
 
-  -   -   - Field of research (preprint culture)
-          - Time (adoption over time)
-          - Funding source and open access policies of instituion (if it
+-   -   -   Field of research (preprint culture)
+        -   Time (adoption over time)
+        -   Funding source and open access policies of instituion (if it
             is a mandate)
-          - Stage of career (preprint culture)
-          - Collaboration networks, e.g. if large social media presence
+        -   Stage of career (preprint culture)
+        -   Collaboration networks, e.g. if large social media presence
             of network maybe likely to adopt preprinting practices.
 
 ## Notes

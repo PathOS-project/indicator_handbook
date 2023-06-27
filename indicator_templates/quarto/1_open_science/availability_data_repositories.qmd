@@ -1,10 +1,10 @@
-# Availability of data repositories
+# Availability of data repositories {#availability-of-data-repositories .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |                              |                           |
-| ------- | ------------- | ---------------------------- | ------------------------- |
+|---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
 | 1.1     |               | First draft                  | T. Willemse               |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
@@ -25,7 +25,7 @@ Governments and governmental agencies, individual universities and
 research communities are types of organisations involved in setting up
 data sources in various fields . There are also publisher-driven data
 repositories that stimulate cooperation and can be openly accessible to
-a certain extent. Lastly, there exist non-institution affiliated ** data
+a certain extent. Lastly, there exist non-institution affiliated data
 repositories, ranging from field specific (e.g. gene databanks, such as
 International Nucleotide Sequence Database Collaboration) to more
 general repositories including multiple topics (e.g. Zenodo, Dryad,
@@ -138,7 +138,7 @@ Office of the European Union, 2021.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 \[Add text here\]
 
@@ -146,11 +146,10 @@ Office of the European Union, 2021.
 
 A measure that can tell more about the quality of data repositories.
 
-  - Datasets per repository
-  - <span id="_Hlk130734965"></span>CoreTrustSeal provides a list of
-    repositories certified by them:
-    <https://amt.coretrustseal.org/certificates/>
-  - Data curation and metadata completeness of the repositories could be
+-   Datasets per repository
+-   []{#_Hlk130734965}CoreTrustSeal provides a list of repositories
+    certified by them: <https://amt.coretrustseal.org/certificates/>
+-   Data curation and metadata completeness of the repositories could be
     a seen as a qualitative measure of the relevance and analytical
     potential of the repository (e.g., repositories that clearly
     identify the types of data registered, whether they are openly
@@ -162,7 +161,7 @@ not yet widely available information on this in the mainstream
 scientific platforms, but there are some efforts that provide
 information on the topic listed below.
 
-###### \<Core Trust Seal\>
+###### &lt;Core Trust Seal&gt;
 
 Core Trust Seal is a non-profit organisation that labels data sources
 with their seal if data sources adhere to the FAIR principles. On the
@@ -205,7 +204,7 @@ review, and site visit (if applicable), the repository may be awarded
 the CoreTrustSeal certification if it meets the criteria for trustworthy
 data management and curation.
 
-###### \<methodology\>
+###### &lt;methodology&gt;
 
 ## Known correlatesNotes
 
@@ -214,7 +213,7 @@ data management and curation.
 ## References
 
 Goben, A., & Sandusky, R. J. (2020). *Open data repositories: Current
-risks and opportunities | Goben | College & Research Libraries News*.
+risks and opportunities \| Goben \| College & Research Libraries News*.
 https://doi.org/10.5860/crln.81.1.62
 
 Robinson-Garcia, N., Mongeon, P., Jeng, W., & Costas, R. (2017).

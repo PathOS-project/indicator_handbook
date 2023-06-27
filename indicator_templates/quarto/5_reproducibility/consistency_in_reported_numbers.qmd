@@ -1,10 +1,10 @@
-# Consistency in reported numbers
+# Consistency in reported numbers {#consistency-in-reported-numbers .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |                              |                           |
-| ------- | ------------- | ---------------------------- | ------------------------- |
+|---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
 | 1.1     |               | First draft                  | Thomas Klebel             |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
@@ -72,7 +72,7 @@ reported statistics that adhere to the APA format.
 
 ##### Existing datasources:
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 There is no single datasource for this metric. The metric can be
 computed based on any set of publications for which full texts are
@@ -91,8 +91,8 @@ available. As discussed above, a key precondition and thus also a
 limitation for approach used by statcheck is the availability of
 reported statistics that adhere to the APA format. If statistics are
 provided completely, statcheck can analyse results from correlations (r)
-and t, F, χ<sup>2</sup>, Z tests and Q
-tests<sup>[\[1\]](#footnote-16196)</sup>.
+and t, F, χ^2^, Z tests and Q
+tests^[\[1\]](#footnote-16196){#footnote-ref-16196}^.
 
 statcheck takes into account rounding in reporting, reports the
 recomputed p-value, indicating whether the values are inconsistent or
@@ -106,7 +106,7 @@ while the recomputed p-value is above the conventional value of 0.05).
 The rationale for this indicator is similar to the one above, in
 exploiting mathematical properties of common summary statistics. Given a
 certain sample size, only specific values for means and standard
-deviations are possible. In small samples (n \< 100), this can be used
+deviations are possible. In small samples (n &lt; 100), this can be used
 to test the plausibility of means (GRIM test (Brown & Heathers, 2016))
 and standard deviations (GRIMMER test (Anaya, 2016)).
 
@@ -125,7 +125,7 @@ recover possible datasets for a given combination of summary statistics
 
 ##### Existing datasources:
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 There is no single datasource for this metric. The metric can be
 computed based on any set of publications for which full texts are
@@ -136,7 +136,7 @@ available.
 ###### GRIM test
 
 The GRIM test exploits the property of granularity of means in small
-samples (n \< 100). Given a certain sample size, and the use of
+samples (n &lt; 100). Given a certain sample size, and the use of
 likert-style items that are based on integers, only certain values for
 the mean are possible. If a reported mean falls outside the range of
 possible mean values, it can be understood as being inconsistent.
@@ -240,11 +240,7 @@ https://doi.org/10.31234/osf.io/7shr8
 Wood, K. (2021). *CORVIDS* \[Python\].
 https://github.com/katherinemwood/corvids (Original work published 2018)
 
-1.  
-    
-    <div id="footnote-16196">
-    
+1.  ::: {#footnote-16196}
     https://michelenuijten.shinyapps.io/statcheck-web/
     [↑](#footnote-ref-16196)
-    
-    </div>
+    :::

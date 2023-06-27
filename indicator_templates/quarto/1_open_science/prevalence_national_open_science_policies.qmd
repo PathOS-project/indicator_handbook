@@ -1,10 +1,10 @@
-# Prevalence of national open science policies
+# Prevalence of national open science policies {#prevalence-of-national-open-science-policies .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |                             |               |
-| ------- | ------------- | --------------------------- | ------------- |
+|---------|---------------|-----------------------------|---------------|
 | Version | Revision date | Revision                    | Author        |
 |         |               |                             |               |
 |         |               |                             |               |
@@ -33,13 +33,13 @@ organisations etc.
 Measuring the proliferation of national open science policies is
 relevant for several reasons.
 
-  - First, knowing whether a specific policy exists and what it entails
+-   First, knowing whether a specific policy exists and what it entails
     is crucial part of the impact analysis. A policy would take the
     place of the activity and intervention that, through specific
     outputs and outcomes, creates impact. In other words, it one of the
     first steps within Key Impact Pathways, in particular those of
     interest for national-level policy making.
-  - Second, there is an ongoing effort to monitor progress of Open
+-   Second, there is an ongoing effort to monitor progress of Open
     Science policy implementation by proxy of national policies. This is
     evident, for example, in the UNESCO recommendation on Open Science,
     which asks member states to develop policies (Art. 17) and to invest
@@ -70,13 +70,13 @@ Access to publications, FAIR/Open data etc.)
 Limitations but also advantages stemming from these approaches depend on
 the specific level:
 
-  - In the ‘basic’ case, the measurement can be conducted with relative
+-   In the ‘basic’ case, the measurement can be conducted with relative
     ease. However, the lack of granularity of specific measures might
     limit the types of analyses that can be done with the data.
-  - In the ‘intermediate’ case, granularity is provided through the
+-   In the ‘intermediate’ case, granularity is provided through the
     specific areas, which allows more detailed analyses that the ‘basic’
     case. Data collection can be expected to be done with
-  - The ‘advanced’ case will provide more detailed information about
+-   The ‘advanced’ case will provide more detailed information about
     area, nature, and scope of Open Science policies which in turn
     allows more complex analyses. Data collection will be more
     challenging due to the need to define specific concepts and their
@@ -115,29 +115,29 @@ and costs” (Sveinsdottir, Davidson and Proudman, 2021, p 10). For each
 element and several follow-up items, a binary or nominal coding was
 used:
 
-  - Definition of data: yes / not specified
-  - Mandates: unspecified / suggested or recommended / required
-  - Exceptions to data sharing: yes / unspecified
-  - Mentions of FAIR: yes / unspecified
-  - DMPs: recommended / required / other
-  - Expectation of data citation: yes / unspecified / other
-  - Data availability statements: yes / unspecified
-  - IP rights: yes / unspecified
-  - Preferred licenses: yes / unspecified / other
-  - Costs for RDM: yes / unspecified / other
+-   Definition of data: yes / not specified
+-   Mandates: unspecified / suggested or recommended / required
+-   Exceptions to data sharing: yes / unspecified
+-   Mentions of FAIR: yes / unspecified
+-   DMPs: recommended / required / other
+-   Expectation of data citation: yes / unspecified / other
+-   Data availability statements: yes / unspecified
+-   IP rights: yes / unspecified
+-   Preferred licenses: yes / unspecified / other
+-   Costs for RDM: yes / unspecified / other
 
 The information collected on behalf of SPARC Europe moreover contains
 textual or numeric information on additional structural information
 about the policies:
 
-  - Type of policy: statute, government ministry, funder policy
-  - Entry into force: year
-  - Sponsoring organisation
-  - Scope and coverage beyond data
-  - Link to Open Access: yes / no
-  - Soft or hard policy: soft / hard
-  - Coverage of skills and training: yes / no
-  - Monitoring and/or compliance: yes / no
+-   Type of policy: statute, government ministry, funder policy
+-   Entry into force: year
+-   Sponsoring organisation
+-   Scope and coverage beyond data
+-   Link to Open Access: yes / no
+-   Soft or hard policy: soft / hard
+-   Coverage of skills and training: yes / no
+-   Monitoring and/or compliance: yes / no
 
 Another case of standardized data collection on Open Science policies is
 the **EOSC Observatory**
@@ -171,15 +171,15 @@ in the “Survey on National Contributions to EOSC 2022” (O’Neill et al.,
 binary yes-no questions. In the case of Open Access to publications, the
 following items are included in the survey:
 
-  - Existence of national policy on Open Access to publications: yes /
+-   Existence of national policy on Open Access to publications: yes /
     no
-      - Is this policy mandatory: yes / no
-  - Existence of a policy on immediate Open Access to publications: yes
+    -   Is this policy mandatory: yes / no
+-   Existence of a policy on immediate Open Access to publications: yes
     / no
-      - Is this policy mandatory: yes / no
-  - Is there a specific policy on retention of IPR on publications: yes
+    -   Is this policy mandatory: yes / no
+-   Is there a specific policy on retention of IPR on publications: yes
     / no
-      - Is this policy mandatory: yes / no
+    -   Is this policy mandatory: yes / no
 
 For each item, the questionnaire also includes an item about the public
 availability of the policy (measured as yes / no variable) and an
@@ -212,7 +212,7 @@ European Union and associated countries.
 A detailed list of items asked for each policy category is included in
 the questionnaire. The latest version is available on Zenodo:
 
-  - Gareth O'Neill, Volker Beckmann, Sofia Abrahamsson, Thomas
+-   Gareth O'Neill, Volker Beckmann, Sofia Abrahamsson, Thomas
     Neidenmark, & Stephan Siemen. (2023). Survey on National
     Contributions to EOSC 2022 (Version V1). Zenodo.
     <https://doi.org/10.5281/zenodo.7550798>
@@ -222,7 +222,7 @@ in .tsv format and therefore easily reusable. This availability also
 means that data can be re-coded with relatively little effort to adapt
 for specific research questions.
 
-  - Gareth O'Neill, & Stefania Martziou. (2022). Data of Survey on
+-   Gareth O'Neill, & Stefania Martziou. (2022). Data of Survey on
     National Contributions to EOSC 2021 (Version V1) \[Data set\].
     Zenodo. <https://doi.org/10.5281/zenodo.7431678>
 
@@ -230,32 +230,32 @@ for specific research questions.
 
 SPARC Europe has commissioned several studies on national Open Science
 policies in Europe. The study is regularly updated and is now available
-in its 7<sup>th</sup> version.
+in its 7^th^ version.
 
-  - Sveinsdottir, Thordis, Davidson, Joy, & Proudman, Vanessa. (2021).
+-   Sveinsdottir, Thordis, Davidson, Joy, & Proudman, Vanessa. (2021).
     An Analysis of Open Science Policies in Europe, v7 (Version 7).
     Zenodo. <https://doi.org/10.5281/zenodo.4725817>
 
 The data includes information on variables such as
 
-  - Definition of data: yes / not specified
-  - Mandates: unspecified / suggested or recommended / required
-  - Exceptions to data sharing: yes / unspecified
-  - Mentions of FAIR: yes / unspecified
-  - DMPs: recommended / required / other
-  - Expectation of data citation: yes / unspecified / other
-  - Data availability statements: yes / unspecified
-  - IP rights: yes / unspecified
-  - Preferred licenses: yes / unspecified / other
-  - Costs for RDM: yes / unspecified / other
-  - Type of policy: statute, government ministry, funder policy
-  - Entry into force: year
-  - Sponsoring organisation
-  - Scope and coverage beyond data:
-  - Link to Open Access: yes / no
-  - Soft or hard policy: soft / hard
-  - Coverage of skills and training: yes / no
-  - Monitoring and/or compliance: yes / no
+-   Definition of data: yes / not specified
+-   Mandates: unspecified / suggested or recommended / required
+-   Exceptions to data sharing: yes / unspecified
+-   Mentions of FAIR: yes / unspecified
+-   DMPs: recommended / required / other
+-   Expectation of data citation: yes / unspecified / other
+-   Data availability statements: yes / unspecified
+-   IP rights: yes / unspecified
+-   Preferred licenses: yes / unspecified / other
+-   Costs for RDM: yes / unspecified / other
+-   Type of policy: statute, government ministry, funder policy
+-   Entry into force: year
+-   Sponsoring organisation
+-   Scope and coverage beyond data:
+-   Link to Open Access: yes / no
+-   Soft or hard policy: soft / hard
+-   Coverage of skills and training: yes / no
+-   Monitoring and/or compliance: yes / no
 
 The information is presented as narrative content of the study report,
 although several tables are included too. It is not available in
@@ -270,12 +270,12 @@ its country pages (<https://www.openaire.eu/os-eu-countries>). The
 country pages are maintained by the respective national open access
 desks (NOAD). The information is spilt into several categories:
 
-  - Overview
-  - Open Science Policy
-  - Infrastructure & EOSC
-  - Training & Support
-  - Statistics
-  - News
+-   Overview
+-   Open Science Policy
+-   Infrastructure & EOSC
+-   Training & Support
+-   Statistics
+-   News
 
 This information is unstructured and not presented in a standardized
 fashion.
@@ -320,7 +320,7 @@ retention; etc.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 Not applicable
 

@@ -1,10 +1,10 @@
-# Prevalence of replication studies
+# Prevalence of replication studies {#prevalence-of-replication-studies .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |             |                                                         |
-| ------- | ------------- | ----------- | ------------------------------------------------------- |
+|---------|---------------|-------------|---------------------------------------------------------|
 | Version | Revision date | Revision    | Author                                                  |
 | 0.2     | 2023-05-11    | First draft | Petros Stavropoulos                                     |
 | 0.1     | 2023-02-12    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
@@ -123,7 +123,7 @@ fields or scientific domains.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 To our knowledge there is no existing methodology to automatically find
 replication studies. Some suggested methods are the following:
@@ -161,13 +161,13 @@ researchers to conduct replication studies.
 
 ##### Existing datasources:
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 \[Add text here\]
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 \[Add text here\]
 

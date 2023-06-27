@@ -1,10 +1,10 @@
-# Prevalence of open science funding policies
+# Prevalence of open science funding policies {#prevalence-of-open-science-funding-policies .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |              |                    |
-| ------- | ------------- | ------------ | ------------------ |
+|---------|---------------|--------------|--------------------|
 | Version | Revision date | Revision     | Author             |
 |         |               |              |                    |
 | 0.2     | 2023-06-08    | Second draft | L. Stoy, I. Karasz |
@@ -30,20 +30,20 @@ Knowing the existence of funding can be helpful to evaluate if …
 
 ## Metrics
 
-### \<Investments in Open Science Research Infrastructures\>
+### &lt;Investments in Open Science Research Infrastructures&gt;
 
-The metric is to provide the overview of
-the<span id="_Int_0uJu4pci"></span> sum of capital investments policy
-making bodies on the international/national/regional levels into related
-Research Infrastructures. The investment can be of CAPEX (capital
-expenditure) or OPEX (operational expenses) qualities and is to describe
-the financial commitment of governing bodies in executing related OS
-policies. The limitation of the metric derives from the complexity on
-what to include as financial investment in OS infrastructure, therefore
-the related national formuli can be varied which makes the comparison
-somewhat problematic as there is no consensus what a distinguished
-OS-related investment means therefore what R\&I investments to consider
-when calculating the investent levels. Currently there are ongoing
+The metric is to provide the overview of the[]{#_Int_0uJu4pci} sum of
+capital investments policy making bodies on the
+international/national/regional levels into related Research
+Infrastructures. The investment can be of CAPEX (capital expenditure) or
+OPEX (operational expenses) qualities and is to describe the financial
+commitment of governing bodies in executing related OS policies. The
+limitation of the metric derives from the complexity on what to include
+as financial investment in OS infrastructure, therefore the related
+national formuli can be varied which makes the comparison somewhat
+problematic as there is no consensus what a distinguished OS-related
+investment means therefore what R&I investments to consider when
+calculating the investent levels. Currently there are ongoing
 discussions within Europe to clarify these within the framework of EOSC
 Observatory and EOSC Steering Board that consist of Member States and
 Associated Countries.
@@ -57,9 +57,9 @@ datasources or methodologies exist yet, please indicate this.
 
 \[Add text here\]
 
-##### Existing datasources: https://zenodo.org/communities/eoscobservatory/?page=1\&size=20
+##### Existing datasources: https://zenodo.org/communities/eoscobservatory/?page=1&size=20
 
-###### \<EOSC Observatory\>
+###### &lt;EOSC Observatory&gt;
 
 The datasource has a special focus on EOSC related investments which is
 the backbone of the European infrastructure of OS. It directly gathers
@@ -70,7 +70,7 @@ gathering activity is questionnable.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 Several related publications can be found in the EOSC Observatory’s
 Zenodo channel, however it is important to mention that methodologies
@@ -81,8 +81,8 @@ different structures. Therefore, the used methodologies and formuli are
 not standardised yet but the recommendations contain the following
 criteria:
 
-  - To include OPEX, CAPEX
-  - To fix a given percentage of Research infrastructure related
+-   To include OPEX, CAPEX
+-   To fix a given percentage of Research infrastructure related
     investments to have an estimated share of OS-related investments
     from those
 

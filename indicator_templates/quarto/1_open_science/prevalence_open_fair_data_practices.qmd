@@ -1,10 +1,10 @@
-# Prevalence of open/FAIR data practices
+# Prevalence of open/FAIR data practices {#prevalence-of-openfair-data-practices .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |                              |                           |
-| ------- | ------------- | ---------------------------- | ------------------------- |
+|---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
 | 1.1     |               | First draft                  | T. Willemse               |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
@@ -80,7 +80,7 @@ with the total number of units included.
 
 ##### Existing datasources:
 
-###### \<DataCite/Crossref?\>
+###### &lt;DataCite/Crossref?&gt;
 
 DataCite and Crossref are both organizations that provide services for
 identifying and citing research data. They maintain large databases of
@@ -123,13 +123,13 @@ queries, the specific queries will depend on the research question.
 Might be relevant also for indicator on data usage, not only for
 indicator on data sharing.
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 \[Add text here\]
 
 ## Metrics
 
-### \<Level of FAIRness of data\>
+### &lt;Level of FAIRness of data&gt;
 
 Metrics on the level of FAIRness of data (sources) can support in
 establishing the prevalence of open/FAIR data practices. This metric
@@ -145,16 +145,16 @@ sources.
 ##### Existing datasources:Existing methodologies
 
 \[Level of FAIRness is for instance tried to be measured by
-https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0  
+https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0\
 Additional possibility: 5-star level from Tim Berners-Lee:
-https://5stardata.info/en/  
+https://5stardata.info/en/\
 Perhaps som additional useful resource is: https://www.go-fair.org/
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 \[Add text here\]
 
-###### \<Research Data Alliance \>
+###### &lt;Research Data Alliance &gt;
 
 The Research Data Alliance developed a [FAIR Data Maturity
 Model](https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0)

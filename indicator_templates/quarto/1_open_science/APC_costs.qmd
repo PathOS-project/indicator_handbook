@@ -1,10 +1,10 @@
-# APC Costs
+# APC Costs {#apc-costs .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |             |                                                         |
-| ------- | ------------- | ----------- | ------------------------------------------------------- |
+|---------|---------------|-------------|---------------------------------------------------------|
 | Version | Revision date | Revision    | Author                                                  |
 | 0.1     | 2023-05-09    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
 
@@ -36,7 +36,7 @@ journals and have incurred an APC.
 
 Limitation:
 
-  - Not knowing who incurred that APC (funder, institution, author,
+-   Not knowing who incurred that APC (funder, institution, author,
     etc.) limits the usefulness of this indicator.
 
 #### Measurement.
@@ -45,14 +45,14 @@ Limitation:
 
 ###### OpenAIRE Graph
 
-The OpenAIRE graph (graph.openaire.eu)\*  
+The OpenAIRE graph (graph.openaire.eu)\*\
 
-  - OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as
+-   OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as
     part of its dump yet, but it is expected before the end of PathOS.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 (Via OpenAIRE MONITOR)
 
@@ -68,12 +68,12 @@ The OpenAIRE graph (graph.openaire.eu)\*
 
 Notes:
 
-  - Is it true that all Hybrid and Bronze OA publications incurred an
+-   Is it true that all Hybrid and Bronze OA publications incurred an
     APC?
 
 Limitations:
 
-  - This methodology is a workaround chosen as it provides better
+-   This methodology is a workaround chosen as it provides better
     coverage than any APC dataset we are aware of, however it is not a
     direct source of whether a publication has incurred an APC or not.
 
@@ -89,9 +89,9 @@ different journals, publishers, and regions in a more meaningful way.
 
 Limitations:
 
-  - This metric could be more useful when put together with % Diamond OA
+-   This metric could be more useful when put together with % Diamond OA
     publications, as opposed to stand alone.
-  - Not knowing who incurred that APC (funder, institution, author,
+-   Not knowing who incurred that APC (funder, institution, author,
     etc.) limits the usefulness of this metric.
 
 #### Measurement.
@@ -100,14 +100,14 @@ Limitations:
 
 ###### OpenAIRE Graph
 
-The OpenAIRE graph (graph.openaire.eu)\*  
+The OpenAIRE graph (graph.openaire.eu)\*\
 
-  - OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as
+-   OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as
     part of its dump yet, but it is expected before the end of PathOS.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 (Via OpenAIRE MONITOR)
 
@@ -124,7 +124,7 @@ The OpenAIRE graph (graph.openaire.eu)\*
 
 Limitations:
 
-  - Same as II.2
+-   Same as II.2
 
 ### Average APC
 
@@ -146,10 +146,10 @@ identify affordable publishing options.
 
 Limitations:
 
-  - The cost of APCs can vary widely depending on the field of research,
+-   The cost of APCs can vary widely depending on the field of research,
     the region, and the specific publisher or journal, therefore taking
     an average may be misleading.
-  - Not knowing who incurred that APC (funder, institution, author,
+-   Not knowing who incurred that APC (funder, institution, author,
     etc.) limits the usefulness of this metric.
 
 #### Measurement.
@@ -163,15 +163,15 @@ The OpenAPC APC dataset, which is integrated in the OpenAIRE graph
 
 Limitations:
 
-  - Incomplete data: Publishers do not generally provide data on their
+-   Incomplete data: Publishers do not generally provide data on their
     APC fees, OpenAPC has a growing collection but it is not complete.
-  - In an (organization, publication, APC cost) triplet it is not
+-   In an (organization, publication, APC cost) triplet it is not
     possible to distinguish if the APC cost is the entire cost of the
     publication or just the what the organization paid.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 (Via OpenAIRE MONITOR)
 
@@ -184,7 +184,7 @@ Limitations:
 
 Limitations:
 
-  - Averages have the benefit of summarizing and normalizing
+-   Averages have the benefit of summarizing and normalizing
     information, however depending on the underlying distribution of
     costs, they may be misleading (e.g. via outliers)
 
@@ -207,10 +207,10 @@ of analysis and can be compared to other aggregate measures.
 
 Limitations:
 
-  - Not knowing who incurred that APC (funder, institution, author,
+-   Not knowing who incurred that APC (funder, institution, author,
     etc.) limits the usefulness of this metric, more than the previous
     ones.
-  - It does not contain information of the distribution of APCs across a
+-   It does not contain information of the distribution of APCs across a
     subdomain, e.g. Total cost does not give info on how it is
     distributed across scientific domains.
 
@@ -225,15 +225,15 @@ The OpenAPC APC dataset, which is integrated in the OpenAIRE graph
 
 Limitations:
 
-  - Incomplete data: Publishers do not generally provide data on their
+-   Incomplete data: Publishers do not generally provide data on their
     APC fees, OpenAPC has a growing collection but it is not complete.
-  - In an (organization, publication, APC cost) triplet it is not
+-   In an (organization, publication, APC cost) triplet it is not
     possible to distinguish if the APC cost is the entire cost of the
     publication or just the what the organization paid.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 (Via OpenAIRE MONITOR)
 
@@ -245,7 +245,7 @@ Limitations:
 
 Limitations:
 
-  - Totals have the benefit of giving a bird’s eye view, however
+-   Totals have the benefit of giving a bird’s eye view, however
     depending on the underlying distribution of costs, they can have
     different implications.
 
@@ -254,10 +254,10 @@ Limitations:
 Via:
 https://direct.mit.edu/qss/article/1/1/6/15582/Article-processing-charges-Mirroring-the-citation
 
-  - Year
-  - Publisher
-  - Hybrid vs. Gold OA
-  - SNIP
+-   Year
+-   Publisher
+-   Hybrid vs. Gold OA
+-   SNIP
 
 ## Notes
 

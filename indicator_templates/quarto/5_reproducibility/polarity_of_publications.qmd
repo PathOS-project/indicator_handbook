@@ -1,10 +1,10 @@
-# Polarity of publications
+# Polarity of publications {#polarity-of-publications .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |                              |                           |
-| ------- | ------------- | ---------------------------- | ------------------------- |
+|---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
 | 1.1     | 2023-05-11    | First Draft                  | Petros Stavropoulos       |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
@@ -68,7 +68,7 @@ researchers may support a publication without necessarily citing it.
 
 ##### Existing datasources:
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 \[Add text here\]
 

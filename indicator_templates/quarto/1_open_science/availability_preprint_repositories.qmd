@@ -1,10 +1,10 @@
-# Availability of pre-print repositories
+# Availability of pre-print repositories {#availability-of-pre-print-repositories .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |             |                                                         |
-| ------- | ------------- | ----------- | ------------------------------------------------------- |
+|---------|---------------|-------------|---------------------------------------------------------|
 | Version | Revision date | Revision    | Author                                                  |
 | 0.1     | 2023-05-9     | First draft | I. Grypari, N. Manola, P. Stavropoulos, H. Papageorgiou |
 
@@ -12,29 +12,29 @@ on top):
 
 Description:
 
-  - The "availability of preprint repositories" indicator measures the
+-   The "availability of preprint repositories" indicator measures the
     availability and accessibility of preprint repositories that are
     available to researchers in a particular level of interest such as
     field, country or organization.
 
 Usefulness:
 
-  - The "availability of preprint repositories" indicator provides
+-   The "availability of preprint repositories" indicator provides
     insight into the infrastructure and resources available to
     researchers for sharing their work as preprints.
-  - It can help to identify areas where preprint repositories are
+-   It can help to identify areas where preprint repositories are
     lacking or where access to these repositories is limited,
     potentially hindering the adoption of preprinting practices.
-  - This indicator can also be used to assess the impact of preprint
+-   This indicator can also be used to assess the impact of preprint
     repositories on scholarly communication and to identify areas where
     additional resources and support may be needed.
 
 Limitations:
 
-  - Not all fields or research areas may have a culture of preprinting,
+-   Not all fields or research areas may have a culture of preprinting,
     which can affect the applicability of the indicator in different
     contexts.
-  - There may be good preprint practices in general repositories (such
+-   There may be good preprint practices in general repositories (such
     as Zenodo) that would not be identifiable via this indicator.
 
 ## Metrics
@@ -43,17 +43,17 @@ Limitations:
 
 Description:
 
-  - The "number of preprint repositories" indicator measures the
+-   The "number of preprint repositories" indicator measures the
     quantity of preprint repositories available to researchers in a
     particular field, country, organization, etc.
 
 Usefulness:
 
-  - See indicator description.
+-   See indicator description.
 
 Limitations:
 
-  - See indicator description.
+-   See indicator description.
 
 #### Measurement.
 
@@ -61,13 +61,13 @@ Count
 
 ##### Existing datasources:
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 Unknown, via literature review?
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 Unknown, via literature review?
 

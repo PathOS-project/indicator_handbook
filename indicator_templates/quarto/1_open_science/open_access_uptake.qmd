@@ -1,15 +1,15 @@
-# Open Access uptake
+# Open Access uptake {#open-access-uptake .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |                                        |                           |
-| ------- | ------------- | -------------------------------------- | ------------------------- |
+|---------|---------------|----------------------------------------|---------------------------|
 | Version | Revision date | Revision                               | Author                    |
 | 1.1     | 2023-02-08    | Added initial description of OA uptake | V.A. Traag                |
 | 1.0     | 2023-02-07    | Finalised indicator template           | T.P. Willemse, V.A. Traag |
 
-## <span id="_Ref126739570"></span>Description
+## []{#_Ref126739570}Description
 
 Open Access publishing is one of the pillars of Open Science. Whereas
 traditional academic publishing charges a fee for reading a publication,
@@ -33,23 +33,23 @@ et al., 2020).
 
 In summary, we have the following types of Open Access:
 
-  - Hybrid
-      - Open Access article in a journal that also publishes Closed
+-   Hybrid
+    -   Open Access article in a journal that also publishes Closed
         Access articles.
-      - Typically charges an APC
-  - Gold
-      - Open Access article in a journal that publishes only Open Access
+    -   Typically charges an APC
+-   Gold
+    -   Open Access article in a journal that publishes only Open Access
         articles.
-      - Charges an APC
-  - Diamond
-      - Open Access article in a journal that publishes only Open Access
+    -   Charges an APC
+-   Diamond
+    -   Open Access article in a journal that publishes only Open Access
         articles.
-      - No publishing fee, i.e. no APC
-  - Green
-      - Article that is deposited in an Open Access repository.
-  - Bronze
-      - Article that is accessible without paywall from a publisher.
-      - No licence attached, unclear whether article will remain freely
+    -   No publishing fee, i.e. no APC
+-   Green
+    -   Article that is deposited in an Open Access repository.
+-   Bronze
+    -   Article that is accessible without paywall from a publisher.
+    -   No licence attached, unclear whether article will remain freely
         available in the future and under what conditions it can be
         used.
 
@@ -74,7 +74,7 @@ such questions.
 
 ## Metrics
 
-### <span id="_Ref126751468"></span>Number of Open Access publications
+### []{#_Ref126751468}Number of Open Access publications
 
 By counting simply the overall number of Open Access publications, we
 get a first impression of the overall uptake of Open Access publishing.
@@ -111,7 +111,7 @@ between different types of Open Access publications: Hybrid, Gold,
 Diamond, Green and Bronze. We will clarify how to measure these aspects
 of Open Access publishing.
 
-#### <span id="_Ref126751722"></span>Measurement.
+#### []{#_Ref126751722}Measurement.
 
 For each publication we need to measure whether it is Open Access at
 all, and if so, what specific type(s) of Open Access it is. In order to
@@ -143,7 +143,7 @@ Open Access. Please see the indicator on Journal Open Access journals.
 
 Unpaywall can easily be used through an API, as illustrated below.
 
-``` python
+``` {.python}
 import requests
 doi = '10.7717/peerj.4375'
 email = 'unpaywall_01@example.com'
@@ -166,7 +166,7 @@ define Open Access status explicitly. This in particular allows us to
 define multiple Open Access statuses for a single paper. We can do that
 as illustrated below.
 
-``` python
+``` {.python}
 oa_green = False
 oa_gold = False
 oa_hybrid = False
@@ -189,7 +189,7 @@ supporting packages available in Python
 (<https://pypi.org/project/unpywall/>) and R
 (<https://cran.r-project.org/package=roadoi>).
 
-### <span id="_Ref126751266"></span>% of Open Access publications
+### []{#_Ref126751266}% of Open Access publications
 
 By looking at the percentage of Open Access publications, we get an idea
 of the uptake of Open Access publishing as a practice. That is, it
@@ -228,7 +228,7 @@ chart), in particular not when reporting on Green Open Access.
 
 ##### Existing datasources:
 
-###### <span id="_Ref126752110"></span>Unpaywall
+###### []{#_Ref126752110}Unpaywall
 
 We explain how to derive the Open Access status for any publication
 using

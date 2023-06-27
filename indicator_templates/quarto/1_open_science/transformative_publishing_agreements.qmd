@@ -1,10 +1,10 @@
-# Transformative publishing agreements
+# Transformative publishing agreements {#transformative-publishing-agreements .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |             |         |
-| ------- | ------------- | ----------- | ------- |
+|---------|---------------|-------------|---------|
 | Version | Revision date | Revision    | Author  |
 | 0.1     | 2023-03-01    | First draft | L. Stoy |
 
@@ -72,18 +72,18 @@ information might be needed, depending on the type of analysis.
 
 This could include:
 
-  - The overall coverage of a country’s publishing output by
+-   The overall coverage of a country’s publishing output by
     transformative agreements with various publishers
-  - The start and end date of an agreement
-  - The type(s) of articles covered by the agreement(s)
-  - The size and membership of the consortium (i.e., not all consortia
+-   The start and end date of an agreement
+-   The type(s) of articles covered by the agreement(s)
+-   The size and membership of the consortium (i.e., not all consortia
     cover all research organisations from a country; some cover other
     institutions; some consortia function differently depending on the
     publisher)
-  - The relevance (market share) of the publisher for the consortium
-  - The cost per article
-  - Other contract elements (archiving, workflows)
-  - The functioning of the consortium (e.g., opt-in or opt-out)
+-   The relevance (market share) of the publisher for the consortium
+-   The cost per article
+-   Other contract elements (archiving, workflows)
+-   The functioning of the consortium (e.g., opt-in or opt-out)
 
 These are measurements which are generally feasible but require more
 in-depth study for instance using bibliometric research, desk research
@@ -103,29 +103,29 @@ institutions.
 The database is available for download and online use. Structural
 information for each entry includes:
 
-  - Publisher
-  - Country / countries
-  - Organisation (consortium/university)
-  - Annual publishing output
-  - Start date
-  - End date
-  - ID = unique identifier given by ESAC to each agreement
-  - URL = unique website with more detailed information
+-   Publisher
+-   Country / countries
+-   Organisation (consortium/university)
+-   Annual publishing output
+-   Start date
+-   End date
+-   ID = unique identifier given by ESAC to each agreement
+-   URL = unique website with more detailed information
 
 More detailed information for each transformative agreement includes:
 
-  - Impact of costs / costs development
-  - Financial shift
-  - Risk sharing
-  - OA coverage
-  - OA license
-  - Article types
-  - Access types
-  - Access costs
-  - Access coverage
-  - Perpetual access rights
-  - Workflow assessment
-  - Overall assessment and comments
+-   Impact of costs / costs development
+-   Financial shift
+-   Risk sharing
+-   OA coverage
+-   OA license
+-   Article types
+-   Access types
+-   Access costs
+-   Access coverage
+-   Perpetual access rights
+-   Workflow assessment
+-   Overall assessment and comments
 
 Notably, the total cost of an agreement and per-article costs is not
 available through the ESAC Registry. This information is often publicly
@@ -141,16 +141,16 @@ agreements.
 
 Information available online entails
 
-  - Global and national market share of publishers
-  - Amount of articles published through transformative agreements
+-   Global and national market share of publishers
+-   Amount of articles published through transformative agreements
     (cumulative/by year)
-  - The number of transformative agreements per country and per
+-   The number of transformative agreements per country and per
     publisher
-  - A country overview of publishing outputs divided by transformative
+-   A country overview of publishing outputs divided by transformative
     deals, other OA, and hybrid/closed
-  - Overviews over publisher journal portfolios
-  - Article processing charges
-  - Market positions
+-   Overviews over publisher journal portfolios
+-   Article processing charges
+-   Market positions
 
 It should be noted that the data is not fully available for download.
 
@@ -159,7 +159,7 @@ ESAC Market Watch information.
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 Not applicable
 
@@ -174,6 +174,6 @@ Not applicable
 ## References
 
 Hinchliffe, Lisa Janicke. ‘Read-and-Publish? Publish-and-Read? A Primer
-on Transformative Agreements by @lisalibrarian.’ The Scholarly Kitchen,
+on Transformative Agreements by \@lisalibrarian.’ The Scholarly Kitchen,
 23 April 2019.
 <https://scholarlykitchen.sspnet.org/2019/04/23/transformative-agreements/>.

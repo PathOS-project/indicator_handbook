@@ -1,10 +1,10 @@
-# Prevalence of open science support
+# Prevalence of open science support {#prevalence-of-open-science-support .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |                              |                           |
-| ------- | ------------- | ---------------------------- | ------------------------- |
+|---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
 
@@ -14,7 +14,7 @@ on top):
 
 ## Metrics
 
-### \<metric name\>
+### &lt;metric name&gt;
 
 \[Add text here\]
 
@@ -24,13 +24,13 @@ on top):
 
 ##### Existing datasources:
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 \[Add text here\]
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 \[Add text here\]
 

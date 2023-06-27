@@ -1,10 +1,10 @@
-# Prevalence of open method practices
+# Prevalence of open method practices {#prevalence-of-open-method-practices .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |             |                                                         |
-| ------- | ------------- | ----------- | ------------------------------------------------------- |
+|---------|---------------|-------------|---------------------------------------------------------|
 | Version | Revision date | Revision    | Author                                                  |
 | 0.1     | 2023-02-12    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
 
@@ -13,7 +13,8 @@ on top):
 “*Methods describe the processes, procedures, and materials used in a
 research investigation. Methods can take many forms depending on the
 field and approach, including study designs, protocols, code, materials
-and reagents, databases and more.”<sup>[\[1\]](#footnote-2)</sup>*
+and reagents, databases and
+more.”^[\[1\]](#footnote-2){#footnote-ref-2}^*
 
 Open methods refer to:
 
@@ -54,13 +55,13 @@ software/code and its FAIR metadata.
 
 ##### Existing datasources: **GitHub, OpenAIRE**
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 \[Add text here\]
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 There is no well-established methodology to automatically find
 publications with code. Some suggested methods are the following:
@@ -82,10 +83,6 @@ publications with code. Some suggested methods are the following:
 
 \[Add Zotero bibliography here\]
 
-1.  
-    
-    <div id="footnote-2">
-    
+1.  ::: {#footnote-2}
     https://plos.org/open-science/open-methods/ [↑](#footnote-ref-2)
-    
-    </div>
+    :::

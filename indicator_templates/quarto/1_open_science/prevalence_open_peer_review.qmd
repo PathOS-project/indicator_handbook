@@ -1,10 +1,10 @@
-# Prevalence of open peer review
+# Prevalence of open peer review {#prevalence-of-open-peer-review .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision
 on top):
 
 |         |               |                              |                           |
-| ------- | ------------- | ---------------------------- | ------------------------- |
+|---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
 
@@ -70,9 +70,9 @@ There is no datasource that provides comprehensive data on the peer
 review models used by journals. However, there are a few datasources
 that provide partial data on journals that support open review reports:
 
-  - Transpose: <https://transpose-publishing.github.io/>
-  - ASAPbio: <https://asapbio.org/letter>
-  - Data set compiled by Dietmar Wolfram and colleagues:
+-   Transpose: <https://transpose-publishing.github.io/>
+-   ASAPbio: <https://asapbio.org/letter>
+-   Data set compiled by Dietmar Wolfram and colleagues:
     <https://doi.org/10.5281/zenodo.3737197>
 
 Each of the above datasources is incomplete and some of the data is
@@ -80,13 +80,13 @@ likely to be outdated.
 
 ##### Existing datasources:
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 \[Add text here\]
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 \[Add text here\]
 
@@ -117,13 +117,13 @@ determined by determining the total number of articles in the journal.
 
 ##### Existing datasources:
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 \[Add text here\]
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 \[Add text here\]
 
@@ -168,13 +168,13 @@ directly on the preprint server.
 
 ##### Existing datasources:
 
-###### \<datasource name\>
+###### &lt;datasource name&gt;
 
 \[Add text here\]
 
 ##### Existing methodologies
 
-###### \<methodology name\>
+###### &lt;methodology name&gt;
 
 \[Add text here\]
 
