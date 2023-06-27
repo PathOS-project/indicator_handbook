@@ -19,7 +19,9 @@ do
     | \
     pandoc \
         -f html \
-        -t gfm+backtick_code_blocks \
+        --atx-headers \
+        -t markdown+backtick_code_blocks+header_attributes+space_in_atx_header  \
+        --lua-filter=${SCRIPT_DIR}/filter.lua \
         -o "${DOCX_FILE%.*}.qmd"
 
 done
