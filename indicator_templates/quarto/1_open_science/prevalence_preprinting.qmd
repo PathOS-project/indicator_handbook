@@ -1,0 +1,239 @@
+# Prevalence of preprinting
+
+History (please fill out in reverse chronological order, latest revision
+on top):
+
+|         |               |             |                                                         |
+| ------- | ------------- | ----------- | ------------------------------------------------------- |
+| Version | Revision date | Revision    | Author                                                  |
+| 0.1     | 2023-05-9     | First draft | N. Manola, I. Grypari, P. Stavropoulos, H. Papageorgiou |
+
+## Description
+
+Description:
+
+  - The "prevalence of preprinting" indicator measures the frequency of
+    preprints that are made publicly available prior to peer review and
+    publication in a journal. Preprinting allows researchers to share
+    their work quickly and receive feedback from their peers before
+    publication, and it also provides open access to research that might
+    otherwise be locked behind journal paywalls.
+
+Usefulness:
+
+  - The "prevalence of preprinting" indicator can help assess the impact
+    of preprinting on scholarly communication and the dissemination of
+    research findings.
+  - It provides insight into the growing trend of sharing research
+    findings before they are formally published in a peer-reviewed
+    journal.
+  - It can hep measure the effectiveness of preprinting in speeding up
+    the dissemination of research results.
+
+Limitations:
+
+  - Not all fields or research areas may have a culture of preprinting,
+    which can affect the applicability of the indicator in different
+    contexts.
+  - As a standalone this indicator also does not account for other forms
+    of informal communication, such as conference presentations,
+    personal communications, or social media discussions, which can also
+    play a role in the dissemination of research findings.
+
+## Metrics
+
+### Number of preprints
+
+Description:
+
+  - The "number of preprints" metric measures the absolute quantity of
+    preprints.
+
+Usefulness:
+
+  - The "number of preprints" metric provides a quantitative measure of
+    the prevalence of preprints in a particular field or research area
+    or any other unit of analysis.
+
+Limitations:
+
+  - The pre-prints that are early in the research cycle (early work in
+    progress) may not be ready for dissemination and may not be useful
+    in a repository (not written in a clear away, too much of a rough
+    draft).
+  - View also the limitations in section I.
+
+#### Measurement.
+
+Count
+
+##### Existing datasources:
+
+###### OpenAIRE Graph
+
+The limitations for the OpenAIRE graph in terms of this metric are
+described in the methodology as it is more clearer how they may create a
+problem.
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+Not aware if this is an existing methodology but it is quite simple, as
+required in this case.
+
+1.  Identify the preprints in the OpenAIRE graph using the publication
+    classification type “Preprint”
+2.  Identify any repositories that only take preprints (preprint
+    servers) and use those publications.
+3.  In addition, find all the Green OA publications in OpenAIRE and
+    1.  From those, those that are published in Closed Access (but Green
+        OA) they are preprints.
+    2.  Add to those, those that are not published yet, they are a
+        pre-print
+    3.  For the rest, if they are published check the date of deposition
+        in repository, if it is earlier than the publication date, it is
+        *most likely* a pre-print and not the version of record.
+        **Checking how far before publication it was deposited is a
+        useful measure in itself.**
+4.  Count
+
+Limitations
+
+  -   -   - Coverage of data for 1. (in other words, many preprints that
+            are not described as preprints). If there are repositories
+            that only accept preprints
+          - For 2. Different preprint servers may have different
+            policies regarding the types of preprints they accept, the
+            length of time they allow preprints to be available, and the
+            types of metadata that are included with preprints. These
+            variations can affect the completeness and accuracy of the
+            data used to calculate the metric.
+          - For step 3.c. date of deposition is not a metadata element
+            regularly exposed by repositories. This provides an
+            additional problem as this metric is most meaningful if one
+            can identify how long before publication something was
+            deposited (if it is right before it shouldn’t be counted for
+            this indicators).
+
+### % of Publications that have preprints
+
+Description:
+
+  -   -   - The "share of publications that have a preprint" metric
+            measures the proportion of articles that are available as
+            preprints.
+
+Usefulness:
+
+  -   -   - The "share of publications that have a preprint" metric can
+            help assess the adoption of preprinting as a form of
+            scholarly communication in a particular field or research
+            area, and using a share as opposed to a relative value is
+            more useful for comparisons, e.g. over time.
+
+Limitations:
+
+  -   -   - See limitations in previous metric.
+
+#### Measurement.
+
+% = 100\*(pubs with preprint)/(total number of pubs)
+
+##### Existing datasources:
+
+###### OpenAIRE Graph
+
+The limitations for the OpenAIRE graph in terms of this metric are
+described in the methodology as it is more clearer how they may create a
+problem.
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+1.  Take all the publications for unit of analysis
+2.  Identify those with a preprint available, from the set of preprints
+    as in previous metric
+3.  Calculate share
+
+Limitations
+
+  -   -   - Like previous metric
+
+### % of preprints that are published
+
+Description:
+
+  -   -   - The "% of preprints that are published" metric measures the
+            proportion of preprints that are eventually published in
+            peer-reviewed journals.
+
+Usefulness:
+
+  -   -   - The "% of preprints that are published" metric provides
+            insight into the effectiveness of preprinting as a tool for
+            disseminating research findings and as a precursor to formal
+            publication in peer-reviewed journals.
+          - It can help researchers, institutions, and funding agencies
+            to evaluate the impact of preprinting on the overall
+            scholarly communication landscape.
+          - This metric can also be used to identify trends in preprint
+            adoption and publishing across different fields or research
+            areas.
+
+Limitations:
+
+  -   -   - The "% of preprints that are published" metric has
+            limitations because it does not account for the time lag
+            between preprinting and formal publication in a
+            peer-reviewed journal, which can vary widely depending on
+            the field or research area.
+          - This metric also does not account for the quality or impact
+            of the preprint, which can affect its likelihood of being
+            published in a peer-reviewed journal.
+
+#### Measurement.
+
+% = 100\*(preprints that are published)/(total number of preprints)
+
+##### Existing datasources:
+
+###### OpenAIRE Graph
+
+The limitations for the OpenAIRE graph in terms of this metric are
+described in the methodology as it is more clearer how they may create a
+problem.
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+1.  Identify preprints as in previous metrics
+2.  Find those that are published
+3.  Calculate share
+
+Limitations
+
+  -   -   - Like previous metric
+
+## Known correlates
+
+We are unsure whether these are known but we would assume the following
+are correlates:
+
+  -   -   - Field of research (preprint culture)
+          - Time (adoption over time)
+          - Funding source and open access policies of instituion (if it
+            is a mandate)
+          - Stage of career (preprint culture)
+          - Collaboration networks, e.g. if large social media presence
+            of network maybe likely to adopt preprinting practices.
+
+## Notes
+
+\[Add text here\]
+
+## References
+
+\[Add Zotero bibliography here\]

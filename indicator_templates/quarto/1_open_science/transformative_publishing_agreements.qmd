@@ -1,0 +1,179 @@
+# Transformative publishing agreements
+
+History (please fill out in reverse chronological order, latest revision
+on top):
+
+|         |               |             |         |
+| ------- | ------------- | ----------- | ------- |
+| Version | Revision date | Revision    | Author  |
+| 0.1     | 2023-03-01    | First draft | L. Stoy |
+
+## Description
+
+Transformative publishing agreements are a catch-all terms for different
+types of Open Access contracts that aim to facilitate Open Access
+publishing at national level. Usually, a transformative agreement is
+between a publisher and a consortium of research organisations and/or
+their libraries. Information on transformative agreements is collected
+by the ESAC initiative
+(<https://esac-initiative.org/about/transformative-agreements/>).
+
+The ‘transformative’ meaning stems from the objective of these type of
+agreements to steer the payment modalities for scholarly publishing from
+pay-to-read (subscriptions to electronic resources) to pay-to-publish or
+similar models. This includes so called offsetting agreements,
+read-and-publish agreements, and publish-and-read agreements. Authors
+affiliated to the institutions can then publish their articles in Open
+Access. The exact model and modalities depends on publisher and
+agreement.
+
+The power of transformative agreements lies in ‘flipping’ the entire
+publishing output of a consortium/institution from closed to open.
+Especially when large publishers are concerned, this can have strong
+effects on the ratio of Open Access articles published in a given
+country.
+
+Transformative agreements also touch upon the financial flows taking
+place in the research system. This concerns e.g., the allocation of
+costs between institutions to participate in the transformative
+agreement, the allocation of costs within libraries (from collections to
+publishing) and the costs the individual authors may face eventually.
+This can have structuring effects on both the academic sector and the
+scholarly publishing industry, and in particular the financial flows
+between actors.
+
+## Metrics
+
+### Transformative agreements
+
+Considering the fact that transformative agreements usually take place
+between a publisher and a national consortium, a basic metric is the
+existence of an agreement which could be coded as a yes-no indicator for
+a country.
+
+A challenge is the fact that several publishers exist, and each might be
+of different relevance for a given case. In other words, the impact of a
+transformative agreement is only directly related to the Open
+Access-status of publications with this publisher – and this part might
+be of little overall impact to a country’s or institution’s overall
+publishing output. On the other hand, measuring this impact over time,
+e.g., affiliated authors choosing to publish through the transformative
+agreement, might be an interesting case to study as well.
+
+Therefore, studying transformative agreements should take into
+consideration the overall publishing profile of the case.
+
+#### Measurement.
+
+As mentioned above, the simplest measurement is the existence of a
+national level agreement between a consortium and a publisher. This can
+be done using a binary variable (yes/no). However, more detailed
+information might be needed, depending on the type of analysis.
+
+This could include:
+
+  - The overall coverage of a country’s publishing output by
+    transformative agreements with various publishers
+  - The start and end date of an agreement
+  - The type(s) of articles covered by the agreement(s)
+  - The size and membership of the consortium (i.e., not all consortia
+    cover all research organisations from a country; some cover other
+    institutions; some consortia function differently depending on the
+    publisher)
+  - The relevance (market share) of the publisher for the consortium
+  - The cost per article
+  - Other contract elements (archiving, workflows)
+  - The functioning of the consortium (e.g., opt-in or opt-out)
+
+These are measurements which are generally feasible but require more
+in-depth study for instance using bibliometric research, desk research
+into contracts and other methods and sources.
+
+##### Existing datasources:
+
+###### ESAC Registry of Transformative Agreements
+
+The ESAC Registry of Transformative Agreements
+(<https://esac-initiative.org/about/transformative-agreements/agreement-registry/>)
+is a community-organised database of transformative agreements. As of
+writing, the database contains 662 ongoing or past agreements. These
+agreements can be done through national agreements or individual
+institutions.
+
+The database is available for download and online use. Structural
+information for each entry includes:
+
+  - Publisher
+  - Country / countries
+  - Organisation (consortium/university)
+  - Annual publishing output
+  - Start date
+  - End date
+  - ID = unique identifier given by ESAC to each agreement
+  - URL = unique website with more detailed information
+
+More detailed information for each transformative agreement includes:
+
+  - Impact of costs / costs development
+  - Financial shift
+  - Risk sharing
+  - OA coverage
+  - OA license
+  - Article types
+  - Access types
+  - Access costs
+  - Access coverage
+  - Perpetual access rights
+  - Workflow assessment
+  - Overall assessment and comments
+
+Notably, the total cost of an agreement and per-article costs is not
+available through the ESAC Registry. This information is often publicly
+available but must be found individually for each agreement through the
+respective consortium or research conducted elsewhere.
+
+###### ESAC Market Watch
+
+A sister service of the ESAC Registry, the ESAC Market Watch
+(<https://esac-initiative.org/market-watch/>) is provides information
+about the market share of publishers and the role of transformative
+agreements.
+
+Information available online entails
+
+  - Global and national market share of publishers
+  - Amount of articles published through transformative agreements
+    (cumulative/by year)
+  - The number of transformative agreements per country and per
+    publisher
+  - A country overview of publishing outputs divided by transformative
+    deals, other OA, and hybrid/closed
+  - Overviews over publisher journal portfolios
+  - Article processing charges
+  - Market positions
+
+It should be noted that the data is not fully available for download.
+
+The limitations disclaimer should also be consulted before using the
+ESAC Market Watch information.
+
+##### Existing methodologies
+
+###### \<methodology name\>
+
+Not applicable
+
+## Known correlates
+
+\[Add text here\]
+
+## Notes
+
+\[Add text here\]
+
+## References
+
+Hinchliffe, Lisa Janicke. ‘Read-and-Publish? Publish-and-Read? A Primer
+on Transformative Agreements by @lisalibrarian.’ The Scholarly Kitchen,
+23 April 2019.
+<https://scholarlykitchen.sspnet.org/2019/04/23/transformative-agreements/>.
