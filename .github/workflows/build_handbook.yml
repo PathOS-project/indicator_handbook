@@ -10,7 +10,7 @@ name: Render indicator handbook
 
 jobs:
 
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,3 +33,27 @@ jobs:
         with:
           name: indicators_handbook
           path: _book/
+
+  deploy:
+    needs: [build]
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Download rendered book
+        uses: actions/download-artifact@v3
+        with:
+          name: indicators_handbook
+          path: _book/
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.WEBSITE_SSH_KEY }}
+          name: id_rsa
+          known_hosts: ${{ secrets.WEBSITE_KNOWN_HOST }}
+          config: ${{ secrets.WEBSITE_SSH_CONFIG }}
+          if_key_exists: fail
+      - name: Deploy using rsync
+        run: |
+          ls -R
+          rsync -avz --delete --filter='P .htaccess' _book/ website:./pathos.traag.net/
