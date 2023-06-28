@@ -63,6 +63,8 @@ format:
     theme:
       - cosmo
     code-link: true
+    grid:
+      sidebar-width: 350px
 
     author-meta: "V.A. Traag, etc..."
     callout-appearance: simple
