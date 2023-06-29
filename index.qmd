@@ -39,4 +39,6 @@ We hope to be able to contribute to keeping the indicator handbook up-to-date al
 The handbook is open to community contributions.
 Together we may create a central resource that is useful to all.
 
+Test
+
 ## Acknowledgements {.unnumbered}
