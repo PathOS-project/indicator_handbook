@@ -1,7 +1,6 @@
 # Reuse of code in research {#reuse-of-code-in-research .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
@@ -11,59 +10,21 @@ on top):
 
 ## Description
 
-The reuse of code or software in research refers to the practice of
-utilizing existing code or software to develop new research tools,
-methods, or applications. It is becoming increasingly important in
-various scientific fields, including computer science, engineering, and
-data analysis, as it can enhance scientific reproducibility, improve
-research efficiency, and foster collaborations between researchers. This
-indicator aims to capture the extent to which researchers engage in the
-reuse of code or software in their research, by quantifying the number
-and proportion of studies that utilize existing code or software. The
-indicator can be used to assess the level of collaboration and sharing
-of resources within a specific scientific community or field, and to
-identify potential barriers or incentives for the reuse of code or
-software in research. Additionally, it can serve as a measure of the
-quality and reliability of research, as the reuse of code or software
-can increase the transparency, replicability, and scalability of
-research findings.
+The reuse of code or software in research refers to the practice of utilizing existing code or software to develop new research tools, methods, or applications. It is becoming increasingly important in various scientific fields, including computer science, engineering, and data analysis, as it can enhance scientific reproducibility, improve research efficiency, and foster collaborations between researchers. This indicator aims to capture the extent to which researchers engage in the reuse of code or software in their research, by quantifying the number and proportion of studies that utilize existing code or software. The indicator can be used to assess the level of collaboration and sharing of resources within a specific scientific community or field, and to identify potential barriers or incentives for the reuse of code or software in research. Additionally, it can serve as a measure of the quality and reliability of research, as the reuse of code or software can increase the transparency, replicability, and scalability of research findings.
 
 ## Metrics
 
 ### Number of code/software reused in publications
 
-This metric quantifies the number of times existing code or software has
-been reused in published research articles. A higher number of instances
-of code or software reuse in publications indicates a higher level of
-scientific collaboration and sharing of resources within a scientific
-community or field.
+This metric quantifies the number of times existing code or software has been reused in published research articles. A higher number of instances of code or software reuse in publications indicates a higher level of scientific collaboration and sharing of resources within a scientific community or field.
 
-A limitation of this metric is that it may not capture all instances of
-code or software reuse, as some researchers may reuse code or software
-without explicitly citing the original source. Additionally, this metric
-may not account for the quality or appropriateness of the reused code or
-software for the new research questions. Furthermore, it may be
-challenging to compare the number of instances of code or software reuse
-in publications across different fields, as some fields may rely more
-heavily on developing new code or software rather than reusing existing
-resources.
+A limitation of this metric is that it may not capture all instances of code or software reuse, as some researchers may reuse code or software without explicitly citing the original source. Additionally, this metric may not account for the quality or appropriateness of the reused code or software for the new research questions. Furthermore, it may be challenging to compare the number of instances of code or software reuse in publications across different fields, as some fields may rely more heavily on developing new code or software rather than reusing existing resources.
 
 #### Measurement.
 
-To measure the number of instances of code or software reuse found in
-publications, automatic text mining and machine learning techniques can
-be used to search for code or software reuse statements, or to identify
-reused code or software within published research articles, such as the
-work in PathOS Task 2.5.
+To measure the number of instances of code or software reuse found in publications, automatic text mining and machine learning techniques can be used to search for code or software reuse statements, or to identify reused code or software within published research articles, such as the work in PathOS Task 2.5.
 
-However, these methods may face challenges such as inconsistencies in
-reporting of code or software reuse, variations in the degree of
-specificity in reporting of the reuse, and difficulties in
-distinguishing between code or software that is reused versus code or
-software that is developed anew but shares similarities with existing
-code or software. Furthermore, the availability and quality of such
-automated tools may vary across different research fields and may
-require domain-specific adaptations.
+However, these methods may face challenges such as inconsistencies in reporting of code or software reuse, variations in the degree of specificity in reporting of the reuse, and difficulties in distinguishing between code or software that is reused versus code or software that is developed anew but shares similarities with existing code or software. Furthermore, the availability and quality of such automated tools may vary across different research fields and may require domain-specific adaptations.
 
 ##### Existing datasources:
 
@@ -75,48 +36,21 @@ require domain-specific adaptations.
 
 ###### PathOS work in Task 2.5
 
-This is an automated tool used to identify code/software mentioned in
-the text of publications and extract metadata associated with them, such
-as name, version, license, etc. This tool can also classify whether the
-code/software has been reused by the authors of the publication.
+This is an automated tool used to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
 
-To measure the number of code/software reused in publications, the tool
-can be used to identify the reused datasets in those publications.
+To measure the number of code/software reused in publications, the tool can be used to identify the reused datasets in those publications.
 
 ### Number (%) of publications with reused code/software
 
-This metric quantifies the number or percentage of publications that
-explicitly mention the reuse of existing code or software. It provides
-an indication of the extent to which researchers are utilizing existing
-resources to develop new research tools, methods, or applications,
-within a specific scientific field or task.
+This metric quantifies the number or percentage of publications that explicitly mention the reuse of existing code or software. It provides an indication of the extent to which researchers are utilizing existing resources to develop new research tools, methods, or applications, within a specific scientific field or task.
 
-A limitation of this metric is that it may not capture all instances of
-code or software reuse, as some researchers may reuse code or software
-without explicitly citing the original source. Additionally, it may not
-account for the quality or appropriateness of the reused code or
-software for the new research questions. Furthermore, it may be
-challenging to compare the number or percentage of publications with
-reused code or software across different fields, as some fields may rely
-more heavily on developing new code or software rather than reusing
-existing resources.
+A limitation of this metric is that it may not capture all instances of code or software reuse, as some researchers may reuse code or software without explicitly citing the original source. Additionally, it may not account for the quality or appropriateness of the reused code or software for the new research questions. Furthermore, it may be challenging to compare the number or percentage of publications with reused code or software across different fields, as some fields may rely more heavily on developing new code or software rather than reusing existing resources.
 
 #### Measurement.
 
-To measure the number or percentage of publications with reused code or
-software, automatic text mining and machine learning techniques can be
-used to search for code or software reuse statements, or to identify
-reused code or software within published research articles, such as the
-work in PathOS Task 2.5.
+To measure the number or percentage of publications with reused code or software, automatic text mining and machine learning techniques can be used to search for code or software reuse statements, or to identify reused code or software within published research articles, such as the work in PathOS Task 2.5.
 
-However, these methods may face challenges such as inconsistencies in
-reporting of code or software reuse, variations in the degree of
-specificity in reporting of the reuse, and difficulties in
-distinguishing between code or software that is reused versus code or
-software that is developed anew but shares similarities with existing
-code or software. Furthermore, the availability and quality of such
-automated tools may vary across different research fields and may
-require domain-specific adaptations.
+However, these methods may face challenges such as inconsistencies in reporting of code or software reuse, variations in the degree of specificity in reporting of the reuse, and difficulties in distinguishing between code or software that is reused versus code or software that is developed anew but shares similarities with existing code or software. Furthermore, the availability and quality of such automated tools may vary across different research fields and may require domain-specific adaptations.
 
 ##### Existing datasources:
 
@@ -128,13 +62,9 @@ require domain-specific adaptations.
 
 ###### PathOS Task 2.5 Tool
 
-This is an automated tool used to identify code/software mentioned in
-the text of publications and extract metadata associated with them, such
-as name, version, license, etc. This tool can also classify whether the
-code/software has been reused by the authors of the publication.
+This is an automated tool used to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
 
-To measure the number (%) of publications with reused code/software, the
-tool can be used to identify the reused datasets in those publications.
+To measure the number (%) of publications with reused code/software, the tool can be used to identify the reused datasets in those publications.
 
 ## Known correlates
 

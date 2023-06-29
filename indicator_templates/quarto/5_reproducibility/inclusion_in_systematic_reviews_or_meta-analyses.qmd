@@ -1,7 +1,6 @@
 # Inclusion in systematic reviews or meta-analyses {#inclusion-in-systematic-reviews-or-meta-analyses .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
@@ -11,56 +10,23 @@ on top):
 
 ## Description
 
-Systematic reviews and meta-analyses are very useful methodologies to
-synthesize scientific literature on a certain topic. Inclusion of a
-paper in such a systematic review or meta-analysis can be used as an
-indicator for reproducibility, since in the process of reviewing
-literature and assessing inclusion criteria, judgements are made about
-the quality of a paper (e.g., of methods and results) . For instance,
-the PRISMA guidelines include specification of risk of bias assessment
-(Page et al., 2021). Instead of directly investigating the quality of
-papers, inclusion in systematic reviews and meta-analyses can therefore
-be taken as a proxy. Papers passing the quality check of a systematic
-review or meta-analysis could be expected to be more reproducible than
-papers failing this check. This indicator, however, is dependent on the
-existence of systematic reviews or meta-analyses for a certain topic and
-gathering enough information for comparisons might be challenging.
-Publications available as Open Access might also generally fare better,
-since none of them are excluded from such studies due to unavailability.
+Systematic reviews and meta-analyses are very useful methodologies to synthesize scientific literature on a certain topic. Inclusion of a paper in such a systematic review or meta-analysis can be used as an indicator for reproducibility, since in the process of reviewing literature and assessing inclusion criteria, judgements are made about the quality of a paper (e.g., of methods and results) . For instance, the PRISMA guidelines include specification of risk of bias assessment (Page et al., 2021). Instead of directly investigating the quality of papers, inclusion in systematic reviews and meta-analyses can therefore be taken as a proxy. Papers passing the quality check of a systematic review or meta-analysis could be expected to be more reproducible than papers failing this check. This indicator, however, is dependent on the existence of systematic reviews or meta-analyses for a certain topic and gathering enough information for comparisons might be challenging. Publications available as Open Access might also generally fare better, since none of them are excluded from such studies due to unavailability.
 
 ## Metrics
 
 ### Number of citations in systematic reviews or meta-analyses
 
-The inclusion of a research paper can be indicated through the number of
-times it has already been cited in a systematic review or meta-analysis.
-This metric, however, has some limitations. Citation by a systematic
-review or meta-analysis by itself is not a reliable indicator for
-whether a given study was included in a review. It could also be cited
-within the background or discussion section, or as an excluded source.
+The inclusion of a research paper can be indicated through the number of times it has already been cited in a systematic review or meta-analysis. This metric, however, has some limitations. Citation by a systematic review or meta-analysis by itself is not a reliable indicator for whether a given study was included in a review. It could also be cited within the background or discussion section, or as an excluded source.
 
 #### Measurement.
 
-This metric could be measured by analysing the sources a paper is cited
-by. Type of publication needs to be extracted for all citing sources.
-Number of citing sources being of type systematic review or
-meta-analysis can then be counted.
+This metric could be measured by analysing the sources a paper is cited by. Type of publication needs to be extracted for all citing sources. Number of citing sources being of type systematic review or meta-analysis can then be counted.
 
 ##### Existing datasources:
 
 ###### Literature databases
 
-Datasources for this metric are literature databases. These are suitable
-insofar they provide information on all sources a paper is cited by.
-Examples for such databases are [Web of
-Science](https://imisathena.sharepoint.com/sites/PathOS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=gy43Dz&cid=3063da82%2D6991%2D4c0e%2D98bc%2D57e019cfff03&RootFolder=%2Fsites%2FPathOS%2FShared%20Documents%2FOn%2DGoing%20Work%2FWP2%2FDatasource%20descriptions&FolderCTID=0x0120006CB61D216CAE004B87E8578B94C31B6E)
-(WoS),
-[Scopus](https://imisathena.sharepoint.com/sites/PathOS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=gy43Dz&cid=3063da82%2D6991%2D4c0e%2D98bc%2D57e019cfff03&RootFolder=%2Fsites%2FPathOS%2FShared%20Documents%2FOn%2DGoing%20Work%2FWP2%2FDatasource%20descriptions&FolderCTID=0x0120006CB61D216CAE004B87E8578B94C31B6E),
-[OpenAlex](https://imisathena.sharepoint.com/sites/PathOS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=gy43Dz&cid=3063da82%2D6991%2D4c0e%2D98bc%2D57e019cfff03&RootFolder=%2Fsites%2FPathOS%2FShared%20Documents%2FOn%2DGoing%20Work%2FWP2%2FDatasource%20descriptions&FolderCTID=0x0120006CB61D216CAE004B87E8578B94C31B6E)
-or
-[Dimensions](https://imisathena.sharepoint.com/sites/PathOS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=gy43Dz&cid=3063da82%2D6991%2D4c0e%2D98bc%2D57e019cfff03&RootFolder=%2Fsites%2FPathOS%2FShared%20Documents%2FOn%2DGoing%20Work%2FWP2%2FDatasource%20descriptions&FolderCTID=0x0120006CB61D216CAE004B87E8578B94C31B6E).
-For all citing sources, type of publication then needs to be determined
-from available metadata (e.g., title, abstract and keywords).
+Datasources for this metric are literature databases. These are suitable insofar they provide information on all sources a paper is cited by. Examples for such databases are [Web of Science](https://imisathena.sharepoint.com/sites/PathOS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=gy43Dz&cid=3063da82%2D6991%2D4c0e%2D98bc%2D57e019cfff03&RootFolder=%2Fsites%2FPathOS%2FShared%20Documents%2FOn%2DGoing%20Work%2FWP2%2FDatasource%20descriptions&FolderCTID=0x0120006CB61D216CAE004B87E8578B94C31B6E) (WoS), [Scopus](https://imisathena.sharepoint.com/sites/PathOS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=gy43Dz&cid=3063da82%2D6991%2D4c0e%2D98bc%2D57e019cfff03&RootFolder=%2Fsites%2FPathOS%2FShared%20Documents%2FOn%2DGoing%20Work%2FWP2%2FDatasource%20descriptions&FolderCTID=0x0120006CB61D216CAE004B87E8578B94C31B6E), [OpenAlex](https://imisathena.sharepoint.com/sites/PathOS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=gy43Dz&cid=3063da82%2D6991%2D4c0e%2D98bc%2D57e019cfff03&RootFolder=%2Fsites%2FPathOS%2FShared%20Documents%2FOn%2DGoing%20Work%2FWP2%2FDatasource%20descriptions&FolderCTID=0x0120006CB61D216CAE004B87E8578B94C31B6E) or [Dimensions](https://imisathena.sharepoint.com/sites/PathOS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=gy43Dz&cid=3063da82%2D6991%2D4c0e%2D98bc%2D57e019cfff03&RootFolder=%2Fsites%2FPathOS%2FShared%20Documents%2FOn%2DGoing%20Work%2FWP2%2FDatasource%20descriptions&FolderCTID=0x0120006CB61D216CAE004B87E8578B94C31B6E). For all citing sources, type of publication then needs to be determined from available metadata (e.g., title, abstract and keywords).
 
 ##### Existing methodologies
 
@@ -70,88 +36,39 @@ from available metadata (e.g., title, abstract and keywords).
 
 ### Number of inclusions in systematic reviews or meta-analyses
 
-For a specific paper the number of systematic reviews and meta-analyses
-that have included it in the data synthesis can be counted. Inclusion in
-a systematic review or meta-analysis does not only rely on the topic of
-a paper and the scope of the review or meta-analysis, but also on some
-quality assessment (e.g., of methods or results). This metric has its
-limitation, since quality assessment of studies might differ
-significantly between different conducted systematic reviews and
-meta-analyses in criteria, strictness, etc. While inclusion in a
-systematic review or meta-analysis indicates that some form of quality
-check was passed by a paper, the thoroughness of this assessment is not
-indicated by the number of inclusions.
+For a specific paper the number of systematic reviews and meta-analyses that have included it in the data synthesis can be counted. Inclusion in a systematic review or meta-analysis does not only rely on the topic of a paper and the scope of the review or meta-analysis, but also on some quality assessment (e.g., of methods or results). This metric has its limitation, since quality assessment of studies might differ significantly between different conducted systematic reviews and meta-analyses in criteria, strictness, etc. While inclusion in a systematic review or meta-analysis indicates that some form of quality check was passed by a paper, the thoroughness of this assessment is not indicated by the number of inclusions.
 
 #### Measurement.
 
-All citing sources of a given paper are classified by their type,
-filtering out systematic reviews and meta-analyses. This could be done
-by retrieving keywords in the titles of publications, such as
-“systematic review”, since publications adhering to the PRISMA
-guidelines must indicate as such in the title. For the retrieved
-sources, one would have to manually determine whether they include the
-given paper in their data synthesis. The number of systematic reviews
-and meta-analyses where this is the case can then be counted.
+All citing sources of a given paper are classified by their type, filtering out systematic reviews and meta-analyses. This could be done by retrieving keywords in the titles of publications, such as “systematic review”, since publications adhering to the PRISMA guidelines must indicate as such in the title. For the retrieved sources, one would have to manually determine whether they include the given paper in their data synthesis. The number of systematic reviews and meta-analyses where this is the case can then be counted.
 
 ##### A key question in applying this metric would be how to interpret the aggregated counts: what number of inclusions would indicate a “robust” or “reproducible” finding? Furthermore, absence of inclusion cannot be taken as a sign for low reproducibility, because there are many reasons why this might be the case: no systematic reviews conducted yet in this field, study not included in prior reviews due to general exclusion criteria (e.g., different language, sample population or study target, etc.).Existing datasources:
 
 ###### Semantic analysis of full text
 
-One potential datasource is the full text of citing systematic reviews
-or meta-analyses themselves. With a semantic analysis of the full text,
-it can be determined where a specific paper is cited and whether a
-statement is made about inclusion.
+One potential datasource is the full text of citing systematic reviews or meta-analyses themselves. With a semantic analysis of the full text, it can be determined where a specific paper is cited and whether a statement is made about inclusion.
 
 ###### Supplementary material/data provided for systematic reviews/meta-analyses
 
-Some systematic reviews or meta-analyses make data available that was
-gathered during the screening and/or data charting process. From this
-data information can then be extracted about the inclusion status of a
-specific paper. This data might be available in repositories, e.g.,
-Figshare, OSF, or Zenodo.
+Some systematic reviews or meta-analyses make data available that was gathered during the screening and/or data charting process. From this data information can then be extracted about the inclusion status of a specific paper. This data might be available in repositories, e.g., Figshare, OSF, or Zenodo.
 
 ### Number of exclusions from systematic reviews or meta-analyses due to methodological issues or bias
 
-Opposite to inclusion, the number of systematic reviews and
-meta-analyses that have excluded a specific paper in the data synthesis
-can also be counted. However, exclusion for the reason of being out of
-scope is no indicator of quality. Therefore, only exclusions
-specifically due to methodological issues (such as insufficient
-reporting, obvious mistakes or questionable choice of methods) or
-suspected bias within a study can be of interest for this metric. To
-determine this, however, information on specific reasons for exclusion
-must be given which might be given less frequently than general
-information about inclusion.
+Opposite to inclusion, the number of systematic reviews and meta-analyses that have excluded a specific paper in the data synthesis can also be counted. However, exclusion for the reason of being out of scope is no indicator of quality. Therefore, only exclusions specifically due to methodological issues (such as insufficient reporting, obvious mistakes or questionable choice of methods) or suspected bias within a study can be of interest for this metric. To determine this, however, information on specific reasons for exclusion must be given which might be given less frequently than general information about inclusion.
 
 #### Measurement.
 
-All citing sources of a given paper are classified by their type,
-filtering out systematic reviews and meta-analyses. For these sources it
-is checked whether they exclude the given paper due to methodological
-issues or bias that were identified (not because of scope). Number of
-systematic reviews and meta-analyses where this is the case can then be
-counted.
+All citing sources of a given paper are classified by their type, filtering out systematic reviews and meta-analyses. For these sources it is checked whether they exclude the given paper due to methodological issues or bias that were identified (not because of scope). Number of systematic reviews and meta-analyses where this is the case can then be counted.
 
 ##### Existing datasources:
 
 ###### Semantic analysis of full text
 
-One potential datasource is the full text of citing systematic reviews
-or meta-analyses themselves. With a semantic analysis of the full text,
-it can be determined where a specific paper is cited and whether a
-statement is made about exclusion. Clear information must be given in
-the full text about the reason of exclusion for it to be counted, e.g.,
-through a variable specifying the reason for exclusion within the
-dataset.
+One potential datasource is the full text of citing systematic reviews or meta-analyses themselves. With a semantic analysis of the full text, it can be determined where a specific paper is cited and whether a statement is made about exclusion. Clear information must be given in the full text about the reason of exclusion for it to be counted, e.g., through a variable specifying the reason for exclusion within the dataset.
 
 ###### Supplementary material/data provided for systematic reviews/meta-analyses
 
-Some systematic reviews or meta-analyses make data available that was
-gathered during the screening and/or data charting process. From this
-data information can then be extracted about the exclusion status of a
-specific paper. Clear information must be given about the reason of
-exclusion for it to be counted, e.g., through a variable specifying the
-reason for exclusion within the dataset.
+Some systematic reviews or meta-analyses make data available that was gathered during the screening and/or data charting process. From this data information can then be extracted about the exclusion status of a specific paper. Clear information must be given about the reason of exclusion for it to be counted, e.g., through a variable specifying the reason for exclusion within the dataset.
 
 ## Known correlates
 
@@ -163,9 +80,4 @@ reason for exclusion within the dataset.
 
 ## References
 
-Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T.
-C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan,
-S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu,
-M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D.
-(2021). The PRISMA 2020 statement: An updated guideline for reporting
-systematic reviews. *BMJ*, *372*, n71. https://doi.org/10.1136/bmj.n71
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. https://doi.org/10.1136/bmj.n71

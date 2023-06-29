@@ -1,7 +1,6 @@
 # Reuse of data in research {#reuse-of-data-in-research .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
@@ -11,51 +10,21 @@ on top):
 
 ## Description
 
-The reuse of data in research refers to the practice of utilizing
-existing data sets for new research questions. It is a common practice
-in various scientific fields, and it can lead to increased scientific
-efficiency, reduced costs, and enhanced scientific collaborations. This
-indicator aims to capture the extent to which researchers engage in the
-reuse of data in their research, by quantifying the number and
-proportion of studies that utilize previously collected data. The
-indicator can be used to assess the level of scientific collaboration
-and sharing of data within a specific scientific community or field, and
-to identify potential barriers or incentives for the reuse of data in
-research. Additionally, it can serve as a measure of the quality and
-reliability of research, as the reuse of data can increase the
-transparency, validity, and replicability of research findings.
+The reuse of data in research refers to the practice of utilizing existing data sets for new research questions. It is a common practice in various scientific fields, and it can lead to increased scientific efficiency, reduced costs, and enhanced scientific collaborations. This indicator aims to capture the extent to which researchers engage in the reuse of data in their research, by quantifying the number and proportion of studies that utilize previously collected data. The indicator can be used to assess the level of scientific collaboration and sharing of data within a specific scientific community or field, and to identify potential barriers or incentives for the reuse of data in research. Additionally, it can serve as a measure of the quality and reliability of research, as the reuse of data can increase the transparency, validity, and replicability of research findings.
 
 ## Metrics
 
 ### Number of datasets reused in publications
 
-This metric quantifies the number of datasets that have been reused in
-published research articles. A higher number of datasets reused in
-publications indicates a higher level of scientific collaboration and
-sharing of data within a scientific community or field.
+This metric quantifies the number of datasets that have been reused in published research articles. A higher number of datasets reused in publications indicates a higher level of scientific collaboration and sharing of data within a scientific community or field.
 
-A limitation of this metric is that it may not capture all instances of
-data reuse, as some researchers may reuse data sets without explicitly
-citing the original source. Additionally, this metric may not account
-for the quality or appropriateness of the reused data sets for the new
-research questions. Furthermore, it may be challenging to compare the
-number of datasets reused in publications across different fields, as
-some fields may rely more heavily on new data collection rather than
-data reuse.
+A limitation of this metric is that it may not capture all instances of data reuse, as some researchers may reuse data sets without explicitly citing the original source. Additionally, this metric may not account for the quality or appropriateness of the reused data sets for the new research questions. Furthermore, it may be challenging to compare the number of datasets reused in publications across different fields, as some fields may rely more heavily on new data collection rather than data reuse.
 
 #### Measurement.
 
-To measure the number of reused datasets found in publications,
-automatic text mining and machine learning techniques can be used to
-search for data reuse statements, data availability statements, or
-directly extract the datasets from a publication and classify them as
-reused, such as the work in PathOS Task 2.5.
+To measure the number of reused datasets found in publications, automatic text mining and machine learning techniques can be used to search for data reuse statements, data availability statements, or directly extract the datasets from a publication and classify them as reused, such as the work in PathOS Task 2.5.
 
-However, these methods may face challenges such as inconsistencies in
-reporting of reused data, and variations in the degree of specificity in
-the reporting of the reuse. Additionally, the availability and quality
-of such data extraction tools may vary across different research fields
-and may require domain-specific adaptations.
+However, these methods may face challenges such as inconsistencies in reporting of reused data, and variations in the degree of specificity in the reporting of the reuse. Additionally, the availability and quality of such data extraction tools may vary across different research fields and may require domain-specific adaptations.
 
 ##### Existing datasources:
 
@@ -67,44 +36,21 @@ and may require domain-specific adaptations.
 
 ###### PathOS work in Task 2.5
 
-This is an automated tool used to identify datasets mentioned in the
-text of publications and extract metadata associated with them, such as
-name, version, license, etc. This tool can also classify whether the
-dataset has been reused by the authors of the publication.
+This is an automated tool used to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused by the authors of the publication.
 
-To measure the number of datasets reused in publications, the tool can
-be used to identify the reused datasets in those publications.
+To measure the number of datasets reused in publications, the tool can be used to identify the reused datasets in those publications.
 
 ### Number (%) of publications with reused datasets
 
-This metric quantifies the number or percentage of publications that
-explicitly mention the reuse of previously collected datasets. It is a
-useful metric for assessing the extent to which researchers are engaging
-in the reuse of data in their research, within a specific scientific
-field or task.
+This metric quantifies the number or percentage of publications that explicitly mention the reuse of previously collected datasets. It is a useful metric for assessing the extent to which researchers are engaging in the reuse of data in their research, within a specific scientific field or task.
 
-A limitation of this metric is that it may not capture all instances of
-data reuse, as some researchers may reuse data sets without explicitly
-citing the original source. Additionally, it may not account for the
-quality or appropriateness of the reused data sets for the new research
-questions. Furthermore, it may be challenging to compare the number or
-percentage of publications with reused datasets across different fields,
-as some fields may rely more heavily on new data collection rather than
-data reuse.
+A limitation of this metric is that it may not capture all instances of data reuse, as some researchers may reuse data sets without explicitly citing the original source. Additionally, it may not account for the quality or appropriateness of the reused data sets for the new research questions. Furthermore, it may be challenging to compare the number or percentage of publications with reused datasets across different fields, as some fields may rely more heavily on new data collection rather than data reuse.
 
 #### Measurement.
 
-To measure the number or percentage of publications with reused
-datasets, automatic text mining and machine learning techniques can be
-used to search for data reuse statements, data availability statements,
-or directly extract the datasets from the publications and classify them
-as reused, such as the work in PathOS Task 2.5.
+To measure the number or percentage of publications with reused datasets, automatic text mining and machine learning techniques can be used to search for data reuse statements, data availability statements, or directly extract the datasets from the publications and classify them as reused, such as the work in PathOS Task 2.5.
 
-However, these methods may face challenges such as inconsistencies in
-reporting of reused data, and variations in the degree of specificity in
-the reporting of the reuse. Additionally, the availability and quality
-of such data extraction tools may vary across different research fields
-and may require domain-specific adaptations.
+However, these methods may face challenges such as inconsistencies in reporting of reused data, and variations in the degree of specificity in the reporting of the reuse. Additionally, the availability and quality of such data extraction tools may vary across different research fields and may require domain-specific adaptations.
 
 ##### Existing datasources:
 
@@ -116,13 +62,9 @@ and may require domain-specific adaptations.
 
 ###### PathOS work in Task 2.5
 
-This is an automated tool used to identify datasets mentioned in the
-text of publications and extract metadata associated with them, such as
-name, version, license, etc. This tool can also classify whether the
-dataset has been reused by the authors of the publication.
+This is an automated tool used to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused by the authors of the publication.
 
-To measure the number (%) of publications with reused datasets, the tool
-can be used to identify the reused datasets in those publications.
+To measure the number (%) of publications with reused datasets, the tool can be used to identify the reused datasets in those publications.
 
 ## Known correlates
 

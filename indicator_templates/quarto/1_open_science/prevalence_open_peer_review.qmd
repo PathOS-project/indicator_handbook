@@ -1,7 +1,6 @@
 # Prevalence of open peer review {#prevalence-of-open-peer-review .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
@@ -10,73 +9,29 @@ on top):
 
 ## Description
 
-Peer review of research articles and other scientific works is often
-seen as essential for the trustworthiness of the scientific literature.
-Traditionally peer review is a closed process. Review reports are not
-published. They are made available only to the authors of a scientific
-work and to editors that need to decide whether the work is suitable for
-publication in a scientific journal or some other publication venue.
-Readers of a scientific work do not have access to review reports. In
-addition, reviewers are anonymous in a traditional peer review process.
-Authors and readers of a scientific work do not know by whom the work
-was reviewed. Reviewing a scientific work also requires an invitation
-from an editor. Without such an invitation, it is not possible to
-participate in a traditional peer review process.
+Peer review of research articles and other scientific works is often seen as essential for the trustworthiness of the scientific literature. Traditionally peer review is a closed process. Review reports are not published. They are made available only to the authors of a scientific work and to editors that need to decide whether the work is suitable for publication in a scientific journal or some other publication venue. Readers of a scientific work do not have access to review reports. In addition, reviewers are anonymous in a traditional peer review process. Authors and readers of a scientific work do not know by whom the work was reviewed. Reviewing a scientific work also requires an invitation from an editor. Without such an invitation, it is not possible to participate in a traditional peer review process.
 
-There is increasing support for more open approaches to peer review.
-Open peer review, sometimes called transparent peer review, is an
-umbrella term that refers to various forms of openness in peer review
-([ref](https://doi.org/10.31222/osf.io/r6t8p)). It often refers to the
-publication of review reports. One approach is to publish review reports
-only if the outcome of a peer review process is positive and the
-scientific work under review is considered suitable for publication in a
-scientific journal or some other publication venue. Another approach is
-to always publish review reports, also if the outcome of a peer review
-process is negative. Open peer review may also refer to the publication
-of the identities of reviewers, but this form of openness is more
-controversial. Another possibility is to open participation in peer
-review by allowing anyone with certain minimum qualifications to
-participate.
+There is increasing support for more open approaches to peer review. Open peer review, sometimes called transparent peer review, is an umbrella term that refers to various forms of openness in peer review ([ref](https://doi.org/10.31222/osf.io/r6t8p)). It often refers to the publication of review reports. One approach is to publish review reports only if the outcome of a peer review process is positive and the scientific work under review is considered suitable for publication in a scientific journal or some other publication venue. Another approach is to always publish review reports, also if the outcome of a peer review process is negative. Open peer review may also refer to the publication of the identities of reviewers, but this form of openness is more controversial. Another possibility is to open participation in peer review by allowing anyone with certain minimum qualifications to participate.
 
-Our focus is on open peer review of research articles. This can be
-either open peer review organized by scientific journals or other forms
-of open peer review, in particular open peer review of research articles
-published on preprint servers
-([ref](https://doi.org/10.31219/osf.io/cht8p)). We do not consider open
-peer review of other scientific works, such as books and conference
-contributions. In addition, we restrict ourselves to openness of review
-reports, since this is the most popular form of openness in peer review.
+Our focus is on open peer review of research articles. This can be either open peer review organized by scientific journals or other forms of open peer review, in particular open peer review of research articles published on preprint servers ([ref](https://doi.org/10.31219/osf.io/cht8p)). We do not consider open peer review of other scientific works, such as books and conference contributions. In addition, we restrict ourselves to openness of review reports, since this is the most popular form of openness in peer review.
 
 ## Metrics
 
 ### Journals supporting open review reports
 
-This metric provides the number or the percentage of journals that
-support open review reports. A further distinction can be made between
-journals that publish review reports for all articles and journals that
-publish review reports only for articles for which the authors and/or
-the reviewers agree with the publication of review reports. Another
-distinction that can be made is between journals that publish review
-reports only for accepted articles and journals that publish review
-reports for all articles that undergo peer review, including articles
-for which the outcome of the peer review process is negative.
+This metric provides the number or the percentage of journals that support open review reports. A further distinction can be made between journals that publish review reports for all articles and journals that publish review reports only for articles for which the authors and/or the reviewers agree with the publication of review reports. Another distinction that can be made is between journals that publish review reports only for accepted articles and journals that publish review reports for all articles that undergo peer review, including articles for which the outcome of the peer review process is negative.
 
-Open review reports do not need to include the identities of the
-reviewers. Reviewers may remain anonymous.
+Open review reports do not need to include the identities of the reviewers. Reviewers may remain anonymous.
 
 #### Measurement.
 
-There is no datasource that provides comprehensive data on the peer
-review models used by journals. However, there are a few datasources
-that provide partial data on journals that support open review reports:
+There is no datasource that provides comprehensive data on the peer review models used by journals. However, there are a few datasources that provide partial data on journals that support open review reports:
 
 -   Transpose: <https://transpose-publishing.github.io/>
 -   ASAPbio: <https://asapbio.org/letter>
--   Data set compiled by Dietmar Wolfram and colleagues:
-    <https://doi.org/10.5281/zenodo.3737197>
+-   Data set compiled by Dietmar Wolfram and colleagues: <https://doi.org/10.5281/zenodo.3737197>
 
-Each of the above datasources is incomplete and some of the data is
-likely to be outdated.
+Each of the above datasources is incomplete and some of the data is likely to be outdated.
 
 ##### Existing datasources:
 
@@ -92,28 +47,13 @@ likely to be outdated.
 
 ### Journal articles with open review reports
 
-This metric provides the number or the percentage of journal articles
-that have open review reports. Open review reports do not need to
-include the identities of the reviewers. Reviewers may remain anonymous.
+This metric provides the number or the percentage of journal articles that have open review reports. Open review reports do not need to include the identities of the reviewers. Reviewers may remain anonymous.
 
 #### Measurement.
 
-Some journals publish review reports and register DOIs for these reports
-at Crossref or DataCite. For these journals, metadata from Crossref and
-DataCite can be used to determine the number of articles with open
-review reports. This approach was used in [this blog
-post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review),
-in which it was shown that eLife, PeerJ, and Wiley journals publish a
-relatively large number of articles with open review reports.
+Some journals publish review reports and register DOIs for these reports at Crossref or DataCite. For these journals, metadata from Crossref and DataCite can be used to determine the number of articles with open review reports. This approach was used in [this blog post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review), in which it was shown that eLife, PeerJ, and Wiley journals publish a relatively large number of articles with open review reports.
 
-Other journals publish review reports without registering DOIs for these
-reports. This is for instance the case for journals published by BMJ,
-EMBO, MDPI, PLOS, and Springer Nature. For these journals, there is no
-straightforward way to determine the number of articles with open review
-reports. However, if a journal is known (based on the datasources
-mentioned in the previous section) to publish open review reports for
-all its articles, the number of articles with open review reports can be
-determined by determining the total number of articles in the journal.
+Other journals publish review reports without registering DOIs for these reports. This is for instance the case for journals published by BMJ, EMBO, MDPI, PLOS, and Springer Nature. For these journals, there is no straightforward way to determine the number of articles with open review reports. However, if a journal is known (based on the datasources mentioned in the previous section) to publish open review reports for all its articles, the number of articles with open review reports can be determined by determining the total number of articles in the journal.
 
 ##### Existing datasources:
 
@@ -129,42 +69,19 @@ determined by determining the total number of articles in the journal.
 
 ### Preprints with open review reports
 
-This metric provides the number or the percentage of preprints that have
-open review reports. There are many different forms in which feedback
-can be given on preprints, ranging from brief informal comments to
-detailed formal feedback. A decision needs to be made on which forms of
-feedback are considered to constitute peer review
-([ref](https://doi.org/10.31222/osf.io/r6t8p)).
+This metric provides the number or the percentage of preprints that have open review reports. There are many different forms in which feedback can be given on preprints, ranging from brief informal comments to detailed formal feedback. A decision needs to be made on which forms of feedback are considered to constitute peer review ([ref](https://doi.org/10.31222/osf.io/r6t8p)).
 
-Open review reports do not need to include the identities of the
-reviewers. Reviewers may remain anonymous.
+Open review reports do not need to include the identities of the reviewers. Reviewers may remain anonymous.
 
 #### Measurement.
 
-There are a substantial number of services for peer review of preprints,
-especially in the life sciences
-([ref](https://doi.org/10.31219/osf.io/8zj9w)). While these services all
-provide open review reports, most of them do not register DOIs for these
-reports. For many of these services, data on review reports can be
-obtained from Sciety, an aggregator of open review reports for
-preprints. Sciety can be accessed through a website. An API is not yet
-publicly available.
+There are a substantial number of services for peer review of preprints, especially in the life sciences ([ref](https://doi.org/10.31219/osf.io/8zj9w)). While these services all provide open review reports, most of them do not register DOIs for these reports. For many of these services, data on review reports can be obtained from Sciety, an aggregator of open review reports for preprints. Sciety can be accessed through a website. An API is not yet publicly available.
 
-For preprint review services that do register DOIs for review reports,
-data can be obtained from Crossref and DataCite, as shown in [this blog
-post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review).
+For preprint review services that do register DOIs for review reports, data can be obtained from Crossref and DataCite, as shown in [this blog post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review).
 
-For each datasource, it needs to be decided which preprint review
-services are included in the compilation of statistics on preprints with
-open review reports. Some of the services covered by Sciety for instance
-operate in a fully algorithmic way and do not provide review reports
-written by humans. A decision could be made to exclude these services.
+For each datasource, it needs to be decided which preprint review services are included in the compilation of statistics on preprints with open review reports. Some of the services covered by Sciety for instance operate in a fully algorithmic way and do not provide review reports written by humans. A decision could be made to exclude these services.
 
-Some preprint servers allow review reports and other comments to be
-posted directly on the preprint server (rather than on a separate
-platform for preprint peer review). However, there is no straightforward
-way to identify preprints for which review reports are available
-directly on the preprint server.
+Some preprint servers allow review reports and other comments to be posted directly on the preprint server (rather than on a separate platform for preprint peer review). However, there is no straightforward way to identify preprints for which review reports are available directly on the preprint server.
 
 ##### Existing datasources:
 

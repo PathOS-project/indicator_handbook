@@ -1,7 +1,6 @@
 # Prevalence of open science funding policies {#prevalence-of-open-science-funding-policies .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |              |                    |
 |---------|---------------|--------------|--------------------|
@@ -12,19 +11,9 @@ on top):
 
 ## Description
 
-This indicator aims to capture the prevalence of funding being provided
-for open science. It is closely related to the indicator for prevalence
-of national policies for Open Science. Since Open Science can be
-considered a catch-all term for different practices and objectives, this
-may include different elements or distinct policies such as open access
-to publications, open data, fair data, research assessment reform,
-citizen science etc. Usually, the question whether funding is provided
-is part of a policy. I.e., the availability of funding implies the
-existence of a policy as well.
+This indicator aims to capture the prevalence of funding being provided for open science. It is closely related to the indicator for prevalence of national policies for Open Science. Since Open Science can be considered a catch-all term for different practices and objectives, this may include different elements or distinct policies such as open access to publications, open data, fair data, research assessment reform, citizen science etc. Usually, the question whether funding is provided is part of a policy. I.e., the availability of funding implies the existence of a policy as well.
 
-Practically, funding might be available at various levels. It can be
-internationally, nationally, regionally, institutionally (RPOs, HEIs,
-RFOs etc.) or even department or institute dependent.
+Practically, funding might be available at various levels. It can be internationally, nationally, regionally, institutionally (RPOs, HEIs, RFOs etc.) or even department or institute dependent.
 
 Knowing the existence of funding can be helpful to evaluate if …
 
@@ -32,28 +21,9 @@ Knowing the existence of funding can be helpful to evaluate if …
 
 ### &lt;Investments in Open Science Research Infrastructures&gt;
 
-The metric is to provide the overview of the[]{#_Int_0uJu4pci} sum of
-capital investments policy making bodies on the
-international/national/regional levels into related Research
-Infrastructures. The investment can be of CAPEX (capital expenditure) or
-OPEX (operational expenses) qualities and is to describe the financial
-commitment of governing bodies in executing related OS policies. The
-limitation of the metric derives from the complexity on what to include
-as financial investment in OS infrastructure, therefore the related
-national formuli can be varied which makes the comparison somewhat
-problematic as there is no consensus what a distinguished OS-related
-investment means therefore what R&I investments to consider when
-calculating the investent levels. Currently there are ongoing
-discussions within Europe to clarify these within the framework of EOSC
-Observatory and EOSC Steering Board that consist of Member States and
-Associated Countries.
+The metric is to provide the overview of the[]{#_Int_0uJu4pci} sum of capital investments policy making bodies on the international/national/regional levels into related Research Infrastructures. The investment can be of CAPEX (capital expenditure) or OPEX (operational expenses) qualities and is to describe the financial commitment of governing bodies in executing related OS policies. The limitation of the metric derives from the complexity on what to include as financial investment in OS infrastructure, therefore the related national formuli can be varied which makes the comparison somewhat problematic as there is no consensus what a distinguished OS-related investment means therefore what R&I investments to consider when calculating the investent levels. Currently there are ongoing discussions within Europe to clarify these within the framework of EOSC Observatory and EOSC Steering Board that consist of Member States and Associated Countries.
 
-Please describe how we could measure the proposed metric. What are
-potential measurement problems and limitations? Please also explain the
-difficulty of obtaining this measurement, and identify gaps in existing
-possibilities for measurement. If there are already existing datasources
-and/or methodologies, these can be described in more detail below. If no
-datasources or methodologies exist yet, please indicate this.
+Please describe how we could measure the proposed metric. What are potential measurement problems and limitations? Please also explain the difficulty of obtaining this measurement, and identify gaps in existing possibilities for measurement. If there are already existing datasources and/or methodologies, these can be described in more detail below. If no datasources or methodologies exist yet, please indicate this.
 
 \[Add text here\]
 
@@ -61,30 +31,16 @@ datasources or methodologies exist yet, please indicate this.
 
 ###### &lt;EOSC Observatory&gt;
 
-The datasource has a special focus on EOSC related investments which is
-the backbone of the European infrastructure of OS. It directly gathers
-data from Member States and Associated Countries on a yearly basis
-through individual surveys and then in-depth interviews within the
-frames of the EOSC Future project. After 2023 September, the information
-gathering activity is questionnable.
+The datasource has a special focus on EOSC related investments which is the backbone of the European infrastructure of OS. It directly gathers data from Member States and Associated Countries on a yearly basis through individual surveys and then in-depth interviews within the frames of the EOSC Future project. After 2023 September, the information gathering activity is questionnable.
 
 ##### Existing methodologies
 
 ###### &lt;methodology name&gt;
 
-Several related publications can be found in the EOSC Observatory’s
-Zenodo channel, however it is important to mention that methodologies
-differ case by case and there are only overarching recommendations to
-member states and associated countries. This is an ongoing and
-pioneering activity to enhance the alignment of different countries with
-different structures. Therefore, the used methodologies and formuli are
-not standardised yet but the recommendations contain the following
-criteria:
+Several related publications can be found in the EOSC Observatory’s Zenodo channel, however it is important to mention that methodologies differ case by case and there are only overarching recommendations to member states and associated countries. This is an ongoing and pioneering activity to enhance the alignment of different countries with different structures. Therefore, the used methodologies and formuli are not standardised yet but the recommendations contain the following criteria:
 
 -   To include OPEX, CAPEX
--   To fix a given percentage of Research infrastructure related
-    investments to have an estimated share of OS-related investments
-    from those
+-   To fix a given percentage of Research infrastructure related investments to have an estimated share of OS-related investments from those
 
 ## Known correlates
 
@@ -92,23 +48,14 @@ NA
 
 ## Notes
 
-This is an ongoing process that needs time until it can be considered as
-elaborated.
+This is an ongoing process that needs time until it can be considered as elaborated.
 
 ## References
 
-Beckmann, V., Abrahamsson, S., Neidenmark, T., Siemen S., O'Neill, G.
-(2021). Survey on National Contributions to EOSC. *EOSC Observatory
-Channel,* <https://zenodo.org/record/7423953#.ZIHWdS9BzfY>
+Beckmann, V., Abrahamsson, S., Neidenmark, T., Siemen S., O'Neill, G. (2021). Survey on National Contributions to EOSC. *EOSC Observatory Channel,* <https://zenodo.org/record/7423953#.ZIHWdS9BzfY>
 
-Beckmann, V., Abrahamsson, S., Neidenmark, T., Siemen S., O'Neill, G.
-(2022). Survey on National Contributions to EOSC. *EOSC Observatory
-Channel,* <https://zenodo.org/record/7550798#.ZIHaAi9BzfY>
+Beckmann, V., Abrahamsson, S., Neidenmark, T., Siemen S., O'Neill, G. (2022). Survey on National Contributions to EOSC. *EOSC Observatory Channel,* <https://zenodo.org/record/7550798#.ZIHaAi9BzfY>
 
-O'Neill, G. (2022). Monitoring Framework for National Contributions to
-EOSC. *EOSC Observatory Channel,*
-[*https://zenodo.org/record/7410762\#.ZIHiPC9BzfY*](https://zenodo.org/record/7410762#.ZIHiPC9BzfY)
+O'Neill, G. (2022). Monitoring Framework for National Contributions to EOSC. *EOSC Observatory Channel,* [*https://zenodo.org/record/7410762\#.ZIHiPC9BzfY*](https://zenodo.org/record/7410762#.ZIHiPC9BzfY)
 
-Komljenović, V., Draščić,C, M., O'Neill, G., Karasz, I. (2022).
-Calculating National Financial Contributions to EOSC,
-<https://zenodo.org/record/7951324#.ZIHiqC9BzfY>
+Komljenović, V., Draščić,C, M., O'Neill, G., Karasz, I. (2022). Calculating National Financial Contributions to EOSC, <https://zenodo.org/record/7951324#.ZIHiqC9BzfY>

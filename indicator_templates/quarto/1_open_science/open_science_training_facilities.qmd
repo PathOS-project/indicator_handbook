@@ -1,7 +1,6 @@
 # Open science training facilities {#open-science-training-facilities .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|

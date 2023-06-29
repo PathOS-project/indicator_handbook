@@ -1,7 +1,6 @@
 # Availability of data repositories {#availability-of-data-repositories .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
@@ -11,130 +10,47 @@ on top):
 
 ## Description
 
-In the context of open science, the availability of research data is an
-important topic. Open data is often, but not exclusively, made available
-through data repositories, which can store and archive data for
-long-term preservation. More and more open data repositories are
-initiated and efforts to establish the needed infrastructure are
-undertaken. However, these repositories differ vastly in their nature
-and accessibility. It is therefore important to get an overview of the
-accessibility of these different data sources for the assessment and
-practice of open science.
+In the context of open science, the availability of research data is an important topic. Open data is often, but not exclusively, made available through data repositories, which can store and archive data for long-term preservation. More and more open data repositories are initiated and efforts to establish the needed infrastructure are undertaken. However, these repositories differ vastly in their nature and accessibility. It is therefore important to get an overview of the accessibility of these different data sources for the assessment and practice of open science.
 
-Governments and governmental agencies, individual universities and
-research communities are types of organisations involved in setting up
-data sources in various fields . There are also publisher-driven data
-repositories that stimulate cooperation and can be openly accessible to
-a certain extent. Lastly, there exist non-institution affiliated data
-repositories, ranging from field specific (e.g. gene databanks, such as
-International Nucleotide Sequence Database Collaboration) to more
-general repositories including multiple topics (e.g. Zenodo, Dryad,
-figshare).
+Governments and governmental agencies, individual universities and research communities are types of organisations involved in setting up data sources in various fields . There are also publisher-driven data repositories that stimulate cooperation and can be openly accessible to a certain extent. Lastly, there exist non-institution affiliated data repositories, ranging from field specific (e.g. gene databanks, such as International Nucleotide Sequence Database Collaboration) to more general repositories including multiple topics (e.g. Zenodo, Dryad, figshare).
 
-The wide variety of data repositories out there present a number of
-opportunities and challenges (Goben & Sandusky, 2020). A clear
-opportunity is the large increase in accessible data by an increasing
-number of repositories. However, the wide variety in repositories and
-infrastructure also presents a challenge in finding the right data
-repository or dataset that one is looking for. The increase in variety
-also leads to a risk of data misinterpretation or misuse and can lead to
-data loss.
+The wide variety of data repositories out there present a number of opportunities and challenges (Goben & Sandusky, 2020). A clear opportunity is the large increase in accessible data by an increasing number of repositories. However, the wide variety in repositories and infrastructure also presents a challenge in finding the right data repository or dataset that one is looking for. The increase in variety also leads to a risk of data misinterpretation or misuse and can lead to data loss.
 
-Given the potential for open data repositories it can be very helpful to
-get an indication of the accessibility of these resources and how they
-link up with research. It must be noted however that this indicator is
-not meant to be solely used to rank data repositories or scientific
-entities. To do this more indicators and measures should be taken into
-account as well as relevant context that is difficult to capture in
-quantitative data. Important relations to look out for regarding
-availability of data repositories are for instance its relation to data
-use, data storage and scientific output (total number, citations, social
-impact etc.).
+Given the potential for open data repositories it can be very helpful to get an indication of the accessibility of these resources and how they link up with research. It must be noted however that this indicator is not meant to be solely used to rank data repositories or scientific entities. To do this more indicators and measures should be taken into account as well as relevant context that is difficult to capture in quantitative data. Important relations to look out for regarding availability of data repositories are for instance its relation to data use, data storage and scientific output (total number, citations, social impact etc.).
 
 ## Metrics
 
 ### Number of data repositories
 
-The number of data repositories in a given area of interest can give an
-indication of the availability of data repositories in this area. The
-main benefit of this metric being that it can serve as a quick
-indication of the availability. However, it is limited by the fact that
-it does not take into account the nature of each repository. Since data
-repositories can differ vastly in their size and openness this metric
-can give a skewed representation of the available data in the area of
-interest.
+The number of data repositories in a given area of interest can give an indication of the availability of data repositories in this area. The main benefit of this metric being that it can serve as a quick indication of the availability. However, it is limited by the fact that it does not take into account the nature of each repository. Since data repositories can differ vastly in their size and openness this metric can give a skewed representation of the available data in the area of interest.
 
-When looking for an indication of how widespread the availability of
-data repositories is, the percentage of territories, organisations etc.
-that provide a data repository service could be considered. If
-sufficient data can be found this can serve as an indication without
-much calculation. Again, however this measure is limited as it does not
-consider the characteristics of the data repositories.
+When looking for an indication of how widespread the availability of data repositories is, the percentage of territories, organisations etc. that provide a data repository service could be considered. If sufficient data can be found this can serve as an indication without much calculation. Again, however this measure is limited as it does not consider the characteristics of the data repositories.
 
 #### Measurement.
 
-The number of data repositories can be represented as a simple count
-measure. However, in addition to the previously mentioned limitations it
-might be difficult to obtain data on all existing data repositories,
-given the large number and variety. The number of accessible data
-repositories is not yet a widely adopted metric, so data on the (the
-number of) data repositories is not available on all mainstream
-platforms. Nevertheless, there are some sources that could help to find
-information on the number of data repositories. If the information
-sources allow it, count per field, organisation etc. or percentages can
-be calculated from these sources as well. This can be done by either
-limiting the count to the area of interest or in the case of percentages
-dividing the number of identified data repositories by the total number
-of units included.
+The number of data repositories can be represented as a simple count measure. However, in addition to the previously mentioned limitations it might be difficult to obtain data on all existing data repositories, given the large number and variety. The number of accessible data repositories is not yet a widely adopted metric, so data on the (the number of) data repositories is not available on all mainstream platforms. Nevertheless, there are some sources that could help to find information on the number of data repositories. If the information sources allow it, count per field, organisation etc. or percentages can be calculated from these sources as well. This can be done by either limiting the count to the area of interest or in the case of percentages dividing the number of identified data repositories by the total number of units included.
 
 ##### Existing datasources:
 
 ###### DataCite
 
-[DataCite](https://datacite.org/value.html) is a non-profit organisation
-that provides DOI’s for research data and research output. Within their
-services DataCite also produces an
-[overview](https://search.datacite.org/repositories) of data
-repositories. These include a wide variety of data repositories that are
-associated with the data that is documented by DataCite. Although, many
-data repositories and associated datasets are documented here, the
-catalogue is somewhat limited in filtering for the openness of the data
-repositories themselves. It can therefore mainly serve as an information
-source on what type of data repositories are out there. An overview on
-the analytical possibilities of DataCite can be found in
-(2017Robinson-Garcia et al (2017).
+[DataCite](https://datacite.org/value.html) is a non-profit organisation that provides DOI’s for research data and research output. Within their services DataCite also produces an [overview](https://search.datacite.org/repositories) of data repositories. These include a wide variety of data repositories that are associated with the data that is documented by DataCite. Although, many data repositories and associated datasets are documented here, the catalogue is somewhat limited in filtering for the openness of the data repositories themselves. It can therefore mainly serve as an information source on what type of data repositories are out there. An overview on the analytical possibilities of DataCite can be found in (2017Robinson-Garcia et al (2017).
 
 ###### re3data
 
-To delve a bit deeper in the characteristics of the data repository,
-[Re3data](https://www.re3data.org/) maintains a
-[database](https://www.re3data.org/search?query=&contentTypes%5b%5d=Databases)
-of data repositories that is associated with DataCite. It provides many
-integrated filters on the data and data repositories, like open database
-access and repository type. The website also has an integrated function
-to filter on subject type, content, and country. This source is
-therefore useful if characteristics of the data repositories are of
-importance.
+To delve a bit deeper in the characteristics of the data repository, [Re3data](https://www.re3data.org/) maintains a [database](https://www.re3data.org/search?query=&contentTypes%5b%5d=Databases) of data repositories that is associated with DataCite. It provides many integrated filters on the data and data repositories, like open database access and repository type. The website also has an integrated function to filter on subject type, content, and country. This source is therefore useful if characteristics of the data repositories are of importance.
 
 ###### OpenDOAR (<https://v2.sherpa.ac.uk/opendoar/>)
 
-OpenDOAR is a global directory of open access repositories. It has the
-functionality to filter on location, type of material and software among
-others.
+OpenDOAR is a global directory of open access repositories. It has the functionality to filter on location, type of material and software among others.
 
 ###### FAIRsharing.org (<https://fairsharing.org/>)
 
-FAIRsharing.org provides a database on open access repositories and in
-addition provides information on data standards and links to policy
-documents.
+FAIRsharing.org provides a database on open access repositories and in addition provides information on data standards and links to policy documents.
 
 ###### OpenAIRE? MOAD
 
-Athena Research & Innovation Center, Directorate-General for Research
-and Innovation (European Commission), PPMI, and UNU-MERIT. Monitoring
-the Open Access Policy of Horizon 2020: Final Report. LU: Publications
-Office of the European Union, 2021.
-<https://data.europa.eu/doi/10.2777/268348>.
+Athena Research & Innovation Center, Directorate-General for Research and Innovation (European Commission), PPMI, and UNU-MERIT. Monitoring the Open Access Policy of Horizon 2020: Final Report. LU: Publications Office of the European Union, 2021. <https://data.europa.eu/doi/10.2777/268348>.
 
 ##### Existing methodologies
 
@@ -147,62 +63,26 @@ Office of the European Union, 2021.
 A measure that can tell more about the quality of data repositories.
 
 -   Datasets per repository
--   []{#_Hlk130734965}CoreTrustSeal provides a list of repositories
-    certified by them: <https://amt.coretrustseal.org/certificates/>
--   Data curation and metadata completeness of the repositories could be
-    a seen as a qualitative measure of the relevance and analytical
-    potential of the repository (e.g., repositories that clearly
-    identify the types of data registered, whether they are openly
-    available, etc.)
+-   []{#_Hlk130734965}CoreTrustSeal provides a list of repositories certified by them: <https://amt.coretrustseal.org/certificates/>
+-   Data curation and metadata completeness of the repositories could be a seen as a qualitative measure of the relevance and analytical potential of the repository (e.g., repositories that clearly identify the types of data registered, whether they are openly available, etc.)
 
-It can be difficult to obtain data on all existing data repositories,
-given the large number, variety and lack of metadata curation. There is
-not yet widely available information on this in the mainstream
-scientific platforms, but there are some efforts that provide
-information on the topic listed below.
+It can be difficult to obtain data on all existing data repositories, given the large number, variety and lack of metadata curation. There is not yet widely available information on this in the mainstream scientific platforms, but there are some efforts that provide information on the topic listed below.
 
 ###### &lt;Core Trust Seal&gt;
 
-Core Trust Seal is a non-profit organisation that labels data sources
-with their seal if data sources adhere to the FAIR principles. On the
-website a [list](https://amt.coretrustseal.org/certificates/) is
-maintained with all the data sources that the seal has been assigned to.
-Data stored in these sources can thus be considered to be produced in
-accordance with the FAIR principles. When performing research related to
-the availability of data repositories, one can consider repositories
-that have received the CoreTrustSeal, the Nestor Seal DIN31644, the
-ISO16363 certification, or similar, to be automatically trusted.” (Jahn
-et al., 2023)
+Core Trust Seal is a non-profit organisation that labels data sources with their seal if data sources adhere to the FAIR principles. On the website a [list](https://amt.coretrustseal.org/certificates/) is maintained with all the data sources that the seal has been assigned to. Data stored in these sources can thus be considered to be produced in accordance with the FAIR principles. When performing research related to the availability of data repositories, one can consider repositories that have received the CoreTrustSeal, the Nestor Seal DIN31644, the ISO16363 certification, or similar, to be automatically trusted.” (Jahn et al., 2023)
 
-1.  “The HE AGA considers certified repositories that have received the
-    CoreTrustSeal, the Nestor Seal DIN31644, the ISO16363 certification,
-    or similar, to be automatically trusted.” \[Jahn et al., 2023, p.
-    18\]Existing methodologies
+1.  “The HE AGA considers certified repositories that have received the CoreTrustSeal, the Nestor Seal DIN31644, the ISO16363 certification, or similar, to be automatically trusted.” \[Jahn et al., 2023, p. 18\]Existing methodologies
 
-The CoreTrustSeal methodology is a standardized evaluation process used
-to assess data repositories for their trustworthiness and adherence to
-best practices in data management and curation. Here is a brief overview
-of the methodology used by CoreTrustSeal:
+The CoreTrustSeal methodology is a standardized evaluation process used to assess data repositories for their trustworthiness and adherence to best practices in data management and curation. Here is a brief overview of the methodology used by CoreTrustSeal:
 
-Self-assessment: The first step in the CoreTrustSeal evaluation process
-is for the repository to conduct a self-assessment of its data
-management policies and practices. This involves completing a
-questionnaire that covers a range of topics related to data management,
-including data access, preservation, and curation.
+Self-assessment: The first step in the CoreTrustSeal evaluation process is for the repository to conduct a self-assessment of its data management policies and practices. This involves completing a questionnaire that covers a range of topics related to data management, including data access, preservation, and curation.
 
-External review: After the self-assessment is complete, the repository
-submits its questionnaire and supporting documentation to an external
-reviewer, who evaluates the repository's responses and identifies any
-areas of concern or improvement.
+External review: After the self-assessment is complete, the repository submits its questionnaire and supporting documentation to an external reviewer, who evaluates the repository's responses and identifies any areas of concern or improvement.
 
-Site visit: In some cases, the external reviewer may conduct a site
-visit to the repository to further evaluate its data management
-practices and facilities.
+Site visit: In some cases, the external reviewer may conduct a site visit to the repository to further evaluate its data management practices and facilities.
 
-Certification: Based on the results of the self-assessment, external
-review, and site visit (if applicable), the repository may be awarded
-the CoreTrustSeal certification if it meets the criteria for trustworthy
-data management and curation.
+Certification: Based on the results of the self-assessment, external review, and site visit (if applicable), the repository may be awarded the CoreTrustSeal certification if it meets the criteria for trustworthy data management and curation.
 
 ###### &lt;methodology&gt;
 
@@ -212,11 +92,6 @@ data management and curation.
 
 ## References
 
-Goben, A., & Sandusky, R. J. (2020). *Open data repositories: Current
-risks and opportunities \| Goben \| College & Research Libraries News*.
-https://doi.org/10.5860/crln.81.1.62
+Goben, A., & Sandusky, R. J. (2020). *Open data repositories: Current risks and opportunities \| Goben \| College & Research Libraries News*. https://doi.org/10.5860/crln.81.1.62
 
-Robinson-Garcia, N., Mongeon, P., Jeng, W., & Costas, R. (2017).
-DataCite as a novel bibliometric source: Coverage, strengths and
-limitations. *Journal of Informetrics*, *11*(3), 841–854.
-https://doi.org/10.1016/j.joi.2017.07.003
+Robinson-Garcia, N., Mongeon, P., Jeng, W., & Costas, R. (2017). DataCite as a novel bibliometric source: Coverage, strengths and limitations. *Journal of Informetrics*, *11*(3), 841–854. https://doi.org/10.1016/j.joi.2017.07.003

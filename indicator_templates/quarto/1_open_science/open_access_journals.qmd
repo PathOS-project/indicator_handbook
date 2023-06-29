@@ -1,7 +1,6 @@
 # Open access journals {#open-access-journals .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |             |                                                         |
 |---------|---------------|-------------|---------------------------------------------------------|
@@ -12,34 +11,19 @@ on top):
 
 Description:
 
--   The "OA journals" indicator measures the availability of *fully*
-    open access (OA) journals for a particular level of interest (e.g.
-    research area, year, etc.). An open access journal is a scholarly
-    journal that is freely available online and does not charge readers
-    or institutions for access to its content.
+-   The "OA journals" indicator measures the availability of *fully* open access (OA) journals for a particular level of interest (e.g. research area, year, etc.). An open access journal is a scholarly journal that is freely available online and does not charge readers or institutions for access to its content.
 
 Usefulness:
 
--   The "OA journals" indicator provides insight into the availability
-    of infrastructure and uptake of Open Science.
--   It can help to identify scientific areas (for example) where OA
-    journals are lacking or where access to these journals is limited,
-    potentially hindering the adoption of OA publishing practices.
--   This indicator can also be used to assess the impact of OA
-    publishing on scholarly communication and to identify areas where
-    additional resources and support may be needed.
+-   The "OA journals" indicator provides insight into the availability of infrastructure and uptake of Open Science.
+-   It can help to identify scientific areas (for example) where OA journals are lacking or where access to these journals is limited, potentially hindering the adoption of OA publishing practices.
+-   This indicator can also be used to assess the impact of OA publishing on scholarly communication and to identify areas where additional resources and support may be needed.
 
 Limitations:
 
--   The "OA journals" indicator has limitations because it does not
-    account for the quality or peer-review process of the OA journals,
-    which can vary widely.
--   Not all fields or research areas may have a culture of OA
-    publishing, which can affect the comparison of the indicator across
-    different contexts.
--   This indicator also does not account for other forms of OA
-    publishing, such as OA monographs or book chapters, which can also
-    play a role in the dissemination of research findings.
+-   The "OA journals" indicator has limitations because it does not account for the quality or peer-review process of the OA journals, which can vary widely.
+-   Not all fields or research areas may have a culture of OA publishing, which can affect the comparison of the indicator across different contexts.
+-   This indicator also does not account for other forms of OA publishing, such as OA monographs or book chapters, which can also play a role in the dissemination of research findings.
 
 ## Metrics
 
@@ -47,8 +31,7 @@ Limitations:
 
 Description:
 
--   The "number of OA journals" metric measures the quantity of open
-    access (OA) journals available to researchers
+-   The "number of OA journals" metric measures the quantity of open access (OA) journals available to researchers
 
 Usefulness:
 
@@ -83,8 +66,7 @@ fully OA journals
 
 **Diamond OS has to do with the APC business model of the journal.**
 
-**Fully/Gold OA journals can be Diamond (no APC) or with APC therefore
-we would have indicators by Journal Business Model**
+**Fully/Gold OA journals can be Diamond (no APC) or with APC therefore we would have indicators by Journal Business Model**
 
 -   **Fully OA (Gold), Hybrid, Transformative**
 
@@ -92,8 +74,7 @@ we would have indicators by Journal Business Model**
 
 -   **Diamond, Gold with APCs, Hybrid or sth like that**
 
-**See here plz:
-https://monitor.openaire.eu/methodology/terminology\#constructed-attributes**
+**See here plz: https://monitor.openaire.eu/methodology/terminology\#constructed-attributes**
 
 #### Measurement.
 

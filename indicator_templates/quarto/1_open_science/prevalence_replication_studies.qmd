@@ -1,7 +1,6 @@
 # Prevalence of replication studies {#prevalence-of-replication-studies .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |             |                                                         |
 |---------|---------------|-------------|---------------------------------------------------------|
@@ -11,149 +10,61 @@ on top):
 
 ## Description
 
-Reproducibility and replicability are closely related concepts in
-scientific research. Reproducibility refers to the ability of
-independent researchers to obtain consistent results when using the same
-data and methods. It involves analyzing existing data in a similar
-manner to validate the findings. On the other hand, replicability
-focuses on the ability to repeat the entire experiment or study using
-new data collection and similar methods employed in the original study.
-This includes collecting new data to ensure the accuracy and robustness
-of the findings.
+Reproducibility and replicability are closely related concepts in scientific research. Reproducibility refers to the ability of independent researchers to obtain consistent results when using the same data and methods. It involves analyzing existing data in a similar manner to validate the findings. On the other hand, replicability focuses on the ability to repeat the entire experiment or study using new data collection and similar methods employed in the original study. This includes collecting new data to ensure the accuracy and robustness of the findings.
 
-Reproducibility serves as a necessary but not sufficient condition for
-replicability. While reproducibility emphasizes obtaining consistent
-results from the same data and methods, replicability extends this by
-aiming to achieve the same results from new data and methods. In
-essence, replicability confirms the generalizability and applicability
-of the original research findings.
+Reproducibility serves as a necessary but not sufficient condition for replicability. While reproducibility emphasizes obtaining consistent results from the same data and methods, replicability extends this by aiming to achieve the same results from new data and methods. In essence, replicability confirms the generalizability and applicability of the original research findings.
 
-Replication studies play a crucial role in addressing the concepts of
-reproducibility and replicability. They are research studies that
-attempt to validate the findings of a prior piece of research by
-repeating the study using similar methods and circumstances. They can be
-exact or conceptual and aim to confirm the accuracy and broad
-applicability of the original research. Replication studies are
-important because they increase confidence in the findings of the
-original research and provide opportunities to test existing theories,
-hypotheses, or models.
+Replication studies play a crucial role in addressing the concepts of reproducibility and replicability. They are research studies that attempt to validate the findings of a prior piece of research by repeating the study using similar methods and circumstances. They can be exact or conceptual and aim to confirm the accuracy and broad applicability of the original research. Replication studies are important because they increase confidence in the findings of the original research and provide opportunities to test existing theories, hypotheses, or models.
 
-Prevalence of replication studies is an indicator of the extent to which
-replication studies are being conducted in a particular field or
-scientific community. It aims to capture the adoption of open science
-practices related to reproducibility and transparency. Replication
-studies are important for validating and building upon existing research
-findings, and promoting open science practices can increase the
-reliability and credibility of scientific research.
+Prevalence of replication studies is an indicator of the extent to which replication studies are being conducted in a particular field or scientific community. It aims to capture the adoption of open science practices related to reproducibility and transparency. Replication studies are important for validating and building upon existing research findings, and promoting open science practices can increase the reliability and credibility of scientific research.
 
-This indicator can be used to assess the level of adoption of open
-science practices related to replication in a particular field, and to
-identify potential barriers or incentives for the adoption of such
-practices. Additionally, the prevalence of replication studies can be
-used to assess the impact of open science policies and initiatives aimed
-at promoting reproducibility and transparency in research.
+This indicator can be used to assess the level of adoption of open science practices related to replication in a particular field, and to identify potential barriers or incentives for the adoption of such practices. Additionally, the prevalence of replication studies can be used to assess the impact of open science policies and initiatives aimed at promoting reproducibility and transparency in research.
 
 ## Metrics
 
 ### Number of replication studies
 
-Number of replication studies is a metric that counts the number of
-studies that replicate previous research findings.
+Number of replication studies is a metric that counts the number of studies that replicate previous research findings.
 
-Limitations of this metric include the potential for biased or
-incomplete reporting of replication studies, as well as the possibility
-that some replication studies may not be identified or counted due to
-differences in methodology or interpretation.
+Limitations of this metric include the potential for biased or incomplete reporting of replication studies, as well as the possibility that some replication studies may not be identified or counted due to differences in methodology or interpretation.
 
 #### Measurement.
 
-To measure the number of replication studies, besides manually testing,
-a suitable automatic approach is to use text mining and machine learning
-techniques to find candidate studies that define themselves as
-replications or provide evidence of replication. Another approach is to
-search for a specific tag or field in relevant databases that indicate
-replication studies, such as the Open Science Framework's Registered
-Reports database (<https://osf.io/registries/discover?provider=OSF>) or
-the Replication Wiki
-(<http://replication.uni-goettingen.de/wiki/index.php/Main_Page>). An
-alternative method would be to conduct a citation analysis, where
-relevant citations from the original publications are collected,
-referenced within the original text, and assessed using an automated
-tool to determine if they can be classified as replication studies.
+To measure the number of replication studies, besides manually testing, a suitable automatic approach is to use text mining and machine learning techniques to find candidate studies that define themselves as replications or provide evidence of replication. Another approach is to search for a specific tag or field in relevant databases that indicate replication studies, such as the Open Science Framework's Registered Reports database (<https://osf.io/registries/discover?provider=OSF>) or the Replication Wiki (<http://replication.uni-goettingen.de/wiki/index.php/Main_Page>). An alternative method would be to conduct a citation analysis, where relevant citations from the original publications are collected, referenced within the original text, and assessed using an automated tool to determine if they can be classified as replication studies.
 
-Potential measurement problems and limitations include the possibility
-of incomplete or inaccurate reporting of replication studies, as well as
-differences in definitions and methodologies for identifying replication
-studies. Additionally, not all replication studies may be published in a
-way that makes them easily identifiable, which could lead to
-undercounting. There may also be variations in the level of adoption of
-open science practices related to replication across different fields or
-scientific communities, which could make it challenging to compare the
-prevalence of replication studies across different domains.
+Potential measurement problems and limitations include the possibility of incomplete or inaccurate reporting of replication studies, as well as differences in definitions and methodologies for identifying replication studies. Additionally, not all replication studies may be published in a way that makes them easily identifiable, which could lead to undercounting. There may also be variations in the level of adoption of open science practices related to replication across different fields or scientific communities, which could make it challenging to compare the prevalence of replication studies across different domains.
 
 ##### Existing datasources:
 
 ###### Open Science Framework (OSF) - Registered Reports
 
-The Open Science Framework (OSF) provides a platform for researchers to
-pre-register their studies, including replication studies, as Registered
-Reports. These reports undergo peer review prior to data collection,
-ensuring transparency and credibility. The OSF Registered Reports
-database can be accessed at
-<https://osf.io/registries/discover?provider=OSF>. The database can be
-queried using specific search terms to find replication
+The Open Science Framework (OSF) provides a platform for researchers to pre-register their studies, including replication studies, as Registered Reports. These reports undergo peer review prior to data collection, ensuring transparency and credibility. The OSF Registered Reports database can be accessed at <https://osf.io/registries/discover?provider=OSF>. The database can be queried using specific search terms to find replication
 
-For the calculation of the metric, the database can be queried using
-specific search terms to find the relevant replication studies.
+For the calculation of the metric, the database can be queried using specific search terms to find the relevant replication studies.
 
-Limitations of this datasource include the reliance on researchers
-voluntarily registering their studies as Registered Reports, which may
-introduce selection bias. Additionally, not all replication studies may
-be registered or reported in this database, limiting its coverage.
+Limitations of this datasource include the reliance on researchers voluntarily registering their studies as Registered Reports, which may introduce selection bias. Additionally, not all replication studies may be registered or reported in this database, limiting its coverage.
 
 ###### Replication Wiki
 
-The Replication Wiki
-(<http://replication.uni-goettingen.de/wiki/index.php/Main_Page>) is an
-online resource that catalogs a curated list of replication studies.
+The Replication Wiki (<http://replication.uni-goettingen.de/wiki/index.php/Main_Page>) is an online resource that catalogs a curated list of replication studies.
 
-However, it is important to note that the Replication Wiki may not cover
-all replication studies, and its coverage may vary across different
-fields or scientific domains.
+However, it is important to note that the Replication Wiki may not cover all replication studies, and its coverage may vary across different fields or scientific domains.
 
 ##### Existing methodologies
 
 ###### &lt;methodology name&gt;
 
-To our knowledge there is no existing methodology to automatically find
-replication studies. Some suggested methods are the following:
+To our knowledge there is no existing methodology to automatically find replication studies. Some suggested methods are the following:
 
-1.  Text mining and machine learning algorithm to find candidate studies
-    that define themselves as replications or provide evidence of
-    replication.
-2.  Search relevant fields or tags in specific databases to find
-    publications that are replication studies.
-3.  Perform citation analysis, where relevant citations from the
-    original publications are collected, referenced within the original
-    text, and assessed using an automated tool to determine if they can
-    be classified as replication studies.
+1.  Text mining and machine learning algorithm to find candidate studies that define themselves as replications or provide evidence of replication.
+2.  Search relevant fields or tags in specific databases to find publications that are replication studies.
+3.  Perform citation analysis, where relevant citations from the original publications are collected, referenced within the original text, and assessed using an automated tool to determine if they can be classified as replication studies.
 
 ### Number (%) of publications that are replication studies
 
-Metric that measures the percentage of publications within a specific
-field or scientific community that are replication studies. This metric
-provides a more nuanced perspective on the prevalence of replication
-studies than simply counting the number of replication studies, as it
-considers the total number of publications within a specific scientific
-field or task.
+Metric that measures the percentage of publications within a specific field or scientific community that are replication studies. This metric provides a more nuanced perspective on the prevalence of replication studies than simply counting the number of replication studies, as it considers the total number of publications within a specific scientific field or task.
 
-Limitations of this metric include the potential for biased or
-incomplete reporting of replication studies, as well as the possibility
-that some replication studies may be misclassified as non-replication
-studies due to differences in methodology or interpretation.
-Additionally, this metric may be influenced by factors such as the
-availability of funding for replication studies and the incentives for
-researchers to conduct replication studies.
+Limitations of this metric include the potential for biased or incomplete reporting of replication studies, as well as the possibility that some replication studies may be misclassified as non-replication studies due to differences in methodology or interpretation. Additionally, this metric may be influenced by factors such as the availability of funding for replication studies and the incentives for researchers to conduct replication studies.
 
 #### Measurement.
 

@@ -1,7 +1,6 @@
 # Prevalence of open/FAIR data practices {#prevalence-of-openfair-data-practices .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision
-on top):
+History (please fill out in reverse chronological order, latest revision on top):
 
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
@@ -11,117 +10,41 @@ on top):
 
 ## Description
 
-The open science discourse has been fuelled by the prospect of a more
-open and collaborative scientific effort that can accelerate scientific
-development and innovation. A big step in this direction is the
-development of open data practices that make it easier for scientist to
-share and reuse data for research. Often this agenda is pushed forward
-with the Findability, Accessibility, Interoperability and Reusability
-(FAIR) principles (Wilkinson et al., 2016). Taking these principles in
-mind serves to open up data practices in science and thereby improve
-scientific data practices, data reuse and reproducibility. Accordingly,
-it is important to get an indication of the prevalence of such practices
-in the scientific system to get an overview of the status of data
-sharing and open science in general.
+The open science discourse has been fuelled by the prospect of a more open and collaborative scientific effort that can accelerate scientific development and innovation. A big step in this direction is the development of open data practices that make it easier for scientist to share and reuse data for research. Often this agenda is pushed forward with the Findability, Accessibility, Interoperability and Reusability (FAIR) principles (Wilkinson et al., 2016). Taking these principles in mind serves to open up data practices in science and thereby improve scientific data practices, data reuse and reproducibility. Accordingly, it is important to get an indication of the prevalence of such practices in the scientific system to get an overview of the status of data sharing and open science in general.
 
-The FAIR principles and open data management try to establish a data
-environment in which high quality data is easily accessible in the long
-term and where this data can be simply discovered, evaluated and reused
-(Wilkinson et al., 2016). Making data more findable could be achieved by
-using identifiers, adding rich metadata and registration in a searchable
-resource. Accessibility could be improved by data being retrieved by
-their identifier in a standardized format, as well as by keeping
-metadata accessible even if the data is no longer available.
-Interoperability could be enhanced by using applicable language and
-vocabularies along with qualified references to other data. Reusability
-of data can be increased by unambiguous and comprehensive storing and
-describing practices.
+The FAIR principles and open data management try to establish a data environment in which high quality data is easily accessible in the long term and where this data can be simply discovered, evaluated and reused (Wilkinson et al., 2016). Making data more findable could be achieved by using identifiers, adding rich metadata and registration in a searchable resource. Accessibility could be improved by data being retrieved by their identifier in a standardized format, as well as by keeping metadata accessible even if the data is no longer available. Interoperability could be enhanced by using applicable language and vocabularies along with qualified references to other data. Reusability of data can be increased by unambiguous and comprehensive storing and describing practices.
 
-Different stakeholders, such as researchers, data publishers and funding
-agencies stand to benefit from these practices. More insight in the
-application and presence of FAIR data principles could be very relevant
-in their profession. Questions typically relate to how to improve the
-implementation and development of FAIR principles. In order to improve
-(FAIR) data sharing practices, it is important to first have an overview
-of the current practices. Hence, relevant questions are where, how and
-what FAIR data practices are used in an area of interest. Important
-relations to research in this context are for instance the relation
-between the use of FAIR data practices and data use as well as
-scientific output (total number, citations, social impact etc.).
+Different stakeholders, such as researchers, data publishers and funding agencies stand to benefit from these practices. More insight in the application and presence of FAIR data principles could be very relevant in their profession. Questions typically relate to how to improve the implementation and development of FAIR principles. In order to improve (FAIR) data sharing practices, it is important to first have an overview of the current practices. Hence, relevant questions are where, how and what FAIR data practices are used in an area of interest. Important relations to research in this context are for instance the relation between the use of FAIR data practices and data use as well as scientific output (total number, citations, social impact etc.).
 
 ## Metrics
 
 ### Number of publications with shared data
 
-The number of publications with shared data can serve as a quick measure
-to assess to what extent open data practices are used in the area of
-interest. It does however not take into account how and to what extent
-the FAIR principles were followed and the nature of the data itself. Due
-to these shortcomings, it can give a skewed representation in areas
-where poor quality or partly available data is documented as shared
-data. An additional challenge is to identify not only shared data that
-is shared through official repositories, but also data that is shared as
-supplementary material.
+The number of publications with shared data can serve as a quick measure to assess to what extent open data practices are used in the area of interest. It does however not take into account how and to what extent the FAIR principles were followed and the nature of the data itself. Due to these shortcomings, it can give a skewed representation in areas where poor quality or partly available data is documented as shared data. An additional challenge is to identify not only shared data that is shared through official repositories, but also data that is shared as supplementary material.
 
-In similar fashion the percentage of publications with shared data in
-the area of interest can give a quick representation of how widespread
-the use of open data practices is. When looking specifically at the
-prevalence of open data practices this would be the preferred metric
-over the total number of publications with shared data. However, the
-percentage measure suffers the same shortcomings as mentioned before for
-the total number.
+In similar fashion the percentage of publications with shared data in the area of interest can give a quick representation of how widespread the use of open data practices is. When looking specifically at the prevalence of open data practices this would be the preferred metric over the total number of publications with shared data. However, the percentage measure suffers the same shortcomings as mentioned before for the total number.
 
 #### Measurement.
 
-The number of publications with shared data can be represented as a
-simple count measure of the sample of interest. The percentage can be
-calculated by dividing the total number of publications with shared data
-with the total number of units included.
+The number of publications with shared data can be represented as a simple count measure of the sample of interest. The percentage can be calculated by dividing the total number of publications with shared data with the total number of units included.
 
 ##### Existing datasources:
 
 ###### &lt;DataCite/Crossref?&gt;
 
-DataCite and Crossref are both organizations that provide services for
-identifying and citing research data. They maintain large databases of
-metadata about research articles and associated datasets, including
-information on open access data. Besides providing DOIs for datasets,
-DataCite and Crossref also maintain metadata about the datasets,
-including information on data availability, access restrictions, and
-licensing information. This metadata can be accessed programmatically
-through APIs provided by DataCite and Crossref, making it a valuable
-data source for researchers interested in open access data.
+DataCite and Crossref are both organizations that provide services for identifying and citing research data. They maintain large databases of metadata about research articles and associated datasets, including information on open access data. Besides providing DOIs for datasets, DataCite and Crossref also maintain metadata about the datasets, including information on data availability, access restrictions, and licensing information. This metadata can be accessed programmatically through APIs provided by DataCite and Crossref, making it a valuable data source for researchers interested in open access data.
 
 ##### Existing methodologies
 
 ###### Extract dataset sharing based on NLP
 
-The Public Library of Science (PLOS) is a non-profit publisher of
-open-access journals. PLOS provides indicators on data repository use in
-PLOS articles as well as overall data repository use. PLOS uses a
-combination of manual curation and automated methods to generate
-information on open access data. This includes reviewing data
-availability statements provided by authors, checking data repositories
-for publicly accessible data associated with articles, and using natural
-language processing and machine learning algorithms to identify mentions
-of data availability in articles. PLOS also encourages authors to
-provide detailed data availability statements and to deposit their data
-in public repositories to facilitate open data access.
+The Public Library of Science (PLOS) is a non-profit publisher of open-access journals. PLOS provides indicators on data repository use in PLOS articles as well as overall data repository use. PLOS uses a combination of manual curation and automated methods to generate information on open access data. This includes reviewing data availability statements provided by authors, checking data repositories for publicly accessible data associated with articles, and using natural language processing and machine learning algorithms to identify mentions of data availability in articles. PLOS also encourages authors to provide detailed data availability statements and to deposit their data in public repositories to facilitate open data access.
 
-PLOS has developed the indicators on data sharing and data use through
-DataSeer. DataSeer provides a NLP and AI backed algorithm that can
-automatically link data sources to doi's and check if these data sources
-are open source. Both the [machine
-learning](https://github.com/kermitt2/dataseer-ml) code and [web
-app](https://github.com/DataSeer/dataseer-web) code are openly
-available.
+PLOS has developed the indicators on data sharing and data use through DataSeer. DataSeer provides a NLP and AI backed algorithm that can automatically link data sources to doi's and check if these data sources are open source. Both the [machine learning](https://github.com/kermitt2/dataseer-ml) code and [web app](https://github.com/DataSeer/dataseer-web) code are openly available.
 
-PLOS also provides API's to search its database. This
-[page](https://api.plos.org/solr/examples/) provides some example Solr
-queries, the specific queries will depend on the research question.
+PLOS also provides API's to search its database. This [page](https://api.plos.org/solr/examples/) provides some example Solr queries, the specific queries will depend on the research question.
 
-Might be relevant also for indicator on data usage, not only for
-indicator on data sharing.
+Might be relevant also for indicator on data usage, not only for indicator on data sharing.
 
 ###### &lt;methodology name&gt;
 
@@ -131,23 +54,14 @@ indicator on data sharing.
 
 ### &lt;Level of FAIRness of data&gt;
 
-Metrics on the level of FAIRness of data (sources) can support in
-establishing the prevalence of open/FAIR data practices. This metric
-attempts to show in a more nuanced manner where FAIR data practices are
-used and in some cases even to what extent they are used. Assessing
-whether or not a data source practices FAIR principles is not trivial
-with a quick glance, but there are initiatives that developed
-methodologies that assist to determine this for (a large number of) data
-sources.
+Metrics on the level of FAIRness of data (sources) can support in establishing the prevalence of open/FAIR data practices. This metric attempts to show in a more nuanced manner where FAIR data practices are used and in some cases even to what extent they are used. Assessing whether or not a data source practices FAIR principles is not trivial with a quick glance, but there are initiatives that developed methodologies that assist to determine this for (a large number of) data sources.
 
 #### Measurement.
 
 ##### Existing datasources:Existing methodologies
 
-\[Level of FAIRness is for instance tried to be measured by
-https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0\
-Additional possibility: 5-star level from Tim Berners-Lee:
-https://5stardata.info/en/\
+\[Level of FAIRness is for instance tried to be measured by https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0\
+Additional possibility: 5-star level from Tim Berners-Lee: https://5stardata.info/en/\
 Perhaps som additional useful resource is: https://www.go-fair.org/
 
 ###### &lt;methodology name&gt;
@@ -156,20 +70,9 @@ Perhaps som additional useful resource is: https://www.go-fair.org/
 
 ###### &lt;Research Data Alliance &gt;
 
-The Research Data Alliance developed a [FAIR Data Maturity
-Model](https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0)
-that can help to assess whether or not data adheres to the FAIR
-principles. This document is not meant to be a normative model, but
-provide guidelines for informed assessment.
+The Research Data Alliance developed a [FAIR Data Maturity Model](https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0) that can help to assess whether or not data adheres to the FAIR principles. This document is not meant to be a normative model, but provide guidelines for informed assessment.
 
-The
-[document](https://www.rd-alliance.org/system/files/FAIR%20Data%20Maturity%20Model_%20specification%20and%20guidelines_v1.00.pdf)
-includes a set of indicators for each of the four FAIR principles that
-can be used to assess whether or not the principles are met. Each
-indicator is described in detail and its relevance is annotated
-(essential, important or useful). The model recommends to evaluate the
-maturity of each indicator with the following set of maturity
-categories:
+The [document](https://www.rd-alliance.org/system/files/FAIR%20Data%20Maturity%20Model_%20specification%20and%20guidelines_v1.00.pdf) includes a set of indicators for each of the four FAIR principles that can be used to assess whether or not the principles are met. Each indicator is described in detail and its relevance is annotated (essential, important or useful). The model recommends to evaluate the maturity of each indicator with the following set of maturity categories:
 
 0 – not applicable
 
@@ -181,41 +84,23 @@ categories:
 
 4 – fully implemented
 
-By following this methodology, one could assess to what extent the FAIR
-data practices are adhered to and create comprehensive overviews, for
-instance by showing the scores in radar charts.
+By following this methodology, one could assess to what extent the FAIR data practices are adhered to and create comprehensive overviews, for instance by showing the scores in radar charts.
 
 Data life cycle assessment
 
-Determining the level of FAIR data practices can involve assessing how
-well data adheres to the FAIR principles at each stage of the data
-lifecycle, from creation to sharing and reuse.
+Determining the level of FAIR data practices can involve assessing how well data adheres to the FAIR principles at each stage of the data lifecycle, from creation to sharing and reuse.
 
-Identify the stages of the data lifecycle: The data lifecycle typically
-includes stages such as planning, collection, processing, analysis,
-curation, sharing, and reuse. Identify the stages that are relevant to
-the data to be assessed.
+Identify the stages of the data lifecycle: The data lifecycle typically includes stages such as planning, collection, processing, analysis, curation, sharing, and reuse. Identify the stages that are relevant to the data to be assessed.
 
 [http](https://hal.science/hal-02070883/file/Howto_FAIR_DataLifecycle_Aprill2019.pdf)s://hal.science/hal-02070883/file/Howto\_FAIR\_DataLifecycle\_Aprill2019.pdf
 
-Evaluate adherence to FAIR principles at each stage: For each stage of
-the data lifecycle, evaluate the extent to which the data adheres to the
-FAIR principles. Use for instance the FAIR Data Maturity Model to score
-the adherence to the FAIR principles, assign a score for each principle
-and stage of the data lifecycle.
+Evaluate adherence to FAIR principles at each stage: For each stage of the data lifecycle, evaluate the extent to which the data adheres to the FAIR principles. Use for instance the FAIR Data Maturity Model to score the adherence to the FAIR principles, assign a score for each principle and stage of the data lifecycle.
 
-Determine the overall level of FAIR data practices: Once the scores for
-each principle and stage have been assigned, determine the overall level
-of FAIR data practices. This can be done by using a summary score that
-takes into account the scores for each principle and stage, or by
-assigning a level of FAIR data practices based on the average score
-across the principles and stages.
+Determine the overall level of FAIR data practices: Once the scores for each principle and stage have been assigned, determine the overall level of FAIR data practices. This can be done by using a summary score that takes into account the scores for each principle and stage, or by assigning a level of FAIR data practices based on the average score across the principles and stages.
 
 ## Known correlates
 
-Some research suggests that openly sharing data is positively related to
-the citation rate of publications (Piwowar et al., 2007; Piwowar &
-Vision, 2013).
+Some research suggests that openly sharing data is positively related to the citation rate of publications (Piwowar et al., 2007; Piwowar & Vision, 2013).
 
 ## Notes
 
@@ -225,18 +110,8 @@ Vision, 2013).
 
 \[Add Zotero bibliography here\]
 
-Piwowar, H. A., Day, R. S., & Fridsma, D. B. (2007). Sharing Detailed
-Research Data Is Associated with Increased Citation Rate. *PLoS ONE*,
-*2*(3), e308. https://doi.org/10.1371/journal.pone.0000308
+Piwowar, H. A., Day, R. S., & Fridsma, D. B. (2007). Sharing Detailed Research Data Is Associated with Increased Citation Rate. *PLoS ONE*, *2*(3), e308. https://doi.org/10.1371/journal.pone.0000308
 
-Piwowar, H. A., & Vision, T. J. (2013). Data reuse and the open data
-citation advantage. *PeerJ*, *1*, e175.
-https://doi.org/10.7717/peerj.175
+Piwowar, H. A., & Vision, T. J. (2013). Data reuse and the open data citation advantage. *PeerJ*, *1*, e175. https://doi.org/10.7717/peerj.175
 
-Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G.,
-Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L.
-B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M.,
-Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B.
-(2016). The FAIR Guiding Principles for scientific data management and
-stewardship. *Scientific Data*, *3*(1), Article 1.
-https://doi.org/10.1038/sdata.2016.18
+Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, *3*(1), Article 1. https://doi.org/10.1038/sdata.2016.18
