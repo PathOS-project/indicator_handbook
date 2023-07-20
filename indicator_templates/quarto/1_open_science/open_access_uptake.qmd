@@ -35,6 +35,8 @@ We are here interested in the extent to which articles are published Open Access
 
 There are some recurrent questions around Open Access publishing. Some questions concern effects of Open Access publications, for instance whether Open Access increases the impact of publications. Other questions focus on effect on Open Access, for instance whether certain Open Access mandates increasing Open Access publishing. By measuring the overall uptake of Open Access publishing, this indicator can help answer such questions.
 
+This is a test.
+
 ## Metrics
 
 ### []{#_Ref126751468}Number of Open Access publications
