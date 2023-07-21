@@ -40,23 +40,60 @@ book:
         - indicator_templates/quarto/1_open_science/transformative_publishing_agreements.qmd
 
     - part: Academic Impact
+      chapters:
+        - indicator_templates/quarto/2_academic_impact/academic_readership.qmd
+        - indicator_templates/quarto/2_academic_impact/citation_impact.qmd
+        - indicator_templates/quarto/2_academic_impact/collaboration_intensity.qmd
+        - indicator_templates/quarto/2_academic_impact/diversity.qmd
+        - indicator_templates/quarto/2_academic_impact/industry_collaboration.qmd
+        - indicator_templates/quarto/2_academic_impact/interdisciplinarity.qmd
+        - indicator_templates/quarto/2_academic_impact/novelty.qmd
+        - indicator_templates/quarto/2_academic_impact/societal_collaboration.qmd
+        - indicator_templates/quarto/2_academic_impact/topic_trends.qmd
+        - indicator_templates/quarto/2_academic_impact/use_of_code_in_research.qmd
+        - indicator_templates/quarto/2_academic_impact/use_of_data_in_research.qmd
+        - indicator_templates/quarto/2_academic_impact/use_of_methods_in_research.qmd
+        - indicator_templates/quarto/2_academic_impact/use_of_patents_in_research.qmd
 
     - part: Societal Impact
+      chapters:
+        - indicator_templates/quarto/3_societal_impact/uptake_in_citizen_science.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_in_education.qmd
+        - indicator_templates/quarto/3_societal_impact/science_literacy.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_by_policy_makers.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_in_the_legal_sector.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_in_the_public_debate.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_in_medical_practice.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_by_patient_groups.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_by_civil_society.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_by_the_general_public.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_by_the_artistic_sector.qmd
+        - indicator_templates/quarto/3_societal_impact/effect_on_democracy.qmd
+        - indicator_templates/quarto/3_societal_impact/effect_on_ethnic_inequality.qmd
+        - indicator_templates/quarto/3_societal_impact/effect_on_gender_inequality.qmd
+        - indicator_templates/quarto/3_societal_impact/effect_on_sdgs.qmd
 
     - part: Economic Impact
+      chapters:
+        - indicator_templates/quarto/4_economic_impact/science_industry_collaboration.qmd
+        - indicator_templates/quarto/4_economic_impact/innovation_output.qmd
+        - indicator_templates/quarto/4_economic_impact/uptake_of_research_result_by_industry.qmd
+        - indicator_templates/quarto/4_economic_impact/socially_relevant_products_and_processes.qmd
+        - indicator_templates/quarto/4_economic_impact/economic_growth_of_companies.qmd
+        - indicator_templates/quarto/4_economic_impact/labour_market_impacts.qmd
+        - indicator_templates/quarto/4_economic_impact/cost_savings.qmd
 
     - part: Reproducibility
       chapters:
-        - 'indicator_templates/quarto/5_reproducibility/consistency_in_reported_numbers.qmd'
-        - 'indicator_templates/quarto/5_reproducibility/impact_of_open_code_in_research.qmd'
-        - 'indicator_templates/quarto/5_reproducibility/impact_of_open_data_in_research.qmd'
-        - 'indicator_templates/quarto/5_reproducibility/inclusion_in_systematic_reviews_or_meta-analyses.qmd'
-        - 'indicator_templates/quarto/5_reproducibility/indicator_template.qmd'
-        - 'indicator_templates/quarto/5_reproducibility/levels_of_replication_found.qmd'
-        - 'indicator_templates/quarto/5_reproducibility/polarity_of_publications.qmd'
-        - 'indicator_templates/quarto/5_reproducibility/reuse_of_code_in_research.qmd'
-        - 'indicator_templates/quarto/5_reproducibility/reuse_of_data_in_research.qmd'
-        - 'indicator_templates/quarto/5_reproducibility/rigour_in_reporting.qmd'
+        - indicator_templates/quarto/5_reproducibility/consistency_in_reported_numbers.qmd
+        - indicator_templates/quarto/5_reproducibility/impact_of_open_code_in_research.qmd
+        - indicator_templates/quarto/5_reproducibility/impact_of_open_data_in_research.qmd
+        - indicator_templates/quarto/5_reproducibility/inclusion_in_systematic_reviews_or_meta-analyses.qmd
+        - indicator_templates/quarto/5_reproducibility/levels_of_replication_found.qmd
+        - indicator_templates/quarto/5_reproducibility/polarity_of_publications.qmd
+        - indicator_templates/quarto/5_reproducibility/reuse_of_code_in_research.qmd
+        - indicator_templates/quarto/5_reproducibility/reuse_of_data_in_research.qmd
+        - indicator_templates/quarto/5_reproducibility/rigour_in_reporting.qmd
 
 format:
   html:
@@ -72,7 +109,7 @@ format:
   pdf:
     documentclass: report
     margin-left: 30mm
-    margin-right: 30mm    
+    margin-right: 30mm
 
   docx:
     reference-doc: template/template.docx
