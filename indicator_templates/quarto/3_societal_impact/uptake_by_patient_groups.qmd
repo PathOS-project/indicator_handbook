@@ -13,7 +13,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 
 ## Metrics
 
-### &lt;metric name&gt;
+### #/% of references to OS publications / use of OS datasets/software in patient group websites / reports
 
 \[Add text here\]
 

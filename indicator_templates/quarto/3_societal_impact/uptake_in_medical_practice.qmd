@@ -13,7 +13,27 @@ History (please fill out in reverse chronological order, latest revision on top)
 
 ## Metrics
 
-### &lt;metric name&gt;
+### #/% of references to research outputs in medical guidelines
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### # of patients having shared their data
 
 \[Add text here\]
 

@@ -13,7 +13,47 @@ History (please fill out in reverse chronological order, latest revision on top)
 
 ## Metrics
 
-### &lt;metric name&gt;
+### # of the mentions of the idea of Open Science in policy documents
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### #/% of references to research outputs in policy documents
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### #/% of references to research outputs in official institutions reports/websites
 
 \[Add text here\]
 
