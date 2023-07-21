@@ -5,6 +5,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
+| 1.2     | 2023-07-20    | Incorporating revisions      | Thomas Klebel             |
 | 1.1     |               | First draft                  | Thomas Klebel             |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
 
@@ -36,7 +37,7 @@ There is no single datasource for this metric. The metric can be computed based 
 
 ###### Statcheck
 
-The R package “statcheck” (Nuijten et al., 2023) implements the proposed metric. The package can process text strings, PDF and HTML documents, and whole folders containing PDF or HTML documents. In addition, a [web-app based on statcheck](https://michelenuijten.shinyapps.io/statcheck-web/) is available. As discussed above, a key precondition and thus also a limitation for approach used by statcheck is the availability of reported statistics that adhere to the APA format. If statistics are provided completely, statcheck can analyse results from correlations (r) and t, F, χ^2^, Z tests and Q tests^[\[1\]](#footnote-16196){#footnote-ref-16196}^.
+The R package “statcheck” (Nuijten et al., 2023) implements the proposed metric. The package can process text strings, PDF and HTML documents, and whole folders containing PDF or HTML documents. In addition, a [web-app based on statcheck](https://michelenuijten.shinyapps.io/statcheck-web/) is available. As discussed above, a key precondition and thus also a limitation for the approach used by statcheck is the availability of reported statistics that adhere to the APA format. If statistics are provided completely, statcheck can analyse results from correlations (r) and t, F, χ^2^, Z tests and Q tests^[\[1\]](#footnote-16196){#footnote-ref-16196}^.
 
 statcheck takes into account rounding in reporting, reports the recomputed p-value, indicating whether the values are inconsistent or grossly inconsistent, in case the recomputed p-value leads to the opposite conclusion on the statistical significance of the results (e.g., the publication reporting a result as statistically significant, while the recomputed p-value is above the conventional value of 0.05).
 

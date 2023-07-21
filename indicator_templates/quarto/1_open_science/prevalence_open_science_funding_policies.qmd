@@ -15,15 +15,53 @@ This indicator aims to capture the prevalence of funding being provided for open
 
 Practically, funding might be available at various levels. It can be internationally, nationally, regionally, institutionally (RPOs, HEIs, RFOs etc.) or even department or institute dependent.
 
-Knowing the existence of funding can be helpful to evaluate if …
+Knowing the existence of open science funding policies can be helpful to evaluate the overall commitment of funding organizations, governments, and private entities to advancing open science practices and fostering a culture of transparency and collaboration in research. Researchers can assess the extent to which funding agencies prioritize open access publishing, data sharing, and other open science principles, which can influence their decisions on where to submit grant proposals and seek financial support for their projects.
+
+Furthermore, being aware of these policies enables researchers to align their research projects with the values and objectives of funding organizations that actively promote open science. By adhering to open science principles in their proposals and research activities, researchers can increase their chances of securing funding and potentially gain access to additional resources, such as open science infrastructure and collaborative networks.
+
+Beyond individual researchers, understanding the landscape of open science funding policies can also inform policymakers, institutions, and advocacy groups about the progress and impact of open science initiatives. It allows them to identify areas where more support and resources are needed to strengthen the open science ecosystem and accelerate the transition to a more open and transparent research culture.
+
+In summary, knowledge of open science funding policies empowers researchers and stakeholders to make informed decisions, promote open science practices, and contribute to a more inclusive and accessible global research community.
 
 ## Metrics
 
-### &lt;Investments in Open Science Research Infrastructures&gt;
+### &lt;Public supranational open science funding policies&gt;
 
-The metric is to provide the overview of the[]{#_Int_0uJu4pci} sum of capital investments policy making bodies on the international/national/regional levels into related Research Infrastructures. The investment can be of CAPEX (capital expenditure) or OPEX (operational expenses) qualities and is to describe the financial commitment of governing bodies in executing related OS policies. The limitation of the metric derives from the complexity on what to include as financial investment in OS infrastructure, therefore the related national formuli can be varied which makes the comparison somewhat problematic as there is no consensus what a distinguished OS-related investment means therefore what R&I investments to consider when calculating the investent levels. Currently there are ongoing discussions within Europe to clarify these within the framework of EOSC Observatory and EOSC Steering Board that consist of Member States and Associated Countries.
+Public supranational open science funding policies refer to the funding initiatives and programs that are organized and administered at a level beyond that of individual countries or regions. These funding policies are typically established by international organizations or supranational entities that aim to promote open science practices on a global scale. Here are some key characteristics of public supranational open science funding policies:
 
-Please describe how we could measure the proposed metric. What are potential measurement problems and limitations? Please also explain the difficulty of obtaining this measurement, and identify gaps in existing possibilities for measurement. If there are already existing datasources and/or methodologies, these can be described in more detail below. If no datasources or methodologies exist yet, please indicate this.
+-   Global Collaboration: Supranational open science funding policies foster collaboration among researchers, institutions, and countries worldwide. The focus is on encouraging projects that bring together expertise from diverse regions to address global challenges and advance scientific knowledge.
+-   Open Access and Open Data: One of the primary objectives of supranational open science funding policies is to promote open access to research publications and open sharing of research data. This means that funded research should be published in open-access journals or repositories, and research data should be made available to the public for further analysis and reuse.
+-   Cross-Disciplinary Research: Funding policies at the supranational level often support cross-disciplinary research projects that combine insights and methodologies from different scientific fields. This approach aims to foster innovation and address complex societal problems from multiple angles.
+-   Support for Developing Countries: Supranational open science funding policies may include specific provisions to support researchers and institutions in developing countries. These provisions aim to reduce disparities in access to research funding and resources and promote knowledge exchange between developed and developing regions.
+-   Alignment with Global Agendas: Funding policies at the supranational level are often designed to align with and contribute to global agendas and initiatives, such as the United Nations Sustainable Development Goals (SDGs). Researchers are encouraged to address pressing global challenges, such as climate change, health, and poverty alleviation.
+-   Open Science Infrastructure: Public supranational funding initiatives may allocate resources to develop and maintain open science infrastructure, including data repositories, collaborative platforms, and tools that facilitate research collaboration and data sharing on an international scale.
+-   Ethical Considerations: Supranational open science funding policies may emphasize the importance of adhering to ethical standards in research, including data privacy, research integrity, and the protection of research participants' rights.
+
+Examples of organizations that promote supranational open science funding policies include the European Union through its research and innovation programs like Horizon Europe, as well as other international bodies such as UNESCO (United Nations Educational, Scientific and Cultural Organization) and the World Health Organization (WHO).
+
+###### Existing datasources: &lt; UNESCO recommendations &gt; <https://unesdoc.unesco.org/ark:/48223/pf0000383709>&lt; Implementation of the UNESCO recommendations &gt; <https://www.unesco.org/en/open-science/implementation#open-science-working-groups>&lt;ROAR map&gt;
+
+<https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name>
+
+### &lt;Public European open science funding policies&gt;
+
+Please provide a general description of the metric. Please provide an argument why this metric is a good operationalisation of the indicator. Please also describe any limitations of this metric. Highlight differences with respect to other possible metrics.
+
+European open science funding policies are an essential component of the European Union's research and innovation strategy. Open science refers to the practice of making research findings, data, and methodologies openly accessible and transparent to the broader scientific community and the public. The EU is committed to fostering an open and collaborative research environment to accelerate scientific progress, improve the reproducibility of research, and maximize the societal impact of publicly funded research. Here are some key aspects of public European open science funding policies:
+
+Open Access to Publications: European open science funding policies encourage researchers to publish their research findings in open-access journals or repositories. Open access allows anyone, anywhere, to access and read the published research without facing paywalls or subscription fees, promoting the dissemination of knowledge.
+
+Open Research Data: Funding policies support the sharing of research data generated through publicly funded projects. Researchers are encouraged to deposit their data in open repositories, making it possible for other researchers to reuse and validate the data, thus enhancing the reproducibility and reliability of scientific results.
+
+Data Management Plans: When applying for research funding, applicants are often required to submit a data management plan (DMP). A DMP outlines how researchers will handle, store, and share their data during and after the project. This plan ensures that research data is managed in accordance with open science principles.
+
+Collaboration and Networking: Open science funding policies may prioritize projects that foster collaboration and networking between researchers, institutions, and countries. International cooperation is encouraged to leverage diverse expertise and resources in addressing global challenges.
+
+Open Science Tools and Infrastructure: Funding programs may support the development and maintenance of open science tools, platforms, and infrastructure. These resources facilitate data sharing, collaboration, and the use of open-source software and methodologies.
+
+Citizen Science and Public Involvement: Some funding initiatives may promote citizen science projects, where the public actively participates in research activities. Public engagement and involvement in research are seen as ways to strengthen the link between science and society.
+
+Compliance and Evaluation: Funders may require grantees to comply with open science principles as a condition for funding. Additionally, the impact of research funded through open science policies is evaluated not only based on academic metrics but also on its broader societal and economic impacts.
 
 \[Add text here\]
 
@@ -35,12 +73,64 @@ The datasource has a special focus on EOSC related investments which is the back
 
 ##### Existing methodologies
 
-###### &lt;methodology name&gt;
+###### &lt;Interviews, surveys&gt;&lt;ROAR map&gt;
 
-Several related publications can be found in the EOSC Observatory’s Zenodo channel, however it is important to mention that methodologies differ case by case and there are only overarching recommendations to member states and associated countries. This is an ongoing and pioneering activity to enhance the alignment of different countries with different structures. Therefore, the used methodologies and formuli are not standardised yet but the recommendations contain the following criteria:
+<https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name>
 
--   To include OPEX, CAPEX
--   To fix a given percentage of Research infrastructure related investments to have an estimated share of OS-related investments from those
+NA
+
+### &lt;Public national open science funding policies&gt;
+
+Public national open science funding policies are specific strategies and guidelines established by individual countries to support and promote open science practices within their research funding programs. Open science aims to increase transparency, accessibility, and collaboration in the scientific community by making research findings, data, and methodologies openly available to the public and other researchers. Here are some key characteristics of public national open science funding policies:
+
+-   Open Access to Publications: Funding policies encourage or mandate researchers to publish their research findings in open-access journals or deposit them in open repositories. Open access ensures that research outputs are freely accessible to anyone, facilitating the dissemination of knowledge without financial barriers.
+-   Data Sharing and Management: National open science funding policies emphasize the importance of data sharing and may require researchers to develop data management plans (DMPs). DMPs outline how research data will be collected, organized, stored, and made available to other researchers and the public.
+-   Research Data Repositories: National funding policies may provide resources to establish and maintain research data repositories where researchers can deposit and share their data in a standardized and accessible manner.
+-   Reproducibility and Transparency: Open science funding policies promote research reproducibility by encouraging researchers to share their methodologies, code, and analytical workflows. This transparency allows others to verify and build upon existing research.
+-   Collaborative Research Platforms: Funding initiatives may support the development of collaborative research platforms and tools that enable researchers to work together and share data across institutions and disciplines.
+-   Open Educational Resources (OER): Some funding policies extend to supporting the creation and sharing of open educational resources, such as course materials and textbooks. OER can benefit educators and learners by providing free and accessible learning materials.
+-   Citizen Science and Public Engagement: Public national open science funding policies may include provisions for citizen science projects, where the public actively participates in research activities, fostering greater public engagement and involvement in the scientific process.
+-   Evaluation and Incentives: Funding agencies may consider a researcher's commitment to open science principles when evaluating grant proposals, promoting the adoption of open science practices in the academic community. Moreover, researchers who engage in open science may receive recognition and incentives in funding decisions.
+
+It's important to note that the specific details and extent of open science policies may vary among different countries, reflecting the unique research landscape and priorities of each nation. Researchers and applicants seeking funding through national research programs should refer to the official guidelines and requirements provided by their respective funding agencies.
+
+### &lt;Private global open science funding policies&gt;
+
+Private global open science funding policies refer to the strategies and initiatives established by private organizations and foundations with a global reach to support and promote open science practices. These organizations recognize the importance of open and collaborative research in advancing scientific knowledge, addressing global challenges, and maximizing the societal impact of research. Private global open science funding policies often complement public funding efforts and provide additional resources and support to researchers worldwide. Here are some key characteristics of private global open science funding policies:
+
+-   Open Access Publishing: Private global open science funding policies may support open access publishing initiatives, where researchers are encouraged or required to publish their research findings in open-access journals. By doing so, research outputs become freely available to the public without subscription or payment barriers.
+-   Open Data and Data Sharing: Funding policies emphasize the sharing of research data and support efforts to create and maintain open data repositories. Researchers are encouraged to share their data openly, allowing other scientists to access and reuse the data for further analysis and validation.
+-   Collaborative Research Platforms: Private organizations may invest in collaborative research platforms and tools that facilitate data sharing, knowledge exchange, and interdisciplinary collaboration among researchers worldwide.
+-   Research Fellowships and Grants: Private global open science funding policies offer research fellowships and grants to individual researchers and research teams to conduct open science projects. These funding opportunities may have specific requirements for data sharing and open access to research outputs.
+-   Open Science Prizes and Awards: Private organizations may establish awards and prizes to recognize researchers and institutions that demonstrate exceptional commitment to open science principles. These awards serve to incentivize and celebrate open science practices.
+-   Open Educational Resources (OER): Some private organizations with a focus on global open science funding may also support the creation and dissemination of open educational resources, making learning materials more accessible worldwide.
+-   Global Challenges and Impact: Private global open science funding policies often prioritize research that addresses pressing global challenges, such as climate change, healthcare, poverty, and education. The aim is to support research that can have a positive and meaningful impact on society and the environment.
+-   Public-Private Partnerships: Private organizations may collaborate with public entities, academic institutions, and other stakeholders to establish joint initiatives and funding programs that promote open science practices on a global scale.
+
+It's important to note that private global open science funding policies may vary widely among different organizations and foundations. Researchers seeking funding from private entities should carefully review the specific guidelines, requirements, and focus areas of each funding opportunity to ensure their research aligns with the objectives of the funding program.
+
+###### &lt;ROAR map&gt;
+
+<https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name>
+
+### &lt;Private national open science funding policies&gt;
+
+Private national open science funding policies refer to the strategies and guidelines established by private organizations or corporations within individual countries to support and promote open science practices. These funding policies are separate from public national research funding and are provided by private entities that recognize the value of open science principles in advancing research, innovation, and knowledge sharing. Private national open science funding policies typically focus on specific research areas or industries, complementing public funding efforts and contributing to the broader open science ecosystem. Here are some key characteristics of private national open science funding policies:
+
+-   Open Access Initiatives: Private national open science funding policies may support open access publishing, where researchers are encouraged or required to publish their research findings in open-access journals. This ensures that the research is freely available to the public without subscription fees or access barriers.
+-   Research Data Sharing: Private funding policies may incentivize or mandate researchers to share their research data openly, either through public repositories or other designated platforms. Open data sharing enhances research transparency and reproducibility.
+-   Open Science Tools and Platforms: Private organizations may invest in the development and maintenance of open science tools and platforms that facilitate collaboration, data sharing, and knowledge exchange among researchers.
+-   Collaborative Research Projects: Private national open science funding may support collaborative research projects involving multiple research institutions or interdisciplinary teams. These projects often encourage open collaboration and data sharing.
+-   Industry-Specific Initiatives: Some private funding policies may be industry-specific, targeting research and innovation in particular sectors, such as technology, healthcare, energy, or agriculture. These policies may have open science requirements tailored to the specific needs and characteristics of the industry.
+-   Research Fellowships and Grants: Private organizations may offer research fellowships and grants to individual researchers or research teams working on open science projects. These funding opportunities may prioritize projects that align with open science principles.
+-   Open Educational Resources (OER): Private national open science funding policies may also support the creation and dissemination of open educational resources, making educational materials freely accessible to learners.
+-   Social and Environmental Impact: Private organizations may prioritize funding research projects that have a positive impact on society or the environment, aligning with their corporate social responsibility (CSR) objectives.
+
+It's essential to note that private national open science funding policies can vary significantly among different private organizations and industries within a country. Researchers seeking private funding should carefully review the specific guidelines, focus areas, and requirements of each funding opportunity to ensure their research aligns with the objectives of the funding program. Additionally, policies and initiatives may have evolved or changed since my last update, so researchers are encouraged to refer to the most recent guidelines provided by private funding organizations.
+
+###### &lt;ROAR map&gt;
+
+<https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name>
 
 ## Known correlates
 

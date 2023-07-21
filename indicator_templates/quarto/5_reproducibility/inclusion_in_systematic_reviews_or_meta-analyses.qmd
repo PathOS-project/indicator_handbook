@@ -5,12 +5,13 @@ History (please fill out in reverse chronological order, latest revision on top)
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
+| 1.2     | 2023-07-20    | Revisions                    | Thomas Klebel             |
 | 1.1     | 2023-05-02    | First draft                  | Eva Kormann               |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
 
 ## Description
 
-Systematic reviews and meta-analyses are very useful methodologies to synthesize scientific literature on a certain topic. Inclusion of a paper in such a systematic review or meta-analysis can be used as an indicator for reproducibility, since in the process of reviewing literature and assessing inclusion criteria, judgements are made about the quality of a paper (e.g., of methods and results) . For instance, the PRISMA guidelines include specification of risk of bias assessment (Page et al., 2021). Instead of directly investigating the quality of papers, inclusion in systematic reviews and meta-analyses can therefore be taken as a proxy. Papers passing the quality check of a systematic review or meta-analysis could be expected to be more reproducible than papers failing this check. This indicator, however, is dependent on the existence of systematic reviews or meta-analyses for a certain topic and gathering enough information for comparisons might be challenging. Publications available as Open Access might also generally fare better, since none of them are excluded from such studies due to unavailability.
+Systematic reviews and meta-analyses are very useful methodologies to synthesize scientific literature on a certain topic. Inclusion of a paper in such a systematic review or meta-analysis can be used as an indicator for reproducibility, since in the process of reviewing literature and assessing inclusion criteria, judgements are made about the quality of a paper (e.g., of methods and results). For instance, the PRISMA guidelines include specification of risk of bias assessment (Page et al., 2021). Instead of directly investigating the quality of papers, inclusion in systematic reviews and meta-analyses can therefore be taken as a proxy. Papers passing the quality check of a systematic review or meta-analysis could be expected to be more reproducible than papers failing this check. This indicator, however, is dependent on the existence of systematic reviews or meta-analyses for a certain topic and gathering enough information for comparisons might be challenging. Publications available as Open Access might also generally fare better, since none of them are excluded from such studies due to unavailability.
 
 ## Metrics
 
@@ -42,7 +43,9 @@ For a specific paper the number of systematic reviews and meta-analyses that hav
 
 All citing sources of a given paper are classified by their type, filtering out systematic reviews and meta-analyses. This could be done by retrieving keywords in the titles of publications, such as “systematic review”, since publications adhering to the PRISMA guidelines must indicate as such in the title. For the retrieved sources, one would have to manually determine whether they include the given paper in their data synthesis. The number of systematic reviews and meta-analyses where this is the case can then be counted.
 
-##### A key question in applying this metric would be how to interpret the aggregated counts: what number of inclusions would indicate a “robust” or “reproducible” finding? Furthermore, absence of inclusion cannot be taken as a sign for low reproducibility, because there are many reasons why this might be the case: no systematic reviews conducted yet in this field, study not included in prior reviews due to general exclusion criteria (e.g., different language, sample population or study target, etc.).Existing datasources:
+A key question in applying this metric would be how to interpret the aggregated counts: what number of inclusions would indicate a “robust” or “reproducible” finding? Furthermore, absence of inclusion cannot be taken as a sign for low reproducibility, because there are many reasons why this might be the case: no systematic reviews conducted yet in this field, study not included in prior reviews due to general exclusion criteria (e.g., different language, sample population or study target, etc.).
+
+##### Existing datasources:
 
 ###### Semantic analysis of full text
 
@@ -54,7 +57,7 @@ Some systematic reviews or meta-analyses make data available that was gathered d
 
 ### Number of exclusions from systematic reviews or meta-analyses due to methodological issues or bias
 
-Opposite to inclusion, the number of systematic reviews and meta-analyses that have excluded a specific paper in the data synthesis can also be counted. However, exclusion for the reason of being out of scope is no indicator of quality. Therefore, only exclusions specifically due to methodological issues (such as insufficient reporting, obvious mistakes or questionable choice of methods) or suspected bias within a study can be of interest for this metric. To determine this, however, information on specific reasons for exclusion must be given which might be given less frequently than general information about inclusion.
+Opposite to inclusion, the number of systematic reviews and meta-analyses that have excluded a specific paper in the data synthesis can also be counted. However, exclusion for the reason of being out of scope is no indicator of quality. Therefore, only exclusions specifically due to methodological issues (such as insufficient reporting, noticeable errors or questionable choice of methods) or suspected bias within a study can be of interest for this metric. To determine this, however, information on specific reasons for exclusion must be given which might be given less frequently than general information about inclusion.
 
 #### Measurement.
 

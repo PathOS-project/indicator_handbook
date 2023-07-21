@@ -2,52 +2,149 @@
 
 History (please fill out in reverse chronological order, latest revision on top):
 
-|         |               |                              |                           |
-|---------|---------------|------------------------------|---------------------------|
-| Version | Revision date | Revision                     | Author                    |
-| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
+|         |               |                              |                                             |
+|---------|---------------|------------------------------|---------------------------------------------|
+| Version | Revision date | Revision                     | Author                                      |
+| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag, Thed van Leeuwen |
 
 ## Description
 
-\[Add text here\] The Dutch Strategy Evaluation protocol aims at assessing both academic as societal quality and relevance. This is done on the basis of three criteria, namely Output, Usage, and Recognition. The latest SEP, covering the period 2021-2027 also focuses on four particular topics, one of which is Open Science. The []{#_Int_xKrMZ5FL}SEP states with respect to the research assessment of Open Science the following:
+Research assessment is organised differently across the global science system. We here discern four points of research assessment, national assessment exercises or protocols, research funding policies, institutional hiring policies and finally journal peer review.
 
--   consider the extent to which the research unit involves stakeholders, if possible and relevant, in the preparation and execution of the aims and strategy
--   consider to which extent the research unit opens up its work to other researchers and societal stakeholders in the context of its strategy and policy.
--   consider whether the research unit reuses data where possible; how it stores the research data according to the FAIR principles; how it makes its research data, methods and materials available; and when publications are available through open access.
--   Even if Open Science was not yet considered by the research unit for the past period, the assessment evaluates the unit’s considerations and plans for the future with regard to Open Science.
+On the country level, research assessment can be organised in national initiatives (e.g., Italy), rely on protocols (e.g., the Strategy Evaluation Protocol (SEP) in the Netherlands), or by having performance-based funding systems (e.g., UK, Italy, Australia, Norway). However, many countries lack clearly defined research assessment procedures on the national level (e.g., in Europe France or Germany, or the USA). Some countries have a national system that is very tightly organised and allows for very little changes in the system, as the evaluation procedures are embedded in the national laws on higher education (e.g., Italy). In some of the countries mentioned, proof of open science practices is considered in the assessment. For example, in the UK REF, only Open Access publications were assessed, while in the Netherlands Open Science is one of the aspects that are evaluated in the SEP.
 
-This describes the primary knowledge creation process, of which only the publishing part is well taken care off in terms of available data to create valid and trustworthy indicators (see the template on Open Access publishing). On most other dimensions of the primary knowledge creation process, such information is not or only fragmented available. Given the requirements mentioned above, indicators have to be relatively simple (e.g., straight counts of occurrences would do), embedded in a narrative to explain the situation concerning such an indicator.
+When it comes to funding of research, funders in various countries ask for different things. In most cases it is the dissemination that aims at OA publishing, in various forms. COAlition S, an international consortium of research funders aimed at OA publishing, and as a next target, on the openness of the resulting research data. Similarly, the research funded by the European Commission should also be published in OA format, and data should be as open as possible. All of this consists of ex ante requirements, and such mandates have varying effectiveness (Larivière & Sugimoto, 2018). It is difficult to get an impression on how this develops, or how this is monitored.
+
+When it comes to hiring and/or promotion procedures, these are often, if not always, organised on the institutional level. Increasingly, the degree of open science practices in prior positions in a career track is taken into consideration, but how this is organised in various institutions is not immediately clear.
+
+So, we see that across different levels of organization, the uptake of open science practices in the primary knowledge creation process is in general not very systematically integrated into research evaluation practices. Often the publishing part is considered in terms of available data to create valid and trustworthy indicators (see the indicator on Open Access publishing, as well as ROARMAP ([https://roarmap.eprints.org/](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Froarmap.eprints.org%2F&data=05%7C01%7Cleeuwen%40cwts.leidenuniv.nl%7C07bbea10891d493f76ae08db7f9256ff%7Cca2a7f76dbd74ec091086b3d524fb7c8%7C0%7C0%7C638244038751773118%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=89yndq2lKtT3Bxk1xJ0UkKDzj2dZy7pjcgegI3%2BDWIk%3D&reserved=0)), an international registry on OA publishing mandates). On most other dimensions of the primary knowledge creation process (e.g., logbooks, data sharing, peer review, etc.) such information is not or only fragmented available (e.g., for research data, DataCite is such a source, that is a good entrance on data storage, sharing and impact, but hardly comprehensive).
+
+Given the systemic differences and the requirements in various levels of organization mentioned above, indicators have to be relatively simple (e.g., straight counts of occurrences), embedded in a narrative to explain the situation concerning such an indicator. A general problem in this domain is the absence of systematic data sources to support the creation of substantive and robust generic metric indicators, so one has to compromise by aiming at simple indicators. A recent EU project, [](https://graspos.eu/)[GraspOS](http://GraspOS) is particularly focused on the role of Open Science in research assessment, also with the aim to collect more systematic data.
 
 ## Metrics
 
-### &lt;metric name&gt;
+### Number/% hiring policies that reward OS
 
-\[Add text here\]
+This metric can be constructed by creating a perspective on the ways that, within a national setting, hiring of new staff is enriched by aiming at the uptake of open sciences practices by potential candidates. The national-institutional level is probably most successful, as internationally one might get into issues due to various national and /or funding agencies requirements (see above), apart from the efforts due in collecting such information on an international scale.
+
+The metric consists of comparing the number or share of institutions that have policies in place that positively assess the uptake of open science practices by candidates, versus the total number of institutions involved.
+
+Potential issues in designing this indicator are:
+
+-   what variety of open science practices does one take into consideration ?
+-   How open are institutions in sharing such information on their hiring policies ?
+
+This indicator could be aligned with other potential indicators on the uptake of open science practices, e.g., on the uptake of open access publishing, pre-printing, data sharing, open peer review, open logbooks, but also registered reports, preregistration, etc.
 
 #### Measurement.
 
-\[Add text here\]
+One could create this metric best by aiming at the national level, and on that national level at institutions (universities and other publicly funded research organizations). There one might expect a certain alignment to the national policies on open science and the way it should be rewarded. The international level does not supply such an alignment (except perhaps for internationally operating funding agencies).
+
+Potential issues in creating this metric, and measuring the number/% hiring policies that reward OS are:
+
+-   Within an organization, differences might exist on faculty level, regarding the positive reward of the uptake of open science practices (since not all scholarly disciplines are equally aligned when it comes to the uptake of open science practices, the inclusion of the scholarly domain would be a good suggestion, which complicates this metric substantially)
+-   This metric is time-consuming, since no systematic data sources are available.
 
 ##### Existing datasources:
 
 ###### &lt;datasource name&gt;
 
-\[Add text here\]
+No systematic and systemic data sources exist for this metric.
 
 ##### Existing methodologies
 
 ###### &lt;methodology name&gt;
 
-\[Add text here\]
+This information needs to be collected by a qualitative approach, automation is not possible at the moment.
 
-## Known correlates
+Institutions should be approached asking for input on their hiring policies, and the position of the uptake of open science practices in these hiring policies. The result of such a data collection procedure is that one has the number or share of the institutions on national level that positively assess the uptake of open science practices by candidates for a job opening, compared to the total number of institutions on the national level.
 
-\[Add text here\]
+Alternatively, one might study job advertisements to see if Open Science aspect are mentioned (Khan et al., 2022). However, this is again a manual process, for which no automated procedures are available (yet). Additionally, it is possible that there might be policies for considering Open Science elements in hiring decisions, but that this is not reflected in job advertisements.
 
-## Notes
+### Number/% grant evaluation policies that reward OS
 
-\[Add text here\]
+This metric can be constructed by creating a perspective on the ways funding agencies include open science practices in their assessment procedures. As with the previous metric, all kinds of complexities play a role here, as we distinguish supra-national from national funding agencies, and public funders from private funders and charities. As no systematic overview exists of all the various requirements on the uptake of open science practices in the assessment of grant proposals, this has to be collected separately. Given that here the supra-national and the national are hardly separable, Science Europe might play a relevant role, next to national funding agencies and private funders and charities.
+
+The metric could exist of the number or share of policies that reward open science practices in assessing research grant proposals, compared to the total number of agencies (of different kinds).
+
+Potential issues in designing this indicator are:
+
+-   what variety of open science practices does one take into consideration ?
+-   How open are funding agencies in sharing such information on their grant evaluation policies ? Probably the public funders are more transparent, but are the private funders and charities equally transparent on their grant evaluation policies?
+-   Missions might be different, charities have a more urgent pressure to fund societally relevant research, given that charities are dependent on their donors, so how is that aligned with more general trends towards open science?
+
+#### Measurement.
+
+One could create this metric best by approaching funding agencies (Science Europe might play a role here, given its supra-national character) to inquire on their grant evaluation procedures, inquiring what elements are mentioned in funding calls that need a more open and transparent approach by the potential grantees. The outcome of such an inquiry delivers the total number of agencies that were approached, and the ones that consider open science practices in their assessment of grant proposals.
+
+Potential issues in creating this metric, and measuring the number/% hiring policies that reward OS are:
+
+-   Different funding agencies might require different aspects of the uptake of open science practices, how does one take that into consideration?
+-   Since not all scholarly disciplines are equally aligned when it comes to the uptake of open science practices, the inclusion of the scholarly domain would be a good suggestion, which complicates this metric substantially.
+-   Given the varied missions of funding agencies (the differences that might occur between public versus private funders and charities) might lead to differences in what is required regarding openness of research and its results.
+-   This metric is time-consuming, since no systematic data sources are available.
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+No systematic and systemic data sources exist for this metric.
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+This information needs to be collected by a qualitative approach, automation is not possible at the moment.
+
+### Number/% journal peer review policies that incentivise OS
+
+There is a large variety of journals, including also gold and diamond Open Access journals, for which we can expect different Open Science incentives. For journals there are more resources developed than for institutional policies. In particular, for Open Access policies, there are quite well maintained resources available. There are also various initiatives to track other aspects around journal policies, including peer review and data sharing policies.
+
+Potential issues in designing this metric are:
+
+-   Not all scholarly disciplines are equally aligned when it comes to the uptake of open science practices. Such field differences might need to be considered when constructing this indicator.
+-   The varied scopes of journals might lead to differences in what is required regarding openness of research and its results.
+
+#### Measurement.
+
+Based on various data sources, we can construct metrics about the number of journals that implement a particular policy. In principle, one could combine various such policies to get at an overall metric of journals that implement one or more policies that incentivises open science. To get at a percentage, we also need the total number of journals, which can be more challenging to describe. This could be based on the data source used to measure a particular policy, but this might come with limitations. Various bibliometric databases cover various journals, but few databases are truly comprehensive. One of the most comprehensive journal list is Ulrich’s Periodical Directory.
+
+##### Existing datasources:
+
+###### Sherpa Romeo
+
+Sherpa Romeo provides a graphical user interface at <https://www.sherpa.ac.uk/romeo/>. This can be browsed to collect information about various journals. This includes information about various conditions around Open Access publishing. They also have an API available, see <https://v2.sherpa.ac.uk/api/> for more information.
+
+Not all journals and publishers are necessarily included on Sherpa Romeo, and is limited to journals that have at least one open access option.
+
+###### Transparency and Openness Promotion Guidelines
+
+The Transparency and Openness Promotion Guidelines (Nosek et al., 2015) are available from <https://www.cos.io/initiatives/top-guidelines>, while various metrics around Open Science practices of journals are available from the related website <https://www.topfactor.org/>. They provide an overall TOP factor, which is an compound metric based on the various individual Open Science aspects that journals adhere to. The TOP factor and the underlying scores on the individual Open Science aspects are available in a graphical user interface at <https://www.topfactor.org/>. An overview of the various policies covered and scores is available from <https://www.cos.io/initiatives/top-guidelines>. The underlying data is available for download from <https://osf.io/qatkz>.
+
+At the moment, there are over 2600 journals included in the TOP factor. Although this is quite extensive, it is a relatively small proportion of the total number of journals, with a relatively higher representation of journals in psychology, economics and education in addition to more general science outlets.
+
+###### Platform for Responsible Editorial Policies
+
+The Platform for Responsible Editorial Policies is available from <https://www.responsiblejournals.org/>. This platform is focused in particular on (open) peer review policies. It covers various aspects about the timing, the openness, the specialization, and the technical infrastructure of peer review, with details provided on <https://www.responsiblejournals.org/information/peerreviewpolicies>. All information can be browsed through a graphical user interface, but is also available for download from <https://www.responsiblejournals.org/database/download>. Coverage is limited to about 500 journals at the moment.
+
+###### Transpose
+
+TRANsparency in Scholarly Publishing for Open Scholarship Evolution (Transpose) maintain information about (open) peer review policies, and is available from <https://transpose-publishing.github.io>. It also covers various aspects around peer review, but also about preprinting, with details provided on <https://transpose-publishing.github.io/#/more-information>. It contains a graphical user interface, but data can also be downloaded in full.
+
+###### Journal Observatory
+
+The Journal Observatory integrates information from various sources, including some of the aforementioned sources, and is available from <https://www.journalobservatory.org/>. It provides an integrated view of these various sources, and provides a framework for describing journals. A prototype of the framework provides also an integrated view, which is accessible through an API and as a SPARQL end-point from <https://www.journalobservatory.org/prototype/>. It also provides a graphical user interface where results can be browsed at <https://app.journalobservatory.org/>.
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+Additional information needs to be collected by a qualitative approach, automated detection of journal policies is not yet possible at the moment.
 
 ## References
 
-\[Add Zotero bibliography here\]
+Khan, H., Almoli, E., Franco, M. C., & Moher, D. (2022). Open science failed to penetrate academic hiring practices: A cross-sectional study. *Journal of Clinical Epidemiology*, *144*, 136–143. https://doi.org/10.1016/j.jclinepi.2021.12.003
+
+Larivière, V., & Sugimoto, C. R. (2018). Do authors comply when funders enforce open access to research? *Nature*, *562*(7728), 483–486. https://doi.org/10.1038/d41586-018-07101-w
+
+Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., Contestabile, M., Dafoe, A., Eich, E., Freese, J., Glennerster, R., Goroff, D., Green, D. P., Hesse, B., Humphreys, M., … Yarkoni, T. (2015). Promoting an open research culture. *Science*, *348*(6242), 1422–1425. https://doi.org/10.1126/science.aab2374

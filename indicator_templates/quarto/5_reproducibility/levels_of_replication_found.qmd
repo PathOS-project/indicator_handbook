@@ -5,6 +5,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
+| 1.2     | 2023-07-20    | Revisions                    | Thomas Klebel             |
 | 1.1     | 2023-04-26    | First draft                  | Eva Kormann               |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
 
@@ -82,7 +83,7 @@ Levels of replication can also be measured prospectively. This is done through e
 
 ##### Existing datasources:
 
-There is no single datasource for this metric. Data needs to be extracted from existing publications or gathered newly by employing these methodologies. The studies cited below made their data available, which can be used to re-analyse or extend existing analyses. Note however that Forsell and colleagues promised to populate a repository with the data, but have not done so as of June 2023.
+There is no single datasource for this metric. Data needs to be extracted from existing publications or gathered newly by employing these methodologies. The studies cited below made their data available, which can be used to re-analyse or extend existing analyses. Note however that Forsell and colleagues promised to populate a repository with the data but have not done so as of June 2023.
 
 ##### Existing methodologies:
 

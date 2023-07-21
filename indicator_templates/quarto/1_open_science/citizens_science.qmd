@@ -9,7 +9,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 
 ## []{#_Ref126739570}Description
 
-While there are many competing definitions of citizen science (also called participatory, community, civic, crowd-sourced volunteer science), the notion is generally used to refer to scientific research projects that are carried out with the active help of the public (i.e., lay people or non-experts, who are not professionally affiliated with academic or industrial research initiatives). Citizen science is an effort to open not only the final results of science (e.g., publications or datasets), but the whole chain of scientific research. In citizen science projects, the public can contribute to scientific efforts in different ways, by taking part in
+While there are many competing definitions of citizen science (also called participatory, community, civic, crowd-sourced volunteer science), the notion is generally used to refer to scientific knowledge production with the active participation of the public (i.e., lay people or non-experts, who are not professionally affiliated with academic or industrial research initiatives). Citizen science plays a key role in the movement towards Open Science by opening up the means of knowledge production to the participation of societal actors, across the entire research cycle. In citizen science projects, the public can contribute to scientific efforts in different ways, by taking part in
 
 -   the definition of the objectives or the research \[1. design\];
 -   the development of hypotheses, research questions and methods \[2. development\];
@@ -33,7 +33,7 @@ While they tend to have a distinctive approach many citizen science projects sti
 
 ###### Individual project websites
 
-Because they need to recruit citizens willing to contribute to their research effort, many citizen science projects have developed websites that describe the objectives, activities and results. This website can be harvested to collect information about the projects and calculate the metrics described below. Examples include:
+Because they need to recruit citizens willing to contribute to their research effort, many citizen science projects have developed websites that describe the objectives, activities and results. These websites can be harvested to collect information about the projects and calculate the metrics described below. Examples include:
 
 -   Globe at Night - <https://www.globeatnight.org/>
 -   Project FeederWatch - <https://feederwatch.org/>
@@ -66,17 +66,17 @@ Besides their publication, citizen science projects also tend to openly publish 
 
 ## Metrics
 
-Many citizen science projects tend to concentrate on the central steps of the research process (the collection, processing and analysis of data) as these steps can be externalized (or crowd-sourced) without losing the control of the research. These are also the steps on which more information is available since, by dealing with data, these activities are also the easiest to datafy. It is however crucial to gauge the participatory nature of all the stages of a research because real openness can only be achieved if all or most of these stages are truly receptive to the public input.
+Many citizen science projects tend to concentrate on the central steps of the research process (the collection, processing and analysis of data) as these steps can be externalized (or crowd-sourced) without losing control of the research. These are also the steps on which more information is available since, by dealing with data, these activities are also the easiest to datafy. It is however crucial to gauge the participatory nature of all the stages of a research because real openness can only be achieved if all or most of these stages are truly receptive to public input.
 
 ### Citizen science design
 
 This metric is meant to assess to what extent citizens have been involved in the decisions surrounding the research project: Does the project address concerns that have been surfaced by the community that participate to the project? Have the research questions been defined in collaboration with the public? Is the project led by academic publication/career objectives or is also guided by civic preoccupations?
 
-This metric is one of the subtlest for this indicator and can only be assessed by qualitative analysis. To assess citizen science design, researchers can investigate the history of the projects and discuss with their protagonists or they can closely read the project documentations to detect if people and concerns from outside the academia are taken into account and highlighted.
+This metric is one of the subtlest for this indicator and can only be assessed by qualitative analysis. To assess citizen science design, researchers can investigate the history of the projects and discuss with their protagonists, or they can closely read the project documentations to detect if people and concerns from outside the academia are considered and highlighted.
 
 ### Citizen science development
 
-This step is probably the one that is the least often open to citizen participation. Some scientists would indeed argue that this step should be kept under the control of the expert in order to assure that the development of the research protocol and methodology remain strictly adherent to scientific best practices, thus guaranteeing the value of the data as well as their comparability. Proponents of a more extreme participatory approach, however, will argue (not without reason) that this is the key step of any research project and that if this stage is not open to the public, than citizens cannot truly be the protagonists of the research (and will instead be relegated to the role of useful, but powerless helpers).
+This step is probably the one that is the least often open to citizen participation. Some scientists would indeed argue that this step should be kept under the control of the expert to assure that the development of the research protocol and methodology remain strictly adherent to scientific best practices, thus guaranteeing the value of the data as well as their comparability. Proponents of a more extreme participatory approach, however, will argue (not without reason) that this is the key step of any research project and that if this stage is not open to the public, than citizens cannot truly be the protagonists of the research (and will instead be relegated to the role of useful, but powerless helpers).
 
 As the previous one (and maybe even more than it), this metric can only be assessed through careful qualitative inspection, considering the description of the research protocol and the way in which it has been put together.
 
@@ -102,7 +102,7 @@ The role played by citizens in this work of data processing can be measure throu
 
 ### Citizen science analysis
 
-This step is very close to the previous one and in many cases significantly it overlaps with it. The distinction is made only to separate the relative low-level work of detecting and removing obvious errors, from the slightly or significantly more high-level effort of detecting meaningful patterns and trends in the datasets. Despite the stunning progress of artificial intelligence and other computational techniques, human being remains crucial in the process of pattern recognition and unreplaceable in the constitution of qualified datasets that can be used for machine learning training.
+This step is very close to the previous one and in many cases significantly overlaps with it. The distinction is made only to separate the relative low-level work of detecting and removing obvious errors, from the slightly or significantly more high-level effort of detecting meaningful patterns and trends in the datasets. Despite the stunning progress of artificial intelligence and other computational techniques, human being remains crucial in the process of pattern recognition and unreplaceable in the constitution of qualified datasets that can be used for machine learning training.
 
 Possible metrics includes:
 
@@ -112,12 +112,12 @@ Possible metrics includes:
 
 ### Citizen science interpretation
 
-While the two previous steps (processing and analysis) can be simplified (and sometime gamified) to the point of being accessible to anyone – and for this reason represent the standard activities for crowdsourced science – this step is less often entrusted to citizens as it requires a greater training and knowledge of the subject. However, the more the citizen are associated to the interpretation (which is the step where the greatest scientific value is produce) and the more they have agency in it, the more the research can be said to be truly open and participatory.
+While the two previous steps (processing and analysis) can be simplified (and sometime gamified) to the point of being accessible to anyone – and for this reason represent the standard activities for crowdsourced science – this step is less often entrusted to citizens as it requires a greater training and knowledge of the subject. However, the more the citizens are associated to interpretation (which is the step where the greatest scientific value is produce) and the more they have agency in it, the more the research can be said to be truly open and participatory.
 
-To assess the role of lay-experts in the interpretation of data and generation of findings, one can assess
+To assess the role of lay experts in the interpretation of data and generation of findings, one can assess
 
--   Complexity and significance of the crowdsourced research tasks.
--   Possibility for citizen participants to complete findings/results autonomously (as opposed to intervening only on low level activities, but not being able to achieve the final results).
+-   Complexity and significance of crowdsourced research tasks.
+-   Possibility for citizen participants to complete findings/results autonomously (as opposed to intervening only in low level activities, but not being able to achieve the results).
 -   Participation of citizens in the writing up of the research conclusions.
 
 ### Citizen science dissemination
