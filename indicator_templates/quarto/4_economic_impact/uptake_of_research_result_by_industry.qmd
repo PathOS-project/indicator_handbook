@@ -13,7 +13,67 @@ History (please fill out in reverse chronological order, latest revision on top)
 
 ## Metrics
 
-### &lt;metric name&gt;
+### #/%  of patents filed by the industry citing OS inputs
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### #/%  of new technologies developed by the industry using OS inputs
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### #/%  of new products or services developed by the industry using OS inputs
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### Average increase in companies' patent portfolio value thanks to patent filed using OS inputs
 
 \[Add text here\]
 

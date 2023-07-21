@@ -13,7 +13,47 @@ History (please fill out in reverse chronological order, latest revision on top)
 
 ## Metrics
 
-### &lt;metric name&gt;
+### Access costs savings thanks to OS
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### Labour costs savings given availability of OS inputs
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### Savings for data storage given the availability of OS data online
 
 \[Add text here\]
 

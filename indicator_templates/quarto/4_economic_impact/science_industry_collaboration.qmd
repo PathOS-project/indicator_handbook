@@ -13,7 +13,67 @@ History (please fill out in reverse chronological order, latest revision on top)
 
 ## Metrics
 
-### &lt;metric name&gt;
+### #/% of collaborative projects using OS inputs
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### EUR/% of collaborative projects using OS inputs
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### #/% of patents filed by industry in collaboration with academia that cites OS inputs
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+### #/% of publications produced by academia in collaboration with industry that cites OS inputs
 
 \[Add text here\]
 
