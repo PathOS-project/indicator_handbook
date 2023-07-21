@@ -13,7 +13,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 
 ## Metrics
 
-### &lt;metric name&gt;
+### Share of output in emerging topics
 
 \[Add text here\]
 

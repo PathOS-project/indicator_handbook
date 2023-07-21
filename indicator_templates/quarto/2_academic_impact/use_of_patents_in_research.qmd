@@ -13,7 +13,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 
 ## Metrics
 
-### &lt;metric name&gt;
+### Number (Avg.) of times patents are referenced in publications
 
 \[Add text here\]
 
