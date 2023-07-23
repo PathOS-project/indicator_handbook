@@ -5,6 +5,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
+| 1.2     | 2023-07-21    | First draft v2               | Petros Stavropoulos       |
 | 1.1     | 2023-05-11    | First draft                  | Petros Stavropoulos       |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
 
@@ -16,29 +17,49 @@ The reuse of code or software in research refers to the practice of utilizing ex
 
 ### Number of code/software reused in publications
 
-This metric quantifies the number of times existing code or software has been reused in published research articles. A higher number of instances of code or software reuse in publications indicates a higher level of scientific collaboration and sharing of resources within a scientific community or field.
+This metric quantifies the number of times existing code or software has been reused in published research articles. A higher number of instances of code or software reuse in publications suggests a strong culture of code and resources dissemination and building upon existing research within a scientific community or field.
 
-A limitation of this metric is that it may not capture all instances of code or software reuse, as some researchers may reuse code or software without explicitly citing the original source. Additionally, this metric may not account for the quality or appropriateness of the reused code or software for the new research questions. Furthermore, it may be challenging to compare the number of instances of code or software reuse in publications across different fields, as some fields may rely more heavily on developing new code or software rather than reusing existing resources.
+A limitation of this metric is that it may not capture all instances of code or software reuse, as some researchers may reuse code or software without explicitly citing the original source. This challenge is further exacerbated by the fact that standards of code/software citation are still relatively poor, making the identification of all instances of code/software reuse across research fields problematic. Additionally, this metric may not account for the quality or appropriateness of the reused code or software for the new research questions. Furthermore, it may be challenging to compare the number of instances of code or software reuse in publications across different fields, as some fields may rely more heavily on developing new code or software rather than reusing existing resources.
 
 #### Measurement.
 
-To measure the number of instances of code or software reuse found in publications, automatic text mining and machine learning techniques can be used to search for code or software reuse statements, or to identify reused code or software within published research articles, such as the work in PathOS Task 2.5.
+An initial step to measure the number of reused code/software in publications can be to count the code/software citations linked with each code/software. This basic strategy, despite being prone to some noise, serves as a fundamental measure for this metric. For a more comprehensive and accurate estimate, we can use tools like text mining and machine learning, including Natural Language Processing (NLP) applied to full texts. These tools help us find code or software reuse statements, or directly pull out datasets from a publication and label them as reused.
 
-However, these methods may face challenges such as inconsistencies in reporting of code or software reuse, variations in the degree of specificity in reporting of the reuse, and difficulties in distinguishing between code or software that is reused versus code or software that is developed anew but shares similarities with existing code or software. Furthermore, the availability and quality of such automated tools may vary across different research fields and may require domain-specific adaptations.
+However, these methods may face challenges such as inconsistencies in reporting of code or software reuse, variations in the degree of specificity in reporting of the reuse, and difficulties in distinguishing between code or software that is reused versus code or software that is developed anew but shares similarities with existing code or software. Furthermore, the availability and quality of the automated tools may vary across different research fields and may require domain-specific adaptations.
 
 ##### Existing datasources:
 
-###### &lt;datasource name&gt;
+###### OpenAIRE
 
-\[Add text here\]
+OpenAIRE is a European open science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including open datasets.
+
+To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/) can be used to find and access open software, study their usage statistics, and identify the research publications that reference them.
+
+###### CZI Software Mentions
+
+The CZI Software Mentions Dataset (Istrate et al., 2022) is an expansive resource released by the Chan Zuckerberg Initiative (CZI) that provides software mentions extracted from a large corpus of scientific literature. Specifically, the dataset provides access to 67 million software mentions derived from 3.8 million open-access papers in the biomedical literature from PubMed Central and 16 million full-text papers made available to CZI by various publishers.
+
+A key limitation of this dataset is its focus on biomedical science, meaning it may not provide a comprehensive view of software usage in other scientific disciplines.
+
+To calculate the proposed metric, one could use the CZI Software Mentions Dataset to identify the frequency and distribution of mentions of specific software tools across different scientific papers. The dataset also contains links to software repositories (like PyPI, CRAN, Bioconductor, SciCrunch, and GitHub) which can be used to gather more metadata about the software tools.
 
 ##### Existing methodologies
 
 ###### PathOS work in Task 2.5
 
-This is an automated tool used to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
+This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
 
-To measure the number of code/software reused in publications, the tool can be used to identify the reused datasets in those publications.
+To measure the proposed metric, the tool can be used to identify the reused code/software in the publication texts.
+
+One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the publication. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
+
+###### DataSeer.ai
+
+[DataSeer.ai](https://dataseer.ai/) is a platform that utilizes machine learning and Natural Language Processing (NLP) to facilitate the detection and extraction of datasets, methods, and software mentioned in academic papers. The platform can be used to identify instances of dataset reuse within the text of research articles and extract associated metadata.
+
+To measure the proposed metric, DataSeer.ai can scan the body of text in research articles and identify instances of code/software reuse.
+
+However, it's important to note that DataSeer.ai's ability to determine actual code/software reuse may depend on the explicitness of the authors' writing about their code/software usage, thus not capturing all instances of code/software reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a code or software has been reused, and may require manual validation.
 
 ### Number (%) of publications with reused code/software
 
@@ -50,21 +71,43 @@ A limitation of this metric is that it may not capture all instances of code or 
 
 To measure the number or percentage of publications with reused code or software, automatic text mining and machine learning techniques can be used to search for code or software reuse statements, or to identify reused code or software within published research articles, such as the work in PathOS Task 2.5.
 
-However, these methods may face challenges such as inconsistencies in reporting of code or software reuse, variations in the degree of specificity in reporting of the reuse, and difficulties in distinguishing between code or software that is reused versus code or software that is developed anew but shares similarities with existing code or software. Furthermore, the availability and quality of such automated tools may vary across different research fields and may require domain-specific adaptations.
+To measure the percentage of publications with reused code/software, we start by using automatic text mining and/or machine learning techniques to identify whether a publication uses/analyses code or software. This involves searching for keywords and phrases associated with the methodologies and use of code or software within the text of the publications. Next, among the identified publications, we search for code or software reuse statements, or directly extract the code/software from the publications and try to classify them as reused, reporting the percentage of those publications.
+
+However, these methods may face challenges such as inconsistencies in reporting of code or software reuse, variations in the degree of specificity in reporting of the reuse, and difficulties in distinguishing between code or software that is reused versus code or software that is developed anew but shares similarities with existing code or software. Furthermore, the availability and quality of the automated tools may vary across different research fields and may require domain-specific adaptations.
 
 ##### Existing datasources:
 
-###### &lt;datasource name&gt;
+###### OpenAIRE
 
-\[Add text here\]
+OpenAIRE is a European open science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including open datasets.
+
+To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/) can be used to find and access open software, study their usage statistics, and identify the research publications that reference them.
+
+###### CZI Software Mentions
+
+The CZI Software Mentions Dataset (Istrate et al., 2022) is an expansive resource released by the Chan Zuckerberg Initiative (CZI) that provides software mentions extracted from a large corpus of scientific literature. Specifically, the dataset provides access to 67 million software mentions derived from 3.8 million open-access papers in the biomedical literature from PubMed Central and 16 million full-text papers made available to CZI by various publishers.
+
+A key limitation of this dataset is its focus on biomedical science, meaning it may not provide a comprehensive view of software usage in other scientific disciplines.
+
+To calculate the proposed metric, one could use the CZI Software Mentions Dataset to identify the frequency and distribution of mentions of specific software tools across different scientific papers. The dataset also contains links to software repositories (like PyPI, CRAN, Bioconductor, SciCrunch, and GitHub) which can be used to gather more metadata about the software tools.
 
 ##### Existing methodologies
 
-###### PathOS Task 2.5 Tool
+###### PathOS work in Task 2.5
 
-This is an automated tool used to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
+This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
 
-To measure the number (%) of publications with reused code/software, the tool can be used to identify the reused datasets in those publications.
+To measure the proposed metric, the tool can be used to identify the reused code/software in the publication texts.
+
+One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the publication. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
+
+###### DataSeer.ai
+
+[DataSeer.ai](https://dataseer.ai/) is a platform that utilizes machine learning and Natural Language Processing (NLP) to facilitate the detection and extraction of datasets, methods, and software mentioned in academic papers. The platform can be used to identify instances of dataset reuse within the text of research articles and extract associated metadata.
+
+To measure the proposed metric, DataSeer.ai can scan the body of text in research articles and identify instances of code/software reuse.
+
+However, it's important to note that DataSeer.ai's ability to determine actual code/software reuse may depend on the explicitness of the authors' writing about their code/software usage, thus not capturing all instances of code/software reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a code or software has been reused, and may require manual validation.
 
 ## Known correlates
 
@@ -76,4 +119,4 @@ To measure the number (%) of publications with reused code/software, the tool ca
 
 ## References
 
-\[Add Zotero bibliography here\]
+Istrate, A.-M., Li, D., Taraborelli, D., Torkar, M., Veytsman, B., & Williams, I. (2022). *A large dataset of software mentions in the biomedical literature* (arXiv:2209.00693). arXiv. https://doi.org/10.48550/arXiv.2209.00693

@@ -5,32 +5,26 @@ History (please fill out in reverse chronological order, latest revision on top)
 |         |               |                              |                                             |
 |---------|---------------|------------------------------|---------------------------------------------|
 | Version | Revision date | Revision                     | Author                                      |
+| 2.0     | 2023-07-12    | Initial draft                | T. van Leeuwen                              |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag, Thed van Leeuwen |
 
 ## Description
 
-Open Science training is mostly organized at the institutional and even faculty level. This is often organized by the university or faculty libraries when it comes to scholarly publishing, that is, Open Access publishing. When it relates to research data, the support is nowadays in many institutions organized by installing data stewards, who take care of data management in general, data management plans and the construction of these, and the sharing of research data according to the FAIR principles.
+Open Science training is mostly organized at the institutional and even faculty level. This is often organized by the university or faculty libraries when it comes to scholarly publishing, that is, Open Access publishing. In addition, there may be national open science initiative that might provide open science training facilities. This might involve national research centres or institutions but could also be separately organised initiatives aimed specifically at open science.
 
-So, the creation of metrics should take into consideration what elements of open science practices are being selected for training staff members. Given this potential diversity, and the absence of having generic or systematic data sources at hand for this aspect of open science, the data need to be collected by qualitative means, that is going through websites of institutions and /or faculties in order to identify open science training facilities.
+The creation of metrics should take into consideration what elements of open science practices are being selected for training staff members. Given this potential diversity, and the absence of having generic or systematic data sources at hand for this aspect of open science, the data need to be collected by qualitative means, that is going through websites of institutions and/or faculties to identify open science training facilities.
 
-The potential indicators mentioned are:
-
--   Number/% of institutions that offer OS training.
--   Number/% of national OS training initiatives.
--   Breadth of OS training (all OS areas, only limited to specific areas)
--   Duration of OS training (hour/day/week)
-
-This indicator set can perhaps best be collected with the information regarding open science support facilities, as training can be seen as part of such a support system.
+This indicator can perhaps best be collected with information regarding open science support facilities, as training can be seen as part of such a support system.
 
 ## Metrics
 
 ### Number/% of institutions that offer OS training.
 
-This metric can be constructed by searching through university and faculty level websites to identify the presence of open science training facilities, and when present identify what the training facility actually relates to, what kind of activity in open science is being supported by offering training facilities. If one compares that to the total number of institutions and the faculties therein, with the result of the search for open science training facilities, one can create a number and share comparing the ones that have such training facilities in place, to the total number.
+Open science training might be often provided at the university level. This could vary from PhD courses to training targeted at employees more broadly. This metric provides an institutional view of the extent to which open science training facilities are offered.
 
 #### Measurement.
 
-Following from the above, if one compares that to the total number of institutions and the faculties therein, with the result of the search for open science training facilities, one can create a number and share comparing the ones that have such facilities in place, to the total number.
+This metric could be constructed by searching through university and faculty level websites to identify the presence of open science training facilities.
 
 Potential problems and limitations are:
 
@@ -42,7 +36,7 @@ Potential problems and limitations are:
 
 ###### &lt;data source name&gt;
 
-There are presently no generic and systematic data sources that contain such information, so if one wants to have insight in this aspect of open science development, it has to be collected manually.
+There are presently no generic and systematic data sources that contain such information.
 
 ##### *Existing methodologies*
 
@@ -50,17 +44,15 @@ There are presently no generic and systematic data sources that contain such inf
 
 If the methodology is not automated / automatable: Has data been gathered before using this technique (e.g., a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
-Regarding the methodology, this is as described above. One simply takes the number of institutions and compares that to the number of institutions that have open science training facilities in place.
-
-Given the absence of data sources for this metric, automation is currently not possible.
+Automation of this metric is currently not possible.
 
 ### Number/% of national OS training initiatives.
 
-This metric can be constructed by searching through policy initiatives that support open science practices on the national level and identify the training element out of the total of information collected.
+In some cases, there might be national open science initiatives or other national institutions that provide open science training initiatives. This metric describes the extent to which there are national training initiatives.
 
 #### Measurement.
 
-Following from the above, if one compares that to the total number of countries, with the result of the search for open science training facilities at country level, one can create a number and share comparing the ones that have such training facilities in place to the total number.
+This metric could be constructed by searching through policy initiatives that support open science practices on the national level and identify the training element out of the total of information collected.
 
 Potential problems and limitations are:
 
@@ -72,7 +64,7 @@ Potential problems and limitations are:
 
 ###### &lt;data source name&gt;
 
-There are presently no generic and systematic data sources that contain such information on support facilities (as there are for open access or open science mandates), so if one wants to have insight in this aspect of open science development, it has to be collected manually.
+There are presently no generic and systematic data sources that contain such information.
 
 ##### *Existing methodologies*
 
@@ -80,17 +72,15 @@ There are presently no generic and systematic data sources that contain such inf
 
 If the methodology is not automated / automatable: Has data been gathered before using this technique (e.g., a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
-Regarding the methodology, this is as described above. One simply takes the number of countries and compares that to the number of countries that have open science support facilities in place.
+Automation of this metric is currently not possible.
 
-Given the absence of data sources for this metric, automation is currently not possible.
+### Breadth of open science training.
 
-### Breadth of open science training (all open science areas, only limited to specific areas).
-
-This metric can be constructed from the first metric proposed here, namely by making an inventory of the diverse types of open science training facilities (publishing, research data, peer review, pre-registration, registered reports, etc.).
+Training in open science can be broader or narrower. This metric provides an overview of the breadth of open science training, that is, to which extent it covers the diverse types of open science training facilities, such as publishing, research data, open code, peer review, pre-registration and registered reports.
 
 #### Measurement.
 
-Following from the above, if one compares that to the total number of institutions, with the result of the search for open science training facilities at institutional level, one can create a number and share comparing the ones that have such training facilities in place regarding the diversity of open science support facilities, to the total number of institutions.
+Based on data that might be collected for the first two metrics, we might be able to construct a third metric. That is, when collecting information about training facilities, we could collect additional information. This metric could be constructed by searching through any relevant training facilities, either at the institutional or national level, as explained above.
 
 Potential problems and limitations are:
 
@@ -102,7 +92,7 @@ Potential problems and limitations are:
 
 ###### &lt;data source name&gt;
 
-There are presently no generic and systematic data sources that contain such information on support facilities and the variety of open science practices therein, so if one wants to have insight in this aspect of open science development, it has to be collected manually. This could be combined with the search mentioned in relation to the first metric.
+There are presently no generic and systematic data sources that contain such information.
 
 ##### *Existing methodologies*
 
@@ -110,17 +100,15 @@ There are presently no generic and systematic data sources that contain such inf
 
 If the methodology is not automated / automatable: Has data been gathered before using this technique (e.g., a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
-Regarding the methodology, this is as described above. One simply takes the number of institutions and compares that to that to the number of institutions that have support on specific aspects of open science practices in place (e.g., on open access publishing, or on data storage and data sharing).
-
-Given the absence of data sources for this metric, automation is currently not possible.
+Automation is currently not possible.
 
 ### Duration of open science training (hour/day/week).
 
-This metric can be constructed in a similar manner as the first metric proposed here, namely by looking at websites for what is offered as open science practice training facilities and collect the duration of such training facilities.
+By providing an overview of the duration of open science training, we may capture the intensity of open science training. Having just a few hours of training, or more extensive training of course makes a difference with regards to the amount of knowledge that can be transferred.
 
 #### Measurement.
 
-Following from the above, one can create overviews of the duration of open science training facilities, distributed over various aspects of open science practices, and compare these for example across institutions.
+This metric can be constructed in a similar manner as the previous metric, namely by looking at websites for what is offered as open science practice training facilities and collect the duration of such training facilities.
 
 Potential problems and limitations are:
 
@@ -132,7 +120,7 @@ Potential problems and limitations are:
 
 ###### &lt;data source name&gt;
 
-There are presently no generic and systematic data sources that contain such information on the duration of open science support facilities, so if one wants to have insight in this aspect of open science support, it has to be collected manually. This could be combined with the search mentioned in relation to the first metric and third metric.
+There are presently no generic and systematic data sources that contain such information.
 
 ##### *Existing methodologies*
 
@@ -140,9 +128,7 @@ There are presently no generic and systematic data sources that contain such inf
 
 If the methodology is not automated / automatable: Has data been gathered before using this technique (e.g., a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
-Regarding the methodology, this is as described above. One simply takes the number of institutions and compares that to that to the number of institutions that have training facilities on specific aspects of open science practices and its duration in place (e.g., length/duration of the courses on open access publishing, or on data storage and data sharing).
-
-Given the absence of data sources for this metric, automation is currently not possible.
+Automation is currently not possible.
 
 ## Known correlates
 

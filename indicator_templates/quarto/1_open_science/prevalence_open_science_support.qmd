@@ -5,30 +5,24 @@ History (please fill out in reverse chronological order, latest revision on top)
 |         |               |                              |                                             |
 |---------|---------------|------------------------------|---------------------------------------------|
 | Version | Revision date | Revision                     | Author                                      |
+| 2.0     | 2023-07-12    | Initial draft                | T. van Leeuwen                              |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag, Thed van Leeuwen |
 
 ## Description
 
-Open Science support is mostly organized at the institutional and even faculty level. This is often organized by the university or faculty libraries when it comes to scholarly publishing, that is, Open Access publishing. Here the support consists mostly of suggesting journals, helping with license details, etc. When it relates to research data, the support is nowadays in many institutions organized by installing data stewards, who first of all take care of data management in general, after which the delicate issue of open research data according to the FAIR principles appears as an issue.
+Open Science support is mostly organized at the institutional and even faculty level. This is often organized by the university or faculty libraries when it comes to scholarly publishing, that is, Open Access publishing. Here the support covers mostly things such as suggesting journals and helping with license details. When it relates to research data, support is nowadays organized in many institutions by data stewards. They take care of data management in general and consider issues related to for example FAIR principles.
 
-So, the creation of metrics should take into consideration what elements of open science practices are being selected for support. Given this potential diversity, and the absence of having generic or systematic data sources at hand for this aspect of open science, the data need to be collected by qualitative means, that is going through websites of institutions and /or faculties in order to identify open science support facilities.
-
-The potential indicators mentioned are:
-
--   Number/% of institutions that offer OS support.
--   Number/% of national OS support initiatives.
--   Breadth of OS support (all OS areas, only limited to specific areas)
--   Duration of OS support (hour/day/week)
+The creation of metrics should take into consideration what elements of open science practices are being selected for support. Given this potential diversity, and the absence of having generic or systematic data sources at hand for this aspect of open science, the data need to be collected by qualitative means, that is going through websites of institutions and/or faculties to identify open science support facilities.
 
 ## Metrics
 
 ### Number/% of institutions that offer OS support
 
-This metric can be constructed by searching through university and faculty level websites to identify the presence of open science support facilities, and when present identify what the support facility actually relates to, what kind of activity in open science is being supported. If one compares that to the total number of institutions and the faculties therein, with the result of the search for open science support facilities, one can create a number and share comparing the ones that have such facilities in place to the total number.
+Open science support might be often provided at the university level, or within the university at the faculty or even departmental level. This metric provides an institutional view of the extent to which open science support is offered.
 
 #### Measurement.
 
-Following from the above, if one compares that to the total number of institutions and the faculties therein, with the result of the search for open science support facilities, one can create a number and share comparing the ones that have such facilities in place to the total number.
+This metric can be constructed by searching through university and faculty level websites to identify the presence of open science support facilities, and when present identify what kind of open science activity is being supported.
 
 Potential problems and limitations are:
 
@@ -40,23 +34,21 @@ Potential problems and limitations are:
 
 ###### &lt;data source name&gt;
 
-There are presently no generic and systematic data sources that contain such information, so if one wants to have insight in this aspect of open science development, it has to be collected manually.
+There are presently no generic and systematic data sources that contain such information.
 
 ##### Existing methodologies
 
 ###### &lt;methodology name&gt;
 
-Regarding the methodology, this is as described above. One simply takes the number of institutions and compares that to the number of institutions that have open science support facilities in place.
-
-Given the absence of data sources for this metric, automation is currently not possible.
+Automation of this metric is currently not possible.
 
 ### Number/% of national OS support initiatives.
 
-This metric can be constructed by searching through policy initiatives that support open science practices on the national level.
+In some cases, there might be national open science initiatives or other national institutions that provide open science support. For instance, this could cover information around open access, or support for opening up data. This metric describes the extent to which there are national initiatives for open science support.
 
 #### Measurement.
 
-Following from the above, if one compares that to the total number of countries, with the result of the search for open science support facilities at country level, one can create a number and share comparing the ones that have such facilities in place to the total number.
+This metric can be constructed by searching through policy initiatives that support open science practices on the national level.
 
 Potential problems and limitations are:
 
@@ -68,23 +60,21 @@ Potential problems and limitations are:
 
 ###### &lt;data source name&gt;
 
-There are presently no generic and systematic data sources that contain such information on support facilities (as there are for open access or open science mandates), so if one wants to have insight in this aspect of open science development, it has to be collected manually.
+There are presently no generic and systematic data sources that contain such information.
 
 ##### Existing methodologies
 
 ###### &lt;methodology name&gt;
 
-Regarding the methodology, this is as described above. One simply takes the number of countries and compares that to the number of countries that have open science support facilities in place.
-
-Given the absence of data sources for this metric, automation is currently not possible.
+Automation of this metric is currently not possible.
 
 ### Breadth of open science support (all open science areas, only limited to specific areas).
 
-This metric can be constructed from the first metric proposed here, namely by making an inventory of the diverse types of open science support facilities (publishing, research data, peer review, pre-registration, registered reports, etc.).
+Open science support can be broader or narrower. This metric provides an overview of the breadth of open science support, that is, to which extent it covers the diverse types of open science support, such as publishing, research data, open code, peer review, pre-registration and registered reports.
 
 #### Measurement.
 
-Following from the above, if one compares that to the total number of institutions, with the result of the search for open science support facilities at institutional level, one can create a number and share comparing the ones that have such facilities in place regarding the diversity of open science support facilities to the total number of institutions.
+Based on data that might be collected for the first two metrics, we might be able to construct a third metric. That is, when collecting information about training facilities, we could collect additional information. This metric could be constructed by searching through any relevant training facilities, either at the institutional or national level, as explained above.
 
 Potential problems and limitations are:
 
@@ -95,45 +85,15 @@ Potential problems and limitations are:
 
 ###### &lt;data source name&gt;
 
-There are presently no generic and systematic data sources that contain such information on support facilities and the variety of open science practices therein, so if one wants to have insight in this aspect of open science development, it has to be collected manually. This could be combined with the search mentioned in relation to the first metric.
+There are presently no generic and systematic data sources that contain such information.
 
 ##### Existing methodologies
 
 ###### &lt;methodology name&gt;
 
-Regarding the methodology, this is as described above. One simply takes the number of institutions and compares that to that to the number of institutions that have support on specific aspects of open science practices in place (e.g., on open access publishing, or on data storage and data sharing).
+Automation is currently not possible.
 
-Given the absence of data sources for this metric, automation is currently not possible.
-
-### Duration of open science support (hour/day/week).
-
-This metric can be constructed in a similar manner as the first metric proposed here, namely by looking at websites for what is offered as open science practice support facilities and collect the duration of such facilities.
-
-#### Measurement.
-
-Following from the above, one can create overviews of the duration of open science support facilities, distributed over various aspects of open science practices, and compare these for example across institutions.
-
-Potential problems and limitations are:
-
--   This is a time-consuming effort, as one has to go through many websites, on both overall institution level, as well as on faculty level.
--   Her one has to work with what is offered as open science support facilities; one does not have any idea of what is being ‘consumed‘ from the offered facilities?
--   An issue that popped up previously, one has to be aware of the fact that perhaps not all of the open science support facilities are (yet) online visible on websites.
-
-##### Existing data sources:
-
-###### &lt;data source name&gt;
-
-There are presently no generic and systematic data sources that contain such information on the duration of open science support facilities, so if one wants to have insight in this aspect of open science support, it has to be collected manually. This could be combined with the search mentioned in relation to the first metric and third metric.
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-Regarding the methodology, this is as described above. One simply takes the number of institutions and compares that to that to the number of institutions that have support on specific aspects of open science practices and its duration in place (e.g., length/duration of the courses on open access publishing, or on data storage and data sharing).
-
-Given the absence of data sources for this metric, automation is currently not possible.
-
-## Known correlates
+1.  Known correlates
 
 \[Add text here\]
 

@@ -16,15 +16,15 @@ Governments and governmental agencies, individual universities and research comm
 
 The wide variety of data repositories out there present a number of opportunities and challenges (Goben & Sandusky, 2020). A clear opportunity is the large increase in accessible data by an increasing number of repositories. However, the wide variety in repositories and infrastructure also presents a challenge in finding the right data repository or dataset that one is looking for. The increase in variety also leads to a risk of data misinterpretation or misuse and can lead to data loss.
 
-Given the potential for open data repositories it can be very helpful to get an indication of the accessibility of these resources and how they link up with research. It must be noted however that this indicator is not meant to be solely used to rank data repositories or scientific entities. To do this, other indicators and measures should be taken into account as well as relevant context that is difficult to capture in quantitative data.
+Given the potential for open data repositories it can be very helpful to get an indication of the accessibility of these resources and how they link up with research. It must be noted however that this indicator is not meant to be solely used to rank data repositories or scientific entities. To do this, other indicators and measures should be taken into account, as well as relevant contextual factors that are difficult to capture in quantitative data.
 
 ## Metrics
 
 ### Number of data repositories
 
-The number of data repositories in a given area of interest can give an indication of the availability of data repositories in this area. The main benefit of this metric being that it can serve as a quick indication of the availability. However, it is limited by the fact that it does not take into account the nature of each repository. Since data repositories can differ vastly in their size and openness this metric can give a skewed representation of the available data in the area of interest.
+The number of data repositories in a given area of interest can provide an indication of the availability of data repositories in this area. The main benefit of this metric being that it can serve as a quick indication of the availability. However, it is limited by the fact that it does not take into account the nature of each repository. Since data repositories can differ vastly in their size and openness this metric can give a skewed representation of the available data in the area of interest.
 
-When looking for an indication of how widespread the availability of data repositories is, the percentage of territories, organisations etc. that provide a data repository service could be considered. If sufficient data can be found this can serve as an indication without much calculation. Again, however this measure is limited as it does not consider the characteristics of the data repositories.
+When looking for an indication of how widespread the availability of data repositories is, the percentage of territories, organisations etc., that provide a data repository service could be considered. If sufficient data can be found, this can serve as an indication without much calculation. Again however, this measure is limited, as it does not consider the characteristics of the data repositories.
 
 #### Measurement.
 
@@ -64,7 +64,7 @@ Apart from looking at the sole number of data repositories one can also opt to a
 
 []{#_Hlk130734965}
 
-It can be difficult to obtain data on all existing data repositories, given the large number, variety and lack of metadata curation. There is not yet widely available information on this in the mainstream scientific platforms, but there are some efforts that provide information on the topic listed below.
+It can be difficult to obtain data on all existing data repositories, given the large number, variety and lack of metadata curation. There is not yet widely available information on the large scientific platforms, but there are some efforts that provide information on the topic listed below.
 
 ###### &lt;Core Trust Seal&gt;
 
