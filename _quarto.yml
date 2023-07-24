@@ -12,6 +12,9 @@ book:
   repo-branch: main
   repo-actions: [edit, issue]
 
+  sidebar:
+    collapse-level: 1
+
   chapters:
     - index.qmd
 
