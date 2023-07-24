@@ -106,11 +106,6 @@ format:
     author-meta: "V.A. Traag, etc..."
     callout-appearance: simple
 
-  pdf:
-    documentclass: report
-    margin-left: 30mm
-    margin-right: 30mm
-
   docx:
     reference-doc: template/template.docx
 
