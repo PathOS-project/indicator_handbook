@@ -16,9 +16,8 @@ affiliations:
 
 History (please fill out in reverse chronological order, latest revision on top):
 
-|         |               |                              |                           |
-|---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
+|---------|---------------|------------------------------|---------------------------|
 | 1.2     | 2023-07-18    | First Draft v2               | Petros Stavropoulos       |
 | 1.1     | 2023-05-11    | First Draft                  | Petros Stavropoulos       |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |

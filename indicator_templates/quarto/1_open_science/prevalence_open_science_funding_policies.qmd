@@ -21,10 +21,8 @@ affiliations:
 
 History (please fill out in reverse chronological order, latest revision on top):
 
-|         |               |              |                    |
-|---------|---------------|--------------|--------------------|
 | Version | Revision date | Revision     | Author             |
-|         |               |              |                    |
+|---------|---------------|--------------|--------------------|
 | 0.2     | 2023-06-08    | Second draft | L. Stoy, I. Karasz |
 | 0.1     | 2023-03-01    | First draft  | L. Stoy            |
 

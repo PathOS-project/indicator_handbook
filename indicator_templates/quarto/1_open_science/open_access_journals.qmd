@@ -28,9 +28,8 @@ affiliations:
 
 History (please fill out in reverse chronological order, latest revision on top):
 
-|         |               |             |                                                         |
-|---------|---------------|-------------|---------------------------------------------------------|
 | Version | Revision date | Revision    | Author                                                  |
+|---------|---------------|-------------|---------------------------------------------------------|
 | 0.1     | 2023-05-09    | First draft | N. Manola, I. Grypari, H. Papageorgiou, P. Stavropoulos |
 
 ## Description
