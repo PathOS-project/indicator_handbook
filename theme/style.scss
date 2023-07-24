@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+
+// Colors
+
+$blue:    #263bd9 !default;
+$teal:    #4bacc6 !default;
+
+$primary: $blue !default;
+
+$link-color:            shift-color($primary, 50%) !default;
+$link-hover-color:      $primary !default;
+
+h1 {
+    color: $blue;
+    font-variant-caps: small-caps;
+}
+h2 {
+    color: $blue;
+    font-weight: bold;
+}
+h3 {
+    color: black;
+    font-weight: 100;
+}
+h4 {
+    color: #6476d6;
+    font-weight: bold;
+}
+h5 {
+    font-variant-caps: small-caps;
+}
+h6 {
+    color: $blue;
+    font-variant-caps: small-caps;
+}
+h7 {
+    color: $teal;
+    font-variant-caps: small-caps;
+}
+
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$font-family-base: "Open Sans";
+$font-family-code: "Liberation Mono";

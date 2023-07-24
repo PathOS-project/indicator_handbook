@@ -14,6 +14,7 @@ book:
 
   sidebar:
     collapse-level: 1
+    logo: theme/pathos-logo.png
 
   chapters:
     - index.qmd
@@ -98,16 +99,24 @@ book:
         - indicator_templates/quarto/5_reproducibility/reuse_of_data_in_research.qmd
         - indicator_templates/quarto/5_reproducibility/rigour_in_reporting.qmd
 
+comments:
+  giscus:
+    repo: PathOS-project/indicator_handbook
+  hypothesis:
+    theme: clean
+
 format:
   html:
     theme:
       - cosmo
+      - theme/style.scss
     code-link: true
     grid:
       sidebar-width: 350px
 
     author-meta: "V.A. Traag, etc..."
     callout-appearance: simple
+
 
   docx:
     reference-doc: theme/template.docx
