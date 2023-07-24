@@ -11,18 +11,25 @@ do
         exit 3
     fi
 
-    echo "Converting ${DOCX_FILE} to ${DOCX_FILE%.*}.qmd"
+    DIR_DOCX="${DOCX_FILE%/*}"
+    DOCX_BASE="${DOCX_FILE##*/}"
+
+    pushd "${DIR_DOCX}"
+
+    echo "Converting ${DOCX_BASE} to ${DOCX_BASE%.*}.qmd"
 
     mammoth \
-        "${DOCX_FILE}" \
+        "${DOCX_BASE}" \
         --style-map=${SCRIPT_DIR}/indicators-mammoth-style-map.txt \
     | \
     pandoc \
         -f html \
+        --extract-media "figures" \
         --atx-headers \
         --wrap=preserve \
         -t markdown+backtick_code_blocks+header_attributes+space_in_atx_header-all_symbols_escapable-smart-simple_tables+pipe_tables \
         --lua-filter=${SCRIPT_DIR}/filter.lua \
-        -o "${DOCX_FILE%.*}.qmd"
+        -o "${DOCX_BASE%.*}.qmd"
 
+    popd
 done
