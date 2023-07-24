@@ -110,6 +110,6 @@ format:
     callout-appearance: simple
 
   docx:
-    reference-doc: template/template.docx
+    reference-doc: theme/template.docx
 
 editor: visual
