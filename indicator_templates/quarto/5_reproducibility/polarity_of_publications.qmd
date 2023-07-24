@@ -35,7 +35,7 @@ To measure the number of supporting citations for a publication, we can search f
 
 One potential limitation of this metric is that it may be difficult to differentiate between citations that provide explicit support for a publication's claims and those that merely mention the publication in passing. In addition, not all citations may explicitly mention the publication's claims, methodology, results or research outputs, and some researchers may support a publication without necessarily citing it.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Research Graph
 

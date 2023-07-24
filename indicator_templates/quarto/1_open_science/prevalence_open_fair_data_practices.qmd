@@ -30,7 +30,7 @@ In addition, it is important to note that more targeted indications can be used 
 
 The number of publications with shared data can be represented as a simple count measure of the sample of interest. The percentage can be calculated by dividing the total number of publications with shared data with the total number of units included.
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;DataCite/Crossref&gt;
 

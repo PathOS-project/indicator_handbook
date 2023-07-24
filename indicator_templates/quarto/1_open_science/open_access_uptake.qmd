@@ -61,7 +61,7 @@ By looking at the percentage of Open Access publications, we get an idea of the 
 
 We can study the percentage of Open Access publications based on different selections. For instance, we may want to select only publications within a particular country, institution, field of science or publication year. We do not describe here how to make such selections, we here merely clarify how to calculate the percentage of Open Access publications, given a particular set of publications.
 
-##### Existing datasources:
+##### Datasources
 
 ###### Unpaywall
 

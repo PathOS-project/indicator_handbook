@@ -45,7 +45,7 @@ Potential issues in creating this metric, and measuring the number/% hiring poli
 -   Within an organization, differences might exist on faculty level, regarding the positive reward of the uptake of open science practices (since not all scholarly disciplines are equally aligned when it comes to the uptake of open science practices, the inclusion of the scholarly domain would be a good suggestion, which complicates this metric substantially)
 -   This metric is time-consuming, since no systematic data sources are available.
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;datasource name&gt;
 
@@ -84,7 +84,7 @@ Potential issues in creating this metric, and measuring the number/% hiring poli
 -   Given the varied missions of funding agencies (the differences that might occur between public versus private funders and charities) might lead to differences in what is required regarding openness of research and its results.
 -   This metric is time-consuming, since no systematic data sources are available.
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;datasource name&gt;
 
@@ -109,7 +109,7 @@ Potential issues in designing this metric are:
 
 Based on various data sources, we can construct metrics about the number of journals that implement a particular policy. In principle, one could combine various such policies to get at an overall metric of journals that implement one or more policies that incentivises open science. To get at a percentage, we also need the total number of journals, which can be more challenging to describe. This could be based on the data source used to measure a particular policy, but this might come with limitations. Various bibliometric databases cover various journals, but few databases are truly comprehensive. One of the most comprehensive journal list is Ulrich’s Periodical Directory.
 
-##### Existing datasources:
+##### Datasources
 
 ###### Sherpa Romeo
 

@@ -96,7 +96,7 @@ In the current framework, this matrix of 8 categories crossed with policies and 
 
 For each item, the questionnaire also includes an item about the public availability of the policy (measured as yes / no variable) and an open-text field to enter a URL to the corresponding website.
 
-##### Existing datasources:
+##### Datasources
 
 ###### EOSC Observatory
 

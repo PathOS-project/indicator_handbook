@@ -31,7 +31,7 @@ Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is
 
 However, one potential limitation of this approach is that not all open datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE
 
@@ -77,7 +77,7 @@ Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is
 
 One potential limitation of this approach is that not all open datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE
 
@@ -121,7 +121,7 @@ To measure this metric, we can use data from various data repositories, such as 
 
 The data can be computationally obtained using web scraping tools, API queries, or by manually accessing the download/usage count/star data for each dataset.
 
-##### Existing datasources:
+##### Datasources
 
 ###### DataCite
 
@@ -193,7 +193,7 @@ Potential measurement problems and limitations of this metric include the possib
 
 Existing data sources and methodologies for this metric include the data repositories and web analytics tools mentioned above. DataCite and Zenodo provide download counts for their published content, including DMPs, while Google Analytics can be used to track views of DMPs on institutional or funder websites. However, there may be gaps in the availability of download or view counts for DMPs published on other platforms or websites. In such cases, it may be necessary to manually track the number of downloads or views through user surveys or by contacting individual users who have downloaded or viewed the DMP.
 
-##### Existing datasources:
+##### Datasources
 
 ###### DataCite
 
@@ -225,7 +225,7 @@ To measure this metric, we can start by identifying published DMPs in data repos
 
 However, there are some limitations to this approach. One limitation is that not all DMPs are publicly available, which may limit the scope of the analysis. Additionally, automated techniques may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the DMP.
 
-##### Existing datasources:
+##### Datasources
 
 ###### DataCite
 

@@ -27,7 +27,7 @@ An initial step to measure the number of reused code/software in publications ca
 
 However, these methods may face challenges such as inconsistencies in reporting of code or software reuse, variations in the degree of specificity in reporting of the reuse, and difficulties in distinguishing between code or software that is reused versus code or software that is developed anew but shares similarities with existing code or software. Furthermore, the availability and quality of the automated tools may vary across different research fields and may require domain-specific adaptations.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE
 
@@ -75,7 +75,7 @@ To measure the percentage of publications with reused code/software, we start by
 
 However, these methods may face challenges such as inconsistencies in reporting of code or software reuse, variations in the degree of specificity in reporting of the reuse, and difficulties in distinguishing between code or software that is reused versus code or software that is developed anew but shares similarities with existing code or software. Furthermore, the availability and quality of the automated tools may vary across different research fields and may require domain-specific adaptations.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE
 

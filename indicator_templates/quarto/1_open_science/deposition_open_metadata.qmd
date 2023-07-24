@@ -29,18 +29,6 @@ If the metadata of an article in Crossref does not include references, this mean
 
 The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
 
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
 ### Journal articles with open abstracts
 
 This metric provides the number or the percentage of journal articles for which the abstract is openly available.
@@ -53,7 +41,7 @@ If the metadata of an article in Crossref does not include an abstract, this mea
 
 The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;datasource name&gt;
 
@@ -77,7 +65,7 @@ If the metadata of an article in Crossref does not include author affiliations, 
 
 This metric is used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;datasource name&gt;
 
@@ -101,7 +89,7 @@ If the metadata of an article in Crossref does not include funding information, 
 
 The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;datasource name&gt;
 

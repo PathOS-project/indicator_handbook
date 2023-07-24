@@ -39,7 +39,7 @@ There are also continuous measures that can be dichotomized:
 -   Bayes factors for comparison of original and replication findings.
 -   Bayesian tests to compare null distribution and posterior distribution of the original study.
 
-##### Existing datasources:
+##### Datasources
 
 There is no single datasource for this metric. Data needs to be extracted from existing publications or gathered newly by employing these methodologies.
 
@@ -63,7 +63,7 @@ Replication attempts might often not be published, but for instance only conduct
 
 In addition to directly measuring the success of replication studies, levels of replication can also be assessed by surveying researchers. They can report retrospectively about their replication attempts and indicate or estimate the level of replication they encountered. These reports, however, might be less systematic, detailed or objective than studies or projects directly reperforming studies. Still, they can be acquired with less resources.
 
-##### Existing datasources:
+##### Datasources
 
 There is no single datasource for this metric. Data needs to be extracted from existing publications or gathered newly by employing these methodologies.
 
@@ -81,7 +81,7 @@ Since replication attempts require a lot of resources, they cannot be conducted 
 
 Levels of replication can also be measured prospectively. This is done through expert predictions of the replicability of studies (mostly captured as the predicted probability of successful replication). A percentage or number of studies predicted to successfully replicate can be calculated after dichotomizing this probability (e.g., interpreting probability &gt; .5 as prediction of success). While these predictions might be less accurate compared to other measures of replicability, studies would not actually have to be reperformed when only employing this measure.
 
-##### Existing datasources:
+##### Datasources
 
 There is no single datasource for this metric. Data needs to be extracted from existing publications or gathered newly by employing these methodologies. The studies cited below made their data available, which can be used to re-analyse or extend existing analyses. Note however that Forsell and colleagues promised to populate a repository with the data but have not done so as of June 2023.
 

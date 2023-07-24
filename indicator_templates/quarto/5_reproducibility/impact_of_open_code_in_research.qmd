@@ -31,7 +31,7 @@ Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is
 
 However, one potential limitation of this approach is that not all open code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
-##### Existing datasources:
+##### Datasources
 
 ###### Scopus
 
@@ -69,7 +69,7 @@ Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is
 
 However, one potential limitation of this approach is that not all open code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
-##### Existing datasources:
+##### Datasources
 
 ###### Scopus
 
@@ -107,7 +107,7 @@ Additionally, the accuracy of the usage data may be affected by factors such as 
 
 The data can be computationally obtained using web scraping tools, API queries, or by manually accessing the download/usage count/star data.
 
-##### Existing datasources:
+##### Datasources
 
 ###### Github
 

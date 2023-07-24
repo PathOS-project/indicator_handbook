@@ -34,7 +34,7 @@ To measure the number of replication studies, besides manually testing, a suitab
 
 Potential measurement problems and limitations include the possibility of incomplete or inaccurate reporting of replication studies, as well as differences in definitions and methodologies for identifying replication studies. Additionally, not all replication studies may be published in a way that makes them easily identifiable, which could lead to undercounting. There may also be variations in the level of adoption of open science practices related to replication across different fields or scientific communities, which could make it challenging to compare the prevalence of replication studies across different domains.
 
-##### Existing datasources:
+##### Datasources
 
 ###### Open Science Framework (OSF) - Registered Reports
 
@@ -70,7 +70,7 @@ Limitations of this metric include the potential for biased or incomplete report
 
 \[add text here\]
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;datasource name&gt;
 

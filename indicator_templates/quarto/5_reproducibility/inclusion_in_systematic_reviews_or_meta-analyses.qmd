@@ -23,7 +23,7 @@ The inclusion of a research paper can be indicated through the number of times i
 
 This metric could be measured by analysing the sources a paper is cited by. Type of publication needs to be extracted for all citing sources. Number of citing sources being of type systematic review or meta-analysis can then be counted.
 
-##### Existing datasources:
+##### Datasources
 
 ###### Literature databases
 
@@ -45,7 +45,7 @@ All citing sources of a given paper are classified by their type, filtering out 
 
 A key question in applying this metric would be how to interpret the aggregated counts: what number of inclusions would indicate a “robust” or “reproducible” finding? Furthermore, absence of inclusion cannot be taken as a sign for low reproducibility, because there are many reasons why this might be the case: no systematic reviews conducted yet in this field, study not included in prior reviews due to general exclusion criteria (e.g., different language, sample population or study target, etc.).
 
-##### Existing datasources:
+##### Datasources
 
 ###### Semantic analysis of full text
 
@@ -63,7 +63,7 @@ Opposite to inclusion, the number of systematic reviews and meta-analyses that h
 
 All citing sources of a given paper are classified by their type, filtering out systematic reviews and meta-analyses. For these sources it is checked whether they exclude the given paper due to methodological issues or bias that were identified (not because of scope). Number of systematic reviews and meta-analyses where this is the case can then be counted.
 
-##### Existing datasources:
+##### Datasources
 
 ###### Semantic analysis of full text
 

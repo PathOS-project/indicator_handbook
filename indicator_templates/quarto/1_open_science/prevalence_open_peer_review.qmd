@@ -33,7 +33,7 @@ There is no datasource that provides comprehensive data on the peer review model
 
 Each of the above datasources is incomplete and some of the data is likely to be outdated.
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;datasource name&gt;
 
@@ -55,7 +55,7 @@ Some journals publish review reports and register DOIs for these reports at Cros
 
 Other journals publish review reports without registering DOIs for these reports. This is for instance the case for journals published by BMJ, EMBO, MDPI, PLOS, and Springer Nature. For these journals, there is no straightforward way to determine the number of articles with open review reports. However, if a journal is known (based on the datasources mentioned in the previous section) to publish open review reports for all its articles, the number of articles with open review reports can be determined by determining the total number of articles in the journal.
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;datasource name&gt;
 
@@ -83,7 +83,7 @@ For each datasource, it needs to be decided which preprint review services are i
 
 Some preprint servers allow review reports and other comments to be posted directly on the preprint server (rather than on a separate platform for preprint peer review). However, there is no straightforward way to identify preprints for which review reports are available directly on the preprint server.
 
-##### Existing datasources:
+##### Datasources
 
 ###### &lt;datasource name&gt;
 

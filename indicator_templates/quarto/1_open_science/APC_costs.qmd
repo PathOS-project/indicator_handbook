@@ -27,7 +27,7 @@ Limitation:
 
 #### Measurement.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Graph
 
@@ -65,7 +65,7 @@ Limitations:
 
 #### Measurement.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Graph
 
@@ -105,7 +105,7 @@ Limitations:
 
 #### Measurement.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Graph
 
@@ -148,7 +148,7 @@ Limitations:
 
 #### Measurement.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Graph
 

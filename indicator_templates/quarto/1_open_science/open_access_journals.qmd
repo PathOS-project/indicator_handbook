@@ -46,7 +46,7 @@ Limitations:
 
 The total number of OA journals available.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Graph
 
@@ -78,7 +78,7 @@ fully OA journals
 
 #### Measurement.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Graph
 

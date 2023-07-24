@@ -30,7 +30,7 @@ When looking for an indication of how widespread the availability of data reposi
 
 The number of data repositories can be represented as a simple count measure. However, in addition to the previously mentioned limitations it might be difficult to obtain data on all existing data repositories, given the large number and variety. The number of accessible data repositories is not a widely adopted metric yet, so data on the (the number of) data repositories is not available on all mainstream platforms. Nevertheless, there are some sources that could help to find information on the number of data repositories. If the information sources allow it, count per field, organisation etc. or percentages can be calculated from these sources as well. This can be done by either limiting the count to the area of interest or in the case of percentages dividing the number of identified data repositories by the total number of units included.
 
-##### Existing datasources:
+##### Datasources
 
 ###### DataCitere3data
 

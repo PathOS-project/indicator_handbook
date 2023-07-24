@@ -27,7 +27,7 @@ An initial step to measure the number of reused datasets in publications can be 
 
 However, these methods may face challenges such as inconsistencies in reporting of reused data, and variations in the degree of specificity in the reporting of the reuse. Additionally, the availability and quality of the data extraction tools may vary across different research fields and may require domain-specific adaptations.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE
 
@@ -71,7 +71,7 @@ To measure the percentage of publications with reused datasets, we start by usin
 
 However, these methods may face challenges such as inconsistencies in reporting of reused data, and variations in the degree of specificity in the reporting of the reuse. Additionally, the availability and quality of the data extraction tools may vary across different research fields and may require domain-specific adaptations.
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE
 

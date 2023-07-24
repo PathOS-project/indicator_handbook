@@ -45,7 +45,7 @@ Limitations:
 
 Count
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Graph
 
@@ -89,7 +89,7 @@ Limitations:
 
 % = 100\*(pubs with preprint)/(total number of pubs)
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Graph
 
@@ -128,7 +128,7 @@ Limitations:
 
 % = 100\*(preprints that are published)/(total number of preprints)
 
-##### Existing datasources:
+##### Datasources
 
 ###### OpenAIRE Graph
 

@@ -44,7 +44,7 @@ This informaitoninclude:
 
 These are measurements which are generally feasible but may require more in-depth study, for instance using bibliometric research, desk research into contracts and other methods and sources.
 
-##### Existing datasources:
+##### Datasources
 
 ###### ESAC Registry of Transformative Agreements
 
