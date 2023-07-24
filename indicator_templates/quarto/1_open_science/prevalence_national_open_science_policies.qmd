@@ -80,10 +80,7 @@ Another case of standardized data collection on Open Science policies is the **E
 
 As part of the observatory, an EOSC Monitoring Framework has been developed which collects information, on a regular basis, together with representatives of EU member states and associated countries. The monitoring framework collects standardized information on 8 policy areas and the existence of country-level policies and accompanying investments in Open Science.
 
-![Graphical user interface, application
-Description automatically generated with medium confidence](figures/9c7413cea25d4ac6b909a77c37a945a00b3d4301.png)
-
-Source: Gareth O'Neill. (2022). Monitoring Framework for National Contributions to EOSC (Version V1). Zenodo. <https://doi.org/10.5281/zenodo.7410762> (Licensed using [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode))
+![Gareth O'Neill. (2022). Monitoring Framework for National Contributions to EOSC (Version V1). Zenodo. <https://doi.org/10.5281/zenodo.7410762> (Licensed using [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode))](figures/9c7413cea25d4ac6b909a77c37a945a00b3d4301.png)
 
 In the current framework, this matrix of 8 categories crossed with policies and practices areas results in 96 indicators, 48 each for policies and practices. Detailed items for each indicator are included in the “Survey on National Contributions to EOSC 2022” (O’Neill et al., 2023). Practically, the large majority of items are measured through binary yes-no questions. In the case of Open Access to publications, the following items are included in the survey:
 
