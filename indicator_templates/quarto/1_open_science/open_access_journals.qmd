@@ -30,11 +30,9 @@ affiliations:
 
 ## History
 
-
 | Version | Revision date | Revision    | Author                                                  |
 |---------|---------------|-------------|---------------------------------------------------------|
-| 0.1     | 2023-05-09    | First draft | N. Manola, I. Grypari, H. Papageorgiou, P. Stavropoulos |
-
+| 1.0     | 2023-05-09    | First draft | N. Manola, I. Grypari, H. Papageorgiou, P. Stavropoulos |
 
 :::
 

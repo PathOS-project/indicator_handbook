@@ -19,11 +19,9 @@ affiliations:
 
 ## History
 
-
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
-
-
+| 1.0     | 2023-05-21    | Initial draft                | L. Waltman                |
 
 :::
 

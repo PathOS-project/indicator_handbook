@@ -19,11 +19,10 @@ affiliations:
 
 ## History
 
-
 | Version | Revision date | Revision                     | Author                                      |
 |---------|---------------|------------------------------|---------------------------------------------|
-
-
+| 1.1     | 2023-07-20    | Edited & revised             | V.A. Traag                                  |
+| 1.0     | 2023-07-12    | Initial draft                | T. van Leeuwen                              |
 
 :::
 

@@ -19,12 +19,9 @@ affiliations:
 
 ## History
 
-
 | Version | Revision date | Revision                     | Author                                      |
 |---------|---------------|------------------------------|---------------------------------------------|
-| 2.0     | 2023-07-12    | Initial draft                | T. van Leeuwen                              |
-
-
+| 1.0     | 2023-07-12    | Initial draft                | T. van Leeuwen                              |
 
 :::
 

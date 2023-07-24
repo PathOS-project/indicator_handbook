@@ -21,9 +21,9 @@ affiliations:
 
 | Version | Revision date | Revision                    | Author        |
 |---------|---------------|-----------------------------|---------------|
-|         | 2023-06-30    | Minor edits                 | L. Stoy (TGB) |
-| 0.2     | 2023-02-28    | Extended content            | L. Stoy (TGB) |
-| 0.1     | 2023-02-14    | Initial version of document | L. Stoy (TGB) |
+| 1.2     | 2023-06-30    | Minor edits                 | L. Stoy (TGB) |
+| 1.1     | 2023-02-28    | Extended content            | L. Stoy (TGB) |
+| 1.0     | 2023-02-14    | Initial version of document | L. Stoy (TGB) |
 
 :::
 

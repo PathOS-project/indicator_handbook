@@ -19,12 +19,10 @@ affiliations:
 
 ## History
 
-
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
-| 1.1     |               | First draft                  | T. Willemse               |
-
-
+| 1.1     | 2023-07-20    | Edited & revised             | T. Willemse               |
+| 1.0     | 2023-04-13    | First draft                  | T. Willemse               |
 
 :::
 

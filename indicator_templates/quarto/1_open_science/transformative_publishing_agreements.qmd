@@ -20,8 +20,8 @@ affiliations:
 
 | Version | Revision date | Revision                               | Author  |
 |---------|---------------|----------------------------------------|---------|
-| 0.2     | 2023-06-30    | Added OpenAPC; minor revisions to rest | L. Stoy |
-| 0.1     | 2023-03-01    | First draft                            | L. Stoy |
+| 1.2     | 2023-06-30    | Added OpenAPC; minor revisions to rest | L. Stoy |
+| 1.1     | 2023-03-01    | First draft                            | L. Stoy |
 
 :::
 
