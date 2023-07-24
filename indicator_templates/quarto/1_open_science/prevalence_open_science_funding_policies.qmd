@@ -1,3 +1,22 @@
+---
+author:
+    - name: L. Stoy
+      orcid: 0000-0002-3827-9815
+      affiliations:
+      - ref: tgb
+    - name: I. Karasz
+      orcid: 0000-0002-3344-1975
+      affiliations:
+      - ref: tgb
+
+affiliations:
+- id: tgb
+  name: Technopologis Group
+  city: Brussels
+  country: Belgium
+---
+
+
 # Prevalence of open science funding policies {#prevalence-of-open-science-funding-policies .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision on top):

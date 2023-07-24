@@ -1,3 +1,29 @@
+---
+author:
+    - name: I. Grypari
+      orcid: 0000-0002-7485-1591
+      affiliations:
+      - ref: arc
+    - name: N. Manola
+      orcid: 0000-0002-3477-3082
+      affiliations:
+      - ref: arc
+    - name: H. Papageorgiou
+      orcid: 0000-0002-7352-2403
+      affiliations:
+      - ref: arc
+    - name: P. Stavropoulos
+      orcid: 0000-0003-1664-6554
+      affiliations:
+      - ref: arc
+
+affiliations:
+- id: arc
+  name: Athena Research Center
+  city: Athena
+  country: Greece
+---
+
 # Availability of publication repositories {#availability-of-publication-repositories .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision on top):

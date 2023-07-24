@@ -1,3 +1,25 @@
+---
+author:
+    - name: T. Klebel
+      orcid: 0000-0002-7331-4751
+      affiliations:
+      - ref: know
+    - name: E. Kormann
+      orcid: 0009-0005-5680-3659
+      affiliations:
+      - ref: tug
+
+affiliations:
+- id: know
+  name: Know-Center
+  city: Graz
+  country: Austria
+- id: tug
+  name: Graz University of Technology
+  city: Graz
+  country: Austria
+---
+
 # Inclusion in systematic reviews or meta-analyses {#inclusion-in-systematic-reviews-or-meta-analyses .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision on top):

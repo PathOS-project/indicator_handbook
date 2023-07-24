@@ -1,3 +1,17 @@
+---
+author:
+    - name: L. Stoy
+      orcid: 0000-0002-3827-9815
+      affiliations:
+      - ref: tgb
+
+affiliations:
+- id: tgb
+  name: Technopologis Group
+  city: Brussels
+  country: Belgium
+---
+
 # Prevalence of national open science policies {#prevalence-of-national-open-science-policies .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision on top):

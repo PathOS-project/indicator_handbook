@@ -1,3 +1,18 @@
+---
+author:
+    - name: T. Willemse
+      orcid: 0000-0002-3778-8247
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
 # Prevalence of open/FAIR data practices {#prevalence-of-openfair-data-practices .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision on top):

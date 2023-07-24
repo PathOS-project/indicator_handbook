@@ -1,3 +1,18 @@
+---
+author:
+    - name: L. Waltman
+      orcid: 0000-0001-8249-1752
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
 # Deposition of open metadata {#deposition-of-open-metadata .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision on top):

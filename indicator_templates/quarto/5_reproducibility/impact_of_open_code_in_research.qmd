@@ -1,3 +1,17 @@
+---
+author:
+    - name: P. Stavropoulos
+      orcid: 0000-0003-1664-6554
+      affiliations:
+      - ref: arc
+
+affiliations:
+- id: arc
+  name: Athena Research Center
+  city: Athena
+  country: Greece
+---
+
 # Impact of open code in research {#impact-of-open-code-in-research .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision on top):
