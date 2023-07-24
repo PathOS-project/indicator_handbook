@@ -12,7 +12,7 @@ affiliations:
   country: Greece
 ---
 
-# Impact of open data in research {#impact-of-open-data-in-research .unnumbered}
+# Impact of Open Data in research {#impact-of-open-data-in-research .unnumbered}
 
 ::: {.callout-note collapse="true"}
 
@@ -27,7 +27,7 @@ affiliations:
 
 ## Description
 
-Impact of open data in research refers to the effect of making research data openly accessible and reusable to the scientific and industrial community, and society as a whole. Additionally, it is worth noting that these open data practices subtly contribute to enhancing the reproducibility of research results, as open and accessible data is a cornerstone for verification and validation in science. This indicator aims to capture the impact of open data practices adopted in research on the scientific output and societal benefits. The indicator can be used to assess the level of openness and accessibility of research data within a specific scientific community or field, and to identify potential barriers or incentives for the adoption of open data practices.
+Impact of Open Data in research refers to the effect of making research data openly accessible and reusable to the scientific and industrial community, and society as a whole. Additionally, it is worth noting that these Open Data practices subtly contribute to enhancing the reproducibility of research results, as open and accessible data is a cornerstone for verification and validation in science. This indicator aims to capture the impact of Open Data practices adopted in research on the scientific output and societal benefits. The indicator can be used to assess the level of openness and accessibility of research data within a specific scientific community or field, and to identify potential barriers or incentives for the adoption of Open Data practices.
 
 ## Metrics
 
@@ -35,7 +35,7 @@ Impact of open data in research refers to the effect of making research data ope
 
 This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have introduced open datasets. By introducing open datasets, researchers enable others to access and verify their findings, thus enhancing the potential for reproducibility. The FWCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the FWCI for publications that have introduced open datasets can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
 
-One limitation of this metric is that it may not capture the impact of open data practices on research findings that are not directly related to the introduction of open datasets. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of open data practices on research output.
+One limitation of this metric is that it may not capture the impact of Open Data practices on research findings that are not directly related to the introduction of open datasets. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
 #### Measurement.
 
@@ -51,7 +51,7 @@ However, one potential limitation of this approach is that not all open datasets
 
 ###### OpenAIRE
 
-OpenAIRE is a European platform that provides open access to research outputs, including publications, datasets, and software. OpenAIRE collects metadata from various data sources, including institutional repositories, data repositories, and publishers.
+OpenAIRE is a European platform that provides Open Access to research outputs, including publications, datasets, and software. OpenAIRE collects metadata from various data sources, including institutional repositories, data repositories, and publishers.
 
 For the FWCI for publications that have introduced open datasets metric, we can use OpenAIRE to identify publications that have introduced open datasets. We can search for publications by looking for OpenAIRE records that have a dataset identifier in the references section or by using OpenAIRE's API to search for publications that are linked to a specific dataset.
 
@@ -81,7 +81,7 @@ To measure the proposed metric, the tool can be used to calculate the FWCI score
 
 This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have (re)used open datasets. It is a measure of the citation impact of research publications that have utilized open datasets, adjusted for differences in citation practices across scientific fields. The FWCI for publications that have (re)used open datasets can indicate the potential impact of data sharing and reuse practices on the visibility and influence of research findings. A higher FWCI score indicates a greater level of scientific collaboration and data sharing within a specific scientific community or field, suggesting that the availability of open datasets can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
 
-A limitation of this metric is that it may not capture the impact of open data practices on research findings that are not directly related to the use of open datasets. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of open data practices on research output.
+A limitation of this metric is that it may not capture the impact of Open Data practices on research findings that are not directly related to the use of open datasets. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
 #### Measurement.
 
@@ -97,7 +97,7 @@ One potential limitation of this approach is that not all open datasets may be r
 
 ###### OpenAIRE
 
-OpenAIRE is a European platform that provides open access to research outputs, including publications, datasets, and software. OpenAIRE collects metadata from various data sources, including institutional repositories, data repositories, and publishers.
+OpenAIRE is a European platform that provides Open Access to research outputs, including publications, datasets, and software. OpenAIRE collects metadata from various data sources, including institutional repositories, data repositories, and publishers.
 
 For the FWCI for publications that have (re)used open datasets metric, we can use OpenAIRE to identify publications that have (re)used open datasets. We can search for publications by looking for OpenAIRE records that have a dataset identifier in the references section or by using OpenAIRE’s API to search for publications that are linked to a specific dataset.
 
@@ -133,7 +133,7 @@ One limitation of this metric is that it only captures usage of open datasets fr
 
 #### Measurement.
 
-To measure this metric, we can use data from various data repositories, such as DataCite and Zenodo, or data from OpenAIRE, which provide download or usage statistics for hosted datasets. We can also use platforms such as GitHub or GitLab, which provide star counts as a measure of user engagement with open source code repositories that may include open datasets. However, it is important to note that different repositories may provide different types of usage statistics, and these statistics may not be directly comparable across repositories. Additionally, not all repositories may track usage statistics, making it difficult to obtain comprehensive data for all open datasets.
+To measure this metric, we can use data from various data repositories, such as DataCite and Zenodo, or data from OpenAIRE, which provide download or usage statistics for hosted datasets. We can also use platforms such as GitHub or GitLab, which provide star counts as a measure of user engagement with Open Source code repositories that may include open datasets. However, it is important to note that different repositories may provide different types of usage statistics, and these statistics may not be directly comparable across repositories. Additionally, not all repositories may track usage statistics, making it difficult to obtain comprehensive data for all open datasets.
 
 The data can be computationally obtained using web scraping tools, API queries, or by manually accessing the download/usage count/star data for each dataset.
 
@@ -153,13 +153,13 @@ To calculate the metric of dataset views and downloads from Zenodo, we can extra
 
 ###### OpenAIRE
 
-OpenAIRE is a European open science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including open datasets.
+OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including open datasets.
 
 To calculate this metric using OpenAIRE, we can retrieve the download and view counts for the relevant open datasets, which can be accessed through the OpenAIRE REST API. The API returns JSON-formatted metadata for each research output, which includes information such as the title, authors, publication date, download counts, and view counts. The download and view counts can be used to calculate the total number of times the dataset has been accessed or viewed, respectively.
 
 ###### GitHub
 
-GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for open source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of open datasets. To ensure that the repository primarily contains research data and not code, we can consider the following alternatives:
+GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of open datasets. To ensure that the repository primarily contains research data and not code, we can consider the following alternatives:
 
 -   Repository labeling: Look for repositories that are explicitly labeled as containing data or datasets. Many repository owners provide clear labels or descriptions indicating the nature of the content.
 -   File extensions: Check for files with common data file extensions, such as .csv, .txt, or .xlsx. These file extensions are commonly used for data files, while code files often have extensions like .py, .java, or .cpp.
@@ -197,9 +197,9 @@ To access this information, we can use the GitLab API.
 
 ### Downloads / views of published DMPs
 
-This metric measures the number of downloads or views of published Data Management Plans (DMPs) from data repositories, such as DataCite, Zenodo, or institutional repositories. A DMP is a document that outlines how research data will be managed throughout a research project, including details on data collection, storage, sharing, and preservation. The number of downloads or views of published DMPs can indicate the level of interest and engagement of researchers and other stakeholders in open data practices and the importance of data management planning in the research process, thereby reflecting the adoption of good data management practices that indirectly contribute to overall research reproducibility.
+This metric measures the number of downloads or views of published Data Management Plans (DMPs) from data repositories, such as DataCite, Zenodo, or institutional repositories. A DMP is a document that outlines how research data will be managed throughout a research project, including details on data collection, storage, sharing, and preservation. The number of downloads or views of published DMPs can indicate the level of interest and engagement of researchers and other stakeholders in Open Data practices and the importance of data management planning in the research process, thereby reflecting the adoption of good data management practices that indirectly contribute to overall research reproducibility.
 
-A limitation of this metric is that it only captures the number of downloads or views of DMPs, which may not necessarily indicate the actual implementation of the DMP or the quality of the data management practices. Therefore, it is important to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of open data practices on research output.
+A limitation of this metric is that it only captures the number of downloads or views of DMPs, which may not necessarily indicate the actual implementation of the DMP or the quality of the data management practices. Therefore, it is important to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
 #### Measurement.
 
@@ -231,9 +231,9 @@ One limitation of using Zenodo to measure this metric is that not all DMPs may b
 
 ### Number of datasets reused inside DMPs
 
-This metric measures the number of datasets that are reused in Data Management Plans (DMPs). A DMP is a document that outlines how research data will be managed throughout a research project, including details on data collection, storage, sharing, and preservation. The number of datasets reused in DMPs can indicate the level of engagement of researchers in open data practices and the potential impact of data sharing and reuse practices on research output. This metric can also serve as a proxy for reproducibility. This is because the open availability and proper referencing of datasets within DMPs can facilitate other researchers in verifying or replicating results. Furthermore, the standardization of data storage, management, and processing practices encouraged by DMPs can indirectly promote reproducibility.
+This metric measures the number of datasets that are reused in Data Management Plans (DMPs). A DMP is a document that outlines how research data will be managed throughout a research project, including details on data collection, storage, sharing, and preservation. The number of datasets reused in DMPs can indicate the level of engagement of researchers in Open Data practices and the potential impact of data sharing and reuse practices on research output. This metric can also serve as a proxy for reproducibility. This is because the open availability and proper referencing of datasets within DMPs can facilitate other researchers in verifying or replicating results. Furthermore, the standardization of data storage, management, and processing practices encouraged by DMPs can indirectly promote reproducibility.
 
-A limitation of this metric is that it may not capture the full range of open data practices that are being utilized by researchers, such as the sharing of data outside of DMPs or the creation of new datasets for reuse. Additionally, the metric may not capture the quality or impact of the datasets being reused in DMPs. Therefore, it is important to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of open data practices on research output.
+A limitation of this metric is that it may not capture the full range of Open Data practices that are being utilized by researchers, such as the sharing of data outside of DMPs or the creation of new datasets for reuse. Additionally, the metric may not capture the quality or impact of the datasets being reused in DMPs. Therefore, it is important to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
 #### Measurement.
 

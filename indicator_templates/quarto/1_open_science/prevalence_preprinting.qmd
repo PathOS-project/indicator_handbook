@@ -40,7 +40,7 @@ affiliations:
 
 Description:
 
--   The "prevalence of preprinting" indicator measures the frequency of preprints that are made publicly available prior to peer review and publication in a journal. Preprinting allows researchers to share their work quickly and receive feedback from their peers before publication, and it also provides open access to research that might otherwise be locked behind journal paywalls.
+-   The "prevalence of preprinting" indicator measures the frequency of preprints that are made publicly available prior to peer review and publication in a journal. Preprinting allows researchers to share their work quickly and receive feedback from their peers before publication, and it also provides Open Access to research that might otherwise be locked behind journal paywalls.
 
 Usefulness:
 
@@ -161,7 +161,7 @@ We are unsure whether these are known but we would assume the following are corr
 
 -   -   -   Field of research (preprint culture)
         -   Time (adoption over time)
-        -   Funding source and open access policies of instituion (if it is a mandate)
+        -   Funding source and Open Access policies of instituion (if it is a mandate)
         -   Stage of career (preprint culture)
         -   Collaboration networks, e.g. if large social media presence of network maybe likely to adopt preprinting practices.
 

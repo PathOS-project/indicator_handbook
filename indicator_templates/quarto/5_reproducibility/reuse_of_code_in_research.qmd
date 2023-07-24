@@ -47,7 +47,7 @@ However, these methods may face challenges such as inconsistencies in reporting 
 
 ###### OpenAIRE
 
-OpenAIRE is a European open science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including open datasets.
+OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including open datasets.
 
 To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/) can be used to find and access open software, study their usage statistics, and identify the research publications that reference them.
 
@@ -95,7 +95,7 @@ However, these methods may face challenges such as inconsistencies in reporting 
 
 ###### OpenAIRE
 
-OpenAIRE is a European open science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including open datasets.
+OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including open datasets.
 
 To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/) can be used to find and access open software, study their usage statistics, and identify the research publications that reference them.
 

@@ -12,7 +12,7 @@ affiliations:
   country: Greece
 ---
 
-# Impact of open code in research {#impact-of-open-code-in-research .unnumbered}
+# Impact of Open Code in research {#impact-of-open-code-in-research .unnumbered}
 
 ::: {.callout-note collapse="true"}
 
@@ -28,25 +28,25 @@ affiliations:
 
 ## Description
 
-The impact of open code in research refers to the effect of making research code openly accessible and reusable on the scientific community and society as a whole. Additionally, it is worth noting that these open code practices subtly contribute to enhancing the reproducibility of research results, as open and accessible code is a cornerstone for verification and validation in science. This indicator aims to capture the impact of open code practices adopted in research on the scientific output and societal benefits. The indicator can be used to assess the level of openness and accessibility of research code within a specific scientific community or field and to identify potential barriers or incentives for the adoption of open code practices. It can also be used to track the reuse and impact of open code on subsequent research, as well as to evaluate the effectiveness of policies and initiatives promoting open code practices.
+The impact of Open Code in research refers to the effect of making research code openly accessible and reusable on the scientific community and society as a whole. Additionally, it is worth noting that these Open Code practices subtly contribute to enhancing the reproducibility of research results, as open and accessible code is a cornerstone for verification and validation in science. This indicator aims to capture the impact of Open Code practices adopted in research on the scientific output and societal benefits. The indicator can be used to assess the level of openness and accessibility of research code within a specific scientific community or field and to identify potential barriers or incentives for the adoption of Open Code practices. It can also be used to track the reuse and impact of Open Code on subsequent research, as well as to evaluate the effectiveness of policies and initiatives promoting Open Code practices.
 
 ## Metrics
 
-### FWCI for publication that have introduced open code
+### FWCI for publication that have introduced Open Code
 
-This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have introduced open code. By introducing open code, researchers enable others to scrutinize and build upon their computational methods, thus enhancing the potential for reproducibility and advancement of the field. The FWCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the FWCI for publications that have introduced open code can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
+This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have introduced Open Code. By introducing Open Code, researchers enable others to scrutinize and build upon their computational methods, thus enhancing the potential for reproducibility and advancement of the field. The FWCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the FWCI for publications that have introduced Open Code can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
 
-One limitation of this metric is that it may not capture the impact of open code practices on research findings that are not directly related to the introduction of open code. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of open code practices on research output.
+One limitation of this metric is that it may not capture the impact of Open Code practices on research findings that are not directly related to the introduction of Open Code. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
 
 #### Measurement.
 
-To measure this metric, the process begins with the identification of publications that have introduced open code. This is typically achieved by scrutinizing metadata within the code repositories and the publications, such as the repository's unique identifiers or the DOI (Digital Object Identifier). Alternatively, explicit mentions of the code repository, such as GitHub or GitLab URLs, within the publication text can be extracted to verify their openness. This can be performed manually or using automated tools.
+To measure this metric, the process begins with the identification of publications that have introduced Open Code. This is typically achieved by scrutinizing metadata within the code repositories and the publications, such as the repository's unique identifiers or the DOI (Digital Object Identifier). Alternatively, explicit mentions of the code repository, such as GitHub or GitLab URLs, within the publication text can be extracted to verify their openness. This can be performed manually or using automated tools.
 
 Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide these categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science) or [Elsevier's SciVal](https://www.elsevier.com/solutions/scival). Alternatively, classifications provided by [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) and [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) can be utilized.
 
 Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is calculated. The FWCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
 
-However, one potential limitation of this approach is that not all open code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+However, one potential limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
 ##### Datasources
 
@@ -68,23 +68,23 @@ To measure the proposed metric, the tool can be used to identify relevant public
 
 The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their FWCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
-To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has introduced open code/software.
+To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has introduced Open Code/software.
 
-### FWCI for publication that have (re)used open code
+### FWCI for publication that have (re)used Open Code
 
-This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have (re)used open code. It is a measure of the citation impact of research publications that have utilized open code, adjusted for differences in citation practices across scientific fields. The FWCI for publications that have (re)used open code can indicate the potential impact of code sharing and reuse practices on the visibility and influence of research findings. A higher FWCI score indicates a greater level of scientific collaboration and code sharing within a specific scientific community or field, suggesting that the availability of open code can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
+This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have (re)used Open Code. It is a measure of the citation impact of research publications that have utilized Open Code, adjusted for differences in citation practices across scientific fields. The FWCI for publications that have (re)used Open Code can indicate the potential impact of code sharing and reuse practices on the visibility and influence of research findings. A higher FWCI score indicates a greater level of scientific collaboration and code sharing within a specific scientific community or field, suggesting that the availability of Open Code can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
 
-A limitation of this metric is that it may not capture the impact of open code practices on research findings that are not directly related to the use of open code. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of open code practices on research output.
+A limitation of this metric is that it may not capture the impact of Open Code practices on research findings that are not directly related to the use of Open Code. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
 
 #### Measurement.
 
-To measure this metric, the process begins with the identification of publications that have (re)used open code. This is typically achieved by scrutinizing metadata within the code repositories and the publications, such as the repository's unique identifiers or the DOI (Digital Object Identifier). Alternatively, explicit mentions of the code repository, such as GitHub or GitLab URLs, within the publication text can be extracted to verify their openness. This can be performed manually or using automated tools.
+To measure this metric, the process begins with the identification of publications that have (re)used Open Code. This is typically achieved by scrutinizing metadata within the code repositories and the publications, such as the repository's unique identifiers or the DOI (Digital Object Identifier). Alternatively, explicit mentions of the code repository, such as GitHub or GitLab URLs, within the publication text can be extracted to verify their openness. This can be performed manually or using automated tools.
 
 Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide these categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science) or [Elsevier's SciVal](https://www.elsevier.com/solutions/scival). Alternatively, classifications provided by [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) and [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) can be utilized.
 
 Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is calculated. The FWCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
 
-However, one potential limitation of this approach is that not all open code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+However, one potential limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
 ##### Datasources
 
@@ -106,15 +106,15 @@ To measure the proposed metric, the tool can be used to identify relevant public
 
 The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their FWCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
-To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has (re)used open code/software.
+To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has (re)used Open Code/software.
 
 ### Code downloads/usage counts/stars from repositories
 
-This metric measures the number of times an open code repository has been downloaded, used, or favourited, which can indicate the level of interest and impact of the code on the scientific community.
+This metric measures the number of times an Open Code repository has been downloaded, used, or favourited, which can indicate the level of interest and impact of the code on the scientific community.
 
 In terms of reproducibility, high usage counts or stars may indicate that a code/software is well-documented and easy to use. Furthermore, a widely used code/software is more likely to be updated and maintained over time, which can improve its reproducibility.
 
-However, this metric may have limitations in capturing the impact of code that is not hosted in a public repository or downloaded through other means, such as direct communication between researchers. Additionally, usage counts and stars may not necessarily reflect the quality or impact of the code, and may be influenced by factors such as marketing and social media outreach. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of open code practices on research output.
+However, this metric may have limitations in capturing the impact of code that is not hosted in a public repository or downloaded through other means, such as direct communication between researchers. Additionally, usage counts and stars may not necessarily reflect the quality or impact of the code, and may be influenced by factors such as marketing and social media outreach. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
 
 #### Measurement.
 
@@ -128,7 +128,7 @@ The data can be computationally obtained using web scraping tools, API queries, 
 
 ###### Github
 
-GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for open source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of open datasets. To ensure that the repository primarily contains code and not data or datasets, we can consider the following alternatives:
+GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of open datasets. To ensure that the repository primarily contains code and not data or datasets, we can consider the following alternatives:
 
 -   Repository labeling: Look for repositories that are explicitly labeled as containing code or software. Many repository owners provide clear labels or descriptions indicating the nature of the content.
 -   File extensions: Check for files with common code file extensions, such as .py, .java, or .cpp. These file extensions are commonly used for code files, while data files often have extensions like .csv, .txt, or .xlsx.

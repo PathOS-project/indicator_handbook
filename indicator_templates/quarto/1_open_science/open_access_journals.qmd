@@ -24,7 +24,7 @@ affiliations:
   country: Greece
 ---
 
-# Open access journals {#open-access-journals .unnumbered}
+# Open Access journals {#open-access-journals .unnumbered}
 
 ::: {.callout-note collapse="true"}
 
@@ -40,7 +40,7 @@ affiliations:
 
 Description:
 
--   The "OA journals" indicator measures the availability of *fully* open access (OA) journals for a particular level of interest (e.g. research area, year, etc.). An open access journal is a scholarly journal that is freely available online and does not charge readers or institutions for access to its content.
+-   The "OA journals" indicator measures the availability of *fully* Open Access (OA) journals for a particular level of interest (e.g. research area, year, etc.). An Open Access journal is a scholarly journal that is freely available online and does not charge readers or institutions for access to its content.
 
 Usefulness:
 
@@ -60,7 +60,7 @@ Limitations:
 
 Description:
 
--   The "number of OA journals" metric measures the quantity of open access (OA) journals available to researchers
+-   The "number of OA journals" metric measures the quantity of Open Access (OA) journals available to researchers
 
 Usefulness:
 

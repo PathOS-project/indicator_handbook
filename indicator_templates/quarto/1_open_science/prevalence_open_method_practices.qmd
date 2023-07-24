@@ -42,17 +42,17 @@ affiliations:
 
 Open methods refer to:
 
-1.  Open access to the various elements of the scientific method (datasets, software/code, protocols, materials, etc.)
+1.  Open Access to the various elements of the scientific method (datasets, software/code, protocols, materials, etc.)
 2.  FAIRness of the same elements (i.e. following the FAIR principles), and,
 3.  an Open and FAIR documentation, that facilitates reproducibility and reuse of the study methods.
 
 ## Metrics
 
-### Number/share of publications with open source code
+### Number/share of publications with Open Source code
 
-**Description:** Number of publications with open source code: This is the number of publications for which the code that was developed in this context to produce the scientific outcomes included in the publication is shared/can be found with open access in open repositories.
+**Description:** Number of publications with Open Source code: This is the number of publications for which the code that was developed in this context to produce the scientific outcomes included in the publication is shared/can be found with Open Access in open repositories.
 
-**Benefits:** Providing open access to software/code of the scientific method is of key importance of understanding, evaluating, replicating and extending the study.
+**Benefits:** Providing Open Access to software/code of the scientific method is of key importance of understanding, evaluating, replicating and extending the study.
 
 **Limitations:** In most cases, detailed documentation must accompany the code including data management, cleansing and pre-processing, configuration files and workflows.
 

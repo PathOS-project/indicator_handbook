@@ -1,39 +1,39 @@
 # Introduction {.unnumbered}
 
 This is the website for the work-in-progress Open Science Indicator Handbook by PathOS.
-In this handbook we will cover various indicators measuring various aspects around open science itself, their academic, societal and economic impacts, and reproducibility.
+In this handbook we will cover various indicators measuring various aspects around Open Science itself, their academic, societal and economic impacts, and reproducibility.
 
-In the PathOS project we take a particular causal perspective on studying open science.
-This necessitates making a distinction between impact itself, and the effect of open science on that impact.
-For instance, we could very well see an open source research tool being used frequently by industry.
-In that sense, the open source research tool can be said to have a type of economic impact.
+In the PathOS project we take a particular causal perspective on studying Open Science.
+This necessitates making a distinction between impact itself, and the effect of Open Science on that impact.
+For instance, we could very well see an Open Source research tool being used frequently by industry.
+In that sense, the Open Source research tool can be said to have a type of economic impact.
 However, it could very well be that the research tool would have been similarly used by industry had it been released as closed software under a commercial licence.
-We are interested in the difference between its actual impact under the open science principles and its counterfactual impact under a closed principle.
-That is, we are interested in the *causal* effect of open science on the impact of the science.
+We are interested in the difference between its actual impact under the Open Science principles and its counterfactual impact under a closed principle.
+That is, we are interested in the *causal* effect of Open Science on the impact of the science.
 
 Causal inference is not straightforward.
-We include an introductory chapter to explain some of the challenges around causal inference in open science.
+We include an introductory chapter to explain some of the challenges around causal inference in Open Science.
 At the same time, this chapter also divulges the possibilities for inferring causality from observational data.
 Sometimes, we will learn that it will be impossible to correctly identify a certain causal effect.
 Although this limits our possible conclusions, we believe it is better to be clear about the impossibility of identifying a causal effect in some cases than to pretend we did identify some causal effect.
 
-The challenge of causal inference also clarifies that we cannot provide straightforward indicators of effects of open science.
-There are many aspects of open science, including open access, open data and open code, but also elements such as citizen science, open science infrastructure, policies and training.
+The challenge of causal inference also clarifies that we cannot provide straightforward indicators of effects of Open Science.
+There are many aspects of Open Science, including Open Access, Open Data and Open Code, but also elements such as Citizen Science, Open Science infrastructure, policies and training.
 At the same time, there are many different types of impacts in each domain of academia, society and economy.
 This leads to a combinatorial number of possible effects.
 For each such an effect it necessitates to carefully reason about its causal inference, and what other factors should be controlled for, or should not be controlled for.
 This is a daunting task, which goes well beyond our capacities.
-For that reason, the indicator handbook provides guidance on how to operationalise various indicators in order to facilitate studies on the effect of open science.
-We hope this is useful to the research community, and that we together face the challenges of causal inference in open science studies.
+For that reason, the indicator handbook provides guidance on how to operationalise various indicators in order to facilitate studies on the effect of Open Science.
+We hope this is useful to the research community, and that we together face the challenges of causal inference in Open Science studies.
 
 Finally, not all indicators wil be equally well-developed.
 Some indicators, like citation impact, are already long established and studies in scientometrics.
 Other indicators, such as on data usage or reproducibility are much more recent.
 Such indicators may be under active development, or may actually not be worked on at all yet.
-We still include such indicators in this handbook if we have identified this indicator to be vital for studying the causal effect of open science.
+We still include such indicators in this handbook if we have identified this indicator to be vital for studying the causal effect of Open Science.
 This indicator handbook should therefore not only be seen as an inventory of what is possible today, but also what we believe is necessary tomorrow.
 
-We hope this handbook will be a central hub to keep track of open science related indicators.
+We hope this handbook will be a central hub to keep track of Open Science related indicators.
 Within the PathOS project the indicator handbook will remain in continuous development until january 2025.
 We hope to be able to contribute to keeping the indicator handbook up-to-date also afterwards.
 The handbook is open to community contributions.

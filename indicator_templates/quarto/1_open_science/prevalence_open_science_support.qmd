@@ -13,7 +13,7 @@ affiliations:
   country: the Netherlands
 ---
 
-# Prevalence of open science support {#prevalence-of-open-science-support .unnumbered}
+# Prevalence of Open Science support {#prevalence-of-open-science-support .unnumbered}
 
 ::: {.callout-note collapse="true"}
 
@@ -29,23 +29,23 @@ affiliations:
 
 Open Science support is mostly organized at the institutional and even faculty level. This is often organized by the university or faculty libraries when it comes to scholarly publishing, that is, Open Access publishing. Here the support covers mostly things such as suggesting journals and helping with license details. When it relates to research data, support is nowadays organized in many institutions by data stewards. They take care of data management in general and consider issues related to for example FAIR principles.
 
-The creation of metrics should take into consideration what elements of open science practices are being selected for support. Given this potential diversity, and the absence of having generic or systematic data sources at hand for this aspect of open science, the data need to be collected by qualitative means, that is going through websites of institutions and/or faculties to identify open science support facilities.
+The creation of metrics should take into consideration what elements of Open Science practices are being selected for support. Given this potential diversity, and the absence of having generic or systematic data sources at hand for this aspect of Open Science, the data need to be collected by qualitative means, that is going through websites of institutions and/or faculties to identify Open Science support facilities.
 
 ## Metrics
 
 ### Number/% of institutions that offer OS support
 
-Open science support might be often provided at the university level, or within the university at the faculty or even departmental level. This metric provides an institutional view of the extent to which open science support is offered.
+Open Science support might be often provided at the university level, or within the university at the faculty or even departmental level. This metric provides an institutional view of the extent to which Open Science support is offered.
 
 #### Measurement.
 
-This metric can be constructed by searching through university and faculty level websites to identify the presence of open science support facilities, and when present identify what kind of open science activity is being supported.
+This metric can be constructed by searching through university and faculty level websites to identify the presence of Open Science support facilities, and when present identify what kind of Open Science activity is being supported.
 
 Potential problems and limitations are:
 
 -   This is a time-consuming effort, as one has to go through many websites, in particular when one is dealing with a large country, with many institutions, not necessarily limited to universities, but for example in the case of Germany, many publicly funded research institutions under the flag of Max Planck, Leibniz, Helmholtz, etc.
 -   This kind of information might not be present on the website (yet), and as such create an underestimation of the actual situation.
--   How does one compare the breadth of the open science support, here one only aims at the presence, but the range of facilities to support open science is here not yet included.
+-   How does one compare the breadth of the Open Science support, here one only aims at the presence, but the range of facilities to support Open Science is here not yet included.
 
 There are presently no generic and systematic data sources that contain such information.
 
@@ -53,25 +53,25 @@ Automation of this metric is currently not possible.
 
 ### Number/% of national OS support initiatives.
 
-In some cases, there might be national open science initiatives or other national institutions that provide open science support. For instance, this could cover information around open access, or support for opening up data. This metric describes the extent to which there are national initiatives for open science support.
+In some cases, there might be national Open Science initiatives or other national institutions that provide Open Science support. For instance, this could cover information around Open Access, or support for opening up data. This metric describes the extent to which there are national initiatives for Open Science support.
 
 #### Measurement.
 
-This metric can be constructed by searching through policy initiatives that support open science practices on the national level.
+This metric can be constructed by searching through policy initiatives that support Open Science practices on the national level.
 
 Potential problems and limitations are:
 
--   This is a time-consuming effort, as one has to go through many websites, in particular with respect to the definition of ‘national’. In some countries, governance of science is not only a national issue, but might in the case of a federal government, also have to deal with federal initiative regarding the support of open science practices.
--   A similar issue relates to the presence of funders, and their support of open science practices, these are also considered national research funding agencies, and how do these relate to the abovementioned issue of the ‘national’ level.
--   How does one compare the breadth of the open science support, here one only aims at the presence, but the range of facilities to support open science is here not yet included.
+-   This is a time-consuming effort, as one has to go through many websites, in particular with respect to the definition of ‘national’. In some countries, governance of science is not only a national issue, but might in the case of a federal government, also have to deal with federal initiative regarding the support of Open Science practices.
+-   A similar issue relates to the presence of funders, and their support of Open Science practices, these are also considered national research funding agencies, and how do these relate to the abovementioned issue of the ‘national’ level.
+-   How does one compare the breadth of the Open Science support, here one only aims at the presence, but the range of facilities to support Open Science is here not yet included.
 
 There are presently no generic and systematic data sources that contain such information.
 
 Automation of this metric is currently not possible.
 
-### Breadth of open science support (all open science areas, only limited to specific areas).
+### Breadth of Open Science support (all Open Science areas, only limited to specific areas).
 
-Open science support can be broader or narrower. This metric provides an overview of the breadth of open science support, that is, to which extent it covers the diverse types of open science support, such as publishing, research data, open code, peer review, pre-registration and registered reports.
+Open Science support can be broader or narrower. This metric provides an overview of the breadth of Open Science support, that is, to which extent it covers the diverse types of Open Science support, such as publishing, research data, Open Code, peer review, pre-registration and registered reports.
 
 #### Measurement.
 
@@ -80,7 +80,7 @@ Based on data that might be collected for the first two metrics, we might be abl
 Potential problems and limitations are:
 
 -   This is a time-consuming effort, as one has to go through many websites, on both overall institution level, as well as on faculty level.
--   One has to decide upon a common denominator, the support for open science practices that are frequent across the system, but how does one deal with discipline specific support facilities that are not common?
+-   One has to decide upon a common denominator, the support for Open Science practices that are frequent across the system, but how does one deal with discipline specific support facilities that are not common?
 
 There are presently no generic and systematic data sources that contain such information.
 

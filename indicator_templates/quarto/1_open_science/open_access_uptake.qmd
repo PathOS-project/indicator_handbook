@@ -133,7 +133,7 @@ There is a large ongoing debate whether Open Access publishing increases the cit
 
 Grimme, S., Taylor, M., Elliott, M. A., Holland, C., Potter, P., & Watkinson, C. (2019). *The State of Open Monographs* \[Report\]. Digital Science. https://doi.org/10.6084/m9.figshare.8197625.v4
 
-Langham-Putrow, A., Bakker, C., & Riegelman, A. (2021). Is the open access citation advantage real? A systematic review of the citation of open access and subscription-based articles. *PLOS ONE*, *16*(6), e0253129. https://doi.org/10.1371/journal.pone.0253129
+Langham-Putrow, A., Bakker, C., & Riegelman, A. (2021). Is the Open Access citation advantage real? A systematic review of the citation of Open Access and subscription-based articles. *PLOS ONE*, *16*(6), e0253129. https://doi.org/10.1371/journal.pone.0253129
 
 Piwowar, H., Priem, J., Larivière, V., Alperin, J. P., Matthias, L., Norlander, B., Farley, A., West, J., & Haustein, S. (2018). The state of OA: A large-scale analysis of the prevalence and impact of Open Access articles. *PeerJ*, *6*, e4375. https://doi.org/10.7717/peerj.4375
 

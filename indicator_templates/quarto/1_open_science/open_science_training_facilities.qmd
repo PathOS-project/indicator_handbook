@@ -13,7 +13,7 @@ affiliations:
   country: the Netherlands
 ---
 
-# Open science training facilities {#open-science-training-facilities .unnumbered}
+# Open Science training facilities {#open-science-training-facilities .unnumbered}
 
 ::: {.callout-note collapse="true"}
 
@@ -27,27 +27,27 @@ affiliations:
 
 ## Description
 
-Open Science training is mostly organized at the institutional and even faculty level. This is often organized by the university or faculty libraries when it comes to scholarly publishing, that is, Open Access publishing. In addition, there may be national open science initiative that might provide open science training facilities. This might involve national research centres or institutions but could also be separately organised initiatives aimed specifically at open science.
+Open Science training is mostly organized at the institutional and even faculty level. This is often organized by the university or faculty libraries when it comes to scholarly publishing, that is, Open Access publishing. In addition, there may be national Open Science initiative that might provide Open Science training facilities. This might involve national research centres or institutions but could also be separately organised initiatives aimed specifically at Open Science.
 
-The creation of metrics should take into consideration what elements of open science practices are being selected for training staff members. Given this potential diversity, and the absence of having generic or systematic data sources at hand for this aspect of open science, the data need to be collected by qualitative means, that is going through websites of institutions and/or faculties to identify open science training facilities.
+The creation of metrics should take into consideration what elements of Open Science practices are being selected for training staff members. Given this potential diversity, and the absence of having generic or systematic data sources at hand for this aspect of Open Science, the data need to be collected by qualitative means, that is going through websites of institutions and/or faculties to identify Open Science training facilities.
 
-This indicator can perhaps best be collected with information regarding open science support facilities, as training can be seen as part of such a support system.
+This indicator can perhaps best be collected with information regarding Open Science support facilities, as training can be seen as part of such a support system.
 
 ## Metrics
 
 ### Number/% of institutions that offer OS training.
 
-Open science training might be often provided at the university level. This could vary from PhD courses to training targeted at employees more broadly. This metric provides an institutional view of the extent to which open science training facilities are offered.
+Open Science training might be often provided at the university level. This could vary from PhD courses to training targeted at employees more broadly. This metric provides an institutional view of the extent to which Open Science training facilities are offered.
 
 #### Measurement.
 
-This metric could be constructed by searching through university and faculty level websites to identify the presence of open science training facilities.
+This metric could be constructed by searching through university and faculty level websites to identify the presence of Open Science training facilities.
 
 Potential problems and limitations are:
 
 -   This is a time-consuming effort, as one has to go through many websites, in particular when one is dealing with a large country, with many institutions, not necessarily limited to universities, but for example in the case of Germany, many publicly funded research institutions under the flag of Max Planck, Leibniz, Helmholtz, etc.
 -   This kind of information might not be present on the website (yet), and as such create an underestimation of the actual situation.
--   How does one compare the breadth of the open science training, here one only aims at the presence, but the range of facilities to train staff members on open science practices is here not yet included.
+-   How does one compare the breadth of the Open Science training, here one only aims at the presence, but the range of facilities to train staff members on Open Science practices is here not yet included.
 
 There are presently no generic and systematic data sources that contain such information.
 
@@ -55,25 +55,25 @@ Automation of this metric is currently not possible.
 
 ### Number/% of national OS training initiatives.
 
-In some cases, there might be national open science initiatives or other national institutions that provide open science training initiatives. This metric describes the extent to which there are national training initiatives.
+In some cases, there might be national Open Science initiatives or other national institutions that provide Open Science training initiatives. This metric describes the extent to which there are national training initiatives.
 
 #### Measurement.
 
-This metric could be constructed by searching through policy initiatives that support open science practices on the national level and identify the training element out of the total of information collected.
+This metric could be constructed by searching through policy initiatives that support Open Science practices on the national level and identify the training element out of the total of information collected.
 
 Potential problems and limitations are:
 
--   This is a time-consuming effort, as one has to go through many websites, in particular with respect to the definition of ‘national’. In some countries, governance of science is not only a national issue, but might in the case of a federal government, also have to deal with federal initiative regarding the support of open science practices.
--   A similar issue relates to the presence of funders, and their support of open science practices, these are also considered national research funding agencies, and how do these relate to the abovementioned issue of the ‘national’ level.
--   How does one compare the breadth of the open science support, here one only aims at the presence, but the range of facilities to support open science is here not yet included.
+-   This is a time-consuming effort, as one has to go through many websites, in particular with respect to the definition of ‘national’. In some countries, governance of science is not only a national issue, but might in the case of a federal government, also have to deal with federal initiative regarding the support of Open Science practices.
+-   A similar issue relates to the presence of funders, and their support of Open Science practices, these are also considered national research funding agencies, and how do these relate to the abovementioned issue of the ‘national’ level.
+-   How does one compare the breadth of the Open Science support, here one only aims at the presence, but the range of facilities to support Open Science is here not yet included.
 
 There are presently no generic and systematic data sources that contain such information.
 
 Automation of this metric is currently not possible.
 
-### Breadth of open science training.
+### Breadth of Open Science training.
 
-Training in open science can be broader or narrower. This metric provides an overview of the breadth of open science training, that is, to which extent it covers the diverse types of open science training facilities, such as publishing, research data, open code, peer review, pre-registration and registered reports.
+Training in Open Science can be broader or narrower. This metric provides an overview of the breadth of Open Science training, that is, to which extent it covers the diverse types of Open Science training facilities, such as publishing, research data, Open Code, peer review, pre-registration and registered reports.
 
 #### Measurement.
 
@@ -82,26 +82,26 @@ Based on data that might be collected for the first two metrics, we might be abl
 Potential problems and limitations are:
 
 -   This is a time-consuming effort, as one has to go through many websites, on both overall institution level, as well as on faculty level.
--   One has to decide upon a common denominator, the support for open science practices that are frequent across the system, but how does one deal with discipline specific support facilities that are not common?
--   How does one include the various stages of development regarding open science across faculties into this metric? Some scholarly disciplines do have a different perspective on open science practices, e.g., regarding open access publishing of books in the humanities, or regarding qualitative research data in some parts of the social sciences, e.g., anthropology).
+-   One has to decide upon a common denominator, the support for Open Science practices that are frequent across the system, but how does one deal with discipline specific support facilities that are not common?
+-   How does one include the various stages of development regarding Open Science across faculties into this metric? Some scholarly disciplines do have a different perspective on Open Science practices, e.g., regarding Open Access publishing of books in the humanities, or regarding qualitative research data in some parts of the social sciences, e.g., anthropology).
 
 There are presently no generic and systematic data sources that contain such information.
 
 Automation is currently not possible.
 
-### Duration of open science training (hour/day/week).
+### Duration of Open Science training (hour/day/week).
 
-By providing an overview of the duration of open science training, we may capture the intensity of open science training. Having just a few hours of training, or more extensive training of course makes a difference with regards to the amount of knowledge that can be transferred.
+By providing an overview of the duration of Open Science training, we may capture the intensity of Open Science training. Having just a few hours of training, or more extensive training of course makes a difference with regards to the amount of knowledge that can be transferred.
 
 #### Measurement.
 
-This metric can be constructed in a similar manner as the previous metric, namely by looking at websites for what is offered as open science practice training facilities and collect the duration of such training facilities.
+This metric can be constructed in a similar manner as the previous metric, namely by looking at websites for what is offered as Open Science practice training facilities and collect the duration of such training facilities.
 
 Potential problems and limitations are:
 
 -   This is a time-consuming effort, as one has to go through many websites, on both overall institution level, as well as on faculty level.
--   Her one has to work with what is offered as open science training facilities, one does not have any idea of what is being ‘consumed‘ from the offered training facilities?
--   An issue that popped up previously, one has to be aware of the fact that perhaps not all of the open science support facilities are (yet) online visible on websites.
+-   Her one has to work with what is offered as Open Science training facilities, one does not have any idea of what is being ‘consumed‘ from the offered training facilities?
+-   An issue that popped up previously, one has to be aware of the fact that perhaps not all of the Open Science support facilities are (yet) online visible on websites.
 
 There are presently no generic and systematic data sources that contain such information.
 

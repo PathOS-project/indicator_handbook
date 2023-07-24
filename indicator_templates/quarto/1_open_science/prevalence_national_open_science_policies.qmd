@@ -12,7 +12,7 @@ affiliations:
   country: Belgium
 ---
 
-# Prevalence of national open science policies {#prevalence-of-national-open-science-policies .unnumbered}
+# Prevalence of national Open Science policies {#prevalence-of-national-open-science-policies .unnumbered}
 
 ::: {.callout-note collapse="true"}
 
@@ -29,26 +29,26 @@ affiliations:
 
 ## Description
 
-This indicator aims to capture the existence of country-level policies for open science. Since Open Science can be considered a catch-all term for different practices and objectives, as elaborated in the UNESCO Recommendation on Open Science, this may include different elements or distinct policies such as open access to publications, open data, fair data, research assessment reform, citizen science etc. A
+This indicator aims to capture the existence of country-level policies for Open Science. Since Open Science can be considered a catch-all term for different practices and objectives, as elaborated in the UNESCO Recommendation on Open Science, this may include different elements or distinct policies such as Open Access to publications, Open Data, fair data, research assessment reform, Citizen Science etc. A
 
 Usually, “national policy” will imply the policy being adopted by a country-level organisation with an important structuring role for the research and innovation sector. Edge cases could be federal countries in which some elements of decision-making and institutions relevant for research and innovations are devolved to regional or community level (e.g., Germany, Belgium, Switzerland). Practically, a policy could be adopted by a parliamentary decision, a ministry strategy, a government agency in charge of research and innovation, a national research council, an alliance of research organisations etc.
 
-Measuring the proliferation of national open science policies is relevant for several reasons.
+Measuring the proliferation of national Open Science policies is relevant for several reasons.
 
 -   First, knowing whether a specific policy exists and what it entails is crucial part of the impact analysis. A policy would take the place of the activity and intervention that, through specific outputs and outcomes, creates impact. In other words, it one of the first steps within Key Impact Pathways, in particular those of interest for national-level policy making.
 -   Second, there is an ongoing effort to monitor progress of Open Science policy implementation by proxy of national policies. This is evident, for example, in the UNESCO recommendation on Open Science, which asks member states to develop policies (Art. 17) and to invest in Open Science (Art. 18 and 19). In the European context, Open Science policies are monitored as part of the European Open Science Cloud (EOSC) initiative and the European Research Area (ERA). In the case of EOSC, there is a specific ambition to also measure impact indicators in the future (O’Neill, 2022).
 
 ## Metrics
 
-### Existence of open science policy
+### Existence of Open Science policy
 
 Measuring the existence of a national Open Science policy can be conceptualised at different levels and degrees of complexity.
 
 ‘Basic’: Existence of a country-level policy document or strategy on Open Science in general (yes/no)
 
-‘Intermediate’: Existence of specific country-level policies on specific areas such Open Access to publications, FAIR/Open data, Citizen Science, etc. (yes/no)
+‘Intermediate’: Existence of specific country-level policies on specific areas such Open Access to publications, FAIR/Open Data, Citizen Science, etc. (yes/no)
 
-‘Advanced’: Specific measures (regulatory aspects, compliance levels, financial measures, target groups, implementing authority etc.) defined as part Open Science policy (Open Access to publications, FAIR/Open data etc.)
+‘Advanced’: Specific measures (regulatory aspects, compliance levels, financial measures, target groups, implementing authority etc.) defined as part Open Science policy (Open Access to publications, FAIR/Open Data etc.)
 
 Limitations but also advantages stemming from these approaches depend on the specific level:
 
@@ -62,7 +62,7 @@ As outlined in the previous section, the exact measurement of the existence of a
 
 In the basic case, the existence of a policy, which means the existence of a national (or perhaps, regional) policy and strategy supported by government actors and ideally stakeholders, can probably be capture with a simple binary variable with yes, there is a policy, and with no, there is no policy. The only challenge would be to provide a common definition of what type of document constitutes a policy.
 
-The intermediate case would work on a similar binary logic (yes/no) with the only difference being that this measurement is conducted for each open science policy area.
+The intermediate case would work on a similar binary logic (yes/no) with the only difference being that this measurement is conducted for each Open Science policy area.
 
 Only in the advanced case, additional refinements and more complex measurements and codes will be required. For example, differences in policy requirements (compliance, target groups), could be coded on an ordinal or nominal scale.
 
@@ -154,11 +154,11 @@ The data includes information on variables such as
 -   Coverage of skills and training: yes / no
 -   Monitoring and/or compliance: yes / no
 
-The information is presented as narrative content of the study report, although several tables are included too. It is not available in spreadsheet format publicly. In addition, the reports contain country fiches which provide narrative data about national Open Science policies. In the seventh and latest version, the specific focus was on FAIR and open data. Previous versions focussed on other areas, such as open access to publications.
+The information is presented as narrative content of the study report, although several tables are included too. It is not available in spreadsheet format publicly. In addition, the reports contain country fiches which provide narrative data about national Open Science policies. In the seventh and latest version, the specific focus was on FAIR and Open Data. Previous versions focussed on other areas, such as Open Access to publications.
 
 ###### OpenAIRE
 
-OpenAIRE is providing information on national Open Science policies via its country pages (<https://www.openaire.eu/os-eu-countries>). The country pages are maintained by the respective national open access desks (NOAD). The information is spilt into several categories:
+OpenAIRE is providing information on national Open Science policies via its country pages (<https://www.openaire.eu/os-eu-countries>). The country pages are maintained by the respective national Open Access desks (NOAD). The information is spilt into several categories:
 
 -   Overview
 -   Open Science Policy
@@ -183,7 +183,7 @@ Reports of the group do contain narrative and quantitative information, which is
 
 ###### ROARmap
 
-The ROADMAP database contains information about policies concerning Open Access to publications from several types of organisations (<https://roarmap.eprints.org>) . For national open science policies, most relevant might be the category of research funder, which includes national research councils, government agencies etc. In total 87 funder-only policies are registered.
+The ROADMAP database contains information about policies concerning Open Access to publications from several types of organisations (<https://roarmap.eprints.org>) . For national Open Science policies, most relevant might be the category of research funder, which includes national research councils, government agencies etc. In total 87 funder-only policies are registered.
 
 The database contains more than 770 policies at the time of writing. Data is available in standardized formats and with a unique identifier. All entries are reviewed by the maintainer of ROARMAP.
 
