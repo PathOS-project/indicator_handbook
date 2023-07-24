@@ -63,8 +63,6 @@ Citizen Science and Public Involvement: Some funding initiatives may promote cit
 
 Compliance and Evaluation: Funders may require grantees to comply with open science principles as a condition for funding. Additionally, the impact of research funded through open science policies is evaluated not only based on academic metrics but also on its broader societal and economic impacts.
 
-\[Add text here\]
-
 ##### Existing datasources: https://zenodo.org/communities/eoscobservatory/?page=1&size=20
 
 ###### &lt;EOSC Observatory&gt;

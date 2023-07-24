@@ -103,14 +103,6 @@ To measure the proposed metric, DataSeer.ai can scan the body of text in researc
 
 However, it's important to note that DataSeer.ai's ability to determine actual data reuse may depend on the explicitness of the authors' writing about their data usage, thus not capturing all instances of dataset reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
 
 \[Add Zotero bibliography here\]

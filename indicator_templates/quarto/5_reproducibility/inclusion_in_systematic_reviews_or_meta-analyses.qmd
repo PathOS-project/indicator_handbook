@@ -73,14 +73,6 @@ One potential datasource is the full text of citing systematic reviews or meta-a
 
 Some systematic reviews or meta-analyses make data available that was gathered during the screening and/or data charting process. From this data information can then be extracted about the exclusion status of a specific paper. Clear information must be given about the reason of exclusion for it to be counted, e.g., through a variable specifying the reason for exclusion within the dataset.
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
 
 Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. https://doi.org/10.1136/bmj.n71

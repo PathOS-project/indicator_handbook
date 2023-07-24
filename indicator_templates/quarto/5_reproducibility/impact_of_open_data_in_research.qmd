@@ -259,14 +259,6 @@ To use the tool to measure the proposed metric, we can provide a collection of D
 
 One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the DMP. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
 
 Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. *Companion Proceedings of the Web Conference 2022*, 800–809. https://doi.org/10.1145/3487553.3524677

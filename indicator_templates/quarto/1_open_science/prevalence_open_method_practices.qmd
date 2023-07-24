@@ -35,10 +35,6 @@ There is no comprehensive list of publication-software pairs. The metric is part
 
 ##### Existing datasources: **GitHub, OpenAIRE**
 
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
 ##### Existing methodologies
 
 ###### &lt;methodology name&gt;
@@ -48,17 +44,7 @@ There is no well-established methodology to automatically find publications with
 1.  Text mining and machine learning algorithm to find mentions of open software/code and its FAIR metadata in the publication text.
 2.  Search relevant fields or tags in specific databases to find publications with software/code.
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
-
-\[Add Zotero bibliography here\]
 
 1.  ::: {#footnote-2}
     https://plos.org/open-science/open-methods/ [↑](#footnote-ref-2)

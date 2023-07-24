@@ -161,14 +161,6 @@ To access this information, we can use the Bitbucket API, which provides program
 
 \[add text here\].
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
 
 Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. *Companion Proceedings of the Web Conference 2022*, 800–809. https://doi.org/10.1145/3487553.3524677

@@ -112,10 +112,6 @@ Once we know the Open Access status of each publication, we can easily calculate
 
 There is a large ongoing debate whether Open Access publishing increases the citation impact of publications, known as the so-called Open Access citation advantage. A recent systematic review on the topic suggests that the evidence is inconclusive (Langham-Putrow et al., 2021).
 
-## Notes
-
-\[Add text here\]
-
 ## References
 
 Grimme, S., Taylor, M., Elliott, M. A., Holland, C., Potter, P., & Watkinson, C. (2019). *The State of Open Monographs* \[Report\]. Digital Science. https://doi.org/10.6084/m9.figshare.8197625.v4

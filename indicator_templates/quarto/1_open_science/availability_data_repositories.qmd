@@ -52,12 +52,6 @@ FAIRsharing.org provides a database on open access repositories and in addition 
 
 Athena Research & Innovation Center, Directorate-General for Research and Innovation (European Commission), PPMI, and UNU-MERIT. Monitoring the Open Access Policy of Horizon 2020: Final Report. LU: Publications Office of the European Union, 2021. <https://data.europa.eu/doi/10.2777/268348>.
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
 ### Quality of data repositories
 
 Apart from looking at the sole number of data repositories one can also opt to assess the quality of data repositories to indicate its availability. Quality in this context could be seen as the openness of the data repository, cleanliness and completeness of data and metadata and the presence of data curation procedures for instance.
@@ -71,10 +65,6 @@ It can be difficult to obtain data on all existing data repositories, given the 
 Core Trust Seal is a non-profit organisation that labels data sources with their seal if data sources adhere to the FAIR principles. On the website a [list](https://amt.coretrustseal.org/certificates/) is maintained with all the data sources that the seal has been assigned to. Data stored in these sources can thus be considered to be produced in accordance with the FAIR principles. When performing research related to the availability of data repositories, one can consider repositories that have received the CoreTrustSeal, the Nestor Seal DIN31644, the ISO16363 certification, or similar, to be automatically trusted (Jahn et al., 2023).
 
 ###### &lt;methodology&gt;
-
-## Known correlatesNotes
-
-\[Add text here\]
 
 ## References
 

@@ -65,31 +65,3 @@ To our knowledge there is no existing methodology to automatically find replicat
 Metric that measures the percentage of publications within a specific field or scientific community that are replication studies. This metric provides a more nuanced perspective on the prevalence of replication studies than simply counting the number of replication studies, as it considers the total number of publications within a specific scientific field or task.
 
 Limitations of this metric include the potential for biased or incomplete reporting of replication studies, as well as the possibility that some replication studies may be misclassified as non-replication studies due to differences in methodology or interpretation. Additionally, this metric may be influenced by factors such as the availability of funding for replication studies and the incentives for researchers to conduct replication studies.
-
-#### Measurement.
-
-\[add text here\]
-
-##### Datasources
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
-## References
-
-\[Add Zotero bibliography here\]

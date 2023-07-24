@@ -33,18 +33,6 @@ There is no datasource that provides comprehensive data on the peer review model
 
 Each of the above datasources is incomplete and some of the data is likely to be outdated.
 
-##### Datasources
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
 ### Journal articles with open review reports
 
 This metric provides the number or the percentage of journal articles that have open review reports. Open review reports do not need to include the identities of the reviewers. Reviewers may remain anonymous.
@@ -54,18 +42,6 @@ This metric provides the number or the percentage of journal articles that have 
 Some journals publish review reports and register DOIs for these reports at Crossref or DataCite. For these journals, metadata from Crossref and DataCite can be used to determine the number of articles with open review reports. This approach was used in [this blog post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review), in which it was shown that eLife, PeerJ, and Wiley journals publish a relatively large number of articles with open review reports.
 
 Other journals publish review reports without registering DOIs for these reports. This is for instance the case for journals published by BMJ, EMBO, MDPI, PLOS, and Springer Nature. For these journals, there is no straightforward way to determine the number of articles with open review reports. However, if a journal is known (based on the datasources mentioned in the previous section) to publish open review reports for all its articles, the number of articles with open review reports can be determined by determining the total number of articles in the journal.
-
-##### Datasources
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
 
 ### Preprints with open review reports
 
@@ -82,27 +58,3 @@ For preprint review services that do register DOIs for review reports, data can 
 For each datasource, it needs to be decided which preprint review services are included in the compilation of statistics on preprints with open review reports. Some of the services covered by Sciety for instance operate in a fully algorithmic way and do not provide review reports written by humans. A decision could be made to exclude these services.
 
 Some preprint servers allow review reports and other comments to be posted directly on the preprint server (rather than on a separate platform for preprint peer review). However, there is no straightforward way to identify preprints for which review reports are available directly on the preprint server.
-
-##### Datasources
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
-## References
-
-\[Add Zotero bibliography here\]

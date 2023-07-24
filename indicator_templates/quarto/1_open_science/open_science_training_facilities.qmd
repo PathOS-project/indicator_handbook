@@ -130,14 +130,6 @@ If the methodology is not automated / automatable: Has data been gathered before
 
 Automation is currently not possible.
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
 
 \[Add Zotero bibliography here\]

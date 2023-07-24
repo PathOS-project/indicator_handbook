@@ -104,13 +104,7 @@ All PLOS journals require publications to include a data availability statement.
 
 Some research suggests that openly sharing data is positively related to the citation rate of publications (Piwowar et al., 2007; Piwowar & Vision, 2013).
 
-## Notes
-
-\[Add text here\]
-
 ## References
-
-\[Add Zotero bibliography here\]
 
 Colavizza, G., Hrynaszkiewicz, I., Staden, I., Whitaker, K., & McGillivray, B. (2020). The citation advantage of linking publications to research data. PloS one, 15(4), e0230416.
 

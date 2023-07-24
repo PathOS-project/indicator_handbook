@@ -63,14 +63,6 @@ This is a methodology for analyzing a publication's text and identifying all cit
 
 Limitations of the tool include potential errors in capturing all relevant citances, and correctly classifying their polarity.
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
 
 Budi, I., & Yaniasih, Y. (2022). Understanding the meanings of citations using sentiment, role, and citation function classifications. *Scientometrics*, *128*, 1–25. https://doi.org/10.1007/s11192-022-04567-4

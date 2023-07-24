@@ -97,14 +97,6 @@ Experts (mainly researchers) can be asked in surveys about the probability they 
 
 Prediction markets are used for trading bets on a certain outcome. The final market prices can then be taken as an indicator for the probability of an event. In the context of replicability, experts (mainly researchers) are given a budget to bet on studies they think will successfully replicate. The final market price is then a proxy for the probability of successful replication (reaching a previously defined replication criterion) that is estimated by the entire market. Prediction markets have been shown to reach accuracies higher than 70% for their predictions and outperform surveys (Dreber et al., 2015; Forsell et al., 2019; Gordon et al., 2021). However, prediction markets do not yet appear to be established as a standalone measure for levels of replication.
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
 
 Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. *Nature*, *533*(7604), Article 7604. https://doi.org/10.1038/533452a

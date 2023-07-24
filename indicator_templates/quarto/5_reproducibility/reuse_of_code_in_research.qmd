@@ -109,14 +109,6 @@ To measure the proposed metric, DataSeer.ai can scan the body of text in researc
 
 However, it's important to note that DataSeer.ai's ability to determine actual code/software reuse may depend on the explicitness of the authors' writing about their code/software usage, thus not capturing all instances of code/software reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a code or software has been reused, and may require manual validation.
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
 
 Istrate, A.-M., Li, D., Taraborelli, D., Torkar, M., Veytsman, B., & Williams, I. (2022). *A large dataset of software mentions in the biomedical literature* (arXiv:2209.00693). arXiv. https://doi.org/10.48550/arXiv.2209.00693

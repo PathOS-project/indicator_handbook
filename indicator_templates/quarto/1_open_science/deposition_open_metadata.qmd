@@ -41,18 +41,6 @@ If the metadata of an article in Crossref does not include an abstract, this mea
 
 The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
 
-##### Datasources
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
 ### Journal articles with open author affiliations
 
 This metric provides the number or the percentage of journal articles for which author affiliations are openly available.
@@ -65,18 +53,6 @@ If the metadata of an article in Crossref does not include author affiliations, 
 
 This metric is used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
 
-##### Datasources
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
 ### Journal articles with open funding information
 
 This metric provides the number or the percentage of journal articles for which funding information is openly available.
@@ -88,27 +64,3 @@ Crossref is the datasource for this metric. Crossref makes funding information o
 If the metadata of an article in Crossref does not include funding information, this means that either the publisher did not submit funding information to Crossref or the article does not include any funding information. There is no straightforward way to distinguish between these two possibilities.
 
 The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
-
-##### Datasources
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
-## References
-
-\[Add Zotero bibliography here\]

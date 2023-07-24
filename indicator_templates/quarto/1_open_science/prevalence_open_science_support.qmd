@@ -92,15 +92,3 @@ There are presently no generic and systematic data sources that contain such inf
 ###### &lt;methodology name&gt;
 
 Automation is currently not possible.
-
-1.  Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
-## References
-
-\[Add Zotero bibliography here\]
