@@ -21,7 +21,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 |---------|---------------|----------------------------------------|---------------------------|
 | 1.2     | 2023-07-12    | Revised based on review                | V.A. Traag                |
 | 1.1     | 2023-02-08    | Added initial description of OA uptake | V.A. Traag                |
-| 1.0     | 2023-02-07    | Finalised indicator template           | T.P. Willemse, V.A. Traag |
+
 
 ## []{#_Ref126739570}Description
 

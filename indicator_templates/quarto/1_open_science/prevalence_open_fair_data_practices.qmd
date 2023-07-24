@@ -20,7 +20,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
 | 1.1     |               | First draft                  | T. Willemse               |
-| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
+
 
 ## Description
 
