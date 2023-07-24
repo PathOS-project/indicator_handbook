@@ -27,10 +27,6 @@ The metric has limitations in at least two domains: (a) in terms of measurement 
 
 Many test statistics in the realm of NHST allow for the calculation of p-values. Given a test statistic (e.g., *t, χ2*) and a value for *degrees of freedom*, the p-value can be calculated. Reporting standards differ, and not all necessary elements might be provided by authors. However, for manuscripts that adhere to the APA format for reporting test statistics (which mandates reporting test statistic, degrees of freedom, and the p-value), it is possible to recalculate the reported p-value based on the test statistic and the reported degrees of freedom. A key precondition for this measurement is thus the availability of reported statistics that adhere to the APA format.
 
-##### Datasources
-
-###### &lt;datasource name&gt;
-
 There is no single datasource for this metric. The metric can be computed based on any set of publications for which full texts are available.
 
 ##### Existing methodologies
@@ -48,10 +44,6 @@ The rationale for this indicator is similar to the one above, in exploiting math
 #### Measurement.
 
 Consider the case of Likert-style answers (scale 1-5) and sample sizes from n = 1 to n = 3. The mean will always be a full integer for n = 1, multiples of 0.5 for n = 2, and multiples of 0.3333 for n = 3. The sample sizes in this example are implausibly small, but the general principle holds for samples up to n = 100 when means are reported as rounded towards two decimals (Brown & Heathers, 2016). The logic of granularity in reported statistics has been extended to analyse measures of variation (Anaya, 2016), and to more general solutions that aim to recover possible datasets for a given combination of summary statistics (e.g., sample size, mean SD).
-
-##### Datasources
-
-###### &lt;datasource name&gt;
 
 There is no single datasource for this metric. The metric can be computed based on any set of publications for which full texts are available.
 

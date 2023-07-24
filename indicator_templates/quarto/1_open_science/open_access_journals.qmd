@@ -52,15 +52,11 @@ The total number of OA journals available.
 
 The OpenAIRE Graph ingests DOAJ.
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
 1.  Identify all doaj journals in OpenAIRE (datasource)
 
-fully OA journals
+Fully OA journals
 
-1.  Count them.
+2.  Count them.
 
 ### Number of Gold/Hybrid/Diamond Journals
 

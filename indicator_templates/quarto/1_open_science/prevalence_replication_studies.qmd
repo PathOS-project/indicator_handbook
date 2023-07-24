@@ -50,9 +50,7 @@ The Replication Wiki (<http://replication.uni-goettingen.de/wiki/index.php/Main_
 
 However, it is important to note that the Replication Wiki may not cover all replication studies, and its coverage may vary across different fields or scientific domains.
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
+##### Existing methodology
 
 To our knowledge there is no existing methodology to automatically find replication studies. Some suggested methods are the following:
 

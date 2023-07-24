@@ -35,11 +35,7 @@ The OpenAIRE graph (graph.openaire.eu)\*\
 
 -   OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as part of its dump yet, but it is expected before the end of PathOS.
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-(Via OpenAIRE MONITOR)
+Via OpenAIRE MONITOR
 
 1.  Take all Gold OA publications from OpenAIRE (i.e. those published in a fully OA journal), remove those that are also Diamond OA (i.e. no APC). The remaining are Gold OA publications that paid an APC.
 2.  Add to the set Hybrid and Bronze OA publications (also incur an APC)
@@ -73,11 +69,7 @@ The OpenAIRE graph (graph.openaire.eu)\*\
 
 -   OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as part of its dump yet, but it is expected before the end of PathOS.
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-(Via OpenAIRE MONITOR)
+Via OpenAIRE MONITOR
 
 1.  Take all Gold OA publications from OpenAIRE (i.e. those published in a fully OA journal), remove those that are also Diamond OA (i.e. no APC). The remaining are Gold OA publications that paid an APC.
 2.  Add to the set Hybrid and Bronze OA publications (also incur an APC)
@@ -116,11 +108,7 @@ Limitations:
 -   Incomplete data: Publishers do not generally provide data on their APC fees, OpenAPC has a growing collection but it is not complete.
 -   In an (organization, publication, APC cost) triplet it is not possible to distinguish if the APC cost is the entire cost of the publication or just the what the organization paid.
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-(Via OpenAIRE MONITOR)
+Via OpenAIRE MONITOR
 
 1.  Identify the unit of analysis (e.g. average APCs for an institution)
 2.  Examine the coverage of APCs for the relevant publications (see metric Number of OA publications with APC).
@@ -159,11 +147,7 @@ Limitations:
 -   Incomplete data: Publishers do not generally provide data on their APC fees, OpenAPC has a growing collection but it is not complete.
 -   In an (organization, publication, APC cost) triplet it is not possible to distinguish if the APC cost is the entire cost of the publication or just the what the organization paid.
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-(Via OpenAIRE MONITOR)
+Via OpenAIRE MONITOR
 
 1.  Identify the unit of analysis (e.g. total APCs for an institution)
 2.  Examine the coverage of APCs for the relevant publications (see metric Number of OA publications with APC).

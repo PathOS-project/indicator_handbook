@@ -45,16 +45,6 @@ Potential issues in creating this metric, and measuring the number/% hiring poli
 -   Within an organization, differences might exist on faculty level, regarding the positive reward of the uptake of open science practices (since not all scholarly disciplines are equally aligned when it comes to the uptake of open science practices, the inclusion of the scholarly domain would be a good suggestion, which complicates this metric substantially)
 -   This metric is time-consuming, since no systematic data sources are available.
 
-##### Datasources
-
-###### &lt;datasource name&gt;
-
-No systematic and systemic data sources exist for this metric.
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
 This information needs to be collected by a qualitative approach, automation is not possible at the moment.
 
 Institutions should be approached asking for input on their hiring policies, and the position of the uptake of open science practices in these hiring policies. The result of such a data collection procedure is that one has the number or share of the institutions on national level that positively assess the uptake of open science practices by candidates for a job opening, compared to the total number of institutions on the national level.
@@ -83,16 +73,6 @@ Potential issues in creating this metric, and measuring the number/% hiring poli
 -   Since not all scholarly disciplines are equally aligned when it comes to the uptake of open science practices, the inclusion of the scholarly domain would be a good suggestion, which complicates this metric substantially.
 -   Given the varied missions of funding agencies (the differences that might occur between public versus private funders and charities) might lead to differences in what is required regarding openness of research and its results.
 -   This metric is time-consuming, since no systematic data sources are available.
-
-##### Datasources
-
-###### &lt;datasource name&gt;
-
-No systematic and systemic data sources exist for this metric.
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
 
 This information needs to be collected by a qualitative approach, automation is not possible at the moment.
 
@@ -136,8 +116,6 @@ TRANsparency in Scholarly Publishing for Open Scholarship Evolution (Transpose) 
 The Journal Observatory integrates information from various sources, including some of the aforementioned sources, and is available from <https://www.journalobservatory.org/>. It provides an integrated view of these various sources, and provides a framework for describing journals. A prototype of the framework provides also an integrated view, which is accessible through an API and as a SPARQL end-point from <https://www.journalobservatory.org/prototype/>. It also provides a graphical user interface where results can be browsed at <https://app.journalobservatory.org/>.
 
 ##### Existing methodologies
-
-###### &lt;methodology name&gt;
 
 Additional information needs to be collected by a qualitative approach, automated detection of journal policies is not yet possible at the moment.
 

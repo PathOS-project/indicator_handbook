@@ -32,7 +32,7 @@ The number of publications with shared data can be represented as a simple count
 
 ##### Datasources
 
-###### &lt;DataCite/Crossref&gt;
+###### DataCite/Crossref
 
 DataCite and Crossref are both organizations that provide services for identifying and citing research data. They maintain large databases of metadata about research articles and associated datasets, including information on open access data. Besides providing DOIs for datasets, DataCite and Crossref also maintain metadata about the datasets, including information on data availability, access restrictions, and licensing information. This metadata can be accessed programmatically through APIs provided by DataCite and Crossref, making it a valuable data source for researchers interested in open access data.
 
@@ -46,23 +46,15 @@ PLOS has developed the indicators on data sharing and data use through DataSeer.
 
 PLOS also provides API's to search its database. This [page](https://api.plos.org/solr/examples/) provides some example Solr queries, the specific queries will depend on the research question.
 
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-### &lt;Level of FAIRness of data&gt;
+### Level of FAIRness of data
 
 Metrics on the level of FAIRness of data (sources) can support in establishing the prevalence of open/FAIR data practices. This metric attempts to show in a more nuanced manner where FAIR data practices are used and in some cases even to what extent they are used. Assessing whether or not a data source practices FAIR principles is not trivial with a quick glance, but there are initiatives that developed methodologies that assist to determine this for (a large number of) data sources.
 
 #### Measurement.
 
-##### Existing datasources:Existing methodologies
+##### Existing methodologies
 
-\[Level of FAIRness is for instance tried to be measured by https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0\
-Additional possibility: 5-star level from Tim Berners-Lee: https://5stardata.info/en/\
-Perhaps som additional useful resource is: https://www.go-fair.org/
-
-###### &lt;Research Data Alliance &gt;
+###### Research Data Alliance
 
 The Research Data Alliance developed a [FAIR Data Maturity Model](https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0) that can help to assess whether or not data adheres to the FAIR principles. This document is not meant to be a normative model, but provide guidelines for informed assessment.
 
@@ -90,13 +82,13 @@ Evaluate adherence to FAIR principles at each stage: For each stage of the data 
 
 Determine the overall level of FAIR data practices: Once the scores for each principle and stage have been assigned, determine the overall level of FAIR data practices. This can be done by using a summary score that takes into account the scores for each principle and stage, or by assigning a level of FAIR data practices based on the average score across the principles and stages.
 
-### &lt;Availability of data statement&gt;
+### Availability of data statement
 
 A data availability statement in a publication describes how the reader could get access to the data of the research. Having such a statement in place improves transparency on data availability and can thus be considered as an open data practice. However, having a data availability statement in place does not necessarily imply that the data is openly available or that it is more likely that the data can be shared (Gabelica et al., 2022). Nevertheless, a description of how to access an open data repository, how to make a request for data access or an explanation why some data cannot be shared due to ethical considerations are all examples of open data practices that make data reuse more accessible and transparent (Federer et al., 2018). The availability of a data statement can therefore be considered as an open data practice.
 
-#### Measurement.
+#### Measurement
 
-##### PLOS:Existing methodologies
+##### Existing methodology
 
 All PLOS journals require publications to include a data availability statement. Moreover, it is strongly recommended that procedures on how to access research data are described in the data availability statement and that the data is stored in a public repository. Other practices that comply with this recommendation are including a data file, data requests through an approving committee and providing contact information for a third party that owns the data (Federer et al., 2018). A detailed description of how to use PLOS data availability statements for quantitative research can be found in the (Colavizza et al., 2020) publication.
 

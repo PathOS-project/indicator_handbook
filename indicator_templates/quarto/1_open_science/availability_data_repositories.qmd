@@ -32,7 +32,7 @@ The number of data repositories can be represented as a simple count measure. Ho
 
 ##### Datasources
 
-###### DataCitere3data
+###### re3data
 
 To delve a bit deeper in the characteristics of the data repository, [Re3data](https://www.re3data.org/) maintains a [database](https://www.re3data.org/search?query=&contentTypes%5b%5d=Databases) of data repositories that is associated with DataCite. It provides many integrated filters on the data and data repositories, like open database access and repository type. The website also has an integrated function to filter on subject type, content, and country. This source is therefore useful if characteristics of the data repositories are of importance.
 
@@ -60,11 +60,9 @@ Apart from looking at the sole number of data repositories one can also opt to a
 
 It can be difficult to obtain data on all existing data repositories, given the large number, variety and lack of metadata curation. There is not yet widely available information on the large scientific platforms, but there are some efforts that provide information on the topic listed below.
 
-###### &lt;Core Trust Seal&gt;
+###### Core Trust Seal
 
 Core Trust Seal is a non-profit organisation that labels data sources with their seal if data sources adhere to the FAIR principles. On the website a [list](https://amt.coretrustseal.org/certificates/) is maintained with all the data sources that the seal has been assigned to. Data stored in these sources can thus be considered to be produced in accordance with the FAIR principles. When performing research related to the availability of data repositories, one can consider repositories that have received the CoreTrustSeal, the Nestor Seal DIN31644, the ISO16363 certification, or similar, to be automatically trusted (Jahn et al., 2023).
-
-###### &lt;methodology&gt;
 
 ## References
 

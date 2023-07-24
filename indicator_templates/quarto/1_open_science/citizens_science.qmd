@@ -23,7 +23,7 @@ While there are many competing definitions of citizen science (also called parti
 
 This document describes a series of metrics to quantify (but also qualify) each of these nine different forms of citizen participation in science, as well as a tenth indicator accounting for the capacity of a citizen sciences project to span across multiple forms of participation \[10. span\].
 
-## Existing datasources:
+## Existing datasources
 
 Data on citizen science projects can be derived from five different sources:
 

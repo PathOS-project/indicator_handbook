@@ -30,15 +30,7 @@ Potential problems and limitations are:
 -   This kind of information might not be present on the website (yet), and as such create an underestimation of the actual situation.
 -   How does one compare the breadth of the open science support, here one only aims at the presence, but the range of facilities to support open science is here not yet included.
 
-##### Existing data sources:
-
-###### &lt;data source name&gt;
-
 There are presently no generic and systematic data sources that contain such information.
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
 
 Automation of this metric is currently not possible.
 
@@ -56,15 +48,7 @@ Potential problems and limitations are:
 -   A similar issue relates to the presence of funders, and their support of open science practices, these are also considered national research funding agencies, and how do these relate to the abovementioned issue of the ‘national’ level.
 -   How does one compare the breadth of the open science support, here one only aims at the presence, but the range of facilities to support open science is here not yet included.
 
-##### Existing data sources:
-
-###### &lt;data source name&gt;
-
 There are presently no generic and systematic data sources that contain such information.
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
 
 Automation of this metric is currently not possible.
 
@@ -81,14 +65,6 @@ Potential problems and limitations are:
 -   This is a time-consuming effort, as one has to go through many websites, on both overall institution level, as well as on faculty level.
 -   One has to decide upon a common denominator, the support for open science practices that are frequent across the system, but how does one deal with discipline specific support facilities that are not common?
 
-##### Existing data sources:
-
-###### &lt;data source name&gt;
-
 There are presently no generic and systematic data sources that contain such information.
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
 
 Automation is currently not possible.

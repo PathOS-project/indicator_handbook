@@ -49,14 +49,6 @@ Count
 
 ###### OpenAIRE Graph
 
-The limitations for the OpenAIRE graph in terms of this metric are described in the methodology as it is more clearer how they may create a problem.
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-Not aware if this is an existing methodology but it is quite simple, as required in this case.
-
 1.  Identify the preprints in the OpenAIRE graph using the publication classification type “Preprint”
 2.  Identify any repositories that only take preprints (preprint servers) and use those publications.
 3.  In addition, find all the Green OA publications in OpenAIRE and
@@ -93,12 +85,6 @@ Limitations:
 
 ###### OpenAIRE Graph
 
-The limitations for the OpenAIRE graph in terms of this metric are described in the methodology as it is more clearer how they may create a problem.
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
 1.  Take all the publications for unit of analysis
 2.  Identify those with a preprint available, from the set of preprints as in previous metric
 3.  Calculate share
@@ -131,12 +117,6 @@ Limitations:
 ##### Datasources
 
 ###### OpenAIRE Graph
-
-The limitations for the OpenAIRE graph in terms of this metric are described in the methodology as it is more clearer how they may create a problem.
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
 
 1.  Identify preprints as in previous metrics
 2.  Find those that are published

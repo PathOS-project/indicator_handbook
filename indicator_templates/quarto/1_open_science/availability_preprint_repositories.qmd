@@ -46,18 +46,9 @@ Count
 
 ##### Datasources
 
-###### &lt;datasource name&gt;
+######  ASAPbio
 
-Unknown, via literature review?
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-Unknown, via literature review?
-
-1.  Identify preprint repositories (how?)
-2.  Classify them thematically or geographically and by size and scope to make meaningful comparisons
+ASAPbio maintains a list of preprint repositories, available from https://asapbio.org/preprint-servers.
 
 ## Known correlates
 

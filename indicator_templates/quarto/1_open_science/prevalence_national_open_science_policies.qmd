@@ -176,20 +176,6 @@ The database contains more than 770 policies at the time of writing. Data is ava
 
 Information collected about policies includes attributes such as adoption, effective, and revision date; content types specified by the mandate; Open Access conditions; link to research evaluation; rights retention; etc.
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-Not applicable
-
-## Known correlates
-
-Not applicable
-
-## Notes
-
-Not applicable
-
 ## References
 
 O’Neill, Gareth. ‘Monitoring Framework for National Contributions to EOSC’. Zenodo, 14 December 2022. <https://doi.org/10.5281/zenodo.7410762>.

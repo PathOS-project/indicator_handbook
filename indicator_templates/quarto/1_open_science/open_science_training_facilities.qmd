@@ -32,17 +32,7 @@ Potential problems and limitations are:
 -   This kind of information might not be present on the website (yet), and as such create an underestimation of the actual situation.
 -   How does one compare the breadth of the open science training, here one only aims at the presence, but the range of facilities to train staff members on open science practices is here not yet included.
 
-##### *Existing data sources:*
-
-###### &lt;data source name&gt;
-
 There are presently no generic and systematic data sources that contain such information.
-
-##### *Existing methodologies*
-
-###### &lt;methodology name&gt;
-
-If the methodology is not automated / automatable: Has data been gathered before using this technique (e.g., a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
 Automation of this metric is currently not possible.
 
@@ -60,17 +50,7 @@ Potential problems and limitations are:
 -   A similar issue relates to the presence of funders, and their support of open science practices, these are also considered national research funding agencies, and how do these relate to the abovementioned issue of the ‘national’ level.
 -   How does one compare the breadth of the open science support, here one only aims at the presence, but the range of facilities to support open science is here not yet included.
 
-##### *Existing data sources:*
-
-###### &lt;data source name&gt;
-
 There are presently no generic and systematic data sources that contain such information.
-
-##### *Existing methodologies*
-
-###### &lt;methodology name&gt;
-
-If the methodology is not automated / automatable: Has data been gathered before using this technique (e.g., a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
 Automation of this metric is currently not possible.
 
@@ -88,17 +68,7 @@ Potential problems and limitations are:
 -   One has to decide upon a common denominator, the support for open science practices that are frequent across the system, but how does one deal with discipline specific support facilities that are not common?
 -   How does one include the various stages of development regarding open science across faculties into this metric? Some scholarly disciplines do have a different perspective on open science practices, e.g., regarding open access publishing of books in the humanities, or regarding qualitative research data in some parts of the social sciences, e.g., anthropology).
 
-##### *Existing data sources:*
-
-###### &lt;data source name&gt;
-
 There are presently no generic and systematic data sources that contain such information.
-
-##### *Existing methodologies*
-
-###### &lt;methodology name&gt;
-
-If the methodology is not automated / automatable: Has data been gathered before using this technique (e.g., a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
 Automation is currently not possible.
 
@@ -116,17 +86,7 @@ Potential problems and limitations are:
 -   Her one has to work with what is offered as open science training facilities, one does not have any idea of what is being ‘consumed‘ from the offered training facilities?
 -   An issue that popped up previously, one has to be aware of the fact that perhaps not all of the open science support facilities are (yet) online visible on websites.
 
-##### *Existing data sources:*
-
-###### &lt;data source name&gt;
-
 There are presently no generic and systematic data sources that contain such information.
-
-##### *Existing methodologies*
-
-###### &lt;methodology name&gt;
-
-If the methodology is not automated / automatable: Has data been gathered before using this technique (e.g., a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
 Automation is currently not possible.
 

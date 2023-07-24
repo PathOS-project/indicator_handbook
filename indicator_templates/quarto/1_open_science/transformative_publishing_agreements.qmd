@@ -111,12 +111,6 @@ Specific further analyses are provided for:
 
 In all cases, the data is not necessarily complete and should be used with care.
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-Not applicable
-
 ## References
 
 Hinchliffe, Lisa Janicke. ‘Read-and-Publish? Publish-and-Read? A Primer on Transformative Agreements by \@lisalibrarian.’ The Scholarly Kitchen, 23 April 2019. <https://scholarlykitchen.sspnet.org/2019/04/23/transformative-agreements/>.
