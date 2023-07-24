@@ -14,13 +14,19 @@ affiliations:
 
 # Impact of open data in research {#impact-of-open-data-in-research .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
 | 1.2     | 2023-07-19    | First draft v2               | Petros Stavropoulos       |
 | 1.1     | 2023-05-11    | First draft                  | Petros Stavropoulos       |
 
+
+
+:::
 
 ## Description
 

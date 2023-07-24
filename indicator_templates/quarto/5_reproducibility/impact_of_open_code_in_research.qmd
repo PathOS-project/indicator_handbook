@@ -14,13 +14,19 @@ affiliations:
 
 # Impact of open code in research {#impact-of-open-code-in-research .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
 | 1.2     | 2023-07-20    | First Draft v2               | Petros Stavropoulos       |
 | 1.1     | 2023-05-11    | First Draft                  | Petros Stavropoulos       |
 
+
+
+:::
 
 ## Description
 

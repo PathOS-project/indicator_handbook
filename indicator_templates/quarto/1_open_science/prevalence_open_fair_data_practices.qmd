@@ -15,12 +15,18 @@ affiliations:
 
 # Prevalence of open/FAIR data practices {#prevalence-of-openfair-data-practices .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
 | 1.1     |               | First draft                  | T. Willemse               |
 
+
+
+:::
 
 ## Description
 

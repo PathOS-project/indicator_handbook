@@ -20,11 +20,17 @@ affiliations:
 
 # Citizen Science Indicators {#citizen-science-indicators .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision    | Author       |
 |---------|---------------|-------------|--------------|
 | 1.0     | 2023-03-23    | First draft | T. Venturini |
+
+
+:::
 
 ## []{#_Ref126739570}Description
 

@@ -25,11 +25,17 @@ affiliations:
 ---
 # APC Costs {#apc-costs .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision    | Author                                                  |
 |---------|---------------|-------------|---------------------------------------------------------|
 | 0.1     | 2023-05-09    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
+
+
+:::
 
 ## Description
 

@@ -19,12 +19,18 @@ affiliations:
 
 # Prevalence of open science funding policies {#prevalence-of-open-science-funding-policies .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision     | Author             |
 |---------|---------------|--------------|--------------------|
 | 0.2     | 2023-06-08    | Second draft | L. Stoy, I. Karasz |
 | 0.1     | 2023-03-01    | First draft  | L. Stoy            |
+
+
+:::
 
 ## Description
 

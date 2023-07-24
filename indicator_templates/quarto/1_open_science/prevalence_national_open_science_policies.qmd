@@ -14,11 +14,17 @@ affiliations:
 
 # Prevalence of national open science policies {#prevalence-of-national-open-science-policies .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision                    | Author        |
 |---------|---------------|-----------------------------|---------------|
-|         | 2023-06-30    | Minor edits                 | L. Stoy (TGB) |
+|         | 2023-06-30    | Minor edits                 | L. Stoy 
+:::
+
+(TGB) |
 | 0.2     | 2023-02-28    | Extended content            | L. Stoy (TGB) |
 | 0.1     | 2023-02-14    | Initial version of document | L. Stoy (TGB) |
 

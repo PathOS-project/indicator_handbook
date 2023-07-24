@@ -26,12 +26,18 @@ affiliations:
 
 # Prevalence of replication studies {#prevalence-of-replication-studies .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision    | Author                                                  |
 |---------|---------------|-------------|---------------------------------------------------------|
 | 0.2     | 2023-05-11    | First draft | Petros Stavropoulos                                     |
 | 0.1     | 2023-02-12    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
+
+
+:::
 
 ## Description
 

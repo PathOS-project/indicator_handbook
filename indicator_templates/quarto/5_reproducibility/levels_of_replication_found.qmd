@@ -22,13 +22,19 @@ affiliations:
 
 # Levels of replication found {#levels-of-replication-found .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
 | 1.2     | 2023-07-20    | Revisions                    | Thomas Klebel             |
 | 1.1     | 2023-04-26    | First draft                  | Eva Kormann               |
 
+
+
+:::
 
 ## Description
 

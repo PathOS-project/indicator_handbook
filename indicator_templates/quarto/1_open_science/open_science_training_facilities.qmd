@@ -15,12 +15,18 @@ affiliations:
 
 # Open science training facilities {#open-science-training-facilities .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision                     | Author                                      |
 |---------|---------------|------------------------------|---------------------------------------------|
 | 2.0     | 2023-07-12    | Initial draft                | T. van Leeuwen                              |
 
+
+
+:::
 
 ## Description
 

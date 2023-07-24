@@ -1,10 +1,16 @@
 # &lt;indicator name&gt; {#indicator-name .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
 
+
+
+:::
 
 ## Description
 

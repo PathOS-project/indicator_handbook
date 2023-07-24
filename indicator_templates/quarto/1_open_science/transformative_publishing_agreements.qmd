@@ -14,11 +14,17 @@ affiliations:
 
 # Transformative publishing agreements {#transformative-publishing-agreements .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout-note collapse="true"}
+
+## History
+
 
 | Version | Revision date | Revision                               | Author  |
 |---------|---------------|----------------------------------------|---------|
-| 0.2     | 2023-06-30    | Added OpenAPC; minor revisions to rest | L. Stoy |
+| 0.2     | 2023-06-30    | Added OpenAPC
+:::
+
+; minor revisions to rest | L. Stoy |
 | 0.1     | 2023-03-01    | First draft                            | L. Stoy |
 
 ## Description
