@@ -97,7 +97,6 @@ book:
         - indicator_templates/quarto/5_reproducibility/polarity_of_publications.qmd
         - indicator_templates/quarto/5_reproducibility/reuse_of_code_in_research.qmd
         - indicator_templates/quarto/5_reproducibility/reuse_of_data_in_research.qmd
-        - indicator_templates/quarto/5_reproducibility/rigour_in_reporting.qmd
 
 comments:
   giscus:
@@ -116,7 +115,6 @@ format:
 
     author-meta: "V.A. Traag, etc..."
     callout-appearance: simple
-
 
   docx:
     reference-doc: theme/template.docx
