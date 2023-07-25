@@ -106,7 +106,3 @@ Potential problems and limitations are:
 There are presently no generic and systematic data sources that contain such information.
 
 Automation is currently not possible.
-
-## References
-
-\[Add Zotero bibliography here\]
