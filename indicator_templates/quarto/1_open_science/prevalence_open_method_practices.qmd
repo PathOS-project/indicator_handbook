@@ -38,7 +38,7 @@ affiliations:
 
 ## Description
 
-“*Methods describe the processes, procedures, and materials used in a research investigation. Methods can take many forms depending on the field and approach, including study designs, protocols, code, materials and reagents, databases and more.”^[\[1\]](#footnote-2){#footnote-ref-2}^*
+“*Methods describe the processes, procedures, and materials used in a research investigation. Methods can take many forms depending on the field and approach, including study designs, protocols, code, materials and reagents, databases and more.*”[^1]
 
 Open methods refer to:
 
@@ -67,8 +67,5 @@ There is no well-established methodology to automatically find publications with
 1.  Text mining and machine learning algorithm to find mentions of Open Software/Code and its FAIR metadata in the publication text.
 2.  Search relevant fields or tags in specific databases to find publications with software/code.
 
-## References
+[^1]: <https://plos.org/open-science/open-methods/>
 
-1.  ::: {#footnote-2}
-    https://plos.org/open-science/open-methods/ [↑](#footnote-ref-2)
-    :::
