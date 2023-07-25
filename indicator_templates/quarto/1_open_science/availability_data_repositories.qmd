@@ -52,7 +52,7 @@ The number of data repositories can be represented as a simple count measure. Ho
 
 ###### re3data
 
-To delve a bit deeper in the characteristics of the data repository, [Re3data](https://www.re3data.org/) maintains a [database](https://www.re3data.org/search?query=&contentTypes%5b%5d=Databases) of data repositories that is associated with DataCite. It provides many integrated filters on the data and data repositories, like open database access and repository type. The website also has an integrated function to filter on subject type, content, and country. This source is therefore useful if characteristics of the data repositories are of importance.
+To delve a bit deeper in the characteristics of the data repository, [Re3data](https://www.re3data.org/) maintains a [database](https://www.re3data.org/search?query=&contentTypes%5b%5d=Databases) of data repositories that is associated with DataCite. It provides many integrated filters on the data and data repositories, like Open Database access and repository type. The website also has an integrated function to filter on subject type, content, and country. This source is therefore useful if characteristics of the data repositories are of importance.
 
 ###### OpenDOAR (<https://v2.sherpa.ac.uk/opendoar/>)
 

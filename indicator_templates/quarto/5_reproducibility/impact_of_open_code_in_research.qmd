@@ -128,7 +128,7 @@ The data can be computationally obtained using web scraping tools, API queries, 
 
 ###### Github
 
-GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of open datasets. To ensure that the repository primarily contains code and not data or datasets, we can consider the following alternatives:
+GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Datasets. To ensure that the repository primarily contains code and not data or datasets, we can consider the following alternatives:
 
 -   Repository labeling: Look for repositories that are explicitly labeled as containing code or software. Many repository owners provide clear labels or descriptions indicating the nature of the content.
 -   File extensions: Check for files with common code file extensions, such as .py, .java, or .cpp. These file extensions are commonly used for code files, while data files often have extensions like .csv, .txt, or .xlsx.

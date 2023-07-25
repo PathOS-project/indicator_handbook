@@ -13,7 +13,7 @@ affiliations:
   country: the Netherlands
 ---
 
-# Deposition of open metadata {#deposition-of-open-metadata .unnumbered}
+# Deposition of Open Metadata {#deposition-of-open-metadata .unnumbered}
 
 ::: {.callout-note collapse="true"}
 
@@ -35,7 +35,7 @@ Our focus is on openness of the metadata of research articles. We acknowledge th
 
 ## Metrics
 
-### Journal articles with open references
+### Journal articles with Open References
 
 This metric provides the number or the percentage of journal articles for which the references are openly available.
 
@@ -45,9 +45,9 @@ Crossref is the datasource for this metric. Crossref makes the references of art
 
 If the metadata of an article in Crossref does not include references, this means that either the publisher did not submit the references to Crossref or the article does not have any references. There is no straightforward way to distinguish between these two possibilities.
 
-The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
+The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
 
-### Journal articles with open abstracts
+### Journal articles with Open Abstracts
 
 This metric provides the number or the percentage of journal articles for which the abstract is openly available.
 
@@ -57,9 +57,9 @@ Crossref is the datasource for this metric. Crossref makes the abstracts of arti
 
 If the metadata of an article in Crossref does not include an abstract, this means that either the publisher did not submit the abstract to Crossref or the article does not have an abstract. There is no straightforward way to distinguish between these two possibilities.
 
-The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
+The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
 
-### Journal articles with open author affiliations
+### Journal articles with Open Author Affiliations
 
 This metric provides the number or the percentage of journal articles for which author affiliations are openly available.
 
@@ -69,9 +69,9 @@ Crossref is the datasource for this metric. Crossref makes the affiliations of t
 
 If the metadata of an article in Crossref does not include author affiliations, this means that either the publisher did not submit the author affiliations to Crossref or the article does not include any author affiliations. There is no straightforward way to distinguish between these two possibilities.
 
-This metric is used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
+This metric is used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
 
-### Journal articles with open funding information
+### Journal articles with Open Funding Information
 
 This metric provides the number or the percentage of journal articles for which funding information is openly available.
 
@@ -81,4 +81,4 @@ Crossref is the datasource for this metric. Crossref makes funding information o
 
 If the metadata of an article in Crossref does not include funding information, this means that either the publisher did not submit funding information to Crossref or the article does not include any funding information. There is no straightforward way to distinguish between these two possibilities.
 
-The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on open metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
+The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).

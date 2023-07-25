@@ -24,7 +24,7 @@ affiliations:
   country: Greece
 ---
 
-# Availability of pre-print repositories {#availability-of-pre-print-repositories .unnumbered}
+# Availability of preprint repositories {#availability-of-preprint-repositories .unnumbered}
 
 ::: {.callout-note collapse="true"}
 

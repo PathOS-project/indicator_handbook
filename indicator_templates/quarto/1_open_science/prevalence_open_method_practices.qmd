@@ -24,7 +24,7 @@ affiliations:
   country: Greece
 ---
 
-# Prevalence of open method practices {#prevalence-of-open-method-practices .unnumbered}
+# Prevalence of Open Method practices {#prevalence-of-open-method-practices .unnumbered}
 
 ::: {.callout-note collapse="true"}
 
@@ -50,7 +50,7 @@ Open methods refer to:
 
 ### Number/share of publications with Open Source code
 
-**Description:** Number of publications with Open Source code: This is the number of publications for which the code that was developed in this context to produce the scientific outcomes included in the publication is shared/can be found with Open Access in open repositories.
+**Description:** Number of publications with Open Source code: This is the number of publications for which the code that was developed in this context to produce the scientific outcomes included in the publication is shared/can be found with Open Access in Open Repositories.
 
 **Benefits:** Providing Open Access to software/code of the scientific method is of key importance of understanding, evaluating, replicating and extending the study.
 
@@ -64,7 +64,7 @@ There is no comprehensive list of publication-software pairs. The metric is part
 
 There is no well-established methodology to automatically find publications with code. Some suggested methods are the following:
 
-1.  Text mining and machine learning algorithm to find mentions of open software/code and its FAIR metadata in the publication text.
+1.  Text mining and machine learning algorithm to find mentions of Open Software/Code and its FAIR metadata in the publication text.
 2.  Search relevant fields or tags in specific databases to find publications with software/code.
 
 ## References

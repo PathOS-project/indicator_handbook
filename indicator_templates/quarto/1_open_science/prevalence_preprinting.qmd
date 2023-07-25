@@ -82,8 +82,8 @@ Count
 2.  Identify any repositories that only take preprints (preprint servers) and use those publications.
 3.  In addition, find all the Green OA publications in OpenAIRE and
     1.  From those, those that are published in Closed Access (but Green OA) they are preprints.
-    2.  Add to those, those that are not published yet, they are a pre-print
-    3.  For the rest, if they are published check the date of deposition in repository, if it is earlier than the publication date, it is *most likely* a pre-print and not the version of record. **Checking how far before publication it was deposited is a useful measure in itself.**
+    2.  Add to those, those that are not published yet, they are a preprint
+    3.  For the rest, if they are published check the date of deposition in repository, if it is earlier than the publication date, it is *most likely* a preprint and not the version of record. **Checking how far before publication it was deposited is a useful measure in itself.**
 4.  Count
 
 Limitations

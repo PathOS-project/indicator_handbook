@@ -44,7 +44,7 @@ Given the systemic differences and the requirements in various levels of organiz
 
 ### Number/% hiring policies that reward OS
 
-This metric can be constructed by creating a perspective on the ways that, within a national setting, hiring of new staff is enriched by aiming at the uptake of open sciences practices by potential candidates. The national-institutional level is probably most successful, as internationally one might get into issues due to various national and /or funding agencies requirements (see above), apart from the efforts due in collecting such information on an international scale.
+This metric can be constructed by creating a perspective on the ways that, within a national setting, hiring of new staff is enriched by aiming at the uptake of Open Sciences practices by potential candidates. The national-institutional level is probably most successful, as internationally one might get into issues due to various national and /or funding agencies requirements (see above), apart from the efforts due in collecting such information on an international scale.
 
 The metric consists of comparing the number or share of institutions that have policies in place that positively assess the uptake of Open Science practices by candidates, versus the total number of institutions involved.
 
@@ -53,7 +53,7 @@ Potential issues in designing this indicator are:
 -   what variety of Open Science practices does one take into consideration ?
 -   How open are institutions in sharing such information on their hiring policies ?
 
-This indicator could be aligned with other potential indicators on the uptake of Open Science practices, e.g., on the uptake of Open Access publishing, pre-printing, data sharing, open peer review, open logbooks, but also registered reports, preregistration, etc.
+This indicator could be aligned with other potential indicators on the uptake of Open Science practices, e.g., on the uptake of Open Access publishing, Preprinting, Data Sharing, Open Peer Review, Open Logbooks, but also Registered Reports, Preregistration, etc.
 
 #### Measurement.
 

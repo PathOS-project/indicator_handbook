@@ -31,21 +31,21 @@ Impact of Open Data in research refers to the effect of making research data ope
 
 ## Metrics
 
-### FWCI for publications that have introduced open datasets
+### FWCI for publications that have introduced Open Datasets
 
-This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have introduced open datasets. By introducing open datasets, researchers enable others to access and verify their findings, thus enhancing the potential for reproducibility. The FWCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the FWCI for publications that have introduced open datasets can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
+This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have introduced Open Datasets. By introducing Open Datasets, researchers enable others to access and verify their findings, thus enhancing the potential for reproducibility. The FWCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the FWCI for publications that have introduced Open Datasets can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
 
-One limitation of this metric is that it may not capture the impact of Open Data practices on research findings that are not directly related to the introduction of open datasets. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
+One limitation of this metric is that it may not capture the impact of Open Data practices on research findings that are not directly related to the introduction of Open Datasets. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
 #### Measurement.
 
-To measure this metric, the process begins with the identification of publications that have introduced open datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
+To measure this metric, the process begins with the identification of publications that have introduced Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
 
 Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide these categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science) or [Elsevier's SciVal](https://www.elsevier.com/solutions/scival). Alternatively, classifications provided by [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) and [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) can be utilized.
 
 Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is calculated. The FWCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
 
-However, one potential limitation of this approach is that not all open datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+However, one potential limitation of this approach is that not all Open Datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
 ##### Datasources
 
@@ -53,9 +53,9 @@ However, one potential limitation of this approach is that not all open datasets
 
 OpenAIRE is a European platform that provides Open Access to research outputs, including publications, datasets, and software. OpenAIRE collects metadata from various data sources, including institutional repositories, data repositories, and publishers.
 
-For the FWCI for publications that have introduced open datasets metric, we can use OpenAIRE to identify publications that have introduced open datasets. We can search for publications by looking for OpenAIRE records that have a dataset identifier in the references section or by using OpenAIRE's API to search for publications that are linked to a specific dataset.
+For the FWCI for publications that have introduced Open Datasets metric, we can use OpenAIRE to identify publications that have introduced Open Datasets. We can search for publications by looking for OpenAIRE records that have a dataset identifier in the references section or by using OpenAIRE's API to search for publications that are linked to a specific dataset.
 
-One limitation of using OpenAIRE for this metric is that not all open datasets may be registered in OpenAIRE, which could lead to underestimation of the number of publications that have introduced open datasets.
+One limitation of using OpenAIRE for this metric is that not all Open Datasets may be registered in OpenAIRE, which could lead to underestimation of the number of publications that have introduced Open Datasets.
 
 ###### Scopus
 
@@ -69,29 +69,29 @@ One limitation of Scopus is that the calculation of FWCI from Scopus only consid
 
 This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been introduced or reused by the authors of the publication.
 
-To measure the proposed metric, the tool can be used to identify relevant publications that have introduced open datasets in conjunction with a tool/methodology that calculates the FWCI score for the same publication.
+To measure the proposed metric, the tool can be used to identify relevant publications that have introduced Open Datasets in conjunction with a tool/methodology that calculates the FWCI score for the same publication.
 
 ###### SciNoBo toolkit
 
 The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their FWCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
-To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has introduced open datasets.
+To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has introduced Open Datasets.
 
-### FWCI for publications that have (re)used open datasets
+### FWCI for publications that have (re)used Open Datasets
 
-This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have (re)used open datasets. It is a measure of the citation impact of research publications that have utilized open datasets, adjusted for differences in citation practices across scientific fields. The FWCI for publications that have (re)used open datasets can indicate the potential impact of data sharing and reuse practices on the visibility and influence of research findings. A higher FWCI score indicates a greater level of scientific collaboration and data sharing within a specific scientific community or field, suggesting that the availability of open datasets can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
+This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have (re)used Open Datasets. It is a measure of the citation impact of research publications that have utilized Open Datasets, adjusted for differences in citation practices across scientific fields. The FWCI for publications that have (re)used Open Datasets can indicate the potential impact of data sharing and reuse practices on the visibility and influence of research findings. A higher FWCI score indicates a greater level of scientific collaboration and data sharing within a specific scientific community or field, suggesting that the availability of Open Datasets can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
 
-A limitation of this metric is that it may not capture the impact of Open Data practices on research findings that are not directly related to the use of open datasets. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
+A limitation of this metric is that it may not capture the impact of Open Data practices on research findings that are not directly related to the use of Open Datasets. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
 #### Measurement.
 
-To measure this metric, the process begins with the identification of publications that have (re)used open datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
+To measure this metric, the process begins with the identification of publications that have (re)used Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
 
 Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide these categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science) or [Elsevier's SciVal](https://www.elsevier.com/solutions/scival). Alternatively, classifications provided by [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) and [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) can be utilized.
 
 Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is calculated. The FWCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
 
-One potential limitation of this approach is that not all open datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+One potential limitation of this approach is that not all Open Datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
 ##### Datasources
 
@@ -99,9 +99,9 @@ One potential limitation of this approach is that not all open datasets may be r
 
 OpenAIRE is a European platform that provides Open Access to research outputs, including publications, datasets, and software. OpenAIRE collects metadata from various data sources, including institutional repositories, data repositories, and publishers.
 
-For the FWCI for publications that have (re)used open datasets metric, we can use OpenAIRE to identify publications that have (re)used open datasets. We can search for publications by looking for OpenAIRE records that have a dataset identifier in the references section or by using OpenAIRE’s API to search for publications that are linked to a specific dataset.
+For the FWCI for publications that have (re)used Open Datasets metric, we can use OpenAIRE to identify publications that have (re)used Open Datasets. We can search for publications by looking for OpenAIRE records that have a dataset identifier in the references section or by using OpenAIRE’s API to search for publications that are linked to a specific dataset.
 
-One limitation of using OpenAIRE for this metric is that not all open datasets may be registered in OpenAIRE, which could lead to underestimation of the number of publications that have introduced open datasets.
+One limitation of using OpenAIRE for this metric is that not all Open Datasets may be registered in OpenAIRE, which could lead to underestimation of the number of publications that have introduced Open Datasets.
 
 ###### Scopus
 
@@ -115,25 +115,25 @@ One limitation of Scopus is that the calculation of FWCI from Scopus only consid
 
 This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been introduced or reused by the authors of the publication.
 
-To measure the proposed metric, the tool can be used to identify relevant publications that have (re)used open datasets in conjunction with a tool/methodology that calculates the FWCI score for the same publication.
+To measure the proposed metric, the tool can be used to identify relevant publications that have (re)used Open Datasets in conjunction with a tool/methodology that calculates the FWCI score for the same publication.
 
 ###### SciNoBo toolkit
 
 The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their FWCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
-To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has (re)used open datasets.
+To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has (re)used Open Datasets.
 
 ### Dataset downloads/usage counts/stars from repositories
 
-This metric measures the number of downloads, usage counts, or stars (depending on the repository) of a given open dataset. It provides an indication of the level of interest and use of the dataset by the scientific community, and can serve as a proxy for the potential impact of the dataset on scientific research. It should be noted that this metric may not capture the full impact of open datasets on scientific research, as the number of downloads or usage counts may not necessarily reflect the quality or impact of the research that utilizes the dataset.
+This metric measures the number of downloads, usage counts, or stars (depending on the repository) of a given Open Dataset. It provides an indication of the level of interest and use of the dataset by the scientific community, and can serve as a proxy for the potential impact of the dataset on scientific research. It should be noted that this metric may not capture the full impact of Open Datasets on scientific research, as the number of downloads or usage counts may not necessarily reflect the quality or impact of the research that utilizes the dataset.
 
 In terms of reproducibility, high usage counts or stars may indicate that a dataset is well-documented and easy to use. Furthermore, a widely used dataset is more likely to be updated and maintained over time, which can improve its reproducibility.
 
-One limitation of this metric is that it only captures usage of open datasets from specific repositories, and may not reflect usage of the same dataset that is hosted elsewhere. Additionally, differences in repository usage and user behavior may affect the comparability of download/usage count/star data across repositories. Finally, this metric does not capture non-public uses of open datasets, such as internal use within an organization or personal use by researchers, which may also contribute to the impact of open datasets on scientific research.
+One limitation of this metric is that it only captures usage of Open Datasets from specific repositories, and may not reflect usage of the same dataset that is hosted elsewhere. Additionally, differences in repository usage and user behavior may affect the comparability of download/usage count/star data across repositories. Finally, this metric does not capture non-public uses of Open Datasets, such as internal use within an organization or personal use by researchers, which may also contribute to the impact of Open Datasets on scientific research.
 
 #### Measurement.
 
-To measure this metric, we can use data from various data repositories, such as DataCite and Zenodo, or data from OpenAIRE, which provide download or usage statistics for hosted datasets. We can also use platforms such as GitHub or GitLab, which provide star counts as a measure of user engagement with Open Source code repositories that may include open datasets. However, it is important to note that different repositories may provide different types of usage statistics, and these statistics may not be directly comparable across repositories. Additionally, not all repositories may track usage statistics, making it difficult to obtain comprehensive data for all open datasets.
+To measure this metric, we can use data from various data repositories, such as DataCite and Zenodo, or data from OpenAIRE, which provide download or usage statistics for hosted datasets. We can also use platforms such as GitHub or GitLab, which provide star counts as a measure of user engagement with Open Source code repositories that may include Open Datasets. However, it is important to note that different repositories may provide different types of usage statistics, and these statistics may not be directly comparable across repositories. Additionally, not all repositories may track usage statistics, making it difficult to obtain comprehensive data for all Open Datasets.
 
 The data can be computationally obtained using web scraping tools, API queries, or by manually accessing the download/usage count/star data for each dataset.
 
@@ -141,7 +141,7 @@ The data can be computationally obtained using web scraping tools, API queries, 
 
 ###### DataCite
 
-DataCite is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics. This information can be used to measure the usage and impact of open datasets.
+DataCite is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics. This information can be used to measure the usage and impact of Open Datasets.
 
 To calculate the usage count of a dataset, we can use the “Views” field provided on the dataset landing page on DataCite, which indicates the number of times the landing page has been accessed. To calculate the number of downloads, we can use the “Downloads” field, which indicates the number of times the dataset has been downloaded. The number of stars or likes can be used as a measure of the popularity of the dataset among users.
 
@@ -153,13 +153,13 @@ To calculate the metric of dataset views and downloads from Zenodo, we can extra
 
 ###### OpenAIRE
 
-OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including open datasets.
+OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including Open Datasets.
 
-To calculate this metric using OpenAIRE, we can retrieve the download and view counts for the relevant open datasets, which can be accessed through the OpenAIRE REST API. The API returns JSON-formatted metadata for each research output, which includes information such as the title, authors, publication date, download counts, and view counts. The download and view counts can be used to calculate the total number of times the dataset has been accessed or viewed, respectively.
+To calculate this metric using OpenAIRE, we can retrieve the download and view counts for the relevant Open Datasets, which can be accessed through the OpenAIRE REST API. The API returns JSON-formatted metadata for each research output, which includes information such as the title, authors, publication date, download counts, and view counts. The download and view counts can be used to calculate the total number of times the dataset has been accessed or viewed, respectively.
 
 ###### GitHub
 
-GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of open datasets. To ensure that the repository primarily contains research data and not code, we can consider the following alternatives:
+GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Datasets. To ensure that the repository primarily contains research data and not code, we can consider the following alternatives:
 
 -   Repository labeling: Look for repositories that are explicitly labeled as containing data or datasets. Many repository owners provide clear labels or descriptions indicating the nature of the content.
 -   File extensions: Check for files with common data file extensions, such as .csv, .txt, or .xlsx. These file extensions are commonly used for data files, while code files often have extensions like .py, .java, or .cpp.
