@@ -54,4 +54,4 @@ jobs:
       - name: Deploy using rsync
         run: |
           ls -R
-          rsync -avz --delete --filter='P .htaccess' _book/ website:./pathos.traag.net/
+          rsync -avz --delete --filter='P .htaccess' _book/ website:domains/pathos.traag.net/public_html/
