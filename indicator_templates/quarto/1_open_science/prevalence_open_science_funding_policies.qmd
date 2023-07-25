@@ -58,7 +58,7 @@ Public supranational Open Science funding policies refer to the funding initiati
 -   Open Science Infrastructure: Public supranational funding initiatives may allocate resources to develop and maintain Open Science infrastructure, including data repositories, collaborative platforms, and tools that facilitate research collaboration and data sharing on an international scale.
 -   Ethical Considerations: Supranational Open Science funding policies may emphasize the importance of adhering to ethical standards in research, including data privacy, research integrity, and the protection of research participants' rights.
 
-Examples of organizations that promote supranational Open Science funding policies include the European Union through its research and innovation programs like Horizon Europe, as well as other international bodies such as UNESCO (United Nations Educational, Scientific and Cultural Organization) and the World Health Organization (WHO).
+Examples of organizations that promote supranational Open Science funding policies include the European Union through its research and innovation programs like Horizon Europe, as well as other international bodies such as the United Nations Educational, Scientific and Cultural Organization (UNESCO) and the World Health Organization (WHO).
 
 #### Datasources
 

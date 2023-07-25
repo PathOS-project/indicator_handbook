@@ -41,7 +41,7 @@ The metric has limitations in at least two domains: (a) in terms of measurement 
 
 #### Measurement.
 
-Many test statistics in the realm of NHST allow for the calculation of p-values. Given a test statistic (e.g., *t, χ2*) and a value for *degrees of freedom*, the p-value can be calculated. Reporting standards differ, and not all necessary elements might be provided by authors. However, for manuscripts that adhere to the APA format for reporting test statistics (which mandates reporting test statistic, degrees of freedom, and the p-value), it is possible to recalculate the reported p-value based on the test statistic and the reported degrees of freedom. A key precondition for this measurement is thus the availability of reported statistics that adhere to the APA format.
+Many test statistics in the realm of NHST allow for the calculation of p-values. Given a test statistic (e.g., *t, χ2*) and a value for *degrees of freedom*, the p-value can be calculated. Reporting standards differ, and not all necessary elements might be provided by authors. However, for manuscripts that adhere to the American Psychological Association (APA) format for reporting test statistics (which mandates reporting test statistic, degrees of freedom, and the p-value), it is possible to recalculate the reported p-value based on the test statistic and the reported degrees of freedom. A key precondition for this measurement is thus the availability of reported statistics that adhere to the APA format.
 
 There is no single datasource for this metric. The metric can be computed based on any set of publications for which full texts are available.
 

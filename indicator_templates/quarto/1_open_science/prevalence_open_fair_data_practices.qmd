@@ -56,11 +56,11 @@ DataCite and Crossref are both organizations that provide services for identifyi
 
 ##### Existing methodologies
 
-###### Extract dataset sharing based on NLP
+###### Extract dataset sharing based on Natural Language Processing
 
 The Public Library of Science (PLOS) is a non-profit publisher of open-access journals. PLOS provides indicators on data repository use in PLOS articles as well as overall data repository use. PLOS uses a combination of manual curation and automated methods to generate information on Open Access data. This includes reviewing data availability statements provided by authors, checking data repositories for publicly accessible data associated with articles, and using natural language processing and machine learning algorithms to identify mentions of data availability in articles. PLOS also encourages authors to provide detailed data availability statements and to deposit their data in public repositories to facilitate Open Data access.
 
-PLOS has developed the indicators on data sharing and data use through DataSeer. DataSeer provides a NLP and AI backed algorithm that can automatically link data sources to doi's and check if these data sources are Open Source. Both the [machine learning](https://github.com/kermitt2/dataseer-ml) code and [web app](https://github.com/DataSeer/dataseer-web) code are openly available.
+PLOS has developed the indicators on data sharing and data use through DataSeer. DataSeer provides a Natural Language Processing (NLP) and AI backed algorithm that can automatically link data sources to doi's and check if these data sources are Open Source. Both the [machine learning](https://github.com/kermitt2/dataseer-ml) code and [web app](https://github.com/DataSeer/dataseer-web) code are openly available.
 
 PLOS also provides API's to search its database. This [page](https://api.plos.org/solr/examples/) provides some example Solr queries, the specific queries will depend on the research question.
 
