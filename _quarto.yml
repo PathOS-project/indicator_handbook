@@ -99,8 +99,6 @@ book:
         - indicator_templates/quarto/5_reproducibility/reuse_of_data_in_research.qmd
 
 comments:
-  giscus:
-    repo: PathOS-project/indicator_handbook
   hypothesis:
     theme: clean
 
