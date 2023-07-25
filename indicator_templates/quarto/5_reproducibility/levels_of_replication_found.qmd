@@ -28,8 +28,8 @@ affiliations:
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
-| 1.2     | 2023-07-20    | Revisions                    | Thomas Klebel             |
-| 1.1     | 2023-04-26    | First draft                  | Eva Kormann               |
+| 1.1     | 2023-07-20    | Revisions                    | Thomas Klebel             |
+| 1.0     | 2023-04-26    | First draft                  | Eva Kormann               |
 
 :::
 

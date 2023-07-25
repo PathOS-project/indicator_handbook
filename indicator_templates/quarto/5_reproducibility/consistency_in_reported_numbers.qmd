@@ -20,8 +20,8 @@ affiliations:
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
-| 1.2     | 2023-07-20    | Incorporating revisions      | Thomas Klebel             |
-| 1.1     | 2023-05-11    | First draft                  | Thomas Klebel             |
+| 1.1     | 2023-07-20    | Incorporating revisions      | Thomas Klebel             |
+| 1.0     | 2023-05-11    | First draft                  | Thomas Klebel             |
 
 :::
 

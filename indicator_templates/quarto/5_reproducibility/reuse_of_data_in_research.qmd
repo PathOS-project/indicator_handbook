@@ -15,14 +15,12 @@ affiliations:
 # Reuse of data in research {#reuse-of-data-in-research .unnumbered}
 
 ::: {.callout-note collapse="true"}
-
 ## History
 
-| Version | Revision date | Revision                     | Author                    |
-|---------|---------------|------------------------------|---------------------------|
-| 1.2     | 2023-20-07    | Revisions                    | Petros Stavropoulos       |
-| 1.1     | 2023-05-11    | First draft                  | Petros Stavropoulos       |
-
+| Version | Revision date | Revision    | Author              |
+|---------|---------------|-------------|---------------------|
+| 1.1     | 2023-20-07    | Revisions   | Petros Stavropoulos |
+| 1.0     | 2023-05-11    | First draft | Petros Stavropoulos |
 :::
 
 ## Description

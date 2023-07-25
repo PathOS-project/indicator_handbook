@@ -32,7 +32,7 @@ affiliations:
 
 | Version | Revision date | Revision    | Author                                                  |
 |---------|---------------|-------------|---------------------------------------------------------|
-| 1.1     | 2023-05-9     | First draft | N. Manola, I. Grypari, P. Stavropoulos, H. Papageorgiou |
+| 1.0     | 2023-05-9     | First draft | N. Manola, I. Grypari, P. Stavropoulos, H. Papageorgiou |
 
 :::
 

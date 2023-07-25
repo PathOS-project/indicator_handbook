@@ -20,8 +20,8 @@ affiliations:
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
-| 1.2     | 2023-07-20    | Revisions                    | Petros Stavropoulos       |
-| 1.1     | 2023-05-11    | First Draft                  | Petros Stavropoulos       |
+| 1.1     | 2023-07-20    | Revisions                    | Petros Stavropoulos       |
+| 1.0     | 2023-05-11    | First Draft                  | Petros Stavropoulos       |
 
 
 :::
