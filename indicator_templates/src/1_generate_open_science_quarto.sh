@@ -17,7 +17,7 @@ mv "${ROOT_DIR}/sharepoint/WP2/Task 2.1 - Open science indicators/Indicator temp
     mv 'Availability of data repositories.qmd'                         'availability_data_repositories.qmd'
     mv 'Availability of preprint repositories (ARC - OPENAIRE).qmd'    'availability_preprint_repositories.qmd'
     mv 'Availability of publication repositories (OPENAIRE - ARC).qmd' 'availability_publication_repositories.qmd'
-    mv 'Citizens Science.qmd'                                          'citizens_science.qmd'
+    mv 'Citizens Science.qmd'                                          'citizen_science.qmd'
     mv 'Deposition of open metadata.qmd'                               'deposition_open_metadata.qmd'
     mv 'Evaluation of open science in research assessment.qmd'         'evaluation_open_science_in_research_assessment.qmd'
     mv 'Open access journals (OPENAIRE - ARC).qmd'                     'open_access_journals.qmd'

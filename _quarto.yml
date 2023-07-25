@@ -17,7 +17,7 @@ book:
     logo: theme/pathos-logo.png
 
   chapters:
-    - index.qmd
+    - introduction.qmd
 
     # - causal_intro/article/intro-causality.qmd Skip causal intro for now
 
@@ -27,7 +27,7 @@ book:
         - indicator_templates/quarto/1_open_science/availability_data_repositories.qmd
         - indicator_templates/quarto/1_open_science/availability_preprint_repositories.qmd
         - indicator_templates/quarto/1_open_science/availability_publication_repositories.qmd
-        - indicator_templates/quarto/1_open_science/citizens_science.qmd
+        - indicator_templates/quarto/1_open_science/citizen_science.qmd
         - indicator_templates/quarto/1_open_science/deposition_open_metadata.qmd
         - indicator_templates/quarto/1_open_science/evaluation_open_science_in_research_assessment.qmd
         - indicator_templates/quarto/1_open_science/open_access_journals.qmd
