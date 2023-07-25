@@ -32,11 +32,11 @@ The impact of Open Code in research refers to the effect of making research code
 
 ## Metrics
 
-### FWCI for publication that have introduced Open Code
+### NCI for publication that have introduced Open Code
 
-This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have introduced Open Code. By introducing Open Code, researchers enable others to scrutinize and build upon their computational methods, thus enhancing the potential for reproducibility and advancement of the field. The FWCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the FWCI for publications that have introduced Open Code can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
+This metric calculates the Normalised Citation Impact (NCI) for publications that have introduced Open Code. By introducing Open Code, researchers enable others to scrutinize and build upon their computational methods, thus enhancing the potential for reproducibility and advancement of the field. The NCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the NCI for publications that have introduced Open Code can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
 
-One limitation of this metric is that it may not capture the impact of Open Code practices on research findings that are not directly related to the introduction of Open Code. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
+One limitation of this metric is that it may not capture the impact of Open Code practices on research findings that are not directly related to the introduction of Open Code. Additionally, the use of NCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
 
 #### Measurement.
 
@@ -44,17 +44,17 @@ To measure this metric, the process begins with the identification of publicatio
 
 Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide these categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science) or [Elsevier's SciVal](https://www.elsevier.com/solutions/scival). Alternatively, classifications provided by [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) and [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) can be utilized.
 
-Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is calculated. The FWCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
+Finally, the NCI (Normalised Citation Impact) score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
 
-However, one potential limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+However, one potential limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
 ##### Datasources
 
 ###### Scopus
 
-Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' FWCI score using their API.
+Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
-One limitation of Scopus is that the calculation of FWCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation of the FWCI for some publications.
+One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation of the NCI for some publications.
 
 ##### Existing methodologies
 
@@ -66,15 +66,15 @@ To measure the proposed metric, the tool can be used to identify relevant public
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their FWCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
-To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has introduced Open Code/software.
+To measure the proposed metric, the tool can be used to calculate the NCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has introduced Open Code/software.
 
-### FWCI for publication that have (re)used Open Code
+### NCI for publication that have (re)used Open Code
 
-This metric calculates the Field-Weighted Citation Impact (FWCI) for publications that have (re)used Open Code. It is a measure of the citation impact of research publications that have utilized Open Code, adjusted for differences in citation practices across scientific fields. The FWCI for publications that have (re)used Open Code can indicate the potential impact of code sharing and reuse practices on the visibility and influence of research findings. A higher FWCI score indicates a greater level of scientific collaboration and code sharing within a specific scientific community or field, suggesting that the availability of Open Code can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
+This metric calculates the Normalised Citation Impact (NCI) for publications that have (re)used Open Code. It is a measure of the citation impact of research publications that have utilized Open Code, adjusted for differences in citation practices across scientific fields. The NCI for publications that have (re)used Open Code can indicate the potential impact of code sharing and reuse practices on the visibility and influence of research findings. A higher NCI score indicates a greater level of scientific collaboration and code sharing within a specific scientific community or field, suggesting that the availability of Open Code can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
 
-A limitation of this metric is that it may not capture the impact of Open Code practices on research findings that are not directly related to the use of Open Code. Additionally, the use of FWCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
+A limitation of this metric is that it may not capture the impact of Open Code practices on research findings that are not directly related to the use of Open Code. Additionally, the use of NCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
 
 #### Measurement.
 
@@ -82,17 +82,17 @@ To measure this metric, the process begins with the identification of publicatio
 
 Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide these categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science) or [Elsevier's SciVal](https://www.elsevier.com/solutions/scival). Alternatively, classifications provided by [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) and [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) can be utilized.
 
-Finally, the FWCI (Field-Weighted Citation Impact) score for each publication is calculated. The FWCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
+Finally, the NCI (Normalised Citation Impact) score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
 
-However, one potential limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the FWCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+However, one potential limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
 ##### Datasources
 
 ###### Scopus
 
-Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' FWCI score using their API.
+Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
-One limitation of Scopus is that the calculation of FWCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation of the FWCI for some publications.
+One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation of the NCI for some publications.
 
 ##### Existing methodologies
 
@@ -104,9 +104,9 @@ To measure the proposed metric, the tool can be used to identify relevant public
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their FWCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
-To measure the proposed metric, the tool can be used to calculate the FWCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has (re)used Open Code/software.
+To measure the proposed metric, the tool can be used to calculate the NCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has (re)used Open Code/software.
 
 ### Code downloads/usage counts/stars from repositories
 
