@@ -17,7 +17,7 @@ book:
     logo: theme/pathos-logo.png
 
   chapters:
-    - introduction.qmd
+    - index.qmd
 
     # - causal_intro/article/intro-causality.qmd Skip causal intro for now
 
