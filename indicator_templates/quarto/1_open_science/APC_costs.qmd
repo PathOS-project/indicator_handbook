@@ -45,7 +45,7 @@ APCs have both benefits and drawbacks. In countries where funder reimbursement o
 
 ## Metrics
 
-### Number of publications with an APC cost
+### Number of publications with an APC cost {#sec-metrics-apc-costs}
 
 This metric measures the number of research articles published in journals and have incurred an APC.
 
@@ -106,7 +106,7 @@ Via OpenAIRE MONITOR
 
 Limitations:
 
--   Same as II.2
+-   Same as Number of publications with an APC cost (@sec-metrics-apc-costs)
 
 ### Average APC
 
