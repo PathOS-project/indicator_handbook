@@ -14,7 +14,7 @@ affiliations:
 
 # Reuse of code in research {#reuse-of-code-in-research .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

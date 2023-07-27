@@ -14,7 +14,7 @@ affiliations:
 
 # Consistency in reported numbers {#consistency-in-reported-numbers .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

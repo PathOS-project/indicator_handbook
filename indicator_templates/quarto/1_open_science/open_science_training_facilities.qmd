@@ -15,7 +15,7 @@ affiliations:
 
 # Open Science training facilities {#open-science-training-facilities .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

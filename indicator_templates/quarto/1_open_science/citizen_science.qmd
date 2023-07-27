@@ -20,7 +20,7 @@ affiliations:
 
 # Citizen Science Indicators {#citizen-science-indicators .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

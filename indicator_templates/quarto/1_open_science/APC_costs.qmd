@@ -25,7 +25,7 @@ affiliations:
 ---
 # APC Costs {#apc-costs .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

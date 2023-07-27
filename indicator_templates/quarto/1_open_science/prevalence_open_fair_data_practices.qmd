@@ -15,7 +15,7 @@ affiliations:
 
 # Prevalence of open/FAIR data practices {#prevalence-of-openfair-data-practices .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

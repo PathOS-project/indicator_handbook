@@ -14,7 +14,7 @@ affiliations:
 
 # Impact of Open Data in research {#impact-of-open-data-in-research .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

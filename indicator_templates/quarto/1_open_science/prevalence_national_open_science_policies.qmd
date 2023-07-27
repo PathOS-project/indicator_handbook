@@ -14,7 +14,7 @@ affiliations:
 
 # Prevalence of national Open Science policies {#prevalence-of-national-open-science-policies .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

@@ -14,7 +14,7 @@ affiliations:
 
 # Transformative publishing agreements {#transformative-publishing-agreements .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

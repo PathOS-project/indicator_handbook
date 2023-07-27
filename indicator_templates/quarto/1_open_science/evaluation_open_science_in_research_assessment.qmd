@@ -15,7 +15,7 @@ affiliations:
 
 # Evaluation of Open Science in research assessment {#evaluation-of-open-science-in-research-assessment .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

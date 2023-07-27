@@ -19,7 +19,7 @@ affiliations:
 
 # Prevalence of Open Science funding policies {#prevalence-of-open-science-funding-policies .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

@@ -22,7 +22,7 @@ affiliations:
 
 # Levels of replication found {#levels-of-replication-found .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

@@ -22,7 +22,7 @@ affiliations:
 
 # Inclusion in systematic reviews or meta-analyses {#inclusion-in-systematic-reviews-or-meta-analyses .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

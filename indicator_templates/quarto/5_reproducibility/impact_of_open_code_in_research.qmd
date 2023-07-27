@@ -14,7 +14,7 @@ affiliations:
 
 # Impact of Open Code in research {#impact-of-open-code-in-research .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

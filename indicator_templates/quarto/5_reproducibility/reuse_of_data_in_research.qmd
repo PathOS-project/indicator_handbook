@@ -14,7 +14,7 @@ affiliations:
 
 # Reuse of data in research {#reuse-of-data-in-research .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 ## History
 
 | Version | Revision date | Revision    | Author              |

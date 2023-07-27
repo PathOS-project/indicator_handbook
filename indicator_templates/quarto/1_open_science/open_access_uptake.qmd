@@ -15,7 +15,7 @@ affiliations:
 
 # Open Access uptake {#open-access-uptake .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

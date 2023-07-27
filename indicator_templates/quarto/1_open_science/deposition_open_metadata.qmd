@@ -15,7 +15,7 @@ affiliations:
 
 # Deposition of Open Metadata {#deposition-of-open-metadata .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

@@ -15,7 +15,7 @@ affiliations:
 
 # Prevalence of Open Peer Review {#prevalence-of-open-peer-review .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

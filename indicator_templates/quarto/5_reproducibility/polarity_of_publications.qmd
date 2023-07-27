@@ -14,7 +14,7 @@ affiliations:
 
 # Polarity of publications {#polarity-of-publications .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

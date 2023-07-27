@@ -26,7 +26,7 @@ affiliations:
 
 # Prevalence of Open Method practices {#prevalence-of-open-method-practices .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 

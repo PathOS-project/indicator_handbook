@@ -15,7 +15,7 @@ affiliations:
 
 # Availability of data repositories {#availability-of-data-repositories .unnumbered}
 
-::: {.callout-note collapse="true"}
+::: {}
 
 ## History
 
