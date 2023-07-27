@@ -26,6 +26,18 @@ jobs:
       - name: Render quarto project
         uses: quarto-dev/quarto-actions/render@v2
 
+      - name: Install pagemerger
+        run: |
+          curl -O https://github.com/tymbaca/pagemerger/releases/download/v1.0.0/pagemerger_1.0-1_amd64.deb
+          sudo dpkg -i pagemerger_1.0-1_amd64.deb
+          sudo apt-get install -y aspnetcore-runtime-7.0
+          sudo chmod 755 /usr/local/bin/pagemerger
+
+      - name: Merge cover page with rendered docx
+        run: |
+          pagemerger out.docx etc/cover.docx _book/Open-Science-Indicator-Handbook.docx
+          mv out.docx _book/Open-Science-Indicator-Handbook.docx
+
       - name: Upload rendered book as GHA artifact
         uses: actions/upload-artifact@v3
         with:
