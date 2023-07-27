@@ -60,7 +60,7 @@ OpenDOAR is a global directory of Open Access repositories. It has the functiona
 
 ###### DataCite
 
-[DataCite](https://datacite.org/value.html) is a non-profit organisation that provides DOI’s for research data and research output. Within their services DataCite also produces an [overview](https://search.datacite.org/repositories) of data repositories. These include a wide variety of data repositories that are associated with the data that is documented by DataCite. Although, many data repositories and associated datasets are documented here, the catalogue is somewhat limited in filtering for the openness of the data repositories themselves. It can therefore mainly serve as an information source on what type of data repositories are out there. An overview on the analytical possibilities of DataCite can be found in (2017Robinson-Garcia et al (2017).
+[DataCite](https://datacite.org/value.html) is a non-profit organisation that provides DOI’s for research data and research output. Within their services DataCite also produces an [overview](https://search.datacite.org/repositories) of data repositories. These include a wide variety of data repositories that are associated with the data that is documented by DataCite. Although, many data repositories and associated datasets are documented here, the catalogue is somewhat limited in filtering for the openness of the data repositories themselves. It can therefore mainly serve as an information source on what type of data repositories are out there. An overview on the analytical possibilities of DataCite can be found in (Robinson-Garcia et al., 2017).
 
 ###### FAIRsharing.org (<https://fairsharing.org/>)
 
@@ -84,8 +84,8 @@ Core Trust Seal is a non-profit organisation that labels data sources with their
 
 ## References
 
-Jahn, N., Laakso, M., Lazzeri, E., & McQuilton, P. (2023). Study on the readiness of research data and literature repositories to facilitate compliance with the Open Science Horizon Europe MGA requirements.
+Goben, A., & Sandusky, R. J. (2020). *Open data repositories: Current risks and opportunities \| Goben \| College & Research Libraries News*. https://doi.org/10.5860/crln.81.1.62
 
-Goben, A., & Sandusky, R. J. (2020). *Open Data repositories: Current risks and opportunities \| Goben \| College & Research Libraries News*. https://doi.org/10.5860/crln.81.1.62
+Jahn, N., Laakso, M., Lazzeri, E., & McQuilton, P. (2023). *Study on the readiness of research data and literature repositories to facilitate compliance with the Open Science Horizon Europe MGA requirements*. Zenodo. https://zenodo.org/record/7728016
 
 Robinson-Garcia, N., Mongeon, P., Jeng, W., & Costas, R. (2017). DataCite as a novel bibliometric source: Coverage, strengths and limitations. *Journal of Informetrics*, *11*(3), 841–854. https://doi.org/10.1016/j.joi.2017.07.003
