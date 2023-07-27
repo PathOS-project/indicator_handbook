@@ -1,12 +1,8 @@
 # Uptake in citizen science {#uptake-in-citizen-science .unnumbered}
+::: {}
 
-History (please fill out in reverse chronological order, latest revision on top):
-
-|         |               |                              |                           |
-|---------|---------------|------------------------------|---------------------------|
-| Version | Revision date | Revision                     | Author                    |
-| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
-
+## History
+:::
 ## Description
 
 \[Add text here\]
