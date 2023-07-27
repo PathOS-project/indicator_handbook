@@ -1,6 +1,8 @@
-# Executive summary {.unnumbered}
+# Introduction {.unnumbered}
 
 This is the work-in-progress Open Science Indicator Handbook by PathOS. In this handbook we cover various indicators measuring various aspects around Open Science itself, their academic, societal and economic impacts, and reproducibility.
+
+##  Executive summary
 
 In the PathOS project we take a causal perspective on studying Open Science. This necessitates making a distinction between impact itself, and the effect of Open Science on impact. For instance, we could very well see an Open Source research tool being used frequently by industry. In that sense, the Open Source research tool can be said to have a type of economic impact. However, it could very well be that the research tool would have been similarly used by industry had it been released as closed software under a commercial licence. We are interested in the difference between its actual impact under the Open Science principles and its counterfactual impact under a closed principle. That is, we are interested in the *causal* effect of Open Science on the impact of the science.
 
