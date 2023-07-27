@@ -12,6 +12,8 @@ book:
   repo-branch: main
   repo-actions: [edit, issue]
 
+  downloads: [docx]
+
   sidebar:
     collapse-level: 1
     logo: theme/pathos-logo.png
