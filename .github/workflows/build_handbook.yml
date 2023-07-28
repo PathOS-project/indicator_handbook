@@ -12,6 +12,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    if: github.repository	== 'PathOS-project/indicator_handbook'
 
     steps:
       - name: Checkout repository
@@ -46,7 +47,7 @@ jobs:
   deploy:
     needs: [build]
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' && github.repository	== 'PathOS-project/indicator_handbook'
 
     steps:
       - name: Download rendered book
