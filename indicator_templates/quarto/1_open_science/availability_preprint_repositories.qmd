@@ -55,7 +55,7 @@ Limitations:
 
 ## Metrics
 
-### Number of preprint repositoriesW
+### Number of preprint repositories
 
 Description:
 
