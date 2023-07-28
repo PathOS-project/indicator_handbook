@@ -59,9 +59,7 @@ Limitation:
 
 ###### OpenAIRE Graph
 
-The OpenAIRE graph (graph.openaire.eu)\*\
-
--   OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as part of its dump yet, but it is expected before the end of PathOS.
+The [OpenAIRE Graph](https://graph.openaire.eu) does not yet have OA colors (Green OA, Gold OA, etc.) as part of its dump yet, but it is expected before the end of PathOS.
 
 Via OpenAIRE MONITOR
 
@@ -93,9 +91,7 @@ Limitations:
 
 ###### OpenAIRE Graph
 
-The OpenAIRE graph (graph.openaire.eu)\*\
-
--   OpenAIRE does not yet have OA colors (Green OA, Gold OA, etc.) as part of its dump yet, but it is expected before the end of PathOS.
+The [OpenAIRE Graph](https://graph.openaire.eu) does not yet have OA colors (Green OA, Gold OA, etc.) as part of its dump yet, but it is expected before the end of PathOS.
 
 Via OpenAIRE MONITOR
 
@@ -129,7 +125,7 @@ Limitations:
 
 ###### OpenAIRE Graph
 
-The OpenAPC APC dataset, which is integrated in the OpenAIRE graph (graph.openaire.eu)
+The OpenAPC APC dataset, which is integrated in the [OpenAIRE Graph](https://graph.openaire.eu).
 
 Limitations:
 
@@ -168,7 +164,7 @@ Limitations:
 
 ###### OpenAIRE Graph
 
-The OpenAPC APC dataset, which is integrated in the OpenAIRE graph (graph.openaire.eu)
+The OpenAPC APC dataset, which is integrated in the [OpenAIRE Graph](https://graph.openaire.eu).
 
 Limitations:
 
