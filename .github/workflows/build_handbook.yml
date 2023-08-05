@@ -10,7 +10,7 @@ name: Render indicator handbook
 
 jobs:
 
-  build:
+  build_deploy:
     runs-on: ubuntu-latest
     if: github.repository	== 'PathOS-project/indicator_handbook'
 
@@ -38,24 +38,8 @@ jobs:
           pagemerger out.docx etc/cover.docx _book/Open-Science-Indicator-Handbook.docx
           mv out.docx _book/Open-Science-Indicator-Handbook.docx
 
-      - name: Upload rendered book as GHA artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: indicators_handbook
-          path: _book/
-
-  deploy:
-    needs: [build]
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && github.repository	== 'PathOS-project/indicator_handbook'
-
-    steps:
-      - name: Download rendered book
-        uses: actions/download-artifact@v3
-        with:
-          name: indicators_handbook
-          path: _book/
       - name: Install SSH key
+        if: github.ref == 'refs/heads/main'
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.WEBSITE_SSH_KEY }}
@@ -63,7 +47,9 @@ jobs:
           known_hosts: ${{ secrets.WEBSITE_KNOWN_HOST }}
           config: ${{ secrets.WEBSITE_SSH_CONFIG }}
           if_key_exists: fail
+
       - name: Deploy using rsync
+        if: github.ref == 'refs/heads/main'
         run: |
           ls -R
           rsync -avz --delete --filter='P .htaccess' _book/ website:domains/pathos.traag.net/public_html/
