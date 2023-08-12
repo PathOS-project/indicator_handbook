@@ -47,7 +47,7 @@ APCs have both benefits and drawbacks. In countries where funder reimbursement o
 
 ### Number of publications with an APC cost
 
-This metric measures the number of research articles published in journals and have incurred an APC.
+This metric measures the number of publications in journals and have incurred an APC.
 
 Limitation:
 
@@ -59,22 +59,18 @@ Limitation:
 
 ###### OpenAIRE Graph
 
-The [OpenAIRE Graph](https://graph.openaire.eu) does not yet have OA colors (Green OA, Gold OA, etc.) as part of its dump yet, but it is expected before the end of PathOS.
+The [OpenAIRE Graph](https://graph.openaire.eu) dump currently does not include OA color classifications, though they are already implemented in the OpenAIRE MONITOR and are expected to be integrated into the graph dump shortly.
 
-Via OpenAIRE MONITOR
+1.  Extract all Gold OA publications from OpenAIRE, excluding those that are Diamond OA (no APC). What remains are Gold OA publications with an APC.
+2.  Incorporate Hybrid and Bronze OA publications, which also attract an APC.
+3.  Cross-reference with APCs in OpenAIRE (sourced from OpenAPC – openapc.net) to ensure no overlooked publications with APCs.
+4.  Compute the total number of OA publications that incurred an APC.
 
-1.  Take all Gold OA publications from OpenAIRE (i.e. those published in a fully OA journal), remove those that are also Diamond OA (i.e. no APC). The remaining are Gold OA publications that paid an APC.
-2.  Add to the set Hybrid and Bronze OA publications (also incur an APC)
-3.  Use the APCs in OpenAIRE (from OpenAPC – openapc.net) to verify that there are no additional publications that have incurred an APC that are not already counted.
-4.  Count the number of number of result OA publications that incurred an APC
-
-Notes:
-
--   Is it true that all Hybrid and Bronze OA publications incurred an APC?
 
 Limitations:
 
 -   This methodology is a workaround chosen as it provides better coverage than any APC dataset we are aware of, however it is not a direct source of whether a publication has incurred an APC or not.
+
 
 ### % Publications with an APC
 
@@ -91,18 +87,18 @@ Limitations:
 
 ###### OpenAIRE Graph
 
-The [OpenAIRE Graph](https://graph.openaire.eu) does not yet have OA colors (Green OA, Gold OA, etc.) as part of its dump yet, but it is expected before the end of PathOS.
+The [OpenAIRE Graph](https://graph.openaire.eu) dump currently does not include OA color classifications, though they are already implemented in the OpenAIRE MONITOR and are expected to be integrated into the graph dump shortly.
 
 Via OpenAIRE MONITOR
 
-1.  Take all Gold OA publications from OpenAIRE (i.e. those published in a fully OA journal), remove those that are also Diamond OA (i.e. no APC). The remaining are Gold OA publications that paid an APC.
-2.  Add to the set Hybrid and Bronze OA publications (also incur an APC)
-3.  Use the APCs in OpenAIRE (from OpenAPC – openapc.net) to verify that there are no additional publications that have incurred an APC that are not already counted.
-4.  This set contains the OA publications that incurred an APC, use the set of all OA publications at your level of interest (e.g. country) to calculate the share.
+1.  Retrieve all Gold OA publications from OpenAIRE, which refers to those published in entirely OA journals. Exclude those classified as Diamond OA (meaning they don't have an APC). The publications left in this group are Gold OA articles with associated APCs.
+2.  Incorporate Hybrid and Bronze OA publications to this set, as these also come with APCs.
+3.  Cross-reference the APCs listed in OpenAIRE, sourced from OpenAPC (openapc.net), to ensure no additional articles with APCs are overlooked.
+4.  Using this refined set of OA publications with APCs, determine the proportion based on your specific area of interest (e.g., by country).
 
 Limitations:
 
--   Same as section on number of publications with an APC cost.
+-   Same as in previous metric.
 
 ### Average APC
 
@@ -193,7 +189,7 @@ Via: https://direct.mit.edu/qss/article/1/1/6/15582/Article-processing-charges-M
 
 ## Notes
 
-We conducted an APC extrapolation exercise that may be useful here, what do you think?
+An APC extrapolation exercies was conducted for the purposes of the following report.
 
 <https://research-and-innovation.ec.europa.eu/knowledge-publications-tools-and-data/publications/all-publications/monitoring-open-access-policy-horizon-2020_en>
 
