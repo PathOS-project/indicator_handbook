@@ -100,7 +100,7 @@ There is also another layer of portals curated by national citizen science assoc
 
 ###### Bibliographic database
 
-As for all research projects, an important output of citizen sciences projects consists of scientific publications (particularly projects that are initiated by research, less so for 'activists-initiated' projects which tend to fucus more on data, policy recommendations and social innovation actions etc.). These publications are stored in bibliographic databases and are often available as open access publications (because of the obvious affinity between this type of publication and the approach of civic science). Most of these publications will mention the fact that their results are based on a participatory initiative, cite one of the main citizen science portals or be signed with a collective name (for a couple of examples of how this can be done see Hunter & Hsu, 2015 and Ozolinčiūtė et al, 2022). All these signs facilitate the identification of publications from citizen science initiatives, allowing analyzing their publication results and to compare them with the rest of the scientific literature.
+As for all research projects, an important output of citizen sciences projects consists of scientific publications (particularly projects that are initiated by research, less so for 'activists-initiated' projects which tend to focus more on data, policy recommendations and social innovation actions etc.). These publications are stored in bibliographic databases and are often available as open access publications (because of the obvious affinity between this type of publication and the approach of civic science). Most of these publications will mention the fact that their results are based on a participatory initiative, cite one of the main citizen science portals or be signed with a collective name (for a couple of examples of how this can be done see Hunter & Hsu, 2015 and Ozolinčiūtė et al, 2022). All these signs facilitate the identification of publications from citizen science initiatives, allowing analyzing their publication results and to compare them with the rest of the scientific literature.
 
 At the same time, not unlike what noted in relation to the 1^st^ source of data, relying on bibliographic databases will miss all the "academically invisible' citizen science projects that never publish in academic journals, which are in fact in a very large number. This is why none of the sources described here should be used in isolation.
 
@@ -120,7 +120,7 @@ Assessing whether projects truly support co-creation or co-design is a particula
 
 ### Citizen science development
 
-In researcher-led citizen science project, this step is often the one that is the least often open to citizen participation. Some scientists (particularly those who follow a "deficit model" thinking) would indeed argue that this step should be kept under the control of the expert to assure that the development of the research protocol and methodology remain strictly adherent to scientific best practices, thus guaranteeing the value of the data as well as their comparability (but see Downs et al., 2021). Proponents of a more widely participatory approach, however, will argue (not without reason) that this is the key step of any research project and that if this stage is not open to the public, than citizens cannot truly be the protagonists of the research (and will instead be relegated to the role of useful, but powerless helpers).
+In researcher-led citizen science project, this step is often the one that is the least often open to citizen participation. Some scientists (particularly those who follow a "deficit model" thinking) would indeed argue that this step should be kept under the control of the expert to assure that the development of the research protocol and methodology remain strictly adherent to scientific best practices, thus guaranteeing the value of the data as well as their comparability (but see Downs et al., 2021). Proponents of a more widely participatory approach, however, will argue (not without reason) that this is the key step of any research project and that if this stage is not open to the public, then citizens cannot truly be the protagonists of the research (and will instead be relegated to the role of useful, but powerless helpers).
 
 As the previous one (and maybe even more than it), this metric can only be assessed through careful qualitative inspection, considering the description of the research protocol and the way in which it has been put together.
 
@@ -140,7 +140,7 @@ For another example of this type of measuring see Fraisl et al., 2020 as well as
 
 If data collection is the most classic of crowdsourced scientific activities, the cleaning and (pre)processing of data is the step that is most often crowd-sourced through micro-labor platforms. A classic hurdle of all current research is an overabundance of poor quality. In the last decades, sensors and other digital technologies have multiplied the number of records collected and stored by scientific projects but have also increased the noise associated with them. Duplicates, errors, impossible outliers need to be detected manually and carefully removed before moving on with the analysis.
 
-The role played by citizens in this work of data processing can be measure through
+The role played by citizens in this work of data processing can be measured through
 
 -   Absolute or relative number of errors corrected by citizens.
 -   Number of hours (or days) invested in manual data cleaning.
@@ -217,6 +217,8 @@ Hunter, Jane, and Chih-Hsiang Hsu. 2015. “Formal Acknowledgement of Citizen Sc
 Jackson, Corey, Carsten Østerlund, Veronica Maidel, Kevin Crowston, and Gabriel Mugar. 2016. “Which Way Did They Go?” In *Proceedings of the 19th ACM Conference on Computer-Supported Cooperative Work & Social Computing*, 624–35. New York, NY, USA: ACM. <https://doi.org/10.1145/2818048.2835197>.
 
 Lämmerhirt, D., Gray, J., Venturini, T., & Meunier, A. (2019). Advancing Sustainability Together? Citizen-Generated Data and the Sustainable Development Goals. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.3320467
+
+Larivière, Vincent, et Cassidy R. Sugimoto. « Do Authors Comply When Funders Enforce Open Access to Research? » Nature 562, nᵒ 7728 (octobre 2018): 483‑86. https://doi.org/10.1038/d41586-018-07101-w.
 
 Robinson, Lucy Danielle, Jade Lauren Cawthray, Sarah Elizabeth West, Aletta Bonn, and Janice Ansine. 2018. *Citzen Science*. *Citizen Science*. UCL Press. <https://doi.org/10.14324/111.9781787352339>.
 
