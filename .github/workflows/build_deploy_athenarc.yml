@@ -1,10 +1,9 @@
 on:
   push:
-    branches: [main,athenarc-deploy]
-  # pull_request:
-  #   branches: [main,athenarc-deploy]
-  # to be able to trigger a manual build
-  #workflow_dispatch:
+    branches: [main]
+  pull_request:
+   branches: [main]
+  workflow_dispatch:
 
 name: Render indicator handbook
 
@@ -46,6 +45,7 @@ jobs:
           DOCKER_REPO: "indicator_handbook"
           DOCKER_USER: "builder"
           DOCKER_PASSWORD: "${{ secrets.DOCKER_PASSWORD }}"
+         if: github.ref == 'refs/heads/main'
 
       - uses: athenarc/actions-docker-compose-deploy@master
         id: docker_deploy
@@ -54,3 +54,4 @@ jobs:
           USE_PULL_REPO: "false"
           DEPLOY_URL: "https://delphinus.imsi.athenarc.gr/docker-compose-deploy/deploy"
           IMAGES: "${{ steps.docker_build.outputs.images }}"
+        if: github.ref == 'refs/heads/main'          
