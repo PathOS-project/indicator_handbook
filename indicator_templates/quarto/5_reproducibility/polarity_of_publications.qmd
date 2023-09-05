@@ -18,18 +18,18 @@ affiliations:
 
 ## History
 
-| Version | Revision date | Revision                     | Author                    |
-|---------|---------------|------------------------------|---------------------------|
-| 1.1     | 2023-07-18    | Revisions                    | Petros Stavropoulos       |
-| 1.0     | 2023-05-11    | First Draft                  | Petros Stavropoulos       |
+| Version | Revision date | Revision    | Author              |
+|---------|---------------|-------------|---------------------|
+| 1.1     | 2023-07-18    | Revisions   | Petros Stavropoulos |
+| 1.0     | 2023-05-11    | First Draft | Petros Stavropoulos |
 
 :::
 
 ## Description
 
-The polarity of publications refers to the overall sentiment expressed in research publications and can be used as an indicator of the scientific community's perception of a certain topic or concept. This indicator aims to capture the extent to which research publications express supporting, refuting or neutral stance towards the claim, methodology, results or research output of another publication. The polarity of publications can be used to assess the impact of research on a particular topic, identify potential controversies, and inform future research directions.
+The polarity of publications refers to the overall sentiment expressed in research publications through their citations and can be used as an indicator of the scientific community's perception of a certain topic or concept. This indicator aims to measure the degree to which research publications use citations to support, refute, or take no position on a claim, methodology, results, or research output of another publication. The polarity of publications can be used to assess the impact of research on a particular topic, identify potential controversies, and inform future research directions.
 
-The polarity of publications is also useful in assessing the impact of reproducibility efforts in research. For instance, if publications that report on successfully reproduced studies have a more positive polarity than those that do not, this could indicate that reproducibility efforts have a positive impact on the perception of the scientific community towards a certain topic. Additionally, if there is a trend of negative polarity towards studies that have failed to be reproduced, this could suggest that reproducibility efforts have led to greater scrutiny and higher standards for research quality.
+The polarity of publications is also useful in assessing the impact of reproducibility efforts in research. For instance, if publications that report on successfully reproduced studies have a more positive polarity in their citations than those that do not, this could indicate that reproducibility efforts have a positive impact on the perception of the scientific community towards a certain topic. Furthermore, if many studies report findings that contradict a particular finding, it might be an indication that this study would not be able to be replicated. Additionally, if there is a trend of negative polarity towards studies that have failed to be reproduced, this could suggest that reproducibility efforts have led to greater scrutiny and higher standards for research quality.
 
 However, it is important to note that polarity itself does not directly measure reproducibility. Rather, it provides insights into the perception and impact of research, including the potential influence of reproducibility efforts. Therefore, while polarity can be indicative of various factors, it should not be solely relied upon as a measure of reproducibility.
 
@@ -41,13 +41,13 @@ This metric counts the number of citations in which a publication is cited in a 
 
 Limitations of this metric include the potential for biased or incomplete citation practices, as well as the possibility that a publication may receive support from researchers who share similar viewpoints or research interests, rather than from a wider scientific community.
 
-Furthermore, it is important to note that the number of supporting citations can vary widely, depending on the field of study and the specific publication. In some fields, supporting citations are very common, while in others they are relatively rare. This variation can make it difficult to use the number of supporting citations as a reliable indicator of the scientific community's perception of a publication.
+Furthermore, it is important to note that the number of supporting citations can vary widely, depending on the field of study and the specific publication. In some fields, supporting citations are very common, while in others they are relatively rare. This variation can make it difficult to use the number of supporting citations as a reliable indicator of the scientific community's perception of a publication. (Lamers et al., 2021)
 
 In addition to the variation in the number of supporting citations, there are other factors that can affect the interpretation of this metric. For example, the number of supporting citations may be influenced by the age of the publication, the number of citations overall, and the visibility of the publication. It is also important to consider the context in which the citations are made. For example, a citation that is used to support a claim may be different from a citation that is used to mention a publication or to refute a claim.
 
 #### Measurement.
 
-To measure the number of supporting citations for a publication, we can search for citations that explicitly mention the publication in a supportive way. This can be done by manually searching for citations, extracting them from the text, and classifying their mentions as “supporting”, “refuting” or “neutral”. However, this manual process can be time-consuming. Alternatively, automated tools can be leveraged to identify the supporting citation mentions (referred to as 'citances') from the publications text. (Budi & Yaniasih, 2022)
+To measure the number of supporting citations for a publication, we can search for citations that explicitly mention the publication in a supportive way. This can be done by manually searching for citations, extracting them from the text, and classifying their mentions as "supporting", "refuting" or "neutral". However, this manual process can be time-consuming. Alternatively, automated tools can be leveraged to identify the supporting citation mentions (referred to as 'citances') from the publications text (Budi & Yaniasih, 2022).
 
 One potential limitation of this metric is that it may be difficult to differentiate between citations that provide explicit support for a publication's claims and those that merely mention the publication in passing. In addition, not all citations may explicitly mention the publication's claims, methodology, results or research outputs, and some researchers may support a publication without necessarily citing it.
 
@@ -55,13 +55,11 @@ One potential limitation of this metric is that it may be difficult to different
 
 ###### OpenAIRE Research Graph
 
-OpenAIRE Research Graph is a metadata infrastructure that provides a gateway to research publications and their associated data. It is possible to create citation graphs for publications using the OpenAIRE Research Graph by accessing and analyzing the metadata provided by the infrastructure.
+OpenAIRE Research Graph is a metadata infrastructure that provides a gateway to research publications and their associated data. It is possible to create citation graphs for publications using the OpenAIRE Research Graph by accessing and analysing the metadata provided by the infrastructure.
 
-Using the OpenAIRE Research Graph, it is possible to identify other publications that have cited a publication of interest. The PathOS work in Task 2.5 tool can then be applied to these citations to determine the level of support towards the publication.
+Using the OpenAIRE Research Graph, it is possible to identify other publications that have cited a publication of interest. The SciNoBo toolkit, which is detailed in the methodologies section, can then be applied to these citations to determine the level of support towards the publication.
 
 There are some limitations to the OpenAIRE Research Graph, such as incomplete or missing metadata, which can affect the accuracy of the citation graphs created. Additionally, the OpenAIRE Research Graph is limited to grant-supported research publications, which may not include all publications in each scientific field.
-
-##### Existing methodologies
 
 ###### Scite.ai
 
@@ -69,16 +67,24 @@ There are some limitations to the OpenAIRE Research Graph, such as incomplete or
 
 Limitations of the platform include:
 
--   Limited coverage of articles analyzed by scite.ai
--   This is an automated process, so there are limitations based on the underlying model’s precision
+-   Limited coverage of articles analysed by scite.ai
+-   This is an automated process, so there are limitations based on the underlying model's precision
 -   This is a paid service
 
-###### PathOS work in Task 2.5
+##### Existing methodologies
 
-This is a methodology for analyzing a publication's text and identifying all citances to other publications. It then classifies these citances based on their intent (generic, reuse, comparison), polarity (supporting, refuting, neutral), and semantics (claim, methodology, results, artifact/output).
+###### SciNoBo Toolkit
+
+The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) has a new component, currently undergoing evaluation, which involves analysing a publication's text and identifying all citances to other publications. It then classifies these citances based on their intent (generic, reuse, comparison), polarity (supporting, refuting, neutral), and semantics (claim, methodology, results, artifact/output).
 
 Limitations of the tool include potential errors in capturing all relevant citances, and correctly classifying their polarity.
 
 ## References
 
 Budi, I., & Yaniasih, Y. (2022). Understanding the meanings of citations using sentiment, role, and citation function classifications. *Scientometrics*, *128*, 1–25. https://doi.org/10.1007/s11192-022-04567-4
+
+Lamers, W. S., Boyack, K., Larivière, V., Sugimoto, C. R., van Eck, N. J., Waltman, L., & Murray, D. (2021). Investigating disagreement in the scientific literature. ELife, 10, e72737. https://doi.org/10.7554/eLife.72737
+
+Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. Companion Proceedings of the Web Conference 2022, 800–809. <https://doi.org/10.1145/3487553.3524677>
+
+Kotitsas, S., Pappas, D., Manola, N., & Papageorgiou, H. (2023). SCINOBO: A novel system classifying scholarly communication in a dynamically constructed hierarchical Field-of-Science taxonomy. Frontiers in Research Metrics and Analytics, 8. https://www.frontiersin.org/articles/10.3389/frma.2023.1149834
