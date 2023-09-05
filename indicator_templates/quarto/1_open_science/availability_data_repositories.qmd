@@ -58,7 +58,7 @@ OpenDOAR is a global directory of Open Access repositories. It has the functiona
 
 ###### DataCite
 
-[DataCite](https://datacite.org/value.html) is a non-profit organisation that provides DOI’s for research data and research output. Within their services DataCite also produces an [overview](https://search.datacite.org/repositories) of data repositories. These include a wide variety of data repositories that are associated with the data that is documented by DataCite. Although, many data repositories and associated datasets are documented here, the catalogue is somewhat limited in filtering for the openness of the data repositories themselves. It can therefore mainly serve as an information source on what type of data repositories are out there. An overview on the analytical possibilities of DataCite can be found in (Robinson-Garcia et al., 2017).
+[DataCite](https://datacite.org/value.html) is a non-profit organisation that provides DOI's for research data and research output. Within their services DataCite also produces an [overview](https://search.datacite.org/repositories) of data repositories. These include a wide variety of data repositories that are associated with the data that is documented by DataCite. Although, many data repositories and associated datasets are documented here, the catalogue is somewhat limited in filtering for the openness of the data repositories themselves. It can therefore mainly serve as an information source on what type of data repositories are out there. An overview on the analytical possibilities of DataCite can be found in (Robinson-Garcia et al., 2017).
 
 ###### FAIRsharing.org (<https://fairsharing.org/>)
 

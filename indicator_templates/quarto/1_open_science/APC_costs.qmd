@@ -61,7 +61,7 @@ Limitation:
 
 The [OpenAIRE Graph](https://graph.openaire.eu) dump currently does not include OA color classifications, though they are already implemented in the OpenAIRE MONITOR and are expected to be integrated into the graph dump in Q1 2024.
 
-1.  Retrieve all Gold OA publications from OpenAIRE, which refers to those published in entirely OA journals. Exclude those classified as Diamond OA (meaning they don’t have an APC). The publications left in this group are Gold OA articles with associated APCs.
+1.  Retrieve all Gold OA publications from OpenAIRE, which refers to those published in entirely OA journals. Exclude those classified as Diamond OA (meaning they don't have an APC). The publications left in this group are Gold OA articles with associated APCs.
 2.  Incorporate Hybrid and Bronze OA publications to this set, as these also come with APCs.
 3.  Cross-reference the APCs listed in OpenAIRE, sourced from OpenAPC (openapc.net), to ensure no additional articles with APCs are overlooked.
 4.  Using this refined set of OA publications with APCs, determine the number or share based on your specific area of interest (e.g., country).
@@ -150,7 +150,7 @@ Via OpenAIRE MONITOR
 
 Limitations:
 
--   Totals have the benefit of giving a bird’s eye view, however depending on the underlying distribution of costs, they can have different implications.
+-   Totals have the benefit of giving a bird's eye view, however depending on the underlying distribution of costs, they can have different implications.
 
 ## Known correlates
 
