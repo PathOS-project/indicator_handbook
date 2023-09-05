@@ -13,7 +13,7 @@ affiliations:
   country: the Netherlands
 ---
 
-# Prevalence of Open Access publishing
+# Prevalence of Open Access publishing  {#prevalence-of-open-access-publishing .unnumbered}
 
 
 ::: {}

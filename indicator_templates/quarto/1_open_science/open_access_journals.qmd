@@ -24,7 +24,7 @@ affiliations:
   country: Greece
 ---
 
-# Distribution of Open Access journal models
+# Distribution of Open Access journal models {#distribution-of-Open-Access-journal-models .unnumbered}
 
 ::: {}
 

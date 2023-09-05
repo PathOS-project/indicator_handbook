@@ -20,7 +20,7 @@ affiliations:
   country: Austria
 ---
 
-# Level of replication {#level-of-replication-found .unnumbered}
+# Level of replication {#level-of-replication .unnumbered}
 
 
 ::: {}
