@@ -47,7 +47,7 @@ Description:
 
 -   -   Fully OA Journal: All articles are OA
     -   Hybrid Journal: Some articles are OA some not.
-    -   Subsciption Journal (remaining)
+    -   Subscription Journal (remaining)
 
 **APC costs of OA Articles:**
 
