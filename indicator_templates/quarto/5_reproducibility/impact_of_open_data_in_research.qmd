@@ -239,7 +239,7 @@ However, it is important to note that not all DMPs on Zenodo may contain informa
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022) (Kotitsas et al., 2023) has a new component, currently undergoing evaluation, which involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in scientific text (i.e., the text of a DMP) and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the dataset has been (re)used by the authors of the DMP.
+The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) has a new component, currently undergoing evaluation, which involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in scientific text (i.e., the text of a DMP) and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the dataset has been (re)used by the authors of the DMP.
 
 To use the tool to measure the proposed metric, we can provide a collection of DMPs as input to the tool to extract all the datasets mentioned in the text, along with their metadata. We can then analyse them to identify which datasets have been reused by the authors of the DMP, as classified by the machine learning algorithms of the tool.
 
