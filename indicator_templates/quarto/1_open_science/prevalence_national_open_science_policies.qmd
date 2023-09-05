@@ -18,11 +18,11 @@ affiliations:
 
 ## History
 
-| Version | Revision date | Revision                    | Author        |
-|---------|---------------|-----------------------------|---------------|
-| 1.2     | 2023-06-30    | Minor edits                 | L. Stoy       |
-| 1.1     | 2023-02-28    | Extended content            | L. Stoy       |
-| 1.0     | 2023-02-14    | Initial version of document | L. Stoy       |
+| Version | Revision date | Revision                    | Author  |
+|---------|---------------|-----------------------------|---------|
+| 1.2     | 2023-06-30    | Minor edits                 | L. Stoy |
+| 1.1     | 2023-02-28    | Extended content            | L. Stoy |
+| 1.0     | 2023-02-14    | Initial version of document | L. Stoy |
 
 :::
 
@@ -30,12 +30,12 @@ affiliations:
 
 This indicator aims to capture the existence of country-level policies for Open Science. Since Open Science can be considered a catch-all term for different practices and objectives, as elaborated in the Recommendation on Open Science from the United Nations Educational, Scientific and Cultural Organization (UNESCO), this may include different elements or distinct policies such as Open Access to publications, Open Data, fair data, research assessment reform, Citizen Science etc. A
 
-Usually, “national policy” will imply the policy being adopted by a country-level organisation with an important structuring role for the research and innovation sector. Edge cases could be federal countries in which some elements of decision-making and institutions relevant for research and innovations are devolved to regional or community level (e.g., Germany, Belgium, Switzerland). Practically, a policy could be adopted by a parliamentary decision, a ministry strategy, a government agency in charge of research and innovation, a national research council, an alliance of research organisations etc.
+Usually, "national policy" will imply the policy being adopted by a country-level organisation with an important structuring role for the research and innovation sector. Edge cases could be federal countries in which some elements of decision-making and institutions relevant for research and innovations are devolved to regional or community level (e.g., Germany, Belgium, Switzerland). Practically, a policy could be adopted by a parliamentary decision, a ministry strategy, a government agency in charge of research and innovation, a national research council, an alliance of research organisations etc.
 
 Measuring the proliferation of national Open Science policies is relevant for several reasons.
 
 -   First, knowing whether a specific policy exists and what it entails is crucial part of the impact analysis. A policy would take the place of the activity and intervention that, through specific outputs and outcomes, creates impact. In other words, it one of the first steps within Key Impact Pathways, in particular those of interest for national-level policy making.
--   Second, there is an ongoing effort to monitor progress of Open Science policy implementation by proxy of national policies. This is evident, for example, in the UNESCO recommendation on Open Science, which asks member states to develop policies (Art. 17) and to invest in Open Science (Art. 18 and 19). In the European context, Open Science policies are monitored as part of the European Open Science Cloud (EOSC) initiative and the European Research Area (ERA). In the case of EOSC, there is a specific ambition to also measure impact indicators in the future (O’Neill, 2022).
+-   Second, there is an ongoing effort to monitor progress of Open Science policy implementation by proxy of national policies. This is evident, for example, in the UNESCO recommendation on Open Science, which asks member states to develop policies (Art. 17) and to invest in Open Science (Art. 18 and 19). In the European context, Open Science policies are monitored as part of the European Open Science Cloud (EOSC) initiative and the European Research Area (ERA). In the case of EOSC, there is a specific ambition to also measure impact indicators in the future (O'Neill, 2022).
 
 ## Metrics
 
@@ -43,31 +43,31 @@ Measuring the proliferation of national Open Science policies is relevant for se
 
 Measuring the existence of a national Open Science policy can be conceptualised at different levels and degrees of complexity.
 
-‘Basic’: Existence of a country-level policy document or strategy on Open Science in general (yes/no)
+'Basic': Existence of a country-level policy document or strategy on Open Science in general (yes/no)
 
-‘Intermediate’: Existence of specific country-level policies on specific areas such Open Access to publications, FAIR/Open Data, Citizen Science, etc. (yes/no)
+'Intermediate': Existence of specific country-level policies on specific areas such Open Access to publications, FAIR/Open Data, Citizen Science, etc. (yes/no)
 
-‘Advanced’: Specific measures (regulatory aspects, compliance levels, financial measures, target groups, implementing authority etc.) defined as part Open Science policy (Open Access to publications, FAIR/Open Data etc.)
+'Advanced': Specific measures (regulatory aspects, compliance levels, financial measures, target groups, implementing authority etc.) defined as part Open Science policy (Open Access to publications, FAIR/Open Data etc.)
 
 Limitations but also advantages stemming from these approaches depend on the specific level:
 
--   In the ‘basic’ case, the measurement can be conducted with relative ease. However, the lack of granularity of specific measures might limit the types of analyses that can be done with the data.
--   In the ‘intermediate’ case, granularity is provided through the specific areas, which allows more detailed analyses that the ‘basic’ case. Data collection can be expected to be done relatively simply by capturing which topics are covered in the policy.
--   The ‘advanced’ case will provide more detailed information about area, nature, and scope of Open Science policies which in turn allows more complex analyses. Data collection will be more challenging due to the need to define specific dimensions and their measurements and the need for an in-depth analysis of the source documents. Unfortunately, there are no controlled vocabularies for this type of data collection.
+-   In the 'basic' case, the measurement can be conducted with relative ease. However, the lack of granularity of specific measures might limit the types of analyses that can be done with the data.
+-   In the 'intermediate' case, granularity is provided through the specific areas, which allows more detailed analyses that the 'basic' case. Data collection can be expected to be done relatively simply by capturing which topics are covered in the policy.
+-   The 'advanced' case will provide more detailed information about area, nature, and scope of Open Science policies which in turn allows more complex analyses. Data collection will be more challenging due to the need to define specific dimensions and their measurements and the need for an in-depth analysis of the source documents. Unfortunately, there are no controlled vocabularies for this type of data collection.
 
 #### Measurement.
 
 As outlined in the previous section, the exact measurement of the existence of a national policy for Open Science depends on the chosen approach.
 
-In the basic case, the existence of a policy, which means the existence of a national (or perhaps, regional) policy and strategy supported by government actors and ideally stakeholders, can probably be capture with a simple binary variable with yes, there is a policy, and with no, there is no policy. The only challenge would be to provide a common definition of what type of document constitutes a policy.
+In the basic case, the existence of a policy, which means the existence of a national (or perhaps, regional) policy and strategy supported by government actors and ideally stakeholders, can probably be captured with a simple binary variable with yes, there is a policy, and with no, there is no policy. The only challenge would be to provide a common definition of what type of document constitutes a policy.
 
 The intermediate case would work on a similar binary logic (yes/no) with the only difference being that this measurement is conducted for each Open Science policy area.
 
 Only in the advanced case, additional refinements and more complex measurements and codes will be required. For example, differences in policy requirements (compliance, target groups), could be coded on an ordinal or nominal scale.
 
-In practice, several studies have attempted to combine different levels of the conceptual approach outlined above.
+In practice, various studies have attempted to combine different levels of the conceptual approach outlined above.
 
-**SPARC Europe** has regularly commissioned **reports on Open Science policies** in Europe. The latest report included information on the “scope, data definition, mandates, exceptions, mentions of FAIR, DMPs, data citation, data availability statements, re-use, Intellectual Property Rights (IPR) and licensing, and costs” (Sveinsdottir, Davidson and Proudman, 2021, p 10). For each element and several follow-up items, a binary or nominal coding was used:
+**SPARC Europe** has regularly commissioned **reports on Open Science policies** in Europe. The latest report included information on the "scope, data definition, mandates, exceptions, mentions of FAIR, DMPs, data citation, data availability statements, re-use, Intellectual Property Rights (IPR) and licensing, and costs" (Sveinsdottir, Davidson and Proudman, 2021, p 10). For each element and several follow-up items, a binary or nominal coding was used:
 
 -   Definition of data: yes / not specified
 -   Mandates: unspecified / suggested or recommended / required
@@ -91,13 +91,13 @@ The information collected on behalf of SPARC Europe moreover contains textual or
 -   Coverage of skills and training: yes / no
 -   Monitoring and/or compliance: yes / no
 
-Another case of standardized data collection on Open Science policies is the **EOSC Observatory** (<https://eoscobservatory.eosc-portal.eu/home>). The EOSC Observatory has been developed as part of the EOSC-Future project and aims to “support the EOSC community in tracking the implementation of EOSC and the policy makers in developing actionable policies”.
+Another case of standardized data collection on Open Science policies is the **EOSC Observatory** (<https://eoscobservatory.eosc-portal.eu/home>). The EOSC Observatory has been developed as part of the EOSC-Future project and aims to "support the EOSC community in tracking the implementation of EOSC and the policy makers in developing actionable policies".
 
 As part of the observatory, an EOSC Monitoring Framework has been developed which collects information, on a regular basis, together with representatives of EU member states and associated countries. The monitoring framework collects standardized information on 8 policy areas and the existence of country-level policies and accompanying investments in Open Science.
 
 ![Gareth O'Neill. (2022). Monitoring Framework for National Contributions to EOSC (Version V1). Zenodo. <https://doi.org/10.5281/zenodo.7410762> (Licensed using [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode))](figures/9c7413cea25d4ac6b909a77c37a945a00b3d4301.png)
 
-In the current framework, this matrix of 8 categories crossed with policies and practices areas results in 96 indicators, 48 each for policies and practices. Detailed items for each indicator are included in the “Survey on National Contributions to EOSC 2022” (O’Neill et al., 2023). Practically, the large majority of items are measured through binary yes-no questions. In the case of Open Access to publications, the following items are included in the survey:
+In the current framework, this matrix of 8 categories crossed with policies and practices areas results in 96 indicators, 48 each for policies and practices. Detailed items for each indicator are included in the "Survey on National Contributions to EOSC 2022" (O'Neill et al., 2023). Practically, the large majority of items are measured through binary yes-no questions. In the case of Open Access to publications, the following items are included in the survey:
 
 -   Existence of national policy on Open Access to publications: yes / no
     -   Is this policy mandatory: yes / no
@@ -170,7 +170,7 @@ This information is unstructured and not presented in a standardized fashion to 
 
 ###### Council for National Open Science Coordination (CoNOSC)
 
-The Council for National Open Science Coordination (CoNOSC) is providing information about member countries’ national Open Science system and policies at <https://conosc.org/os-policies/#page-content>.
+The Council for National Open Science Coordination (CoNOSC) is providing information about member countries' national Open Science system and policies at <https://conosc.org/os-policies/#page-content>.
 
 This information is unstructured and not presented in a standardized fashion to facilitate re-use.
 
@@ -178,22 +178,22 @@ This information is unstructured and not presented in a standardized fashion to 
 
 The European Expert Group on National Points of Reference on Scientific Information provides occasional updates about the state of Open Access and Open Science policies in EU member states and associated countries. Information is available via the EU expert group registry: <https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups/consult?lang=en&groupID=3477>
 
-Reports of the group do contain narrative and quantitative information, which is however not made available in standardized formats.
+Reports of the group do contain qualitative and quantitative information, which is however not made available in standardized formats.
 
 ###### ROARmap
 
-The ROADMAP database contains information about policies concerning Open Access to publications from several types of organisations (<https://roarmap.eprints.org>) . For national Open Science policies, most relevant might be the category of research funder, which includes national research councils, government agencies etc. In total 87 funder-only policies are registered.
+The ROARMAP database contains information about policies concerning In total 87 funder-only policies are registered.
 
-The database contains more than 770 policies at the time of writing. Data is available in standardized formats and with a unique identifier. All entries are reviewed by the maintainer of ROARMAP.
+Open Access to publications from several types of organisations worldwide (<https://roarmap.eprints.org>) . For national Open Science policies, most relevant might be the category of research funder, which includes national research councils, government agencies etc. The database contains more than 770 policies at the time of writing. Data is available in standardized formats and with a unique identifier. All entries are reviewed by the curators of ROARMAP.
 
 Information collected about policies includes attributes such as adoption, effective, and revision date; content types specified by the mandate; Open Access conditions; link to research evaluation; rights retention; etc.
 
 ## References
 
-O’Neill, Gareth. ‘Monitoring Framework for National Contributions to EOSC’. Zenodo, 14 December 2022. <https://doi.org/10.5281/zenodo.7410762>.
+O'Neill, Gareth. 'Monitoring Framework for National Contributions to EOSC'. Zenodo, 14 December 2022. <https://doi.org/10.5281/zenodo.7410762>.
 
-O’Neill, Gareth, Volker Beckmann, Sofia Abrahamsson, Thomas Neidenmark, and Stephan Siemen. ‘Survey on National Contributions to EOSC 2022’, 19 January 2023. <https://doi.org/10.5281/zenodo.7550798>.
+O'Neill, Gareth, Volker Beckmann, Sofia Abrahamsson, Thomas Neidenmark, and Stephan Siemen. 'Survey on National Contributions to EOSC 2022', 19 January 2023. <https://doi.org/10.5281/zenodo.7550798>.
 
-Sveinsdottir, Thordis, Joy Davidson, and Vanessa Proudman. ‘An Analysis of Open Science Policies in Europe, V7’. Zenodo, 28 April 2021. <https://doi.org/10.5281/zenodo.4725817>.
+Sveinsdottir, Thordis, Joy Davidson, and Vanessa Proudman. 'An Analysis of Open Science Policies in Europe, V7'. Zenodo, 28 April 2021. <https://doi.org/10.5281/zenodo.4725817>.
 
 UNESCO Recommendation on Open Science. <https://unesdoc.unesco.org/ark:/48223/pf0000379949.locale=en>
