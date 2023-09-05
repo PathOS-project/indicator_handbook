@@ -33,9 +33,9 @@ affiliations:
 
 | Version | Revision date | Revision    | Author                                                  |
 |---------|---------------|-------------|---------------------------------------------------------|
-| 1.1     | 2023-05-11    | Revisions   | Petros Stavropoulos                                     |
+| 1.1     | 2023-05-11    | Revisions   | P. Stavropoulos                                         |
 | 1.0     | 2023-02-12    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
-
+|         |               |             |                                                         |
 
 :::
 
