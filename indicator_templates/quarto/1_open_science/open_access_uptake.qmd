@@ -13,16 +13,17 @@ affiliations:
   country: the Netherlands
 ---
 
-# Open Access uptake {#open-access-uptake .unnumbered}
+# Prevalence of Open Access publishing
+
 
 ::: {}
 
 ## History
 
-| Version | Revision date | Revision                               | Author                    |
-|---------|---------------|----------------------------------------|---------------------------|
-| 1.1     | 2023-07-12    | Revised based on review                | V.A. Traag                |
-| 1.0     | 2023-02-08    | Added initial description              | V.A. Traag                |
+| Version | Revision date | Revision                  | Author     |
+|---------|---------------|---------------------------|------------|
+| 1.1     | 2023-07-12    | Revised based on review   | V.A. Traag |
+| 1.0     | 2023-02-08    | Added initial description | V.A. Traag |
 
 :::
 
@@ -34,16 +35,16 @@ There are various models of Open Access publishing. Hybrid Open Access journals 
 
 In summary, we have the following types of Open Access:
 
--   Hybrid
-    -   Open Access article in a journal that also publishes Closed Access articles.
-    -   Typically charges an APC
+-   Green
+    -   Article that is deposited in an Open Access repository.
 -   Gold
     -   Open Access article in a journal that publishes only Open Access articles.
 -   Diamond
     -   Open Access article in a journal that publishes only Open Access articles.
-    -   No publishing fee, i.e. no APC
--   Green
-    -   Article that is deposited in an Open Access repository.
+    -   No publishing fee, i.e. no APC
+-   Hybrid
+    -   Open Access article in a journal that also publishes Closed Access articles.
+    -   Typically charges an APC
 -   Bronze
     -   Article that is accessible without paywall from a publisher.
     -   No licence attached, unclear whether article will remain freely available in the future and under what conditions it can be used.
@@ -58,7 +59,7 @@ There are some recurrent questions around Open Access publishing. Some questions
 
 ## Metrics
 
-### []{#_Ref126751468}Number/% of Open Access journal publications
+### Number/% of Open Access journal publications (per OA type)
 
 By counting he overall number of Open Access publications, we get a first impression of the overall uptake of Open Access publishing. If Open Access publishing becomes more widespread, we expect to see more Open Access publications, and hence, by counting the number of Open Access publications, we may get some idea of the overall uptake of Open Access publishing.
 
