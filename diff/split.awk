@@ -3,6 +3,7 @@
 BEGIN {out="000-unnamed.md"
     stderr="/dev/fd/2"}
 /^##\ / {name=substr($0, 4)
-    out=tolower(gensub(/[\\/#% [:space:] ]/, "-", "g", name))".md"
+    cleanname=gensub(/\[\]{[^}]*}/, "", "g", name)
+    out=tolower(gensub(/[\\/#% [:space:] ]/, "-", "g", cleanname))".md"
     }
 {print >out}
