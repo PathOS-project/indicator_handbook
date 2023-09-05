@@ -27,11 +27,11 @@ affiliations:
 
 ## Description
 
-Transformative publishing agreements are a catch-all term for different types of Open Access contracts that aim to facilitate Open Access publishing at national level. Usually, a transformative agreement is concluded between a publisher and a consortium of research organisations and/or their libraries. Information on transformative agreements is collected by the ESAC initiative (<https://esac-initiative.org/about/transformative-agreements/>).
+Transformative publishing agreements are a catch-all term for different types of Open Access contracts that aim to facilitate Open Access publishing at national level. Usually, a transformative agreement is concluded between a publisher and a consortium of research organisations and/or their libraries. Single research institutions may conclude transformative agreements, too. Information on transformative agreements is collected by the ESAC initiative (<https://esac-initiative.org/about/transformative-agreements/>).
 
-The ‘transformative’ meaning stems from the objective of these type of agreements to steer the payment modalities for scholarly publishing from pay-to-read (subscriptions to electronic resources) to pay-to-publish or similar models. This includes so called offsetting agreements, read-and-publish agreements, and publish-and-read agreements. Authors affiliated to the institutions can then publish their articles in Open Access. The exact model and modalities depend on publisher and agreement.
+The 'transformative' meaning stems from the objective of these type of agreements to steer the payment modalities for scholarly publishing from pay-to-read (subscriptions to electronic resources) to pay-to-publish or similar models. This includes so called offsetting agreements, read-and-publish agreements, and publish-and-read agreements. Authors affiliated to the institutions can then publish their articles in Open Access. The exact model and modalities vary with publisher and agreement.
 
-The power of transformative agreements lies in ‘flipping’ the entire publishing output of a consortium/institution from closed to open. Especially when large publishers are concerned, this can have strong effects on the absolute and relative amount of Open Access articles published in a given country.
+The power of transformative agreements lies in 'flipping' the entire publishing output of a consortium/institution from closed to open. Especially when large publishers are concerned, this can have strong effects on the absolute and relative amount of Open Access articles published in a given country.
 
 Transformative agreements also touch upon the financial flows taking place in the research system. This concerns e.g., the allocation of costs between institutions to participate in the transformative agreement, the allocation of costs within libraries (from collections to publishing) and the costs the individual authors may face eventually. This can have structuring effects on both the academic sector and the scholarly publishing industry, and in particular the financial flows between actors.
 
@@ -41,15 +41,15 @@ Transformative agreements also touch upon the financial flows taking place in th
 
 Considering that transformative agreements usually take place between a publisher and a national consortium, a basic metric is the existence of an agreement which could be coded as a binary yes-no indicator for a country-publisher pair.
 
-A challenge is the fact that many publishers exist, and each might be of different relevance for a given country. In other words, the impact of a transformative agreement is only directly related to the Open Access-status of publications with this publisher – and this part might be of little overall impact to a country’s or institution’s overall publishing output. Measuring this impact over time, e.g., affiliated authors choosing to publish through the transformative agreement, might be an interesting case to study as well.
+A challenge is the fact that many publishers exist, and each might be of different relevance for a given country. In other words, the impact of a transformative agreement is only directly related to the Open Access-status of publications with this publisher – and this part might be of little overall impact to a country's or institution's overall publishing output. Measuring this impact over time, e.g., affiliated authors choosing to publish through the transformative agreement, might be an interesting case to study as well.
 
 #### Measurement.
 
-The basic measurement is the existence of a national level agreement between a consortium and a publisher. This can be done using a binary variable (yes/no). However, more detailed information might be needed, depending on the type of analysis. Of main interest would likely be to capture the overall amount of Open Access publications, the share of OA publications published through this transformative agreement, and other information that yields insights into the impact of the agreement.
+The basic measurement is the existence of a national level agreement between a consortium and a publisher. This can be done using a binary variable (yes/no). However, more detailed information might be needed, depending on the type of analysis. Of major interest would likely be to capture the overall amount of Open Access publications, the share of OA publications published through this transformative agreement, and other information that yields insights into the impact of the agreement.
 
-This informaitoninclude:
+This information may include:
 
--   The overall coverage of a country’s publishing output by transformative agreements with various publishers
+-   The overall coverage of a country's publishing output by transformative agreements with various publishers
 -   The amount of transformative agreements concluded in a given country
 -   The start and end date of an agreement
 -   The type(s) of articles covered by the agreement(s)
@@ -130,4 +130,4 @@ In all cases, the data is not necessarily complete and should be used with care.
 
 ## References
 
-Hinchliffe, Lisa Janicke. ‘Read-and-Publish? Publish-and-Read? A Primer on Transformative Agreements by \@lisalibrarian.’ The Scholarly Kitchen, 23 April 2019. <https://scholarlykitchen.sspnet.org/2019/04/23/transformative-agreements/>.
+Hinchliffe, Lisa Janicke. 'Read-and-Publish? Publish-and-Read? A Primer on Transformative Agreements by \@lisalibrarian.' The Scholarly Kitchen, 23 April 2019. <https://scholarlykitchen.sspnet.org/2019/04/23/transformative-agreements/>.
