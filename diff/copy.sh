@@ -7,7 +7,7 @@ cp ${DIR1}/academic-readership.md ${DIR2}/2_academic_impact/academic_readership.
 cp ${DIR1}/apc-costs.md ${DIR2}/1_open_science/APC_costs.qmd
 cp ${DIR1}/availability-of-data-repositories.md ${DIR2}/1_open_science/availability_data_repositories.qmd
 cp ${DIR1}/availability-of-preprint-repositories.md ${DIR2}/1_open_science/availability_preprint_repositories.qmd
-cp ${DIR1}/availability-of-publication-repositories.md ${DIR2}/1_open_science/avail.qmd
+cp ${DIR1}/availability-of-publication-repositories.md ${DIR2}/1_open_science/availability_publication_repositories.qmd
 cp ${DIR1}/citation-impact.md ${DIR2}/2_academic_impact/citation_impact.qmd
 cp ${DIR1}/citizen-science-indicators.md ${DIR2}/1_open_science/citizen_science.qmd
 cp ${DIR1}/collaboration-intensity.md ${DIR2}/2_academic_impact/collaboration_intensity.qmd
