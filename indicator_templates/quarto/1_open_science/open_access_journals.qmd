@@ -24,15 +24,16 @@ affiliations:
   country: Greece
 ---
 
-# Open Access journals {#open-access-journals .unnumbered}
+# Distribution of Open Access journal models
 
 ::: {}
 
 ## History
 
-| Version | Revision date | Revision    | Author                                                  |
-|---------|---------------|-------------|---------------------------------------------------------|
-| 1.0     | 2023-05-09    | First draft | N. Manola, I. Grypari, H. Papageorgiou, P. Stavropoulos |
+| Version | Revision date | Revision                      | Author                                                  |
+|---------|---------------|-------------------------------|---------------------------------------------------------|
+| 1.1     | 2023-05-09    | Draft for initial publication | I. Grypari                                              |
+| 1.0     | 2023-05-09    | First Draft                   | N. Manola, I. Grypari, H. Papageorgiou, P. Stavropoulos |
 
 :::
 
@@ -40,73 +41,116 @@ affiliations:
 
 Description:
 
--   The "OA journals" indicator measures the availability of *fully* Open Access (OA) journals for a particular level of interest (e.g. research area, year, etc.). An Open Access journal is a scholarly journal that is freely available online and does not charge readers or institutions for access to its content.
+-   This indicator offers a comprehensive view of the diversity and prevalence of different open access publishing models in a specified research domain, whether regional, national, or subject-specific. It differentiates journal business model along two dimension.
+
+**Access rights of Articles:**
+
+-   -   Fully OA Journal: All articles are OA
+    -   Hybrid Journal: Some articles are OA some not.
+    -   Subsciption Journal (remaining)
+
+**APC costs of OA Articles:**
+
+-   -   Diamond OA Journal: Fully OA journal without APCs.
+    -   Fully OA Journal with APCs (remaining)
 
 Usefulness:
 
--   The "OA journals" indicator provides insight into the availability of infrastructure and uptake of Open Science.
--   It can help to identify scientific areas (for example) where OA journals are lacking or where access to these journals is limited, potentially hindering the adoption of OA publishing practices.
--   This indicator can also be used to assess the impact of OA publishing on scholarly communication and to identify areas where additional resources and support may be needed.
+-   Provides a comprehensive view of the open access publishing ecosystem, showcasing how traditional and modern publishing models coexist.
+-   Enables stakeholders to gauge the extent of OA adoption and the diversity of financial models supporting it.
 
-Limitations:
+Can inform policy decisions, grant funding requirements, and authors' publication choices by showcasing the prominence and availability of various OA modelsLimitations:
 
--   The "OA journals" indicator has limitations because it does not account for the quality or peer-review process of the OA journals, which can vary widely.
+-   Solely quantitative; does not address the qualitative aspects of journals, such as their reputation, impact factor, or the quality of peer review.
 -   Not all fields or research areas may have a culture of OA publishing, which can affect the comparison of the indicator across different contexts.
 -   This indicator also does not account for other forms of OA publishing, such as OA monographs or book chapters, which can also play a role in the dissemination of research findings.
 
 ## Metrics
 
-### Number of OA Journals
+### Number/Share (%) of Fully OA Journals
 
 Description:
 
--   The "number of OA journals" metric measures the quantity of Open Access (OA) journals available to researchers
+Number/Share (%) of OA journals in a specific area of interest (e.g., country, subject, year)Usefulness:
 
-Usefulness:
-
--   Same as in indicator description.
+-   Allows for comparison of Open publishing prevalence across different regions or fields of study.
+-   Provides insights into the growth or decline of OA journals over time.
+-   Proxy for research visibility as areas with a higher percentage of OA journals likely offer greater visibility and accessibility to research findings.
+-   Can be used by institutions and funders to gauge the prevalence of OA platforms available to researchers in specific areas and adjust funding or publishing mandates accordingly.
 
 Limitations:
 
--   Same as in indicator description.
--   The number itself is not necessarily meaningful as an absolute.
+- A sheer count or percentage doesn't give insights into the quality of the OA journals.
 
-#### Measurement.
+- Not all fields or research areas have a culture of OA publishing, which can skew comparisons.[]{#measurement.-14}Measurement.
 
-The total number of OA journals available.
+Count or share.
 
-##### Datasources
-
-###### OpenAIRE Graph
-
-The OpenAIRE Graph ingests DOAJ.
-
-1.  Identify all doaj journals in OpenAIRE (datasource)
-
-Fully OA journals
-
-2.  Count them.
-
-### Number of Gold/Hybrid/Diamond Journals
-
-**Diamond OS has to do with the APC business model of the journal.**
-
-**Fully/Gold OA journals can be Diamond (no APC) or with APC therefore we would have indicators by Journal Business Model**
-
--   **Fully OA (Gold), Hybrid, Transformative**
-
-**And by APC Journal Business Model**
-
--   **Diamond, Gold with APCs, Hybrid or sth like that**
-
-**See here plz: https://monitor.openaire.eu/methodology/terminology\#constructed-attributes**
 
 #### Measurement.
 
 ##### Datasources
 
+###### DOAJ (included in the OpenAIRE Graph)
+
+Limitations:
+
+-   While DOAJ is comprehensive, not all OA journals may be listed, especially if they are newer or have not met the DOAJ's criteria.
+
 ###### OpenAIRE Graph
 
-## References
+##### Methodology
 
-\[Add Zotero bibliography here\]
+This methodology is taken from [OpenAIRE MONITOR](https://monitor.openaire.eu/methodology/terminology%22%20\l%20%22constructed-attributes) and uses the OpenAIRE Graph as the input database.
+
+A journal is defined as fully Open Access if one or more of the following occur:
+
+-   It is in the Directory of Open Access Journals (DOAJ)
+-   It has a known fully OA Publisher (curated list that will be included in the OpenAIRE Graph in Q1 2024).
+-   It only publishes OA articles.
+
+### Number/Share (%) of Hybrid OA Journals
+
+**A hybrid OA journal is a subscription journal where some of its articles are open access.**
+
+Usefulness
+
+-   Indicates the prevalence of journals that provide open access options without being fully open access.
+-   Provides an understanding of how many journals offer a middle-ground approach to OA.
+
+Limitations:
+
+-   The metric may not capture the nuances of each hybrid journal's open access policies.
+-   The prevalence of hybrid OA doesn't necessarily indicate the volume of OA content..
+
+#### Measurement.
+
+##### Datasources
+
+###### OpenAIRE Graph
+
+Count or take the share (%) of journals in OpenAIRE with open access articles that are not fully OA journals as defined in the previous metric.
+
+### Number/Share (%) of Diamond OA Journals
+
+A diamond OA journal is a fully OA journal that does not charge article processing charges (APCs). In other words the diamond OA journals are a subset of the fully Open Access journals (described in 10.3.1).
+
+Usefulness
+
+-   Provides insights into journals that are promoting open access without transferring the cost to authors. Indicates the prevalence of journals that provide open access options without being fully open access.
+-   Can indicate a commitment to equitable knowledge dissemination in the academic publishing landscape.
+
+Limitations:
+
+-   Relying on APC data might not capture other potential costs or financial barriers associated with publishing in the journal.
+
+#### Measurement.
+
+##### Datasources
+
+###### DOAJ
+
+###### OpenAIRE Graph
+
+Use APC data from DOAJ (integrated in the OpenAIRE Graph or using DOAJ's Public Data Dump - an exportable version of the journal metadata). Used it to determine whether a particular fully OA journal charges APCs.
+
