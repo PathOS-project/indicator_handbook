@@ -19,9 +19,9 @@ affiliations:
 
 ## History
 
-| Version | Revision date | Revision                     | Author                    |
-|---------|---------------|------------------------------|---------------------------|
-| 1.0     | 2023-05-21    | Initial draft                | L. Waltman                |
+| Version | Revision date | Revision      | Author     |
+|---------|---------------|---------------|------------|
+| 1.0     | 2023-05-21    | Initial draft | L. Waltman |
 
 :::
 
@@ -45,9 +45,9 @@ Open review reports do not need to include the identities of the reviewers. Revi
 
 There is no datasource that provides comprehensive data on the peer review models used by journals. However, there are a few datasources that provide partial data on journals that support Open Review reports:
 
--   Transpose: <https://transpose-publishing.github.io/>
--   ASAPbio: <https://asapbio.org/letter>
--   Data set compiled by Dietmar Wolfram and colleagues: <https://doi.org/10.5281/zenodo.3737197>
+-   Transpose (TRANsparency in Scholarly Publishing for Open Scholarship Evolution): [https://transpose-publishing.github.io/.](https://transpose-publishing.github.io/) Transpose is a database of journal policies, focusing on open peer review, co-reviewing, and preprinting policies. []{#_Int_vdUZiLg6}At the moment (July 2023), the database includes 3168 journals. A subset of these journals []{#_Int_H7DhPToW}support open review reports. Many journals are not included in the database, and therefore the data on journals that support open review reports is incomplete.
+-   ASAPbio: <https://asapbio.org/letter.> ASAPbio maintains a list of journals that support open review reports. At the moment (July 2023), the list includes 377 journals. The completeness of the list is not clear.
+-   Data set compiled by Dietmar Wolfram and colleagues: <https://doi.org/10.5281/zenodo.3737197.> In April 2020, Wolfram and colleagues published a data set of 617 journals that use some form of open peer review. Many of these journals support open review reports. The data set has not been updated after April 2020.
 
 Each of the above datasources is incomplete and some of the data is likely to be outdated.
 
@@ -57,9 +57,9 @@ This metric provides the number or the percentage of journal articles that have 
 
 #### Measurement.
 
-Some journals publish review reports and register DOIs for these reports at Crossref or DataCite. For these journals, metadata from Crossref and DataCite can be used to determine the number of articles with Open Review reports. This approach was used in [this blog post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review), in which it was shown that eLife, PeerJ, and Wiley journals publish a relatively large number of articles with Open Review reports.
+Some journals publish review reports and register DOIs for these reports at Crossref or DataCite. For these journals, metadata from Crossref and DataCite can be used to determine the number of articles with Open Review reports. This approach was used in [this blog post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review), in which it was shown that eLife, PeerJ, and Wiley journals publish a relatively large number of articles with Open Review reports. For an article with a Crossref DOI, the Crossref API (see <https://api.crossref.org/swagger-ui/index.html)> can be used to identify links from the article to open review reports. If the metadata of the article includes links to open review reports, these links can be found in the 'has-review' field in the API output. Conversely, for an open review report with a Crossref DOI, a link to the corresponding article can be found in the `is-review-of` field in the API output.
 
-Other journals publish review reports without registering DOIs for these reports. This is for instance the case for journals published by BMJ, EMBO, MDPI, PLOS, and Springer Nature. For these journals, there is no straightforward way to determine the number of articles with Open Review reports. However, if a journal is known (based on the datasources mentioned in the previous section) to publish Open Review reports for all its articles, the number of articles with Open Review reports can be determined by determining the total number of articles in the journal.
+Many journals publish review reports without registering DOIs for these reports. This is for instance the case for journals published by BMJ, EMBO, MDPI, PLOS, and Springer Nature. For these journals, there is no straightforward way to determine the number of articles with Open Review reports. However, if a journal is known (based on the datasources mentioned in the previous section) to publish Open Review reports for all its articles, the number of articles with Open Review reports can be determined by determining the total number of articles in the journal.
 
 ### Preprints with Open Review reports
 
@@ -69,10 +69,10 @@ Open review reports do not need to include the identities of the reviewers. Revi
 
 #### Measurement.
 
-There are a substantial number of services for peer review of preprints, especially in the life sciences ([ref](https://doi.org/10.31219/osf.io/8zj9w)). While these services all provide Open Review reports, most of them do not register DOIs for these reports. For many of these services, data on review reports can be obtained from Sciety, an aggregator of Open Review reports for preprints. Sciety can be accessed through a website. An API is not yet publicly available.
+There are a substantial number of services for peer review of preprints, especially in the life sciences ([ref](https://doi.org/10.31219/osf.io/8zj9w)). While these services all provide Open Review reports, most of them do not register DOIs for these reports. For many of these services, data on review reports can be obtained from [Sciety](https://sciety.org/), an aggregator of Open Review reports for preprints. Sciety can be accessed through a website. An API is not yet publicly available.
 
-For preprint review services that do register DOIs for review reports, data can be obtained from Crossref and DataCite, as shown in [this blog post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review).
+For preprint review services that do register DOIs for review reports, data can be obtained from Crossref and DataCite, as shown in [this blog post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review). For a review report with a Crossref DOI, the Crossref API (see <https://api.crossref.org/swagger-ui/index.html)> can be used to identify a link from the review report to the corresponding preprint. The link can be found in the `is-review-of` field in the API output.
 
-For each datasource, it needs to be decided which preprint review services are included in the compilation of statistics on preprints with Open Review reports. Some of the services covered by Sciety for instance operate in a fully algorithmic way and do not provide review reports written by humans. A decision could be made to exclude these services.
+When compiling statistics on preprints with open review reports, , it needs to be decided which preprint review services are included in the compilation of statistics on preprints with Open Review reports. Some of the services covered by Sciety for instance operate in a fully algorithmic way and do not provide review reports written by humans. A decision could be made to exclude these services.
 
 Some preprint servers allow review reports and other comments to be posted directly on the preprint server (rather than on a separate platform for preprint peer review). However, there is no straightforward way to identify preprints for which review reports are available directly on the preprint server.
