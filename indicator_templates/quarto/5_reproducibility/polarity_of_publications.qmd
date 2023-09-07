@@ -20,6 +20,7 @@ affiliations:
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
+| 1.2     | 2023-08-30    | Revisions   | Petros Stavropoulos |
 | 1.1     | 2023-07-18    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First Draft | Petros Stavropoulos |
 
@@ -55,7 +56,7 @@ One potential limitation of this metric is that it may be difficult to different
 
 ###### OpenAIRE Research Graph
 
-OpenAIRE Research Graph is a metadata infrastructure that provides a gateway to research publications and their associated data. It is possible to create citation graphs for publications using the OpenAIRE Research Graph by accessing and analysing the metadata provided by the infrastructure.
+[OpenAIRE](https://graph.openaire.eu/) Research Graph is a metadata infrastructure that provides a gateway to research publications and their associated data. It is possible to create citation graphs for publications using the OpenAIRE Research Graph by accessing and analysing the metadata provided by the infrastructure.
 
 Using the OpenAIRE Research Graph, it is possible to identify other publications that have cited a publication of interest. The SciNoBo toolkit, which is detailed in the methodologies section, can then be applied to these citations to determine the level of support towards the publication.
 
