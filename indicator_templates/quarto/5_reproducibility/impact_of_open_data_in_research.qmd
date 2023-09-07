@@ -21,6 +21,7 @@ affiliations:
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
+| 1.2     | 2023-08-30    | Revisions   | Petros Stavropoulos |
 | 1.1     | 2023-07-19    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First draft | Petros Stavropoulos |
 
@@ -99,7 +100,7 @@ One potential limitation of this approach is that not all Open Datasets may be r
 
 ###### Scopus
 
-Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
+[Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
 One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
 
@@ -137,7 +138,7 @@ To calculate the usage count of a dataset, we can use the "Views" field provided
 
 ###### Zenodo
 
-Zenodo is a general-purpose open-access repository developed by CERN to store scientific data. It accepts various types of research outputs, including datasets, software, and publications. Zenodo assigns a unique digital object identifier (DOI) to each deposited item, which can be used to track its usage and citations.
+[Zenodo](https://zenodo.org/) is a general-purpose open-access repository developed by CERN to store scientific data. It accepts various types of research outputs, including datasets, software, and publications. Zenodo assigns a unique digital object identifier (DOI) to each deposited item, which can be used to track its usage and citations.
 
 To calculate the metric of dataset views and downloads from Zenodo, we can extract the relevant metadata from the Zenodo API, which provides programmatic access to the repository's contents. The API allows us to retrieve information about a specific item, such as its title, author, publication date, and number of views / downloads. We can then aggregate this data to obtain usage statistics for a particular dataset or set of datasets.
 
@@ -149,13 +150,13 @@ To calculate this metric using OpenAIRE, we can retrieve the download and view c
 
 ###### GitHub
 
-GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Datasets.
+[GitHub](https://github.com/) is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Datasets.
 
 To measure this metric, we can search for the relevant repositories on GitHub and extract the relevant download, usage, and star data. This data can be accessed via the GitHub API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analysed using programming languages such as Python.
 
 ###### GitLab
 
-GitLab is a web-based Git repository manager that provides source code management, continuous integration and deployment, and more. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
+[GitLab](https://about.gitlab.com/) is a web-based Git repository manager that provides source code management, continuous integration and deployment, and more. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
 
 To calculate the metric of dataset downloads/usage counts/stars from GitLab, we need to identify the relevant repositories and extract the relevant information. The number of downloads can be obtained by looking at the download statistics for a particular release of the repository. The number of stars can be obtained by looking at the number of users who have starred the repository. The number of forks can be obtained by looking at the number of users who have forked the repository.
 
@@ -193,7 +194,7 @@ Existing data sources and methodologies for this metric include the data reposit
 
 ###### DataCite
 
-DataCite is a global registry for research data that provides persistent identifiers (DOIs) for research datasets. To measure the number of downloads or views of published DMPs in DataCite, we can use the DataCite REST API to search for DMPs by the keyword "Data Management Plan" and filter the results by the download count or view count metadata. The API also allows filtering by date range and repository location, which can provide additional context for the measurement.
+[DataCite](https://datacite.org/) is a global registry for research data that provides persistent identifiers (DOIs) for research datasets. To measure the number of downloads or views of published DMPs in DataCite, we can use the DataCite REST API to search for DMPs by the keyword "Data Management Plan" and filter the results by the download count or view count metadata. The API also allows filtering by date range and repository location, which can provide additional context for the measurement.
 
 One potential limitation of using DataCite for this metric is that not all DMPs may be registered with DataCite, and the search results may not capture all relevant DMPs. Additionally, the download or view count metadata may not always accurately reflect the actual use or engagement with the DMP, as these metrics can be affected by factors such as availability, accessibility, and discoverability of the DMP.
 
@@ -219,7 +220,7 @@ However, there are some limitations to this approach. One limitation is that not
 
 ###### DataCite
 
-DataCite is a metadata repository that provides persistent identifiers for research datasets. It collects metadata from various sources, including data centres, publishers, and institutional repositories. The metadata includes information on the dataset, such as the title, author, publisher, date of publication, and the identifier of the dataset.
+[DataCite](https://datacite.org/) is a metadata repository that provides persistent identifiers for research datasets. It collects metadata from various sources, including data centres, publishers, and institutional repositories. The metadata includes information on the dataset, such as the title, author, publisher, date of publication, and the identifier of the dataset.
 
 To measure the number of datasets reused inside DMPs using DataCite, we can search for published DMPs in DataCite, extract the metadata for each DMP, and analyse the content of the DMP to identify the datasets that are being reused. This can be done using automated text mining techniques to identify dataset names or identifiers mentioned in the DMP.
 
