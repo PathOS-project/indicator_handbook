@@ -7,16 +7,20 @@ book:
   title: Open Science Indicator Handbook
   reader-mode: true
 
-  site-url: https://pathos-project.eu/
+  site-url: https://handbook.pathos-project.eu/
   repo-url: https://github.com/PathOS-project/indicator_handbook/
   repo-branch: main
   repo-actions: [edit, issue]
 
   downloads: [docx]
 
+  navbar:
+    search: true
+    logo: theme/pathos-logo.png
+    logo-href: https://pathos-project.eu/
+
   sidebar:
     collapse-level: 1
-    logo: theme/pathos-logo.png
 
   chapters:
     - index.qmd
