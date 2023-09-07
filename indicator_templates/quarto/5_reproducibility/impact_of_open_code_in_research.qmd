@@ -21,6 +21,7 @@ affiliations:
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
+| 1.2     | 2023-08-30    | Revisions   | Petros Stavropoulos |
 | 1.1     | 2023-07-20    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First Draft | Petros Stavropoulos |
 
@@ -46,7 +47,7 @@ One limitation of this metric is that the use of NCI has been criticized for its
 
 To measure this metric, the process begins with the identification of publications that have introduced Open Code. This is typically achieved by scrutinizing metadata within the code repositories and the publications, such as the repository's unique identifiers or the DOI (Digital Object Identifier). Alternatively, explicit mentions of the code repository, such as GitHub or GitLab URLs, within the publication text can be extracted to verify their openness. This can be performed manually or using automated tools.
 
-Upon identification of the relevant publications, it is crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), Scopus and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
+Upon identification of the relevant publications, it is crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
 
 Finally, the NCI score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all similar publications.
 
@@ -56,7 +57,7 @@ One limitation of this approach is that not all Open Code may be registered in c
 
 ###### Scopus
 
-Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
+[Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
 One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
 
@@ -90,7 +91,7 @@ One potential limitation of this approach is that not all Open Code may be regis
 
 ###### Scopus
 
-Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
+[Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
 One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
 
@@ -124,7 +125,7 @@ The data can be computationally obtained using web scraping tools, API queries, 
 
 ###### Github
 
-GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Code.
+[GitHub](https://github.com/) is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Code.
 
 To measure this metric, we can search for the relevant repositories on GitHub and extract the relevant download, usage, and star data. This data can be accessed via the GitHub API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analysed using programming languages such as Python.
 
@@ -144,7 +145,7 @@ print(f"The {owner}/{repo} repository has {stars} stars.")
 
 ###### GitLab
 
-GitLab is a web-based Git repository manager that provides source code management, continuous integration and deployment, and more. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
+[GitLab](https://about.gitlab.com/) is a web-based Git repository manager that provides source code management, continuous integration and deployment, and more. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
 
 To calculate the metric of code downloads/usage counts/stars from GitLab, we need to identify the relevant repositories and extract the relevant information. The number of downloads can be obtained by looking at the download statistics for a particular release of the repository. The number of stars can be obtained by looking at the number of users who have starred the repository. The number of forks can be obtained by looking at the number of users who have forked the repository.
 
@@ -152,7 +153,7 @@ To access this information, we can use the GitLab API.
 
 ###### Bitbucket
 
-Bitbucket is a web-based Git repository hosting service that allows users to host their code repositories, collaborate with other users and teams, and automate their software development workflows. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
+[Bitbucket](https://bitbucket.org/) is a web-based Git repository hosting service that allows users to host their code repositories, collaborate with other users and teams, and automate their software development workflows. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
 
 To calculate the metric of code downloads/usage counts/stars from Bitbucket, we need to identify the relevant repositories and extract the relevant information. The number of downloads can be obtained by looking at the download statistics for a particular release of the repository. The number of stars can be obtained by looking at the number of users who have starred the repository. The number of forks can be obtained by looking at the number of users who have forked the repository.
 
