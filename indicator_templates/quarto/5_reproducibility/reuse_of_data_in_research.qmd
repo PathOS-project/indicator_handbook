@@ -20,7 +20,8 @@ affiliations:
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
-| 1.1     | 2023-20-07    | Revisions   | Petros Stavropoulos |
+| 1.2     | 2023-08-30    | Revisions   | Petros Stavropoulos |
+| 1.1     | 2023-07-20    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First draft | Petros Stavropoulos |
 
 :::
@@ -55,7 +56,7 @@ However, it's important to note that OpenAIRE Explore does not provide comprehen
 
 ###### DataCite
 
-DataCite is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
+[DataCite](https://datacite.org/) is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
 
 To measure the proposed metric, we can employ the DataCite REST API to identify relevant datasets, along with to find their DOI, metadata and usage statistics.
 
@@ -101,7 +102,7 @@ However, it is important to note that OpenAIRE Explore does not provide comprehe
 
 ###### DataCite
 
-DataCite is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
+[DataCite](https://datacite.org/) is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
 
 To measure the proposed metric, we can employ the DataCite REST API to identify relevant datasets, along with to find their DOI, metadata and usage statistics.
 
