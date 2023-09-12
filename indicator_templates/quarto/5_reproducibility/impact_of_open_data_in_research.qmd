@@ -47,7 +47,7 @@ One limitation of this metric is that the use of NCI has been criticized for its
 
 To measure this metric, the process begins with the identification of publications that have introduced Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
 
-Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\\l%20%22basic) and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
+Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), [Scopus](https://www.scopus.com) and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
 
 Finally, the NCI (Normalised Citation Impact) score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
 
@@ -89,7 +89,7 @@ A limitation of this metric is that the use of NCI has been criticized for its p
 
 To measure this metric, the process begins with the identification of publications that have (re)used Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
 
-Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\\l%20%22basic) and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
+Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), [Scopus](https://www.scopus.com) and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
 
 Finally, the NCI (Normalised Citation Impact) score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
 
@@ -100,7 +100,7 @@ One potential limitation of this approach is that not all Open Datasets may be r
 
 ###### Scopus
 
-[Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
+[Scopus](https://www.scopus.com) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
 One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
 
