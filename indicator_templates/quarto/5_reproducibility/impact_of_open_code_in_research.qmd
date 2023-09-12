@@ -14,99 +14,96 @@ affiliations:
 
 # Impact of Open Code in research {#impact-of-open-code-in-research .unnumbered}
 
+
 ::: {}
 
 ## History
 
-| Version | Revision date | Revision                     | Author                    |
-|---------|---------------|------------------------------|---------------------------|
-| 1.1     | 2023-07-20    | Revisions                    | Petros Stavropoulos       |
-| 1.0     | 2023-05-11    | First Draft                  | Petros Stavropoulos       |
+| Version | Revision date | Revision    | Author              |
+|---------|---------------|-------------|---------------------|
+| 1.2     | 2023-08-30    | Revisions   | Petros Stavropoulos |
+| 1.1     | 2023-07-20    | Revisions   | Petros Stavropoulos |
+| 1.0     | 2023-05-11    | First Draft | Petros Stavropoulos |
 
 
 :::
 
 ## Description
 
-The impact of Open Code in research refers to the effect of making research code openly accessible and reusable on the scientific community and society as a whole. Additionally, it is worth noting that these Open Code practices subtly contribute to enhancing the reproducibility of research results, as open and accessible code is a cornerstone for verification and validation in science. This indicator aims to capture the impact of Open Code practices adopted in research on the scientific output and societal benefits. The indicator can be used to assess the level of openness and accessibility of research code within a specific scientific community or field and to identify potential barriers or incentives for the adoption of Open Code practices. It can also be used to track the reuse and impact of Open Code on subsequent research, as well as to evaluate the effectiveness of policies and initiatives promoting Open Code practices.
+
+The impact of Open Code in research aims to capture the effect of making research code openly accessible and reusable on enhancing the reproducibility of research results, as open and accessible code is a cornerstone for verification and validation in science.
+
+This indicator can be used to assess the level of openness and accessibility of research code within a specific scientific community or field and to identify potential barriers or incentives for the adoption of Open Code practices. It can also be used to track the reuse and subsequent impact related to reproducibility of Open Code, as well as to evaluate the effectiveness of policies and initiatives promoting Open Code practices.
 
 ## Metrics
 
-### NCI for publication that have introduced Open Code
+### NCI for publications that have introduced Open Code
 
 This metric calculates the Normalised Citation Impact (NCI) for publications that have introduced Open Code. By introducing Open Code, researchers enable others to scrutinize and build upon their computational methods, thus enhancing the potential for reproducibility and advancement of the field. The NCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the NCI for publications that have introduced Open Code can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
 
-One limitation of this metric is that it may not capture the impact of Open Code practices on research findings that are not directly related to the introduction of Open Code. Additionally, the use of NCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
+One limitation of this metric is that the use of NCI has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend using this metric in conjunction with other metrics in this document, such as software mentions and citations of the code repository, to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
 
 #### Measurement.
 
 To measure this metric, the process begins with the identification of publications that have introduced Open Code. This is typically achieved by scrutinizing metadata within the code repositories and the publications, such as the repository's unique identifiers or the DOI (Digital Object Identifier). Alternatively, explicit mentions of the code repository, such as GitHub or GitLab URLs, within the publication text can be extracted to verify their openness. This can be performed manually or using automated tools.
 
-Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide these categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science) or [Elsevier's SciVal](https://www.elsevier.com/solutions/scival). Alternatively, classifications provided by [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) and [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) can be utilized.
+Upon identification of the relevant publications, it is crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), [Scopus](https://www.scopus.com) and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
 
-Finally, the NCI (Normalised Citation Impact) score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
+Finally, the NCI score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all similar publications.
 
-However, one potential limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+One limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
 ##### Datasources
 
 ###### Scopus
 
-Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
+[Scopus](https://www.scopus.com) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
-One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation of the NCI for some publications.
+One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
 
 ##### Existing methodologies
 
-###### PathOS work in Task 2.5
-
-This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the code/software has been introduced by the authors of the publication.
-
-To measure the proposed metric, the tool can be used to identify relevant publications that have introduced code/software in conjunction with code repositories in GitHub, GitLab, or Bitbucket where the code/software is openly located.
-
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
-To measure the proposed metric, the tool can be used to calculate the NCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has introduced Open Code/software.
+Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the code/software has been introduced by the authors of the publication.
 
-### NCI for publication that have (re)used Open Code
+To measure the proposed metric, the tool can be used to identify relevant publications that have introduced code/software in conjunction with code repositories in GitHub, GitLab, or Bitbucket where the code/software is openly located and calculate their NCI score.
 
-This metric calculates the Normalised Citation Impact (NCI) for publications that have (re)used Open Code. It is a measure of the citation impact of research publications that have utilized Open Code, adjusted for differences in citation practices across scientific fields. The NCI for publications that have (re)used Open Code can indicate the potential impact of code sharing and reuse practices on the visibility and influence of research findings. A higher NCI score indicates a greater level of scientific collaboration and code sharing within a specific scientific community or field, suggesting that the availability of Open Code can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
+### NCI for publications that have (re)used Open Code
 
-A limitation of this metric is that it may not capture the impact of Open Code practices on research findings that are not directly related to the use of Open Code. Additionally, the use of NCI as a metric has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
+This metric calculates the Normalised Citation Impact (NCI) for publications that have (re)used Open Code. It is a measure of the citation impact of research publications that have utilized Open Code, adjusted for differences in citation practices across scientific fields. The NCI for publications that have (re)used Open Code can indicate the potential impact of code sharing and reuse practices on the visibility and influence of research findings.
+
+A limitation of this metric is that the use of NCI has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend to use this metric in conjunction with other metrics in this document, such as software mentions and citations of the code repository, to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
 
 #### Measurement.
 
-To measure this metric, the process begins with the identification of publications that have (re)used Open Code. This is typically achieved by scrutinizing metadata within the code repositories and the publications, such as the repository's unique identifiers or the DOI (Digital Object Identifier). Alternatively, explicit mentions of the code repository, such as GitHub or GitLab URLs, within the publication text can be extracted to verify their openness. This can be performed manually or using automated tools.
+To measure this metric, the process begins with the identification of publications that have (re)used Open Code. This is achieved by extracting explicit mentions of software/code mentions or code repositories, such as GitHub or GitLab URLs, within the publication text and then verifying their (re)use and openness. This can be performed manually or using automated tools.
 
-Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide these categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science) or [Elsevier's SciVal](https://www.elsevier.com/solutions/scival). Alternatively, classifications provided by [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) and [Scopus](https://www.scopus.com/search/form.uri?display=basic%22%20\l%20%22basic) can be utilized.
+Upon identification of the relevant publications, it is crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), [Scopus](https://www.scopus.com) and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
 
 Finally, the NCI (Normalised Citation Impact) score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
 
-However, one potential limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+One potential limitation of this approach is that not all Open Code may be registered in code repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
 ##### Datasources
 
 ###### Scopus
 
-Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
+[Scopus](https://www.scopus.com) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
-One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation of the NCI for some publications.
+One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
 
 ##### Existing methodologies
 
-###### PathOS work in Task 2.5
-
-This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the code/software has been (re)used by the authors of the publication.
-
-To measure the proposed metric, the tool can be used to identify relevant publications that have introduced code/software in conjunction with code repositories in GitHub, GitLab, or Bitbucket where the code/software is openly located.
-
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
-To measure the proposed metric, the tool can be used to calculate the NCI score of a given publication in conjunction with a tool/methodology to identify if the same publication has (re)used Open Code/software.
+Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the code/software has been (re)used by the authors of the publication.
+
+To measure the proposed metric, the tool can be used to identify relevant publications that have (re)used code/software in conjunction with code repositories in GitHub, GitLab, or Bitbucket where the code/software is openly located and calculate their NCI score.
 
 ### Code downloads/usage counts/stars from repositories
 
@@ -114,13 +111,13 @@ This metric measures the number of times an Open Code repository has been downlo
 
 In terms of reproducibility, high usage counts or stars may indicate that a code/software is well-documented and easy to use. Furthermore, a widely used code/software is more likely to be updated and maintained over time, which can improve its reproducibility.
 
-However, this metric may have limitations in capturing the impact of code that is not hosted in a public repository or downloaded through other means, such as direct communication between researchers. Additionally, usage counts and stars may not necessarily reflect the quality or impact of the code, and may be influenced by factors such as marketing and social media outreach. Therefore, we recommend to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
+However, this metric may have limitations in capturing the impact of code that is not hosted in a public repository or downloaded through other means, such as direct communication between researchers. Additionally, usage counts and stars may not necessarily reflect the quality or impact of the code, and may be influenced by factors such as marketing and social media outreach. Therefore, we recommend using this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Code practices on research output.
 
 #### Measurement.
 
-To measure this metric, data can be obtained from code repositories such as GitHub, GitLab, or Bitbucket. The number of downloads, usage counts, and stars can be extracted from the repository metadata. For example, on GitHub, this data is available through the API or by accessing the repository page. However, it is important to note that not all repositories may make this information publicly available, and some may only provide partial or incomplete usage data.
+To measure this metric, data can be obtained from code repositories such as GitHub, GitLab, or Bitbucket. The number of downloads, usage counts, and stars can be extracted from the repository metadata. For example, on GitHub, this data is available through the API or by accessing the repository page. However, it is important to note that not all repository hosting providers may make this information publicly available, and some may only provide partial or incomplete usage data.
 
-Additionally, the accuracy of the usage data may be affected by factors such as the frequency of updates, the type of license, and the accessibility of the code to different research communities. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+Additionally, the accuracy of the usage data may be affected by factors such as the frequency of updates, the type of license, and the accessibility of the code to different research communities.
 
 The data can be computationally obtained using web scraping tools, API queries, or by manually accessing the download/usage count/star data.
 
@@ -128,29 +125,27 @@ The data can be computationally obtained using web scraping tools, API queries, 
 
 ###### Github
 
-GitHub is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Datasets. To ensure that the repository primarily contains code and not data or datasets, we can consider the following alternatives:
+[GitHub](https://github.com/) is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Code.
 
--   Repository labeling: Look for repositories that are explicitly labeled as containing code or software. Many repository owners provide clear labels or descriptions indicating the nature of the content.
--   File extensions: Check for files with common code file extensions, such as .py, .java, or .cpp. These file extensions are commonly used for code files, while data files often have extensions like .csv, .txt, or .xlsx.
--   Repository descriptions and README files: Examine the repository descriptions and README files to gain insights into the content. Authors often provide information about the type of code included, its functionality, and its relevance to the project or software.
--   Documentation: Some repositories include extensive documentation that provides details on the software, its usage, and how to contribute to the project. This indicates a greater likelihood that the repository primarily contains code.
--   Existence of script and source folders: In some cases, the existence of certain directories like '/src' for source files or '/scripts' for scripts can indicate that the repository is primarily for code.
+To measure this metric, we can search for the relevant repositories on GitHub and extract the relevant download, usage, and star data. This data can be accessed via the GitHub API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analysed using programming languages such as Python.
 
-By considering these alternatives, we can ensure that the repository primarily contains code rather than data or datasets.
+Following is an API call example for retrieving the stars of the `indicator_handbook` repository for `PathOS-project` from Github.
 
-To measure this metric, we can search for the relevant repositories on GitHub and extract the relevant download, usage, and star data. This data can be accessed via the GitHub API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analyzed using programming languages such as Python.
+```{.python}
+import requests
+owner = "PathOS-project"
+repo = "indicator_handbook"
+url = f"https://api.github.com/repos/{owner}/{repo}/stargazers"
+headers = {"Accept": "application/vnd.github.v3.star+json"}
+
+response = requests.get(url, headers=headers)
+stars = len(response.json())
+print(f"The {owner}/{repo} repository has {stars} stars.")
+```
 
 ###### GitLab
 
-GitLab is a web-based Git repository manager that provides source code management, continuous integration and deployment, and more. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks. To ensure that the repository primarily contains code and not data or datasets, we can consider the following alternatives:
-
--   Repository labeling: Look for repositories that are explicitly labeled as containing code or software. Many repository owners provide clear labels or descriptions indicating the nature of the content.
--   File extensions: Check for files with common code file extensions, such as .py, .java, or .cpp. These file extensions are commonly used for code files, while data files often have extensions like .csv, .txt, or .xlsx.
--   Repository descriptions and README files: Examine the repository descriptions and README files to gain insights into the content. Authors often provide information about the type of code included, its functionality, and its relevance to the project or software.
--   Documentation: Some repositories include extensive documentation that provides details on the software, its usage, and how to contribute to the project. This indicates a greater likelihood that the repository primarily contains code.
--   Existence of script and source folders: In some cases, the existence of certain directories like '/src' for source files or '/scripts' for scripts can indicate that the repository is primarily for code.
-
-By considering these alternatives, we can ensure that the repository primarily contains code rather than data or datasets.
+[GitLab](https://about.gitlab.com/) is a web-based Git repository manager that provides source code management, continuous integration and deployment, and more. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
 
 To calculate the metric of code downloads/usage counts/stars from GitLab, we need to identify the relevant repositories and extract the relevant information. The number of downloads can be obtained by looking at the download statistics for a particular release of the repository. The number of stars can be obtained by looking at the number of users who have starred the repository. The number of forks can be obtained by looking at the number of users who have forked the repository.
 
@@ -158,26 +153,29 @@ To access this information, we can use the GitLab API.
 
 ###### Bitbucket
 
-Bitbucket is a web-based Git repository hosting service that allows users to host their code repositories, collaborate with other users and teams, and automate their software development workflows. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks. To ensure that the repository primarily contains code and not data or datasets, we can consider the following alternatives:
+[Bitbucket](https://bitbucket.org/) is a web-based Git repository hosting service that allows users to host their code repositories, collaborate with other users and teams, and automate their software development workflows. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
 
--   Repository labeling: Look for repositories that are explicitly labeled as containing code or software. Many repository owners provide clear labels or descriptions indicating the nature of the content.
+To calculate the metric of code downloads/usage counts/stars from Bitbucket, we need to identify the relevant repositories and extract the relevant information. The number of downloads can be obtained by looking at the download statistics for a particular release of the repository. The number of stars can be obtained by looking at the number of users who have starred the repository. The number of forks can be obtained by looking at the number of users who have forked the repository.
+
+To access this information, we can use the Bitbucket API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analysed using programming languages such as Python.
+
+###### Existing methodologies
+
+###### Ensuring that repositories contain code
+
+To ensure that a code repository (i.e. Github, Gitlab, Bitbucket) primarily contains code and not data or datasets, one can consider the following checks:
+
+-   Repository labelling: Look for repositories that are explicitly labelled as containing code or software. Many repository owners provide clear labels or descriptions indicating the nature of the content.
 -   File extensions: Check for files with common code file extensions, such as .py, .java, or .cpp. These file extensions are commonly used for code files, while data files often have extensions like .csv, .txt, or .xlsx.
 -   Repository descriptions and README files: Examine the repository descriptions and README files to gain insights into the content. Authors often provide information about the type of code included, its functionality, and its relevance to the project or software.
 -   Documentation: Some repositories include extensive documentation that provides details on the software, its usage, and how to contribute to the project. This indicates a greater likelihood that the repository primarily contains code.
 -   Existence of script and source folders: In some cases, the existence of certain directories like '/src' for source files or '/scripts' for scripts can indicate that the repository is primarily for code.
 
-By considering these alternatives, we can ensure that the repository primarily contains code rather than data or datasets.
+By considering these checks, we can ensure that the repository primarily contains code rather than data or datasets.
 
-To calculate the metric of code downloads/usage counts/stars from Bitbucket, we need to identify the relevant repositories and extract the relevant information. The number of downloads can be obtained by looking at the download statistics for a particular release of the repository. The number of stars can be obtained by looking at the number of users who have starred the repository. The number of forks can be obtained by looking at the number of users who have forked the repository.
+### References
 
-To access this information, we can use the Bitbucket API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analyzed using programming languages such as Python.
+Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. *Companion Proceedings of the Web Conference 2022*, 800–809. <https://doi.org/10.1145/3487553.3524677>
 
-##### Existing methodologies
+Kotitsas, S., Pappas, D., Manola, N., & Papageorgiou, H. (2023). SCINOBO: A novel system classifying scholarly communication in a dynamically constructed hierarchical Field-of-Science taxonomy. Frontiers in Research Metrics and Analytics, 8. https://www.frontiersin.org/articles/10.3389/frma.2023.1149834
 
-###### Scrapers / REST API Clients ?
-
-\[add text here\].
-
-## References
-
-Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. *Companion Proceedings of the Web Conference 2022*, 800–809. https://doi.org/10.1145/3487553.3524677

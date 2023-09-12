@@ -19,9 +19,9 @@ affiliations:
 
 ## History
 
-| Version | Revision date | Revision                     | Author                                      |
-|---------|---------------|------------------------------|---------------------------------------------|
-| 1.0     | 2023-07-12    | Initial draft                | T. van Leeuwen                              |
+| Version | Revision date | Revision      | Author         |
+|---------|---------------|---------------|----------------|
+| 1.0     | 2023-07-12    | Initial draft | T. van Leeuwen |
 
 :::
 
@@ -61,8 +61,8 @@ This metric can be constructed by searching through policy initiatives that supp
 
 Potential problems and limitations are:
 
--   This is a time-consuming effort, as one has to go through many websites, in particular with respect to the definition of ‘national’. In some countries, governance of science is not only a national issue, but might in the case of a federal government, also have to deal with federal initiative regarding the support of Open Science practices.
--   A similar issue relates to the presence of funders, and their support of Open Science practices, these are also considered national research funding agencies, and how do these relate to the abovementioned issue of the ‘national’ level.
+-   This is a time-consuming effort, as one has to go through many websites, in particular with respect to the definition of 'national'. In some countries, governance of science is not only a national issue, but might in the case of a federal government, also have to deal with federal initiative regarding the support of Open Science practices.
+-   A similar issue relates to the presence of funders, and their support of Open Science practices, these are also considered national research funding agencies, and how do these relate to the above mentioned issue of the 'national' level.
 -   How does one compare the breadth of the Open Science support, here one only aims at the presence, but the range of facilities to support Open Science is here not yet included.
 
 There are presently no generic and systematic data sources that contain such information.

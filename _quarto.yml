@@ -37,7 +37,7 @@ book:
         - indicator_templates/quarto/1_open_science/deposition_open_metadata.qmd
         - indicator_templates/quarto/1_open_science/evaluation_open_science_in_research_assessment.qmd
         - indicator_templates/quarto/1_open_science/open_access_journals.qmd
-        - indicator_templates/quarto/1_open_science/open_access_uptake.qmd
+        - indicator_templates/quarto/1_open_science/prevalence_open_access_publishing.qmd
         - indicator_templates/quarto/1_open_science/open_science_training_facilities.qmd
         - indicator_templates/quarto/1_open_science/prevalence_national_open_science_policies.qmd
         - indicator_templates/quarto/1_open_science/prevalence_open_fair_data_practices.qmd
@@ -99,7 +99,7 @@ book:
         - indicator_templates/quarto/5_reproducibility/impact_of_open_code_in_research.qmd
         - indicator_templates/quarto/5_reproducibility/impact_of_open_data_in_research.qmd
         - indicator_templates/quarto/5_reproducibility/inclusion_in_systematic_reviews_or_meta-analyses.qmd
-        - indicator_templates/quarto/5_reproducibility/levels_of_replication_found.qmd
+        - indicator_templates/quarto/5_reproducibility/level_of_replication.qmd
         - indicator_templates/quarto/5_reproducibility/polarity_of_publications.qmd
         - indicator_templates/quarto/5_reproducibility/reuse_of_code_in_research.qmd
         - indicator_templates/quarto/5_reproducibility/reuse_of_data_in_research.qmd

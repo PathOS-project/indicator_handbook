@@ -29,76 +29,46 @@ affiliations:
 
 ## History
 
-| Version | Revision date | Revision    | Author                                                  |
-|---------|---------------|-------------|---------------------------------------------------------|
-| 1.0     | 2023-05-09    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
-
-:::
+| Version | Revision date | Revision                      | Author                                                  |
+|---------|---------------|-------------------------------|---------------------------------------------------------|
+| 1.1     | 2023-08-28    | Draft for initial publication | I. Grypari                                              |
+| 1.0     | 2023-05-09    | First draft                   | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
 
 ## Description
 
-Αrticle Processing Charges (APCs) capture the affordability and accessibility of Open Access publishing for different types of stakeholders, such as researchers, institutions, and funding agencies. It is also relevant for policy-makers seeking to optimize Open Science policies.
+Αrticle Processing Charges (APCs) represent the price that publishers demand from authors to pay in order to publish their articles and books under an open access license. They capture the affordability and accessibility of Open Access publishing for different types of stakeholders, such as researchers, institutions, and funding agencies. It is also relevant for policy-makers seeking to optimize Open Science policies.
 
-Tracking and comparing APCs could also be used to encourage publishers to adopt more transparent and equitable APC pricing policies and support the development of sustainable Open Access publishing models accessible to all researchers regardless of their financial resources.
+Tracking and comparing APCs could also be used to encourage publishers to adopt more transparent and equitable pricing policies and support the development of sustainable Open Access publishing models accessible to all researchers regardless of their financial resources.
 
-APCs have both benefits and drawbacks. In countries where funder reimbursement of APC costs or transformative agreements do not cover these costs, APCs can create a financial barrier that limits access to Open Access journals. On the other hand, APCs also incentivize publishers to offer Open Access publishing, which promotes Open Science.
+APCs have both benefits and drawbacks. In a strict sense, they do not remove the economic barriers between the writing and the reading of scientific results but shift these costs from the readers to the authors. In countries where funder reimbursement of APC costs or transformative agreements do not cover these costs, APCs can create a financial barrier that limits access to Open Access journals, often generating asymmetries between richer and poorer countries and academic institutions. On the other hand, APCs also incentivize publishers to offer Open Access publishing, which promotes Open Science.
 
 ## Metrics
 
-### Number of publications with an APC cost
+### Number/Share (%) of publications with an APC cost
 
-This metric measures the number of publications in journals and have incurred an APC.
+These metrics measure the number or share (in percentage - %) of publications in journals and have incurred an APC. The share provides a more nuanced understanding of the affordability and accessibility of Open Access publishing than the absolute number and it can be used to compare the affordability and accessibility of Open Access publishing across different journals, publishers, and regions in a more meaningful way.
 
 Limitation:
 
 -   Not knowing who incurred that APC (funder, institution, author, etc.) limits the usefulness of this indicator.
+-   The share of publications with an APC could be more useful when put together with % Diamond OA publications, as opposed to stand alone.
 
 #### Measurement.
 
-##### Datasources
+##### Methodology
 
 ###### OpenAIRE Graph
 
-The [OpenAIRE Graph](https://graph.openaire.eu) dump currently does not include OA color classifications, though they are already implemented in the OpenAIRE MONITOR and are expected to be integrated into the graph dump shortly.
-
-1.  Extract all Gold OA publications from OpenAIRE, excluding those that are Diamond OA (no APC). What remains are Gold OA publications with an APC.
-2.  Incorporate Hybrid and Bronze OA publications, which also attract an APC.
-3.  Cross-reference with APCs in OpenAIRE (sourced from OpenAPC – openapc.net) to ensure no overlooked publications with APCs.
-4.  Compute the total number of OA publications that incurred an APC.
-
-
-Limitations:
-
--   This methodology is a workaround chosen as it provides better coverage than any APC dataset we are aware of, however it is not a direct source of whether a publication has incurred an APC or not.
-
-
-### % Publications with an APC
-
-This metric measures the percentage of research articles published in Open Access that require payment of an Article Processing Charge (APC) and it provides a more nuanced understanding of the affordability and accessibility of Open Access publishing than the "Number of publications with an APC " metric. This metric can be used to compare the affordability and accessibility of Open Access publishing across different journals, publishers, and regions in a more meaningful way.
-
-Limitations:
-
--   This metric could be more useful when put together with % Diamond OA publications, as opposed to stand alone.
--   Not knowing who incurred that APC (funder, institution, author, etc.) limits the usefulness of this metric.
-
-#### Measurement.
-
-##### Datasources
-
-###### OpenAIRE Graph
-
-The [OpenAIRE Graph](https://graph.openaire.eu) dump currently does not include OA color classifications, though they are already implemented in the OpenAIRE MONITOR and are expected to be integrated into the graph dump shortly.
-
-Via OpenAIRE MONITOR
+The [OpenAIRE Graph](https://graph.openaire.eu) dump currently does not include OA color classifications, though they are already implemented in the OpenAIRE MONITOR and are expected to be integrated into the graph dump in Q1 2024.
 
 1.  Retrieve all Gold OA publications from OpenAIRE, which refers to those published in entirely OA journals. Exclude those classified as Diamond OA (meaning they don't have an APC). The publications left in this group are Gold OA articles with associated APCs.
 2.  Incorporate Hybrid and Bronze OA publications to this set, as these also come with APCs.
 3.  Cross-reference the APCs listed in OpenAIRE, sourced from OpenAPC (openapc.net), to ensure no additional articles with APCs are overlooked.
-4.  Using this refined set of OA publications with APCs, determine the proportion based on your specific area of interest (e.g., by country).
+4.  Using this refined set of OA publications with APCs, determine the number or share based on your specific area of interest (e.g., country).
 
 Limitations:
 
--   Same as in previous metric.
+-   This methodology is a workaround chosen as it provides better coverage than any APC dataset we are aware of, however it is not a direct source of whether a publication has incurred an APC or not.
 
 ### Average APC
 
@@ -125,12 +95,14 @@ The OpenAPC APC dataset, which is integrated in the [OpenAIRE Graph](https://gra
 
 Limitations:
 
--   Incomplete data: Publishers do not generally provide data on their APC fees, OpenAPC has a growing collection but it is not complete.
--   In an (organization, publication, APC cost) triplet it is not possible to distinguish if the APC cost is the entire cost of the publication or just the what the organization paid.
+-   Incomplete data: Publishers do not generally provide data on their APC fees, OpenAPC (openapc.net) has a growing collection but it is not complete.
+-   In an (organization, publication, APC cost) triplet of OpenAPC, to the best of our knowledge, it is not possible to distinguish if the APC cost is the entire cost of the publication or just the what the organization paid.
 
-Via OpenAIRE MONITOR
+##### Methodology
 
-1.  Identify the unit of analysis (e.g. average APCs for an institution)
+Via OpenAIRE MONITOR (monitor.openaire.eu)
+
+1.  Identify the unit of analysis (e.g. average APCs for an institution)
 2.  Examine the coverage of APCs for the relevant publications (see metric Number of OA publications with APC).
 3.  Examine if the coverage is adequate and the distribution of costs meaningful for taking an average.
 4.  Take the average APC for that level of analysis.
@@ -143,11 +115,11 @@ Limitations:
 
 Description:
 
-The "Total APC" metric measures the total cost of Article Processing Charges (APCs) for a defined level of interest (per year, country, organization, etc.)
+The "Total APC" metric measures the sum of APCs paid for all the articles published for a defined level of interest (a year, country, organization, etc.)
 
 Usefulness:
 
-The "total APC" metric can help assess the affordability and accessibility of Open Access publishing. It provides a broad understanding of the cost of Open Access publishing and identifies trends and changes in APC pricing over time. By summing the APCs this metric measures the total financial burden of OA publishing for the unit of analysis and can be compared to other aggregate measures.
+-   The "total APC" metric can help assess the affordability and accessibility of Open Access publishing. It provides a broad understanding of the cost of Open Access publishing and identifies trends and changes in APC pricing over time. By summing the APCs this metric measures the total financial burden of OA publishing for the unit of analysis and can be compared to other aggregate measures.
 
 Limitations:
 
@@ -164,19 +136,21 @@ The OpenAPC APC dataset, which is integrated in the [OpenAIRE Graph](https://gra
 
 Limitations:
 
--   Incomplete data: Publishers do not generally provide data on their APC fees, OpenAPC has a growing collection but it is not complete.
--   In an (organization, publication, APC cost) triplet it is not possible to distinguish if the APC cost is the entire cost of the publication or just the what the organization paid.
+-   Incomplete data: Publishers do not generally provide data on their APC fees, OpenAPC (openapc.net) has a growing collection but it is not complete.
+-   In an (organization, publication, APC cost) triplet of OpenAPC, to the best of our knowledge, it is not possible to distinguish if the APC cost is the entire cost of the publication or just the what the organization paid.
+
+##### Methodology
 
 Via OpenAIRE MONITOR
 
-1.  Identify the unit of analysis (e.g. total APCs for an institution)
+1.  Identify the unit of analysis (e.g. total APCs for an institution)
 2.  Examine the coverage of APCs for the relevant publications (see metric Number of OA publications with APC).
 3.  Examine if the coverage is adequate.
 4.  Sum the APCs for that level of analysis.
 
 Limitations:
 
--   Totals have the benefit of giving a bird’s eye view, however depending on the underlying distribution of costs, they can have different implications.
+-   Totals have the benefit of giving a bird's eye view, however depending on the underlying distribution of costs, they can have different implications.
 
 ## Known correlates
 
@@ -187,14 +161,17 @@ Via: https://direct.mit.edu/qss/article/1/1/6/15582/Article-processing-charges-M
 -   Hybrid vs. Gold OA
 -   SNIP
 
-## Notes
+### Notes
 
-An APC extrapolation exercies was conducted for the purposes of the following report.
+An APC extrapolation exercise was conducted for the purposes of the following report.
 
 <https://research-and-innovation.ec.europa.eu/knowledge-publications-tools-and-data/publications/all-publications/monitoring-open-access-policy-horizon-2020_en>
 
 (page 107)
 
-## References
+### References
 
 Schönfelder, Nina. "Article processing charges: Mirroring the citation impact or legacy of the subscription-based model?." *Quantitative Science Studies* 1.1 (2020): 6-27.
+
+European Commission, Directorate-General for Research and Innovation, *Monitoring the open access policy of Horizon 2020 – Final report*, Publications Office, 2021, [https://data.europa.eu/doi/10.2777/268348](https://data.europa.eu/doi/10.2777/268348%22%20\t%20%22_blank)
+

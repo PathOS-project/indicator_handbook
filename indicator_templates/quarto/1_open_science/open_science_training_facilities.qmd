@@ -19,9 +19,9 @@ affiliations:
 
 ## History
 
-| Version | Revision date | Revision                     | Author                                      |
-|---------|---------------|------------------------------|---------------------------------------------|
-| 1.0     | 2023-07-12    | Initial draft                | T. van Leeuwen                              |
+| Version | Revision date | Revision      | Author         |
+|---------|---------------|---------------|----------------|
+| 1.0     | 2023-07-12    | Initial draft | T. van Leeuwen |
 
 :::
 
@@ -46,6 +46,7 @@ This metric could be constructed by searching through university and faculty lev
 Potential problems and limitations are:
 
 -   This is a time-consuming effort, as one has to go through many websites, in particular when one is dealing with a large country, with many institutions, not necessarily limited to universities, but for example in the case of Germany, many publicly funded research institutions under the flag of Max Planck, Leibniz, Helmholtz, etc.
+-   The assessment of this indicator also requires mastering the language to the country under investigation as the general principles of Open Access can be expressed by different notions in different linguistic context.
 -   This kind of information might not be present on the website (yet), and as such create an underestimation of the actual situation.
 -   How does one compare the breadth of the Open Science training, here one only aims at the presence, but the range of facilities to train staff members on Open Science practices is here not yet included.
 
@@ -63,9 +64,10 @@ This metric could be constructed by searching through policy initiatives that su
 
 Potential problems and limitations are:
 
--   This is a time-consuming effort, as one has to go through many websites, in particular with respect to the definition of ‘national’. In some countries, governance of science is not only a national issue, but might in the case of a federal government, also have to deal with federal initiative regarding the support of Open Science practices.
--   A similar issue relates to the presence of funders, and their support of Open Science practices, these are also considered national research funding agencies, and how do these relate to the abovementioned issue of the ‘national’ level.
+-   This is a time-consuming effort, as one has to go through many websites, in particular with respect to the definition of 'national'. In some countries, governance of science is not only a national issue, but might in the case of a federal government, also have to deal with federal initiative regarding the support of Open Science practices.
+-   A similar issue relates to the presence of funders, and their support of Open Science practices, these are also considered national research funding agencies, and how do these relate to the above mentioned issue of the 'national' level.
 -   How does one compare the breadth of the Open Science support, here one only aims at the presence, but the range of facilities to support Open Science is here not yet included.
+-   Language can be a problem here as well.
 
 There are presently no generic and systematic data sources that contain such information.
 
@@ -100,7 +102,7 @@ This metric can be constructed in a similar manner as the previous metric, namel
 Potential problems and limitations are:
 
 -   This is a time-consuming effort, as one has to go through many websites, on both overall institution level, as well as on faculty level.
--   Her one has to work with what is offered as Open Science training facilities, one does not have any idea of what is being ‘consumed‘ from the offered training facilities?
+-   Here one has to work with what is offered as Open Science training facilities, one does not have any idea of what is being 'consumed' from the offered training facilities?
 -   An issue that popped up previously, one has to be aware of the fact that perhaps not all of the Open Science support facilities are (yet) online visible on websites.
 
 There are presently no generic and systematic data sources that contain such information.

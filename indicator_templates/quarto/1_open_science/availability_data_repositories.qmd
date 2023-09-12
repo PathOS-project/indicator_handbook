@@ -24,15 +24,13 @@ affiliations:
 | 1.1     | 2023-07-20    | Edited & revised             | T. Willemse  |
 | 1.0     | 2023-04-13    | First draft                  | T. Willemse  |
 
-:::
-
-## Description
+:::## Description
 
 In the context of Open Science, the availability of research data is an important topic. Open Data is often, but not exclusively, made available through data repositories, which can store and archive data for long-term preservation. More and more Open Data repositories are initiated and efforts to establish the needed infrastructure are undertaken. However, these repositories differ vastly in their nature and accessibility. It is therefore important to get an overview of the accessibility of these different data sources for the assessment and practice of Open Science.
 
 Governments and governmental agencies, individual universities and research communities are types of organisations involved in setting up data sources in various fields (Goben & Sandusky, 2020). There are also publisher-driven data repositories that stimulate cooperation and can be openly accessible to a certain extent. Lastly, there exist non-institution affiliated data repositories, ranging from field specific (e.g. gene databanks, such as International Nucleotide Sequence Database Collaboration) to more general repositories including multiple topics (e.g. Zenodo, Dryad, figshare).
 
-The wide variety of data repositories out there present a number of opportunities and challenges (Goben & Sandusky, 2020). A clear opportunity is the large increase in accessible data by an increasing number of repositories. However, the wide variety in repositories and infrastructure also presents a challenge in finding the right data repository or dataset that one is looking for. The increase in variety also leads to a risk of data misinterpretation or misuse and can lead to data loss.
+The wide variety of data repositories out there present a number of opportunities and challenges (Goben & Sandusky, 2020). A clear opportunity is the large increase in accessible data by an increasing number of repositories. However, the wide variety of repositories and infrastructure also presents a challenge in finding the right data repository or dataset that one is looking for. The increase in variety also leads to a risk of data misinterpretation or misuse and can lead to data loss.
 
 Given the potential for Open Data repositories it can be very helpful to get an indication of the accessibility of these resources and how they link up with research. It must be noted however that this indicator is not meant to be solely used to rank data repositories or scientific entities. To do this, other indicators and measures should be taken into account, as well as relevant contextual factors that are difficult to capture in quantitative data.
 
@@ -40,7 +38,7 @@ Given the potential for Open Data repositories it can be very helpful to get an 
 
 ### Number of data repositories
 
-The number of data repositories in a given area of interest can provide an indication of the availability of data repositories in this area. The main benefit of this metric being that it can serve as a quick indication of the availability. However, it is limited by the fact that it does not take into account the nature of each repository. Since data repositories can differ vastly in their size and openness this metric can give a skewed representation of the available data in the area of interest.
+The number of data repositories in a given area of interest can provide an indication of the availability of data repositories in this area. The main benefit of this metric being that it can serve as a quick indication of the availability. However, it is limited by the fact that it does not take into account the nature and dimensions of each repository. Since data repositories can differ vastly in their size and openness this metric can give a skewed representation of the available data in the area of interest.
 
 When looking for an indication of how widespread the availability of data repositories is, the percentage of territories, organisations etc., that provide a data repository service could be considered. If sufficient data can be found, this can serve as an indication without much calculation. Again however, this measure is limited, as it does not consider the characteristics of the data repositories.
 
@@ -60,21 +58,19 @@ OpenDOAR is a global directory of Open Access repositories. It has the functiona
 
 ###### DataCite
 
-[DataCite](https://datacite.org/value.html) is a non-profit organisation that provides DOI’s for research data and research output. Within their services DataCite also produces an [overview](https://search.datacite.org/repositories) of data repositories. These include a wide variety of data repositories that are associated with the data that is documented by DataCite. Although, many data repositories and associated datasets are documented here, the catalogue is somewhat limited in filtering for the openness of the data repositories themselves. It can therefore mainly serve as an information source on what type of data repositories are out there. An overview on the analytical possibilities of DataCite can be found in (Robinson-Garcia et al., 2017).
+[DataCite](https://datacite.org/value.html) is a non-profit organisation that provides DOI's for research data and research output. Within their services DataCite also produces an [overview](https://search.datacite.org/repositories) of data repositories. These include a wide variety of data repositories that are associated with the data that is documented by DataCite. Although, many data repositories and associated datasets are documented here, the catalogue is somewhat limited in filtering for the openness of the data repositories themselves. It can therefore mainly serve as an information source on what type of data repositories are out there. An overview on the analytical possibilities of DataCite can be found in (Robinson-Garcia et al., 2017).
 
 ###### FAIRsharing.org (<https://fairsharing.org/>)
 
 FAIRsharing.org provides a database on Open Access repositories and in addition provides information on data standards and links to policy documents. The data can be accessed and filtered via an API
 
-###### OpenAIRE? MOAD
+###### OpenAIRE
 
-Athena Research & Innovation Center, Directorate-General for Research and Innovation (European Commission), PPMI, and UNU-MERIT. Monitoring the Open Access Policy of Horizon 2020: Final Report. LU: Publications Office of the European Union, 2021. <https://data.europa.eu/doi/10.2777/268348>.
+To determine the availability of data repositories in a specific country using the OpenAIRE Graph, users can access the Graph dump through Zenodo. It is important to note that although the OpenAIRE Graph integrates over 129,000 data sources, the results will encompass data repositories integrated within the OpenAIRE Graph and are contingent upon the quality of information provided by those sources.
 
 ### Quality of data repositories
 
 Apart from looking at the sole number of data repositories one can also opt to assess the quality of data repositories to indicate its availability. Quality in this context could be seen as the openness of the data repository, cleanliness and completeness of data and metadata and the presence of data curation procedures for instance.
-
-[]{#_Hlk130734965}
 
 It can be difficult to obtain data on all existing data repositories, given the large number, variety and lack of metadata curation. There is not yet widely available information on the large scientific platforms, but there are some efforts that provide information on the topic listed below.
 

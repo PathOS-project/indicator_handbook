@@ -30,46 +30,44 @@ affiliations:
 
 ## History
 
-| Version | Revision date | Revision    | Author                                                  |
-|---------|---------------|-------------|---------------------------------------------------------|
-| 1.0     | 2023-02-12    | First draft | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
+| Version | Revision date | Revision                      | Author                                                  |
+|---------|---------------|-------------------------------|---------------------------------------------------------|
+| 1.1     | 2023-08-28    | Draft for initial publication | I. Grypari                                              |
+| 1.0     | 2023-02-12    | First draft                   | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
 
 :::
 
 ## Description
 
-\[Add text here\]
+To determine the size or volume of content within publication repositories in a specific field, country, or organization using the OpenAIRE Graph, researchers can analyze the Graph dump available on Zenodo or use OpenAIRE Explore (explore.openaire.eu). It's crucial to understand that while the OpenAIRE Graph has integrated over 129,000 data sources, the data derived will strictly represent repositories integrated into the graph, subject to the quality of information those sources provide (https://graph.openaire.eu/docs/ can be consulted)
 
 ## Metrics
 
-### &lt;metric name&gt;
+#### Accessibility of publications repositories
 
-\[Add text here\]
+Evaluating the access model of publication repositories, specifically categorizing them as open access, subscription-based, or limited to specific users.
+
+Usefulness:
+
+-   Provides clarity on whether a wider audience can readily access the content of a repository or if there are restrictions.
+
+Limitation:
+
+- Some repositories might switch access models over time, or have hybrid models combining elements of open and subscription-based access. Measurement.
+
+Examine each repository's documented access model. This can be achieved by querying databases that list repositories.
 
 #### Measurement.
 
-\[Add text here\]
-
 ##### Datasources
 
-###### &lt;datasource name&gt;
+OpenAIRE Graph and Directory of Open Access Repositories (DOAR) (integrated in the OpenAIRE Graph)
 
-\[Add text here\]
+##### Methodologies
 
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
+All repositories in both data sources are Open Access.
 
 ## Known correlates
 
-\[Add text here\]
+Various factors **may** influence the availability of publication repositories in specific fields, countries, or organizations such as: research output, research funding, technological infrastructure, Open Access mandates, research collaboration, overall research infrastructure.
 
-## Notes
-
-\[Add text here\]
-
-## References
-
-\[Add Zotero bibliography here\]

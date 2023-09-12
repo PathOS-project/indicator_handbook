@@ -19,9 +19,9 @@ affiliations:
 
 ## History
 
-| Version | Revision date | Revision                     | Author                    |
-|---------|---------------|------------------------------|---------------------------|
-| 1.0     | 2023-05-21    | Initial draft                | L. Waltman                |
+| Version | Revision date | Revision      | Author     |
+|---------|---------------|---------------|------------|
+| 1.0     | 2023-05-21    | Initial draft | L. Waltman |
 
 :::
 
@@ -45,7 +45,7 @@ Crossref is the datasource for this metric. Crossref makes the references of art
 
 If the metadata of an article in Crossref does not include references, this means that either the publisher did not submit the references to Crossref or the article does not have any references. There is no straightforward way to distinguish between these two possibilities.
 
-The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
+The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5). To calculate the metric yourself, you may use the Crossref API, documented at [https://api.crossref.org/swagger-ui/index.html](https://api.crossref.org/swagger-ui/index.html%22%20\t%20%22_blank). The `references-count` field in the API output indicates whether the metadata of an article includes references. 
 
 ### Journal articles with Open Abstracts
 
@@ -57,7 +57,7 @@ Crossref is the datasource for this metric. Crossref makes the abstracts of arti
 
 If the metadata of an article in Crossref does not include an abstract, this means that either the publisher did not submit the abstract to Crossref or the article does not have an abstract. There is no straightforward way to distinguish between these two possibilities.
 
-The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
+The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5). To calculate the metric yourself, you may use the Crossref API, documented at <https://api.crossref.org/swagger-ui/index.html>. If the metadata of an article includes an abstract, it can be found in the `abstract` field in the API output.
 
 ### Journal articles with Open Author Affiliations
 
@@ -69,7 +69,7 @@ Crossref is the datasource for this metric. Crossref makes the affiliations of t
 
 If the metadata of an article in Crossref does not include author affiliations, this means that either the publisher did not submit the author affiliations to Crossref or the article does not include any author affiliations. There is no straightforward way to distinguish between these two possibilities.
 
-This metric is used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
+This metric is used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5). To calculate the metric yourself, you may use the Crossref API, documented at <https://api.crossref.org/swagger-ui/index.html>. If the metadata of an article includes author affiliations, these can be found in the `affiliation` field in the API output.
 
 ### Journal articles with Open Funding Information
 
@@ -81,4 +81,4 @@ Crossref is the datasource for this metric. Crossref makes funding information o
 
 If the metadata of an article in Crossref does not include funding information, this means that either the publisher did not submit funding information to Crossref or the article does not include any funding information. There is no straightforward way to distinguish between these two possibilities.
 
-The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5).
+The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5). To calculate the metric yourself, you may use the Crossref API, documented at https://api.crossref.org/swagger-ui/index.html. If the metadata of an article includes funding information, this information can be found in the     `funder` field in the API output.

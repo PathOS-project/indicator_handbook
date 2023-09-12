@@ -15,17 +15,20 @@ affiliations:
 # Reuse of data in research {#reuse-of-data-in-research .unnumbered}
 
 ::: {}
+
 ## History
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
-| 1.1     | 2023-20-07    | Revisions   | Petros Stavropoulos |
+| 1.2     | 2023-08-30    | Revisions   | Petros Stavropoulos |
+| 1.1     | 2023-07-20    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First draft | Petros Stavropoulos |
+
 :::
 
 ## Description
 
-The reuse of data in research refers to the practice of utilizing existing data sets for new research questions. It is a common practice in various scientific fields, and it can lead to increased scientific efficiency, reduced costs, and enhanced scientific collaborations. This indicator aims to capture the extent to which researchers engage in the reuse of data in their research, by quantifying the number and proportion of studies that utilize previously collected data. The indicator can be used to assess the level of scientific collaboration and sharing of data within a specific scientific community or field, and to identify potential barriers or incentives for the reuse of data in research. Additionally, it can serve as a measure of the quality and reliability of research, as the reuse of data can increase the transparency, validity, and replicability of research findings.
+The reuse of data in research refers to the practice of utilizing existing data sets for new research questions. It is a common practice in various scientific fields, and it can lead to increased scientific efficiency, reduced costs, and enhanced scientific collaborations. Additionally, the reuse of well-documented data can serve as an independent verification of original findings, thereby enhancing the reproducibility of research. This indicator aims to capture the extent to which researchers engage in the reuse of data in their research, by quantifying the number and proportion of studies that utilize previously collected data. The indicator can be used to assess the level of scientific collaboration and sharing of data within a specific scientific community or field, and to identify potential barriers or incentives for the reuse of data in research. Additionally, it can serve as a measure of the quality and reliability of research, as the reuse of data can increase the transparency, validity, and replicability of research findings.
 
 ## Metrics
 
@@ -49,21 +52,23 @@ OpenAIRE is a European Open Science platform that provides access to millions of
 
 To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/) can be used to find and access Open Datasets, study their usage statistics, and identify the research publications that reference them.
 
+However, it's important to note that OpenAIRE Explore does not provide comprehensive data for directly calculating the metric, but rather provides the publication references of each Open Software that need to be analysed.
+
 ###### DataCite
 
-DataCite is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
+[DataCite](https://datacite.org/) is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
 
 To measure the proposed metric, we can employ the DataCite REST API to identify relevant datasets, along with to find their DOI, metadata and usage statistics.
 
 ##### Existing methodologies
 
-###### PathOS work in Task 2.5
+###### SciNoBo Toolkit
 
-This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused by the authors of the publication.
+The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused by the authors of the publication.
 
 To measure the proposed metric, the tool can be used to identify the reused datasets in the publication texts.
 
-One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the publication. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
+One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the publication. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused and may require manual validation.
 
 ###### DataSeer.ai
 
@@ -71,7 +76,7 @@ One limitation of this methodology is that it may not capture all instances of d
 
 To measure the proposed metric, DataSeer.ai can scan the body of text in research articles and identify instances of dataset reuse.
 
-However, it's important to note that DataSeer.ai's ability to determine actual data reuse may depend on the explicitness of the authors' writing about their data usage, thus not capturing all instances of dataset reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
+However, it is important to note that DataSeer.ai's ability to determine actual data reuse may depend on the explicitness of the authors' writing about their data usage, thus not capturing all instances of dataset reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
 
 ### Number (%) of publications with reused datasets
 
@@ -93,21 +98,23 @@ OpenAIRE is a European Open Science platform that provides access to millions of
 
 To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/) can be used to find and access Open Datasets, study their usage statistics, and identify the research publications that reference them.
 
+However, it is important to note that OpenAIRE Explore does not provide comprehensive data for directly calculating the metric, but rather provides the publication references of each Open Software that need to be analysed.
+
 ###### DataCite
 
-DataCite is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
+[DataCite](https://datacite.org/) is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
 
 To measure the proposed metric, we can employ the DataCite REST API to identify relevant datasets, along with to find their DOI, metadata and usage statistics.
 
 ##### Existing methodologies
 
-###### PathOS work in Task 2.5
+###### SciNoBo Toolkit
 
-This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused by the authors of the publication.
+The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused by the authors of the publication.
 
-To measure the proposed metric, the tool can be used to identify the reused datasets in the publication texts.
+To measure the proposed metric, the tool can be used to identify reused datasets in publication texts.
 
-One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the publication. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
+One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the publication. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused and may require manual validation.
 
 ###### DataSeer.ai
 
@@ -115,8 +122,10 @@ One limitation of this methodology is that it may not capture all instances of d
 
 To measure the proposed metric, DataSeer.ai can scan the body of text in research articles and identify instances of dataset reuse.
 
-However, it's important to note that DataSeer.ai's ability to determine actual data reuse may depend on the explicitness of the authors' writing about their data usage, thus not capturing all instances of dataset reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
+However, it is important to note that DataSeer.ai's ability to determine actual data reuse may depend on the explicitness of the authors' writing about their data usage, thus not capturing all instances of dataset reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused and may require manual validation.
 
 ## References
 
-\[Add Zotero bibliography here\]
+Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. Companion Proceedings of the Web Conference 2022, 800–809. <https://doi.org/10.1145/3487553.3524677>
+
+Kotitsas, S., Pappas, D., Manola, N., & Papageorgiou, H. (2023). SCINOBO: A novel system classifying scholarly communication in a dynamically constructed hierarchical Field-of-Science taxonomy. Frontiers in Research Metrics and Analytics, 8. https://www.frontiersin.org/articles/10.3389/frma.2023.1149834
