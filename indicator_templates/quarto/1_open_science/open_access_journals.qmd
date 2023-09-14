@@ -45,14 +45,14 @@ Description:
 
 **Access rights of Articles:**
 
--   -   Fully OA Journal: All articles are OA
-    -   Hybrid Journal: Some articles are OA some not.
-    -   Subscription Journal (remaining)
+-   Fully OA Journal: All articles are OA
+-   Hybrid Journal: Some articles are OA some not.
+-   Subscription Journal (remaining)
 
 **APC costs of OA Articles:**
 
--   -   Diamond OA Journal: Fully OA journal without APCs.
-    -   Fully OA Journal with APCs (remaining)
+-   Diamond OA Journal: Fully OA journal without APCs.
+-   Fully OA Journal with APCs (remaining)
 
 Usefulness:
 

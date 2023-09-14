@@ -1,4 +1,4 @@
-- --
+---
 author:
     - name: N. Manola
       orcid: 0000-0002-3477-3082
@@ -22,7 +22,7 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
-- --
+---
 
 # Prevalence of preprinting {#prevalence-of-preprinting .unnumbered}
 
