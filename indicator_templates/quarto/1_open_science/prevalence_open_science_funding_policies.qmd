@@ -64,15 +64,15 @@ Examples of organizations that promote supranational Open Science funding polici
 
 ##### UNESCO recommendations
 
-https://unesdoc.unesco.org/ark:/48223/pf0000383709
+<https://unesdoc.unesco.org/ark:/48223/pf0000383709>
 
 ##### Implementation of the UNESCO recommendations
 
-https://www.unesco.org/en/open-science/implementation#open-science-working-groups
+<https://www.unesco.org/en/open-science/implementation#open-science-working-groups>
 
 ##### ROAR map
 
-https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name
+<https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name>
 
 ### Public European Open Science funding policies
 

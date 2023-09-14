@@ -76,7 +76,7 @@ Count
 
 ###### ASAPbio
 
-ASAPbio maintains a list of preprint repositories, available from https://asapbio.org/preprint-servers.
+ASAPbio maintains a list of preprint repositories, available from <https://asapbio.org/preprint-servers>.
 
 ### Quality of preprint repositories
 
