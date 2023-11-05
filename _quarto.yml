@@ -95,6 +95,7 @@ book:
 
     - part: Reproducibility
       chapters:
+        - reproducibility_intro.qmd
         - indicator_templates/quarto/5_reproducibility/consistency_in_reported_numbers.qmd
         - indicator_templates/quarto/5_reproducibility/impact_of_open_code_in_research.qmd
         - indicator_templates/quarto/5_reproducibility/impact_of_open_data_in_research.qmd
