@@ -1,57 +1,70 @@
-# Academic readership {#academic-readership .unnumbered}
-::: {}
+# Readership impact {#readership-impact .unnumbered}
 
-## History
-:::
+History (please fill out in reverse chronological order, latest revision on top):
+
+|         |               |                              |                           |
+|---------|---------------|------------------------------|---------------------------|
+| Version | Revision date | Revision                     | Author                    |
+| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
+
 ## Description
 
-\[Add text here\]
+The main concept of the indicator “Academic readership” is the measurement of the amount of individuals that have engaged in reading academic articles. The most popular measurement of academic readership is provided by Mendeley, an online reference manager that via its API provides counts of the number of users, within the Mendeley platform, that have saved a given publication in their personal libraries.
+
+The indicator is calculated at the level of an individual publication, typically based on the DOI or another unique publication identifier (e.g. PMID, arxiv id, etc.), and it can be aggregated at other units of analysis (e.g. University, journal, researcher, etc.).
+
+In practice, the count of Mendeley readers can be extracted by querying the search tool provided by Mendeley (<https://www.mendeley.com/search/>) or its API (<https://dev.mendeley.com/>). The searches can be done at the publication-level (i.e. querying by a given DOI or publication information) and the total number of “readers” (i.e. Mendeley users who have saved the given publication) can be retrieved either manually or automatically. Here is an example of a sample publication: <https://www.mendeley.com/catalogue/c432c71b-f025-3fb1-976a-0abf79106045/>
+
+The count of “readers” can be used in a similar fashion as the count of citations, and derived indicators similar to those based on citation can also be extracted (e.g. mean readership score, mean normalized readership scores, highly read publications, etc.).
 
 ## Metrics
 
-### Number of times publications are saved in reference manager (Avg. / Total).
+### Total Readership Score (TRS)
 
-\[Add text here\]
+The simplest indicator, at any level of analysis (publication, individual, journal, institution, etc.) is the count (and accumulation) of all the readers of a given set of publications. From this indicator, other derived indicators like mean citation scores and others can be extracted.
 
-#### Measurement.
+For a more detailed explanation of how to calculate indicators based on Mendeley readership (TRS and derived) see:
 
-\[Add text here\]
+Zahedi, Z., Costas, R., Wouters, P. (2017). Mendeley readership as a filtering tool to identify highly cited publications. Journal of the Association for Information Science and Technology, 68, 10, 2511-2521. <https://doi.org/10.1002/asi.23883>
 
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-### Number of times publications are accessed (views, clicks, downloads)
-
-\[Add text here\]
+Zahedi, Z., & Costas, R. (2020). Do Online Readerships Offer Useful Assessment Tools? Discussion Around the Practical Applications of Mendeley Readership for Scholarly Assessment. Scholarly Assessment Reports, 2(1): 14. DOI: <https://doi.org/10.29024/sar.20>
 
 #### Measurement.
 
-\[Add text here\]
+Starting from a collection of publications, considering their DOIs (or other unique publication identifiers) it is possible to query the API or search tools of Mendeley (see information above) to extract readership metrics. The metric extracted is the total number of Mendeley users that have saved the publication(s) in their Mendeley libraries up to the moment of the data collection.
+
+Some of the most important limitations of using Mendeley readership metrics include the following:
+
+-   Total readership counts are extracted up to the moment of the data collection, not being possible to characterize the counts longitudinally or establish “readership windows” for equivalent comparisons across publications.
+-   “Readership” are not actually reads of the publications, but rather the act of saving a publication in a user Mendeley library.
+-   Mendeley readership is a more inclusive metric, since any user from all over the world can engage with publications and result in readers counts. However, this also makes it potentially manipulable if no curation processes are set in place.
+-   The uptake Mendeley as a reference manager tool is unequal across countries and disciplines, potentially resulting in lower visibility for publications from some disciplines (e.g. Mathematics and computer sciences) or world regions (e.g. Asian countries).
 
 ##### Existing datasources:
 
-###### &lt;datasource name&gt;
+###### Mendeley
 
-\[Add text here\]
+Mendeley is one of the most popular social reference management tools. It is broadly used by users from all over the world to organising their own bibliography. The start-up Mendeley was founded in 2007, being bought by Elsevier in 2013. Mendeley captures the interaction of its users with scientific articles in what is called “readership” or “bookmarking”: once a user saves information about an article in its personal library, this is counted by Mendeley.
+
+This metric, although conceptually limited, has been observed to have a moderate correlation with citations (see below), suggesting that Mendeley readership could provide some alternative and complementary perspective over citation counts.
+
+Methodologically speaking, the metric can easily be incorporated for any publication (or set of publications) by querying the seach tool or API of Mendeley. Once the metric (“reads”) is extracted from these tools, this count can be aggregated for different levels of analysis (e.g. journals, individuals, institutions, etc.), calculating derived statistics (e.g. median, average, percentiles, etc.).
 
 ##### Existing methodologies
 
-###### &lt;methodology name&gt;
+###### Methodologies proposed in the literature
 
-\[Add text here\]
+Given the large coverage, density and distribution of Mendeley readership across scientific publications of all disciplines, it is possible to calculate citation-like forms of indicators. In the past, Zahedi & Costas (2020) and Bornmann & Haunschild (2016) have formalized these methodologies and practical applications of Mendeley readership counts, including the calculation of field-normalized indicators based on readership counts, like Mean Normalized Readership Score (MNRS).
+
+See:
+
+Bornmann, L., & Haunschild, R. (2016). Normalization of Mendeley reader impact on the reader- and paper-side: A comparison of the mean discipline normalized reader score (MDNRS) with the mean normalized reader score (MNRS) and bare reader counts. Journal of Informetrics, 10, 3, 776-788. <https://doi.org/10.1016/j.joi.2016.04.015>
+
+Zahedi, Z., & Costas, R. (2020). Do Online Readerships Offer Useful Assessment Tools? Discussion Around the Practical Applications of Mendeley Readership for Scholarly Assessment. Scholarly Assessment Reports, 2(1): 14. DOI: <https://doi.org/10.29024/sar.20>
 
 ## Known correlates
 
-\[Add text here\]
+A moderate correlation between Mendeley readership and citations has been largely established in the literature (see Zahedi et al, 2014 - <https://arxiv.org/abs/1404.1301> ), and readership counts distributions resemble quite strongly those of citations (see Costas et al, 2017 - <https://doi.org/10.1108/AJIM-01-2017-0023>).
 
 ## Notes
 

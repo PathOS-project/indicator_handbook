@@ -1,122 +1,101 @@
-# Diversity {#diversity .unnumbered}
-::: {}
+Diversity
 
-## History
-:::
+History (please fill out in reverse chronological order, latest revision on top):
+
+|         |               |             |               |
+|---------|---------------|-------------|---------------|
+| Version | Revision date | Revision    | Author        |
+| 1.0     | 2023-11-16    | First draft | Simon Apartis |
+
 ## Description
 
-\[Add text here\]
+The concept of diversity draws attention to forms of diffused oppression and minorization processes and how they take place at a micro-political or even intimate scale, which are dimensions of social life that sometimes go unnoticed by a more macroscopic socio-economic inequality analysis framework. On the other hand, it tends to convey a depoliticized view of social inequalities by framing them as mere horizontal differences requiring *inclusion* rather than the product of power dynamics requiring *redistribution*[\[1\]](https://euc-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=fr&rs=en%2DUS&wopisrc=https%3A%2F%2Fimisathena.sharepoint.com%2Fsites%2FPathOS%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F192131612166445f8d675f86035aa6bd&wdenableroaming=1&mscc=1&hid=BDC1EEA0-D025-7000-A90C-2B985F11F955&wdorigin=ItemsView&wdhostclicktime=1700168398797&jsapi=1&jsapiver=v1&newsession=1&corrid=8dcf927b-54d4-4ad7-ad86-cda221530b41&usid=8dcf927b-54d4-4ad7-ad86-cda221530b41&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Normal&ctp=LeastProtected#_ftn1).
+
+The notion of diversity originated as a practical instrument introduced by Anglo-Saxon public policies in the 1980s, later followed by European policymakers and businesses. Despite the inherently positive connotation of the term "diversity," diversity strategies can also be analysed as paradoxical mechanisms of dominance, where a neutral Subject establishes marginalized groups as the "Other", strategizing ways to "include" this otherness, thereby reinforcing its exclusive authority in defining the Subject/Other dichotomy and the accompanying power dynamics[\[2\]](https://euc-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=fr&rs=en%2DUS&wopisrc=https%3A%2F%2Fimisathena.sharepoint.com%2Fsites%2FPathOS%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F192131612166445f8d675f86035aa6bd&wdenableroaming=1&mscc=1&hid=BDC1EEA0-D025-7000-A90C-2B985F11F955&wdorigin=ItemsView&wdhostclicktime=1700168398797&jsapi=1&jsapiver=v1&newsession=1&corrid=8dcf927b-54d4-4ad7-ad86-cda221530b41&usid=8dcf927b-54d4-4ad7-ad86-cda221530b41&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Normal&ctp=LeastProtected#_ftn2).
+
+That is why, in the effort to assess diversity, it is crucial to be careful about a few points. First, it is important to measure both socio-economic and societal aspects of diversity and think of them as a whole:
+
+1.  Traditional socio-economic features such as income, wealth, education, employment rate, access to health services, housing conditions, and geographical inequalities
+2.  And societal features such as gender identity, sexual orientation, religion or handicap
+
+Second when it comes specifically to science, inequalities and diversity should be measured in three distinct aspects:
+
+1.  Diversity in the topics of science (diversity as object / product of science)
+2.  Diversity amongst the producers of science (diversity as subject/producer of science)
+3.  Diversity in the methods of social production of science (diversity as mediating process between subject/producer and object/product)
+
+Third, to measure diversity in science means to measure the role each participant plays at each stage of the scientific development[\[3\]](https://euc-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=fr&rs=en%2DUS&wopisrc=https%3A%2F%2Fimisathena.sharepoint.com%2Fsites%2FPathOS%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F192131612166445f8d675f86035aa6bd&wdenableroaming=1&mscc=1&hid=BDC1EEA0-D025-7000-A90C-2B985F11F955&wdorigin=ItemsView&wdhostclicktime=1700168398797&jsapi=1&jsapiver=v1&newsession=1&corrid=8dcf927b-54d4-4ad7-ad86-cda221530b41&usid=8dcf927b-54d4-4ad7-ad86-cda221530b41&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Normal&ctp=LeastProtected#_ftn3): design, development, data collection, processing, analysis, interpretation, dissemination, and ownership of results.
+
+Last, it is important to look at the way the needs of diverse scholars participating to science are met and how much they are given the power to self-define them and the ways to have them met, for instance how latently or patently transphobic the work environment might be, or whether the scientific facilities are designed to be accessible with a wheelchair, etc.
+
+One could also reflexively add that it is crucial in the very process of measuring diversity that the scientists who do it are themselves somehow diverse, and in any case, aware of specific tools they could use to control for the epistemological biases that comes with their situated position.
 
 ## Metrics
 
-### Avg. number of different institutions / countries.
+### Diversity in the topics of science
 
-\[Add text here\]
+\#/% of books, articles, thesis, research blogs, datasets or even piece of software related to or mentioning diversity topics
 
-#### Measurement.
+##### Existing datasourcesWeb of Science, Scopus, any Open Science Platform where the abstract or the full-text can be analysed to extract and clusterize the concepts and topics of the resourcesExisting methodologies
 
-\[Add text here\]
+Scientometry, NLP
 
-##### Existing datasources:
+Note that this metrics supposes to have clearly defined what “diversity related topics” are, which is not easy to do.
 
-###### &lt;datasource name&gt;
+### Diversity amongst the producers of science
 
-\[Add text here\]
+-   \#/% of queer / handicapped / female / racialized researcher who (co-)authored a book, article, thesis, research blog, dataset or a piece of software
+-   Income and wealth level, access to health services, housing conditions, geographical location of the author(s) of a book, article, thesis, research blog, dataset or a piece of software
+-   Same aforementioned features but broken down by scientific process step (design, development, data collection, processing, analysis, interpretation, dissemination, and ownership of results)
 
-##### Existing methodologies
+##### Existing datasources
 
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-### Diversity of institutions (in terms of ranking).
-
-\[Add text here\]
-
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
+Many of these data are considered sensitive by GDPR^[\[1\]](#footnote-2){#footnote-ref-2}^, and very often, as a result of a very lack of diversity, the categories needed to measure diversity in existing datasets are lacking or follow normative principles that fail at representing and capturing diversity^[\[2\]](#footnote-3){#footnote-ref-3}^.
 
 ##### Existing methodologies
 
-###### &lt;methodology name&gt;
+Semi-structured survey
 
-\[Add text here\]
+### Diversity in the mode of production of science
 
-### Avg. number of different disciplines.
+-   \#/% of books, articles, thesis, research blogs, datasets or pieces of software produced in a research context where significant effort is made to include participants from diverse backgrounds
+-   \#/% of books, articles, thesis, research blogs, datasets or pieces of software generated in a research context where participants from diverse backgrounds have the agency to address their unique needs.
+-   \#/% of books, articles, thesis, research blogs, datasets or even piece of software authored by authors who frequently co-publish articles with participants from diverse backgrounds
 
-\[Add text here\]
+##### Existing datasources
 
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
+See previous.
 
 ##### Existing methodologies
 
-###### &lt;methodology name&gt;
+This metrics supposes to have clearly defined what the specific needs of people from diverse backgrounds are.
 
-\[Add text here\]
+1.  Notes
 
-### Avg. number of different genders.
+The academic field is characterized by certain set of subnorms that define a specific scientific ethos. Without settling immense debate of defining those norms, it is important to note that this specific ethos has implications for how diversity functions in and on science. Complying to the scientific ethos, in order to be able to “play the game of science” requires specific socio-economic conditions such as stable income, decent housing, access to higher education etc. that enable individuals to acquire the set of scientific skills needed to produce scientifically valid statements, that is to say peer recognized and compliant to scientific discursive norms.
 
-\[Add text here\]
+The socio-economic preconditions of this "scholastic view"^[\[3\]](#footnote-4){#footnote-ref-4}^, may act as a barrier for the underprivileged. Conversely, a series of paradigm shifts in the history, sociology, and philosophy of science (Kuhn, Longino, Wylie) has demonstrated that science is more infused with social values and hierarchies than previously believed and stressed out the fact that well-orchestrated diversity in research communities could lead to more efficient and scientifically relevant research. Last, it is important to note that in recent years, policymakers have implemented initiatives mandating that science take a more direct role in confronting immediate and urgent societal challenges \[^[\[4\]](#footnote-5){#footnote-ref-5}^\]
 
-#### Measurement.
+1.  References
 
-\[Add text here\]
+[^\[1\]^](https://euc-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=fr&rs=en%2DUS&wopisrc=https%3A%2F%2Fimisathena.sharepoint.com%2Fsites%2FPathOS%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F192131612166445f8d675f86035aa6bd&wdenableroaming=1&mscc=1&hid=BDC1EEA0-D025-7000-A90C-2B985F11F955&wdorigin=ItemsView&wdhostclicktime=1700168398797&jsapi=1&jsapiver=v1&newsession=1&corrid=8dcf927b-54d4-4ad7-ad86-cda221530b41&usid=8dcf927b-54d4-4ad7-ad86-cda221530b41&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Normal&ctp=LeastProtected#_ftnref1) Olivier Masclet, Sociologie de la diversité et des discriminations, Armand Colin
 
-##### Existing datasources:
+[^\[2\]^](https://euc-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=fr&rs=en%2DUS&wopisrc=https%3A%2F%2Fimisathena.sharepoint.com%2Fsites%2FPathOS%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F192131612166445f8d675f86035aa6bd&wdenableroaming=1&mscc=1&hid=BDC1EEA0-D025-7000-A90C-2B985F11F955&wdorigin=ItemsView&wdhostclicktime=1700168398797&jsapi=1&jsapiver=v1&newsession=1&corrid=8dcf927b-54d4-4ad7-ad86-cda221530b41&usid=8dcf927b-54d4-4ad7-ad86-cda221530b41&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Normal&ctp=LeastProtected#_ftnref2) See Simone de Beauvoir’s analysis of Hegel’s master-slave dialectic in the introduction to *Le Deuxième Sexe, Gallimard.* See also Queer Data, p. 13.
 
-###### &lt;datasource name&gt;
+[^\[3\]^](https://euc-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=fr&rs=en%2DUS&wopisrc=https%3A%2F%2Fimisathena.sharepoint.com%2Fsites%2FPathOS%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F192131612166445f8d675f86035aa6bd&wdenableroaming=1&mscc=1&hid=BDC1EEA0-D025-7000-A90C-2B985F11F955&wdorigin=ItemsView&wdhostclicktime=1700168398797&jsapi=1&jsapiver=v1&newsession=1&corrid=8dcf927b-54d4-4ad7-ad86-cda221530b41&usid=8dcf927b-54d4-4ad7-ad86-cda221530b41&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Normal&ctp=LeastProtected#_ftnref3) ^\[3\]^ Shelley Arnstein, *A ladder of citizen participation,* Juillet 1969, AIP Journal
 
-\[Add text here\]
+1.  ::: {#footnote-2}
+    <https://commission.europa.eu/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en> [↑](#footnote-ref-2)
+    :::
 
-##### Existing methodologies
+2.  ::: {#footnote-3}
+    See Kevin Guyan, Queer Data, Using gender, Sex and sexuality data for action, Bloomsbury, 2022 [↑](#footnote-ref-3)
+    :::
 
-###### &lt;methodology name&gt;
+3.  ::: {#footnote-4}
+    Bourdieu, Meditations Pascaliennes, part 1. [↑](#footnote-ref-4)
+    :::
 
-\[Add text here\]
-
-### Avg. number of different ethnicities.
-
-\[Add text here\]
-
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
-## References
-
-\[Add Zotero bibliography here\]
+4.  ::: {#footnote-5}
+    “Science with and for society” subprogram in the Horizon 2020 2014-2021 Program, followed by the full integration of the Responsible Research and Innovation principles in the 2021-2027 Horizon Europe Program. [↑](#footnote-ref-5)
+    :::

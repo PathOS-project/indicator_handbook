@@ -1,35 +1,19 @@
-# Novelty {#novelty .unnumbered}
-::: {}
+# &lt;indicator name&gt; {#indicator-name .unnumbered}
 
-## History
-:::
+History (please fill out in reverse chronological order, latest revision on top):
+
+|         |               |                              |                           |
+|---------|---------------|------------------------------|---------------------------|
+| Version | Revision date | Revision                     | Author                    |
+| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
+
 ## Description
 
 \[Add text here\]
 
 ## Metrics
 
-### Relative scientific distance between citing/cited articles
-
-\[Add text here\]
-
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-### Relative scientific distance between keywords
+### &lt;metric name&gt;
 
 \[Add text here\]
 
