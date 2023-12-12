@@ -1,3 +1,20 @@
+---
+author:
+    - name: P. Stavropoulos
+      orcid: 0000-0003-1664-6554
+      affiliations:
+      - ref: arc
+    - name: H. Papageorgiou
+      orcid: 0000-0002-7352-2403
+      affiliations:
+      - ref: arc
+
+affiliations:
+- id: arc
+  name: Athena Research Center
+  city: Athena
+  country: Greece
+---
 
 # Introduction to Reproducibility  {#introduction-to-reproducibility .unnumbered}
 
