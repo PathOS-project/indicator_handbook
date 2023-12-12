@@ -31,25 +31,25 @@ However, since there are differences across fields and publication year, this me
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
-In more formal notation, let \$c\_i\$ be the citation score of a paper \$i\$, and let \$S\$ be the set of papers of interest with \$n = \|S\|\$ papers in total. Then the total citation score (TCS) can be defined as
+In more formal notation, let $c_i$ be the citation score of a paper $i$, and let $S$ be the set of papers of interest with $n = |S|$ papers in total. Then the total citation score (TCS) can be defined as
 
-\$\$\\text{TCS} = \\sum\_{i \\in S} c\_i\$\$
+$$\text{TCS} = \sum_{i \in S} c_i$$
 
 and the mean citation score (MCS) can be defined as
 
-\$\$\\text{MCS} = \\frac{1}{n} \\sum\_{i \\in S} c\_i\$\$
+$$\text{MCS} = \frac{1}{n} \sum_{i \in S} c_i$$
 
-If we use fractionalisation then each paper \$i\$ is assigned a weight \$w\_i\$. We can then define the TCS as the weighted sum
+If we use fractionalisation then each paper $i$ is assigned a weight $w_i$. We can then define the TCS as the weighted sum
 
-\$\$\\text{TCS} = \\sum\_{i \\in S} w\_i c\_I\$\$
+$$\text{TCS} = \sum_{i \in S} w_i c_i$$
 
 and similarly define MCS as the weighted average
 
-\$\$\\text{MCS} = \\frac{1}{w} \\sum\_{i \\in S} w\_i c\_I,\$\$
+$$\text{MCS} = \frac{1}{w} \sum_{i \in S} w_i c_i,$$
 
-where \$w = \\sum\_{i \\in S} w\_i\$.
+where $w = \sum_{i \in S} w_i$.
 
-Indeed, if we set \$w\_i = 1\$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The MCS is simply the TCS divided by the total weight \$\\text{MCS} = \\frac{1}{w} \\text{TCS}\$.
+Indeed, if we set $w_i = 1$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The MCS is simply the TCS divided by the total weight $\text{MCS} = \frac{1}{w} \text{TCS}$.
 
 ### Number / % of Highly Cited Publications
 
@@ -63,35 +63,31 @@ The simplification of citations to a binary distinction between highly cited or 
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
-In more formal notation, let \$c\_i\$ be the citation score of a paper \$i\$, and let \$S\$ be the set of papers of interest with \$n = \|S\|\$ papers in total. Let \$c\*\$ be the threshold set for identifying a highly cited publication. Then we can define whether a publication is highly cited or not as follows
+In more formal notation, let $c_i$ be the citation score of a paper $i$, and let $S$ be the set of papers of interest with $n = |S|$ papers in total. Let $c^*$ be the threshold set for identifying a highly cited publication. Then we can define whether a publication is highly cited or not as follows
 
-\$\$h\_i = \\begin{cases}
-
-1 & \\text{if} c\_i &gt; c\* [\\\\](NULL)
-
-0 otherwise [\\\\](NULL)
-
-\\end{cases}
-
-\$\$
+$$h_i = \begin{cases}
+            1 & \text{if~} c_i > c^* \\
+            0 & \text{otherwise} \\
+        \end{cases}
+$$
 
 The number of highly cited publications can then be defined as
 
-\$\$\\text{NHCP} = \\sum\_{i \\in S} h\_i\$\$
+$$\text{NHCP} = \sum_{i \in S} h_i$$
 
 and the proportion can be defined as
 
-\$\$\\text{PHCP} = \\frac{1}{n} \\sum\_{i \\in S} h\_i\$\$
+$$\text{PHCP} = \frac{1}{n} \sum_{i \in S} h_i$$
 
-If we use fractionalisation then each paper \$i\$ is assigned a weight \$w\_i\$. We can then define the number/percentage of highly cited publications as
+If we use fractionalisation then each paper $i$ is assigned a weight $w_i$. We can then define the number/percentage of highly cited publications as
 
-\$\$\\text{NHCP} = \\sum\_{i \\in S} w\_i c\_i\$\$
+$$\text{NHCP} = \sum_{i \in S} w_i c_i$$
 
-where \$w = \\sum\_{i \\in S} w\_i\$, and similarly
+where $w = \sum_{i \in S} w_i$, and similarly
 
-\$\$\\text{PHCP} = \\frac{1}{w} \\sum\_{i \\in S} w\_i h\_i\$\$
+$$\text{PHCP} = \frac{1}{w} \sum_{i \in S} w_i h_i$$
 
-Indeed, if we set \$w\_i = 1\$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The percentage of highly cited publications is simply the number of highly cited publications divided by the total weight \$\\text{PHCP} = \\frac{1}{w} \\text{NHCP}\$.
+Indeed, if we set $w_i = 1$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The percentage of highly cited publications is simply the number of highly cited publications divided by the total weight $\text{PHCP} = \frac{1}{w} \text{NHCP}$.
 
 ### Avg. / Total Normalised Citations (MNCS / TNCS)
 
@@ -113,33 +109,33 @@ The basis of this metric is counting citations. Counting citations implies that 
 
 In addition, this metric requires to calculate expected citation counts. Calculating expected citation counts can be challenging, and requires access to many other publications, typically all publications in a database. For this reason, reason, calculating normalised indicators can present considerable challenges. We will here explain the calculation of the expected citation counts for publications in the same field and in the same year, where we assume publications are assigned to exactly one field only^[\[3\]](#footnote-27519){#footnote-ref-27519}^. Note that the normalisation hence depends on the field classification used. See our indicator of fields for more details.
 
-In more formal notation, let \$c\_i\$ be the citation score of a paper \$i\$, let \$f\_i\$ be the field of paper \$i\$ and let \$y\_i\$ be the year of publication of paper \$i\$. The expected number of citations \$e\_{fy}\$ for a publication in field \$f\$ and year \$y\$ is then calculated as the average number of citations for publications in the same field and the same year. Let \$S\_{fy} = \\{i \| f\_i = f and y\_i = y\\}\$ be the set of publications in the same field and year. Let \$n\_{fy} = \|S\_{fy}\|\$ be the number of such publications. Then, the expected number of citations in the same field and year can be defined as
+In more formal notation, let $c_i$ be the citation score of a paper $i$, let $f_i$ be the field of paper $i$ and let $y_i$ be the year of publication of paper $i$. The expected number of citations $e_{fy}$ for a publication in field $f$ and year $y$ is then calculated as the average number of citations for publications in the same field and the same year. Let $S_{fy} = \{i \mid f_i = f \text{~and~} y_i = y\}$ be the set of publications in the same field and year. Let $n_{fy} = |S_{fy}|$ be the number of such publications. Then, the expected number of citations in the same field and year can be defined as
 
-\$\$e\_{fy} = \\frac{1}{n\_{fy}} \\sum\_{S\_{fy}} c\_I.\$\$
+$$e_{fy} = \frac{1}{n_{fy}} \sum_{S_{fy}} c_i.$$
 
-The normalised citation score \$c’\_i\$ can then be defined as
+The normalised citation score $c'_i$ can then be defined as
 
-\$\$c’\_i = \\frac{c\_i}{e\_{f\_i,s\_i}}.\$\$
+$$c'_i = \frac{c_i}{e_{f_i,s_i}}.$$
 
-Let \$S\$ then denotes the set of papers of interest with \$n = \|S\|\$ papers in total. Then the total normalised citation score (TNCS) can be defined as
+Let $S$ then denotes the set of papers of interest with $n = |S|$ papers in total. Then the total normalised citation score (TNCS) can be defined as
 
-\$\$\\text{TNCS} = \\sum\_{i \\in S} c’\_i\$\$
+$$\text{TNCS} = \sum_{i \in S} c'_i$$
 
 and the mean normalised citation score (MNCS) can be defined as
 
-\$\$\\text{MNCS} = \\frac{1}{n} \\sum\_{i \\in S} c\_i\$\$
+$$\text{MNCS} = \frac{1}{n} \sum_{i \in S} c_i$$
 
-If we use fractionalisation then each paper \$i\$ is assigned a weight \$w\_i\$. We can then define the TNCS as the weighted sum
+If we use fractionalisation then each paper $i$ is assigned a weight $w_i$. We can then define the TNCS as the weighted sum
 
-\$\$\\text{TNCS} = \\sum\_{i \\in S} w\_i c\_I\$\$
+$$\text{TNCS} = \sum_{i \in S} w_i c_i$$
 
 and similarly define MNCS as the weighted average
 
-\$\$\\text{MNCS} = \\frac{1}{w} \\sum\_{i \\in S} w\_i c\_I,\$\$
+$$\text{MNCS} = \frac{1}{w} \sum_{i \in S} w_i c_i,$$
 
-where \$w = \\sum\_{i \\in S} w\_i\$.
+where $w = \sum_{i \in S} w_i$.
 
-Indeed, if we set \$w\_i = 1\$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The MCS is simply the TCS divided by the total weight \$\\text{MCS} = \\frac{1}{w} \\text{TCS}\$.
+Indeed, if we set $w_i = 1$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The MCS is simply the TCS divided by the total weight $\text{MCS} = \frac{1}{w} \text{TCS}$.
 
 The MNCS indicator is also implemented in several data sources under different names. In InCites, based on Web of Science, this indicator is known as the [Category Normalised Citation Impact](https://incites.help.clarivate.com/Content/Indicators-Handbook/ih-normalized-indicators.htm) (CNCI). In SciVal and Scopus, this indicator is known as [Field-Weighted Citation Impact](https://service.elsevier.com/app/answers/detail/a_id/14894/supporthub/scopus/) (FWCI). In Dimensions, this indicator is known as the [Field Citation Ratio](https://plus.dimensions.ai/support/solutions/articles/23000018848-what-is-the-fcr-how-is-it-calculated-) (FCR). In OpenAlex, this indicator is not (yet) available.
 
@@ -155,35 +151,31 @@ The simplification of citations to a binary distinction between highly cited or 
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
-In more formal notation, let \$c\_i\$ be the citation score of a paper \$i\$, and let \$S\$ be the set of papers of interest with \$n = \|S\|\$ papers in total. Let \$c\*\$ be the threshold set for identifying a highly cited publication. Then we can define whether a publication is highly cited or not as follows
+In more formal notation, let $c_i$ be the citation score of a paper $i$, and let $S$ be the set of papers of interest with $n = |S|$ papers in total. Let $c^*$ be the threshold set for identifying a highly cited publication. Then we can define whether a publication is highly cited or not as follows
 
-\$\$h\_i = \\begin{cases}
-
-1 & \\text{if} c\_i &gt; c\* [\\\\](NULL)
-
-0 otherwise [\\\\](NULL)
-
-\\end{cases}
-
-\$\$
+$$h_i = \begin{cases}
+            1 & \text{if~} c_i > c^* \\
+            0 & \text{otherwise} \\
+        \end{cases}
+$$
 
 The number of highly cited publications can then be defined as
 
-\$\$\\text{NHCP} = \\sum\_{i \\in S} h\_i\$\$
+$$\text{NHCP} = \sum_{i \in S} h_i$$
 
 and the proportion can be defined as
 
-\$\$\\text{PHCP} = \\frac{1}{n} \\sum\_{i \\in S} h\_i\$\$
+$$\text{PHCP} = \frac{1}{n} \sum_{i \in S} h_i$$
 
-If we use fractionalisation then each paper \$i\$ is assigned a weight \$w\_i\$. We can then define the number/percentage of highly cited publications as
+If we use fractionalisation then each paper $i$ is assigned a weight $w_i$. We can then define the number/percentage of highly cited publications as
 
-\$\$\\text{NHCP} = \\sum\_{i \\in S} w\_i c\_i\$\$
+$$\text{NHCP} = \sum_{i \in S} w_i c_i$$
 
-where \$w = \\sum\_{i \\in S} w\_i\$, and similarly
+where $w = \sum_{i \in S} w_i$, and similarly
 
-\$\$\\text{PHCP} = \\frac{1}{w} \\sum\_{i \\in S} w\_i h\_i\$\$
+$$\text{PHCP} = \frac{1}{w} \sum_{i \in S} w_i h_i$$
 
-Indeed, if we set \$w\_i = 1\$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The percentage of highly cited publications is simply the number of highly cited publications divided by the total weight \$\\text{PHCP} = \\frac{1}{w} \\text{NHCP}\$.
+Indeed, if we set $w_i = 1$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The percentage of highly cited publications is simply the number of highly cited publications divided by the total weight $\text{PHCP} = \frac{1}{w} \text{NHCP}$.
 
 ##### Ties
 
@@ -200,11 +192,11 @@ When counting citations there are often multiple publications that have exactly 
 
 In total, there are five publications, and if we want to determine the top 50%, we have to assign 2.5 publications to the top 50%. Clearly, this is impossible, if we only consider a publication to be in the top 50% completely. The solution again lies in fractionalisation. Let us illustrate this on the example. Publication F should clearly be in the top 50%. Publications C and D cannot both be fully in the top 50%, because then the top 50% would cover 60% of the publications. If they do not belong to the top 50%, the top 50% would only cover 20% of the publications. The solution therefore is that publications C and D both "fill up” the remaining 30%, or 1.5 (=30% of 5) publications. Hence, if we assign publications C and D both for a fraction of 0.75 to the top 50%, the (weighted) sum of the publications in the top 50% is then 2.5, so totalling to 50% of the publications.
 
-More formally, let \$c\*\$ be the threshold such that publications with citations strictly higher than \$c\*\$ are less than \$x\\%\$, while if we add publications with citations equal to \$c\*\$ that the number of publications is then higher than or equal to \$x\\%\$. The number of publications with citations strictly higher than \$c\*\$ is denoted by \$n\_&gt;\$ while the number of publications with citations equal to \$c\*\$ is denoted by \$n\_=\$, while the total number of publications is denoted by \$n\$. Then the threshold \$c\*\$ should be defined such that \$n\_&gt; &lt; x n\$ while \$n\_&gt; + n\_+ \\geq x n\$, with \$x\$ denoting the top x%. The fraction to count publications with citations equal to threshold can then be calculated as
+More formally, let $c^*$ be the threshold such that publications with citations strictly higher than $c^*$ are less than $x\%$, while if we add publications with citations equal to $c^*$ that the number of publications is then higher than or equal to $x\%$. The number of publications with citations strictly higher than $c^*$ is denoted by $n_>$ while the number of publications with citations equal to $c^*$ is denoted by $n_=$, while the total number of publications is denoted by $n$. Then the threshold $c^*$ should be defined such that $n_> < x n$ while $n_> + n_= \geq x n$, with $x$ denoting the top x%. The fraction to count publications with citations equal to threshold can then be calculated as
 
-\$\$w = \\frac{x n - n\_&gt;}{n\_=}\$\$
+$$w = \frac{x n - n_{>}}{n_=}$$
 
-Note that indeed \$0 &lt; w \\geq 1\$, so that we always assign a valid fraction of each publication to the top x%. For more details, please refer to Waltman & Schreiber (2013).
+Note that indeed $0 < w \leq 1$, so that we always assign a valid fraction of each publication to the top x%. For more details, please refer to Waltman & Schreiber (2013).
 
 ## Datasources
 
