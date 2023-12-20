@@ -29,7 +29,7 @@ Please provide a general description of the metric. Please provide an argument w
 
 Please describe how we could measure the proposed metric. What are potential measurement problems and limitations? Please also explain the difficulty of obtaining this measurement, and identify gaps in existing possibilities for measurement. If there are already existing datasources and/or methodologies, these can be described in more detail below. If no datasources or methodologies exist yet, please indicate this.
 
-The Number or percentage of times data is cited/mentioned in publications can be used to indicate data use in research. It specifically gives a representation of how often data is used to progress scientific publishing. However, it does not explicitly show what the data is being used for in the articles that cite the data, and it does not capture information on what academic endeavours the data is used for outside of scientific publishing.
+The Number or percentage of times data is cited/mentioned in publications can be used to indicate data use in research. It specifically gives a representation of how often data is used to progress scientific publishing. However, it does not explicitly show what the data is being used for in the articles that cite the data, and it does not capture information on what academic activities the data is used for outside of scientific publishing.
 
 ##### *Existing datasources:*
 
@@ -41,7 +41,7 @@ Please briefly describe the datasource specifically for this metric. Please incl
 
 Describe how the metric can be calculated/constructed based on this datasource. Please Include explicit code examples if possible. If no explicit code is possible, include explicit field/variable/columns names and detailed explicit instructions how to combine certain fields, if necessary. If necessary, you may use equations to help explain this.
 
-Data repositories tend to show citation information on the datasets they index. Examples of data repositories that provide this information are Zenodo, Figshare, Dryad, Mendeley data, Dataverse and Harvard dataverse.
+Data repositories tend to show citation information on the datasets they index. Examples of data repositories that provide this information are Zenodo, Figshare, Dryad, DataCite, Mendeley data, Dataverse and Harvard dataverse.
 
 ##### *Existing methodologies*
 
@@ -55,7 +55,11 @@ If the methodology is automated / automatable: Is there an existing implementati
 
 *If the methodology is not automated / automatable:* Has data been gathered before using this technique (e.g. a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
-Based on the data citation information from data repositories one can compile a score for datasets or repositories on how many citations were received.
+Based on the data citation information from data repositories one can compile a score for datasets or repositories on how many citations were received. If the repositories provide DOIs to datasets like for instance DataCite does, it is also possible to track citations based on DOIs, for example using OpenAlex.
+
+[UsageCounts](https://usagecounts.openaire.eu/about) for data use by OpenAIRE aims to monitor and report how often research datasets hosted within OpenAIRE are accessed, downloaded, or used by the scholarly community. The service tracks various metrics related to data use in research among which are statistics on data views and downloads.
+
+Additionally, the [DataStet code package](https://github.com/kermitt2/datastet) can be used to find named and implicit research datasets from within the academic literature. DataStet extends from dataseer-ml to identify implicit and explicit dataset mentions in scientific documents. It automatically characterizes dataset mentions as used or created in the research work. The identified datasets are classified based on a hierarchy derived from MeSH. It can process various scientific article formats such as PDF, TEI, JATS/NLM, ScholarOne, BMJ, Elsevier staging format, OUP, PNAS, RSC, Sage, Wiley, etc. Docker is recommended to deploy and run the DataStet service. In the aforementioned link instructions are provided for pulling the Docker image and running the service as a container.
 
 ###### Science resources
 
@@ -65,9 +69,9 @@ Please briefly describe the datasource specifically for this metric. Please incl
 
 Describe how the metric can be calculated/constructed based on this datasource. Please Include explicit code examples if possible. If no explicit code is possible, include explicit field/variable/columns names and detailed explicit instructions how to combine certain fields, if necessary. If necessary, you may use equations to help explain this.
 
-Scientific resources like science catalogues often provide citation information on datasets that are included. Sources like these are for instance Crossref, Google Scholar, Pubmed Central and DataCite.
+Scientific resources like bibliometric databases often provide citation information on datasets that are included. Sources like these are for instance Crossref, Google Scholar, Pubmed Central, OpenAIRE and DataCite. Note that the indexing and discoverability of datasets within platforms focusing on scientific article retrieval (mainly Google Scholar and PubMed Central) depend on several factors, including how the datasets are described in the publications, how they are tagged or linked within the platforms, and the availability of metadata provided by authors or publishers. If one is specifically looking for datasets or data mentions within scholarly literature, using specialized data repositories or archives mentioned in section 1) Data repositories will be preferable.
 
-##### *Existing methodologies*
+*Existing methodologies*
 
 ###### Citation score
 
@@ -89,7 +93,7 @@ Please briefly describe the datasource specifically for this metric. Please incl
 
 Describe how the metric can be calculated/constructed based on this datasource. Please Include explicit code examples if possible. If no explicit code is possible, include explicit field/variable/columns names and detailed explicit instructions how to combine certain fields, if necessary. If necessary, you may use equations to help explain this.
 
-DataCite, with the Data Citation Corpus prototype a resource, aims to generate aggregated references to data citations that can be used to collect data citation number in research (source). It will present aggregates on research data citations across articles, preprints and government documents. This endeavour is now in its prototype phase, but when the full version will be released it provides a hub for data citation information that is not yet available.
+DataCite, with the [Data Citation Corpus prototype](https://makedatacount.org/data-citation/#prototype) a resource, aims to generate aggregated references to data citations that can be used to collect data citation number in research (source). It will present aggregates on research data citations across articles, preprints and government documents. This endeavour is now in its prototype phase, but when the full version will be released it provides a hub for data citation information that is not yet available.
 
 ##### *Existing methodologies*
 
@@ -111,7 +115,7 @@ Please fill out the metric name in the section header. Please copy this section 
 
 Please provide a general description of the metric. Please provide an argument why this metric is a good operationalisation of the indicator. Please also describe any limitations of this metric. Highlight differences with respect to other possible metrics.
 
-The number or percentage of views/clicks/downloads from repositories can be used to indicate more broad data use . In contrast to data citations, this measure includes reof the potential use of data outside of academic publishing. However, one has no insight in the scientific objective for which the dataset has been retrieved. Moreover, even though this measure focuses on academic data repositories, one cannot be certain that the data retrieval has been made for academic purposes. Additionally, across data repositories there is not yet a standardized method of keeping track of views/clicks/downloads. Resulting in the tracking of different figures (views or clicks or downloads) and different definitions for these figures, which makes cross platform comparisons more complex.
+The number or percentage of views/clicks/downloads from repositories can be used to indicate more broad data use. In contrast to data citations, this measure includes representation of the potential use of data outside of academic publishing. However, one has no insight in the scientific objective for which the dataset has been retrieved. Moreover, even though this measure focuses on academic data repositories, one cannot be certain that the data retrieval has been made for academic purposes. Additionally, across data repositories there is not yet a standardized method of keeping track of views/clicks/downloads. Resulting in the tracking of different figures (views or clicks or downloads) and different definitions for these figures, which makes cross platform comparisons more complex.
 
 #### Measurement.
 
@@ -127,7 +131,7 @@ Please briefly describe the datasource specifically for this metric. Please incl
 
 Describe how the metric can be calculated/constructed based on this datasource. Please Include explicit code examples if possible. If no explicit code is possible, include explicit field/variable/columns names and detailed explicit instructions how to combine certain fields, if necessary. If necessary, you may use equations to help explain this.
 
-Some data repositories like Zenodo and Harvard dataverse provide download information for the datasets that are provided in the repository. This information can be collected to make up a data use score.
+Some data repositories like Zenodo and Harvard dataverse provide download information for the datasets that are provided in the repository. OpenAIRE also provides [repositories](https://usagecounts.openaire.eu/) on usage statistics based on other datasources. Information from these sources can be collected to make up a data use score.
 
 ##### *Existing methodologies*
 

@@ -54,7 +54,7 @@ Methodologically speaking, the metric can easily be incorporated for any publica
 
 ###### Methodologies proposed in the literature
 
-Given the large coverage, density and distribution of Mendeley readership across scientific publications of all disciplines, it is possible to calculate citation-like forms of indicators. In the past, Zahedi & Costas (2020) and Bornmann & Haunschild (2016) have formalized these methodologies and practical applications of Mendeley readership counts, including the calculation of field-normalized indicators based on readership counts, like Mean Normalized Readership Score (MNRS).
+Given the large coverage, density and distribution of Mendeley readership across scientific publications of all disciplines, it is possible to calculate citation-like forms of indicators. In the past, Zahedi & Costas (2020) and Bornmann & Haunschild (2016) have formalized these methodologies and practical applications of Mendeley readership counts, including the calculation of field-normalized indicators based on readership counts, like Mean Normalized Readership Score (MNRS). The readership field-normalization approaches essentially follow the same logic as the field-normalization for citations (first establishing a reference value at the disciplinary-level - the disciplinary schema can come directly from Mendeley or from another scientometric data source like OpenAlex – and every publication is normalized against that reference value.
 
 See:
 
