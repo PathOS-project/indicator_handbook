@@ -1,15 +1,31 @@
+---
+author:
+    - name: T. Willemse
+      orcid: 0000-0002-3778-8247
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
 # Use of data in research {#use-of-data-in-research .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
 
-|         |               |                              |                           |
-|---------|---------------|------------------------------|---------------------------|
+## History
+
 | Version | Revision date | Revision                     | Author                    |
+|---------|---------------|------------------------------|---------------------------|
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
 
-## Description
+:::
 
-Please describe what concept we aim to capture by this indicator. Please include a description of the indicator and how it could be used in practice.
+## Description
 
 In today's data-driven era, the utilization of data has revolutionized the landscape of research across diverse fields and disciplines. Data serves as the lifeblood of modern research endeavors, empowering scholars to make informed decisions, and unveil patterns that were previously hidden. Whether in the realms of social sciences, business analytics, healthcare, or natural sciences, the role of data in research has transcended mere information-gathering; it has become the cornerstone upon which discoveries, innovations, and evidence-based conclusions are built.
 
@@ -21,13 +37,7 @@ Nevertheless, this document attempts to summarize what indicators can be used to
 
 ### Number (Avg.) of times data is cited/mentioned in publications
 
-Please fill out the metric name in the section header. Please copy this section as often as necessary for each metric.
-
-Please provide a general description of the metric. Please provide an argument why this metric is a good operationalisation of the indicator. Please also describe any limitations of this metric. Highlight differences with respect to other possible metrics.
-
 #### Measurement.
-
-Please describe how we could measure the proposed metric. What are potential measurement problems and limitations? Please also explain the difficulty of obtaining this measurement, and identify gaps in existing possibilities for measurement. If there are already existing datasources and/or methodologies, these can be described in more detail below. If no datasources or methodologies exist yet, please indicate this.
 
 The Number or percentage of times data is cited/mentioned in publications can be used to indicate data use in research. It specifically gives a representation of how often data is used to progress scientific publishing. However, it does not explicitly show what the data is being used for in the articles that cite the data, and it does not capture information on what academic activities the data is used for outside of scientific publishing.
 
@@ -35,25 +45,11 @@ The Number or percentage of times data is cited/mentioned in publications can be
 
 ###### Data repositories
 
-Please fill out the datasource name in the section header. Please copy this section as often as necessary for each datasource.
-
-Please briefly describe the datasource specifically for this metric. Please include a link to the general description of datasource in this [folder](https://imisathena.sharepoint.com/:f:/r/sites/PathOS/Shared%20Documents/On-Going%20Work/WP2/Datasource%20descriptions?csf=1&web=1&e=gy43Dz) (if no general description is available yet, please create a new one in that folder). Describe any known limitations of the datasource specific to this metric.
-
-Describe how the metric can be calculated/constructed based on this datasource. Please Include explicit code examples if possible. If no explicit code is possible, include explicit field/variable/columns names and detailed explicit instructions how to combine certain fields, if necessary. If necessary, you may use equations to help explain this.
-
 Data repositories tend to show citation information on the datasets they index. Examples of data repositories that provide this information are Zenodo, Figshare, Dryad, DataCite, Mendeley data, Dataverse and Harvard dataverse.
 
 ##### *Existing methodologies*
 
 ###### Citation scores
-
-Please fill out the name of the methodology in the section header. Please copy this section as often as necessary for each datasource.
-
-Please describe the methodology that can be used to measure this metric. Include reference to publications if possible.
-
-If the methodology is automated / automatable: Is there an existing implementation of the technique? Please include a link to an implementation (e.g. GitHub repo, PyPI package, R package, etc…) How should the methodology be used to measure this metric? Please include explicit code example if possible. If necessary, you may also use equations to explain in more detail.
-
-*If the methodology is not automated / automatable:* Has data been gathered before using this technique (e.g. a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
 
 Based on the data citation information from data repositories one can compile a score for datasets or repositories on how many citations were received. If the repositories provide DOIs to datasets like for instance DataCite does, it is also possible to track citations based on DOIs, for example using OpenAlex.
 
@@ -63,35 +59,15 @@ Additionally, the [DataStet code package](https://github.com/kermitt2/datastet) 
 
 ###### Science resources
 
-Please fill out the datasource name in the section header. Please copy this section as often as necessary for each datasource.
-
-Please briefly describe the datasource specifically for this metric. Please include a link to the general description of datasource in this [folder](https://imisathena.sharepoint.com/:f:/r/sites/PathOS/Shared%20Documents/On-Going%20Work/WP2/Datasource%20descriptions?csf=1&web=1&e=gy43Dz) (if no general description is available yet, please create a new one in that folder). Describe any known limitations of the datasource specific to this metric.
-
-Describe how the metric can be calculated/constructed based on this datasource. Please Include explicit code examples if possible. If no explicit code is possible, include explicit field/variable/columns names and detailed explicit instructions how to combine certain fields, if necessary. If necessary, you may use equations to help explain this.
-
 Scientific resources like bibliometric databases often provide citation information on datasets that are included. Sources like these are for instance Crossref, Google Scholar, Pubmed Central, OpenAIRE and DataCite. Note that the indexing and discoverability of datasets within platforms focusing on scientific article retrieval (mainly Google Scholar and PubMed Central) depend on several factors, including how the datasets are described in the publications, how they are tagged or linked within the platforms, and the availability of metadata provided by authors or publishers. If one is specifically looking for datasets or data mentions within scholarly literature, using specialized data repositories or archives mentioned in section 1) Data repositories will be preferable.
 
 *Existing methodologies*
 
 ###### Citation score
 
-Please fill out the name of the methodology in the section header. Please copy this section as often as necessary for each datasource.
-
-Please describe the methodology that can be used to measure this metric. Include reference to publications if possible.
-
-If the methodology is automated / automatable: Is there an existing implementation of the technique? Please include a link to an implementation (e.g. GitHub repo, PyPI package, R package, etc…) How should the methodology be used to measure this metric? Please include explicit code example if possible. If necessary, you may also use equations to explain in more detail.
-
-*If the methodology is not automated / automatable:* Has data been gathered before using this technique (e.g. a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
-
 Based on the data citation information from scientometric databases (e.g. OpenAlex) one can compile a score for datasets or repositories on how many citations were received from other scientific publiations.
 
 ###### DataCite Data Citation Corpus Prototype
-
-Please fill out the datasource name in the section header. Please copy this section as often as necessary for each datasource.
-
-Please briefly describe the datasource specifically for this metric. Please include a link to the general description of datasource in this [folder](https://imisathena.sharepoint.com/:f:/r/sites/PathOS/Shared%20Documents/On-Going%20Work/WP2/Datasource%20descriptions?csf=1&web=1&e=gy43Dz) (if no general description is available yet, please create a new one in that folder). Describe any known limitations of the datasource specific to this metric.
-
-Describe how the metric can be calculated/constructed based on this datasource. Please Include explicit code examples if possible. If no explicit code is possible, include explicit field/variable/columns names and detailed explicit instructions how to combine certain fields, if necessary. If necessary, you may use equations to help explain this.
 
 DataCite, with the [Data Citation Corpus prototype](https://makedatacount.org/data-citation/#prototype) a resource, aims to generate aggregated references to data citations that can be used to collect data citation number in research (source). It will present aggregates on research data citations across articles, preprints and government documents. This endeavour is now in its prototype phase, but when the full version will be released it provides a hub for data citation information that is not yet available.
 
@@ -99,37 +75,17 @@ DataCite, with the [Data Citation Corpus prototype](https://makedatacount.org/da
 
 ###### Citation score
 
-Please fill out the name of the methodology in the section header. Please copy this section as often as necessary for each datasource.
-
-Please describe the methodology that can be used to measure this metric. Include reference to publications if possible.
-
-If the methodology is automated / automatable: Is there an existing implementation of the technique? Please include a link to an implementation (e.g. GitHub repo, PyPI package, R package, etc…) How should the methodology be used to measure this metric? Please include explicit code example if possible. If necessary, you may also use equations to explain in more detail.
-
-*If the methodology is not automated / automatable:* Has data been gathered before using this technique (e.g. a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
-
 Based on the data citation information from the DataCite Data Citation Corpus one can compile a score for datasets or repositories on how many citations were received.
 
 ### Number (Avg.) of views/clicks/downloads from repository
-
-Please fill out the metric name in the section header. Please copy this section as often as necessary for each metric.
-
-Please provide a general description of the metric. Please provide an argument why this metric is a good operationalisation of the indicator. Please also describe any limitations of this metric. Highlight differences with respect to other possible metrics.
 
 The number or percentage of views/clicks/downloads from repositories can be used to indicate more broad data use. In contrast to data citations, this measure includes representation of the potential use of data outside of academic publishing. However, one has no insight in the scientific objective for which the dataset has been retrieved. Moreover, even though this measure focuses on academic data repositories, one cannot be certain that the data retrieval has been made for academic purposes. Additionally, across data repositories there is not yet a standardized method of keeping track of views/clicks/downloads. Resulting in the tracking of different figures (views or clicks or downloads) and different definitions for these figures, which makes cross platform comparisons more complex.
 
 #### Measurement.
 
-Please describe how we could measure the proposed metric. What are potential measurement problems and limitations? Please also explain the difficulty of obtaining this measurement, and identify gaps in existing possibilities for measurement. If there are already existing datasources and/or methodologies, these can be described in more detail below. If no datasources or methodologies exist yet, please indicate this.
-
 ##### *Existing datasources:*
 
 ###### Data repositories
-
-Please fill out the datasource name in the section header. Please copy this section as often as necessary for each datasource.
-
-Please briefly describe the datasource specifically for this metric. Please include a link to the general description of datasource in this [folder](https://imisathena.sharepoint.com/:f:/r/sites/PathOS/Shared%20Documents/On-Going%20Work/WP2/Datasource%20descriptions?csf=1&web=1&e=gy43Dz) (if no general description is available yet, please create a new one in that folder). Describe any known limitations of the datasource specific to this metric.
-
-Describe how the metric can be calculated/constructed based on this datasource. Please Include explicit code examples if possible. If no explicit code is possible, include explicit field/variable/columns names and detailed explicit instructions how to combine certain fields, if necessary. If necessary, you may use equations to help explain this.
 
 Some data repositories like Zenodo and Harvard dataverse provide download information for the datasets that are provided in the repository. OpenAIRE also provides [repositories](https://usagecounts.openaire.eu/) on usage statistics based on other datasources. Information from these sources can be collected to make up a data use score.
 
@@ -137,41 +93,11 @@ Some data repositories like Zenodo and Harvard dataverse provide download inform
 
 ###### Data retrieval score
 
-Please fill out the name of the methodology in the section header. Please copy this section as often as necessary for each datasource.
-
-Please describe the methodology that can be used to measure this metric. Include reference to publications if possible.
-
-If the methodology is automated / automatable: Is there an existing implementation of the technique? Please include a link to an implementation (e.g. GitHub repo, PyPI package, R package, etc…) How should the methodology be used to measure this metric? Please include explicit code example if possible. If necessary, you may also use equations to explain in more detail.
-
-*If the methodology is not automated / automatable:* Has data been gathered before using this technique (e.g. a specific survey instrument) before? If so, please describe earlier data collection efforts. Can the data gathering be easily done again for more current information? What needs to be adapted/changed for the data gathering to be current?
-
 Based on the data retrieval information from the data repositories one can compile a score for datasets or repositories on how many times these were downloaded or viewed.
 
 ###### Standardization protocols
 
-Please fill out the datasource name in the section header. Please copy this section as often as necessary for each datasource.
-
-Please briefly describe the datasource specifically for this metric. Please include a link to the general description of datasource in this [folder](https://imisathena.sharepoint.com/:f:/r/sites/PathOS/Shared%20Documents/On-Going%20Work/WP2/Datasource%20descriptions?csf=1&web=1&e=gy43Dz) (if no general description is available yet, please create a new one in that folder). Describe any known limitations of the datasource specific to this metric.
-
-Describe how the metric can be calculated/constructed based on this datasource. Please Include explicit code examples if possible. If no explicit code is possible, include explicit field/variable/columns names and detailed explicit instructions how to combine certain fields, if necessary. If necessary, you may use equations to help explain this.
-
 To combat the issue of standardization for the tracking of clicks/views/downloads of data use in research The COUNTER Code of Practice for Research Data gives guidance on how to standardize count systems for data use (Project COUNTER, 2023). The guidelines provided by The COUNTER Code of Practice for Research Data can be followed to make inquiries in data retrieval information more comparable among researchers.
-
-## Known correlates
-
-This section is optional and should be a low-effort addition.
-
-What indicator(s) correlates with this indicator? Include a link to the other indicators in the handbook. If possible, include references to supporting literature for each correlation. Please do not describe the correlation and the associated literature only on a high-level, without too much detail.
-
-\[Add text here\]
-
-## Notes
-
-This section is optional.
-
-Please describe here any additional notes you want to make about this indicator that do not fit under any of the other sections.
-
-\[Add text here\]
 
 ## References
 
