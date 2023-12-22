@@ -34,6 +34,8 @@ affiliations:
 | 1.1     | 2023-08-28    | Draft for initial publication | I. Grypari                                              |
 | 1.0     | 2023-05-09    | First draft                   | I. Grypari, N. Manola, H. Papageorgiou, P. Stavropoulos |
 
+:::
+
 ## Description
 
 Αrticle Processing Charges (APCs) represent the price that publishers demand from authors to pay in order to publish their articles and books under an open access license. They capture the affordability and accessibility of Open Access publishing for different types of stakeholders, such as researchers, institutions, and funding agencies. It is also relevant for policy-makers seeking to optimize Open Science policies.

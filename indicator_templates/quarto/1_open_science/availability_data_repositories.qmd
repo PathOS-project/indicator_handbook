@@ -24,7 +24,9 @@ affiliations:
 | 1.1     | 2023-07-20    | Edited & revised             | T. Willemse  |
 | 1.0     | 2023-04-13    | First draft                  | T. Willemse  |
 
-:::## Description
+:::
+
+## Description
 
 In the context of Open Science, the availability of research data is an important topic. Open Data is often, but not exclusively, made available through data repositories, which can store and archive data for long-term preservation. More and more Open Data repositories are initiated and efforts to establish the needed infrastructure are undertaken. However, these repositories differ vastly in their nature and accessibility. It is therefore important to get an overview of the accessibility of these different data sources for the assessment and practice of Open Science.
 
