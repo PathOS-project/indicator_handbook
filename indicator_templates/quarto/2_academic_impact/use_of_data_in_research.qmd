@@ -21,7 +21,7 @@ affiliations:
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
-| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
+| 1.0     | 2023-12-14    | First draft | T. Willemse |
 
 :::
 
