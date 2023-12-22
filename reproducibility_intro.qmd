@@ -1,0 +1,53 @@
+---
+author:
+    - name: P. Stavropoulos
+      orcid: 0000-0003-1664-6554
+      affiliations:
+      - ref: arc
+    - name: H. Papageorgiou
+      orcid: 0000-0002-7352-2403
+      affiliations:
+      - ref: arc
+
+affiliations:
+- id: arc
+  name: Athena Research Center
+  city: Athena
+  country: Greece
+---
+
+# Introduction to Reproducibility  {#introduction-to-reproducibility .unnumbered}
+
+Large-scale computation and the rise of data-driven methodologies have transformed the way scientific research is conducted in many disciplines. Open Science with its overarching goals of sharing research outcomes (resources, methods, or tools) as well as the flow of the actual research processes has become a key enabler for scientific discovery and faster knowledge spillover, contributing or leading those major shifts in science.
+
+In the backdrop of these changes, reproducibility and replicability have raised critical concerns about the development and evolution of science and the way we generate reliable knowledge. Open Science could streamline the requisite processes addressing reproducibility challenges and accelerate the uptake of good practices about research integrity.
+
+In PathOS, reproducibility refers strictly to computational reproducibility and computational non-reproducibility. Concretely, we define reproducibility as a continuous, “ongoing” process, ranging from
+
+- systematic efforts to regenerate/reproduce computationally a previous study,
+- studies that re-use or build upon or expand (part of) the research outputs of a previous study,
+- studies that verify or confirm the results of a previous study by collecting and analysing new data,
+- studies that provide evidence that support or refute scientific claims and inferences from a previous study, to
+- studies conducting meta-analyses and research synthesis by consolidating, evaluating, interpreting, and contextualizing findings from previous studies on a particular topic.
+
+In the following sections, we delve into the following aspects in the intersection of OS and reproducibility providing relevant indicators (summarized in the table below) while keeping a pragmatic approach to what is feasible in terms of measuring, monitoring, and evaluating reproducibility.
+
++--------------------------------------------------------------------+----------------------------------------------------+
+| Reproducibility Aspect                                             | Relevant Indicators Provided                       |
++====================================================================+====================================================+
+| Availability and transparency of research outputs to other studies | - Reuse of Code in research                        |
+|                                                                    | - Reuse of Data in research                        |
++--------------------------------------------------------------------+----------------------------------------------------+
+| Verification                                                       | - Consistency in reported numbers                  |
++--------------------------------------------------------------------+----------------------------------------------------+
+| Coherence of the approach                                          | - Pre-registration of method/protocol              |
++--------------------------------------------------------------------+----------------------------------------------------+
+| Reviews and checks on reproducibility of OS research               | - Levels of replication found                      |
+|                                                                    | - Polarity of publications                         |
++--------------------------------------------------------------------+----------------------------------------------------+
+| Integrity of OS datasets, code and methods                         | - Impact of Open Code in research                  |
+|                                                                    | - Impact of Open Data in research                  |
+|                                                                    | - Inclusion in systematic reviews or meta-analyses |
++--------------------------------------------------------------------+----------------------------------------------------+
+
+: Reproducibility aspects and indicators {#tbl-reproducibility}
