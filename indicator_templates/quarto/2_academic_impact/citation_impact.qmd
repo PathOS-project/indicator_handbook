@@ -1,11 +1,29 @@
+---
+author:
+    - name: V.A Traag
+      orcid: 0000-0003-3170-3879
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
 # Citation Impact {#citation-impact .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
 
-|         |               |             |            |
-|---------|---------------|-------------|------------|
+## History
+
 | Version | Revision date | Revision    | Author     |
-| 1.0     | 2023-11-20    | First draft | V.A. Traag |
+|---------|---------------|-------------|------------|
+| 1.0     | 2023-11-23    | First draft | V.A. Traag |
+
+:::
 
 ## Description
 
