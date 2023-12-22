@@ -1,11 +1,29 @@
+---
+author:
+    - name: V.A Traag
+      orcid: 0000-0003-3170-3879
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
 # Use of code in research {#use-of-code-in-research .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
 
-|         |               |             |            |
-|---------|---------------|-------------|------------|
+## History
+
 | Version | Revision date | Revision    | Author     |
+|---------|---------------|-------------|------------|
 | 1.0     | 2023-11-24    | First draft | V.A. Traag |
+
+:::
 
 ## Description
 
@@ -116,14 +134,6 @@ tools::dependsOnPkgs("lattice")
 ```
 
 gives an explicit list of all packages that depend on the package lattice. In addition, the argument `recursive` can be set to `TRUE` to obtain the transitive dependencies.
-
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
 
 ## References
 
