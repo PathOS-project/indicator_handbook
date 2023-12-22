@@ -1,62 +1,37 @@
-# Interdisciplinarity {#interdisciplinarity .unnumbered}
+---
+author:
+    - name: L. Waltman
+      orcid: 0000-0001-8249-1752
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
+# Interdisciplinary {#interdisciplinarity .unnumbered}
+
 ::: {}
 
 ## History
+
+
+| Version | Revision date | Revision                     | Author                    |
+|---------|---------------|------------------------------|---------------------------|
+| 1.0     | 2023-12-17    | First draft | L. Waltman |
+
 :::
+
 ## Description
 
-\[Add text here\]
+There is an extensive scientometric literature on indicators of interdisciplinarity. However, the level of agreement among the various indicators introduced in the literature turns out to be low ([Wang & Schneider, 2020]. This appears to be the result of both different understandings of the concept of interdisciplinarity and different approaches to operationalize the concept. Given the lack of agreement on how to understand and operationalize interdisciplinarity, we advise against the use of scientometric indicators of interdisciplinarity, and we consequently do not describe any such indicators. For further discussion, including alternative approaches to 'measure' interdisciplinarity, we refer to [Rafols (2020)](https://www.leidenmadtrics.nl/articles/on-measuring-interdisciplinarity-from-indicators-to-indicating).
 
-## Metrics
-
-### Number of scientific (sub)fields associated to publications
-
-\[Add text here\]
-
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-### Relative scientific distance of authors/cited articles
-
-\[Add text here\]
-
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
 
 ## References
 
-\[Add Zotero bibliography here\]
+Wang, Q., & Schneider, J. W. (2020). Consistency and validity of interdisciplinarity measures. Quantitative Science Studies, 1(1), 239–263. https://doi.org/10.1162/qss_a_00011
+

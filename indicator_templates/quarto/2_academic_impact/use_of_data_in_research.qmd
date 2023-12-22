@@ -1,82 +1,112 @@
+---
+author:
+    - name: T. Willemse
+      orcid: 0000-0002-3778-8247
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
 # Use of data in research {#use-of-data-in-research .unnumbered}
+
 ::: {}
 
 ## History
+
+| Version | Revision date | Revision                     | Author                    |
+|---------|---------------|------------------------------|---------------------------|
+| 1.0     | 2023-12-14    | First draft | T. Willemse |
+
 :::
+
 ## Description
 
-\[Add text here\]
+In today's data-driven era, the utilization of data has revolutionized the landscape of research across diverse fields and disciplines. Data serves as the lifeblood of modern research endeavors, empowering scholars to make informed decisions, and unveil patterns that were previously hidden. Whether in the realms of social sciences, business analytics, healthcare, or natural sciences, the role of data in research has transcended mere information-gathering; it has become the cornerstone upon which discoveries, innovations, and evidence-based conclusions are built.
+
+The open research data (ORD) movement within open science has advocated to make data more accessible and transparent to accelerate these developments in research (Quarati & Raffaghelli, 2022). However, to assess whether or not these “open” measures are effective one needs insight in the use of data in research. Assessing data use is not straightforward though. It can for instance be ambiguous to assess when data is actually “used” and to quantify this. Moreover, definitions for data use vary across science and subsequently data use assessment methods do so as well (Pasquetto et al., 2017).
+
+Nevertheless, this document attempts to summarize what indicators can be used to approximate data use in research.
 
 ## Metrics
 
-### Number (Avg.) of times data is cited in publications
-
-\[Add text here\]
+### Number (Avg.) of times data is cited/mentioned in publications
 
 #### Measurement.
 
-\[Add text here\]
+The Number or percentage of times data is cited/mentioned in publications can be used to indicate data use in research. It specifically gives a representation of how often data is used to progress scientific publishing. However, it does not explicitly show what the data is being used for in the articles that cite the data, and it does not capture information on what academic activities the data is used for outside of scientific publishing.
 
-##### Existing datasources:
+##### *Existing datasources:*
 
-###### &lt;datasource name&gt;
+###### Data repositories
 
-\[Add text here\]
+Data repositories tend to show citation information on the datasets they index. Examples of data repositories that provide this information are Zenodo, Figshare, Dryad, DataCite, Mendeley data, Dataverse and Harvard dataverse.
 
-##### Existing methodologies
+##### *Existing methodologies*
 
-###### &lt;methodology name&gt;
+###### Citation scores
 
-\[Add text here\]
+Based on the data citation information from data repositories one can compile a score for datasets or repositories on how many citations were received. If the repositories provide DOIs to datasets like for instance DataCite does, it is also possible to track citations based on DOIs, for example using OpenAlex.
 
-### Number (Avg.) of times data is mentioned in publications
+[UsageCounts](https://usagecounts.openaire.eu/about) for data use by OpenAIRE aims to monitor and report how often research datasets hosted within OpenAIRE are accessed, downloaded, or used by the scholarly community. The service tracks various metrics related to data use in research among which are statistics on data views and downloads.
 
-\[Add text here\]
+Additionally, the [DataStet code package](https://github.com/kermitt2/datastet) can be used to find named and implicit research datasets from within the academic literature. DataStet extends from dataseer-ml to identify implicit and explicit dataset mentions in scientific documents. It automatically characterizes dataset mentions as used or created in the research work. The identified datasets are classified based on a hierarchy derived from MeSH. It can process various scientific article formats such as PDF, TEI, JATS/NLM, ScholarOne, BMJ, Elsevier staging format, OUP, PNAS, RSC, Sage, Wiley, etc. Docker is recommended to deploy and run the DataStet service. In the aforementioned link instructions are provided for pulling the Docker image and running the service as a container.
 
-#### Measurement.
+###### Science resources
 
-\[Add text here\]
+Scientific resources like bibliometric databases often provide citation information on datasets that are included. Sources like these are for instance Crossref, Google Scholar, Pubmed Central, OpenAIRE and DataCite. Note that the indexing and discoverability of datasets within platforms focusing on scientific article retrieval (mainly Google Scholar and PubMed Central) depend on several factors, including how the datasets are described in the publications, how they are tagged or linked within the platforms, and the availability of metadata provided by authors or publishers. If one is specifically looking for datasets or data mentions within scholarly literature, using specialized data repositories or archives mentioned in section 1) Data repositories will be preferable.
 
-##### Existing datasources:
+*Existing methodologies*
 
-###### &lt;datasource name&gt;
+###### Citation score
 
-\[Add text here\]
+Based on the data citation information from scientometric databases (e.g. OpenAlex) one can compile a score for datasets or repositories on how many citations were received from other scientific publiations.
 
-##### Existing methodologies
+###### DataCite Data Citation Corpus Prototype
 
-###### &lt;methodology name&gt;
+DataCite, with the [Data Citation Corpus prototype](https://makedatacount.org/data-citation/#prototype) a resource, aims to generate aggregated references to data citations that can be used to collect data citation number in research (source). It will present aggregates on research data citations across articles, preprints and government documents. This endeavour is now in its prototype phase, but when the full version will be released it provides a hub for data citation information that is not yet available.
 
-\[Add text here\]
+##### *Existing methodologies*
+
+###### Citation score
+
+Based on the data citation information from the DataCite Data Citation Corpus one can compile a score for datasets or repositories on how many citations were received.
 
 ### Number (Avg.) of views/clicks/downloads from repository
 
-\[Add text here\]
+The number or percentage of views/clicks/downloads from repositories can be used to indicate more broad data use. In contrast to data citations, this measure includes representation of the potential use of data outside of academic publishing. However, one has no insight in the scientific objective for which the dataset has been retrieved. Moreover, even though this measure focuses on academic data repositories, one cannot be certain that the data retrieval has been made for academic purposes. Additionally, across data repositories there is not yet a standardized method of keeping track of views/clicks/downloads. Resulting in the tracking of different figures (views or clicks or downloads) and different definitions for these figures, which makes cross platform comparisons more complex.
 
 #### Measurement.
 
-\[Add text here\]
+##### *Existing datasources:*
 
-##### Existing datasources:
+###### Data repositories
 
-###### &lt;datasource name&gt;
+Some data repositories like Zenodo and Harvard dataverse provide download information for the datasets that are provided in the repository. OpenAIRE also provides [repositories](https://usagecounts.openaire.eu/) on usage statistics based on other datasources. Information from these sources can be collected to make up a data use score.
 
-\[Add text here\]
+##### *Existing methodologies*
 
-##### Existing methodologies
+###### Data retrieval score
 
-###### &lt;methodology name&gt;
+Based on the data retrieval information from the data repositories one can compile a score for datasets or repositories on how many times these were downloaded or viewed.
 
-\[Add text here\]
+###### Standardization protocols
 
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
+To combat the issue of standardization for the tracking of clicks/views/downloads of data use in research The COUNTER Code of Practice for Research Data gives guidance on how to standardize count systems for data use (Project COUNTER, 2023). The guidelines provided by The COUNTER Code of Practice for Research Data can be followed to make inquiries in data retrieval information more comparable among researchers.
 
 ## References
 
-\[Add Zotero bibliography here\]
+Please include any references that you want to make here. Please use Zotero to connect to the PathOS Zotero library for references. Please use the APA style, 7^th^ edition, English (UK).
+
+Pasquetto, I. V., Randles, B. M., & Borgman, C. L. (2017). On the Reuse of Scientific Data. *Data Science Journal*, *16*, 8. <https://doi.org/10.5334/dsj-2017-008>
+
+Quarati, A., & Raffaghelli, J. E. (2022). Do researchers use open research data? Exploring the relationships between usage trends and metadata quality across scientific disciplines from the Figshare case. *Journal of Information Science*, *48*(4), 423-448. <https://doi.org/10.1177/0165551520961048>
+
+Make Data Count. (2023). Prototype. <https://makedatacount.org/data-citation/#prototype>
+
+Project COUNTER. (2023). Code of Practice for Research Data. <https://www.projectcounter.org/code-practice-research-data/>
