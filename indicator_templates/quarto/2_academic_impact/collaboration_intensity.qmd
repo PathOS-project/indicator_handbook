@@ -1,11 +1,29 @@
+---
+author:
+    - name: V.A Traag
+      orcid: 0000-0003-3170-3879
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
 # Collaboration intensity {#collaboration-intensity .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
 
-|         |               |             |            |
-|---------|---------------|-------------|------------|
+## History
+
 | Version | Revision date | Revision    | Author     |
+|---------|---------------|-------------|------------|
 | 1.0     | 2023-11-20    | First draft | V.A. Traag |
+
+:::
 
 ## Description
 
@@ -27,9 +45,9 @@ The average number of co-authors is a metric about the degree of collaboration, 
 
 #### Measurement.
 
-Let \$k\_i\$ represent the number of co-authors of publication \$i\$, either at the level of individual authors, institutions or countries. Let \$S\$ be the set of publications of interest, with in total \$n = \|S\|\$ publications. Then the average over the set of publications is simply the average as usual
+Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. Let $S$ be the set of publications of interest, with in total $n = \|S\|$ publications. Then the average over the set of publications is simply the average as usual
 
-\$\$c = \\frac{1}{n} \\sum\_{i \\in S} k\_i.\$\$
+$$c = \frac{1}{n} \sum_{i \in S} k_i.$$
 
 Possibly, this average can be weighted by the fraction to which a publication belongs to the set of publications of interest.
 
@@ -39,15 +57,15 @@ The average number of joint papers is a metric about the degree of collaboration
 
 #### Measurement.
 
-Let \$k\_i\$ represent the number of co-authors of publication \$i\$, either at the level of individual authors, institutions or countries. From the perspective of a collaboration network, the strength of collaboration between a pair of co-authors is defined slightly differently (Perianes-Rodriguez et al., 2016). Let us focus on the collaboration between two co-authors \$a\$ and \$b\$. Let \$S\_{ab}\$ be the set of publications on which \$a\$ and \$b\$ collaborated. They then have \$n\_{ab} = \|S\_{ab}\|\$ publications in common. However, perhaps \$a\$ and \$b\$ are only few of many co-authors on each of these publications, so that the actual collaboration between \$a\$ and \$b\$ is relatively less intense than the overall number of publications would suggest. Let us consider a paper \$i\$ that \$a\$ and \$b\$ collaborated on, which had \$k\_i\$ collaborators in total. Then \$a\$ has collaborated with \$k\_i - 1\$ collaborators, of which \$b\$ is one, and vice-versa, \$b\$ has also collaborated with \$k\_i – 1\$ collaborators, of which \$a\$ is one. Hence, the fraction of collaboration of \$a\$ with \$b\$ is then \$1/(k\_i – 1)\$. The total collaboration between \$a\$ and \$b\$ is then
+Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. From the perspective of a collaboration network, the strength of collaboration between a pair of co-authors is defined slightly differently (Perianes-Rodriguez et al., 2016). Let us focus on the collaboration between two co-authors $a$ and $b$. Let $S_{ab}$ be the set of publications on which $a$ and $b$ collaborated. They then have $n_{ab} = |S_{ab}|$ publications in common. However, perhaps $a$ and $b$ are only few of many co-authors on each of these publications, so that the actual collaboration between $a$ and $b$ is relatively less intense than the overall number of publications would suggest. Let us consider a paper $i$ that $a$ and $b$ collaborated on, which had $k_i$ collaborators in total. Then $a$ has collaborated with $k_i - 1$ collaborators, of which $b$ is one, and vice-versa, $b$ has also collaborated with $k_i – 1$ collaborators, of which $a$ is one. Hence, the fraction of collaboration of $a$ with $b$ is then $1/(k_i – 1)$. The total collaboration between $a$ and $b$ is then
 
-\$\$w\_{ab} = \\sum\_{i \\in S\_{ab}} \\frac{1}{k\_i – 1}.\$\$
+$$w_{ab} = \sum_{i \in S_{ab}} \frac{1}{k_i – 1}.$$
 
-When there is a fractionalisation available, the fraction of publication \$i\$ that belongs to \$a\$, respectively \$b\$, can be denoted by \$w\_{ia}\$ and \$w\_{ib}\$ respectively. In that case, the collaboration of \$a\$ with \$b\$ can be defined as \$w\_{ib}/(1 - w\_{ia})\$, and hence the total collaboration as
+When there is a fractionalisation available, the fraction of publication $i$ that belongs to $a$, respectively $b$, can be denoted by $w_{ia}$ and $w_{ib}$ respectively. In that case, the collaboration of $a$ with $b$ can be defined as $w_{ib}/(1 - w_{ia})$, and hence the total collaboration as
 
-\$\$w\_{ab} = \\sum\_{i \\in S\_{ab}} \\frac{w\_{ib}}{k\_i – w\_{ia}}.\$\$
+$$w_{ab} = \sum_{i \in S_{ab}} \frac{w_{ib}}{k_i – w_{ia}}.$$
 
-Note that we indeed uncover the previous equation when using \$w\_{ia} = 1/k\_i\$.
+Note that we indeed uncover the previous equation when using $w_{ia} = 1/k_i$.
 
 For more details, see Perianes-Rodriguez et al. (2016).
 
@@ -57,13 +75,13 @@ The number or percentage of co-authored publications provides a good indicator o
 
 #### Measurement.
 
-Let \$k\_i\$ represent the number of co-authors of publication \$i\$, either at the level of individual authors, institutions or countries. Let \$c\_i\$ then be \$1\$ if \$k\_i \\geq 2\$ and \$0\$ otherwise, so as to indicate when a paper is collaborative. Let \$S\$ be the set of publications of interest, with in total \$n = \|S\|\$ publications. Then the total number of publications that are collaborative is simply
+Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. Let $c_i$ then be $1$ if $k_i \geq 2$ and $0$ otherwise, so as to indicate when a paper is collaborative. Let $S$ be the set of publications of interest, with in total $n = \|S\|$ publications. Then the total number of publications that are collaborative is simply
 
-\$\$\\sum\_{i \\in S} c\_I,\$\$
+$$\sum_{i \in S} c_i,$$
 
 while the percentage of publications that are collaborative is simply
 
-\$\$\\frac{1}{n} \\sum\_{i \\in S} c\_I,\$\$
+$$\frac{1}{n} \sum_{i \in S} c_i,$$
 
 If we represent co-authorship at the institution level, this measures the percentage of institutional collaborations, and if we represent co-authorship at the country level, that this measures the percentage of international collaborations. Although this may be evident, it might therefore be possible that a publication is still authored by multiple authors, but in this definition they may not be counted as collaborative if they do not involve different institutions or different countries, respectively.
 
@@ -110,10 +128,6 @@ The database is closed access, and we therefore do not provide more details abou
 ## Known correlates
 
 Collaboration is associated with citations (Larivière et al., 2015), but this is potentially driven by network effects (Schulz et al., 2018) and need not be a causal effect.
-
-## Notes
-
-\[Add text here\]
 
 ## References
 
