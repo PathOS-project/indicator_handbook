@@ -163,17 +163,29 @@ Via: <https://direct.mit.edu/qss/article/1/1/6/15582/Article-processing-charges-
 -   Hybrid vs. Gold OA
 -   SNIP
 
-### Notes
+### Estimating unknown APCs
 
-An APC extrapolation exercise was conducted for the purposes of the following report.
+An APC extrapolation exercise was conducted for the purpose of the EC study (European Commission, 2021). The authors defined groupings, and imputed the average APC of the group to each publication in the group for which the APC is unknown. The groupings were based on the following variables, as per the correlates above:
+- quantile of the Source Normalised Impact per Paper (SNIP) score in the CTWS database,
+- whether the publication is pure ‘gold’ open access or ‘hybrid’,
+- the year of publication.
 
-<https://research-and-innovation.ec.europa.eu/knowledge-publications-tools-and-data/publications/all-publications/monitoring-open-access-policy-horizon-2020_en>
+The French Open Science Monitor (*BSO*) also uses several extrapolations when the APC for a DOI is not available in OpenAPC (Bracco et al., 2022). They are listed here in order of preference (only when one computation is not possible is the following used):
+- average APC for the same journal and the same year in OpenAPC (provided n>= 10)
+- average APC for the same publisher in OpenAPC, for the same year as the article (provided n>= 10)
+- average APC for the same journal in OpenAPC, for all years available
+- average APC for the same publisher in OpenAPC, for all years available
+- APC for the journal in DOAJ
 
-(page 107)
+To estimate a prospective amount of APC, Blanchard et al. (2022) used a mixed-effects model of the evolution of the APC  of an article as a function of the year and the publisher tier. In this mixed-effect model, the APC varies, and it is between publisher tiers that the variation is the largest.
+
 
 ### References
 
-Schönfelder, Nina. "Article processing charges: Mirroring the citation impact or legacy of the subscription-based model?." *Quantitative Science Studies* 1.1 (2020): 6-27.
+Blanchard, Antoine, Diane Thierry, Maurits van der Graaf. *Retrospective and prospective study of the evolution of APC costs and electronic subscriptions for French institutions*. Comité pour la science ouverte, 2022, <https://hal-lara.archives-ouvertes.fr/hal-03909068>
+
+Bracco, Laetitia, Anne L'Hôte, Eric Jeangirard, Didier Torny. *Extending the open monitoring of open science: A new framework for the French Open Science Monitor (BSO)*, 2022, <https://hal.science/hal-03651518>
 
 European Commission, Directorate-General for Research and Innovation, *Monitoring the open access policy of Horizon 2020 – Final report*, Publications Office, 2021, <https://data.europa.eu/doi/10.2777/268348>
 
+Schönfelder, Nina. "Article processing charges: Mirroring the citation impact or legacy of the subscription-based model?." *Quantitative Science Studies* 1.1 (2020): 6-27.
