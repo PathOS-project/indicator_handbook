@@ -1,0 +1,69 @@
+# Scientific literacy {#scientific-literacy .unnumbered}
+
+History (please fill out in reverse chronological order, latest revision on top):
+
+|         |               |                 |                                |
+|---------|---------------|-----------------|--------------------------------|
+| Version | Revision date | Revision        | Author                         |
+| 0.1     | 2024-02-02    | First draft     | Thomas Klebel                  |
+| 0.2     | 2024-02-27    | Review comments | Nicki Lisa Cole, Vincent Traag |
+
+## Description
+
+Scientific literacy is a concept aimed at measuring a society's ability to engage with and understand scientific concepts and discussions. Despite the extensive literature on the subject, there is no common definition (DeBoer, 2000; Laugksch, 2000; Norris et al., 2014; Roberts, 2007). Furthermore, there is also debate about why scientific literacy is or should be a goal (DeBoer, 2000; Laugksch, 2000; Norris et al., 2014). Three perspectives on the concept are instructive.
+
+First, in a view proposed by Laugksch (2000) and supported by Roberts (2007), there are at least three stakeholder groups engaged with scientific literacy: (1) sociologists, (2) public opinion researchers, (3) science educators. All three stakeholder groups approach the topic with their own goals and justifications for why scientific literacy matters. Consequently, they also employ vastly different methods to measure the concept, ranging from in-depth interviews to representative population samples, to assessments of students’ competencies.
+
+Second, Laugksch (2000) and Norris et al. (2014) conceptualise scientific literacy to comprise of three different interpretations of what it means to be ‘literate’. The first refers to what one has learned – the specific knowledge gained. The second refers to being competent, having a certain capacity to engage with scientific contents. The third refers to how scientific literacy might enable one “to function minimally in society” (Laugksch, 2000, p. 82).
+
+Third, Roberts (2007) provides a useful distinction between two “visions” of scientific literacy, where the term “Vision” is broader than a mere definition and represents an ideal type in the Weberian sense. Vision I in Roberts’ terms is concerned with literacy or knowledgeability *within science*, that is, it is targeted at an understanding of scientific products (publications, datasets, claims) and processes (Roberts, 2007, p. 730). In contrast, Vision II is targeted at situations where scientific knowledge can aid citizens in their daily lives: “At the extreme, this vision can be called *literacy* (again, read *thorough knowledgeability*) *about science-related situations* in which considerations other than science have an important place at the table.” (Roberts, 2007, p. 730) As an example, this vision is reflected in how the OECD defines scientific literacy in PISA (Roberts, 2007, p. 766):
+
+PISA defines scientific literacy as the ability to engage with science-related issues, and with the ideas of science, as a reflective citizen. PISA’s definition includes being able to explain phenomena scientifically, evaluate and design scientific enquiry, and interpret data and evidence scientifically. *It emphasises the importance of being able to apply scientific knowledge in the context of real-life situations.* (OECD, 2017, own emphasis)
+
+Given the diverse perspectives and the lack of consensus on a definition, we refrain from singling out specific metrics. Metrics to study scientific literacy should be chosen and evaluated against the specific goal of a particular study (Laugksch, 2000, p. 88), and it is beyond the scope of this handbook to enumerate all available approaches.
+
+Pointers (To be added into the text or at the end here):
+
+-   PISA definitions and rationale available, but survey items only partially released, and not for the latest iteration
+
+## Metrics
+
+### &lt;metric name&gt;
+
+\[Add text here\]
+
+#### Measurement.
+
+\[Add text here\]
+
+##### Existing datasources:
+
+###### &lt;datasource name&gt;
+
+\[Add text here\]
+
+##### Existing methodologies
+
+###### &lt;methodology name&gt;
+
+\[Add text here\]
+
+## Known correlates
+
+\[Add text here\]
+
+## Notes
+
+\[Add text here\]
+
+## References
+
+DeBoer, G. E. (2000). Scientific literacy: Another look at its historical and contemporary meanings and its relationship to science education reform. *Journal of Research in Science Teaching*, *37*(6), 582–601. https://doi.org/10.1002/1098-2736(200008)37:6&lt;582::AID-TEA5&gt;3.0.CO;2-L
+
+Laugksch, R. C. (2000). Scientific literacy: A conceptual overview. *Science Education*, *84*(1), 71–94. https://doi.org/10.1002/(SICI)1098-237X(200001)84:1&lt;71::AID-SCE6&gt;3.0.CO;2-C
+
+Norris, S. P., Phillips, L. M., & Burns, D. P. (2014). Conceptions of Scientific Literacy: Identifying and Evaluating Their Programmatic Elements. In M. R. Matthews (Ed.), *International Handbook of Research in History, Philosophy and Science Teaching* (pp. 1317–1344). Springer Netherlands. https://doi.org/10.1007/978-94-007-7654-8_40
+
+OECD. (2017). *PISA for Development Brief 10—How does PISA for Development measure scientific literacy?* OECD. https://www.oecd.org/pisa/pisa-for-development/10%20-%20How%20PISA-D%20measures%20science%20literacy_rev.pdf
+
+Roberts, D. A. (2007). Scientific Literacy/Science Literacy. In *Handbook of Research on Science Education*. Routledge.

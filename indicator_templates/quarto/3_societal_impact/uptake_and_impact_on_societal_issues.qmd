@@ -1,0 +1,100 @@
+# Uptake in and impact on to societal issues {#uptake-in-and-impact-on-to-societal-issues .unnumbered}
+
+History (please fill out in reverse chronological order, latest revision on top):
+
+|         |               |             |              |
+|---------|---------------|-------------|--------------|
+| Version | Revision date | Revision    | Author       |
+| 1.0     | 2023-08-21    | First draft | T. Venturini |
+
+## []{#_Ref126739570}Description
+
+Increasing the capacity of scientific processes and outputs to help address societal issues is perhaps the most important objective of Open Science. It is also the objective whose achievement is the most difficult to assess. The issues challenging our societies are extremely diverse and influenced by a multiplicity of factors that is as complex as shifting. Assessing the impact of Open Science on societal problems requires five steps:
+
+1.  *Defining the societal issues under investigation and their desired solution.*\
+    This is in itself a problematic step as different social groups can have different perspectives of what constitutes the problems affecting a society, their precise delineation, their respective significance and urgency, and finally in which direction they should evolve. This is why we use the term “issues” rather than “challenges” or “goals”, in order to highlight their potentially controversial nature (Venturini and Munk, 2021).
+2.  *Monitoring their improvement or worsening of societal issues over time.*\
+    Even when an agreement or a decision can be reached concerning the precise definition of societal issues to be examined and their desired development, monitoring such development in time still requires setting in place a protocol of qualitative and quantitative techniques to assess the situation at different moments in time. It is crucial that the comparability of these different temporal assessments is assured to evaluate in which direction the situation is evolving.
+3.  *Assessing the existence of Open Science resources available on different societal issues.\
+    *Here the task is to evaluate the quantity and, if possible, the quality of the different types of Open Science resources addressing the issues under investigation. It is also important to be able to assess the ratio of open versus non-open resources, so that the availability of Open Science resources can be separated from the availability of scientific resources in general.
+4.  *Assessing the uptake of Open Science by the social actors active on different issues.*\
+    It is safe to assume that however useful it may be, no scientific resource (open or otherwise) can directly influence any given societal issue unless it is taken up by the social actors who are engaged with the issues in question. It is therefore necessary to find ways to assess to what extent different Open Science resources (e.g., documents, datasets, software…) are actually mobilized in the actions and discourses concerning the issues in question. Here as well, it is important to be able to assess the ratio of open versus non-open resources.
+5.  *Disentangling the effect of Open Science from the many other dynamics that may influence the evolution of social issues.*\
+    Even when evidence can be produced of both the evolution of a given social issue and a significant mobilization of Open Science in the actions and discourses around the issue, proving the existence of a causal effect between the two (rather than a simple association) remains problematic. To do we propose two research directions
+    1.  *A comparative approach*: different type of comparisons should be drawn\
+        - across different issues\
+        - across different periods\
+        - across different geographical or social spaces\
+        in order to establish that a higher level of Open Science mobilization is regularly associated with positive evolution of a given societal issue. Ultimately, this is a problem of causal identification*.*
+    2.  *A qualitative exploration* of the nature of the Open Science mobilized, the identity of the actors mobilizing them, the role played by OS in their strategies, the reception/reaction of the other actors and, finally, the precise dynamic of evolution of the issue at stake. This qualitative exploration is meant to reveal the causality paths that lead to Open Science impact.
+
+None of the four steps above is straightforward. Luckily, however, a multiplicity of initiatives exists already to (1) define and (2) measure the evolution of different societal issues. Rather than duplicating these efforts, we recommend drawing on them, not only to dedicate more resources to tasks (3), (4) and (5), but also to open a dialog with these monitoring initiatives and make Open Science an integral part of their assessment.
+
+## Existing datasources:
+
+We should separate here the datasources exploitable for the tasks (1) and (2), from those necessary to cover tasks (3) and (4). Task (5) does not require specific data collection as it focusses on the comparative analysis of the data collected in the previous tasks.
+
+### Data for tasks 1 and 2: defining and monitoring societal issues
+
+As suggested above, it is preferable to exploit already existing monitoring initiatives rather than collecting and analyzing data anew. Indeed, (1) defining and (2) measuring the evolution of different societal issues is an extremely complicated endeavor, but which is to a large extent separated from the task of assessing the impact of Open Science on such evolution.
+
+Depending on the issues in question, different assessment initiatives can be considered. To enable tasks (3), (4) and (5), however, it is important that these initiatives:
+
+-   offer a sufficiently precise definition of their object (which is crucial in order to detect which actors are mobilizing the, how, and how much);
+-   allow comparing the situation of the issue in question temporally, but ideally also in different geographical or social spaces and, if possible, the comparison with other issues.
+
+As a particularly fitting example, we can mention the United Nations recent program to promote the *Sustainable Development Goals* ([sdgs.un.org](https://sdgs.un.org)). While the way in which the seventeen SDGs are quantified is not without problems, their monitoring constitutes an unparalleled effort to homogenize the assessment of a variety of societal and environmental challenges across many countries around the world. Relying on SDGs as a list of social issues that can be impacted by Open Science allows to exploit a series of different measures that are centralized and that can be monitored and compared temporally and geographically. Also, while SDGs are very different from one another, the fact of being reunited under the same framework facilitates a compare and contrast approach, crucial for the task 4 of this protocol.
+
+It is well known, however, that SDGs do not cover all possible societal issues, that they are sometimes too broadly defined and that they may fail to capture more specific and localized dynamics. Other assessment initiatives, therefore, can and should be identified according to the precise objective of the evaluation.
+
+### Data for task 3: Open Science resources
+
+The data necessary for task (3) “” are the easiest to find, as they can be found in the existing datasets on Open Science in general (e.g., open publication portals, open-source platforms, etc.).
+
+The statements and documents collected above constitute the corpus in which open and non-open science resources should be identified and (if possible) counted. We recommend starting from the “Open Science indicators” compiled by this project. They provide a series of methods and recommendations to identify different OS items.
+
+According to UNESCO’s 2021 recommendation, Open Science is composed by:
+
+-   scientific publications (e.g., articles, books, research reports, conference papers);
+-   research data (digital or analogue, raw or processed, metadata, records, images, protocols, analysis codes, workflows, and more);
+-   educational resources (teaching, learning and research materials);
+-   open-source software and source code;
+-   open hardware, such as the design specifications of physical objects.
+
+It is crucial here that all these different types of open resources are considered together with their non-open equivalents.
+
+One particular challenge is to understand which publications are relevant for which societal issues. There are many efforts at trying to map the scientific literature into topics (Waltman & van Eck, 2019), but these do not necessarily align with known societal issues (Rafols et al., 2022). For existing schemas of societal, such as the UN SDGs mentioned earlier, there is considerable disagreement about the classification and assignment of academic literature to SDGs (Armitage et al., 2020).
+
+### Data for task 4: Open Science uptake
+
+The first operation here is therefore to list all the actors active on the issues at stake. To be sure, it is not possible to provide a closed list of these actors as their identity and nature varyby issue and time. However, they can include, but are not limited to, public institutions, profit and nonprofit organizations, civil society groups, research institutions, advocacy groups, formal and informal lobbies, experts, consultants as well as lay experts and individual citizens.
+
+Once a list of relevant actors has been established, the next step is to find information about the resources that they mobilized in their engagement on the issue. Such information can be found
+
+-   By interviewing the actors in questions (and more precisely their spokespersons) and interrogating them about their resources that they use to push their position on the issues, and the impact of these different resources in their advocacy activity.
+-   By collecting their public (and when possible, their private) discourses as recorded in their reports, publications, statements etc. These discourses can be obtained from different sources (from the more to the less easy to exploit). More specifically, they can be:
+    -   organised in specialized repositories (for instance, in the case of trials, public consultations or citizen conferences).
+    -   assembled and consolidated by journalistic and academic investigations;
+    -   dispersed on the websites and social media accounts of these actors (and in the worst case in their private archives).
+
+## Metrics
+
+Given the complexity of the assessment described in these pages, the metrics suggested below should never be trusted alone. As explained in the task 5b, these figures can only take meaning if contextualized by a thorough qualitative exploration of the nature of the OS resources mobilized, the identity of the actors mobilizing them, the role played by OS in their strategies, the reception/reaction of the other actors and, finally, the precise dynamic of evolution of the issue at stake.
+
+### Metrics for task 3: Open Science resources
+
+-   Total amount of OS resources (publications, data, educational materials, open-source software, open hardware) addressing each societal issue.
+-   Ratio of OS over non-OS resources addressing each societal issue.
+
+### Metrics for task 4: Open Science uptake
+
+-   Number of references to OS resources in the statements and documents of each actor or actor type active on each societal issue.
+-   Ratio of OS over non-OS references to OS resources in the statements and documents of each actor or actor type active on each societal issue.
+
+## Known correlatesNotesReferences
+
+Armitage, C. S., Lorenz, M., & Mikki, S. (2020). Mapping scholarly publications related to the Sustainable Development Goals: Do independent bibliometric approaches get the same results? Quantitative Science Studies, 1(3), 1092–1108. <https://doi.org/10.1162/qss_a_00071>
+
+Rafols, I., Yegros, A., Klippe, W. van de, & Willemse, T. (2022). Mapping Mental Health & Well-being Research. An investigation of the landscape of mental health research. SocArXiv. <https://doi.org/10.31235/osf.io/smuyv>
+
+Waltman, L., & van Eck, N. J. (2019). Field Normalization of Scientometric Indicators. *Springer Handbook of Science and Technology Indicators*, 281–300. <https://doi.org/10.1007/978-3-030-02511-3_11>

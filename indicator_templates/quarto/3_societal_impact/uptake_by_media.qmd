@@ -1,0 +1,117 @@
+# Uptake by media {#uptake-by-media .unnumbered}
+
+History (please fill out in reverse chronological order, latest revision on top):
+
+|         |               |                       |            |
+|---------|---------------|-----------------------|------------|
+| Version | Revision date | Revision              | Author     |
+| 1.1     | 2024-03-04    | Revision after review | V.A. Traag |
+| 1.0     | 2024-02-07    | First Draft           | V.A. Traag |
+
+## Description
+
+This indicator provides an idea of how frequently a particular scientific publication is mentioned or referenced in the media. Here, media can be considered in a broad way, including not only traditional media, such as newspapers or television, but also more recently emerged social media, including for example Twitter (now X), Facebook or Reddit, and Wikipedia. The visibility of individual scientific publications can then be aggregated in various ways, looking for instance at journals, institutions or even entire countries.
+
+Although this provides some idea of whether science is being used by society, it is relatively limited. That is, by just looking at the fact that research is mentioned, we do not know how it is being used. That is, some research might be frequently mentioned, but ultimately it may not play a larger role in societal debates, support policy making or ignite some product development.
+
+Alternative approaches, for example focussing on the mention of researchers or universities instead of references to a publication, would be interesting. These approaches are relatively underdeveloped at the moment, but might be explored further in the future.
+
+These indicators can also be used indirectly. That is, it was suggested in the literature that instead of tracking the uptake of individual papers, one might instead consider the uptake of a paper's topic more generally (Noyons, 2019). Although we will not describe this approach in detail, it offers an additional possibility that could be explored. One advantage of this approach is that it acknowledges the fact that scientific research can inform media debate even when individual publications are not explicitly mentioned in the media.
+
+Finally, although the focus here is on individual publications, there are also other way to track the uptake of science by the media. For instance, one could directly try to search for an academic journal, instead of trying to identify the media uptake of all publications of that journal and then aggregating to the journal. The same applies of course to other aggregates, such as institutions or repositories. We will not describe this approach here, but it is worthwhile to consider it.
+
+## Metrics
+
+### #/% of references in social media
+
+This metric operationalises the uptake in terms of social media. In principle, this could include any social media, ranging from LinkedIn to TikTok, but in practice, this is typically restricted to social media that is actively tracked by some data sources. Depending on the data source, this can be a relatively good indicator for the uptake of science, in particular in social media.
+
+A clear limitation is that typically only mentions of research that explicitly link to the online publication (e.g. the URL or the DOI). This means that posts or messages that do consider science (e.g. by copy-pasting in a figure from a publication) but do not explicitly link to the source, are typically not indexed by such data sources. Moreover, if there is no explicit mention of the source, it is practically impossible to somehow determine what source was used.
+
+We can discern two types of measurements: (1) counting the total number of mentions for a certain publication, and then aggregating over a certain set of publications, by for example taking the mean; or (2) considering whether a publication is mentioned at all, and then looking at the percentage of publications that are mentioned (i.e. at least once). Although the first metric might provide a richer picture, mentions in social media can be relatively sparse, limiting the value of this metric. The latter metric might then be especially relevant in such situations.
+
+#### Measurement.
+
+The metric can be measured by using existing datasources that already track the uptake of science in social media.
+
+### #/% of references in Wikipedia
+
+This metric operationalises the uptake of science by Wikipedia. Most articles on Wikipedia have a formal way of citing scientific literature, in a way that is not unlike academic literature itself. However, the audience of Wikipedia is different, and broader than scientists themselves, although not everybody may make use of Wikipedia equally. Because of the formalisation of citations, it means that tracking citations from Wikipedia to scientific publications is relatively accurate. Nonetheless, there are still some challenges with correctly matching citations from Wikipedia to the correct publications, especially if identifiers such as DOIs are not included.
+
+#### Measurement.
+
+The metric can be measured by using existing datasources that already track the uptake of science in social media.
+
+### #/% of references in newspapers
+
+This metric operationalises the uptake of science by newspapers. This typically tracks the explicit mention (usually the URL or DOI in a hyperlink in the online version of an article) of science. Arguably, science frequently appears in newspapers without it being explicitly mentioned or linked to. For example, some studies might be mentioned just informally (e.g. “a recent article by ...”). Moreover, scientists themselves regularly appear as commentators in newspapers, but this is usually not tracked systematically. So, overall, this metric is not necessarily the most accurate indicator, because it most likely underestimates the uptake of science by newspapers.
+
+#### Measurement.
+
+The metric can be measured by using existing datasources that already track the uptake of science in social media.
+
+## Datasources
+
+### Crossref Event Data
+
+[Crossref Event Data](https://www.crossref.org/services/event-data/) is an open dataset that offers some view of how scientific publications are linked to by a number of other services (including citations). In particular, in addition to citation data from Crossref and DataCite, it collects data from
+
+-   Faculty Opinions
+-   Hypothes.is
+-   Blogs/media
+-   Reddit
+-   Stack Exchange Network
+-   Wikipedia
+-   Wordpress.com
+
+The data can be accessed openly through the [API](https://www.eventdata.crossref.org/guide/service/query-api/). For example, you can get all indexed events through the URL
+
+``` python
+https://api.eventdata.crossref.org/v1/events?mailto=example@example.org&obj-id=10.5555/12345678
+```
+
+Here, `obj-id` refers to the DOI (or URL) of a publication, and `mailto` refers to an e-mail address (which is not mandatory). Based on these results, it is possible to establish counts of usage for the various datasources that are being tracked. Note that social media is not tracked extensively. Twitter was tracked until February 2023, but was discontinued, and historical data removed. Only items registered by Crossref are tracked.
+
+### Altmetric
+
+[Altmetric](https://www.altmetric.com/) is a commercial provider of various metrics of uptake by (social) media. The dataset is not openly available, but they do provide access for [research purposes](https://www.altmetric.com/our-audience/researchers/research-access/). Documentation of the API is avalable from <https://api.altmetric.com/>. Because the datasource is not open, we do not provide explicit examples of the use of the API. Altmetric is part of [Digital Science](https://www.digital-science.com/).
+
+In addition to citation data (provided by [Dimensions](https://www.dimensions.ai/)) and readership information, Altmetrics collects data from the following [sources](https://www.altmetric.com/about-us/our-data/our-sources/):
+
+-   Policy
+-   Twitter (now X)
+-   Facebook
+-   YouTube
+-   Reddit
+-   Q&A (Stack Overflow)
+-   Wikipedia
+-   Open Syllabus
+-   Blogs / Media
+-   Publons peer review
+-   Faculty Opinions
+
+### PlumX
+
+[PlumX](https://plumanalytics.com/) is a commercial provider of various metrics of uptake by (social) media. The dataset is not openly available. An [API](https://dev.elsevier.com/documentation/PlumXMetricsAPI.wadl) is available for Scopus subscribers. Because the datasource is not open, we do not provide explicit examples of the use of the API. PlumX is part of Elsevier.
+
+In addition to citation, views and download information, PlumX collects data from the following [sources](https://plumanalytics.com/learn/about-metrics/):
+
+-   Vimeo, Soundcloud, YouTube
+-   Blogs / Media
+-   Reddit
+-   Wikipedia
+-   Facebook
+
+## Known correlates
+
+Correlations among various measure of uptake by media have been studies (Fang et al., 2020).
+
+## Notes
+
+\[Add text here\]
+
+## References
+
+Noyons, E. (2019). Measuring Societal Impact Is as Complex as ABC. *Journal of Data and Information Science*, *4*(3), 6–21. <https://doi.org/10.2478/jdis-2019-0012>
+
+Fang, Z., Costas, R., Tian, W., Wang, X., & Wouters, P. (2020). An extensive analysis of the presence of altmetric data for Web of Science publications across subject fields and research topics. *Scientometrics*, 124(3), 2519–2549. <https://doi.org/10.1007/s11192-020-03564-9>
