@@ -1,11 +1,30 @@
+---
+author:
+    - name: R. Costas
+      orcid: 0000-0002-7465-6462
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
 # Uptake by policy makers {#uptake-by-policy-makers .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
+
+## History
 
 |         |               |                              |                           |
 |---------|---------------|------------------------------|---------------------------|
 | Version | Revision date | Revision                     | Author                    |
 | 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag |
+
+:::
 
 ## Description
 
