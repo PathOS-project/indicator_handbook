@@ -25,7 +25,7 @@ do
     pandoc \
         -f html \
         --extract-media "figures" \
-        --atx-headers \
+        --markdown-headings=atx \
         --wrap=preserve \
         -t markdown+backtick_code_blocks+header_attributes+space_in_atx_header-all_symbols_escapable-smart-simple_tables+pipe_tables \
         --lua-filter=${SCRIPT_DIR}/filter.lua \
