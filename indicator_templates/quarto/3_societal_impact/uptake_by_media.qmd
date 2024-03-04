@@ -126,10 +126,6 @@ In addition to citation, views and download information, PlumX collects data fro
 
 Correlations among various measure of uptake by media have been studies (Fang et al., 2020).
 
-## Notes
-
-\[Add text here\]
-
 ## References
 
 Noyons, E. (2019). Measuring Societal Impact Is as Complex as ABC. *Journal of Data and Information Science*, *4*(3), 6–21. <https://doi.org/10.2478/jdis-2019-0012>
