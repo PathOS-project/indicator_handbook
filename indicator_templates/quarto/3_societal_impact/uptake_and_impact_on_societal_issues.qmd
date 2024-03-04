@@ -1,11 +1,35 @@
+---
+author:
+    - name: T. Venturini
+      orcid: 0000-0003-0004-5308
+      affiliations:
+      - ref: cis-cnrs
+      - ref: ugen
+
+affiliations:
+- id: cis-cnrs
+  name: Centre national de la recherche scientifique
+  department: Centre for Internet and Society
+  city: Paris
+  country: France
+- id: ugen
+  name: University of Geneva
+  city: Geneva
+  country: Switzerland
+---
+
 # Uptake in and impact on to societal issues {#uptake-in-and-impact-on-to-societal-issues .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
+
+## History
 
 |         |               |             |              |
 |---------|---------------|-------------|--------------|
 | Version | Revision date | Revision    | Author       |
 | 1.0     | 2023-08-21    | First draft | T. Venturini |
+
+:::
 
 ## []{#_Ref126739570}Description
 
