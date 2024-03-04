@@ -1,12 +1,30 @@
+---
+author:
+    - name: T. Klebel
+      orcid: 0000-0002-7331-4751
+      affiliations:
+      - ref: know
+
+affiliations:
+- id: know
+  name: Know-Center
+  city: Graz
+  country: Austria
+---
+
 # Scientific literacy {#scientific-literacy .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
+
+## History
 
 |         |               |                 |                                |
 |---------|---------------|-----------------|--------------------------------|
 | Version | Revision date | Revision        | Author                         |
 | 0.1     | 2024-02-02    | First draft     | Thomas Klebel                  |
 | 0.2     | 2024-02-27    | Review comments | Nicki Lisa Cole, Vincent Traag |
+
+:::
 
 ## Description
 
