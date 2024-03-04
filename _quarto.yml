@@ -63,21 +63,10 @@ book:
 
     - part: Societal Impact
       chapters:
-        - indicator_templates/quarto/3_societal_impact/uptake_in_citizen_science.qmd
-        - indicator_templates/quarto/3_societal_impact/uptake_in_education.qmd
-        - indicator_templates/quarto/3_societal_impact/science_literacy.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_and_impact_on_societal_issues.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_by_media.qmd
+        - indicator_templates/quarto/3_societal_impact/scientific_literacy.qmd
         - indicator_templates/quarto/3_societal_impact/uptake_by_policy_makers.qmd
-        - indicator_templates/quarto/3_societal_impact/uptake_in_the_legal_sector.qmd
-        - indicator_templates/quarto/3_societal_impact/uptake_in_the_public_debate.qmd
-        - indicator_templates/quarto/3_societal_impact/uptake_in_medical_practice.qmd
-        - indicator_templates/quarto/3_societal_impact/uptake_by_patient_groups.qmd
-        - indicator_templates/quarto/3_societal_impact/uptake_by_civil_society.qmd
-        - indicator_templates/quarto/3_societal_impact/uptake_by_the_general_public.qmd
-        - indicator_templates/quarto/3_societal_impact/uptake_by_the_artistic_sector.qmd
-        - indicator_templates/quarto/3_societal_impact/effect_on_democracy.qmd
-        - indicator_templates/quarto/3_societal_impact/effect_on_ethnic_inequality.qmd
-        - indicator_templates/quarto/3_societal_impact/effect_on_gender_inequality.qmd
-        - indicator_templates/quarto/3_societal_impact/effect_on_sdgs.qmd
 
     - part: Economic Impact
       chapters:
