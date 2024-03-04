@@ -44,36 +44,6 @@ Pointers (To be added into the text or at the end here):
 
 -   PISA definitions and rationale available, but survey items only partially released, and not for the latest iteration
 
-## Metrics
-
-### &lt;metric name&gt;
-
-\[Add text here\]
-
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
-
 ## References
 
 DeBoer, G. E. (2000). Scientific literacy: Another look at its historical and contemporary meanings and its relationship to science education reform. *Journal of Research in Science Teaching*, *37*(6), 582–601. https://doi.org/10.1002/1098-2736(200008)37:6&lt;582::AID-TEA5&gt;3.0.CO;2-L
