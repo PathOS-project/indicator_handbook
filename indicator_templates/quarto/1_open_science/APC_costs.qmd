@@ -163,17 +163,26 @@ Via: <https://direct.mit.edu/qss/article/1/1/6/15582/Article-processing-charges-
 -   Hybrid vs. Gold OA
 -   SNIP
 
-### Notes
+### Estimating unknown APCs
 
-An APC extrapolation exercise was conducted for the purposes of the following report.
+An APC extrapolation exercise was conducted for the purpose of an EC study (European Commission, 2021). The authors defined groupings, and imputed the average APC of the group to each publication in the group for which the APC is unknown. The groupings were based on the following variables, similar to the correlates above:
+- quantile of the Source Normalised Impact per Paper (SNIP) score in the [CWTS journal indicators](https://www.journalindicators.com/),
+- whether the publication is pure ‘gold’ open access or ‘hybrid’,
+- the year of publication.
 
-<https://research-and-innovation.ec.europa.eu/knowledge-publications-tools-and-data/publications/all-publications/monitoring-open-access-policy-horizon-2020_en>
+The [French Open Science Monitor](https://frenchopensciencemonitor.esr.gouv.fr/) also uses several extrapolations when the APC for a DOI is not available in OpenAPC (Bracco et al., 2022). They are listed here in order of preference (only when one computation is not possible is the following used):
+- average APC for the same journal and the same year in OpenAPC (provided $n \geq 10$)
+- average APC for the same publisher in OpenAPC, for the same year as the article (provided $n \geq 10$)
+- average APC for the same journal in OpenAPC, for all years available
+- average APC for the same publisher in OpenAPC, for all years available
+- APC for the journal in DOAJ
 
-(page 107)
+
 
 ### References
 
-Schönfelder, Nina. "Article processing charges: Mirroring the citation impact or legacy of the subscription-based model?." *Quantitative Science Studies* 1.1 (2020): 6-27.
+Bracco, Laetitia, Anne L'Hôte, Eric Jeangirard, Didier Torny. *Extending the open monitoring of open science: A new framework for the French Open Science Monitor (BSO)*, 2022, <https://hal.science/hal-03651518>
 
 European Commission, Directorate-General for Research and Innovation, *Monitoring the open access policy of Horizon 2020 – Final report*, Publications Office, 2021, <https://data.europa.eu/doi/10.2777/268348>
 
+Schönfelder, Nina. "Article processing charges: Mirroring the citation impact or legacy of the subscription-based model?." *Quantitative Science Studies* 1.1 (2020): 6-27.
