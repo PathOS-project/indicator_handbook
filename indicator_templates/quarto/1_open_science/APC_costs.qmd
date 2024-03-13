@@ -170,9 +170,9 @@ An APC extrapolation exercise was conducted for the purpose of an EC study (Euro
 - whether the publication is pure ‘gold’ open access or ‘hybrid’,
 - the year of publication.
 
-The French Open Science Monitor (*BSO*) also uses several extrapolations when the APC for a DOI is not available in OpenAPC (Bracco et al., 2022). They are listed here in order of preference (only when one computation is not possible is the following used):
-- average APC for the same journal and the same year in OpenAPC (provided n>= 10)
-- average APC for the same publisher in OpenAPC, for the same year as the article (provided n>= 10)
+The [French Open Science Monitor](https://frenchopensciencemonitor.esr.gouv.fr/) also uses several extrapolations when the APC for a DOI is not available in OpenAPC (Bracco et al., 2022). They are listed here in order of preference (only when one computation is not possible is the following used):
+- average APC for the same journal and the same year in OpenAPC (provided $n \geq 10$)
+- average APC for the same publisher in OpenAPC, for the same year as the article (provided $n \geq 10$)
 - average APC for the same journal in OpenAPC, for all years available
 - average APC for the same publisher in OpenAPC, for all years available
 - APC for the journal in DOAJ
