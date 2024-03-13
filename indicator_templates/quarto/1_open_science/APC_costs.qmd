@@ -166,7 +166,7 @@ Via: <https://direct.mit.edu/qss/article/1/1/6/15582/Article-processing-charges-
 ### Estimating unknown APCs
 
 An APC extrapolation exercise was conducted for the purpose of an EC study (European Commission, 2021). The authors defined groupings, and imputed the average APC of the group to each publication in the group for which the APC is unknown. The groupings were based on the following variables, similar to the correlates above:
-- quantile of the Source Normalised Impact per Paper (SNIP) score in the CTWS database,
+- quantile of the Source Normalised Impact per Paper (SNIP) score in the [CWTS journal indicators](https://www.journalindicators.com/),
 - whether the publication is pure ‘gold’ open access or ‘hybrid’,
 - the year of publication.
 
