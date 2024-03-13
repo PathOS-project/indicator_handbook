@@ -177,12 +177,9 @@ The [French Open Science Monitor](https://frenchopensciencemonitor.esr.gouv.fr/)
 - average APC for the same publisher in OpenAPC, for all years available
 - APC for the journal in DOAJ
 
-To estimate a prospective amount of APC, Blanchard et al. (2022) used a mixed-effects model of the evolution of the APC  of an article as a function of the year and the publisher tier. In this mixed-effect model, the APC varies, and it is between publisher tiers that the variation is the largest.
 
 
 ### References
-
-Blanchard, Antoine, Diane Thierry, Maurits van der Graaf. *Retrospective and prospective study of the evolution of APC costs and electronic subscriptions for French institutions*. Comité pour la science ouverte, 2022, <https://hal-lara.archives-ouvertes.fr/hal-03909068>
 
 Bracco, Laetitia, Anne L'Hôte, Eric Jeangirard, Didier Torny. *Extending the open monitoring of open science: A new framework for the French Open Science Monitor (BSO)*, 2022, <https://hal.science/hal-03651518>
 
