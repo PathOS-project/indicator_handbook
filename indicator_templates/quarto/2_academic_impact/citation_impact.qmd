@@ -133,7 +133,7 @@ $$e_{fy} = \frac{1}{n_{fy}} \sum_{S_{fy}} c_i.$$
 
 The normalised citation score $c'_i$ can then be defined as
 
-$$c'_i = \frac{c_i}{e_{f_i,s_i}}.$$
+$$c'_i = \frac{c_i}{e_{f_i,y_i}}.$$
 
 Let $S$ then denotes the set of papers of interest with $n = |S|$ papers in total. Then the total normalised citation score (TNCS) can be defined as
 
