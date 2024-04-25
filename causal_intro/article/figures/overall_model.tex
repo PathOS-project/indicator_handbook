@@ -1,0 +1,16 @@
+\documentclass[tikz]{standalone}
+
+\input{figure.tex}
+\input{styling.tex}
+
+\usetikzlibrary{calc}
+
+\begin{document}
+  \begin{tikzpicture}[nodes=n square,
+                      every edge/.style={e},
+                      x=3cm,y=3cm]
+
+  \input{base_model.tex}
+
+  \end{tikzpicture}
+\end{document}

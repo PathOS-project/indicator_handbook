@@ -1,0 +1,58 @@
+---
+title: "Effect of rigour on reproducibility"
+format: html
+editor: visual
+---
+
+```{r, message=FALSE}
+library(dplyr)
+library(here)
+source(here::here("src/functions.R"))
+
+df <- targets::tar_read(simulate, store = "../_targets")
+coefs <- setup_coefficients()
+```
+
+# Analytical/numerical solution
+
+Numerical integration of
+$$E(X Z \mid F) = \int_x x \cdot \text{logistic}(\alpha_Z + \beta x + \phi_F) \cdot f(x) \mathrm{d}x$$
+
+where $f(x)$ is the pdf of $X \sim \text{Normal}(0,1)$, which solves the
+equation $\text{Cov}(X, Z)$.
+
+The final estimate for $\beta$ is obtained by multiplying the result from above
+as follows:
+
+$$\text{Cov}(X, Y) = \gamma + \theta \text{Cov}(X, Z)$$
+
+```{r}
+field1 <- function(x) x * plogis(get_coefs("intercept", "open_data") + get_coefs("rigour", "open_data") * x + get_coefs("field", "open_data")[[1]]) * dnorm(x)
+field2 <- function(x) x * plogis(get_coefs("intercept", "open_data") + get_coefs("rigour", "open_data") * x + get_coefs("field", "open_data")[[2]]) * dnorm(x)
+
+get_coefs("rigour", "reproducibility") + get_coefs("open_data", "reproducibility") * mean(c(integrate(field1, -Inf, Inf)$value, integrate(field2, -Inf, Inf)$value))
+```
+
+```{r}
+# plot functions 
+x <- seq(-10, 10, .1)
+
+plot(x, field1(x))
+plot(x, field2(x))
+```
+
+--------------------------------------------------------------------------------
+
+# Empirical solution
+
+Empirical estimation of
+
+$$\text{Cov}(X, Y) = \gamma + \theta \text{Cov}(X, Z)$$
+
+```{r}
+(left <- cov(df$rigour, df$reproducibility))
+
+(right <- get_coefs("rigour", "reproducibility") + get_coefs("open_data", "reproducibility") * cov(df$rigour, df$open_data))
+
+all.equal(left, right)
+```

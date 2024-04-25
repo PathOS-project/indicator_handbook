@@ -1,0 +1,17 @@
+$-- Contains the document class declaration and options.
+$-- In this case, we added specifically the showkeys classoption.
+
+\documentclass[
+$if(keywords)$
+  showkeys,
+$endif$
+$if(fontsize)$
+  $fontsize$,
+$endif$
+$if(papersize)$
+  $papersize$paper,
+$endif$
+$for(classoption)$
+  $classoption$$sep$,
+$endfor$
+]{$documentclass$}

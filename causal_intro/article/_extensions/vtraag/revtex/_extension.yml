@@ -1,0 +1,39 @@
+title: REVTeX
+author: V.A. Traag
+version: 0.1.0
+contributes:
+  formats:
+    common:
+      knitr:
+        opts_chunk:
+          echo: false
+    pdf:
+      # define default configuration for the pdf version of your format
+      documentclass: revtex4-2
+      colorlinks: true
+      urlcolor: red
+      fig-width: 6.5
+      fig-height: 4.5
+      cite-method: natbib
+      # Content to add in header that your format is using
+      header-includes: |
+        \usepackage{orcidlink}
+      classoption:
+        - longbibliography
+        - nofootinbib
+        - nobibnotes
+        - amsmath
+        - amssymb
+        - floatfix
+        - citeautoscript
+        - author-year
+      template: template.tex
+      template-partials:
+        # Add here the partials your format is using
+        - "partials/title.tex"
+        - "partials/before-body.tex"
+        - "partials/doc-class.tex"
+      disable-package:
+        - multicol
+        - caption
+        - subcaption

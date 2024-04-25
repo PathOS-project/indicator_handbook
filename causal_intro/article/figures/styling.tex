@@ -1,0 +1,53 @@
+\usepackage{xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{quotes}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{shadows,shadows.blur}
+
+\definecolor{Dark2-A}{RGB}{ 27, 158, 119}
+\definecolor{Dark2-B}{RGB}{217,  95,   2}
+
+\definecolor{Set1-A}{RGB}{228,  26,  28}
+\definecolor{Set1-B}{RGB}{ 55, 126, 184}
+
+%\tikzstyle{n}=[circle,fill=Set1-B!30,font=\sffamily,label distance=0pt]
+\tikzstyle{e}=[rounded corners,very thick,draw=white,double=black,arrows={-latex[black]}]
+\tikzset{every label/.style={rectangle,fill=none,draw=none, label distance=4pt}}
+
+\tikzstyle{n}=[circle,draw=white,line width=2pt,outer sep=0pt,inner sep=0pt, minimum size=4ex]
+\tikzstyle{n square}=[n,rectangle, inner xsep=2pt,outer sep=2pt]
+
+\tikzstyle{n-novelty}=[n square]
+\tikzstyle{n-rigour}=[n square]
+\tikzstyle{n-data_reuse}=[n square]
+\tikzstyle{n-open_data}=[n square]
+\tikzstyle{n-published}=[n square]
+\tikzstyle{n-citations}=[n square]
+\tikzstyle{n-reproducibility}=[n square]
+\tikzstyle{n-field}=[n square]
+
+\tikzstyle{inline}=[anchor=base]
+\tikzstyle{open}=[fill=Dark2-A!50]
+\tikzstyle{closed}=[fill=Dark2-B!50]
+\tikzstyle{conditioned}=[draw=black,line width=2pt]
+\tikzstyle{unfair}=[text=Dark2-B]
+\tikzstyle{bias}=[draw=Dark2-B]
+\tikzstyle{unobserved}=[fill opacity=0.5]
+
+\newcommand\innode[ 2 ]{ 
+  \begin{tikzpicture}[baseline] 
+      \node[inline,inner ysep=0pt,inner xsep=3pt,outer sep=0pt,opacity=0] (n) {#1}; 
+      \useasboundingbox (n.north west) rectangle (n.south east);
+      \node[n,minimum size=3ex,inner sep=1pt,inline,#2] {#1}; 
+  \end{tikzpicture}
+  }
+
+\makeatletter
+\DeclareRobustCommand{\rvdots}{%
+  \vbox{
+    \baselineskip4\p@\lineskiplimit\z@
+    \kern-\p@
+    \hbox{.}\hbox{.}\hbox{.}
+  }}
+\makeatother
