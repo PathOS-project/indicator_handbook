@@ -3,6 +3,9 @@ project:
   output-dir: _site
   execute-dir: project
 
+execute:
+  freeze: true
+
 website:
   title: Open Science Indicator Handbook
   reader-mode: true
@@ -29,6 +32,13 @@ website:
       href: reproducibility_intro.qmd
 
   sidebar:
+
+    # The current problem is that when the document is included as a chapter,
+    # that using this suggestion for isolating environments for separate
+    # chapter, as suggested in https://quarto.org/docs/projects/code-execution.html#freeze-virtual-environments
+    # does not work. See also https://github.com/quarto-dev/quarto-cli/issues/8894.
+    # - causal_intro/article/intro-causality.qmd
+
     - title: Open Science
       contents:
         - section: Open Science
