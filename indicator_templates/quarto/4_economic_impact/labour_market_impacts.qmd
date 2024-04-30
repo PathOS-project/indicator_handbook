@@ -1,18 +1,48 @@
+---
+author:
+    - name: L. Stoy
+      orcid: 0000-0002-3827-9815
+      affiliations:
+      - ref: tgb
+    - name: I. Karasz
+      orcid: 0000-0002-3344-1975
+      affiliations:
+      - ref: tgb
+    - name: E. Seminaroti
+      orcid: 0009-0003-1476-4052
+      affiliations:
+      - ref: csil
+    - name: E. Delugas
+      orcid: 0009-0000-4638-1062
+      affiliations:
+      - ref: csil
+
+affiliations:
+- id: csil
+  name: Centre for Industrial Studies
+  city: Milan
+  country: Italy
+- id: tgb
+  name: Technopolis Group
+  city: Brussels
+  country: Belgium
+---
+
 # Labour market impact of OS {#labour-market-impact-of-os .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
 
-|         |               |                                      |                                                                            |
-|---------|---------------|--------------------------------------|----------------------------------------------------------------------------|
+## History
+
 | Version | Revision date | Revision                             | Author                                                                     |
-|         |               |                                      |                                                                            |
-|         |               |                                      |                                                                            |
-|         |               |                                      |                                                                            |
+|---------|---------------|--------------------------------------|----------------------------------------------------------------------------|
 | 0.5     | 30-04-2024    | Second Draft                         | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL)           |
 | 0.4     | 25-04-2024    | Peer Review                          | V.A. Traag                                                                 |
 | 0.3     | 09-04-2024    | Revised draft                        | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL, reviewer) |
 | 0.2     | 15-03-2024    | First full draft                     | Lennart Stoy (TGB), Elisa Seminaroti (TGB)                                 |
 | 0.1     |               | Labour efficiency indicator template | Istvan Karasz, Technopolis Consulting Group                                |
+
+:::
 
 ## Description
 
@@ -108,10 +138,6 @@ The approaches outlined under the metric “New Open Science skills and competen
 As a simple measure, this measurement could be done by calculating, for example, the frequency at which Open Science-related job descriptions occur in the sampled data. This can compare different sectors, e.g., to check if there are differences in the relevance of Open Science-related profiles in a sector, or longitudinal in a single sector, or both.
 
 The measurement can be applied for academia, the private sector, or industry and other sectors.
-
-## Known correlates
-
-n/a
 
 ## References
 
