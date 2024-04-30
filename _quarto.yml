@@ -72,7 +72,6 @@ book:
       chapters:
         - indicator_templates/quarto/4_economic_impact/science_industry_collaboration.qmd
         - indicator_templates/quarto/4_economic_impact/innovation_output.qmd
-        - indicator_templates/quarto/4_economic_impact/uptake_of_research_result_by_industry.qmd
         - indicator_templates/quarto/4_economic_impact/socially_relevant_products_and_processes.qmd
         - indicator_templates/quarto/4_economic_impact/economic_growth_of_companies.qmd
         - indicator_templates/quarto/4_economic_impact/labour_market_impacts.qmd

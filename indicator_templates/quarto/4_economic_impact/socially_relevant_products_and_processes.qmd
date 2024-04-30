@@ -1,102 +1,107 @@
 # Socially relevant products and processes {#socially-relevant-products-and-processes .unnumbered}
-::: {}
 
-## History
-:::
+History (please fill out in reverse chronological order, latest revision on top):
+
+|         |               |                              |                                               |
+|---------|---------------|------------------------------|-----------------------------------------------|
+| Version | Revision date | Revision                     | Author                                        |
+| 1.3     | 2024-04-29    | Second Draft                 | Petros Stavropoulos                           |
+| 1.2     | 2024-04-24    | Peer review                  | V.A. Traag                                    |
+| 1.1     | 2024-03-19    | First draft                  | Petros Stavropoulos, Erica Delugas (reviewer) |
+| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag                     |
+
 ## Description
 
-\[Add text here\]
+This indicator aims to identify and evaluate the impact of Open Science (OS) inputs on the development of socially relevant products and processes. These include advancements such as medical treatments, drugs, sustainable agricultural practices, and new renewable energy technologies that contribute to societal well-being (e.g., address key challenges outlined in the Sustainable Development Goals). By tracking the adoption and integration of OS inputs in these areas, the indicator sheds light on the practical benefits of open research practices and their contribution to societal progress and innovation.
 
 ## Metrics
 
-### #/%  of new medical treatments developed using OS inputs
+### Number / Percentage of “socially relevant products and processes” using OS resources
 
-\[Add text here\]
+This metric calculates the proportion of socially relevant products and processes developed using OS inputs. It aggregates the impact of OS across different sectors by measuring its contribution to:
 
-#### Measurement.
+-   New medical treatments
+-   New drugs
+-   Sustainable agriculture practices
+-   New renewable energy technologies
 
-\[Add text here\]
+The combined measurement offers a holistic view of OS's role in fostering innovations that benefit society. The challenge lies in accurately capturing and attributing the role of OS inputs across diverse domains.
 
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-### #/%  of new drugs developed using OS inputs
-
-\[Add text here\]
+This metric can also be measured for a single innovation type, allowing for more focused assessments relevant to particular fields of study.
 
 #### Measurement.
 
-\[Add text here\]
+To measure the proposed metric a systematic approach is required to capture the multifaceted contributions of OS across various sectors. This measurement aims to quantify the extent to which OS inputs facilitate the development of innovations in healthcare, agriculture, and renewable energy that have significant societal impact. A primary challenge in this measurement process is the identification and accurate attribution of OS contributions to the final products or processes, given the complex and often opaque development pathways. Additionally, the availability and accessibility of reliable data sources that explicitly link OS resources to specific innovations pose significant measurement challenges. These challenges are compounded by the diversity of sectors involved, each with its own set of data availability and methodological approaches for tracking innovation development.
+
+**Methodology**:
+
+**Step 1: Identification of Innovations.** Initiate the measurement process by identifying recent developments in the targeted sectors (healthcare, agriculture, renewable energy) that qualify as socially relevant products or processes.
+
+**Step 2: Verification of OS Inputs.** For each identified innovation, investigate the use and contribution of OS inputs during its development. This involves examining research publications, development reports, and any available documentation that mentions or suggests the use of open data, open-source software/methodologies, or collaborative efforts facilitated by OS principles.
+
+**Step 3: Data Collection.** Utilize existing datasources such as press releases, Lens.org, ClinicalTrials.gov, PubMed, and OpenAIRE to gather detailed information about each innovation. This includes the nature of the innovation, the role of OS in its development, and the impact on society.
+
+**Step 4: Analysis and Quantification.** Analyze the collected data to determine the extent of OS contributions to the development of each innovation. Calculate the number and percentage of these innovations attributed to OS resources compared to the total number of innovations in each sector. This step involves assessing the reliability of the data and dealing with any inconsistencies or gaps in information.
+
+**Step 5: Reporting.** Compile the findings into a comprehensive report that highlights the impact of OS on the development of socially relevant innovations, backed by quantitative data and qualitative insights into the development processes.
+
+The measurement process, while systematic, may encounter limitations such as incomplete data records, the indirect impact of OS resources that are difficult to quantify, and the evolving nature of what constitutes "open science" practices. Additionally, the dynamic and interdisciplinary nature of innovation development often blurs the lines between direct and indirect contributions of OS, making the measurement challenging yet essential for understanding OS's true impact.
 
 ##### Existing datasources:
 
-###### &lt;datasource name&gt;
+###### Lens.org
 
-\[Add text here\]
+Lens.org is a comprehensive database that integrates patent data, scholarly communication, and regulatory information. It allows researchers to explore the connections between patents, research articles, and the impact of research on society. For the metric of socially relevant products and processes using OS resources, Lens can be instrumental in identifying patents and publications related to new medical treatments, drugs, sustainable agriculture practices, and renewable energy technologies developed with OS contributions.
 
-##### Existing methodologies
+To calculate the metric using Lens, one could follow these steps:
 
-###### &lt;methodology name&gt;
+1.  Use relevant keywords and phrases related to the specific innovations of interest (e.g., "open source medical treatment," "sustainable agriculture open data") in combination with sector-specific terms.
+2.  Apply filters to narrow down search results to patents and publications within a relevant timeframe and those explicitly mentioning OS principles or resources.
+3.  For each identified patent or publication, extract data on the innovation type (medical treatment, drug, etc.), development stage, and any direct mentions of OS contributions.
+4.  Use this extracted information to quantify the number and percentage of innovations developed with OS resources.
 
-\[Add text here\]
+###### ClinicalTrials.gov
 
-### #/%  of sustainable agriculture practices using OS inputs
+ClinicalTrials.gov is a database of privately and publicly funded clinical studies conducted around the world. It offers information on the objectives, design, methodology, and status of clinical trials. For the metric at hand, it can provide data on new medical treatments and drugs being developed with Open Science resources by detailing the studies' aims, methodologies, and use of open data or collaborative frameworks.
 
-\[Add text here\]
+To utilize ClinicalTrials.gov for the calculation of the metric:
 
-#### Measurement.
+1.  Conduct searches using terms related to the medical treatments or drugs of interest.
+2.  Examine the study's detailed descriptions for mentions of OS resources, such as open data use, collaborative research models, or open-source methodologies and software.
+3.  Compile data on the number of clinical trials employing OS resources in their research processes.
+4.  Analyse this data to determine the proportion of studies within the domain of new medical treatments and drugs that are utilizing OS resources.
 
-\[Add text here\]
+###### Press/Media ReleasesPubMed
 
-##### Existing datasources:
+PubMed is a free search engine accessing mainly the MEDLINE database of references and abstracts on life sciences and biomedical topics. It is invaluable for tracking developments in medical treatments and drugs, including those developed through OS resources. The database can provide insights into the research underpinning new medical innovations and the extent to which open access publications and open data have contributed to these advancements.
 
-###### &lt;datasource name&gt;
+To leverage PubMed for this metric:
 
-\[Add text here\]
+1.  Use relevant medical and OS terms to find articles related to new treatments and drugs developed with OS resources.
+2.  For identified articles, review abstracts and available full texts for mentions of OS practices or data.
+3.  Extract information regarding the role of OS in the development of the innovations discussed in the articles.
+4.  Count and categorize these innovations to estimate the proportion developed with OS inputs within the healthcare sector.
 
-##### Existing methodologies
+###### OpenAIRE Graph
 
-###### &lt;methodology name&gt;
+The OpenAIRE Graph provides access to a vast collection of open access publications, datasets, and research projects, making it a pivotal resource for identifying OS contributions across multiple disciplines. By aggregating content from repositories, journals, and archives, it facilitates the exploration of how Open Science principles are applied in the development of socially relevant products and processes.
 
-\[Add text here\]
-
-### #/%  of new renewable energy technologies developed using OS inputs
-
-\[Add text here\]
-
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
+To complement the other datasources, use the OpenAIRE Research Graph to identify which of the publications, datasets and software identified are open access.
 
 ##### Existing methodologies
 
-###### &lt;methodology name&gt;
+###### SciNoBo Research Artifact Analysis (RAA) Tool
 
-\[Add text here\]
+This is an automated tool (Stavropoulos et al., 2023), leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 
-## Known correlates
+To measure the proposed metric, the tool can be used to identify the reused and created OS resources in the OA publication texts.
 
-\[Add text here\]
+One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
 
-## Notes
+## Known correlatesNotes
 
 \[Add text here\]
 
 ## References
 
-\[Add Zotero bibliography here\]
+Stavropoulos, P., Lyris, I., Manola, N., Grypari, I., & Papageorgiou, H. (2023). Empowering Knowledge Discovery from Scientific Literature: A novel approach to Research Artifact Analysis. In L. Tan, D. Milajevs, G. Chauhan, J. Gwinnup, & E. Rippeth (Eds.), Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023) (pp. 37–53). Association for Computational Linguistics. https://doi.org/10.18653/v1/2023.nlposs-1.5
