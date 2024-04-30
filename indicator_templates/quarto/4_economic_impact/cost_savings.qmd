@@ -1,22 +1,39 @@
+---
+author:
+    - name: E. Delugas
+      orcid: 0009-0000-4638-1062
+      affiliations:
+      - ref: csil
+    - name: Catalano G.
+      orcid: 0000-0002-3638-1904
+      affiliations:
+      - ref: csil
+    - name: S. Vignetti
+      orcid: 0000-0002-6234-0735
+      affiliations:
+      - ref: csil
+
+affiliations:
+- id: csil
+  name: Centre for Industrial Studies
+  city: Milan
+  country: Italy
+---
 # Cost savings {#cost-savings .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
 
-|         |               |                              |                                    |
-|---------|---------------|------------------------------|------------------------------------|
+## History
+
 | Version | Revision date | Revision                     | Author                             |
-|         |               |                              |                                    |
-|         |               |                              |                                    |
-|         |               |                              |                                    |
-|         |               |                              |                                    |
-|         |               |                              |                                    |
-|         |               |                              |                                    |
+|---------|---------------|------------------------------|------------------------------------|
 | 1.5     | 2024-04-26    | Third draft                  | Delugas E., Catalano G.            |
 | 1.4     | 2024-04-17    | Peer review                  | V.A. Traag                         |
 | 1.3     | 2024-04-04    | Second draft                 | Delugas E., Catalano G.            |
 | 1.2     | 2023-09-11    | Peer review                  | V.A. Traag                         |
 | 1.1     | 2023-07-04    | Draft indicator template     | Caputo A., Delugas E., Vignetti S. |
-| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag          |
+
+:::
 
 ## Description
 
@@ -37,12 +54,6 @@ The metric “access cost savings” captures the avoided costs of accessing kno
 1.  The first suitable way of estimating the value of this metric is the avoided cost method. It relies on the principle that if the OS input were not implemented, certain costs would still be incurred to meet the needs or objectives the OS seeks to address. Specifically, the costs refer to accessing scientific journal, data and other research outputs. The quantification implies the existence of the market price of a closed science similar service to compute the virtual price. No unique data source exists to extrapolate an absolute value of the saved cost since it varies depending on the beneficiaries’ demand and type of OS considered.
 2.  The second option for the metric measurement is relying on stated preference techniques to elicit the willingness-to-pay of the users for accessing different type of OS research output when market prices are not available, or they are not a good representation of the economic value of the savings. A Contingent Valuation survey on the users of an OS resource can be carried out to assess the willingness to pay and have an estimation of the value of the benefit. The Contingent Valuation is a technique used to estimate the value people place on goods, services, or resources without a clear market price. It is a way to understand how much individuals are willing to pay for something that is not easily bought or sold. A similar option is to exploit the Choice Experiment, which, instead, would allow for evaluating the single attributes of the OS input under evaluation. There are no existing data sources to obtain this metric since it depends on the case under analysis, which potentially changes every time. These techniques are equally applicable in the case of measuring labour cost savings (see section II.2). Indeed, although theoretically, access cost savings and labour cost savings are two distinct metrics, users may struggle to distinguish the two. Thus, the analyst should avoid double counting by carefully clarifying what is the objective of the evaluation, access cost or labour cost savings.
 3.  The third method is the Long Run Marginal Cost (LRMC). In this case, rather than valuing the money saved due to the free access, one values the saved production costs that would have been necessary to produce the equivalent research output in a scenario where the OS is unavailable. For example, the appraisal of an open database should be done by evaluating all the costs related to the in-house data collection and database-building process. To avoid double counting, this appraisal should strictly include only the costs of data collection and management to create the database (e.g., the labour cost equivalent to the time needed to collect the data) and should not include the costs associated with, e.g. the hardware to store the data, as those are related to the storage cost saving.
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-N/A
 
 ##### Existing methodologies
 
@@ -201,10 +212,6 @@ Where:
 ## Known correlates
 
 Cost savings are directly linked to the metrics of “Innovation output” and “Industry adoption of research findings”. The rationale is that the savings accrued in both time and finances could potentially be redirected towards R&D investments. Over time, this reallocation could result in a significant increase in R&D productivity and innovation. Furthermore, the cost savings over time might trigger “Economic growth of companies” in terms of variations in productivity and assets. For instance, the money saved from lower access and storage costs can be reinvested in the company. This reinvestment could go towards R&D – which also relates to the innovation output indicator – and expanding operational capacity, which can drive revenue growth and increase the company’s assets and innovation capability, both key ingredients of company growth. Similarly, by saving time, companies can achieve more with the same or fewer resources. This means that businesses can offer more products or services or improve the quality of their offerings without a corresponding increase in costs. Over time, this contributes to economic growth by enhancing the company’s competitive edge and market share. The direct involvement of efficiency improvements in the economic growth of companies is also evident in asset optimisation. By maximising the utility of existing assets (mostly intangibles), companies can achieve higher returns on investment (ROI) over time.
-
-## Notes
-
-\[Add text here\]
 
 ## References
 
