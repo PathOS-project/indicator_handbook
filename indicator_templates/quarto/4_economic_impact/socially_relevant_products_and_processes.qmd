@@ -1,14 +1,30 @@
+---
+author:
+    - name: P. Stavropoulos
+      orcid: 0000-0003-1664-6554
+      affiliations:
+      - ref: arc
+
+affiliations:
+- id: arc
+  name: Athena Research Center
+  city: Athena
+  country: Greece
+---
+
 # Socially relevant products and processes {#socially-relevant-products-and-processes .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
 
-|         |               |                              |                                               |
-|---------|---------------|------------------------------|-----------------------------------------------|
+## History
+
 | Version | Revision date | Revision                     | Author                                        |
+|---------|---------------|------------------------------|-----------------------------------------------|
 | 1.3     | 2024-04-29    | Second Draft                 | Petros Stavropoulos                           |
 | 1.2     | 2024-04-24    | Peer review                  | V.A. Traag                                    |
 | 1.1     | 2024-03-19    | First draft                  | Petros Stavropoulos, Erica Delugas (reviewer) |
-| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag                     |
+
+:::
 
 ## Description
 
@@ -97,10 +113,6 @@ This is an automated tool (Stavropoulos et al., 2023), leveraging Deep Learning 
 To measure the proposed metric, the tool can be used to identify the reused and created OS resources in the OA publication texts.
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
-
-## Known correlatesNotes
-
-\[Add text here\]
 
 ## References
 
