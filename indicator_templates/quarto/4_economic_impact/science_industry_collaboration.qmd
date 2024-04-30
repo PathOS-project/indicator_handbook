@@ -1,102 +1,163 @@
+---
+author:
+    - name: P. Stavropoulos
+      orcid: 0000-0003-1664-6554
+      affiliations:
+      - ref: arc
+
+affiliations:
+- id: arc
+  name: Athena Research Center
+  city: Athena
+  country: Greece
+---
+
 # Science-industry collaboration {#science-industry-collaboration .unnumbered}
+
 ::: {}
 
 ## History
+
+| Version | Revision date | Revision                     | Author                                        |
+|---------|---------------|------------------------------|-----------------------------------------------|
+| 1.3     | 2024-04-29    | Second Draft                 | Petros Stavropoulos                           |
+| 1.2     | 2024-04-24    | Peer review                  | V.A. Traag                                    |
+| 1.1     | 2024-03-19    | First draft                  | Petros Stavropoulos, Erica Delugas (reviewer) |
+
 :::
+
 ## Description
 
-\[Add text here\]
+This indicator aims to capture the collaborative efforts between science (academia) and industry for open science (OS). It focuses on the exchange of knowledge and resources that facilitate the development of new technologies, processes, or products, thereby advancing scientific understanding and commercial applications. By measuring the interactions between these sectors, particularly those leading to tangible outputs like publications, OS outputs and patents, this indicator sheds light on how OS principles are being integrated into collaborative efforts and how these collaborations contribute to economic development and innovation.
 
 ## Metrics
 
-### #/% of collaborative projects using OS inputs
+### Number / Percentage of patents filed by industry in collaboration with academia that cites Open Science (OS) resources.
 
-\[Add text here\]
+This metric assesses the extent to which industrial patents resulting from academic collaborations acknowledge or build upon OS resources, such as data, publications, or methodologies. A high number or percentage of such patents indicate a strong science-industry linkage and a productive exchange of OS resources.
 
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-### EUR/% of collaborative projects using OS inputs
-
-\[Add text here\]
+This metric is a good operationalization of the indicator because it provides a direct measure of the output of collaborative efforts. However, it may not capture the quality or impact of the collaboration. It differs from other metrics by focusing on legal intellectual property outcomes rather than purely academic outputs.
 
 #### Measurement.
 
-\[Add text here\]
+Utilize the PATSTAT dataset (<https://www.epo.org/en/searching-for-patents/business/patstat>) to identify patents filed by industry partners in collaboration with academic institutions. Examine the citations within these patents for references to papers or other resources that are recognized as open science inputs. Specifically, determine if these patents cite papers that contribute to new open science resources or artifacts.
+
+**Methodology**:
+
+**Step 1: Data Collection**. Access the PATSTAT database for comprehensive patent data, focusing on patents that result from industry-academia collaborations, based on inventor affiliations and patent assignments.
+
+**Step 2: Citation Analysis**. Examine the NPL (Non-patent literature) citations within these patents for references to open science inputs such as papers, datasets, or software, identifying those that directly relate to open science principles.
+
+**Step 3: Identification of Open Science Inputs**. Establish criteria for what qualifies as an open science input and validate these against recognized open access repositories and directories.
+
+**Step 4: Quantification**. Calculate the number and percentage of identified patents that cite open science inputs, providing a measure of the extent of science-industry collaboration.
+
+**Step 5: Analysis and Reporting**. Analyze the data to understand the nature and extent of the collaborations, including any limitations or challenges encountered in data collection and analysis, such as incomplete citation information or difficulties in distinguishing open science inputs.
+
+**Challenges** may include accurately identifying collaborations and open science inputs, dealing with incomplete citation records, and accessing the necessary databases. This approach aims to provide a structured methodology for assessing the impact of open science on innovation and collaboration between academia and industry.
+
+Other data source are Orbis IP, The Lens, EUIPO. Please refer to the “Innovation output” indicator to further details on The Lens and Orbis IP. The choice among the different resources depends on the information to be processed. For instance, Orbis IP includes information on patent authors, which is not available in other data sources, and also offers the possibility to link companies to balance sheet data that might be useful for a comprehensive analysis of the economic growth of companies.
 
 ##### Existing datasources:
 
-###### &lt;datasource name&gt;
+###### PATSTAT
 
-\[Add text here\]
+PATSTAT is a global patent statistical database maintained by the European Patent Office (EPO) that offers a detailed set of patent data, including bibliographic data, citations, family links, and legal status information for patents across multiple jurisdictions. It is designed to facilitate statistical analysis on patents and their citations to understand trends in innovation.
+
+To calculate the number / percentage of patents filed by industry in collaboration with academia that cites Open Science inputs, use the PATSTAT dataset to:
+
+1.  Identify patents with co-inventors from academia and industry by analyzing the affiliations of inventors.
+2.  Examine the citations within these patents for references to open science inputs, such as open access publications or datasets.
+3.  Count the patents that cite these open science inputs and calculate this as a percentage of the total patents analyzed.
+
+###### OpenAIRE Research Graph
+
+The OpenAIRE Research Graph is a comprehensive open access database that aggregates metadata on publications, research data, and project information across various disciplines. It includes details on open access publications and datasets, making it a valuable resource for tracking the output of academic-industry collaborations and their adherence to open science principles.
+
+To complement PATSTAT data, use the OpenAIRE Research Graph to identify which of the publications cited by patents are open access. This involves:
+
+1.  Extracting publication references from identified patents in PATSTAT.
+2.  Querying the OpenAIRE Research Graph to determine which cited publications are open access.
+
+###### Research Organization Registry (ROR)
+
+The Research Organization Registry (ROR) is a comprehensive, open, and community-driven registry that assigns unique identifiers to research organizations worldwide. It aims to solve the issue of institution name disambiguation by providing persistent identifiers, thus facilitating the accurate linking of research organizations to scholarly outputs and researchers. ROR is instrumental in tracking changes in organization names, mergers, and closures, thereby maintaining a current and accessible record of research entities.
+
+Utilizing the ROR API to distinguish between academic institutions and industry players involves the following steps:
+
+1.  Extract affiliation data from patents in PATSTAT and publications in the OpenAIRE Research Graph, focusing on the names or identifiers of the organizations involved.
+2.  Use the ROR API to query each collected affiliation. The API supports searches by organization name or external identifiers, offering advanced query capabilities for more detailed searches.
+3.  For each query response, examine the detailed metadata provided by ROR, which includes the organization’s type, related organizations, and activity fields. This metadata is crucial for categorizing organizations as either academic or industry.
+4.  Based on the ROR metadata, categorize each organization involved in the patent or publication as either an academic institution or an industry entity.
+
+There may be limitations in the coverage of certain types of organizations and the evolving nature of the ROR dataset as new organizations are added or existing records are updated.
 
 ##### Existing methodologies
 
-###### &lt;methodology name&gt;
+This is an automated tool (Stavropoulos et al., 2023), leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 
-\[Add text here\]
+To measure the proposed metric, the tool can be used to identify the reused and created OS inputs in the patents text or the OA publication texts that the patents cite.
 
-### #/% of patents filed by industry in collaboration with academia that cites OS inputs
+One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created and may require manual validation.
 
-\[Add text here\]
+### Number / Percentage of Publications Produced by Academia in Collaboration with Industry that Cites Open Science Resources.
+
+This metric evaluates how often publications resulting from academia-industry collaborations incorporate or reference open science artifacts. It signifies the degree to which collaborative research between these sectors utilizes open science as a foundation. It highlights a different aspect of collaboration by focusing on scholarly publications. Similar to the first metric, it is a measure of output but from an academic perspective.
 
 #### Measurement.
 
-\[Add text here\]
+Access OA publications from comprehensive databases (e.g., OpenAIRE Research Graph), scanning for those with co-authors from both academia and industry. Analyze these publications for citations or mentions of open science inputs, indicating the reuse, or creation of open science artifacts.
+
+**Methodology**:
+
+**Step 1: Data Collection**. Gather data from comprehensive databases (e.g., OpenAIRE Research Graph), focusing on publications with co-authorship between academia and industry, determined through author affiliations.
+
+**Step 2: Identifying Open Science Inputs**. Aim to identify publications that cite or are based on open science inputs, such as datasets or open-source software. This involves distinguishing these inputs from other types of references.
+
+**Step 3: Citation Analysis**. Examine the citations in these publications to find references to known open science resources. Apply text mining and natural language processing (NLP) techniques to automate this process where feasible.
+
+**Step 4: Artifact Analysis**. Perform an in-depth analysis of the publication texts themselves to find mentions of open science inputs within the body of the articles. This involves using NLP techniques to detect and extract mentions of datasets, software, and other artifacts that indicate direct use or contribution to open science, beyond mere citations.
+
+**Step 5: Quantification**. Calculate the number and percentage of publications citing open science inputs out of the total set of identified academia-industry collaborative publications. Note potential limitations due to database coverage and indexing quality.
+
+**Step 6: Reporting and Analysis**. Analyze the data to extract insights on the extent and nature of open science in academia-industry collaborations. Document any limitations encountered, such as incomplete citation records or inaccuracies in affiliation data.
 
 ##### Existing datasources:
 
-###### &lt;datasource name&gt;
+###### OpenAIRE Research Graph
 
-\[Add text here\]
+The OpenAIRE Research Graph is a comprehensive open access database that aggregates metadata on publications, research data, and project information across various disciplines. It includes details on open access publications and datasets, making it a valuable resource for tracking the output of academic-industry collaborations and their adherence to open science principles.
+
+To calculate the number / percentage of publications produced by academia in collaboration with industry that cites open science inputs:
+
+1.  Filter publications that are OA.
+2.  Filter publications based on author affiliations that indicate academia-industry collaborations, by utilizing ROR.
+3.  For each publication, examine the references field to identify citations of datasets or software.
+4.  Count and calculate the percentage of these publications out of the total number of academia-industry collaborative publications identified in the dataset.
+
+###### Research Organization Registry (ROR)
+
+The Research Organization Registry (ROR) is a comprehensive, open, and community-driven registry that assigns unique identifiers to research organizations worldwide. It aims to solve the issue of institution name disambiguation by providing persistent identifiers, thus facilitating the accurate linking of research organizations to scholarly outputs and researchers. ROR is instrumental in tracking changes in organization names, mergers, and closures, thereby maintaining a current and accessible record of research entities.
+
+Utilizing the ROR API to distinguish between academic institutions and industry players involves the following steps:
+
+1.  Extract affiliation data from patents in PATSTAT and publications in the OpenAIRE Research Graph, focusing on the names or identifiers of the organizations involved.
+2.  Use the ROR API to query each collected affiliation. The API supports searches by organization name or external identifiers, offering advanced query capabilities for more detailed searches.
+3.  For each query response, examine the detailed metadata provided by ROR, which includes the organization’s type, related organizations, and activity fields. This metadata is crucial for categorizing organizations as either academic or industry.
+4.  Based on the ROR metadata, categorize each organization involved in the patent or publication as either an academic institution or an industry entity.
+
+There may be limitations in the coverage of certain types of organizations, potential inaccuracies in metadata, and the evolving nature of the ROR dataset as new organizations are added or existing records are updated.
 
 ##### Existing methodologies
 
-###### &lt;methodology name&gt;
+###### SciNoBo Research Artifact Analysis (RAA) Tool
 
-\[Add text here\]
+This is an automated tool (Stavropoulos et al., 2023), leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 
-### #/% of publications produced by academia in collaboration with industry that cites OS inputs
+To measure the proposed metric, the tool can be used to identify the reused and created OS inputs in the OA publication texts.
 
-\[Add text here\]
-
-#### Measurement.
-
-\[Add text here\]
-
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
-
-\[Add text here\]
-
-##### Existing methodologies
-
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-## Known correlates
-
-\[Add text here\]
-
-## Notes
-
-\[Add text here\]
+One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
 
 ## References
 
-\[Add Zotero bibliography here\]
+Stavropoulos, P., Lyris, I., Manola, N., Grypari, I., & Papageorgiou, H. (2023). Empowering Knowledge Discovery from Scientific Literature: A novel approach to Research Artifact Analysis. In L. Tan, D. Milajevs, G. Chauhan, J. Gwinnup, & E. Rippeth (Eds.), Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023) (pp. 37–53). Association for Computational Linguistics. https://doi.org/10.18653/v1/2023.nlposs-1.5
