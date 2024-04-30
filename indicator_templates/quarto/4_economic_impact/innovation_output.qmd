@@ -1,18 +1,41 @@
+---
+author:
+    - name: E. Delugas
+      orcid: 0009-0000-4638-1062
+      affiliations:
+      - ref: csil
+    - name: G. Consiglio
+      orcid:
+      affiliations:
+      - ref: csil
+    - name: G. Catalano
+      orcid: 0000-0002-3638-1904
+      affiliations:
+      - ref: csil
+
+affiliations:
+- id: csil
+  name: Centre for Industrial Studies
+  city: Milan
+  country: Italy
+- id: tgb
+  name: Technopolis Group
+  city: Brussels
+  country: Belgium
+---
 # Innovation output {#innovation-output .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {}
 
-|         |               |                              |                                       |
-|---------|---------------|------------------------------|---------------------------------------|
+## History
+
 | Version | Revision date | Revision                     | Author                                |
-|         |               |                              |                                       |
-|         |               |                              |                                       |
-|         |               |                              |                                       |
-|         |               |                              |                                       |
+|---------|---------------|------------------------------|---------------------------------------|
 | 1.3     | 2024-04-26    | Second draft                 | Delugas E., Consiglio G., Catalano G. |
 | 1.2     | 2024-04-25    | Peer review                  | V.A. Traag                            |
 | 1.1     | 2024-03-27    | First draft                  | Delugas E., Consiglio G., Catalano G. |
-| 1.0     | 2023-02-07    | Finalised indicator template | T.P. Willemse, V.A. Traag             |
+
+:::
 
 ## Description
 
@@ -132,10 +155,6 @@ The European Union Intellectual Property Office ([EUIPO](https://www.euipo.europ
 ## Known correlates
 
 The innovation output indicator correlates with the following set of indicators: uptake of research outputs by industry, socially relevant products and processes and science-industry collaboration, as they can be seen as specific subsets of this broader one. The indicator also correlates with cost savings, since, as also mentioned in the [CBA methodological note](https://zenodo.org/records/10277642), gains from enablement due to OS materialise after the efficiency gains. Therefore, it is also associated with the economic growth of companies since innovation is one of the key ingredients for increasing sales and profits.
-
-## Notes
-
-\[Add text here\]
 
 ## References
 
