@@ -11,7 +11,7 @@ author:
     - name: E. Seminaroti
       orcid: 0009-0003-1476-4052
       affiliations:
-      - ref: csil
+      - ref: tgb
     - name: E. Delugas
       orcid: 0009-0000-4638-1062
       affiliations:
