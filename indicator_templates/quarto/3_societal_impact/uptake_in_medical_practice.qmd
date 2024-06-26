@@ -1,0 +1,94 @@
+---
+author:
+    - name: P. Stavropoulos
+      orcid: 0000-0003-1664-6554
+      affiliations:
+      - ref: arc
+
+affiliations:
+- id: arc
+  name: Athena Research Center
+  city: Athena
+  country: Greece
+---
+
+
+# Uptake in medical practice {#uptake-in-medical-practice .unnumbered}
+
+::: {}
+
+## History
+
+| Version | Revision date | Revision    | Author              |
+|---------|---------------|-------------|---------------------|
+| 1.2     | 2024-04-24    | Review      | Thomas Klebel       |
+| 1.1     | 2024-03-29    | Review      | Tommaso Venturini   |
+| 1.0     | 2024-03-22    | First draft | Petros Stavropoulos |
+
+:::
+
+## Description
+
+This indicator aims to capture the extent to which Open Science (OS) inputs such as code, data, and OA publications are integrated into medical practice, as evidenced by their mentions or references in medical guidelines. This indicator assesses the impact of OS inputs on medical guidelines, reflecting how scientific advancements and tools are translated into practical applications in healthcare. It serves as a measure of the practical adoption of open science contributions in the medical field, offering insights into how research outputs influence clinical guidelines and patient care.
+
+## Metrics
+
+### Number / Percentage of Medical Guidelines Referencing OS Inputs
+
+This metric represents the proportion of medical guidelines that include references to OA publications, datasets, or software. It operationalizes the indicator by providing a quantifiable measure of how often medical guidelines incorporate or acknowledge OS inputs. This metric is beneficial as it directly relates to the practical application of scientific research in clinical settings, demonstrating the real-world impact of open science.
+
+However, a limitation is that it may not capture the quality or significance of the referenced OS inputs, which could be assessed by a more qualitative close reading of medical guidelines to examine the specific use they make of OS inputs. It also differs from other potential metrics that might focus on the impact of specific types of OS inputs (e.g., datasets vs. publications).
+
+#### Measurement.
+
+Measuring this metric involves a systematic approach to searching and analysing medical and clinical guidelines for mentions of OA publications, datasets, or software. This process, while straightforward in theory, is subject to several potential challenges and limitations.
+
+Firstly, the variation in referencing styles across different guidelines can make it difficult to accurately identify all relevant references. Additionally, the coverage of medical guidelines in available databases may not be comprehensive, leading to potential gaps in the data collected.
+
+**Methodology**:
+
+**Step 1: Database Selection.** Choose databases that extensively []{#_Int_cDGukZbn}indexes medical guidelines, with PubMed being the primary source due to its wide coverage of biomedical literature.
+
+**Step 2: Search Strategy Development.** Develop a search strategy with terms (or filters in the case of PubMed) related to medical guidelines and optionally combine them with keywords identifying datasets, or software. This strategy should be tailored to capture the broadest possible range of relevant references while minimizing irrelevant results.
+
+**Step 3: Automated Searching.** Utilize automated tools or scripts, where available, to search the selected databases according to the developed strategy. This may involve using APIs provided by the databases to efficiently process large volumes of data.
+
+**Step 4: Data Extraction.** Extract data on the references identified in the search results, paying particular attention to mentions of OS inputs (OA publications, datasets, software). The publications can be searched in OpenAIRE Graph to find their best access rights and determine whether they are OA. The datasets and software in the medical guidelines can be extracted using the PathOS work in Task 2.5 artifact extraction tool. This step may require manual review to ensure accuracy and relevance of the data extracted.
+
+**Step 5: Analysis.** Analyze the extracted data to determine the percentage of medical guidelines referencing OS inputs. This analysis will likely involve categorizing guidelines according to the type of OS inputs referenced and calculating the proportion of guidelines in each category.
+
+Step 6: **Close reading**. If the size of the corpus and the available research resources allow it, closely read all the mentions to OS input and assess the importance that OS resources play in each medical treatment or practice to which they contribute.
+
+##### Existing datasources:
+
+###### PubMed
+
+PubMed is a free search engine primarily accessing the MEDLINE database, which contains references and abstracts on life sciences and biomedical topics provided by the United States National Library of Medicine. It is one of the most comprehensive resources for accessing biomedical literature, including research articles, reviews, and importantly for this metric, medical and clinical guidelines.
+
+A limitation of using PubMed for this metric is its potential incomplete coverage of all medical guidelines, especially those not indexed in MEDLINE. Additionally, the specificity of search queries might not always capture all relevant documents, particularly if the terminology used in guidelines varies.
+
+This metric can be calculated by using PubMed's search functionality to identify guidelines that reference OA publications, datasets, or software. Results can be further refined by manual screening or automated filtering based on keywords related to OS inputs.
+
+In steps:
+
+1.  Search PubMed for medical guidelines mentioning OA resources using specific keywords and filters (e.g., "clinical guidelines," "practice guidelines," "recommendations").
+2.  Extract the data from the search results, focusing on references to OA publications, datasets, or software. For the publications, the unique identifiers (PMIDs, DOIs) should be collected so that they can be searched in the OpenAIRE Research Graph.
+
+###### OpenAIRE Research Graph
+
+The OpenAIRE Research Graph is a comprehensive open access database that aggregates metadata on publications, research data, and project information across various disciplines. It includes details on open access publications and datasets, making it a valuable resource for tracking the output of academic-industry collaborations and their adherence to open science principles.
+
+Use the OpenAIRE Research Graph to identify which of the publications cited by medical guidelines are open access. This involves:
+
+1.  Extracting publication references from identified medical guidelines in PubMed.
+2.  Querying the OpenAIRE Research Graph to determine which cited publications are open access.
+
+##### Existing methodologies
+
+###### PathOS work in Task 2.5
+
+This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
+
+To measure the proposed metric, the tool can be used to identify the reused and created OS inputs in the patents text or the OA publication texts that the patents cite.
+
+One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.

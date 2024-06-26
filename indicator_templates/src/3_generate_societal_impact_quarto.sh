@@ -12,11 +12,15 @@ mv "${ROOT_DIR}/sharepoint/WP2/Task 2.3 - Societal impact indicators/Indicator t
 
 (cd ${ROOT_DIR}/quarto/3_societal_impact/ # Change wd
 
-   # from                                   # to
-   mv 'Scientific literacy.qmd'            'scientific_literacy.qmd'
-   mv 'Uptake by media.qmd'                'uptake_by_media.qmd'
-   mv 'Uptake by policy makers.qmd'        'uptake_by_policy_makers.qmd'
-   mv 'Uptake&ImpactOnSocietalIssues.qmd'  'uptake_and_impact_on_societal_issues.qmd'
+   # from                                       # to
+   mv 'Scientific literacy.qmd'                 'scientific_literacy.qmd'
+   mv 'Uptake by media.qmd'                     'uptake_by_media.qmd'
+   mv 'Uptake by policy makers.qmd'             'uptake_by_policy_makers.qmd'
+   mv 'Uptake & impact on societal issues.qmd'  'uptake_and_impact_on_societal_issues.qmd'
+   mv 'Uptake by patient groups.qmd'            'uptake_by_patient_groups.qmd'
+   mv 'Uptake in education.qmd'                 'uptake_in_education.qmd'
+   mv 'Uptake in medical practice.qmd'          'uptake_in_medical_practice.qmd'
+   mv 'Uptake in the legal sector.qmd'          'uptake_in_the_legal_sector.qmd'
 
 )
 

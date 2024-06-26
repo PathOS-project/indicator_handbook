@@ -24,16 +24,17 @@ affiliations:
 
 ## History
 
-|         |               |             |              |
-|---------|---------------|-------------|--------------|
 | Version | Revision date | Revision    | Author       |
+|---------|---------------|-------------|--------------|
+| 2.0     | 2024-03-29    | Final draft | T. Venturini |
+| 1.1     |               | Revision    | V. Traag     |
 | 1.0     | 2023-08-21    | First draft | T. Venturini |
 
 :::
 
 ## []{#_Ref126739570}Description
 
-Increasing the capacity of scientific processes and outputs to help address societal issues is perhaps the most important objective of Open Science. It is also the objective whose achievement is the most difficult to assess. The issues challenging our societies are extremely diverse and influenced by a multiplicity of factors that is as complex as shifting. Assessing the impact of Open Science on societal problems requires five steps:
+Increasing the capacity of scientific processes and outputs to help address societal issues is perhaps the most important objective of Open Science. It is also the objective whose achievement is the most difficult to assess. The issues challenging our societies are extremely diverse and influenced by a multiplicity of factors that are as complex as shifting. Assessing the impact of Open Science on societal problems requires five steps:
 
 1.  *Defining the societal issues under investigation and their desired solution.*\
     This is in itself a problematic step as different social groups can have different perspectives of what constitutes the problems affecting a society, their precise delineation, their respective significance and urgency, and finally in which direction they should evolve. This is why we use the term “issues” rather than “challenges” or “goals”, in order to highlight their potentially controversial nature (Venturini and Munk, 2021).
@@ -44,7 +45,7 @@ Increasing the capacity of scientific processes and outputs to help address soci
 4.  *Assessing the uptake of Open Science by the social actors active on different issues.*\
     It is safe to assume that however useful it may be, no scientific resource (open or otherwise) can directly influence any given societal issue unless it is taken up by the social actors who are engaged with the issues in question. It is therefore necessary to find ways to assess to what extent different Open Science resources (e.g., documents, datasets, software…) are actually mobilized in the actions and discourses concerning the issues in question. Here as well, it is important to be able to assess the ratio of open versus non-open resources.
 5.  *Disentangling the effect of Open Science from the many other dynamics that may influence the evolution of social issues.*\
-    Even when evidence can be produced of both the evolution of a given social issue and a significant mobilization of Open Science in the actions and discourses around the issue, proving the existence of a causal effect between the two (rather than a simple association) remains problematic. To do we propose two research directions
+    Even when evidence can be produced of both the evolution of a given social issue and a significant mobilization of Open Science in the actions and discourses around the issue, proving the existence of a causal effect (or at least a strong relation) between the two (rather than a simple coincidence or superficial association) remains problematic. To do we propose two research directions
     1.  *A comparative approach*: different type of comparisons should be drawn\
         - across different issues\
         - across different periods\
@@ -60,20 +61,20 @@ We should separate here the datasources exploitable for the tasks (1) and (2), f
 
 ### Data for tasks 1 and 2: defining and monitoring societal issues
 
-As suggested above, it is preferable to exploit already existing monitoring initiatives rather than collecting and analyzing data anew. Indeed, (1) defining and (2) measuring the evolution of different societal issues is an extremely complicated endeavor, but which is to a large extent separated from the task of assessing the impact of Open Science on such evolution.
+As suggested above, it is preferable to exploit already existing monitoring initiatives rather than collecting and analyzing data anew. Indeed, (1) defining and (2) measuring the evolution of different societal issues is an extremely complicated endeavor, and one which is to a large extent separated from the task of assessing the impact of Open Science on such evolution.
 
-Depending on the issues in question, different assessment initiatives can be considered. To enable tasks (3), (4) and (5), however, it is important that these initiatives:
+Depending on the issues in question, different assessment initiatives can be considered. To enable tasks (3), (4) and (5), however, it is important that these monitoring initiatives:
 
--   offer a sufficiently precise definition of their object (which is crucial in order to detect which actors are mobilizing the, how, and how much);
+-   offer a sufficiently precise definition of their objects (which is crucial in order to detect which actors are mobilized around them, how, and how much);
 -   allow comparing the situation of the issue in question temporally, but ideally also in different geographical or social spaces and, if possible, the comparison with other issues.
 
-As a particularly fitting example, we can mention the United Nations recent program to promote the *Sustainable Development Goals* ([sdgs.un.org](https://sdgs.un.org)). While the way in which the seventeen SDGs are quantified is not without problems, their monitoring constitutes an unparalleled effort to homogenize the assessment of a variety of societal and environmental challenges across many countries around the world. Relying on SDGs as a list of social issues that can be impacted by Open Science allows to exploit a series of different measures that are centralized and that can be monitored and compared temporally and geographically. Also, while SDGs are very different from one another, the fact of being reunited under the same framework facilitates a compare and contrast approach, crucial for the task 4 of this protocol.
+As a particularly fitting example, we can mention the United Nations recent program to promote the *Sustainable Development Goals* ([sdgs.un.org](https://sdgs.un.org)). While the way in which the seventeen SDGs are quantified is not without problems, their monitoring constitutes an unparalleled effort to homogenize the assessment of a variety of societal and environmental challenges across many countries around the world. Relying on SDGs as a list of social issues that can be impacted by Open Science allows exploiting a series of different measures that are centralized and that can be monitored and compared temporally and geographically. Also, while SDGs are very different from one another, the fact of being reunited under the same framework facilitates a compare and contrast approach, crucial for task 4 of this protocol.
 
 It is well known, however, that SDGs do not cover all possible societal issues, that they are sometimes too broadly defined and that they may fail to capture more specific and localized dynamics. Other assessment initiatives, therefore, can and should be identified according to the precise objective of the evaluation.
 
-### Data for task 3: Open Science resources
+### Data for task 3: assessing available Open Science resources
 
-The data necessary for task (3) “” are the easiest to find, as they can be found in the existing datasets on Open Science in general (e.g., open publication portals, open-source platforms, etc.).
+The data necessary for task (3) are the easiest to find, as they can be found in the existing datasets on Open Science in general (e.g., open publication portals, open-source platforms, etc.).
 
 The statements and documents collected above constitute the corpus in which open and non-open science resources should be identified and (if possible) counted. We recommend starting from the “Open Science indicators” compiled by this project. They provide a series of methods and recommendations to identify different OS items.
 
@@ -89,7 +90,7 @@ It is crucial here that all these different types of open resources are consider
 
 One particular challenge is to understand which publications are relevant for which societal issues. There are many efforts at trying to map the scientific literature into topics (Waltman & van Eck, 2019), but these do not necessarily align with known societal issues (Rafols et al., 2022). For existing schemas of societal, such as the UN SDGs mentioned earlier, there is considerable disagreement about the classification and assignment of academic literature to SDGs (Armitage et al., 2020).
 
-### Data for task 4: Open Science uptake
+### Data for task 4: assessing Open Science uptake
 
 The first operation here is therefore to list all the actors active on the issues at stake. To be sure, it is not possible to provide a closed list of these actors as their identity and nature varyby issue and time. However, they can include, but are not limited to, public institutions, profit and nonprofit organizations, civil society groups, research institutions, advocacy groups, formal and informal lobbies, experts, consultants as well as lay experts and individual citizens.
 

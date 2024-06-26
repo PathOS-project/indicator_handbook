@@ -1,0 +1,98 @@
+---
+author:
+    - name: P. Stavropoulos
+      orcid: 0000-0003-1664-6554
+      affiliations:
+      - ref: arc
+
+affiliations:
+- id: arc
+  name: Athena Research Center
+  city: Athena
+  country: Greece
+---
+
+
+# Uptake in education {#uptake-in-education .unnumbered}
+
+::: {}
+
+## History
+
+| Version | Revision date | Revision                | Author                           |
+|---------|---------------|-------------------------|----------------------------------|
+| 1.1     | 2024-03-25    | Draft review & comments | Simon Apartis, Tommaso Venturini |
+| 1.0     | 2024-03-22    | First draft             | Petros Stavropoulos              |
+
+:::
+
+## Description
+
+This indicator aims to capture the integration and utilization of Open Science (OS) resources, such as code, data, and publications, within educational materials. This includes how frequently these OS outputs are mentioned or referenced in educational handbooks and higher education syllabi. The significance of this indicator lies in its ability to shed light on the extent to which OS outputs are being incorporated into the teaching and learning process, thereby fostering a culture of openness and collaboration in academia. This indicator is crucial for understanding the role of OS in shaping educational content and methodologies.
+
+## Metrics
+
+### Number/Percentage of OS Inputs in Educational Materials
+
+This metric tracks the frequency of OS resources within both educational handbooks and higher education syllabi. It serves as an operational measure of the indicator by quantifying the inclusion of OS materials in educational content, indicative of the educational sector's engagement with and valuation of OS practices. In addition, it provides insights into how OS is influencing educational trends and priorities, offering a combined view that enhances the understanding of OS resources' impact on academic teaching and learning.
+
+#### Measurement.
+
+Measuring the incorporation of Open Science (OS) inputs into educational materials involves a detailed process that aims to capture the extent and manner of their usage in educational handbooks and syllabi. The process faces challenges such as the diverse referencing of OS resources and the comprehensive collection of materials. Moreover, the dynamic nature of OS resources and educational content necessitates ongoing data collection and analysis efforts.
+
+**Methodology**
+
+**Step 1: Data Collection**. Initiate by aggregating educational handbooks and syllabi from diverse sources, including university websites, the Open Syllabus Project, and academic databases. Prioritize sources that offer a wide array of disciplines and educational levels to ensure comprehensive coverage.
+
+**Step 2: Text Mining**. Utilize text mining and natural language processing (NLP) techniques to sift through the collected materials for mentions of OS code, data, and publications. Employ keyword matching, alongside machine learning models for more sophisticated identification and categorization of OS inputs, ensuring a broad yet accurate capture of relevant instances.
+
+**Step 3: Content Analysis (optional)**. Perform a detailed content analysis on identified mentions to evaluate their context, significance, and the depth of OS resource integration. This optional step may include both quantitative metrics, such as frequency counts, and qualitative assessments to understand the pedagogical implications of OS resource usage.
+
+**Step 4: Quantification and Normalization**. Finalize by quantifying the findings, calculating both the raw numbers and percentages of materials featuring OS inputs. Apply normalization techniques where necessary to account for varying sizes of datasets and disciplines, facilitating meaningful comparisons across different educational contexts.
+
+Step 5: **Close reading**. If the size of the corpus and the available research resources allow it, close read all the mentions to OS input and assess the importance that OS resources play in syllabi or teaching materials in which they are mobilized.
+
+##### Existing datasources:
+
+###### Open Syllabus Dataset
+
+The Open Syllabus Project (OSP) stands as a comprehensive dataset that aggregates and analyzes millions of syllabi from universities across the globe, aiming to foster advancements in teaching and learning. Versions 2.8 of this dataset encompass 15,725,330 syllabi, offering an expansive view into the academic landscape through detailed course materials, reading assignments, and learning objectives. Leveraging machine learning, OSP extracts structured metadata from these syllabi, including institutional details, course codes, titles, academic years, fields of study, course descriptions, and bibliographic assignments. This project provides a suite of analytical tools, such as the Open Syllabus Analytics, Open Syllabus Explorer, and Open Syllabus Galaxy, to enable deep dives into the dataset, supporting educational improvement and alignment with job market demands.
+
+Despite its extensive coverage, the OSP's reliance on publicly available syllabi may result in a dataset that does not fully capture the entirety of syllabi used across all institutions, particularly those that do not share their materials online. Additionally, the accuracy of machine learning-extracted metadata can vary, potentially impacting the precision of analyses.
+
+Utilizing the OSP for measuring the indicator involves:
+
+1.  Implementing text mining (e.g. keyword searching) and natural language processing (NLP) techniques within the course descriptions, bibliographic assignments, and reading lists for mentions of specific OS resources (e.g., open access publications, open-source code repositories).
+2.  (optional) Analyzing the extracted metadata for insights into the prevalence of OS resources across different fields and course levels.
+3.  Calculating the percentage of syllabi mentioning OS inputs relative to the total syllabi in the dataset to gauge the integration of open science in education.
+
+###### Syllabi & Handbooks from University Websites
+
+University websites serve as crucial sources for educational handbooks and syllabi, offering direct access to up-to-date academic materials. These resources provide structured information on courses, including learning objectives, teaching strategies, and assigned materials. Handbooks detail guidelines and best practices for educational delivery, while syllabi offer granular data on course content and structure.
+
+Accessing these materials can be challenging due to the diversity of formats and accessibility barriers across different university websites. Additionally, the absence of a centralized database for these resources necessitates individualized collection efforts, which can be time-consuming and may not always result in a comprehensive dataset.
+
+To leverage these resources for the proposed metric:
+
+1.  Employ web scraping techniques to systematically collect syllabi and handbooks from a range of university websites, focusing on documents that are freely accessible and relevant to the analysis.
+2.  Perform content analysis on the collected materials, searching for references to OS resources within the course content, objectives, and assigned readings.
+3.  Aggregate findings to quantify the number and percentage of materials featuring OS inputs, analyzing trends across different disciplines and educational levels.
+
+###### OpenAIRE Research Graph
+
+The OpenAIRE Research Graph is a comprehensive open access database that aggregates metadata on publications, research data, and project information across various disciplines. It includes details on open access publications and datasets, making it a valuable resource for tracking the output of academic-industry collaborations and their adherence to open science principles.
+
+Use the OpenAIRE Research Graph to identify which of the publications cited by educational material are open access. This involves:
+
+1.  Extracting publication references from the educational material.
+2.  Querying the OpenAIRE Research Graph to determine which cited publications are open access.
+
+##### Existing methodologies
+
+###### PathOS work in Task 2.5
+
+This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
+
+To measure the proposed metric, the tool can be used to identify the reused and created OS inputs in the texts of the educational material.
+
+One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
