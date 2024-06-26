@@ -67,6 +67,10 @@ book:
         - indicator_templates/quarto/3_societal_impact/uptake_by_media.qmd
         - indicator_templates/quarto/3_societal_impact/scientific_literacy.qmd
         - indicator_templates/quarto/3_societal_impact/uptake_by_policy_makers.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_by_patient_groups.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_in_education.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_in_medical_practice.qmd
+        - indicator_templates/quarto/3_societal_impact/uptake_in_the_legal_sector.qmd
 
     - part: Economic Impact
       chapters:

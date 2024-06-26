@@ -20,11 +20,11 @@ affiliations:
 
 ## History
 
-|         |               |                       |            |
-|---------|---------------|-----------------------|------------|
-| Version | Revision date | Revision              | Author     |
-| 1.1     | 2024-03-04    | Revision after review | V.A. Traag |
-| 1.0     | 2024-02-07    | First Draft           | V.A. Traag |
+| Version | Revision date | Revision                | Author                           |
+|---------|---------------|-------------------------|----------------------------------|
+| 1.2     | 2024-03-25    | Draft review & comments | Simon Apartis, Tommaso Venturini |
+| 1.1     | 2024-03-04    | Revision after review   | V.A. Traag                       |
+| 1.0     | 2024-02-07    | First Draft             | V.A. Traag                       |
 
 :::
 
