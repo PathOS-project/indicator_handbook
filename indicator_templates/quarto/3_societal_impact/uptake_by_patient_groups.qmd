@@ -76,7 +76,6 @@ Example short list of patient group websites:
 
 | **Organization**                                    | **Focus Area**                                        | **Website**                                                            |
 |-----------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------|
-
 | National Patient Advocate Foundation (NPAF)         | Healthcare challenges                                 | [npaf.org](https://www.npaf.org/){target="_new"}                       |
 | Patient Advocate Foundation (PAF)                   | Chronic, life-threatening, and debilitating illnesses | [patientadvocate.org](https://www.patientadvocate.org/){target="_new"} |
 | Asthma and Allergy Foundation of America (AAFA)     | Asthma and allergies                                  | [aafa.org](https://www.aafa.org/){target="_new"}                       |
@@ -94,10 +93,14 @@ We can use the OpenAIRE Research Graph to identify which of the publications cit
 
 ##### Existing methodologies
 
-###### PathOS work in Task 2.5
+###### SciNoBo Research Artifact Analysis (RAA) Tool
 
-This is an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
+This is an automated tool (Stavropoulos et al., 2023), leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 
 To measure the proposed metric, the tool can be used to identify the reused and created OS inputs in the texts of the patient group websites / reports.
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
+
+## References
+
+Stavropoulos, P., Lyris, I., Manola, N., Grypari, I., & Papageorgiou, H. (2023). Empowering Knowledge Discovery from Scientific Literature: A novel approach to Research Artifact Analysis. In L. Tan, D. Milajevs, G. Chauhan, J. Gwinnup, & E. Rippeth (Eds.), Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023) (pp. 37–53). Association for Computational Linguistics. https://doi.org/10.18653/v1/2023.nlposs-1.5
