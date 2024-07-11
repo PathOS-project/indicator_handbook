@@ -1,6 +1,6 @@
 /.quarto/
 /site_libs/
-/_book/
+/_site/
 **.html
 
 /.luarc.json
