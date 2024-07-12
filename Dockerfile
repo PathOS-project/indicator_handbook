@@ -1,3 +1,3 @@
 FROM nginx:latest
 
-COPY _book /usr/share/nginx/html/
+COPY _site /usr/share/nginx/html/
