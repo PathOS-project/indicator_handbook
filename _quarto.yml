@@ -20,7 +20,7 @@ website:
     logo: theme/pathos-logo.png
     logo-href: https://pathos-project.eu/
     left:
-    - text: "Home"
+    - text: "Introduction"
       href: index.qmd
     - text: "Open Science"
       href: indicator_templates/quarto/1_open_science/APC_costs.qmd
@@ -33,11 +33,10 @@ website:
 
   sidebar:
 
-    # The current problem is that when the document is included as a chapter,
-    # that using this suggestion for isolating environments for separate
-    # chapter, as suggested in https://quarto.org/docs/projects/code-execution.html#freeze-virtual-environments
-    # does not work. See also https://github.com/quarto-dev/quarto-cli/issues/8894.
-    # - causal_intro/article/intro-causality.qmd
+    - title: Home
+      contents:
+        - index.qmd
+        - causal_intro/article/intro-causality.qmd
 
     - title: Open Science
       contents:

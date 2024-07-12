@@ -1,7 +1,3 @@
----
-sidebar: false
----
-
 # Introduction {.unnumbered}
 
 This is the work-in-progress Open Science Indicator Handbook by PathOS. In this handbook we cover various indicators measuring various aspects around Open Science itself, their academic, societal and economic impacts, and reproducibility.
