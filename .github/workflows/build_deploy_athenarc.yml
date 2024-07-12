@@ -22,6 +22,32 @@ jobs:
       - name: Setup quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Setup pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+
+      - name: Check quarto
+        run: quarto check
+
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          working-directory: causal_intro
+
+      - name: Install system dependencies
+        run: sudo apt install -y libglpk40 libpoppler-cpp0v5 libmagick++-dev
+
+      - name: Cache targets
+        id: cache-targets
+        uses: actions/cache@v3
+        with:
+          path: _targets
+          key: ${{ runner.os }}-targets
+
+      - name: Build targets
+        run: targets::tar_make(simulate)
+        shell: Rscript {0}
+        working-directory: causal_intro
+
       - name: Render quarto project
         uses: quarto-dev/quarto-actions/render@v2
 
