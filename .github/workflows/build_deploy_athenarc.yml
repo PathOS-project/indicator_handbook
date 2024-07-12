@@ -10,7 +10,7 @@ name: Render indicator handbook
 jobs:
 
   build_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     if: github.repository	== 'PathOS-project/indicator_handbook'
 
     steps:
