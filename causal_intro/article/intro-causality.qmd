@@ -383,7 +383,7 @@ library(modelsummary)
 library(flextable)
 
 # some helper functions
-source(here("src/functions.R"))
+source(here("causal_intro/src/functions.R"))
 ```
 
 ```{r set up themes for plotting}
@@ -397,8 +397,8 @@ base_col <- pal[1]
 ```
 
 ```{r load data}
-df <- targets::tar_read(simulate, store = here("_targets"))
-coefs <- targets::tar_read(coefs, store = here("_targets"))
+df <- targets::tar_read(simulate, store = here("causal_intro/_targets"))
+coefs <- targets::tar_read(coefs, store = here("causal_intro/_targets"))
 sigma <- get_coefs("sigma", "none")
 ```
 
@@ -578,7 +578,7 @@ p <- model_coefs %>%
   theme(plot.margin = margin(10, 10, 10, 10))
 
 # plot both figures
-dag_grob <- image_read_pdf(here("article/figures/model_open_data_citations.pdf")) %>% 
+dag_grob <- image_read_pdf(here("causal_intro/article/figures/model_open_data_citations.pdf")) %>%
   as.grob()
 
 design <- "
@@ -740,7 +740,7 @@ p <- model_coefs %>%
   scale_x_continuous(limits = c(0, 1.5))
 
 # plot both figures
-dag_grob <- image_read_pdf(here("article/figures/model_open_data_on_reproducibility.pdf")) %>% 
+dag_grob <- image_read_pdf(here("causal_intro/article/figures/model_open_data_on_reproducibility.pdf")) %>%
   as.grob() 
 
 design <- "
