@@ -17,26 +17,6 @@ author:
     affiliations:
       - Centre for Science and Technology Studies (CWTS), Leiden University, the Netherlands
 date: today
-format: 
-  revtex-pdf:
-    keep-tex: true
-    linkcolor: Set1-B
-    urlcolor: Set1-B
-    citecolor: Set1-B
-    filecolor: Set1-B
-    include-in-header:
-      text: |
-        \definecolor{Set1-B}{RGB}{ 55, 126, 184}
-    number-sections: true
-    classoption:
-      - aip
-      - reprint
-      - superscriptaddress
-      - author-year
-    fig-pos: 'tb'
-    tbl-pos: 'tb'
-    disable-package:
-      - pdflscape
 zotero: PathOS
 editor: 
   markdown: 
