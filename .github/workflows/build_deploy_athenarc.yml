@@ -22,11 +22,6 @@ jobs:
       - name: Setup quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render causal introduction
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: causal-intro
-
       - name: Render quarto project
         uses: quarto-dev/quarto-actions/render@v2
 
