@@ -28,13 +28,13 @@ jobs:
       - name: Check quarto
         run: quarto check
 
+      - name: Install system dependencies
+        run: sudo apt install -y libglpk40 libpoppler-cpp0v5 libmagick++-dev libcurl4-openssl-dev
+
       - name: Setup renv
         uses: r-lib/actions/setup-renv@v2
         with:
           working-directory: causal_intro
-
-      - name: Install system dependencies
-        run: sudo apt install -y libglpk40 libpoppler-cpp0v5 libmagick++-dev libcurl4-openssl-dev
 
       - name: Cache targets
         id: cache-targets
