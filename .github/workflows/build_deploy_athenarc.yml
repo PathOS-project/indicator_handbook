@@ -34,7 +34,7 @@ jobs:
           working-directory: causal_intro
 
       - name: Install system dependencies
-        run: sudo apt install -y libglpk40 libpoppler-cpp0v5 libmagick++-dev
+        run: sudo apt install -y libglpk40 libpoppler-cpp0v5 libmagick++-dev libcurl4-openssl-dev
 
       - name: Cache targets
         id: cache-targets
