@@ -7,7 +7,7 @@ author:
       corresponding: false
       equal-contributor: true
     affiliations: 
-      - name: Know-Center GmbH, Austria
+    - ref: know
   - name: Vincent Traag
     orcid: 0000-0003-3170-3879
     email: v.a.traag@cwts.leidenuniv.nl
@@ -15,8 +15,19 @@ author:
       corresponding: true
       equal-contributor: true
     affiliations:
-      - Centre for Science and Technology Studies (CWTS), Leiden University, the Netherlands
-date: today
+    - ref: cwts
+
+affiliations:
+- id: know
+  name: Know-Center
+  city: Graz
+  country: Austria
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+
 zotero: PathOS
 editor: 
   markdown: 
