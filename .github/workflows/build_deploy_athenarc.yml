@@ -31,7 +31,7 @@ jobs:
       - name: (Causal intro) Install system dependencies
         run: sudo apt install -y libglpk40 libpoppler-cpp0v5 libmagick++-dev libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev
 
-      - name: (Causal intro])Setup renv
+      - name: (Causal intro) Setup renv
         uses: r-lib/actions/setup-renv@v2
         with:
           working-directory: causal_intro
