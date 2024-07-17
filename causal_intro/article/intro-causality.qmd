@@ -360,9 +360,11 @@ if (!is.null(knitr::opts_knit$get("rmarkdown.pandoc.to"))) {
 ```
 
 ```{r}
-# explicitly load quarto and pdftools to list as dependency for renv
+# explicitly list libraries to load as dependency for renv
 library(quarto)
 library(pdftools)
+library(downlit)
+# end renv dependency
 
 library(dplyr)
 library(here)
