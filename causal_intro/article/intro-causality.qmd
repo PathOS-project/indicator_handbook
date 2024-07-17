@@ -32,16 +32,6 @@ zotero: PathOS
 editor: 
   markdown: 
     wrap: sentence
-abstract:
-  Sound causal inference is crucial for advancing the study of science.
-  Incorrectly interpreting predictive effects as causal might be ineffective or even detrimental to policy recommendations.
-  Many publications in science studies lack appropriate methods to substantiate their causal claims.
-  We here provide an introduction to structural causal models.
-  Such models, usually represented in a graphical form, allow researchers to make their causal assumptions transparent and provide a foundation for causal inference.
-  We illustrate how to use structural causal models to conduct causal inference using regression models based on simulated data of a hypothetical structural causal model of Open Science.
-  The graphical representation of structural causal models allows researchers to clearly communicate their assumptions and findings, thereby fostering further discussion.
-  We hope our introduction helps more researchers in science studies to consider causality explicitly.
-keywords: [Causal inference, Science studies, Scientometrics]
 ---
 
 # Introduction
