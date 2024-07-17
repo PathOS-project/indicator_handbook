@@ -30,9 +30,9 @@ affiliations:
 
 In the context of Open Science, the availability of research data is an important topic. Open Data is often, but not exclusively, made available through data repositories, which can store and archive data for long-term preservation. More and more Open Data repositories are initiated and efforts to establish the needed infrastructure are undertaken. However, these repositories differ vastly in their nature and accessibility. It is therefore important to get an overview of the accessibility of these different data sources for the assessment and practice of Open Science.
 
-Governments and governmental agencies, individual universities and research communities are types of organisations involved in setting up data sources in various fields (Goben & Sandusky, 2020). There are also publisher-driven data repositories that stimulate cooperation and can be openly accessible to a certain extent. Lastly, there exist non-institution affiliated data repositories, ranging from field specific (e.g. gene databanks, such as International Nucleotide Sequence Database Collaboration) to more general repositories including multiple topics (e.g. Zenodo, Dryad, figshare).
+Governments and governmental agencies, individual universities and research communities are types of organisations involved in setting up data sources in various fields [@goben2020]. There are also publisher-driven data repositories that stimulate cooperation and can be openly accessible to a certain extent. Lastly, there exist non-institution affiliated data repositories, ranging from field specific (e.g. gene databanks, such as International Nucleotide Sequence Database Collaboration) to more general repositories including multiple topics (e.g. Zenodo, Dryad, figshare).
 
-The wide variety of data repositories out there present a number of opportunities and challenges (Goben & Sandusky, 2020). A clear opportunity is the large increase in accessible data by an increasing number of repositories. However, the wide variety of repositories and infrastructure also presents a challenge in finding the right data repository or dataset that one is looking for. The increase in variety also leads to a risk of data misinterpretation or misuse and can lead to data loss.
+The wide variety of data repositories out there present a number of opportunities and challenges [@goben2020]. A clear opportunity is the large increase in accessible data by an increasing number of repositories. However, the wide variety of repositories and infrastructure also presents a challenge in finding the right data repository or dataset that one is looking for. The increase in variety also leads to a risk of data misinterpretation or misuse and can lead to data loss.
 
 Given the potential for Open Data repositories it can be very helpful to get an indication of the accessibility of these resources and how they link up with research. It must be noted however that this indicator is not meant to be solely used to rank data repositories or scientific entities. To do this, other indicators and measures should be taken into account, as well as relevant contextual factors that are difficult to capture in quantitative data.
 
@@ -82,7 +82,6 @@ Core Trust Seal is a non-profit organisation that labels data sources with their
 
 ## References
 
-Goben, A., & Sandusky, R. J. (2020). *Open data repositories: Current risks and opportunities \| Goben \| College & Research Libraries News*. https://doi.org/10.5860/crln.81.1.62
 
 Jahn, N., Laakso, M., Lazzeri, E., & McQuilton, P. (2023). *Study on the readiness of research data and literature repositories to facilitate compliance with the Open Science Horizon Europe MGA requirements*. Zenodo. https://zenodo.org/record/7728016
 
