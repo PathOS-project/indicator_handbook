@@ -25,6 +25,8 @@ website:
       href: indicator_templates/quarto/2_academic_impact/academic_readership.qmd
     - text: "Societal Impact"
       href: indicator_templates/quarto/3_societal_impact/uptake_and_impact_on_societal_issues.qmd
+    - text: "Economic Impact"
+      href: indicator_templates/quarto/4_economic_impact/science_industry_collaboration.qmd
     - text: "Reproducibility"
       href: reproducibility_intro.qmd
 
