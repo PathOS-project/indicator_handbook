@@ -49,9 +49,8 @@ jobs:
         working-directory: causal_intro
 
       - name: (Causal intro) Render quarto
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: causal_intro
+        run: quarto render
+        working-directory: causal_intro
 
       - name: Render quarto project
         uses: quarto-dev/quarto-actions/render@v2
@@ -72,4 +71,4 @@ jobs:
           USE_PULL_REPO: "false"
           DEPLOY_URL: "https://delphinus.imsi.athenarc.gr/docker-compose-deploy/deploy"
           IMAGES: "${{ steps.docker_build.outputs.images }}"
-        if: github.ref == 'refs/heads/main'          
+        if: github.ref == 'refs/heads/main'
