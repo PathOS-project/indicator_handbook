@@ -28,27 +28,27 @@ jobs:
       - name: Check quarto
         run: quarto check
 
-      - name: [Causal intro] Install system dependencies
+      - name: (Causal intro) Install system dependencies
         run: sudo apt install -y libglpk40 libpoppler-cpp0v5 libmagick++-dev libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev
 
-      - name: [Causal intro] Setup renv
+      - name: (Causal intro])Setup renv
         uses: r-lib/actions/setup-renv@v2
         with:
           working-directory: causal_intro
 
-      - name: [Causal intro] Cache targets
+      - name: (Causal intro])Cache targets
         id: cache-targets
         uses: actions/cache@v3
         with:
           path: causal_intro/_targets
           key: ${{ runner.os }}-targets
 
-      - name: [Causal intro] Build targets
+      - name: (Causal intro])Build targets
         run: targets::tar_make(simulate)
         shell: Rscript {0}
         working-directory: causal_intro
 
-      - name: [Causal intro] Render quarto
+      - name: (Causal intro])Render quarto
         uses: quarto-dev/quarto-actions/render@v2
         with:
           path: causal_intro
