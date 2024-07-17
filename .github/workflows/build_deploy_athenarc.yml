@@ -22,6 +22,36 @@ jobs:
       - name: Setup quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Setup pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+
+      - name: Check quarto
+        run: quarto check
+
+      - name: (Causal intro) Install system dependencies
+        run: sudo apt install -y libglpk40 libpoppler-cpp-dev poppler-data libjpeg-dev libmagick++-dev libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev
+
+      - name: (Causal intro) Setup renv
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          working-directory: causal_intro
+
+      - name: (Causal intro) Cache targets
+        id: cache-targets
+        uses: actions/cache@v3
+        with:
+          path: causal_intro/_targets
+          key: ${{ runner.os }}-targets
+
+      - name: (Causal intro) Build targets
+        run: targets::tar_make(simulate)
+        shell: Rscript {0}
+        working-directory: causal_intro
+
+      - name: (Causal intro) Render quarto
+        run: quarto render
+        working-directory: causal_intro
+
       - name: Render quarto project
         uses: quarto-dev/quarto-actions/render@v2
 
@@ -41,4 +71,4 @@ jobs:
           USE_PULL_REPO: "false"
           DEPLOY_URL: "https://delphinus.imsi.athenarc.gr/docker-compose-deploy/deploy"
           IMAGES: "${{ steps.docker_build.outputs.images }}"
-        if: github.ref == 'refs/heads/main'          
+        if: github.ref == 'refs/heads/main'

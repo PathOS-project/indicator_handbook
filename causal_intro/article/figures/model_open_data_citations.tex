@@ -1,0 +1,46 @@
+\documentclass[tikz]{standalone}
+
+\input{figure.tex}
+\input{styling.tex}
+
+\usetikzlibrary{calc}
+
+\begin{document}
+  \begin{tikzpicture}[nodes=n square,
+                      x=3cm,y=3cm]
+
+    \begin{scope}[every edge/.style={e,double=lightgray,arrows={-latex[lightgray]}}]
+        \tikzstyle{n-novelty}+=[open]
+        \tikzstyle{n-rigour}+=[conditioned,closed]
+        \tikzstyle{n-data_reuse}+=[open]
+        \tikzstyle{n-open_data}+=[]
+
+        \tikzstyle{n-published}+=[open]
+        \tikzstyle{n-citations}+=[]
+        \tikzstyle{n-reproducibility}+=[closed]
+        \tikzstyle{n-field}+=[conditioned,closed]
+
+        \input{base_model.tex}
+
+        \begin{scope}
+            \clip (published.south west) -- (published.north east) -- (published.north west) -- cycle;
+            \node[closed] () at (published) {Published};
+        \end{scope}
+
+        \begin{scope}
+            \clip (data_reuse.south west) -- (data_reuse.north east) -- (data_reuse.north west) -- cycle;
+            \node[closed] () at (data_reuse) {Data reuse};
+        \end{scope}
+
+    \end{scope}
+
+    \begin{scope}[every edge/.style={e}]
+        \draw[->,black]
+            (data_reuse) edge (citations)
+            (open_data)  edge (data_reuse)
+            (open_data)  edge (published)
+            (published)  edge (citations);
+    \end{scope}
+
+  \end{tikzpicture}
+\end{document}

@@ -1,0 +1,65 @@
+\documentclass{standalone}
+
+\input{figure.tex}
+\input{styling.tex}
+
+\tikzstyle{inline text}=[baseline=(current bounding box.center),x=1.5cm]
+
+\begin{document}
+    
+\begin{tabular}{lcc}
+    & Unconditioned & Conditioned \\[3mm]
+Mediator   &
+\tikz[inline text]{
+\node (x) at (-1, 0) {$\cdots$};
+\node[n,open] (z) at ( 0, 0) {$Z$};
+\node (y) at ( 1, 0) {$\cdots$};
+
+\draw[->,e] (x) edge (z)
+(z) edge (y);}
+    &
+\tikz[inline text]{
+\node (x) at (-1, 0) {$\cdots$};
+\node[n,closed,conditioned] (z) at ( 0, 0) {$Z$};
+\node (y) at ( 1, 0) {$\cdots$};
+
+\draw[->,e] (x) edge (z)
+(z) edge (y);}                           \\[5mm]
+
+Confounder &
+\tikz[inline text]{
+\node (x) at (-1, 0) {$\cdots$};
+\node[n,open] (z) at ( 0, 0) {$Z$};
+\node (y) at ( 1, 0) {$\cdots$};
+
+\draw[->,e] (z) edge (x)
+(z) edge (y);}
+    &
+\tikz[inline text]{
+\node (x) at (-1, 0) {$\cdots$};
+\node[n,closed,conditioned] (z) at ( 0, 0) {$Z$};
+\node (y) at ( 1, 0) {$\cdots$};
+
+\draw[->,e] (z) edge (x)
+(z) edge (y);}                           \\[5mm]
+
+Collider   &
+\tikz[inline text]{
+\node (x) at (-1, 0) {$\cdots$};
+\node[n,closed] (z) at ( 0, 0) {$Z$};
+\node (y) at ( 1, 0) {$\cdots$};
+
+\draw[->,e] (x) edge (z)
+(y) edge (z);}
+    &
+\tikz[inline text]{
+\node (x) at (-1, 0) {$\cdots$};
+\node[n,open,conditioned] (z) at ( 0, 0) {$Z$};
+\node (y) at ( 1, 0) {$\cdots$};
+
+\draw[->,e] (x) edge (z)
+(y) edge (z);}                           \\[5mm]
+\end{tabular}
+
+
+\end{document}

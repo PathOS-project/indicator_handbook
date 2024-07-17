@@ -1,0 +1,28 @@
+
+    \node[n-novelty]         (novelty) at         (0, 1.5)         {Novelty};
+    \node[n-rigour]          (rigour) at          (0, 0.5)          {Rigour};
+
+    \node[n-data_reuse]      (data_reuse) at      (1, 2)        {Data reuse};
+    \node[n-open_data]       (open_data) at       (1, 1)         {Open data};
+    \node[n-published]       (published) at       (1, 0)         {Published};
+
+    \node[n-citations]       (citations) at       (2, 2)         {Citations};
+    \node[n-reproducibility] (reproducibility) at (2, 0.5) {Reproducibility};
+
+    \node[n-field]           (field) at           (2, 1.3)           {Field};
+
+    \draw[e,->]
+      (data_reuse) edge (citations)
+      (field)      edge (citations)
+      (field)      edge[out=180,in=30] (open_data)
+      (novelty)    edge (citations)
+      (novelty)    edge[out=60,in=180] (data_reuse)
+      (novelty)    edge (published)
+      (open_data)  edge (data_reuse)
+      (open_data)  edge (published)
+      (open_data)  edge[out=0,in=130] (reproducibility)
+      (published)  edge (citations)
+      (rigour)     edge[out=90,in=210] (citations)
+      (rigour)     edge[out=60,in=180] (open_data)
+      (rigour)     edge[out=-90,in=180] (published)
+      (rigour)     edge (reproducibility);

@@ -4,3 +4,5 @@
 **.html
 
 /.luarc.json
+**/_targets
+**/_freeze/

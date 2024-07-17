@@ -1,0 +1,48 @@
+\documentclass[tikz]{standalone}
+
+\input{figure.tex}
+\input{styling.tex}
+
+\usetikzlibrary{calc}
+
+\begin{document}
+  \begin{tikzpicture}[nodes=n square,
+                      x=3cm,y=3cm]
+
+    \begin{scope}[every edge/.style={e,double=lightgray,arrows={-latex[lightgray]}}]
+        \tikzstyle{n-novelty}+=[]
+        \tikzstyle{n-rigour}+=[open]
+        \tikzstyle{n-data_reuse}+=[open]
+        \tikzstyle{n-open_data}+=[open]
+
+        \tikzstyle{n-published}+=[conditioned,closed]
+        \tikzstyle{n-citations}+=[closed]
+        \tikzstyle{n-reproducibility}+=[]
+        \tikzstyle{n-field}+=[open]
+
+        \input{base_model.tex}
+
+        \begin{scope}
+            \clip (published.south west) -- (published.north east) -- (published.north west) -- cycle;
+            \node[conditioned,open] () at (published) {Published};
+        \end{scope}
+
+        \begin{scope}
+            \clip (data_reuse.south west) -- (data_reuse.north east) -- (data_reuse.north west) -- cycle;
+            \node[closed] () at (data_reuse) {Data reuse};
+        \end{scope}
+
+    \end{scope}
+    
+    \begin{scope}[every edge/.style={e}]
+        \draw[->,black]
+            (novelty)    edge (published)
+            (open_data)  edge (published)
+            (open_data)  edge[out=0,in=130] (reproducibility)
+            (rigour)     edge[out=60,in=180] (open_data)
+            (rigour)     edge[out=-90,in=180] (published)
+            (rigour)     edge (reproducibility);
+    \end{scope}
+
+  \end{tikzpicture}
+\end{document}
