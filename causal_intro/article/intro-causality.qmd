@@ -6,7 +6,7 @@ author:
     attributes:
       corresponding: false
       equal-contributor: true
-    affiliations: 
+    affiliations:
     - ref: know
   - name: Vincent Traag
     orcid: 0000-0003-3170-3879
@@ -29,6 +29,7 @@ affiliations:
   country: the Netherlands
 
 zotero: PathOS
+bibliography: references.bib
 editor: 
   markdown: 
     wrap: sentence
