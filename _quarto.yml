@@ -132,5 +132,8 @@ format:
 
     author-meta: "V.A. Traag, etc..."
     callout-appearance: simple
+zotero: PathOS
+bibliography: references.bib
+
 
 editor: visual
