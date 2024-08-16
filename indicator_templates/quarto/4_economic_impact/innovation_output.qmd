@@ -22,26 +22,28 @@ affiliations:
   name: Technopolis Group
   city: Brussels
   country: Belgium
+bibliography: references.bib
 ---
+
 # Innovation output {#innovation-output .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
-| Version | Revision date | Revision                     | Author                                |
-|---------|---------------|------------------------------|---------------------------------------|
-| 1.3     | 2024-04-26    | Second draft                 | Delugas E., Consiglio G., Catalano G. |
-| 1.2     | 2024-04-25    | Peer review                  | V.A. Traag                            |
-| 1.1     | 2024-03-27    | First draft                  | Delugas E., Consiglio G., Catalano G. |
+| Version | Revision date | Revision     | Author                                |
+|--------------|--------------|-------------------|--------------------------|
+| 1.3     | 2024-04-26    | Second draft | Delugas E., Consiglio G., Catalano G. |
+| 1.2     | 2024-04-25    | Peer review  | V.A. Traag                            |
+| 1.1     | 2024-03-27    | First draft  | Delugas E., Consiglio G., Catalano G. |
 
-:::
+</div>
 
 ## Description
 
-Innovation is the process of creating, developing, and implementing new products, services, processes, or ideas that bring significant improvements over existing solutions. These innovations can be incremental, representing slight improvements to current offerings, or disruptive, introducing fundamentally new concepts that dramatically change markets or societal practices. The genesis of innovative technologies, products, and services often begins with accessing research findings (Tennant et al., 2016). Specifically, it involves the process by which scientific outputs, such as publications, data, or protocols, enable the development of innovation outputs, although of different degrees of disruption, by the scientific communities, research infrastructures, and industry.
+Innovation is the process of creating, developing, and implementing new products, services, processes, or ideas that bring significant improvements over existing solutions. These innovations can be incremental, representing slight improvements to current offerings, or disruptive, introducing fundamentally new concepts that dramatically change markets or societal practices. The genesis of innovative technologies, products, and services often begins with accessing research findings [@tennant2016]. Specifically, it involves the process by which scientific outputs, such as publications, data, or protocols, enable the development of innovation outputs, although of different degrees of disruption, by the scientific communities, research infrastructures, and industry.
 
-Open science practices enhance the prospects for innovation by facilitating wider dissemination of research outputs to all relevant stakeholders. Open science practices play a pivotal role, especially in industry-related innovation, by significantly widening access and enabling the open reuse of publicly funded research and data. This is crucial in disseminating scientific knowledge to businesses, particularly benefiting small companies with limited resources. Since scientific journals are the main channel through which the industry accesses cutting-edge research (Cohen et al., 2002), the academic norms dictating journal access and pricing are critically important, paving the way for the creation of novel outputs and potentially leading to an uptick in patent filings (Bryan and Ozcan, 2021). Open science practices could accelerate the pace at which they translate into research outputs, also increasing the number of stakeholders accessing it, which would have been otherwise prevented due to budget constraints. The indicator “innovation output” aims to capture the extent to which OS triggers innovation in industry and the scientific community without limiting its focus only to specific innovation domains. It considers both the development and enhancement of products, services, technologies and the filing of patents. This is because, especially for firms, it has been argued that patents represent an imperfect proxy for innovation, more tailored to measure the firms’ R&D output rather than their whole innovation activity (e.g., Castelnovo et al. 2023). Other economic indicators presented in this handbook concentrate on the impact of OS on innovation from a narrowed perspective and can somehow be considered as a subset of this more general one. These include the development of socially relevant products and processes, focusing on sectors such as health, agriculture, and energy; and science-industry collaboration, which emphasises a specific way of knowledge transmission and interaction between academia and industry.
+Open science practices enhance the prospects for innovation by facilitating wider dissemination of research outputs to all relevant stakeholders. Open science practices play a pivotal role, especially in industry-related innovation, by significantly widening access and enabling the open reuse of publicly funded research and data. This is crucial in disseminating scientific knowledge to businesses, particularly benefiting small companies with limited resources. Since scientific journals are the main channel through which the industry accesses cutting-edge research [@cohen2002], the academic norms dictating journal access and pricing are critically important, paving the way for the creation of novel outputs and potentially leading to an uptick in patent filings [@bryan2021]. Open science practices could accelerate the pace at which they translate into research outputs, also increasing the number of stakeholders accessing it, which would have been otherwise prevented due to budget constraints. The indicator “innovation output” aims to capture the extent to which OS triggers innovation in industry and the scientific community without limiting its focus only to specific innovation domains. It considers both the development and enhancement of products, services, technologies and the filing of patents. This is because, especially for firms, it has been argued that patents represent an imperfect proxy for innovation, more tailored to measure the firms’ R&D output rather than their whole innovation activity e.g. [@castelnovo2023]. Other economic indicators presented in this handbook concentrate on the impact of OS on innovation from a narrowed perspective and can somehow be considered as a subset of this more general one. These include the development of socially relevant products and processes, focusing on sectors such as health, agriculture, and energy; and science-industry collaboration, which emphasises a specific way of knowledge transmission and interaction between academia and industry.
 
 Here, four metrics are proposed: 1) new products and services developed by using OS input, 2) new technologies developed by using OS input, 3) patents filed citing OS inputs, and 4) average increase in companies’ patent portfolio value thanks to the patent filed using OS resources.^[\[1\]](#footnote-2){#footnote-ref-2}^
 
@@ -51,7 +53,7 @@ The suggested metrics may be relevant to measure innovation output on individual
 -   OS research outputs are typically merged with those from closed research, making it difficult to single out the innovation outcomes directly linked to OS activities. Without a survey, little can be said about the mechanism through which OS is integrated into the innovation process of companies. This means that the relative importance of OS resources over closed resource outcomes remains quite approximate. If the analysis of patents allows for detecting how many OS resources might have contributed, without a survey, it is challenging to ascertain the specific role of OS in the innovation process.
 -   Another fundamental challenge is to accurately evaluate OS’s causal impact on innovation. Even if we had all possible quantitative indicators at our disposal, it would still be very difficult to measure the causal impact of open science on innovation. Indeed, if all scientific knowledge were open, we could not definitively state that there would be more innovation. For this reason, to estimate the causal impact of open science on innovation, a rigorous research design would be necessary. For example, one could compare the innovation output of similar organisations that access and integrate the same or similar research outputs into their production processes, with the only difference being that one is open, and the other is closed.
 
-On the one hand, opting to gauge innovation output solely through patents derived from OS contributions can be seen as more straightforward and expedient. This method not only leverages objective data that is accessible over extended periods but also effectively circumvents the biases typically associated with survey methodologies, such as self-selection, over-optimism, and subjectivity (Castelnovo et al., 2023). To enhance the metric further, one could link the patents to the relative importance of the scientific outcome and try to determine whether the innovation qualifies as disruptive or incremental. Although the true impact of technology is difficult to measure, citations of papers and patents are a common proxy (e.g., Wuchty et al. 2007, Schoenmakers and Duysters 2010). A more comprehensive measure, based on network analysis, has been proposed by Funk and Owen-Smith (2017). Their index aims at measuring, through network analysis, the extent to which an impactful patent has been consolidating or disrupting a technology. However, conducting a survey could provide a more detailed description of how OS inputs are incorporated into the innovation process, their integration with proprietary research outputs, and, importantly, identify the entities utilising OS resources without resorting to patenting.
+On the one hand, opting to gauge innovation output solely through patents derived from OS contributions can be seen as more straightforward and expedient. This method not only leverages objective data that is accessible over extended periods but also effectively circumvents the biases typically associated with survey methodologies, such as self-selection, over-optimism, and subjectivity (Castelnovo et al., 2023). To enhance the metric further, one could link the patents to the relative importance of the scientific outcome and try to determine whether the innovation qualifies as disruptive or incremental. Although the true impact of technology is difficult to measure, citations of papers and patents are a common proxy (e.g., [@wuchty2007]; [@schoenmakers2010]). A more comprehensive measure, based on network analysis, has been proposed by [@funk2017]. Their index aims at measuring, through network analysis, the extent to which an impactful patent has been consolidating or disrupting a technology. However, conducting a survey could provide a more detailed description of how OS inputs are incorporated into the innovation process, their integration with proprietary research outputs, and, importantly, identify the entities utilising OS resources without resorting to patenting.
 
 ## Metrics
 
@@ -108,7 +110,7 @@ Other issues might be related to the *technical design* of the survey and its re
 
 ###### Patent Analysis
 
-This methodology allows tracking the impact a given OS practice has had on legally recognised inventions. This methodology has been tested and developed in the context of the evaluation of Alba and Diamond facilities (Catalano et al. 2023; Catalano et al. *forthcoming*), two synchrotron light facilities employed for scientific research. These research infrastructures provide support research in multiple fields, including physics, chemistry, biology, and health to environmental sciences. The methodology description refers to using The Lens and Orbis IP. Please refer to the indicator "Science-industry collaboration" for an application of patent/citation analysis using PATSTAT.
+This methodology allows tracking the impact a given OS practice has had on legally recognised inventions. This methodology has been tested and developed in the context of the evaluation of Alba and Diamond facilities [@catalano2021]; (Catalano et al. *forthcoming*), two synchrotron light facilities employed for scientific research. These research infrastructures provide support research in multiple fields, including physics, chemistry, biology, and health to environmental sciences. The methodology description refers to using The Lens and Orbis IP. Please refer to the indicator "Science-industry collaboration" for an application of patent/citation analysis using PATSTAT.
 
 Although it must be tailored to the specific characteristics of the resource or instrument at the centre of the analysis, three main steps can be identified.
 
@@ -154,29 +156,11 @@ The European Union Intellectual Property Office ([EUIPO](https://www.euipo.europ
 
 ## Known correlates
 
-The innovation output indicator correlates with the following set of indicators: uptake of research outputs by industry, socially relevant products and processes and science-industry collaboration, as they can be seen as specific subsets of this broader one. The indicator also correlates with cost savings, since, as also mentioned in the [CBA methodological note](https://zenodo.org/records/10277642), gains from enablement due to OS materialise after the efficiency gains. Therefore, it is also associated with the economic growth of companies since innovation is one of the key ingredients for increasing sales and profits.
+The innovation output indicator correlates with the following set of indicators: uptake of research outputs by industry, socially relevant products and processes and science-industry collaboration, as they can be seen as specific subsets of this broader one. The indicator also correlates with cost savings, since, as also mentioned in the [CBA methodological note](https://zenodo.org/records/10277642) [@delugas2023a], gains from enablement due to OS materialise after the efficiency gains. Therefore, it is also associated with the economic growth of companies since innovation is one of the key ingredients for increasing sales and profits.
 
 ## References
 
-Bryan, K. A., & Ozcan, Y. (2021). The impact of open access mandates on invention. The Review of Economics and Statistics, 103(5), 954-967.
-
-Castelnovo, P., Clò, S., & Florio, M. (2023). A quasi-experimental design to assess the innovative impact of public procurement: An application to the Italian space industry. *Technovation*, *121*, 102683.
-
 Catalano G., with the contribution of Florio M., Articolo R., Consiglio G., Eggleton, D. (forthcoming), Diamond contribution to the development of an innovative vaccine for the Foot-and-Mouth Disease: a veterinary pathology of global significance, case study report.
-
-Catalano, G., López, G. G., Sánchez, A., & Vignetti, S. (2021). From scientific experiments to innovation: Impact pathways of a Synchrotron Light Facility. *Annals of Public and Cooperative Economics*, *92*(3), 447-472.
-
-Cohen, W. M., Nelson, R. R., & Walsh, J. P. (2002). Links and impacts: the influence of public research on industrial R&D. Management science, 48(1), 1-23.
-
-Delugas, E., Catalano, G., & Vignetti, S. (2023). PathOS - D4.1 Methodological note on the CBA of open science practices. Zenodo. <https://doi.org/10.5281/zenodo.10277642>
-
-Funk, R. J. & Owen-Smith, J. (2017). A dynamic network measure of technological change. *Manage. Sci* 63, 791–817
-
-Schoenmakers W, Duysters G (2010) The technological origins of radical inventions. Res. Policy 39(8):1051–1059
-
-Tennant JP, Waldner F, Jacques DC et al. (2016) The academic, economic and societal impacts of Open Access: an evidence-based review \[version 3; peer review: 4 approved, 1 approved with reservations\]. F1000Research, 5:632 (https://doi.org/10.12688/f1000research.8460.3)
-
-Wuchty S, Jones BF, Uzzi B (2007) The increasing dominance of teams in production of knowledge. Science 316(5827):1036–1039
 
 1.  ::: {#footnote-2}
     These metrics build on indicators adopted in different contexts. For instance, the Open Science Monitor (The Lisbon Council et al. 2019) mentioned that new products, services and technologies has been used in the [White Rabbit Project](https://white-rabbit.web.cern.ch/) of CERN to measure how companies were able to reuse and sell White Rabbit switches and nodes, along with their services, to different organisations in multiple industrial settings. Similarly, Florio et al. (2018) have used similar metrics to measure innovation triggered by CERN in its supplier firms. Also, they have been indicated as monitoring indicators in the [RIPATHS](https://ri-paths-tool.eu/en) framework. [↑](#footnote-ref-2)

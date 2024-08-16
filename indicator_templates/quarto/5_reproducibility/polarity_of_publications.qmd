@@ -10,11 +10,12 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+bibliography: references.bib
 ---
 
 # Polarity of publications {#polarity-of-publications .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
@@ -24,7 +25,7 @@ affiliations:
 | 1.1     | 2023-07-18    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First Draft | Petros Stavropoulos |
 
-:::
+</div>
 
 ## Description
 
@@ -42,13 +43,13 @@ This metric counts the number of citations in which a publication is cited in a 
 
 Limitations of this metric include the potential for biased or incomplete citation practices, as well as the possibility that a publication may receive support from researchers who share similar viewpoints or research interests, rather than from a wider scientific community.
 
-Furthermore, it is important to note that the number of supporting citations can vary widely, depending on the field of study and the specific publication. In some fields, supporting citations are very common, while in others they are relatively rare. This variation can make it difficult to use the number of supporting citations as a reliable indicator of the scientific community's perception of a publication. (Lamers et al., 2021)
+Furthermore, it is important to note that the number of supporting citations can vary widely, depending on the field of study and the specific publication. In some fields, supporting citations are very common, while in others they are relatively rare. This variation can make it difficult to use the number of supporting citations as a reliable indicator of the scientific community's perception of a publication [@lamers2021].
 
 In addition to the variation in the number of supporting citations, there are other factors that can affect the interpretation of this metric. For example, the number of supporting citations may be influenced by the age of the publication, the number of citations overall, and the visibility of the publication. It is also important to consider the context in which the citations are made. For example, a citation that is used to support a claim may be different from a citation that is used to mention a publication or to refute a claim.
 
 #### Measurement.
 
-To measure the number of supporting citations for a publication, we can search for citations that explicitly mention the publication in a supportive way. This can be done by manually searching for citations, extracting them from the text, and classifying their mentions as "supporting", "refuting" or "neutral". However, this manual process can be time-consuming. Alternatively, automated tools can be leveraged to identify the supporting citation mentions (referred to as 'citances') from the publications text (Budi & Yaniasih, 2022).
+To measure the number of supporting citations for a publication, we can search for citations that explicitly mention the publication in a supportive way. This can be done by manually searching for citations, extracting them from the text, and classifying their mentions as "supporting", "refuting" or "neutral". However, this manual process can be time-consuming. Alternatively, automated tools can be leveraged to identify the supporting citation mentions (referred to as 'citances') from the publications text [@budi2022].
 
 One potential limitation of this metric is that it may be difficult to differentiate between citations that provide explicit support for a publication's claims and those that merely mention the publication in passing. In addition, not all citations may explicitly mention the publication's claims, methodology, results or research outputs, and some researchers may support a publication without necessarily citing it.
 
@@ -76,16 +77,6 @@ Limitations of the platform include:
 
 ###### SciNoBo Toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) has a new component, currently undergoing evaluation, which involves analysing a publication's text and identifying all citances to other publications. It then classifies these citances based on their intent (generic, reuse, comparison), polarity (supporting, refuting, neutral), and semantics (claim, methodology, results, artifact/output).
+The SciNoBo toolkit [@gialitsis2022a]; [@kotitsas2023a] has a new component, currently undergoing evaluation, which involves analysing a publication's text and identifying all citances to other publications. It then classifies these citances based on their intent (generic, reuse, comparison), polarity (supporting, refuting, neutral), and semantics (claim, methodology, results, artifact/output).
 
 Limitations of the tool include potential errors in capturing all relevant citances, and correctly classifying their polarity.
-
-## References
-
-Budi, I., & Yaniasih, Y. (2022). Understanding the meanings of citations using sentiment, role, and citation function classifications. *Scientometrics*, *128*, 1–25. https://doi.org/10.1007/s11192-022-04567-4
-
-Lamers, W. S., Boyack, K., Larivière, V., Sugimoto, C. R., van Eck, N. J., Waltman, L., & Murray, D. (2021). Investigating disagreement in the scientific literature. ELife, 10, e72737. https://doi.org/10.7554/eLife.72737
-
-Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. Companion Proceedings of the Web Conference 2022, 800–809. <https://doi.org/10.1145/3487553.3524677>
-
-Kotitsas, S., Pappas, D., Manola, N., & Papageorgiou, H. (2023). SCINOBO: A novel system classifying scholarly communication in a dynamically constructed hierarchical Field-of-Science taxonomy. Frontiers in Research Metrics and Analytics, 8. https://www.frontiersin.org/articles/10.3389/frma.2023.1149834

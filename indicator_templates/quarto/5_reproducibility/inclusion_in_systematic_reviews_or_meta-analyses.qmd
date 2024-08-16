@@ -18,11 +18,12 @@ affiliations:
   name: Graz University of Technology
   city: Graz
   country: Austria
+bibliography: references.bib
 ---
 
 # Inclusion in systematic reviews or meta-analyses {#inclusion-in-systematic-reviews-or-meta-analyses .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
@@ -32,12 +33,11 @@ affiliations:
 | 1.1     | 2023-07-20    | Revisions   | Thomas Klebel               |
 | 1.0     | 2023-05-02    | First draft | Eva Kormann                 |
 
-
-:::
+</div>
 
 ## Description
 
-Systematic reviews and meta-analyses are very useful methodologies to synthesize scientific literature on a certain topic. Inclusion of a paper in such a systematic review or meta-analysis can be used as an indicator for reproducibility, since in the process of reviewing literature and assessing inclusion criteria, judgements are made about the quality of a paper (e.g., of methods and results). For instance, the PRISMA guidelines include specification of risk of bias assessment (Page et al., 2021). Instead of directly investigating the quality of papers, inclusion in systematic reviews and meta-analyses can therefore be taken as a proxy. Papers passing the quality check of a systematic review or meta-analysis could be expected to be more reproducible than papers failing this check. This indicator, however, is dependent on the existence of systematic reviews or meta-analyses for a certain topic and gathering enough information for comparisons might be challenging. Publications available as Open Access might be more often included, since none of them are excluded from such studies due to unavailability.
+Systematic reviews and meta-analyses are very useful methodologies to synthesize scientific literature on a certain topic. Inclusion of a paper in such a systematic review or meta-analysis can be used as an indicator for reproducibility, since in the process of reviewing literature and assessing inclusion criteria, judgements are made about the quality of a paper (e.g., of methods and results). For instance, the PRISMA guidelines include specification of risk of bias assessment [@page2021]. Instead of directly investigating the quality of papers, inclusion in systematic reviews and meta-analyses can therefore be taken as a proxy. Papers passing the quality check of a systematic review or meta-analysis could be expected to be more reproducible than papers failing this check. This indicator, however, is dependent on the existence of systematic reviews or meta-analyses for a certain topic and gathering enough information for comparisons might be challenging. Publications available as Open Access might be more often included, since none of them are excluded from such studies due to unavailability.
 
 ## Metrics
 
@@ -100,7 +100,3 @@ One potential methodology is the semantic analysis of full texts of citing syste
 ###### Supplementary material/data provided for systematic reviews/meta-analyses
 
 Some systematic reviews or meta-analyses make data available that was gathered during the screening and/or data charting process. From this data, information can be extracted about the exclusion status of a specific paper. Clear information must be given about the reason of exclusion for it to be counted, e.g., through a variable specifying the reason for exclusion within the dataset.
-
-## References
-
-Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. https://doi.org/10.1136/bmj.n71

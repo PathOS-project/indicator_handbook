@@ -18,15 +18,14 @@ affiliations:
   name: Graz University of Technology
   city: Graz
   country: Austria
+bibliography: references.bib
 ---
 
 # Level of replication {#level-of-replication .unnumbered}
 
-
-::: {}
+<div>
 
 ## History
-
 
 | Version | Revision date | Revision    | Author                      |
 |---------|---------------|-------------|-----------------------------|
@@ -34,13 +33,13 @@ affiliations:
 | 1.1     | 2023-07-20    | Revisions   | Thomas Klebel               |
 | 1.0     | 2023-04-26    | First draft | Eva Kormann                 |
 
-:::
+</div>
 
 ## Description
 
-Replication is often defined as the process of repeating a study with the same methodology: generating new data that can then be analysed similarly to the original study. A study is considered successfully replicated when the replication yields the same results as the original. The term replicability is closely related to the term reproducibility and sometimes used interchangeably. However, terms can be differentiated by referring to *reproduction* when repeating the analysis with the original study data and referring to *replication* when repeating the entire study creating new data to analyse (Goodman et al., 2016).
+Replication is often defined as the process of repeating a study with the same methodology: generating new data that can then be analysed similarly to the original study. A study is considered successfully replicated when the replication yields the same results as the original. The term replicability is closely related to the term reproducibility and sometimes used interchangeably. However, terms can be differentiated by referring to *reproduction* when repeating the analysis with the original study data and referring to *replication* when repeating the entire study creating new data to analyse [@goodman2016].
 
-A certain number of replication attempts is expected to fail due to the chance of false positives / false negatives in the original or replication studies (Marino, 2018). However, higher proportions of failed replication attempts might, for instance, be signs of insufficient reporting, biases (cognitive or related to the publication process, i.e., publication bias) or methodological issues (such as low statistical power), and therefore challenge the validity and credibility of results. Low levels of replication indicate flaws in research practices and potential waste of research effort (Munafò et al., 2017).
+A certain number of replication attempts is expected to fail due to the chance of false positives / false negatives in the original or replication studies [@marino2018]. However, higher proportions of failed replication attempts might, for instance, be signs of insufficient reporting, biases (cognitive or related to the publication process, i.e., publication bias) or methodological issues (such as low statistical power), and therefore challenge the validity and credibility of results. Low levels of replication indicate flaws in research practices and potential waste of research effort [@munafò2017].
 
 The level of successful replication represents a direct indicator for reproducibility. It can also serve as an indicator for research quality in a broader sense, since issues related to reporting or methods increase the risk for failed replication. The extent to which research findings are replicable can be examined over time and in relation to the employed research practices.
 
@@ -52,11 +51,11 @@ The level of replication can be measured by counting the number or calculating t
 
 #### Measurement.
 
-Levels of replication can directly be examined by analysing the proportion of successful replication attempts. Therefore, the number of []{#X0080cf10658afc5fc59473edc76ab648a17aac1}replication attempts and their success/failure need to be measured. Then, the percentage can be calculated as the proportion of successful replications within all replication attempts. Difficulties, however, lie in the definition of what constitutes a successful replication. A common argument in the literature on replication and reproducibility is that exact replications are not possible, since the exact setting, context, sample, etc. usually cannot be recreated fully (Nosek et al., 2022; Schmidt, 2009). A study might be seen as a replication "when the differences to the original study are believed to be irrelevant for obtaining the evidence about the same finding" (Nosek et al., 2022), but this cannot easily be determined and appears quite subjective.
+Levels of replication can directly be examined by analysing the proportion of successful replication attempts. Therefore, the number of replication attempts and their success/failure need to be measured. Then, the percentage can be calculated as the proportion of successful replications within all replication attempts. Difficulties, however, lie in the definition of what constitutes a successful replication. A common argument in the literature on replication and reproducibility is that exact replications are not possible, since the exact setting, context, sample, etc. usually cannot be recreated fully [@nosek2022]; [@schmidt2009]. A study might be seen as a replication "when the differences to the original study are believed to be irrelevant for obtaining the evidence about the same finding" [@nosek2022], but this cannot easily be determined and appears quite subjective.
 
-To calculate the number or percentage of successful replications, a dichotomous indicator is needed for success of replication (Nosek et al., 2022). Multiple ways of indicating success of replication are in use (see Nosek et al., 2022):
+To calculate the number or percentage of successful replications, a dichotomous indicator is needed for success of replication [@nosek2022]. Multiple ways of indicating success of replication are in use [@nosek2022]:
 
--   The null hypothesis is rejected in the same direction (*p* &lt; α).
+-   The null hypothesis is rejected in the same direction (*p* \< α).
 -   An estimate is within a confidence or prediction interval.
 -   The detected effect size is consistent with the original study.
 -   The findings are similar when assessed subjectively.
@@ -74,11 +73,11 @@ There is no single data source for this metric. Data needs to be extracted from 
 
 ###### Replication projects/studies
 
-Many studies or projects on the topic of replicability pursue the goal of conducting a multitude of replication attempts following the same process or using the same measures of success to determine the proportion of replicable findings. Some of these studies and projects are concentrated on specific fields of research, e.g., Open Science Collaboration (2015) and SCORE Project (including subprojects like the [repliCATS Project](https://replicats.research.unimelb.edu.au/)) for social-behavioural science. The "Many Labs" studies also had their initial focus on psychology but have since spread into other disciplines (Klein et al., 2014; Stroebe, 2019). Approaches to investigate replicability have reached a multitude of disciplines, e.g., the field of [humanities](https://www.cos.io/blog/exploring-the-strengths-and-limitations-of-replication-in-the-humanities).
+Many studies or projects on the topic of replicability pursue the goal of conducting a multitude of replication attempts following the same process or using the same measures of success to determine the proportion of replicable findings. Some of these studies and projects are concentrated on specific fields of research, e.g., [@estimati2015] and SCORE Project (including subprojects like the [repliCATS Project](https://replicats.research.unimelb.edu.au/)) for social-behavioural science. The "Many Labs" studies also had their initial focus on psychology but have since spread into other disciplines [@klein2014]; [@stroebe2019]. Approaches to investigate replicability have reached a multitude of disciplines, e.g., the field of [humanities](https://www.cos.io/blog/exploring-the-strengths-and-limitations-of-replication-in-the-humanities).
 
 ###### Scoping review papers
 
-Since multiple reperformed studies are needed to determine the percentage of successful replications, standalone replication attempts provide only limited information. Scoping reviews []{#X5ce71d3659ae6f057cb976e25be8a73d322fc6f}are one way to synthesize singular replication attempts to gain an overview and to estimate the percentage of successful replications more precisely. However, singular replication studies synthesized within a review might be inconsistent in their procedures and employ different measures of success, complicating synthesis or comparison.
+Since multiple reperformed studies are needed to determine the percentage of successful replications, standalone replication attempts provide only limited information. Scoping reviews are one way to synthesize singular replication attempts to gain an overview and to estimate the percentage of successful replications more precisely. However, singular replication studies synthesized within a review might be inconsistent in their procedures and employ different measures of success, complicating synthesis or comparison.
 
 ### Number (%) of studies reported to successfully replicate
 
@@ -96,7 +95,7 @@ There is no single data source for this metric. Data needs to be extracted from 
 
 ###### Surveys
 
-Experiences of researchers with replications and the level of replication they have encountered in their work can be investigated through surveys. There, questions can be included about previous replication attempts and their success and about general estimates of replicability. While using the term "reproducibility" instead of "replicability", the Nature survey by Baker (2016) employed this method using similar questions.
+Experiences of researchers with replications and the level of replication they have encountered in their work can be investigated through surveys. There, questions can be included about previous replication attempts and their success and about general estimates of replicability. While using the term "reproducibility" instead of "replicability", the Nature survey by [@baker2016] employed this method using similar questions.
 
 ### Number (%) of studies predicted to successfully replicate
 
@@ -104,7 +103,7 @@ Since replication attempts require substantial resources, they cannot be conduct
 
 #### Measurement.
 
-Levels of replication can be measured prospectively. This is done through expert predictions of the replicability of studies (mostly captured as the predicted probability of successful replication), without directly attempting a replication. A percentage or number of studies predicted to successfully replicate can be calculated after dichotomizing this probability (e.g., interpreting probability &gt; .5 as prediction of success). While these predictions might be less accurate compared to other measures of replicability, studies would not actually have to be reperformed when only employing this measure.
+Levels of replication can be measured prospectively. This is done through expert predictions of the replicability of studies (mostly captured as the predicted probability of successful replication), without directly attempting a replication. A percentage or number of studies predicted to successfully replicate can be calculated after dichotomizing this probability (e.g., interpreting probability \> .5 as prediction of success). While these predictions might be less accurate compared to other measures of replicability, studies would not actually have to be reperformed when only employing this measure.
 
 ##### Datasources
 
@@ -116,34 +115,8 @@ The following methodologies, namely surveys and prediction markets, are so far m
 
 ###### Surveys
 
-Experts (mainly researchers) can be asked in surveys about the probability they estimate for specific studies to be successfully reperformed based on information they are given about these studies (e.g., hypothesis, effect size, p-value, link to the original paper, etc.). Surveys have been validated with subsequent replication attempts and compared to prediction markets (see next section). While some studies see many prediction errors and low accuracy when predicting whether the null hypothesis will be rejected (*p* &lt; α) in the same direction (Dreber et al., 2015; Forsell et al., 2019), other findings show better general accuracy of these predictions (Gordon et al., 2021) and better performance predicting relative effect sizes compared to prediction markets (Forsell et al., 2019).
+Experts (mainly researchers) can be asked in surveys about the probability they estimate for specific studies to be successfully reperformed based on information they are given about these studies (e.g., hypothesis, effect size, p-value, link to the original paper, etc.). Surveys have been validated with subsequent replication attempts and compared to prediction markets (see next section). While some studies see many prediction errors and low accuracy when predicting whether the null hypothesis will be rejected (*p* \< α) in the same direction [@dreber2015]; [@forsell2019], other findings show better general accuracy of these predictions [@gordon2021] and better performance predicting relative effect sizes compared to prediction markets [@forsell2019].
 
 ###### Prediction markets
 
-Prediction markets are used for trading bets on a certain outcome. The final market prices can then be taken as an indicator for the probability of an event. In the context of replicability, experts (mainly researchers) are given a budget to bet on studies they think will successfully replicate. The final market price is then a proxy for the probability of successful replication (reaching a previously defined replication criterion) that is estimated by the entire market. Prediction markets have been shown to reach accuracies higher than 70% for their predictions and to outperform surveys (Dreber et al., 2015; Forsell et al., 2019; Gordon et al., 2021). However, prediction markets do not yet appear to be established as a standalone measure for levels of replication.
-
-## References
-
-Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. *Nature*, *533*(7604), Article 7604. https://doi.org/10.1038/533452a
-
-Dreber, A., Pfeiffer, T., Almenberg, J., Isaksson, S., Wilson, B., Chen, Y., Nosek, B. A., & Johannesson, M. (2015). Using prediction markets to estimate the reproducibility of scientific research. *Proceedings of the National Academy of Sciences*, *112*(50), 15343–15347. https://doi.org/10.1073/pnas.1516179112
-
-Forsell, E., Viganola, D., Pfeiffer, T., Almenberg, J., Wilson, B., Chen, Y., Nosek, B. A., Johannesson, M., & Dreber, A. (2019). Predicting replication outcomes in the Many Labs 2 study. *Journal of Economic Psychology*, *75*, 102117. https://doi.org/10.1016/j.joep.2018.10.009
-
-Goodman, S. N., Fanelli, D., & Ioannidis, J. P. A. (2016). What does research reproducibility mean? *Science Translational Medicine*, *8*(341). https://doi.org/10.1126/scitranslmed.aaf5027
-
-Gordon, M., Viganola, D., Dreber, A., Johannesson, M., & Pfeiffer, T. (2021). Predicting replicability—Analysis of survey and prediction market data from large-scale forecasting projects. *PLOS ONE*, *16*(4), e0248780. https://doi.org/10.1371/journal.pone.0248780
-
-Klein, R. A., Ratliff, K. A., Vianello, M., Adams Jr., R. B., Bahník, Š., Bernstein, M. J., Bocian, K., Brandt, M. J., Brooks, B., Brumbaugh, C. C., Cemalcilar, Z., Chandler, J., Cheong, W., Davis, W. E., Devos, T., Eisner, M., Frankowska, N., Furrow, D., Galliani, E. M., … Nosek, B. A. (2014). Investigating variation in replicability: A "many labs" replication project. *Social Psychology*, *45*(3), 142. https://doi.org/10.1027/1864-9335/a000178
-
-Marino, M. J. (2018). How often should we expect to be wrong? Statistical power, P values, and the expected prevalence of false discoveries. *Biochemical Pharmacology*, *151*, 226–233. https://doi.org/10.1016/j.bcp.2017.12.011
-
-Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., & Ioannidis, J. P. A. (2017). A manifesto for reproducible science. *Nature Human Behaviour*, *1*(1), 0021. https://doi.org/10.1038/s41562-016-0021
-
-Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A., Corker, K. S., Dreber, A., Fidler, F., Hilgard, J., Kline Struhl, M., Nuijten, M. B., Rohrer, J. M., Romero, F., Scheel, A. M., Scherer, L. D., Schönbrodt, F. D., & Vazire, S. (2022). Replicability, Robustness, and Reproducibility in Psychological Science. *Annual Review of Psychology*, *73*(1), 719–748. https://doi.org/10.1146/annurev-psych-020821-114157
-
-Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science*, *349*(6251), aac4716. https://doi.org/10.1126/science.aac4716
-
-Schmidt, S. (2009). Shall we Really do it Again? The Powerful Concept of Replication is Neglected in the Social Sciences. *Review of General Psychology*, *13*(2), 90–100. https://doi.org/10.1037/a0015108
-
-Stroebe, W. (2019). What Can We Learn from Many Labs Replications? *Basic and Applied Social Psychology*, *41*(2), 91–103. https://doi.org/10.1080/01973533.2019.1577736
+Prediction markets are used for trading bets on a certain outcome. The final market prices can then be taken as an indicator for the probability of an event. In the context of replicability, experts (mainly researchers) are given a budget to bet on studies they think will successfully replicate. The final market price is then a proxy for the probability of successful replication (reaching a previously defined replication criterion) that is estimated by the entire market. Prediction markets have been shown to reach accuracies higher than 70% for their predictions and to outperform surveys [@dreber2015]; [@forsell2019]; [@gordon2021]. However, prediction markets do not yet appear to be established as a standalone measure for levels of replication.

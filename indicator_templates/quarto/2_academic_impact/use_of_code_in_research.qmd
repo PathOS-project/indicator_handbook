@@ -11,11 +11,12 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+bibliography: references.bib
 ---
 
 # Use of code in research {#use-of-code-in-research .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
@@ -23,19 +24,19 @@ affiliations:
 |---------|---------------|-------------|------------|
 | 1.0     | 2023-11-24    | First draft | V.A. Traag |
 
-:::
+</div>
 
 ## Description
 
 Many, if not most, scientific analyses involve the use of code or software in one way or another. Code and software can be used for data handling, statistical estimation, visualisation, or various other tasks. Both open-source and closed-source software may be used for research. For instance, MATLAB and Mathematica are two commercial software packages that may be used in research, whereas Octave and SageMath are open-source alternatives. We here try to provide metrics that can serve as an indicator of the use of code in research, where “code” refers to any type of software (e.g. computer library, tool, package) or any set of computer instructions (e.g. like an R or Python script) used in the research cycle.
 
-One challenge is that we are typically interested in the use of “research software”, not in all software per se. Defining what this encompasses is not straightforward. Gruenpeter et al. (2021) defines it as code “that \[was\] created during the research process or for a research purpose. Software components (e.g., operating systems, libraries, dependencies, packages, scripts, etc.) that are used for research but were not created during or with a clear research intent should be considered software in research and not Research Software” (Gruenpeter et al., 2021, p. 16) As this clarifies, this might also involve the creation of new software that is released for other researchers to work with., However, this is not considered in this indicator, but in the indicator on open code. Almost any code depends on other code to work properly. Some of these dependencies might constitute research software themselves, but this is not necessarily the case. Instead of trying to classify software as “research software” or not, we will take a more agnostic approach in the description of this indicator, and simply try to describe approaches to uncover the use of some code in research, regardless of whether it constitutes “research software” or not.
+One challenge is that we are typically interested in the use of “research software”, not in all software per se. Defining what this encompasses is not straightforward. [@gruenpeter2021] defines it as code “that \[was\] created during the research process or for a research purpose. Software components (e.g., operating systems, libraries, dependencies, packages, scripts, etc.) that are used for research but were not created during or with a clear research intent should be considered software in research and not Research Software” (Gruenpeter et al., 2021, p. 16) As this clarifies, this might also involve the creation of new software that is released for other researchers to work with., However, this is not considered in this indicator, but in the indicator on open code. Almost any code depends on other code to work properly. Some of these dependencies might constitute research software themselves, but this is not necessarily the case. Instead of trying to classify software as “research software” or not, we will take a more agnostic approach in the description of this indicator, and simply try to describe approaches to uncover the use of some code in research, regardless of whether it constitutes “research software” or not.
 
 This indicator can be useful to provide a more comprehensive view of the impact of the contributions by researchers. Some researchers might be more involved in publishing, whereas others might be more involved in developing and maintaining research software (and possibly a myriad other activities).
 
 ## Metrics
 
-Most research software is not properly indexed. There are initiatives to have research software properly indexed and identified, such as the [Research Software Directory,](https://research-software-directory.org/) but these are far from comprehensive []{#_Int_TYE1NVdp}at the moment. Many repositories support uploading research software. For instance, Zenodo currently holds about 116,000 records of research software. However, there are also reports of the absence of support for including research software in repositories (Carlin et al., 2023).
+Most research software is not properly indexed. There are initiatives to have research software properly indexed and identified, such as the [Research Software Directory,](https://research-software-directory.org/) but these are far from comprehensive at the moment. Many repositories support uploading research software. For instance, Zenodo currently holds about 116,000 records of research software. However, there are also reports of the absence of support for including research software in repositories [@carlin2023].
 
 ### Number of times code is cited/mentioned in scientific publications
 
@@ -59,11 +60,11 @@ Not all bibliometric databases actively track research software, and therefore n
 
 ###### Extract software mentions from full text
 
-Especially because of the limited explicit references to software, it is important to also explore other possibilities to track the use of code in research. One possibility is to try to extract the mentions of a software package or tool from the full-text. This is done by Istrate et al. (2022) who have trained a machine learning model to extract references to software from full-text. They rely on the manual annotation of software mentions in PDFs by Du et al. (2021). The resulting dataset of software mentions is available from <https://doi.org/10.5061/dryad.6wwpzgn2c>.
+Especially because of the limited explicit references to software, it is important to also explore other possibilities to track the use of code in research. One possibility is to try to extract the mentions of a software package or tool from the full-text. This is done by [@istrate] who have trained a machine learning model to extract references to software from full-text. They rely on the manual annotation of software mentions in PDFs by [@du2021]. The resulting dataset of software mentions is available from <https://doi.org/10.5061/dryad.6wwpzgn2c>.
 
 Although the dataset of software mentions might provide a useful resource, it is a static dataset, and at the moment, there do not yet seem to be initiative to continuously monitor and scan the full-text of publications. Additionally, its coverage is limited to mostly biomedical literature. For that reason, it might be necessary to run the proposed machine learning algorithm itself. The code is available from <https://github.com/chanzuckerberg/software-mention-extraction>.
 
-### Repository statistics (\# Forks/Clones/Stars/Downloads/Views)
+### Repository statistics (# Forks/Clones/Stars/Downloads/Views)
 
 Much (open-source) software is shared in version control repositories in online platforms. Various types of usage statistics can be derived from these online platforms, that somehow relate to the general level of interest in the software. These metrics vary from how many other users have copies of those repositories (often called forks), to how many people downloaded a particular release from this platform.
 
@@ -89,7 +90,7 @@ Versions of repositories on GitHub can be made available as a release. In additi
 
 The implementation of the number of downloads of releases is slightly more work, since this depends on the exact release and files (called assets) that are made available. For a particular `repo` from a particular `owner`, one can get the necessary information from <https://api.github.com/repos/owner/repo/releases>. For instance, for the repository `igraph` from the organisation `igraph`, one can get the information from the URL <https://api.github.com/repos/igraph/igraph/releases>. One needs to consider the field `download_count` for each asset listed in `assets` for each release. In Python code, this translates to
 
-``` {.python}
+``` python
 import requests
 repo = 'igraph'
 owner = 'igraph'
@@ -129,22 +130,8 @@ The code for gathering all the (reverse) dependencies from PyPI can be found at 
 
 Most R packages are shared on the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). CRAN lists reverse dependencies on the webpage for any package, which allows for easy inspection for any package. For obtaining more extensive statistics, it is recommended to use automated tools. In this case, the [`tools:: dependsOnPkgs`](https://stat.ethz.ch/R-manual/R-devel/library/tools/html/dependsOnPkgs.html) function is particularly useful, for example
 
-``` {.python}
+``` python
 tools::dependsOnPkgs("lattice")
 ```
 
 gives an explicit list of all packages that depend on the package lattice. In addition, the argument `recursive` can be set to `TRUE` to obtain the transitive dependencies.
-
-## References
-
-Barker, M., Chue Hong, N. P., Katz, D. S., Lamprecht, A.-L., Martinez-Ortiz, C., Psomopoulos, F., Harrow, J., Castro, L. J., Gruenpeter, M., Martinez, P. A., & Honeyman, T. (2022). Introducing the FAIR Principles for research software. Scientific Data, 9(1), Article 1. https://doi.org/10.1038/s41597-022-01710-x
-
-Carlin, D., Rainer, A., & Wilson, D. (2023). Where is all the research software? An analysis of software in UK academic repositories. PeerJ Computer Science, 9, e1546. https://doi.org/10.7717/peerj-cs.1546
-
-Du, C., Cohoon, J., Lopez, P., & Howison, J. (2021). Softcite dataset: A dataset of software mentions in biomedical and economic research publications. Journal of the Association for Information Science and Technology, 72(7), 870–884. https://doi.org/10.1002/asi.24454
-
-Gruenpeter, M., Katz, D. S., Lamprecht, A.-L., Honeyman, T., Garijo, D., Struck, A., Niehues, A., Martinez, P. A., Castro, L. J., Rabemanantsoa, T., Chue Hong, N. P., Martinez-Ortiz, C., Sesink, L., Liffers, M., Fouilloux, A. C., Erdmann, C., Peroni, S., Martinez Lavanchy, P., Todorov, I., & Sinha, M. (2021). Defining Research Software: A controversial discussion (Version 1). Zenodo. https://doi.org/10.5281/ZENODO.5504016
-
-Istrate, A.-M., Li, D., Taraborelli, D., Torkar, M., Veytsman, B., & Williams, I. (2022). A large dataset of software mentions in the biomedical literature (arXiv:2209.00693). arXiv. https://doi.org/10.48550/arXiv.2209.00693
-
-PreprintMatch: A tool for preprint to publication detection shows global inequities in scientific publication \| PLOS ONE. (n.d.). Retrieved November 20, 2023, from https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0281659

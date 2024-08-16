@@ -10,14 +10,14 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+bibliography: references.bib
 ---
 
 # Reuse of code in research {#reuse-of-code-in-research .unnumbered}
 
-::: {}
+<div>
 
 ## History
-
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
@@ -25,7 +25,7 @@ affiliations:
 | 1.1     | 2023-07-21    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First draft | Petros Stavropoulos |
 
-:::
+</div>
 
 ## Description
 
@@ -57,7 +57,7 @@ However, it's important to note that OpenAIRE Explore does not provide comprehen
 
 ###### CZI Software Mentions
 
-The CZI Software Mentions Dataset (Istrate et al., 2022) is a resource released by the Chan Zuckerberg Initiative (CZI) that provides software mentions extracted from a large corpus of scientific literature. Specifically, the dataset provides access to 67 million software mentions derived from 3.8 million open-access papers in the biomedical literature from PubMed Central and 16 million full-text papers made available to CZI by various publishers.
+The CZI Software Mentions Dataset [@istrate] is a resource released by the Chan Zuckerberg Initiative (CZI) that provides software mentions extracted from a large corpus of scientific literature. Specifically, the dataset provides access to 67 million software mentions derived from 3.8 million open-access papers in the biomedical literature from PubMed Central and 16 million full-text papers made available to CZI by various publishers.
 
 A key limitation of this dataset is its focus on biomedical science, meaning it may not provide a comprehensive view of software usage in other scientific disciplines.
 
@@ -67,7 +67,7 @@ To calculate the proposed metric, one could use the CZI Software Mentions Datase
 
 ###### SciNoBo Toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
+The SciNoBo toolkit [@gialitsis2022b]; [@kotitsas2023b] has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
 
 To measure the proposed metric, the tool can be used to identify the reused code/software in the publication texts.
 
@@ -107,7 +107,7 @@ However, it's important to note that OpenAIRE Explore does not provide comprehen
 
 ###### CZI Software Mentions
 
-The CZI Software Mentions Dataset (Istrate et al., 2022) is a resource released by the Chan Zuckerberg Initiative (CZI) that provides software mentions extracted from a large corpus of scientific literature. Specifically, the dataset provides access to 67 million software mentions derived from 3.8 million open-access papers in the biomedical literature from PubMed Central and 16 million full-text papers made available to CZI by various publishers.
+The CZI Software Mentions Dataset [@istrate] is a resource released by the Chan Zuckerberg Initiative (CZI) that provides software mentions extracted from a large corpus of scientific literature. Specifically, the dataset provides access to 67 million software mentions derived from 3.8 million open-access papers in the biomedical literature from PubMed Central and 16 million full-text papers made available to CZI by various publishers.
 
 A key limitation of this dataset is its focus on biomedical science, meaning it may not provide a comprehensive view of software usage in other scientific disciplines.
 
@@ -117,7 +117,7 @@ To calculate the proposed metric, one could use the CZI Software Mentions Datase
 
 ###### SciNoBo Toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
+The SciNoBo toolkit [@gialitsis2022b]; [@kotitsas2023b] has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
 
 To measure the proposed metric, the tool can be used to identify the reused code/software in the publication texts.
 
@@ -130,11 +130,3 @@ One limitation of this methodology is that it may not capture all instances of c
 To measure the proposed metric, DataSeer.ai can scan the body of text in research articles and identify instances of code/software reuse.
 
 However, it is important to note that DataSeer.ai's ability to determine actual code/software reuse may depend on the explicitness of the authors' writing about their code/software usage, thus not capturing all instances of code/software reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a code or software has been reused, and may require manual validation.
-
-## References
-
-Istrate, A.-M., Li, D., Taraborelli, D., Torkar, M., Veytsman, B., & Williams, I. (2022). *A large dataset of software mentions in the biomedical literature* (arXiv:2209.00693). arXiv. https://doi.org/10.48550/arXiv.2209.00693
-
-Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. Companion Proceedings of the Web Conference 2022, 800–809. <https://doi.org/10.1145/3487553.3524677>
-
-Kotitsas, S., Pappas, D., Manola, N., & Papageorgiou, H. (2023). SCINOBO: A novel system classifying scholarly communication in a dynamically constructed hierarchical Field-of-Science taxonomy. Frontiers in Research Metrics and Analytics, 8. https://www.frontiersin.org/articles/10.3389/frma.2023.1149834

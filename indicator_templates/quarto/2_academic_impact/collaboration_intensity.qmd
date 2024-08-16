@@ -11,11 +11,12 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+bibliography: references.bib
 ---
 
 # Collaboration intensity {#collaboration-intensity .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
@@ -23,7 +24,7 @@ affiliations:
 |---------|---------------|-------------|------------|
 | 1.0     | 2023-11-20    | First draft | V.A. Traag |
 
-:::
+</div>
 
 ## Description
 
@@ -33,9 +34,9 @@ Besides co-authorships there are multiple other forms of collaboration that are 
 
 Hence, not all collaborations necessarily translate into co-authorship. We might therefore expect the metric to be relatively precise (i.e. a co-authorship most likely signals a collaboration), but not necessarily very sensitive (i.e. not all collaborations might be visible through co-authorships). The sensitivity might be field-dependent: some fields have a rather stringent co-authorship culture, where only very substantial involvement in the research or the writing materialise in co-authorships, whereas other fields have a more lenient co-authorship culture, where smaller contributions might already translate into co-authorship. The precision is expected to be less field-dependent: authorship most likely signals collaboration in all fields.
 
-Co-authorship can be measured in different ways and at different levels. It can be measured from the perspective of a set of publications, seeing how collaborative it is, or it can be measured from the perspective of an individual co-author. The first perspective simply leads to overall measures of collaboration, but the latter leads to measures of collaboration between various co-authors, bringing in a network perspective (Perianes-Rodriguez et al., 2016).
+Co-authorship can be measured in different ways and at different levels. It can be measured from the perspective of a set of publications, seeing how collaborative it is, or it can be measured from the perspective of an individual co-author. The first perspective simply leads to overall measures of collaboration, but the latter leads to measures of collaboration between various co-authors, bringing in a network perspective [@perianes-rodriguez2016].
 
-The most relevant levels of co-authorship are the individual author level, the institutional level and the country level. Each of these levels may be measured in various ways. The simplest approach to collaboration simply assumes that each co-author has contributed equally to the work, resulting in so-called fractional publication counts (Waltman & van Eck, 2015). For instance, if a publication has three authors: each has a fraction of 1/3. If two of the authors are affiliated with a single institution, say institution A, that institution will have a weight of 2/3. If, in addition, the third author would have two affiliations, one with the aforementioned institution A, and one with institution B, we could count that author as belonging to institution A for ½, bringing the total to 5/6. Other forms of credit allocation are also possible (Hagen, 2008).
+The most relevant levels of co-authorship are the individual author level, the institutional level and the country level. Each of these levels may be measured in various ways. The simplest approach to collaboration simply assumes that each co-author has contributed equally to the work, resulting in so-called fractional publication counts [@waltman2015]. For instance, if a publication has three authors: each has a fraction of 1/3. If two of the authors are affiliated with a single institution, say institution A, that institution will have a weight of 2/3. If, in addition, the third author would have two affiliations, one with the aforementioned institution A, and one with institution B, we could count that author as belonging to institution A for ½, bringing the total to 5/6. Other forms of credit allocation are also possible [@hagen2008].
 
 We will detail three metrics of collaboration: one focusing on the number of authors, institutes or countries involved in collaboration, one on the number of joint papers, and another focusing on the % of papers that show some form of collaboration.
 
@@ -93,7 +94,7 @@ If we represent co-authorship at the institution level, this measures the percen
 
 It is possible to retrieve the co-authors for a particular publication in OpenAlex, for example by using a third-party package for Python called `pyalex`.
 
-``` {.python}
+``` python
 import pyalex as alx
 alx.config.email = "mail@example.com"
 w = alx.Works()["W3128349626"]
@@ -127,16 +128,4 @@ The database is closed access, and we therefore do not provide more details abou
 
 ## Known correlates
 
-Collaboration is associated with citations (Larivière et al., 2015), but this is potentially driven by network effects (Schulz et al., 2018) and need not be a causal effect.
-
-## References
-
-Hagen, N. T. (2008). Harmonic allocation of authorship credit: Source-level correction of bibliometric bias assures accurate publication and citation analysis. PLoS One, 3(12), 1–7. https://doi.org/10.1371/journal.pone.0004021
-
-Larivière, V., Gingras, Y., Sugimoto, C. R., & Tsou, A. (2015). Team size matters: Collaboration and scientific impact since 1900: On the Relationship Between Collaboration and Scientific Impact Since 1900. J. Assoc. Inf. Sci. Technol., 66(7), 1323–1332. https://doi.org/10.1002/asi.23266
-
-Perianes-Rodriguez, A., Waltman, L., & van Eck, N. J. (2016). Constructing bibliometric networks: A comparison between full and fractional counting. J. Informetr., 10(4), 1178–1195. https://doi.org/10.1016/j.joi.2016.10.006
-
-Schulz, C., Uzzi, B., Helbing, D., & Woolley-Meza, O. (2018). A network-based citation indicator of scientific performance (arXiv:1807.04712). arXiv. http://arxiv.org/abs/1807.04712
-
-Waltman, L., & van Eck, N. J. (2015). Field-normalized citation impact indicators and the choice of an appropriate counting method. J. Informetr., 9(4), 872–894. https://doi.org/10.1016/j.joi.2015.08.001
+Collaboration is associated with citations [@larivière2015], but this is potentially driven by network effects [@schulz] and need not be a causal effect.
