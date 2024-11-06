@@ -189,7 +189,7 @@ To assess how ownership is shared among all the actors who participated to a cit
 
 ### Citizen science credit
 
-Crediting the people who have contributed to the production of science can be as important as granting them the actual ownership of the data or of the results of the research. Sometimes, crediting (in the form of signing or otherwise authoring the projects results of the project) is actually more important than ownership as the primary source of recognition and can provide a stronger form of participants motivation (cf. Land-Zandstra et at, 2021 and Levontin et al., 2022)
+Crediting the people who have contributed to the production of science can be as important as granting them the actual ownership of the data or of the results of the research. Sometimes, crediting (in the form of signing or otherwise authoring the projects results of the project) is actually more important than ownership as the primary source of recognition and can provide a stronger form of participants motivation  (cf. Land-Zandstra et at, 2021 and Levontin et al., 2022)
 
 Crediting can be assessed by:
 

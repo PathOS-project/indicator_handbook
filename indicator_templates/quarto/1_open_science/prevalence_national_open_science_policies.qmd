@@ -98,7 +98,7 @@ As part of the observatory, an EOSC Monitoring Framework has been developed whic
 
 ![[@oneill2022]. Monitoring Framework for National Contributions to EOSC (Version V1). Zenodo. <https://doi.org/10.5281/zenodo.7410762> (Licensed using [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode))](figures/EOSC_monitoring_framework.png)
 
-In the current framework, this matrix of 8 categories crossed with policies and practices areas results in 96 indicators, 48 each for policies and practices. Detailed items for each indicator are included in the "Survey on National Contributions to EOSC 2022" (O'Neill et al., 2023). Practically, the large majority of items are measured through binary yes-no questions. In the case of Open Access to publications, the following items are included in the survey:
+In the current framework, this matrix of 8 categories crossed with policies and practices areas results in 96 indicators, 48 each for policies and practices. Detailed items for each indicator are included in the "Survey on National Contributions to EOSC 2022" [@oneill2023]. Practically, the large majority of items are measured through binary yes-no questions. In the case of Open Access to publications, the following items are included in the survey:
 
 -   Existence of national policy on Open Access to publications: yes / no
     -   Is this policy mandatory: yes / no
@@ -119,19 +119,13 @@ A specificity of the EOSC Observatory is that the data collected through the sur
 
 While originally started with the EOSC-Future project (2021-2023), the EOSC Observatory has secured follow-up funding through the Horizon Europe work programme for the next years. This makes it a stable source of information about the evolution of Open Science policies in the European Union and associated countries.
 
-A detailed list of items asked for each policy category is included in the questionnaire. The latest version is available on Zenodo:
+A detailed list of items asked for each policy category is included in the questionnaire. The latest version is available on Zenodo [@oneill2023].
 
--   Gareth O'Neill, Volker Beckmann, Sofia Abrahamsson, Thomas Neidenmark, & Stephan Siemen. (2023). Survey on National Contributions to EOSC 2022 (Version V1). Zenodo. <https://doi.org/10.5281/zenodo.7550798>
-
-In addition, data is made available openly. The latest version is shared in .tsv format and therefore easily reusable. This availability also means that data can be re-coded with relatively little effort to adapt for specific research questions. Moreover, the data contains links to relevant policy sources, which reduces the effort to collect this information by researchers re-using the data.
-
--   Gareth O'Neill, & Stefania Martziou. (2022). Data of Survey on National Contributions to EOSC 2021 (Version V1) \[Data set\]. Zenodo. <https://doi.org/10.5281/zenodo.7431678>
+In addition, data is made available openly. The latest version is shared in .tsv format and therefore easily reusable. This availability also means that data can be re-coded with relatively little effort to adapt for specific research questions. Moreover, the data contains links to relevant policy sources, which reduces the effort to collect this information by researchers re-using the data [@oneill2022_data].
 
 ###### SPARC Europe
 
-SPARC Europe has commissioned several studies on national Open Science policies in Europe. The study is regularly updated and is now available in its 7^th^ version.
-
--   Sveinsdottir, Thordis, Davidson, Joy, & Proudman, Vanessa. (2021). An Analysis of Open Science Policies in Europe, v7 (Version 7). Zenodo. <https://doi.org/10.5281/zenodo.4725817>
+SPARC Europe has commissioned several studies on national Open Science policies in Europe. The study is regularly updated and is now available in its 7^th^ version [@sveinsdottir2021].
 
 The data includes information on variables such as
 

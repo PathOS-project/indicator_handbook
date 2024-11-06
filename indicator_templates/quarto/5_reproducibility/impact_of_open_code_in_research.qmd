@@ -63,7 +63,7 @@ One limitation of Scopus is that the calculation of NCI from Scopus only conside
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit [@gialitsis2022]; [@kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
 Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the code/software has been introduced by the authors of the publication.
 
@@ -97,7 +97,7 @@ One limitation of Scopus is that the calculation of NCI from Scopus only conside
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit [@gialitsis2022]; [@kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
 Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the code/software has been (re)used by the authors of the publication.
 

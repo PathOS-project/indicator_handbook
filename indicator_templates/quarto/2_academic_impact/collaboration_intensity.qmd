@@ -58,7 +58,7 @@ The average number of joint papers is a metric about the degree of collaboration
 
 #### Measurement.
 
-Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. From the perspective of a collaboration network, the strength of collaboration between a pair of co-authors is defined slightly differently (Perianes-Rodriguez et al., 2016). Let us focus on the collaboration between two co-authors $a$ and $b$. Let $S_{ab}$ be the set of publications on which $a$ and $b$ collaborated. They then have $n_{ab} = |S_{ab}|$ publications in common. However, perhaps $a$ and $b$ are only few of many co-authors on each of these publications, so that the actual collaboration between $a$ and $b$ is relatively less intense than the overall number of publications would suggest. Let us consider a paper $i$ that $a$ and $b$ collaborated on, which had $k_i$ collaborators in total. Then $a$ has collaborated with $k_i - 1$ collaborators, of which $b$ is one, and vice-versa, $b$ has also collaborated with $k_i – 1$ collaborators, of which $a$ is one. Hence, the fraction of collaboration of $a$ with $b$ is then $1/(k_i – 1)$. The total collaboration between $a$ and $b$ is then
+Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. From the perspective of a collaboration network, the strength of collaboration between a pair of co-authors is defined slightly differently [@perianes-rodriguez2016]. Let us focus on the collaboration between two co-authors $a$ and $b$. Let $S_{ab}$ be the set of publications on which $a$ and $b$ collaborated. They then have $n_{ab} = |S_{ab}|$ publications in common. However, perhaps $a$ and $b$ are only few of many co-authors on each of these publications, so that the actual collaboration between $a$ and $b$ is relatively less intense than the overall number of publications would suggest. Let us consider a paper $i$ that $a$ and $b$ collaborated on, which had $k_i$ collaborators in total. Then $a$ has collaborated with $k_i - 1$ collaborators, of which $b$ is one, and vice-versa, $b$ has also collaborated with $k_i – 1$ collaborators, of which $a$ is one. Hence, the fraction of collaboration of $a$ with $b$ is then $1/(k_i – 1)$. The total collaboration between $a$ and $b$ is then
 
 $$w_{ab} = \sum_{i \in S_{ab}} \frac{1}{k_i – 1}.$$
 
@@ -68,7 +68,7 @@ $$w_{ab} = \sum_{i \in S_{ab}} \frac{w_{ib}}{k_i – w_{ia}}.$$
 
 Note that we indeed uncover the previous equation when using $w_{ia} = 1/k_i$.
 
-For more details, see Perianes-Rodriguez et al. (2016).
+For more details, see [@perianes-rodriguez2016].
 
 ### Number/% of co-authored publications
 

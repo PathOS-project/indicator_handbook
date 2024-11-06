@@ -109,8 +109,8 @@ A data availability statement in a publication describes how the reader could ge
 
 ##### Existing methodology
 
-All PLOS journals require publications to include a data availability statement. Moreover, it is strongly recommended that procedures on how to access research data are described in the data availability statement and that the data is stored in a public repository. Other practices that comply with this recommendation are including a data file, data requests through an approving committee and providing contact information for a third party that owns the data (Federer et al., 2018). A detailed description of how to use PLOS data availability statements for quantitative research can be found in the [@colavizza2020] publication.
+All PLOS journals require publications to include a data availability statement. Moreover, it is strongly recommended that procedures on how to access research data are described in the data availability statement and that the data is stored in a public repository. Other practices that comply with this recommendation are including a data file, data requests through an approving committee and providing contact information for a third party that owns the data [@federer2018]. A detailed description of how to use PLOS data availability statements for quantitative research can be found in the [@colavizza2020] publication.
 
 ## Known correlates
 
-Some research suggests that openly sharing data is positively related to the citation rate of publications [@piwowar2007]; [@piwowar2013].
+Some research suggests that openly sharing data is positively related to the citation rate of publications [@piwowar2007;@piwowar2013].

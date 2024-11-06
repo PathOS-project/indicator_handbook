@@ -83,7 +83,7 @@ We can study the percentage of Open Access publications based on different selec
 
 ###### Unpaywall
 
-[Unpaywall](https://unpaywall.org/) is a database that contains information about online locations of scholarly publications and the Open Access status of these locations [@piwowar2018]. Unpaywall is organised on the basis of DOIs and is limited to Crossref DOIs. For each DOI, information about online locations and Open Access status is provided based on scraping journal websites and publication repositories. Sometimes, information from Unpaywall may be incorrect (Piwowar et al., 2018), so there is room for improvement.
+[Unpaywall](https://unpaywall.org/) is a database that contains information about online locations of scholarly publications and the Open Access status of these locations [@piwowar2018]. Unpaywall is organised on the basis of DOIs and is limited to Crossref DOIs. For each DOI, information about online locations and Open Access status is provided based on scraping journal websites and publication repositories. Sometimes, information from Unpaywall may be incorrect [@piwowar2018], so there is room for improvement.
 
 There are some particular limitations regarding Green Open Access. First, Unpaywall may not be able to track all publication repositories. Hence, it might be that some publications are in reality Green Open Access, but Unpaywall may have missed the repository from which it is available. Second, even if Unpaywall has located a repository from which the publication is available, it is difficult to ascertain whether it is the same version as the published version, or whether there are still some differences.
 

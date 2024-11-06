@@ -67,7 +67,7 @@ To calculate the proposed metric, one could use the CZI Software Mentions Datase
 
 ###### SciNoBo Toolkit
 
-The SciNoBo toolkit [@gialitsis2022b]; [@kotitsas2023b] has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
+The SciNoBo toolkit [@gialitsis2022b; @kotitsas2023b] has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
 
 To measure the proposed metric, the tool can be used to identify the reused code/software in the publication texts.
 
@@ -117,7 +117,7 @@ To calculate the proposed metric, one could use the CZI Software Mentions Datase
 
 ###### SciNoBo Toolkit
 
-The SciNoBo toolkit [@gialitsis2022b]; [@kotitsas2023b] has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
+The SciNoBo toolkit [@gialitsis2022b; @kotitsas2023b] has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
 
 To measure the proposed metric, the tool can be used to identify the reused code/software in the publication texts.
 

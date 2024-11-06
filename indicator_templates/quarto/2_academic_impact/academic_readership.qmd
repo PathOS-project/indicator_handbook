@@ -11,6 +11,7 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
 bibliography: references.bib
 ---
 
@@ -42,11 +43,7 @@ The count of “readers” can be used in a similar fashion as the count of cita
 
 The simplest indicator, at any level of analysis (publication, individual, journal, institution, etc.) is the count (and accumulation) of all the readers of a given set of publications. From this indicator, other derived indicators like mean citation scores and others can be extracted.
 
-For a more detailed explanation of how to calculate indicators based on Mendeley readership (TRS and derived) see:
-
-Zahedi, Z., Costas, R., Wouters, P. (2017). Mendeley readership as a filtering tool to identify highly cited publications. Journal of the Association for Information Science and Technology, 68, 10, 2511-2521. <https://doi.org/10.1002/asi.23883>
-
-Zahedi, Z., & Costas, R. (2020). Do Online Readerships Offer Useful Assessment Tools? Discussion Around the Practical Applications of Mendeley Readership for Scholarly Assessment. Scholarly Assessment Reports, 2(1): 14. DOI: <https://doi.org/10.29024/sar.20>
+For a more detailed explanation of how to calculate indicators based on Mendeley readership (TRS and derived) see @zahedi2017; @zahedi2020.
 
 #### Measurement.
 

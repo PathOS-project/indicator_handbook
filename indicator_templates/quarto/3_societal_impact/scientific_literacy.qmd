@@ -28,7 +28,7 @@ bibliography: references.bib
 
 ## Description
 
-Scientific literacy is a concept aimed at measuring a society's ability to engage with and understand scientific concepts and discussions. Despite the extensive literature on the subject, there is no common definition [@deboer2000]; [@laugksch2000]; [@norris2014]; [@roberts2007]. Furthermore, there is also debate about why scientific literacy is or should be a societal goal [@deboer2000]; [@laugksch2000]; [@norris2014]. Three perspectives on the concept are instructive.
+Scientific literacy is a concept aimed at measuring a society's ability to engage with and understand scientific concepts and discussions. Despite the extensive literature on the subject, there is no common definition [@deboer2000; @laugksch2000; @norris2014; @roberts2007]. Furthermore, there is also debate about why scientific literacy is or should be a societal goal [@deboer2000; @laugksch2000; @norris2014]. Three perspectives on the concept are instructive.
 
 First, in a view proposed by [@laugksch2000] and supported by [@roberts2007], there are at least three stakeholder groups engaged with scientific literacy: (1) sociologists, (2) public opinion researchers, (3) science educators. All three stakeholder groups approach the topic with their own goals and justifications for why scientific literacy matters. Consequently, they also employ vastly different methods to measure the concept, ranging from in-depth interviews to representative population samples, to assessments of students’ competencies.
 

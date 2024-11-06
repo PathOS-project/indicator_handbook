@@ -77,6 +77,6 @@ Limitations of the platform include:
 
 ###### SciNoBo Toolkit
 
-The SciNoBo toolkit [@gialitsis2022a]; [@kotitsas2023a] has a new component, currently undergoing evaluation, which involves analysing a publication's text and identifying all citances to other publications. It then classifies these citances based on their intent (generic, reuse, comparison), polarity (supporting, refuting, neutral), and semantics (claim, methodology, results, artifact/output).
+The SciNoBo toolkit [@gialitsis2022a; @kotitsas2023a] has a new component, currently undergoing evaluation, which involves analysing a publication's text and identifying all citances to other publications. It then classifies these citances based on their intent (generic, reuse, comparison), polarity (supporting, refuting, neutral), and semantics (claim, methodology, results, artifact/output).
 
 Limitations of the tool include potential errors in capturing all relevant citances, and correctly classifying their polarity.

@@ -16,6 +16,7 @@ affiliations:
   name: University of Geneva
   city: Geneva
   country: Switzerland
+  
 bibliography: references.bib
 ---
 
@@ -38,7 +39,7 @@ bibliography: references.bib
 Increasing the capacity of scientific processes and outputs to help address societal issues is perhaps the most important objective of Open Science. It is also the objective whose achievement is the most difficult to assess. The issues challenging our societies are extremely diverse and influenced by a multiplicity of factors that are as complex as shifting. Assessing the impact of Open Science on societal problems requires five steps:
 
 1.  *Defining the societal issues under investigation and their desired solution.*\
-    This is in itself a problematic step as different social groups can have different perspectives of what constitutes the problems affecting a society, their precise delineation, their respective significance and urgency, and finally in which direction they should evolve. This is why we use the term “issues” rather than “challenges” or “goals”, in order to highlight their potentially controversial nature (Venturini and Munk, 2021).
+    This is in itself a problematic step as different social groups can have different perspectives of what constitutes the problems affecting a society, their precise delineation, their respective significance and urgency, and finally in which direction they should evolve. This is why we use the term “issues” rather than “challenges” or “goals”, in order to highlight their potentially controversial nature [@venturini2021].
 2.  *Monitoring their improvement or worsening of societal issues over time.*\
     Even when an agreement or a decision can be reached concerning the precise definition of societal issues to be examined and their desired development, monitoring such development in time still requires setting in place a protocol of qualitative and quantitative techniques to assess the situation at different moments in time. It is crucial that the comparability of these different temporal assessments is assured to evaluate in which direction the situation is evolving.
 3.  *Assessing the existence of Open Science resources available on different societal issues.\
