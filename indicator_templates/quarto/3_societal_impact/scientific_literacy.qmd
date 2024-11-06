@@ -10,7 +10,6 @@ affiliations:
   name: Know-Center
   city: Graz
   country: Austria
-bibliography: references.bib
 ---
 
 # Scientific literacy {#scientific-literacy .unnumbered}

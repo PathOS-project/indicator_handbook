@@ -11,7 +11,6 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
-bibliography: references.bib
 ---
 
 # Collaboration intensity {#collaboration-intensity .unnumbered}

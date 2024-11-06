@@ -17,7 +17,6 @@ affiliations:
   city: Geneva
   country: Switzerland
   
-bibliography: references.bib
 ---
 
 # Uptake in and impact on to societal issues {#uptake-in-and-impact-on-to-societal-issues .unnumbered}

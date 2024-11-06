@@ -16,7 +16,6 @@ affiliations:
   name: University of Geneva
   city: Geneva
   country: Switzerland
-bibliography: references.bib
 ---
 
 # Citizen Science Indicators {#citizen-science-indicators .unnumbered}

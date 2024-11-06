@@ -22,7 +22,6 @@ affiliations:
   name: Technopolis Group
   city: Brussels
   country: Belgium
-bibliography: references.bib
 ---
 
 # Innovation output {#innovation-output .unnumbered}

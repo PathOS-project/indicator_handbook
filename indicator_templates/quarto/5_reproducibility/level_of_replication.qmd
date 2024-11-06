@@ -18,7 +18,6 @@ affiliations:
   name: Graz University of Technology
   city: Graz
   country: Austria
-bibliography: references.bib
 ---
 
 # Level of replication {#level-of-replication .unnumbered}

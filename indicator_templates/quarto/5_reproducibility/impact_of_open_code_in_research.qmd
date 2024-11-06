@@ -10,7 +10,6 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
-bibliography: references.bib
 ---
 
 # Impact of Open Code in research {#impact-of-open-code-in-research .unnumbered}

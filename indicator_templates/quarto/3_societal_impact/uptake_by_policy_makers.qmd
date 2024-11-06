@@ -12,7 +12,6 @@ affiliations:
   city: Leiden
   country: the Netherlands
 
-bibliography: references.bib
 ---
 
 # Uptake by policy makers {#uptake-by-policy-makers .unnumbered}
@@ -42,7 +41,7 @@ From a theoretical point of view, the count of policy citations can be leveraged
 
 ### Policy citations
 
-As discussed above, to the best of our knowledge there are no specific proposals of concrete metrics of policy citation indicators beyond the current counts of policy citations provided in Altmetric.com and Overton. From a theoretical point of view, similar indicators as for citations and academic readership would be possible, however given the relatively low uptake of policy citations across scientific publications [@fang; @bornmann2016], the most sensible metric to be consider would be the counts of policy citations, perhaps complemented with more qualitative exploration of the types of mentions in policy documents. Similarly, policy citations metrics could be complemented with the identification of mentions in policy documents to other larger scholarly entities like journals, repositories, individual researchers, universities, or scientific concepts, to name a few.
+As discussed above, to the best of our knowledge there are no specific proposals of concrete metrics of policy citation indicators beyond the current counts of policy citations provided in Altmetric.com and Overton. From a theoretical point of view, similar indicators as for citations and academic readership would be possible, however given the relatively low uptake of policy citations across scientific publications [@fang2024; @bornmann2016a], the most sensible metric to be consider would be the counts of policy citations, perhaps complemented with more qualitative exploration of the types of mentions in policy documents. Similarly, policy citations metrics could be complemented with the identification of mentions in policy documents to other larger scholarly entities like journals, repositories, individual researchers, universities, or scientific concepts, to name a few.
 
 #### Measurement.
 
@@ -52,7 +51,7 @@ For any given set of scientific publications, utilizing their DOIs (or other uni
 
 ###### Altmetric
 
-Altmetric.com was founded in 2011 by Euan Adie [@murat2023] with the aim of collecting the influence of scientific publications across different media and social media platforms, including policy document citations [@bornmann2016; @tattersall2018]. Altmetric curates policy sources from organizations around the world, and that are designed to influence policy or practice[^1]. Policy sources are collected directly from organizations’ websites.
+Altmetric.com was founded in 2011 by Euan Adie [@murat2023] with the aim of collecting the influence of scientific publications across different media and social media platforms, including policy document citations [@bornmann2016a; @tattersall2018]. Altmetric curates policy sources from organizations around the world, and that are designed to influence policy or practice[^1]. Policy sources are collected directly from organizations’ websites.
 
 [^1]: https://help.altmetric.com/support/solutions/articles/6000236695-policy-documents
 
@@ -68,4 +67,4 @@ Beyond the methodologies of the different data providers mentioned above (Overto
 
 ## Known correlates
 
-Previous studies have reported mostly positive weak correlations between policy citations and other metrics, including scholarly citations [@fang; @bornmann2016; @szomszor2022].
+Previous studies have reported mostly positive weak correlations between policy citations and other metrics, including scholarly citations [@fang2024; @bornmann2016a; @szomszor2022].

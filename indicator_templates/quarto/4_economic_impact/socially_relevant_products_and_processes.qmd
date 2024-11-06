@@ -10,7 +10,6 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
-bibliography: references.bib
 ---
 
 # Socially relevant products and processes {#socially-relevant-products-and-processes .unnumbered}

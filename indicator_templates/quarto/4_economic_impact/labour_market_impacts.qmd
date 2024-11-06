@@ -26,7 +26,6 @@ affiliations:
   name: Technopolis Group
   city: Brussels
   country: Belgium
-bibliography: references.bib
 ---
 
 # Labour market impact of OS {#labour-market-impact-of-os .unnumbered}

@@ -12,7 +12,6 @@ affiliations:
   city: Leiden
   country: the Netherlands
 
-bibliography: references.bib
 ---
 
 # Readership impact {#readership-impact .unnumbered}

@@ -10,7 +10,6 @@ affiliations:
   name: Technopologis Group
   city: Brussels
   country: Belgium
-bibliography: references.bib
 ---
 
 # Prevalence of national Open Science policies {#prevalence-of-national-open-science-policies .unnumbered}

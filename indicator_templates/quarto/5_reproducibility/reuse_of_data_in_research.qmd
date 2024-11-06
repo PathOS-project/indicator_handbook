@@ -10,7 +10,6 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
-bibliography: references.bib
 ---
 
 # Reuse of data in research {#reuse-of-data-in-research .unnumbered}
