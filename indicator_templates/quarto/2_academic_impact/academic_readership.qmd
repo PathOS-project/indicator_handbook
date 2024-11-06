@@ -11,20 +11,20 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
----
 
+---
 
 # Readership impact {#readership-impact .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
-| Version | Revision date | Revision                     | Author    |
-|---------|---------------|------------------------------|-----------|
-| 1.0     | 2023-12-12    | Initial draft                | R. Costas |
+| Version | Revision date | Revision      | Author    |
+|---------|---------------|---------------|-----------|
+| 1.0     | 2023-12-12    | Initial draft | R. Costas |
 
-:::
+</div>
 
 ## Description
 
@@ -42,11 +42,7 @@ The count of “readers” can be used in a similar fashion as the count of cita
 
 The simplest indicator, at any level of analysis (publication, individual, journal, institution, etc.) is the count (and accumulation) of all the readers of a given set of publications. From this indicator, other derived indicators like mean citation scores and others can be extracted.
 
-For a more detailed explanation of how to calculate indicators based on Mendeley readership (TRS and derived) see:
-
-Zahedi, Z., Costas, R., Wouters, P. (2017). Mendeley readership as a filtering tool to identify highly cited publications. Journal of the Association for Information Science and Technology, 68, 10, 2511-2521. <https://doi.org/10.1002/asi.23883>
-
-Zahedi, Z., & Costas, R. (2020). Do Online Readerships Offer Useful Assessment Tools? Discussion Around the Practical Applications of Mendeley Readership for Scholarly Assessment. Scholarly Assessment Reports, 2(1): 14. DOI: <https://doi.org/10.29024/sar.20>
+For a more detailed explanation of how to calculate indicators based on Mendeley readership (TRS and derived) see @zahedi2017; @zahedi2020.
 
 #### Measurement.
 
@@ -73,14 +69,8 @@ Methodologically speaking, the metric can easily be incorporated for any publica
 
 ###### Methodologies proposed in the literature
 
-Given the large coverage, density and distribution of Mendeley readership across scientific publications of all disciplines, it is possible to calculate citation-like forms of indicators. In the past, Zahedi & Costas (2020) and Bornmann & Haunschild (2016) have formalized these methodologies and practical applications of Mendeley readership counts, including the calculation of field-normalized indicators based on readership counts, like Mean Normalized Readership Score (MNRS). The readership field-normalization approaches essentially follow the same logic as the field-normalization for citations (first establishing a reference value at the disciplinary-level - the disciplinary schema can come directly from Mendeley or from another scientometric data source like OpenAlex – and every publication is normalized against that reference value.
+Given the large coverage, density and distribution of Mendeley readership across scientific publications of all disciplines, it is possible to calculate citation-like forms of indicators. In the past, [@zahedi2020] and [@bornmann2016] have formalized these methodologies and practical applications of Mendeley readership counts, including the calculation of field-normalized indicators based on readership counts, like Mean Normalized Readership Score (MNRS). The readership field-normalization approaches essentially follow the same logic as the field-normalization for citations (first establishing a reference value at the disciplinary-level - the disciplinary schema can come directly from Mendeley or from another scientometric data source like OpenAlex – and every publication is normalized against that reference value.
 
 ## Known correlates
 
 A moderate correlation between Mendeley readership and citations has been largely established in the literature (see Zahedi et al, 2014 - <https://arxiv.org/abs/1404.1301> ), and readership counts distributions resemble quite strongly those of citations (see Costas et al, 2017 - <https://doi.org/10.1108/AJIM-01-2017-0023>).
-
-## References
-
-Bornmann, L., & Haunschild, R. (2016). Normalization of Mendeley reader impact on the reader- and paper-side: A comparison of the mean discipline normalized reader score (MDNRS) with the mean normalized reader score (MNRS) and bare reader counts. Journal of Informetrics, 10, 3, 776-788. <https://doi.org/10.1016/j.joi.2016.04.015>
-
-Zahedi, Z., & Costas, R. (2020). Do Online Readerships Offer Useful Assessment Tools? Discussion Around the Practical Applications of Mendeley Readership for Scholarly Assessment. Scholarly Assessment Reports, 2(1): 14. DOI: <https://doi.org/10.29024/sar.20>

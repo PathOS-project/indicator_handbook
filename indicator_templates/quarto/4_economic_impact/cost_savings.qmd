@@ -19,25 +19,26 @@ affiliations:
   city: Milan
   country: Italy
 ---
+
 # Cost savings {#cost-savings .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
-| Version | Revision date | Revision                     | Author                             |
-|---------|---------------|------------------------------|------------------------------------|
-| 1.5     | 2024-04-26    | Third draft                  | Delugas E., Catalano G.            |
-| 1.4     | 2024-04-17    | Peer review                  | V.A. Traag                         |
-| 1.3     | 2024-04-04    | Second draft                 | Delugas E., Catalano G.            |
-| 1.2     | 2023-09-11    | Peer review                  | V.A. Traag                         |
-| 1.1     | 2023-07-04    | Draft indicator template     | Caputo A., Delugas E., Vignetti S. |
+| Version | Revision date | Revision | Author |
+|--------------|--------------|--------------------|------------------------|
+| 1.5 | 2024-04-26 | Third draft | Delugas E., Catalano G. |
+| 1.4 | 2024-04-17 | Peer review | V.A. Traag |
+| 1.3 | 2024-04-04 | Second draft | Delugas E., Catalano G. |
+| 1.2 | 2023-09-11 | Peer review | V.A. Traag |
+| 1.1 | 2023-07-04 | Draft indicator template | Caputo A., Delugas E., Vignetti S. |
 
-:::
+</div>
 
 ## Description
 
-This cost saving indicator aims to capture the efficiency gains resulting from utilising OS resources (Fell, 2019). Using OS resources, such as open repositories, can lead to significant savings in both time and money. This is because they reduce or eliminate certain costs associated with the scientific production process, thereby saving resources. However, the level of familiarity with these OS tools can vary among users. As a result, some initial investment in training or education may be necessary to understand and meet these requirements effectively.
+This cost saving indicator aims to capture the efficiency gains resulting from utilising OS resources [@fell2019]. Using OS resources, such as open repositories, can lead to significant savings in both time and money. This is because they reduce or eliminate certain costs associated with the scientific production process, thereby saving resources. However, the level of familiarity with these OS tools can vary among users. As a result, some initial investment in training or education may be necessary to understand and meet these requirements effectively.
 
 On the one hand, organisations can streamline their operations and achieve greater efficiency by optimising the utilisation of OS resources, such as by reducing costs or completing activities in less time. For instance, enterprises might save time within the R&D departments, or even within other departments when the OS input is open software, an open tool or open data. This saving arises by reducing time spent on given activities (e.g., working hours), or avoiding storage and access costs. On the other hand, there might be the case of additional investment and operational costs associated with the use of OS. Indeed, when researchers opt for open-access channels to publish their scientific findings, there is a need to tailor the content to meet the unique standards of these platforms, a step that is not necessary with “closed” publishing routes. For instance, when openly sharing data, a researcher must often adhere to specific standards that are necessary either to utilise the research outputs or to contribute effectively to their open sharing. At the same time, professional users of open access resources might necessitate to learn how to exploit such OS resources, requiring specific skills to efficiently download, use, or interpret data.
 
@@ -70,7 +71,7 @@ Where:
 
 ###### Contingent Valuation or Choice Experiment for willigness to pay of the users to access OS resources
 
-Contingent Valuation and Choice Experiment assess the willingness to pay of a user to access an OS research output. Contingent Valuation is a technique that allows uncovering the total economic value of a public good by exploiting a stated preference survey, i.e., asking people what economic value they attach to a public good. []{#_Hlk139287294}Choice Experiment is instead adopted when one wants to reveal the marginal value of the attributes of the good or service. Details on how to carry out these surveys will be provided in the [CBA methodological note](https://zenodo.org/records/10277642). However, a helpful reference to implement the methods is the “Contemporary Guidance for Stated Preference Studies” (Johnston 2017). The validity of the assessment relies on strictly following the rules of application. Some bias in the given responses may arise, which might be mitigated by following the literature recommendations. When employing these survey techniques to estimate this metric, respondents might also include, in their appraisal, broader perceived benefits such as transaction cost savings or enablement gains due to OS. Thus, the analyst should minimise the risk of double counting by adopting precise question framing and clear delineation between overlapping benefits.
+Contingent Valuation and Choice Experiment assess the willingness to pay of a user to access an OS research output. Contingent Valuation is a technique that allows uncovering the total economic value of a public good by exploiting a stated preference survey, i.e., asking people what economic value they attach to a public good. Choice Experiment is instead adopted when one wants to reveal the marginal value of the attributes of the good or service. Details on how to carry out these surveys will be provided in the [CBA methodological note](https://zenodo.org/records/10277642) [@delugas2023]. However, a helpful reference to implement the methods is the “Contemporary Guidance for Stated Preference Studies” [@johnston2017]. The validity of the assessment relies on strictly following the rules of application. Some bias in the given responses may arise, which might be mitigated by following the literature recommendations. When employing these survey techniques to estimate this metric, respondents might also include, in their appraisal, broader perceived benefits such as transaction cost savings or enablement gains due to OS. Thus, the analyst should minimise the risk of double counting by adopting precise question framing and clear delineation between overlapping benefits.
 
 Once obtained the willingness to pay for a unit of time (e.g., yearly) across the survey respondents, the value of the access cost savings equals:
 
@@ -102,7 +103,7 @@ The labour cost saving metric aims to capture the net effect generated by the av
 #### Measurement.
 
 1.  The avoided cost method is a suitable way of quantifying labour cost savings. It is particularly helpful since it is flexible enough to adapt to several contexts. In this case, the avoided costs allow for estimating the labour-cost saving by forecasting or measuring the time saved by each worker thanks to the OS input and evaluating it using the cost of labour. This method can be applied any time the labour costs per employee are available, and the estimation of the time saved is reliable. Indeed, since the time-savings and the personnel costs are strictly related to the beneficiary roles, the main issue for its measurement is the unavailability of the data. The best data source will always be the data provided by direct beneficiaries. However, for what concerns the data on salary, some private companies operating in the human resources sector might provide salary data, e.g., Glassdoor, Payscale. Alternatively, some data on the wages are usually available from national or international statistics institutes, e.g. Eurostat.
-2.  Another way of assessing the metric value is estimating the willingness-to-pay for time-saving among the OS users by means of the stated preference techniques. There is a substantial body of literature on the application of CE for the appraisal of saved time (e.g. Mathieu et al. 2014; Antoniou and Matsoukis 2007). However, CV might also be adopted since there are no strict rules dictating the choice of the survey; rather, it depends on the context (Johnston 2017). For instance, some weaknesses of the CE approach concern the need to collect data from a large sample to ensure statistical robustness and the respondents’ difficulty in selecting and ranking the options proposed in the survey. Please refer to access cost saving (section II.1) for additional details on these methods.
+2.  Another way of assessing the metric value is estimating the willingness-to-pay for time-saving among the OS users by means of the stated preference techniques. There is a substantial body of literature on the application of CE for the appraisal of saved time (e.g. @mahieu2014; @antoniou2007). However, CV might also be adopted since there are no strict rules dictating the choice of the survey; rather, it depends on the context [@johnston2017]. For instance, some weaknesses of the CE approach concern the need to collect data from a large sample to ensure statistical robustness and the respondents’ difficulty in selecting and ranking the options proposed in the survey. Please refer to access cost saving (section II.1) for additional details on these methods.
 
 ##### Existing methodologies
 
@@ -133,7 +134,7 @@ The metric “transaction cost savings” denotes the reduction in time that res
 
 #### Measurement.
 
-This metric should be evaluated in the same way as the labour cost savings. Despite being related to both labour and access cost savings, given the weight of the transaction costs when research collaborations involve hundreds of facilities (Lee 2015), it is worth keeping them separate from either labour or access cost savings. For this reason, the avoided cost method is the suitable way of quantifying transaction cost savings. In this case, the avoided cost allows for estimating the transaction-cost savings by forecasting or measuring the time saved by each worker thanks to the OS resources and evaluating it using the equivalent salary. Please refer to the avoid cost method presented above for the Labour-Cost Savings.
+This metric should be evaluated in the same way as the labour cost savings. Despite being related to both labour and access cost savings, given the weight of the transaction costs when research collaborations involve hundreds of facilities [@lee2015], it is worth keeping them separate from either labour or access cost savings. For this reason, the avoided cost method is the suitable way of quantifying transaction cost savings. In this case, the avoided cost allows for estimating the transaction-cost savings by forecasting or measuring the time saved by each worker thanks to the OS resources and evaluating it using the equivalent salary. Please refer to the avoid cost method presented above for the Labour-Cost Savings.
 
 ##### Existing datasources for Labour and Transaction cost savings:
 
@@ -213,22 +214,6 @@ Where:
 
 Cost savings are directly linked to the metrics of “Innovation output” and “Industry adoption of research findings”. The rationale is that the savings accrued in both time and finances could potentially be redirected towards R&D investments. Over time, this reallocation could result in a significant increase in R&D productivity and innovation. Furthermore, the cost savings over time might trigger “Economic growth of companies” in terms of variations in productivity and assets. For instance, the money saved from lower access and storage costs can be reinvested in the company. This reinvestment could go towards R&D – which also relates to the innovation output indicator – and expanding operational capacity, which can drive revenue growth and increase the company’s assets and innovation capability, both key ingredients of company growth. Similarly, by saving time, companies can achieve more with the same or fewer resources. This means that businesses can offer more products or services or improve the quality of their offerings without a corresponding increase in costs. Over time, this contributes to economic growth by enhancing the company’s competitive edge and market share. The direct involvement of efficiency improvements in the economic growth of companies is also evident in asset optimisation. By maximising the utility of existing assets (mostly intangibles), companies can achieve higher returns on investment (ROI) over time.
 
-## References
-
-Antoniou, C., Matsoukis, E., & Roussi, P. (2007). A methodology for the estimation of value-of-time using state-of-the-art econometric models. *Journal of public transportation*, *10*(3), 1-19.
-
-Delugas, E., Catalano, G., & Vignetti, S. (2023). PathOS - D4.1 Methodological note on the CBA of open science practices. Zenodo. <https://doi.org/10.5281/zenodo.10277642>
-
-European Commission (2014). “Guide to Cost-benefit Analysis of Investment Projects. Economic appraisal tool for Cohesion Policy 2014-2020”, DG Regional and Urban Policy.
-
-Fell, M. J. (2019). The Economic Impacts of Open Science: A Rapid Evidence Assessment. Publications, 7(3), 46. https://doi.org/10.3390/publications7030046
-
-Johnston, R. J., Boyle, K. J., Adamowicz, W. (Vic), Bennett, J., Brouwer, R., Cameron, T. A., Hanemann, W. M., Hanley, N., Ryan, M., Scarpa, R., Tourangeau, R., & Vossler, C. A. (2017). Contemporary Guidance for Stated Preference Studies. *Journal of the Association of Environmental and Resource Economists*, *4*(2), 319–405. <https://doi.org/10.1086/691697>
-
-Lee, W.H. (2015) Open access target validation is a more efficient way to accelerate drug discovery. PLoS Biol. 13, e1002164.
-
-Mahieu, P. A., Andersson, H., Beaumais, O., Crastes, R., & Wolff, F. C. (2014). Is choice experiment becoming more popular than contingent valuation? A systematic review in agriculture, environment and health. *FAERE-French Association of Environmental and Resource Economists Working Papers*, (2014.12).
-
 1.  ::: {#footnote-2}
-    The market wages are typically biased due to several factors related to labour product markets. However, when considering the researchers wage, it is often argued that they are a good approximation of the social cost of labour given the assumption (EC 2014). [↑](#footnote-ref-2)
+    The market wages are typically biased due to several factors related to labour product markets. However, when considering the researchers wage, it is often argued that they are a good approximation of the social cost of labour given the assumption [@guideto2015]. [↑](#footnote-ref-2)
     :::

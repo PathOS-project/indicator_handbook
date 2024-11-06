@@ -13,20 +13,19 @@ affiliations:
   country: the Netherlands
 ---
 
-
 # Uptake by media {#uptake-by-media .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
-| Version | Revision date | Revision                | Author                           |
-|---------|---------------|-------------------------|----------------------------------|
-| 1.2     | 2024-03-25    | Draft review & comments | Simon Apartis, Tommaso Venturini |
-| 1.1     | 2024-03-04    | Revision after review   | V.A. Traag                       |
-| 1.0     | 2024-02-07    | First Draft             | V.A. Traag                       |
+| Version | Revision date | Revision | Author |
+|---------------|---------------|------------------|-------------------------|
+| 1.2 | 2024-03-25 | Draft review & comments | Simon Apartis, Tommaso Venturini |
+| 1.1 | 2024-03-04 | Revision after review | V.A. Traag |
+| 1.0 | 2024-02-07 | First Draft | V.A. Traag |
 
-:::
+</div>
 
 ## Description
 
@@ -36,7 +35,7 @@ Although this provides some idea of whether science is being used by society, it
 
 Alternative approaches, for example focussing on the mention of researchers or universities instead of references to a publication, would be interesting. These approaches are relatively underdeveloped at the moment, but might be explored further in the future.
 
-These indicators can also be used indirectly. That is, it was suggested in the literature that instead of tracking the uptake of individual papers, one might instead consider the uptake of a paper's topic more generally (Noyons, 2019). Although we will not describe this approach in detail, it offers an additional possibility that could be explored. One advantage of this approach is that it acknowledges the fact that scientific research can inform media debate even when individual publications are not explicitly mentioned in the media.
+These indicators can also be used indirectly. That is, it was suggested in the literature that instead of tracking the uptake of individual papers, one might instead consider the uptake of a paper's topic more generally [@noyons2019]. Although we will not describe this approach in detail, it offers an additional possibility that could be explored. One advantage of this approach is that it acknowledges the fact that scientific research can inform media debate even when individual publications are not explicitly mentioned in the media.
 
 Finally, although the focus here is on individual publications, there are also other way to track the uptake of science by the media. For instance, one could directly try to search for an academic journal, instead of trying to identify the media uptake of all publications of that journal and then aggregating to the journal. The same applies of course to other aggregates, such as institutions or repositories. We will not describe this approach here, but it is worthwhile to consider it.
 
@@ -124,10 +123,4 @@ In addition to citation, views and download information, PlumX collects data fro
 
 ## Known correlates
 
-Correlations among various measure of uptake by media have been studies (Fang et al., 2020).
-
-## References
-
-Noyons, E. (2019). Measuring Societal Impact Is as Complex as ABC. *Journal of Data and Information Science*, *4*(3), 6–21. <https://doi.org/10.2478/jdis-2019-0012>
-
-Fang, Z., Costas, R., Tian, W., Wang, X., & Wouters, P. (2020). An extensive analysis of the presence of altmetric data for Web of Science publications across subject fields and research topics. *Scientometrics*, 124(3), 2519–2549. <https://doi.org/10.1007/s11192-020-03564-9>
+Correlations among various measure of uptake by media have been studies [@fang2020].

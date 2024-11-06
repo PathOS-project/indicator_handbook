@@ -30,27 +30,27 @@ affiliations:
 
 # Labour market impact of OS {#labour-market-impact-of-os .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
-| Version | Revision date | Revision                             | Author                                                                     |
-|---------|---------------|--------------------------------------|----------------------------------------------------------------------------|
-| 0.5     | 30-04-2024    | Second Draft                         | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL)           |
-| 0.4     | 25-04-2024    | Peer Review                          | V.A. Traag                                                                 |
-| 0.3     | 09-04-2024    | Revised draft                        | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL, reviewer) |
-| 0.2     | 15-03-2024    | First full draft                     | Lennart Stoy (TGB), Elisa Seminaroti (TGB)                                 |
-| 0.1     |               | Labour efficiency indicator template | Istvan Karasz, Technopolis Consulting Group                                |
+| Version | Revision date | Revision | Author |
+|-------------|-------------|--------------|---------------------------------|
+| 0.5 | 30-04-2024 | Second Draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL) |
+| 0.4 | 25-04-2024 | Peer Review | V.A. Traag |
+| 0.3 | 09-04-2024 | Revised draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL, reviewer) |
+| 0.2 | 15-03-2024 | First full draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB) |
+| 0.1 |  | Labour efficiency indicator template | Istvan Karasz, Technopolis Consulting Group |
 
-:::
+</div>
 
 ## Description
 
-Open Science (OS) is increasingly recognised to have direct effects on the skills and competence needs of researchers and research support staff**.** For example, academic libraries and research infrastructures need skills and competence for research data management (O’Carroll et al., 2017; Manola et al., 2021; RfII, 2019). The new role of Research Software Engineer is also gaining traction internationally.^[\[1\]](#footnote-2){#footnote-ref-2}^ The changing requirements are also well-documented in the case of academic libraries (see McCaffrey et al., 2020). Open Science is thus integrated into the European career and competence frameworks for researchers, such as ResearchComp (see Almerud et al., 2022). While initially emanating from public research organisatons, such skills may spill-over into industry, to make use of Open Science resources, but also through professionals moving into non-academic jobs and transferring their knowledge, skills, and competences.
+Open Science (OS) is increasingly recognised to have direct effects on the skills and competence needs of researchers and research support staff**.** For example, academic libraries and research infrastructures need skills and competence for research data management [@ocarroll2017; @manola2021; @digital]. The new role of Research Software Engineer is also gaining traction internationally.^[\[1\]](#footnote-2){#footnote-ref-2}^ The changing requirements are also well-documented in the case of academic libraries [@mccaffrey2020]. Open Science is thus integrated into the European career and competence frameworks for researchers, such as ResearchComp [@almerud2022]. While initially emanating from public research organisatons, such skills may spill-over into industry, to make use of Open Science resources, but also through professionals moving into non-academic jobs and transferring their knowledge, skills, and competences.
 
 In addition, the creation and use of Open Science resources may have indirect impacts on the labour market at large, although this remains speculative at this stage. On the one hand, effects such as the reduced access and transaction costs, achieved through Open Access to research results, enhanced findability and interoperability of resources, or the potential reduction of double funding, may influence the demand for specific job profiles in both academic and non-academic sectors. In the long term, this evolution could lead to the displacement of occupations and job profiles that have become obsolete. On the other hand, using or creating Open Science resources could also spur a demand for new skill sets and eventually trigger the emergence of new occupational profiles. It is thus equally possible that the need for profiles equipped with Open Science skills might increase across all sectors, to make better use of the results and opportunities, which may be facilitated by cost savings incurred through Open Science and other effects.
 
-At the moment, it is difficult to establish whether such effects exist, also related to the challenge in isolating the causal effects of Open Science. The 2020 *Cost of Non-FAIR* study (European Commission, 2020) identified potential economic growth, including job creation, as one potential impact of FAIR data, but fell short of providing a detailed indicator or metric for this effect.
+At the moment, it is difficult to establish whether such effects exist, also related to the challenge in isolating the causal effects of Open Science. The 2020 *Cost of Non-FAIR* study [@cost-ben2018] identified potential economic growth, including job creation, as one potential impact of FAIR data, but fell short of providing a detailed indicator or metric for this effect.
 
 Considering the possibilities to measure such effects currently available, this document describes potential approaches that can be categorised along different dimensions:
 
@@ -67,7 +67,7 @@ Open Science requires specific skills and competence. These qualitative changes 
 
 #### Measurement
 
-A tested methodology was employed by the EDISON Project (Demchenko et al., 2017), which collected job advertisements in the context of data science to develop a body of knowledge and competence framework for data science profiles. A similar approach has been used during the FAIRsFAIR project to update the EDISON framework with specific insights on (FAIR) data skills and competence relevant to the “data steward” job title.^[\[2\]](#footnote-3){#footnote-ref-3}^ However, the application of this method in practice has been limited to Data Science and (FAIR) Data Management Skills so far. Using these approaches is in principle possible for other Open Science skills as well. This would likely require additional work in mapping specific competences, skills, and knowledge.
+A tested methodology was employed by the EDISON Project [@datasci], which collected job advertisements in the context of data science to develop a body of knowledge and competence framework for data science profiles. A similar approach has been used during the FAIRsFAIR project to update the EDISON framework with specific insights on (FAIR) data skills and competence relevant to the “data steward” job title.^[\[2\]](#footnote-3){#footnote-ref-3}^ However, the application of this method in practice has been limited to Data Science and (FAIR) Data Management Skills so far. Using these approaches is in principle possible for other Open Science skills as well. This would likely require additional work in mapping specific competences, skills, and knowledge.
 
 ##### Existing datasources:
 
@@ -79,7 +79,7 @@ There are pros and cons to both approaches. Collecting information from company 
 
 ###### Lightcast data
 
-Another viable option for studying skill trends is to access Lightcast data. Lightcast (formerly known as EMSI Burning Glass) is a company that specialises in labour market data analysis and economic modelling. Lightcast provides comprehensive data and insights that are used by educational institutions, employers, and regional planners to understand and forecast labour market trends, skill needs, and economic conditions. The company has a robust methodology for mapping detailed skill requirements from job postings and resumes to specific occupations. This helps in identifying emerging skill needs and the evolution of roles across different industries. This data has been used in several scientific publication to study, e.g., digitalisation and AI skill jobs (O’Kane et al. 2020; Squicciarini and Nachtigall 2021).
+Another viable option for studying skill trends is to access Lightcast data. Lightcast (formerly known as EMSI Burning Glass) is a company that specialises in labour market data analysis and economic modelling. Lightcast provides comprehensive data and insights that are used by educational institutions, employers, and regional planners to understand and forecast labour market trends, skill needs, and economic conditions. The company has a robust methodology for mapping detailed skill requirements from job postings and resumes to specific occupations. This helps in identifying emerging skill needs and the evolution of roles across different industries. This data has been used in several scientific publication to study, e.g., digitalisation and AI skill jobs [@okane2020; @squicciarini2021].
 
 ###### Stakeholder surveys or interviews
 
@@ -139,36 +139,12 @@ As a simple measure, this measurement could be done by calculating, for example,
 
 The measurement can be applied for academia, the private sector, or industry and other sectors.
 
-## References
-
-Almerud, M., Ricksten, M., O’Neill, G. et al. (2022). *Knowledge ecosystems in the new ERA – Using a competence-based approach for career development in academia and beyond*, Núñez, L. (editor), De Coen, A. (editor), Publications Office of the European Union, [https://data.europa.eu/doi/10.2777/150763](https://data.europa.eu/doi/10.2777/150763){target="_blank"}
-
-Demchenko, Yuri, Lennart Stoy, Claudia Engelhardt, & Vinciane Gaillard. (2021). *D7.3 FAIR Competence Framework for Higher Education (Data Stewardship Professional Competence Framework) (1.0)*. Zenodo. <https://doi.org/10.5281/zenodo.5361917>
-
-European Commission, Directorate-General for Research and Innovation (2018), *Cost-benefit analysis for FAIR research data – Cost of not having FAIR research data*, Publications Office, [https://data.europa.eu/doi/10.2777/02999](https://data.europa.eu/doi/10.2777/02999){target="_blank"}
-
-O'Carroll, C., Hyllseth, B., Berg, R. et al. (2017). *Providing researchers with the skills and competencies they need to practise Open Science*, Publications Office, 2017, [https://data.europa.eu/doi/10.2777/121253](https://data.europa.eu/doi/10.2777/121253){target="_blank"}
-
-O'Neill, Gareth, Volker Beckmann, Sofia Abrahamsson, Thomas Neidenmark, & Stephan Siemen. (2023). *Survey on National Contributions to EOSC 2022 (Version V1)*. Zenodo. <https://doi.org/10.5281/zenodo.7550798>
-
-Manola, N. (editor), Lazzeri, E. (editor), Barker, M. (editor), Kuchma, I. (editor), Gaillard, V.(editor), Stoy, L. (editor), (2021). *Digital skills for FAIR and Open Science – Report from the EOSC Executive Board Skills and Training Working Group*, Publications Office of the EU. [https://data.europa.eu/doi/10.2777/59065](https://data.europa.eu/doi/10.2777/59065){target="_blank"}
-
-McCaffrey, C., Meyer, T., Riera Quintero, C., Swiatek, C., Marcerou-Ramel, N., Gillén, C., Clavel, K., Wojciechowska, A., Brinken, H., Prevoo, M., & Egerton, F. (2020). *Open Science Skills Visualisation*. Zenodo. <https://doi.org/10.5281/zenodo.3702401>
-
-RfII (2019). *Digital competencies – urgently needed! – Recommendations on career and training prospects for the scientific labour market*, Göttingen 2019, 56 p. <https://rfii.de/?p=4015>
-
-Demchenko, Yuri, Adam Belloum, Tomasz Wiktorski (2017). *EDISON Data Science Framework: Part 1. Data Science Competence Framework (CF-DS) Release 2*. <https://edison-project.eu/sites/edison-project.eu/files/filefield_paths/edison_cf-ds-release2-v08_0.pdf>
-
-O'Kane, L., Narasimhan, R., Nania, J., & Taska, B. (2020). Digitalization in the German Labor Market: Analyzing Demand for Digital Skills in Job Vacancies. Bertelsmann Stiftung July 2020.
-
-Squicciarini, M., & Nachtigall, H. (2021). Demand for AI skills in jobs: Evidence from online job postings.
-
 1.  ::: {#footnote-2}
     See <https://researchsoftware.org> [↑](#footnote-ref-2)
     :::
 
 2.  ::: {#footnote-3}
-    Yuri Demchenko, Lennart Stoy, Claudia Engelhardt, & Vinciane Gaillard. (2021). D7.3 FAIR Competence Framework for Higher Education (Data Stewardship Professional Competence Framework) (1.0). Zenodo. <https://doi.org/10.5281/zenodo.5361917> [↑](#footnote-ref-3)
+    [@demchenko2021]. D7.3 FAIR Competence Framework for Higher Education (Data Stewardship Professional Competence Framework) (1.0). Zenodo. <https://doi.org/10.5281/zenodo.5361917> [↑](#footnote-ref-3)
     :::
 
 3.  ::: {#footnote-4}

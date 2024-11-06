@@ -15,7 +15,7 @@ affiliations:
 
 # Evaluation of Open Science in research assessment {#evaluation-of-open-science-in-research-assessment .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
@@ -24,7 +24,7 @@ affiliations:
 | 1.1     | 2023-07-20    | Edited & revised | V.A. Traag     |
 | 1.0     | 2023-07-12    | Initial draft    | T. van Leeuwen |
 
-:::
+</div>
 
 ## Description
 
@@ -32,7 +32,7 @@ Research assessment is organised differently across the global science system. W
 
 On the country level, research assessment can be organised in national initiatives (e.g., Italy), rely on protocols (e.g., the Strategy Evaluation Protocol (SEP) in the Netherlands), or by having performance-based funding systems (e.g., UK, Italy, Australia, Norway). However, many countries lack clearly defined research assessment procedures on the national level (e.g., in Europe France or Germany, or the USA). Some countries have a national system that is very tightly organised and allows for very little changes in the system, as the evaluation procedures are embedded in the national laws on higher education (e.g., Italy). In some of the countries mentioned, proof of Open Science practices is considered in the assessment. For example, in the UK REF, only Open Access publications were assessed, while in the Netherlands Open Science is one of the aspects that are evaluated in the SEP.
 
-When it comes to funding of research, funders in various countries ask for different things. In most cases, OA publishing, in various forms, is encouraged as part of results dissemination. COAlition S, an international consortium of research funders aimed at OA publishing, and as a next target, on the openness of the resulting research data. Similarly, the research funded by the European Commission should also be published in OA format, and data should be as open as possible. All of this consists of ex ante requirements, and such mandates have varying effectiveness (Larivière & Sugimoto, 2018). It is difficult to get an impression on how this develops, or how this is monitored.
+When it comes to funding of research, funders in various countries ask for different things. In most cases, OA publishing, in various forms, is encouraged as part of results dissemination. COAlition S, an international consortium of research funders aimed at OA publishing, and as a next target, on the openness of the resulting research data. Similarly, the research funded by the European Commission should also be published in OA format, and data should be as open as possible. All of this consists of ex ante requirements, and such mandates have varying effectiveness [@larivière2018]. It is difficult to get an impression on how this develops, or how this is monitored.
 
 When it comes to hiring and/or promotion procedures, these are often, if not always, organised on the institutional level. Increasingly, the degree of Open Science practices in prior positions in a career track is taken into consideration, but how this is organised in various institutions is not immediately clear.
 
@@ -68,7 +68,7 @@ This information needs to be collected by a qualitative approach, as automation 
 
 Institutions should be approached asking for input on their hiring policies, and the position of the uptake of Open Science practices in these hiring policies. The result of such a data collection procedure is that one has the number or share of the institutions on national level that positively assess the uptake of Open Science practices by candidates for a job opening, compared to the total number of institutions on the national level.
 
-Alternatively, one might study job advertisements to see if Open Science aspect are mentioned (Khan et al., 2022). However, this is again a manual process, for which no automated procedures are available (yet). Additionally, it is possible that there might be policies for considering Open Science elements in hiring decisions, but that this is not reflected in job advertisements.
+Alternatively, one might study job advertisements to see if Open Science aspect are mentioned [@khan2022]. However, this is again a manual process, for which no automated procedures are available (yet). Additionally, it is possible that there might be policies for considering Open Science elements in hiring decisions, but that this is not reflected in job advertisements.
 
 ### Number/% grant evaluation policies that reward OS
 
@@ -118,7 +118,7 @@ Not all journals and publishers are necessarily included on Sherpa Romeo, and is
 
 ###### Transparency and Openness Promotion Guidelines
 
-The Transparency and Openness Promotion Guidelines (Nosek et al., 2015) are available from <https://www.cos.io/initiatives/top-guidelines>, while various metrics around Open Science practices of journals are available from the related website <https://www.topfactor.org/>. They provide an overall TOP factor, which is an compound metric based on the various individual Open Science aspects that journals adhere to. The TOP factor and the underlying scores on the individual Open Science aspects are available in a graphical user interface at <https://www.topfactor.org/>. An overview of the various policies covered and scores is available from <https://www.cos.io/initiatives/top-guidelines>. The underlying data is available for download from <https://osf.io/qatkz>.
+The Transparency and Openness Promotion Guidelines [@nosek2015] are available from <https://www.cos.io/initiatives/top-guidelines>, while various metrics around Open Science practices of journals are available from the related website <https://www.topfactor.org/>. They provide an overall TOP factor, which is an compound metric based on the various individual Open Science aspects that journals adhere to. The TOP factor and the underlying scores on the individual Open Science aspects are available in a graphical user interface at <https://www.topfactor.org/>. An overview of the various policies covered and scores is available from <https://www.cos.io/initiatives/top-guidelines>. The underlying data is available for download from <https://osf.io/qatkz>.
 
 At the moment, there are over 2600 journals included in the TOP factor. Although this is quite extensive, it is a relatively small proportion of the total number of journals, with a relatively higher representation of journals in psychology, economics and education in addition to more general science outlets.
 
@@ -137,12 +137,3 @@ The Journal Observatory integrates information from various sources, including s
 ##### Existing methodologies
 
 Additional information needs to be collected by a qualitative approach, automated detection of journal policies is not yet possible at the moment.
-
-## References
-
-Khan, H., Almoli, E., Franco, M. C., & Moher, D. (2022). Open Science failed to penetrate academic hiring practices: A cross-sectional study. *Journal of Clinical Epidemiology*, *144*, 136–143. https://doi.org/10.1016/j.jclinepi.2021.12.003
-
-Larivière, V., & Sugimoto, C. R. (2018). Do authors comply when funders enforce Open Access to research? *Nature*, *562*(7728), 483–486. https://doi.org/10.1038/d41586-018-07101-w
-
-Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., Contestabile, M., Dafoe, A., Eich, E., Freese, J., Glennerster, R., Goroff, D., Green, D. P., Hesse, B., Humphreys, M., … Yarkoni, T. (2015). Promoting an open research culture. *Science*, *348*(6242), 1422–1425. <https://doi.org/10.1126/science.aab2374>
-

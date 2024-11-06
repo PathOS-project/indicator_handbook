@@ -14,8 +14,7 @@ affiliations:
 
 # Impact of Open Code in research {#impact-of-open-code-in-research .unnumbered}
 
-
-::: {}
+<div>
 
 ## History
 
@@ -25,11 +24,9 @@ affiliations:
 | 1.1     | 2023-07-20    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First Draft | Petros Stavropoulos |
 
-
-:::
+</div>
 
 ## Description
-
 
 The impact of Open Code in research aims to capture the effect of making research code openly accessible and reusable on enhancing the reproducibility of research results, as open and accessible code is a cornerstone for verification and validation in science.
 
@@ -65,7 +62,7 @@ One limitation of Scopus is that the calculation of NCI from Scopus only conside
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
 Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the code/software has been introduced by the authors of the publication.
 
@@ -99,7 +96,7 @@ One limitation of Scopus is that the calculation of NCI from Scopus only conside
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
 Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the code/software has been (re)used by the authors of the publication.
 
@@ -131,7 +128,7 @@ To measure this metric, we can search for the relevant repositories on GitHub an
 
 Following is an API call example for retrieving the stars of the `indicator_handbook` repository for `PathOS-project` from Github.
 
-```{.python}
+``` python
 import requests
 owner = "PathOS-project"
 repo = "indicator_handbook"
@@ -172,10 +169,3 @@ To ensure that a code repository (i.e. Github, Gitlab, Bitbucket) primarily cont
 -   Existence of script and source folders: In some cases, the existence of certain directories like '/src' for source files or '/scripts' for scripts can indicate that the repository is primarily for code.
 
 By considering these checks, we can ensure that the repository primarily contains code rather than data or datasets.
-
-### References
-
-Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. *Companion Proceedings of the Web Conference 2022*, 800–809. <https://doi.org/10.1145/3487553.3524677>
-
-Kotitsas, S., Pappas, D., Manola, N., & Papageorgiou, H. (2023). SCINOBO: A novel system classifying scholarly communication in a dynamically constructed hierarchical Field-of-Science taxonomy. Frontiers in Research Metrics and Analytics, 8. https://www.frontiersin.org/articles/10.3389/frma.2023.1149834
-

@@ -14,17 +14,17 @@ affiliations:
 
 # Science-industry collaboration {#science-industry-collaboration .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
-| Version | Revision date | Revision                     | Author                                        |
-|---------|---------------|------------------------------|-----------------------------------------------|
-| 1.3     | 2024-04-29    | Second Draft                 | Petros Stavropoulos                           |
-| 1.2     | 2024-04-24    | Peer review                  | V.A. Traag                                    |
-| 1.1     | 2024-03-19    | First draft                  | Petros Stavropoulos, Erica Delugas (reviewer) |
+| Version | Revision date | Revision | Author |
+|--------------|--------------|-----------------|----------------------------|
+| 1.3 | 2024-04-29 | Second Draft | Petros Stavropoulos |
+| 1.2 | 2024-04-24 | Peer review | V.A. Traag |
+| 1.1 | 2024-03-19 | First draft | Petros Stavropoulos, Erica Delugas (reviewer) |
 
-:::
+</div>
 
 ## Description
 
@@ -94,7 +94,7 @@ There may be limitations in the coverage of certain types of organizations and t
 
 ##### Existing methodologies
 
-This is an automated tool (Stavropoulos et al., 2023), leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
+This is an automated tool [@stavropoulos2023], leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 
 To measure the proposed metric, the tool can be used to identify the reused and created OS inputs in the patents text or the OA publication texts that the patents cite.
 
@@ -152,12 +152,8 @@ There may be limitations in the coverage of certain types of organizations, pote
 
 ###### SciNoBo Research Artifact Analysis (RAA) Tool
 
-This is an automated tool (Stavropoulos et al., 2023), leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
+This is an automated tool [@stavropoulos2023], leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 
 To measure the proposed metric, the tool can be used to identify the reused and created OS inputs in the OA publication texts.
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
-
-## References
-
-Stavropoulos, P., Lyris, I., Manola, N., Grypari, I., & Papageorgiou, H. (2023). Empowering Knowledge Discovery from Scientific Literature: A novel approach to Research Artifact Analysis. In L. Tan, D. Milajevs, G. Chauhan, J. Gwinnup, & E. Rippeth (Eds.), Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023) (pp. 37–53). Association for Computational Linguistics. https://doi.org/10.18653/v1/2023.nlposs-1.5

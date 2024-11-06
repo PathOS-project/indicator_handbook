@@ -11,26 +11,27 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
 ---
 
 # Uptake by policy makers {#uptake-by-policy-makers .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
-| Version | Revision date | Revision                     | Author                           |
-|---------|---------------|------------------------------|----------------------------------|
-| 1.2     | ??            | Draft review & comments      | Simon Apartis, Tommaso Venturini |
-| 1.1     | ??            | First draft                  | Rodrigo Costas Comesana          |
+| Version | Revision date | Revision                | Author                           |
+|------------------|------------------|------------------|--------------------|
+| 1.2     | ??            | Draft review & comments | Simon Apartis, Tommaso Venturini |
+| 1.1     | ??            | First draft             | Rodrigo Costas Comesana          |
 
-:::
+</div>
 
 ## Description
 
-The main concept of the indicator "Uptake by Policy Makers" revolves around the extent to which policy makers engage with and incorporate scientific publications into their decision-making processes. A recently introduced metric for measuring uptake by policy makers is the number of citations to scientific publications coming from policy documents, also referred to as “policy citations” (Szomszor & Adie, 2022, Overton, 2023).
+The main concept of the indicator "Uptake by Policy Makers" revolves around the extent to which policy makers engage with and incorporate scientific publications into their decision-making processes. A recently introduced metric for measuring uptake by policy makers is the number of citations to scientific publications coming from policy documents, also referred to as “policy citations” [@szomszor2022].
 
-Policy citations are usually extracted from platforms or tools dedicated to index policy sources, being Altmetric.com and Overton (<https://www.overton.io/>) the most important platforms currently available (Murat et la, 2023). These platforms aggregate data from various policy sources and provide overviews on how scientific publications or other scholarly entities (e.g. journals, publishers, repositories, universities, researchers, or even scientific concepts) have been mentioned in policy documents, having the potential to capture the uptake of science by policy makers.
+Policy citations are usually extracted from platforms or tools dedicated to index policy sources, being Altmetric.com and Overton (<https://www.overton.io/>) the most important platforms currently available [@murat2023]. These platforms aggregate data from various policy sources and provide overviews on how scientific publications or other scholarly entities (e.g. journals, publishers, repositories, universities, researchers, or even scientific concepts) have been mentioned in policy documents, having the potential to capture the uptake of science by policy makers.
 
 Similar to other altmetric indicators, like academic readership indicators or social media uptake, metrics related to policy citations are computed at the level of individual scientific publications, often identified by a DOI or other unique identifiers. Altmetric, for instance, employs a rnge of identifiers, including DOIs, ISBNs, and PubMed IDs, while Overton uses DOIs to identify mentions in policy documents to scientific publications. The counts and mentions can be extracted through the APIs and search engines implemented by these platforms, however currently none of them is entirely open available, although they provide free tools and demos that can be used for small sets of publications.
 
@@ -40,7 +41,7 @@ From a theoretical point of view, the count of policy citations can be leveraged
 
 ### Policy citations
 
-As discussed above, to the best of our knowledge there are no specific proposals of concrete metrics of policy citation indicators beyond the current counts of policy citations provided in Altmetric.com and Overton. From a theoretical point of view, similar indicators as for citations and academic readership would be possible, however given the relatively low uptake of policy citations across scientific publications (see Bornmann et al, 2016l Fang et al, 2020), the most sensible metric to be consider would be the counts of policy citations, perhaps complemented with more qualitative exploration of the types of mentions in policy documents. Similarly, policy citations metrics could be complemented with the identification of mentions in policy documents to other larger scholarly entities like journals, repositories, individual researchers, universities, or scientific concepts, to name a few.
+As discussed above, to the best of our knowledge there are no specific proposals of concrete metrics of policy citation indicators beyond the current counts of policy citations provided in Altmetric.com and Overton. From a theoretical point of view, similar indicators as for citations and academic readership would be possible, however given the relatively low uptake of policy citations across scientific publications [@fang2024; @bornmann2016a], the most sensible metric to be consider would be the counts of policy citations, perhaps complemented with more qualitative exploration of the types of mentions in policy documents. Similarly, policy citations metrics could be complemented with the identification of mentions in policy documents to other larger scholarly entities like journals, repositories, individual researchers, universities, or scientific concepts, to name a few.
 
 #### Measurement.
 
@@ -50,11 +51,13 @@ For any given set of scientific publications, utilizing their DOIs (or other uni
 
 ###### Altmetric
 
-Altmetric.com was founded in 2011 by Euan Adie (Murat et al, 2023) with the aim of collecting the influence of scientific publications across different media and social media platforms, including policy document citations (Bornmann et al, 2016; Tattersall & Carroll, 2018). Altmetric curates policy sources from organizations around the world, and that are designed to influence policy or practice (Altmetric, 2021). Policy sources are collected directly from organizations’ websites.
+Altmetric.com was founded in 2011 by Euan Adie [@murat2023] with the aim of collecting the influence of scientific publications across different media and social media platforms, including policy document citations [@bornmann2016a; @tattersall2018]. Altmetric curates policy sources from organizations around the world, and that are designed to influence policy or practice[^1]. Policy sources are collected directly from organizations’ websites.
+
+[^1]: https://help.altmetric.com/support/solutions/articles/6000236695-policy-documents
 
 ###### Overton
 
-Overton was founded in 2019 also by Euan Adie. It is a novel database with the goal to increase the coverage and comprehensiveness of policy-focused data and information. Overton indexes policy documents from all over the world, and it is created by the web crawling of publicly accessible documents published by a curated list of over 30,000 organizations including governments, intergovernmental organizations, think tanks, and charities (Szomszor & Adie, 2022).
+Overton was founded in 2019 also by Euan Adie. It is a novel database with the goal to increase the coverage and comprehensiveness of policy-focused data and information. Overton indexes policy documents from all over the world, and it is created by the web crawling of publicly accessible documents published by a curated list of over 30,000 organizations including governments, intergovernmental organizations, think tanks, and charities [@szomszor2022].
 
 ##### Existing methodologies
 
@@ -64,4 +67,4 @@ Beyond the methodologies of the different data providers mentioned above (Overto
 
 ## Known correlates
 
-Previous studies have reported mostly positive weak correlations between policy citations and other metrics, including scholarly citations (see Fang et al, 2020; Bornmann et al, 2022; Szomszor & Adie, 2022).
+Previous studies have reported mostly positive weak correlations between policy citations and other metrics, including scholarly citations [@fang2024; @bornmann2016a; @szomszor2022].

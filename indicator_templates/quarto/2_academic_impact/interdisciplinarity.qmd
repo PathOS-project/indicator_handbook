@@ -15,23 +15,16 @@ affiliations:
 
 # Interdisciplinary {#interdisciplinarity .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
-
-| Version | Revision date | Revision                     | Author                    |
-|---------|---------------|------------------------------|---------------------------|
+| Version | Revision date | Revision    | Author     |
+|---------|---------------|-------------|------------|
 | 1.0     | 2023-12-17    | First draft | L. Waltman |
 
-:::
+</div>
 
 ## Description
 
-There is an extensive scientometric literature on indicators of interdisciplinarity. However, the level of agreement among the various indicators introduced in the literature turns out to be low ([Wang & Schneider, 2020]. This appears to be the result of both different understandings of the concept of interdisciplinarity and different approaches to operationalize the concept. Given the lack of agreement on how to understand and operationalize interdisciplinarity, we advise against the use of scientometric indicators of interdisciplinarity, and we consequently do not describe any such indicators. For further discussion, including alternative approaches to 'measure' interdisciplinarity, we refer to [Rafols (2020)](https://www.leidenmadtrics.nl/articles/on-measuring-interdisciplinarity-from-indicators-to-indicating).
-
-
-## References
-
-Wang, Q., & Schneider, J. W. (2020). Consistency and validity of interdisciplinarity measures. Quantitative Science Studies, 1(1), 239–263. https://doi.org/10.1162/qss_a_00011
-
+There is an extensive scientometric literature on indicators of interdisciplinarity. However, the level of agreement among the various indicators introduced in the literature turns out to be low [@wang2020]. This appears to be the result of both different understandings of the concept of interdisciplinarity and different approaches to operationalize the concept. Given the lack of agreement on how to understand and operationalize interdisciplinarity, we advise against the use of scientometric indicators of interdisciplinarity, and we consequently do not describe any such indicators. For further discussion, including alternative approaches to 'measure' interdisciplinarity, we refer to [@ràfols2020].

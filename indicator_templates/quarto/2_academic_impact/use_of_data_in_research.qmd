@@ -15,21 +15,21 @@ affiliations:
 
 # Use of data in research {#use-of-data-in-research .unnumbered}
 
-::: {}
+<div>
 
 ## History
 
-| Version | Revision date | Revision                     | Author                    |
-|---------|---------------|------------------------------|---------------------------|
+| Version | Revision date | Revision    | Author      |
+|---------|---------------|-------------|-------------|
 | 1.0     | 2023-12-14    | First draft | T. Willemse |
 
-:::
+</div>
 
 ## Description
 
 In today's data-driven era, the utilization of data has revolutionized the landscape of research across diverse fields and disciplines. Data serves as the lifeblood of modern research endeavors, empowering scholars to make informed decisions, and unveil patterns that were previously hidden. Whether in the realms of social sciences, business analytics, healthcare, or natural sciences, the role of data in research has transcended mere information-gathering; it has become the cornerstone upon which discoveries, innovations, and evidence-based conclusions are built.
 
-The open research data (ORD) movement within open science has advocated to make data more accessible and transparent to accelerate these developments in research (Quarati & Raffaghelli, 2022). However, to assess whether or not these “open” measures are effective one needs insight in the use of data in research. Assessing data use is not straightforward though. It can for instance be ambiguous to assess when data is actually “used” and to quantify this. Moreover, definitions for data use vary across science and subsequently data use assessment methods do so as well (Pasquetto et al., 2017).
+The open research data (ORD) movement within open science has advocated to make data more accessible and transparent to accelerate these developments in research [@quarati2022]. However, to assess whether or not these “open” measures are effective one needs insight in the use of data in research. Assessing data use is not straightforward though. It can for instance be ambiguous to assess when data is actually “used” and to quantify this. Moreover, definitions for data use vary across science and subsequently data use assessment methods do so as well [@pasquetto2017].
 
 Nevertheless, this document attempts to summarize what indicators can be used to approximate data use in research.
 
@@ -97,16 +97,4 @@ Based on the data retrieval information from the data repositories one can compi
 
 ###### Standardization protocols
 
-To combat the issue of standardization for the tracking of clicks/views/downloads of data use in research The COUNTER Code of Practice for Research Data gives guidance on how to standardize count systems for data use (Project COUNTER, 2023). The guidelines provided by The COUNTER Code of Practice for Research Data can be followed to make inquiries in data retrieval information more comparable among researchers.
-
-## References
-
-Please include any references that you want to make here. Please use Zotero to connect to the PathOS Zotero library for references. Please use the APA style, 7^th^ edition, English (UK).
-
-Pasquetto, I. V., Randles, B. M., & Borgman, C. L. (2017). On the Reuse of Scientific Data. *Data Science Journal*, *16*, 8. <https://doi.org/10.5334/dsj-2017-008>
-
-Quarati, A., & Raffaghelli, J. E. (2022). Do researchers use open research data? Exploring the relationships between usage trends and metadata quality across scientific disciplines from the Figshare case. *Journal of Information Science*, *48*(4), 423-448. <https://doi.org/10.1177/0165551520961048>
-
-Make Data Count. (2023). Prototype. <https://makedatacount.org/data-citation/#prototype>
-
-Project COUNTER. (2023). Code of Practice for Research Data. <https://www.projectcounter.org/code-practice-research-data/>
+To combat the issue of standardization for the tracking of clicks/views/downloads of data use in research The COUNTER Code of Practice for Research Data gives guidance on how to standardize count systems for data use [@codeof]. The guidelines provided by The COUNTER Code of Practice for Research Data can be followed to make inquiries in data retrieval information more comparable among researchers.

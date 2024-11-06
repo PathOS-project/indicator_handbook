@@ -26,19 +26,18 @@ affiliations:
 
 # Economic growth of companies {#economic-growth-of-companies .unnumbered}
 
-
-::: {}
+<div>
 
 ## History
 
-| Version | Revision date | Revision                     | Author                                                                     |
-|---------|---------------|------------------------------|----------------------------------------------------------------------------|
-| 0.5     | 30-04-2024    | Second Draft                 | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL)           |
-| 0.4     | 25-04-2024    | Peer Review                  | V.A. Traag                                                                 |
-| 0.3     | 09-04-2024    | Updated draft                | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL, reviewer) |
-| 0.2     | 15-03-2024    | First full draft             | Lennart Stoy (TGB), Elisa Seminaroti (TGB)                                 |
+| Version | Revision date | Revision | Author |
+|-------------|-------------|-------------|-----------------------------------|
+| 0.5 | 30-04-2024 | Second Draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL) |
+| 0.4 | 25-04-2024 | Peer Review | V.A. Traag |
+| 0.3 | 09-04-2024 | Updated draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL, reviewer) |
+| 0.2 | 15-03-2024 | First full draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB) |
 
-:::
+</div>
 
 ## Description
 
@@ -48,7 +47,7 @@ The economic growth of companies is also among the key impact pathways of Horizo
 
 The direct effects of Open Science on the economic growth of companies will be difficult to capture and to isolate. Beyond information that is accessible in scientometric databases (e.g., patents, publications databases), little data is readily available about company-level benefits from or adoption of Open Science practices. In addition, the potential effects outlined above can be subject to confounding factors which will make a clear attribution of causal effects to Open Science difficult. Impacts might materialise only over a longer time frame, adding to the difficulty in capturing them.
 
-Some studies have attempted to investigate Open Science impacts, such as the potential costs and cost savings derived from improving the availability of FAIR data (European Commission, 2018), or the impact of Open Access on patenting activities (Probst et al., 2023). None of those have studied the growth of individual companies. The impact of Open Data on the economy has been researched more widely (see, e.g., World Bank, 2014; European Commission Directorate General for Communications Networks, Content and Technology, 2020).
+Some studies have attempted to investigate Open Science impacts, such as the potential costs and cost savings derived from improving the availability of FAIR data [@EC2018], or the impact of Open Access on patenting activities [@probst2023]. None of those have studied the growth of individual companies. The impact of Open Data on the economy has been researched more widely (e.g., @andrew2014; @huyer2020).
 
 While difficult to measure and largely untested, the PathOS project nonetheless has the intention to better quantify the impact of different Open Science practices. This indicator therefore proposes an approach to research the impact of Open Science on the growth of companies.
 
@@ -56,7 +55,7 @@ While difficult to measure and largely untested, the PathOS project nonetheless 
 
 ### Company performance changes due to OS
 
-The economic growth of companies is typically measured using various widely-used economic proxy indicators at the company level, which are commonly derived from balance sheets. These include changes in the company variation in turnover, profits, assets, expenditures, personnel, and others.^^[\[1\]](#footnote-2){#footnote-ref-2}^^ Economic growth of company may also encompass improvements in efficiency, innovation, and competitiveness within the company. Nevertheless, assessing a change in any of the economic growth proxy indicators associated with Open Science practices is inherently challenging. The economic growth of companies is the result of a number of strictly interrelated factors. For this reason, measuring the impact triggered by Open Science might not be so straightforward, as there might be a large list of confounding variables hampering the capture of the impact. The list below provides a set of possible proxy metrics for measuring the potential impact of Open Science on economic growth of companies:
+The economic growth of companies is typically measured using various widely-used economic proxy indicators at the company level, which are commonly derived from balance sheets. These include changes in the company variation in turnover, profits, assets, expenditures, personnel, and others.\^^[\[1\]](#footnote-2){#footnote-ref-2}^\^ Economic growth of company may also encompass improvements in efficiency, innovation, and competitiveness within the company. Nevertheless, assessing a change in any of the economic growth proxy indicators associated with Open Science practices is inherently challenging. The economic growth of companies is the result of a number of strictly interrelated factors. For this reason, measuring the impact triggered by Open Science might not be so straightforward, as there might be a large list of confounding variables hampering the capture of the impact. The list below provides a set of possible proxy metrics for measuring the potential impact of Open Science on economic growth of companies:
 
 -   Change (+/-) in turnover
 -   Change (+/-) in profit
@@ -81,7 +80,7 @@ Ideally, researchers aiming to assess the impact of Open Science on the proposed
 
 Instead, a change in companies’ performance due to OS resources can be assessed by “benchmark analysis”. This method consists of a comparison of two groups of companies. First, a group of companies not using Open Science practices and second a group of companies which do use Open Science practices. The objective is to discover whether there are differences in the company performance variation that are correlated and therefore potentially attributable to the use of Open Science practices.
 
-Nevertheless, even in this case, the attribution to open science of the change in economic growth of metric is not straightforward. While a descriptive comparison might allow for assessing a correlation between Open Science and the change in economic growth - regardless of the metric chosen – it will not be sufficient to assess a causal impact. Benchmark analysis should then involve more advance statistical and econometric techniques to attempt a causal measurement of the impact. This suggested approach is loosely based on the measurement of the long-term indicators for economic growth (Key Impact Pathway 7) of Horizon Europe (see European Commission, 2023).
+Nevertheless, even in this case, the attribution to open science of the change in economic growth of metric is not straightforward. While a descriptive comparison might allow for assessing a correlation between Open Science and the change in economic growth - regardless of the metric chosen – it will not be sufficient to assess a causal impact. Benchmark analysis should then involve more advance statistical and econometric techniques to attempt a causal measurement of the impact. This suggested approach is loosely based on the measurement of the long-term indicators for economic growth (Key Impact Pathway 7) of Horizon Europe [@EC2023].
 
 The analysis can be carried out by collecting data from existing data sources, where available, and/or through surveying the companies which growth is to be evaluated. As a proposed approach rather than a specific indicator, there are no specific data sources applying to all possible combinations of economic and Open Science metrics. The best sources and data collection strategies should be carefully selected based on the research question, scope, accessibility of data, and other potential factors.
 
@@ -110,32 +109,16 @@ Paired with organisational information from companies, such as collected from pu
 
 ###### Benchmark analysis
 
-Benchmark analysis is a viable attempt to estimate at least a correlation between Open Science and economic growth of companies. In the context of Horizon Europe monitoring (European Commission, 2023), the causal effect on the economic growth of companies of participating in the programme is measured using a [difference-in-difference analysis](https://diff.healthpolicydatascience.org/), a statistical technique used in econometrics and social sciences to measure the effect of a treatment or intervention by comparing the changes in outcomes over time between two groups.^[\[2\]](#footnote-3){#footnote-ref-3}^ As it is more of a research framework than a methodology tailored specifically to assess HE metrics, it can easily be adopted in our framework.
+Benchmark analysis is a viable attempt to estimate at least a correlation between Open Science and economic growth of companies. In the context of Horizon Europe monitoring [@EC2023], the causal effect on the economic growth of companies of participating in the programme is measured using a [difference-in-difference analysis](https://diff.healthpolicydatascience.org/), a statistical technique used in econometrics and social sciences to measure the effect of a treatment or intervention by comparing the changes in outcomes over time between two groups.^[\[2\]](#footnote-3){#footnote-ref-3}^ As it is more of a research framework than a methodology tailored specifically to assess HE metrics, it can easily be adopted in our framework.
 
 In the case of Open Science, two groups of companies can be compared: a group of companies not using Open Science practices (a “control group”) and second a group of companies which do use Open Science practices (a “treated group”). The objective is to discover whether there are differences in the company performance that are correlated and potentially attributable to the use of Open Science practices. As a first step, statistical tests might be used to investigate whether the two groups are different in terms of average outcomes, namely the metric chosen to proxy economic growth. Furthermore, computing the correlation between Open Science and the outcome variable can help determine if there is a connection between the variations of the two.
 
 A second step of the benchmark analysis might involve more advanced econometric methods such as causal inference techniques like difference-in-difference. This step further requires more technical resources and involves building a robust identification strategy for the causal impact. For instance, as mentioned in the introduction on causality, recognising the confounding factors, either time-invariant or time-varying, is critical to estimating a true causal relationship. In fact, when adopting such causal inference techniques, the indicator of economic growth of companies may attempt to be considered as measuring the causal impact of Open Science. Otherwise, the indicator merely reflects a contribution and correlation, rather than a causal effect.
-
-## References
-
-Angrist, J. D., & Pischke, J. S. (2009). Mostly harmless econometrics: An empiricist's companion. Princeton university press.
-
-Cunningham, S. (2021). Causal inference: The mixtape. Yale university press.
-
-European Commission, Directorate-General for Research and Innovation (2018), *Cost-benefit analysis for FAIR research data – Cost of not having FAIR research data*, Publications Office, [https://data.europa.eu/doi/10.2777/02999](https://data.europa.eu/doi/10.2777/02999){target="_blank"}
-
-European Commission Directorate General for Communications Networks, Content and Technology (2020). The economic impact of open data – Opportunities for value creation in Europe. Publications Office, <https://data.europa.eu/doi/10.2830/63132>
-
-European Commission (2023). *Evidence Framework on monitoring and evaluation of Horizon Europe*. SWD(2023) 132 final. <https://research-and-innovation.ec.europa.eu/document/download/e78eceb1-0859-4192-9117-5bdf4b5cf594_en?filename=swd-2023-132-monitoring-evaluation-he.pdf>
-
-Probst, B., Lohmann, P. M., Kontoleon, A., & Anadón, L. D. (2023). The impact of open access mandates on scientific research and technological development in the U.S. *iScience*, *26*(10), 107740. <https://doi.org/10.1016/j.isci.2023.107740>
-
-World Bank (2014). Open Data for Economic Growth. <https://www.worldbank.org/content/dam/Worldbank/document/Open-Data-for-Economic-Growth.pdf>
 
 1.  ::: {#footnote-2}
     See for further details on how these indicator are defined and composed the two main sets of accounting standards, which are the [US GAAP](https://www.fasb.org/home) and the [IFRS](https://www.ifrs.org/groups/international-accounting-standards-board/). Alternatively, for a simpler approach, one can consult any accounting book to retrieve a detailed definition of any of them. [↑](#footnote-ref-2)
     :::
 
 2.  ::: {#footnote-3}
-    Seminal books on how to perform a causal impact evaluation include “Angrist, J. D., & Pischke, J. S. (2009). Mostly harmless econometrics: An empiricist's companion. Princeton university press” and “Cunningham, S. (2021). Causal inference: The mixtape. Yale university press.” [↑](#footnote-ref-3)
+    Seminal books on how to perform a causal impact evaluation include “[@angrist2009]. Mostly harmless econometrics: An empiricist's companion. Princeton university press” and “[@cunningham2021]. Causal inference: The mixtape. Yale university press.” [↑](#footnote-ref-3)
     :::

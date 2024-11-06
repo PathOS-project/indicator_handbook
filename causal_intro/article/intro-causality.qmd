@@ -29,7 +29,6 @@ affiliations:
   country: the Netherlands
 
 zotero: PathOS
-bibliography: references.bib
 editor: 
   markdown: 
     wrap: sentence

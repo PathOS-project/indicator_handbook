@@ -14,10 +14,9 @@ affiliations:
 
 # Impact of Open Data in research {#impact-of-open-data-in-research .unnumbered}
 
-::: {}
+<div>
 
 ## History
-
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
@@ -25,11 +24,9 @@ affiliations:
 | 1.1     | 2023-07-19    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First draft | Petros Stavropoulos |
 
-
-:::
+</div>
 
 ## Description
-
 
 The impact of Open Data in research aims to capture the effect of making research data openly accessible and reusable on enhancing the reproducibility of research results, as open and accessible code is a cornerstone for verification and validation in science.
 
@@ -73,7 +70,7 @@ One limitation of Scopus is that the calculation of NCI from Scopus only conside
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
 Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the datasets has been introduced by the authors of the publication.
 
@@ -97,7 +94,6 @@ One potential limitation of this approach is that not all Open Datasets may be r
 
 ##### Datasources
 
-
 ###### Scopus
 
 [Scopus](https://www.scopus.com) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
@@ -108,7 +104,7 @@ One limitation of Scopus is that the calculation of NCI from Scopus only conside
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
+The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
 Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the datasets has been (re)used by the authors of the publication.
 
@@ -240,14 +236,8 @@ However, it is important to note that not all DMPs on Zenodo may contain informa
 
 ###### SciNoBo toolkit
 
-The SciNoBo toolkit (Gialitsis et al., 2022; Kotitsas et al., 2023) has a new component, currently undergoing evaluation, which involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in scientific text (i.e., the text of a DMP) and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the dataset has been (re)used by the authors of the DMP.
+The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] has a new component, currently undergoing evaluation, which involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in scientific text (i.e., the text of a DMP) and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the dataset has been (re)used by the authors of the DMP.
 
 To use the tool to measure the proposed metric, we can provide a collection of DMPs as input to the tool to extract all the datasets mentioned in the text, along with their metadata. We can then analyse them to identify which datasets have been reused by the authors of the DMP, as classified by the machine learning algorithms of the tool.
 
 One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the DMP. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
-
-## References
-
-Gialitsis, N., Kotitsas, S., & Papageorgiou, H. (2022). SciNoBo: A Hierarchical Multi-Label Classifier of Scientific Publications. *Companion Proceedings of the Web Conference 2022*, 800–809. <https://doi.org/10.1145/3487553.3524677>
-
-Kotitsas, S., Pappas, D., Manola, N., & Papageorgiou, H. (2023). SCINOBO: A novel system classifying scholarly communication in a dynamically constructed hierarchical Field-of-Science taxonomy. Frontiers in Research Metrics and Analytics, 8. https://www.frontiersin.org/articles/10.3389/frma.2023.1149834
