@@ -17,11 +17,9 @@ website:
 
   navbar:
     search: true
-    logo: theme/pathos-logo.png
-    logo-href: https://pathos-project.eu/
     left:
-    - text: "Introduction"
-      href: index.qmd
+    - text: "Causality"
+      href: causal_intro/article/intro-causality.qmd
     - text: "Open Science"
       href: indicator_templates/quarto/1_open_science/APC_costs.qmd
     - text: "Academic Impact"
@@ -38,6 +36,9 @@ website:
     - title: Home
       contents:
         - index.qmd
+
+    - title: Causality
+      contents:
         - causal_intro/article/intro-causality.qmd
 
     - title: Open Science
@@ -123,6 +124,7 @@ comments:
 format:
   html:
     toc: true
+    toc-expand: 3
     theme:
       - cosmo
       - theme/style.scss
