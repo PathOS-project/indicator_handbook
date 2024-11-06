@@ -35,3 +35,11 @@ We hope this handbook will be a central hub to keep track of Open Science relate
 | UNESCO       | United Nations Educational, Scientific and Cultural Organization | Specialized agency of the United Nations (UN) aimed at promoting world peace and security through international cooperation in education, sciences, culture, communication and information. |
 
 ## Acknowledgements {.unnumbered}
+
+This project has received funding from the European Union’s Horizon Europe framework programme under grant agreement No. 101058728. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency. Neither the European Union nor the European Research Executive Agency can be held responsible for them.
+
+## Citation {.unnumbered}
+
+Please cite the Open Science Indicator Handbook as follows:
+
+Grypari, I., Karasz, I., Klebel, T., Kormann, E., Manola, N., Papageorgiou, H., Stavropoulos, P., Stoy, L., van Leeuwen, T., Venturini, T., Waltman, L., Willemse, T., & Traag, V. (2023). PathOS - D2.1 - D2.2 - Open Science Indicator Handbook. Zenodo. DOI: [10.5281/zenodo.8305626](https://doi.org/10.5281/zenodo.8305626)
