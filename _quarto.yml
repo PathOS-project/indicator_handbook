@@ -137,3 +137,9 @@ bibliography: references.bib
 
 
 editor: visual
+
+license:
+  text: >
+    Open Science Indicator Handbook © 2024 by PathOS is licensed under CC BY 4.0
+  type: open-access
+  url: https://creativecommons.org/licenses/by/4.0/
