@@ -39,13 +39,13 @@ This indicator assesses the impact of OS inputs on medical guidelines, reflectin
 
 ### Number / Percentage of Medical Guidelines / Clinical Trials Referencing OS Inputs
 
-This metric represents the proportion of medical guidelines or clinical trials that include references to OA publications, datasets, or software. It operationalizes the indicator by providing a quantifiable measure of how oftenthey incorporate or acknowledge OS inputs. This metric is beneficial as it directly relates to the practical application of scientific research in clinical settings, demonstrating the real-world impact of open science.
+This metric represents the proportion of medical guidelines or clinical trials that include references to OA publications, datasets, or software. It operationalizes the indicator by providing a quantifiable measure of how often they incorporate or acknowledge OS inputs. This metric is beneficial as it directly relates to the practical application of scientific research in clinical settings, demonstrating the real-world impact of open science.
 
 However, a limitation is that it may not capture the quality or significance of the referenced OS inputs, which could be assessed by a more qualitative close reading of medical guidelines to examine the specific use they make of OS inputs. It also differs from other potential metrics that might focus on the impact of specific types of OS inputs (e.g., datasets vs. publications).
 
 #### Measurement.
 
-Measuring this metric involves a systematic approach to searching and analysing medical guidilines and clinical trials for mentions of OA publications, datasets, or software. This process, while straightforward in theory, is subject to several potential challenges and limitations.
+Measuring this metric involves a systematic approach to searching and analysing medical guidelines and clinical trials for mentions of OA publications, datasets, or software. This process, while straightforward in theory, is subject to several potential challenges and limitations.
 
 Firstly, the variation in referencing styles across different guidelines can make it difficult to accurately identify all relevant references. Additionally, the coverage of medical guidelines and clinical trials in available databases may not be comprehensive, leading to potential gaps in the data collected.
 
