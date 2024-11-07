@@ -32,6 +32,9 @@ zotero: PathOS
 editor: 
   markdown: 
     wrap: sentence
+
+code-fold: true
+code-summary: "Show the code"
 ---
 
 # Introduction
