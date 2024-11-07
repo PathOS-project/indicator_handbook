@@ -32,8 +32,6 @@ affiliations:
 
 ## Description
 
-Please describe what concept we aim to capture by this indicator. Please include a description of the indicator and how it could be used in practice.
-
 This family of indicators is meant to assesses the degree to open science projects fosters and are supported by collaborations with *actors outside the academia* – and in particular with
 
 1.  Civil society organisations
