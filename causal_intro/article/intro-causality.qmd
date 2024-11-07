@@ -902,16 +902,6 @@ The authors received funding from the European Union’s Horizon Europe framewor
 # Data and code availability {.unnumbered}
 All data and code, as well as a reproducible version of the manuscript, are available at [@klebel_code].
 
-# References {.unnumbered}
-
-```{=latex}
-\bibliographystyle{aipauth4-2-doi}
-\nocite{apsrev41Control}
-\bibliography{references.bib}
-\onecolumngrid
-\appendix
-```
-
 # Theoretical effect of Rigour on Reproducibility {.appendix #sec-appendix-rigour-on-reproducibility}
 
 There is a direct effect of *Rigour* on *Reproducibility* and a indirect effect, mediated by *Open data*.
