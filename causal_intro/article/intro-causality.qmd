@@ -456,12 +456,6 @@ We can estimate the total causal effect of *Rigour* on *Reproducibility* simply 
 
 $$\text{Reproducibility} \sim \text{Rigour}$$
 
-Since we simulated the data, we can calculate the "true" causal effect, which in this case is `r round(rigour_effect_on_reproducibility, 2)` (see [Appendix -@sec-appendix-rigour-on-reproducibility] for details).
-We can hence validate our regression approach and see if it is capable of correctly inferring the true causal effect.
-@fig-rigour-on-reproducibility shows that the regression approach is capable of retrieving the correct result.
-We deliberately chose a moderate sample size of `r nrow(df)` for our simulation.
-Point estimates derived from the simulated data thus only approximate the theoretical values.
-
 ```{r}
 # compute the theoretical effect of rigour on reproducibility
 field1 <- function(x) x * plogis(get_coefs("intercept", "open_data") + get_coefs("rigour", "open_data") * x + get_coefs("field", "open_data")[[1]]) * dnorm(x)
@@ -472,6 +466,12 @@ rigour_effect_on_reproducibility <- get_coefs("rigour", "reproducibility") + get
 m_rigour_reprod <- lm(reproducibility ~ rigour, data = df)
 # summary(m_rigour_reprod)
 ```
+
+Since we simulated the data, we can calculate the "true" causal effect, which in this case is `r round(rigour_effect_on_reproducibility, 2)` (see [Appendix -@sec-appendix-rigour-on-reproducibility] for details).
+We can hence validate our regression approach and see if it is capable of correctly inferring the true causal effect.
+@fig-rigour-on-reproducibility shows that the regression approach is capable of retrieving the correct result.
+We deliberately chose a moderate sample size of `r nrow(df)` for our simulation.
+Point estimates derived from the simulated data thus only approximate the theoretical values.
 
 ```{r rigour-on-reproducibility, fig.height=2.5, fig.width=4.5}
 #| label: fig-rigour-on-reproducibility
