@@ -83,6 +83,7 @@ website:
       contents:
         - section: Societal Impact
           contents:
+            - indicator_templates/quarto/3_societal_impact/introduction_societal_impact.qmd
             - indicator_templates/quarto/3_societal_impact/uptake_and_impact_on_societal_issues.qmd
             - indicator_templates/quarto/3_societal_impact/uptake_by_media.qmd
             - indicator_templates/quarto/3_societal_impact/scientific_literacy.qmd
