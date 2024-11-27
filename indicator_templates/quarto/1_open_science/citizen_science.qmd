@@ -211,6 +211,3 @@ The metrics described above refer to specific stages of the research process, bu
 -   The most straightforward way of measuring this is by the simple count of the number of steps in which citizens have been given a chance to be active.
 -   A less binary option is to define a scale of "citizen agency/participation" for each step and then compute the average value across the whole research protocol (see for instance the model proposed by [@gharesifard2017].
 
-##
-
-
