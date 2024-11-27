@@ -32,11 +32,11 @@ affiliations:
 
 ## Open Science Beyond Academia: An Exploration of Societal Uptake and Impact
 
-Open Science is increasingly recognized as essential for advancing academic research and industrial innovation and a series of indicators have been developed in PathOS and elsewhere to assess the scientific and economic impacts of Open Science (cover in two sections of this handbook). Understanding the full impact of Open Science, however, requires looking beyond the boundaries of academia and industry to examine how OS resonate in other societal sectors generating broader but subtler outcomes. This section of the handbook considers how a diversity stakeholders engage with Open Science, the challenges in measuring its influence, and the different approaches being taken to assess its real-world effects.
+Open Science is increasingly recognized as essential for advancing academic research and industrial innovation and a series of indicators have been developed in PathOS and elsewhere to assess the scientific and economic impacts of Open Science (covered in two sections of this handbook). Understanding the full impact of Open Science, however, requires looking beyond the boundaries of academia and industry to examine how OS resonates in other societal sectors generating broader but subtler outcomes. This section of the handbook considers how a variety of stakeholders engage with Open Science, the challenges in measuring its influence, and the different approaches being taken to assess its real-world effects.
 
-Societal impacts are arguably the trickiest effects to assess with a causal approach. Decades of research in the social sciences have shown that direct causal explanations are often simplistic and sometimes dangerously misleading. This does not mean, to be sure, that causality cannot be investigated when examining social phenomena, yet it does mean that extra-caution is necessary in order to draw conclusions that are respectful of the complexity of collective life.
+Societal impacts are arguably the trickiest effects to assess, and in particular to attribute causally to Open Science. Decades of research in the social sciences have shown that direct causal explanations are often simplistic and sometimes dangerously misleading. This does not mean, to be sure, that causality cannot be investigated when examining social phenomena, yet it does mean that extra caution is necessary in order to draw conclusions that are respectful of the complexity of collective life.
 
-There are at least three excellent why measuring *societal impacts* is a complex endeavour:
+There are at least three excellent points why measuring *societal impacts* is a complex endeavour:
 
 - Society is, by definition, a sort of residual and all-inclusive category which encompasses all dynamics that cannot be fitted into more specific sectors. As a consequence, societal phenomena are extremely complex and always associated with a multiplicity of causes. The effect of open science therefore cannot be forcedly separated from the other influencing factors (i.e., pretending that OS alone is responsible for this or that societal trend) and should, on the contrary, always be investigated in combination with a multiplicity of other influences.
 
@@ -49,21 +49,17 @@ As discussed in the **Uptake and Impact on Societal Issues** chapter, assessing 
 
 1. Defining societal issues and its desired solution in ways that respect their ontological multiplicity and consider diverse perspectives and potential controversies surrounding them.
 
-
 2. Monitoring issues evolution over short, medium and long-time, establishing robust and issue-specific qualitative and quantitative methods to track changes and ensure comparability across different time points.
-
 
 3. Investigating the availability of Open Science resources related to the issue, evaluating the quantity and quality of these resources and comparing them to non-open resources.
 
-
 4. Evaluating the mobilization of Open Science resources by actors engaged with the issue.
-
 
 5. Disentangling the impact of Open Science from other factors through comparative analysis across different issues, time periods, and geographical or social spaces, along with qualitative exploration to understand causality paths.
 
 This approach, obviously, cannot be resumed in a list of simple indicators and does not easily lend itself to a causality approach. These objective difficulties are recognized in the pages of the Handbook, which discuss questions related societal impacts but propose indicators that are oriented to assess societal *uptake*. Uptake research focuses on steps 3 and 4 of the approach described above and can be broadly defined as the extent to which different Open Science (OS from now on) resources (publications, data, software, etc.) are acknowledged and included by societal actors in their practices and discourses.
 
-A final note of caution should be raised regarding the particular sectors and dimensions considered in the pages of this handbook. The range of social phenomena is extremely wide-ranging and encompasses hundreds, if not thousands of different issues studied across the social sciences (e.g. income/wealth inequality, segregation, urbanisation, demographics, gender, education, urban planning, media and public debate). Covering all these issues is not possible (for obvious reasons of space), but also not necessarily desirable. For some societal phenomena, it is very difficult to establish any influence of science at all (irrespective of it being open or not), and so one way of trying to limit the scope of the handbook is to focus on those areas where we have some hope of tracing effects back to science.
+A final note of caution should be raised regarding the particular sectors and dimensions considered in the pages of this handbook. The range of social phenomena is extremely wide-ranging and encompasses hundreds, if not thousands of different issues studied across the social sciences (e.g. income/wealth inequality, segregation, urbanisation, demographics, gender, education, urban planning, media and public debate). Covering all these issues is not possible (for obvious reasons of space), but also not necessarily desirable. For some societal phenomena, it is very difficult to establish any influence of science at all (irrespective of it being open or not), and so we limited the scope of the handbook to focus on those areas where we have some hope of tracing connections back to science.
 
 The specific ways for carrying out this tracing exercise are, of course, different in different societal sectors and the chapters of this section describes them:
 
