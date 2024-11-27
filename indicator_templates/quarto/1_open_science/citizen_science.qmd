@@ -65,7 +65,7 @@ Citizen Science is possibly the most studied aspect of Open Science and one that
 Beyond direct project funding, the EU also supports citizen science through organizations such as the European Citizen Science Association (ECSA), which plays an important role as the hub for the scientific community using this approach [@vohland_citizen_2021]. 
 Founded in 2013 ECSA supports a network of citizen science initiatives, promoting high standards, shared methodologies, and collaboration opportunities. Its platform centralises training material, resources, and guidelines for citizen scientists. 
 
-In the United Kingdom a similar role has been played by the Open Air Laboratories (OPAL) since  2007. Focussing on environmental monitoring, OPAL promotes education and awareness.and has influenced national environmental policy and public awareness about air, soil, and water quality.
+In the United Kingdom a similar role has been played by the Open Air Laboratories (OPAL) since 2007. Focussing on environmental monitoring, OPAL promotes education and awareness and has influenced national environmental policy and public awareness about air, soil, and water quality.
 
 ## Existing data sources
 
