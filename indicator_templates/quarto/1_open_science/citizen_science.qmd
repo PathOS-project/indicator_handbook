@@ -60,7 +60,7 @@ This document describes a series of metrics to quantify (but also qualify) each 
 
 ## Open Science in European research programmes
 
-Citizen Science is possibly the most studied part of Open Science and one that has been heavily supported by the European Union in the FP7 and Horizon 2020 programs. At the time of writing (november 2024), a search for Citizen Science in the Cordis database (https://cordis.europa.eu) returns 93 programmes and 443 projects.
+Citizen Science is possibly the most studied aspect of Open Science and one that has been heavily supported by the European Union in the FP7 and Horizon 2020 programs. At the time of writing (November 2024), a search for Citizen Science in the Cordis database (https://cordis.europa.eu) returns 93 programmes and 443 projects.
 
 Beyond direct project funding, the EU also supports citizen science through organizations like the European Citizen Science Association (ECSA), which plays an important role as the hub for the scientific community using this approach [@vohland_citizen_2021]. 
 Founded in 2013 ECSA supports a network of citizen science initiatives, promoting high standards, shared methodologies, and collaboration opportunities. Its platform is centralize training material, resources, and guidelines for citizen scientists. 
