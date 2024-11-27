@@ -38,7 +38,7 @@ While there are many competing definitions of citizen science (also called parti
 
 The European Citizen Science Association ECSA [@citizen2018] published ten principles describing the citizen science approach and the first five constitute an excellent definition of this approach:
 
-1.  Citizen science projects actively involve citizens in scientific endeavors that generate new knowledge or understanding. Citizens may act as contributors, collaborators or as project leaders and have a meaningful role in the project.
+1.  Citizen science projects actively involve citizens in scientific endeavours that generate new knowledge or understanding. Citizens may act as contributors, collaborators or as project leaders and have a meaningful role in the project.
 2.  Citizen science projects have a genuine science outcome. For example, answering a research question or informing conservation action, management decisions or environmental policy.
 3.  Both the professional scientists and the citizen scientists benefit from taking part.
 4.  Citizen scientists may, if they wish, participate in multiple stages of the scientific process.
