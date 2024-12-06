@@ -69,6 +69,7 @@ website:
       contents:
         - section: Academic Impact
           contents:
+            - indicator_templates/quarto/2_academic_impact/introduction_academic_impact.md
             - indicator_templates/quarto/2_academic_impact/academic_readership.qmd
             - indicator_templates/quarto/2_academic_impact/citation_impact.qmd
             - indicator_templates/quarto/2_academic_impact/collaboration_intensity.qmd
