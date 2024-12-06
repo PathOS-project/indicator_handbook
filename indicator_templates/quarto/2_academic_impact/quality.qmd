@@ -1,0 +1,36 @@
+---
+author:
+    - name: V.A Traag
+      orcid: 0000-0003-3170-3879
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
+# Quality {#quality .unnumbered}
+
+<div>
+
+## History
+
+| Version | Revision date | Revision    | Author     |
+|---------|---------------|-------------|------------|
+| 1.0     | 2024-12-06    | First draft | V.A. Traag |
+
+</div>
+
+## Description
+
+Quality is a very complicated concept, and in the context of academic work, is very challenging to measure. To start with, it should be clarified what object is being considered, which could range from data to peer review. In most such cases, quality cannot be defined on the basis of any easily measurable data, and rather require some form of manual assessment.
+
+For the most traditional academic output, a scholarly publication, such a manual assessment is typically provided through peer review [@bornmann_scientific_2011]. Peer review is much discussed in science studies, and there are discussions about its reliability [@cole_chance_1981] and its biases [@lee_bias_2013], but also about its positive effects [@goodman_manuscript_1994] and complementaries [@goyal_causal_2024].
+
+Quality is typically considered to be a multidimensional concept [@aksnes2019], composed of various other concepts. For instance, in peer review of manuscripts submitted to journals, it is common to assess the novelty and the rigour of the manuscript. Yet even if quality is considered a multidimensional concept, in practice, quality is sometimes still considered to be a unidimensional. For example, in the [UK REF](https://www.ref.ac.uk/) research articles are assigned a number of stars, varying from "recognised nationally" (1 star) to "world-leading" (4 stars).
+
+In the context of exercises such as the UK REF there have also been discussions about the possibility to use citations as a proxy for quality. Indeed, there are substantial correlations between peer review results and citations, but this depends on the level of aggregation. At the individual paper level the correlation is typically low, yet at higher levels, such as institutional, the correlations are substantially higher [@traag_metrics_2023]. Overall, as summarised in the reputable "Metrics Tide" report [@wilsdon_metric_2015, viii], "Metrics should support, not supplant, expert judgement.", and this is particularly relevant at the individual paper level.
