@@ -33,6 +33,10 @@ One challenge is that we are typically interested in the use of “research soft
 
 This indicator can be useful to provide a more comprehensive view of the impact of the contributions by researchers. Some researchers might be more involved in publishing, whereas others might be more involved in developing and maintaining research software (and possibly a myriad other activities).
 
+### Connections to Reproducibility Indicators
+
+This indicator focuses on identifying and measuring the presence and contribution of code or software within research activities, providing insight into how these tools support the research process itself. In contrast, reproducibility-focused indicators such as [Reuse of Code in Research](https://handbook.pathos-project.eu/indicator_templates/quarto/5_reproducibility/reuse_of_code_in_research.html) examine the extent to which code or software is adopted and utilized in subsequent studies, reflecting its broader applicability, reusability and role in reproducibility. Additionally, the [Impact of Open Code in Research](https://handbook.pathos-project.eu/indicator_templates/quarto/5_reproducibility/impact_of_open_code_in_research.html) highlights the value of openly shared code or software in fostering transparency, collaboration, and validation across the scientific community.
+
 ## Metrics
 
 Most research software is not properly indexed. There are initiatives to have research software properly indexed and identified, such as the [Research Software Directory,](https://research-software-directory.org/) but these are far from comprehensive at the moment. Many repositories support uploading research software. For instance, Zenodo currently holds about 116,000 records of research software. However, there are also reports of the absence of support for including research software in repositories [@carlin2023].
