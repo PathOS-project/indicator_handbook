@@ -7,7 +7,7 @@ execute:
   freeze: true
 
 website:
-  title: Open Science Indicator Handbook
+  title: Open Science Impact Indicator Handbook
   reader-mode: true
 
   site-url: https://handbook.pathos-project.eu/
@@ -142,7 +142,7 @@ editor: visual
 
 license:
   text: >
-    Open Science Indicator Handbook © 2024 by PathOS is licensed under CC BY 4.0
+    Open Science Impact Indicator Handbook © 2024 by PathOS is licensed under CC BY 4.0
   type: open-access
   url: https://creativecommons.org/licenses/by/4.0/
 
@@ -189,7 +189,7 @@ citation:
       orcid: 0000-0001-8249-1752
     - name: T. Willemse
       orcid: 0000-0002-3778-8247
-  title: PathOS - D2.1 - D2.2 - Open Science Indicator Handbook
+  title: PathOS - D2.1 - D2.2 - Open Science Impact Indicator Handbook
   container-title: Zenodo
   issued: 2023
   doi: 10.5281/zenodo.8305626
