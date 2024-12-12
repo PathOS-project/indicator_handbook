@@ -45,6 +45,7 @@ website:
       contents:
         - section: Open Science
           contents:
+            - indicator_templates/quarto/1_open_science/introduction_open_science.qmd
             - indicator_templates/quarto/1_open_science/APC_costs.qmd
             - indicator_templates/quarto/1_open_science/availability_data_repositories.qmd
             - indicator_templates/quarto/1_open_science/availability_preprint_repositories.qmd
