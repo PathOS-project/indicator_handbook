@@ -66,7 +66,7 @@ PLOS also provides API's to search its database. This [page](https://api.plos.or
 
 ### Level of FAIRness of data
 
-Metrics on the level of FAIRness of data (sources) can support in establishing the prevalence of open/FAIR data practices. This metric attempts to show in a more nuanced manner where FAIR data practices are used and in some cases even to what extent they are used. Assessing whether or not a data source practices FAIR principles is not trivial with a quick glance, but there are initiatives that developed methodologies that assist to determine this for (a large number of) data sources.
+Metrics on the level of FAIRness of data (sources) can support in establishing the prevalence of open/FAIR data practices. This metric attempts to show in a more nuanced manner where FAIR data practices are used and in some cases even to what extent they are used. Assessing whether or not a data source practices FAIR principles is not trivial with a quick glance, but there are some initiatives that developed methodologies that assist to determine this for (a large number of) data sources.
 
 #### Measurement.
 
@@ -74,23 +74,19 @@ Metrics on the level of FAIRness of data (sources) can support in establishing t
 
 ###### Research Data Alliance
 
-The Research Data Alliance developed a [FAIR Data Maturity Model](https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0) that can help to assess whether or not data adheres to the FAIR principles. This document is not meant to be a normative model, but provide guidelines for informed assessment.
+The Research Data Alliance developed a FAIR Data Maturity Model [@group_fair_2020] that can help to assess whether or not data adheres to the FAIR principles. This document is not meant to be a normative model, but provide guidelines for informed assessment.
 
-The [document](https://www.rd-alliance.org/system/files/FAIR%20Data%20Maturity%20Model_%20specification%20and%20guidelines_v1.00.pdf) includes a set of indicators for each of the four FAIR principles that can be used to assess whether or not the principles are met. Each indicator is described in detail and its relevance is annotated (essential, important or useful). The model recommends to evaluate the maturity of each indicator with the following set of maturity categories:
+The FAIR Data Maturity Model includes a set of indicators for each of the four FAIR principles that can be used to assess whether or not the principles are met. Each indicator is described in detail and its relevance is annotated (essential, important or useful). The model recommends to evaluate the maturity of each indicator with the following set of maturity categories:
 
-0 – not applicable
-
-1 – not being considered yet
-
-2 – under consideration or in planning phase
-
-3 – in implementation phase
-
-4 – fully implemented
+0. Not applicable
+1. Not being considered yet
+2. Under consideration or in planning phase
+3. In implementation phase
+4. Fully implemented
 
 By following this methodology, one could assess to what extent the FAIR data practices are adhered to and create comprehensive overviews, for instance by showing the scores in radar charts.
 
-Data life cycle assessment
+###### Data life cycle assessment
 
 Determining the level of FAIR data practices can involve assessing how well data adheres to the FAIR principles at each stage of the data lifecycle, from creation to sharing and reuse [@jacob2019].
 
@@ -100,9 +96,13 @@ Evaluate adherence to FAIR principles at each stage: For each stage of the data 
 
 Determine the overall level of FAIR data practices: Once the scores for each principle and stage have been assigned, determine the overall level of FAIR data practices. This can be done by using a summary score that takes into account the scores for each principle and stage, or by assigning a level of FAIR data practices based on the average score across the principles and stages.
 
+###### Automated detection of FAIRness
+
+There are some attempts at trying to establish the FAIRness of data automatically. One such a tool, called F-UJI is available from <https://www.f-uji.net>, developed by @devaraju_f-uji_2024. The accuracy of the tool is not reported.
+
 ### Availability of data statement
 
-A data availability statement in a publication describes how the reader could get access to the data of the research. Having such a statement in place improves transparency on data availability and can thus be considered as an Open Data practice. However, having a data availability statement in place does not necessarily imply that the data is openly available or that it is more likely that the data can be shared [@gabelica2022]. Nevertheless, a description of how to access an Open Data repository, how to make a request for data access or an explanation why some data cannot be shared due to ethical considerations are all examples of Open Data practices that make data reuse more accessible and transparent [@federer2018]. The availability of a data statement can therefore be considered as an Open Data practice.
+A data availability statement in a publication describes how the reader could get access to the data of the research. Having such a statement in place improves transparency on data availability and can be considered as an Open Data practice. However, having a data availability statement in place does not necessarily imply that the data is openly available or that it is more likely that the data can be shared [@gabelica2022]. Nevertheless, a description of how to access an Open Data repository, how to make a request for data access or an explanation why some data cannot be shared due to ethical considerations are all examples of Open Data practices that make data reuse more accessible and transparent [@federer2018]. Indeed, even if data itself cannot be shared, metadata can typically be shared.
 
 #### Measurement
 
@@ -112,4 +112,4 @@ All PLOS journals require publications to include a data availability statement.
 
 ## Known correlates
 
-Some research suggests that openly sharing data is positively related to the citation rate of publications [@piwowar2007;@piwowar2013].
+Some research suggests that openly sharing data is positively related to the citation rate of publications [@piwowar2007; @piwowar2013].
