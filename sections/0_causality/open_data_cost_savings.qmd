@@ -3,7 +3,7 @@
 History (please fill out in reverse chronological order, latest revision on top):
 
 |  |  |  |  |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | Version | Revision date | Revision | Author |
 |  |  |  |  |
 | 1.3 | 2024-12-09 | Second draft | M. Scorrano, E. Delugas, G. Catalano (reviewer) |
@@ -31,8 +31,7 @@ As discussed in the general introduction on causal inference, we use DAGs to rep
 
 Figure 1: Hypothetical structural causal model on Open Data
 
-![Immagine che contiene testo, linea, diagramma, Carattere
-Descrizione generata automaticamente](figures/1d1cf98828cbe8eab6cfc7690c05d6db29154e28.png)
+![Immagine che contiene testo, linea, diagramma, Carattere Descrizione generata automaticamente](figures/1d1cf98828cbe8eab6cfc7690c05d6db29154e28.png)
 
 ## The effect of Open data on Cost Saving
 
@@ -44,8 +43,7 @@ To properly estimate the *total* causal effect of Open Data on Cost Saving, an e
 
 Figure 2: Misleading structural causal model on Open Data, conditioning on mediator (Time Saving)
 
-![Immagine che contiene testo, linea, schermata, diagramma
-Descrizione generata automaticamente](figures/f0d9bcfde3955951768ec4951070567661000e25.png)
+![Immagine che contiene testo, linea, schermata, diagramma Descrizione generata automaticamente](figures/f0d9bcfde3955951768ec4951070567661000e25.png)
 
 *Note: DAG illustrating the misleading effect of conditioning on the mediator variable, Time Saving. Nodes that are controlled for have a thick outline. Grey nodes represent variables not considered in this figure. Green nodes are open, indicating they allow associations or relationships to flow through them along the paths they connect, while orange nodes are closed, blocking associations or relationships from flowing through the paths they connect. Black arrows represent potential causal influence, whereas grey dashed arrows indicate indirect association that may involve non-causal relationship.*
 
@@ -63,19 +61,17 @@ Another case that makes not possible the identification of the causal effect is 
 
 Empirically speaking, in a model where to estimate the causal effect of Open Data on Cost savings we condition on Innovation (and not for Collaboration), it is likely to get a downward estimation of the causal effect, since both Collaboration and Open Data have a positive impact on Innovation. This conditioning opens up the non-causal pathway, Open Data → Innovation ← Collaboration → Cost Saving, which connect *Open Data* and *Cost Saving* through *Collaboration*, creating a spurious association and distorting the true effect of *Open Data* on *Cost Saving*. This is an example of *bad controls (*Angrist and Pischke 2009), a concept explained in the general introduction. Only by ignoring the collider, meaning non-conditioning on it in empirical models, we can effectively isolate the causal effect. This non-causal path is open because *Innovation* is open (because it is a collider that is conditioned on), and because *Collaboration* is open (because it is a confounder that is not conditioned on) (see Figure 3).
 
-[]{#_Ref182214498}Figure 3: Misleading structural causal model on Open Data, not conditioning on Collaboration (confounder) and Innovation (collider)
+Figure 3: Misleading structural causal model on Open Data, not conditioning on Collaboration (confounder) and Innovation (collider)
 
-![A diagram of cost saving and cost saving
-Description automatically generated](figures/26de0c31a0e5f229ff6935be961496367a3b6cd4.png)
+![A diagram of cost saving and cost saving Description automatically generated](figures/26de0c31a0e5f229ff6935be961496367a3b6cd4.png)
 
 Note: DAG illustrating the misleading effect of conditioning on a collider variable, *Innovation,* and not conditioning on a confounder, *Collaboration*. Nodes that are controlled for have a thick outline. Grey nodes represent variables not considered in this figure. Green nodes are open, indicating they allow associations or relationships to flow through them along the paths they connect, while orange nodes are closed, blocking associations or relationships from flowing through the paths they connect. Black arrows represent potential causal influence, whereas grey dashed arrows indicate indirect association that may involve non-causal relationship.
 
 In addition, *Collaboration* acts as a confounder on the non-causal path *Open data* ← *Collaboration* → *Cost saving*. To identify the causal effect, we hence need to close this non-causal path by conditioning on *Collaboration*. After controlling for Collaboration, whether *Innovation* is conditioned on is then irrelevant for the identification of the causal effect. When all non-causal paths are closed, the research design is said to meet the *backdoor* criterion, a formal requirement that ensures the design blocks all non-causal paths between the treatment (*Open Data*) and the outcome (*Cost Saving*), enabling us to identify the causal effect in question (Cunningham, 2021) (Figure 4).
 
-[]{#_Ref180136180}Figure 4: Hypothetical structural causal model on Open Data, conditioning on confounders and not on mediator and collider
+Figure 4: Hypothetical structural causal model on Open Data, conditioning on confounders and not on mediator and collider
 
-![A diagram of cost saving and standardisation
-Description automatically generated](figures/0558967f8b3c0c345051326ee1dea0137c4caf1e.png) Note: DAG illustrating the total effect *Open Data* on *Cost Saving*, conditioning on confounders and not on mediator and collider. Nodes that are controlled for have a thick outline. Green nodes are open, indicating they allow associations or relationships to flow through them along the paths they connect, while orange nodes are closed, blocking associations or relationships from flowing through the paths they connect. Black arrows represent potential causal influence, whereas grey dashed arrows indicate indirect association that may involve non-causal relationship.
+![A diagram of cost saving and standardisation Description automatically generated](figures/0558967f8b3c0c345051326ee1dea0137c4caf1e.png) Note: DAG illustrating the total effect *Open Data* on *Cost Saving*, conditioning on confounders and not on mediator and collider. Nodes that are controlled for have a thick outline. Green nodes are open, indicating they allow associations or relationships to flow through them along the paths they connect, while orange nodes are closed, blocking associations or relationships from flowing through the paths they connect. Black arrows represent potential causal influence, whereas grey dashed arrows indicate indirect association that may involve non-causal relationship.
 
 This example highlights key components of causal inference: controlling for confounders *(Data availability, quality and standardisation, User skills, Collaboration,* and *Technological Infrastructure*), not controlling for mediators *(Time saving),* and not controlling for colliders *(Innovation),* as shown in Figure 4*.* Constructing an appropriate DAG is important when aiming to draw causal conclusions. Without making assumptions explicit via a DAG, it would be unclear which variables should be controlled for and which not. Omitting important variables weakens the study's ability to draw accurate conclusions about cause and effect. Moreover, adding complexity to a DAG does not always change the variables that need to be controlled for when identifying the causal effect. In some cases, such as when adding confounders between unrelated variables, the identification of the relationship between Open data and Cost savings remains unaffected. However, if a confounder is introduced between Open data and Cost savings directly, it becomes necessary to control for it.
 
