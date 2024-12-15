@@ -29,7 +29,9 @@ affiliations:
 
 In today's data-driven era, the utilization of data has revolutionized the landscape of research across diverse fields and disciplines. Data serves as the lifeblood of modern research endeavors, empowering scholars to make informed decisions, and unveil patterns that were previously hidden. Whether in the realms of social sciences, business analytics, healthcare, or natural sciences, the role of data in research has transcended mere information-gathering; it has become the cornerstone upon which discoveries, innovations, and evidence-based conclusions are built.
 
-The open research data (ORD) movement within open science has advocated to make data more accessible and transparent to accelerate these developments in research [@quarati2022]. However, to assess whether or not these “open” measures are effective one needs insight in the use of data in research. Assessing data use is not straightforward though. It can for instance be ambiguous to assess when data is actually “used” and to quantify this. Moreover, definitions for data use vary across science and subsequently data use assessment methods do so as well [@pasquetto2017].
+The open research data (ORD) movement within open science has advocated to make data more accessible and transparent to accelerate these developments in research [@quarati2022]. However, to assess whether or not these "open" measures are effective one needs insight in the use of data in research. Assessing data use is not straightforward though. It can for instance be ambiguous to assess when data is actually "used" and to quantify this. Moreover, definitions for data use vary across science and subsequently data use assessment methods do so as well [@pasquetto2017].
+
+Sometimes a distinction is made between "reuse" and "use", where "reuse" refers explicitly to the use of openly released data, whereas "use" refers to the use of data more generally. We do not make such a distinction here.
 
 Nevertheless, this document attempts to summarize what indicators can be used to approximate data use in research.
 
@@ -45,7 +47,9 @@ The Number or percentage of times data is cited/mentioned in publications can be
 
 ###### Data repositories
 
-Data repositories tend to show citation information on the datasets they index. Examples of data repositories that provide this information are Zenodo, Figshare, Dryad, DataCite, Mendeley data, Dataverse and Harvard dataverse.
+Data repositories may show citation information on the datasets they index. Examples of data repositories that provide this information are Zenodo, Figshare, Dryad, DataCite, Mendeley data, Dataverse and Harvard dataverse.
+
+In particular, the Data Citation Corpus [@datacite_data_2024] by DataCite and Make Data Count, is currently one of the most comprehensive data citation corpus available, even if it is limited in scope. It is based on a similar approach developed originally by CZI to extract [software mentions](use_of_code_in_research.qmd#extract-software-mentions-from-full-text).
 
 ##### *Existing methodologies*
 
@@ -55,7 +59,7 @@ Based on the data citation information from data repositories one can compile a 
 
 [UsageCounts](https://usagecounts.openaire.eu/about) for data use by OpenAIRE aims to monitor and report how often research datasets hosted within OpenAIRE are accessed, downloaded, or used by the scholarly community. The service tracks various metrics related to data use in research among which are statistics on data views and downloads.
 
-Additionally, the [DataStet code package](https://github.com/kermitt2/datastet) can be used to find named and implicit research datasets from within the academic literature. DataStet extends from dataseer-ml to identify implicit and explicit dataset mentions in scientific documents. It automatically characterizes dataset mentions as used or created in the research work. The identified datasets are classified based on a hierarchy derived from MeSH. It can process various scientific article formats such as PDF, TEI, JATS/NLM, ScholarOne, BMJ, Elsevier staging format, OUP, PNAS, RSC, Sage, Wiley, etc. Docker is recommended to deploy and run the DataStet service. In the aforementioned link instructions are provided for pulling the Docker image and running the service as a container.
+Additionally, the \[``` datastet``](https://github.com/kermitt2/datastet) can be used to find named and implicit research datasets from within the academic literature. DataStet extends from [ ```dataseer-ml`](https://github.com/dataseer/dataseer-ml) to identify implicit and explicit dataset mentions in scientific documents, with DataSeer also contributing back to`datastet\`. It automatically characterizes dataset mentions as used or created in the research work. The identified datasets are classified based on a hierarchy derived from MeSH. It can process various scientific article formats such as PDF, TEI, JATS/NLM, ScholarOne, BMJ, Elsevier staging format, OUP, PNAS, RSC, Sage, Wiley, etc. Docker is recommended to deploy and run the DataStet service. In the aforementioned link instructions are provided for pulling the Docker image and running the service as a container.
 
 ###### Science resources
 
@@ -97,4 +101,4 @@ Based on the data retrieval information from the data repositories one can compi
 
 ###### Standardization protocols
 
-To combat the issue of standardization for the tracking of clicks/views/downloads of data use in research The COUNTER Code of Practice for Research Data gives guidance on how to standardize count systems for data use [@codeof]. The guidelines provided by The COUNTER Code of Practice for Research Data can be followed to make inquiries in data retrieval information more comparable among researchers.
+To combat the issue of standardization for the tracking of clicks/views/downloads of data use in research [The COUNTER Code of Practice for Research Data](https://www.countermetrics.org/code-of-practice/) gives guidance on how to standardize count systems for data use. The guidelines provided by The COUNTER Code of Practice for Research Data can be followed to make inquiries in data retrieval information more comparable among researchers.
