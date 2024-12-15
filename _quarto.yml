@@ -54,13 +54,12 @@ website:
             - indicator_templates/quarto/1_open_science/evaluation_open_science_in_research_assessment.qmd
             - indicator_templates/quarto/1_open_science/open_access_journals.qmd
             - indicator_templates/quarto/1_open_science/prevalence_open_access_publishing.qmd
-            - indicator_templates/quarto/1_open_science/open_science_training_facilities.qmd
             - indicator_templates/quarto/1_open_science/prevalence_national_open_science_policies.qmd
             - indicator_templates/quarto/1_open_science/prevalence_open_fair_data_practices.qmd
             - indicator_templates/quarto/1_open_science/prevalence_open_method_practices.qmd
             - indicator_templates/quarto/1_open_science/prevalence_open_peer_review.qmd
             - indicator_templates/quarto/1_open_science/prevalence_open_science_funding_policies.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_open_science_support.qmd
+            - indicator_templates/quarto/1_open_science/prevalence_OS_training_support.qmd
             - indicator_templates/quarto/1_open_science/prevalence_preprinting.qmd
             - indicator_templates/quarto/1_open_science/prevalence_replication_studies.qmd
             - indicator_templates/quarto/1_open_science/transformative_publishing_agreements.qmd
