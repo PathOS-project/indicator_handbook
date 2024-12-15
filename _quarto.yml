@@ -75,8 +75,7 @@ website:
             - indicator_templates/quarto/2_academic_impact/collaboration_intensity.qmd
             - indicator_templates/quarto/2_academic_impact/diversity.qmd
             - indicator_templates/quarto/2_academic_impact/extra-academic_collaboration.qmd
-            - indicator_templates/quarto/2_academic_impact/interdisciplinarity.qmd
-            - indicator_templates/quarto/2_academic_impact/novelty.qmd
+            - indicator_templates/quarto/2_academic_impact/interdisciplinarity_novelty.qmd
             - indicator_templates/quarto/2_academic_impact/quality.qmd
             - indicator_templates/quarto/2_academic_impact/use_of_code_in_research.qmd
             - indicator_templates/quarto/2_academic_impact/use_of_data_in_research.qmd
