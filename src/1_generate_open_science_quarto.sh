@@ -8,9 +8,9 @@ ROOT_DIR=$( realpath "${SCRIPT_DIR}/.." )
 
 # Then move to appropriate location
 mv "${ROOT_DIR}/sharepoint/WP2/Task 2.1 - Open science indicators/Indicator templates/"*.qmd \
-   "${ROOT_DIR}/quarto/1_open_science/"
+   "${ROOT_DIR}/sections/1_open_science/"
 
-(cd ${ROOT_DIR}/quarto/1_open_science/ # Change wd
+(cd ${ROOT_DIR}/sections/1_open_science/ # Change wd
 
        # from                                                          # to
     mv 'APC costs (OPENAIRE- ARC).qmd'                                 'APC_costs.qmd'

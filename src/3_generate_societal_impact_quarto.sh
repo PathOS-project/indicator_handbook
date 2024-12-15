@@ -8,9 +8,9 @@ ROOT_DIR=$( realpath "${SCRIPT_DIR}/.." )
 
 # Then move to appropriate location
 mv "${ROOT_DIR}/sharepoint/WP2/Task 2.3 - Societal impact indicators/Indicator templates/"*.qmd \
-   "${ROOT_DIR}/quarto/3_societal_impact/"
+   "${ROOT_DIR}/sections/3_societal_impact/"
 
-(cd ${ROOT_DIR}/quarto/3_societal_impact/ # Change wd
+(cd ${ROOT_DIR}/sections/3_societal_impact/ # Change wd
 
    # from                                       # to
    mv 'Scientific literacy.qmd'                 'scientific_literacy.qmd'
