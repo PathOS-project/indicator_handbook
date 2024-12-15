@@ -29,7 +29,7 @@ website:
     - text: "Economic Impact"
       href: sections/4_economic_impact/science_industry_collaboration.qmd
     - text: "Reproducibility"
-      href: reproducibility_intro.qmd
+      href: sections/5_reproducibility/introduction_reproducibility.qmd
 
   sidebar:
 
@@ -110,7 +110,7 @@ website:
       contents:
         - section: Reproducibility
           contents:
-            - reproducibility_intro.qmd
+            - sections/5_reproducibility/introduction_reproducibility.qmd
             - sections/5_reproducibility/consistency_in_reported_numbers.qmd
             - sections/5_reproducibility/impact_of_open_code_in_research.qmd
             - sections/5_reproducibility/impact_of_open_data_in_research.qmd
