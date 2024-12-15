@@ -19,15 +19,15 @@ website:
     search: true
     left:
     - text: "Causality"
-      href: causal_intro/article/intro-causality.qmd
+      href: sections/0_causality/causal_intro/article/intro-causality.qmd
     - text: "Open Science"
-      href: indicator_templates/quarto/1_open_science/APC_costs.qmd
+      href: sections/1_open_science/APC_costs.qmd
     - text: "Academic Impact"
-      href: indicator_templates/quarto/2_academic_impact/academic_readership.qmd
+      href: sections/2_academic_impact/academic_readership.qmd
     - text: "Societal Impact"
-      href: indicator_templates/quarto/3_societal_impact/uptake_and_impact_on_societal_issues.qmd
+      href: sections/3_societal_impact/uptake_and_impact_on_societal_issues.qmd
     - text: "Economic Impact"
-      href: indicator_templates/quarto/4_economic_impact/science_industry_collaboration.qmd
+      href: sections/4_economic_impact/science_industry_collaboration.qmd
     - text: "Reproducibility"
       href: reproducibility_intro.qmd
 
@@ -39,85 +39,86 @@ website:
 
     - title: Causality
       contents:
-        - causal_intro/article/intro-causality.qmd
+        - sections/0_causality/causal_intro/article/intro-causality.qmd
 
     - title: Open Science
       contents:
         - section: Open Science
           contents:
-            - indicator_templates/quarto/1_open_science/introduction_open_science.qmd
-            - indicator_templates/quarto/1_open_science/APC_costs.qmd
-            - indicator_templates/quarto/1_open_science/availability_data_repositories.qmd
-            - indicator_templates/quarto/1_open_science/availability_preprint_repositories.qmd
-            - indicator_templates/quarto/1_open_science/availability_publication_repositories.qmd
-            - indicator_templates/quarto/1_open_science/citizen_science.qmd
-            - indicator_templates/quarto/1_open_science/deposition_open_metadata.qmd
-            - indicator_templates/quarto/1_open_science/evaluation_open_science_in_research_assessment.qmd
-            - indicator_templates/quarto/1_open_science/open_access_journals.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_open_access_publishing.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_national_open_science_policies.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_open_fair_data_practices.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_open_method_practices.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_open_peer_review.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_open_science_funding_policies.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_OS_training_support.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_preprinting.qmd
-            - indicator_templates/quarto/1_open_science/prevalence_replication_studies.qmd
-            - indicator_templates/quarto/1_open_science/transformative_publishing_agreements.qmd
+            - sections/1_open_science/introduction_open_science.qmd
+            - sections/1_open_science/APC_costs.qmd
+            - sections/1_open_science/availability_data_repositories.qmd
+            - sections/1_open_science/availability_preprint_repositories.qmd
+            - sections/1_open_science/availability_publication_repositories.qmd
+            - sections/1_open_science/citizen_science.qmd
+            - sections/1_open_science/deposition_open_metadata.qmd
+            - sections/1_open_science/evaluation_open_science_in_research_assessment.qmd
+            - sections/1_open_science/open_access_journals.qmd
+            - sections/1_open_science/prevalence_open_access_publishing.qmd
+            - sections/1_open_science/prevalence_national_open_science_policies.qmd
+            - sections/1_open_science/prevalence_open_fair_data_practices.qmd
+            - sections/1_open_science/prevalence_open_method_practices.qmd
+            - sections/1_open_science/prevalence_open_peer_review.qmd
+            - sections/1_open_science/prevalence_open_science_funding_policies.qmd
+            - sections/1_open_science/prevalence_OS_training_support.qmd
+            - sections/1_open_science/prevalence_preprinting.qmd
+            - sections/1_open_science/prevalence_replication_studies.qmd
+            - sections/1_open_science/transformative_publishing_agreements.qmd
 
     - title: Academic Impact
       contents:
         - section: Academic Impact
           contents:
-            - indicator_templates/quarto/2_academic_impact/introduction_academic_impact.qmd
-            - indicator_templates/quarto/2_academic_impact/academic_readership.qmd
-            - indicator_templates/quarto/2_academic_impact/citation_impact.qmd
-            - indicator_templates/quarto/2_academic_impact/collaboration_intensity.qmd
-            - indicator_templates/quarto/2_academic_impact/diversity.qmd
-            - indicator_templates/quarto/2_academic_impact/extra-academic_collaboration.qmd
-            - indicator_templates/quarto/2_academic_impact/interdisciplinarity_novelty.qmd
-            - indicator_templates/quarto/2_academic_impact/quality.qmd
-            - indicator_templates/quarto/2_academic_impact/use_of_code_in_research.qmd
-            - indicator_templates/quarto/2_academic_impact/use_of_data_in_research.qmd
+            - sections/2_academic_impact/introduction_academic_impact.qmd
+            - sections/2_academic_impact/academic_readership.qmd
+            - sections/2_academic_impact/citation_impact.qmd
+            - sections/2_academic_impact/collaboration_intensity.qmd
+            - sections/2_academic_impact/diversity.qmd
+            - sections/2_academic_impact/extra-academic_collaboration.qmd
+            - sections/2_academic_impact/interdisciplinarity_novelty.qmd
+            - sections/2_academic_impact/novelty.qmd
+            - sections/2_academic_impact/quality.qmd
+            - sections/2_academic_impact/use_of_code_in_research.qmd
+            - sections/2_academic_impact/use_of_data_in_research.qmd
 
     - title: Societal Impact
       contents:
         - section: Societal Impact
           contents:
-            - indicator_templates/quarto/3_societal_impact/introduction_societal_impact.qmd
-            - indicator_templates/quarto/3_societal_impact/uptake_and_impact_on_societal_issues.qmd
-            - indicator_templates/quarto/3_societal_impact/uptake_by_media.qmd
-            - indicator_templates/quarto/3_societal_impact/scientific_literacy.qmd
-            - indicator_templates/quarto/3_societal_impact/uptake_by_policy_makers.qmd
-            - indicator_templates/quarto/3_societal_impact/uptake_by_patient_groups.qmd
-            - indicator_templates/quarto/3_societal_impact/uptake_in_education.qmd
-            - indicator_templates/quarto/3_societal_impact/uptake_in_medical_practice.qmd
-            - indicator_templates/quarto/3_societal_impact/uptake_in_the_legal_sector.qmd
+            - sections/3_societal_impact/introduction_societal_impact.qmd
+            - sections/3_societal_impact/uptake_and_impact_on_societal_issues.qmd
+            - sections/3_societal_impact/uptake_by_media.qmd
+            - sections/3_societal_impact/scientific_literacy.qmd
+            - sections/3_societal_impact/uptake_by_policy_makers.qmd
+            - sections/3_societal_impact/uptake_by_patient_groups.qmd
+            - sections/3_societal_impact/uptake_in_education.qmd
+            - sections/3_societal_impact/uptake_in_medical_practice.qmd
+            - sections/3_societal_impact/uptake_in_the_legal_sector.qmd
 
     - title: Economic Impact
       contents:
         - section: Economic Impact
           contents:
-            - indicator_templates/quarto/4_economic_impact/science_industry_collaboration.qmd
-            - indicator_templates/quarto/4_economic_impact/innovation_output.qmd
-            - indicator_templates/quarto/4_economic_impact/socially_relevant_products_and_processes.qmd
-            - indicator_templates/quarto/4_economic_impact/economic_growth_of_companies.qmd
-            - indicator_templates/quarto/4_economic_impact/labour_market_impacts.qmd
-            - indicator_templates/quarto/4_economic_impact/cost_savings.qmd
+            - sections/4_economic_impact/science_industry_collaboration.qmd
+            - sections/4_economic_impact/innovation_output.qmd
+            - sections/4_economic_impact/socially_relevant_products_and_processes.qmd
+            - sections/4_economic_impact/economic_growth_of_companies.qmd
+            - sections/4_economic_impact/labour_market_impacts.qmd
+            - sections/4_economic_impact/cost_savings.qmd
 
     - title: Reproducibility
       contents:
         - section: Reproducibility
           contents:
             - reproducibility_intro.qmd
-            - indicator_templates/quarto/5_reproducibility/consistency_in_reported_numbers.qmd
-            - indicator_templates/quarto/5_reproducibility/impact_of_open_code_in_research.qmd
-            - indicator_templates/quarto/5_reproducibility/impact_of_open_data_in_research.qmd
-            - indicator_templates/quarto/5_reproducibility/inclusion_in_systematic_reviews_or_meta-analyses.qmd
-            - indicator_templates/quarto/5_reproducibility/level_of_replication.qmd
-            - indicator_templates/quarto/5_reproducibility/polarity_of_publications.qmd
-            - indicator_templates/quarto/5_reproducibility/reuse_of_code_in_research.qmd
-            - indicator_templates/quarto/5_reproducibility/reuse_of_data_in_research.qmd
+            - sections/5_reproducibility/consistency_in_reported_numbers.qmd
+            - sections/5_reproducibility/impact_of_open_code_in_research.qmd
+            - sections/5_reproducibility/impact_of_open_data_in_research.qmd
+            - sections/5_reproducibility/inclusion_in_systematic_reviews_or_meta-analyses.qmd
+            - sections/5_reproducibility/level_of_replication.qmd
+            - sections/5_reproducibility/polarity_of_publications.qmd
+            - sections/5_reproducibility/reuse_of_code_in_research.qmd
+            - sections/5_reproducibility/reuse_of_data_in_research.qmd
 
 comments:
   hypothesis:
