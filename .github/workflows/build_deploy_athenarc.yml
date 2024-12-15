@@ -34,29 +34,29 @@ jobs:
       - name: (Causal intro) Setup R
         uses: r-lib/actions/setup-r@v2
         with:
-          working-directory: causal_intro
+          working-directory: sections/0_causality/causal_intro
           r-version: renv
 
       - name: (Causal intro) Setup renv
         uses: r-lib/actions/setup-renv@v2
         with:
-          working-directory: causal_intro
+          working-directory: sections/0_causality/causal_intro
 
       - name: (Causal intro) Cache targets
         id: cache-targets
         uses: actions/cache@v3
         with:
-          path: causal_intro/_targets
+          path: sections/0_causality/causal_intro/_targets
           key: ${{ runner.os }}-targets
 
       - name: (Causal intro) Build targets
         run: targets::tar_make(simulate)
         shell: Rscript {0}
-        working-directory: causal_intro
+        working-directory: sections/0_causality/causal_intro
 
       - name: (Causal intro) Render quarto
         run: quarto render
-        working-directory: causal_intro
+        working-directory: sections/0_causality/causal_intro
 
       - name: Render quarto project
         uses: quarto-dev/quarto-actions/render@v2
