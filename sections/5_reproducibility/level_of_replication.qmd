@@ -28,6 +28,7 @@ affiliations:
 
 | Version | Revision date | Revision    | Author                      |
 |---------|---------------|-------------|-----------------------------|
+| 1.3     | 2024-12-06    | Additions   | Eva Kormann                 |
 | 1.2     | 2023-08-30    | Revisions   | Eva Kormann & Thomas Klebel |
 | 1.1     | 2023-07-20    | Revisions   | Thomas Klebel               |
 | 1.0     | 2023-04-26    | First draft | Eva Kormann                 |
@@ -78,6 +79,10 @@ Many studies or projects on the topic of replicability pursue the goal of conduc
 
 Since multiple reperformed studies are needed to determine the percentage of successful replications, standalone replication attempts provide only limited information. Scoping reviews are one way to synthesize singular replication attempts to gain an overview and to estimate the percentage of successful replications more precisely. However, singular replication studies synthesized within a review might be inconsistent in their procedures and employ different measures of success, complicating synthesis or comparison.
 
+###### Automated tools
+
+Recently, automated tools have been developed and tested that are intended to discover replication studies and assess whether they were successful or not. Proposed approaches use text classification models to differentiate replications studies from original studies and to categorize them based on whether they were successful. However, performance of this approach is still too limited for fully automated use [@ruiter2023].
+
 ### Number (%) of studies reported to successfully replicate
 
 Replication attempts might not be published (especially in the case of repeated replications of the same study) and might for instance only be conducted internally within a research group. To gather information about these replications attempts, reports can be obtained from researchers about the total number of replications they attempt and the number of studies out of those that they were able to replicate.
@@ -110,7 +115,7 @@ There is no single data source for this metric. Data needs to be extracted from 
 
 ##### Existing methodologies:
 
-The following methodologies, namely surveys and prediction markets, are so far most often used in conjunction with each other. They also have been validated by subsequently conducting full replication studies.
+The following methodologies, namely surveys and prediction markets, are so far most often used in conjunction with each other. They also have been validated by subsequently conducting full replication studies. Automated tools have also been proposed but require further development.
 
 ###### Surveys
 
@@ -119,3 +124,7 @@ Experts (mainly researchers) can be asked in surveys about the probability they 
 ###### Prediction markets
 
 Prediction markets are used for trading bets on a certain outcome. The final market prices can then be taken as an indicator for the probability of an event. In the context of replicability, experts (mainly researchers) are given a budget to bet on studies they think will successfully replicate. The final market price is then a proxy for the probability of successful replication (reaching a previously defined replication criterion) that is estimated by the entire market. Prediction markets have been shown to reach accuracies higher than 70% for their predictions and to outperform surveys [@dreber2015; @forsell2019; @gordon2021]. However, prediction markets do not yet appear to be established as a standalone measure for levels of replication.
+
+###### Automated tools
+
+Algorithmic approaches have been proposed to predict whether a study can be replicated. These algorithms could be trained on historic examples of original studies and whether they were successfully replicated or not, to then classify other studies based on their text. However, first attempts have yielded only low performance, also due to a lack of sufficient training data [@ruiter2023].
