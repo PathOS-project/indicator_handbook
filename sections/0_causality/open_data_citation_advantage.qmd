@@ -41,7 +41,7 @@ Let us then consider factors that have a causal effect on the sharing of open da
 
 We can now consider the interactions between the various factors mentioned. For instance, institutional reputation is most likely to be associated with institutional resources (with the causality arguably going both ways dynamically over time, being mutually reinforcing). As another example, in some fields of science collaboration is more common, and reputation effects probably also play a role in collaboration. There are many other such examples. All considering, we then arrive at a structural causal diagram such as below.
 
-![](figures/21a09dd0e47d782dbdce32697ea333869cf996b9.jpg)[Miro board](https://miro.com/app/board/uXjVLFAZ5EM=/?share_link_id=863741786128)
+![Hypothesised structural causal model for the open data citation advantage.](figures/ODCA_model.png){#fig-ODCA-model}
 
 Many of the mentioned factors are confounding factors for identifying the causal effect of open data on citations. In addition, some variables function as a mediator, in particular, data reuse is likely to be a mediating factor. Some variables can also act as a collider (e.g. funding), so we should make sure to consider this when controlling for certain variables. For more background reading how to do this, see the [causality introduction](https://intro-causality).
 
