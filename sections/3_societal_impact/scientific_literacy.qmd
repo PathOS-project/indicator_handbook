@@ -4,10 +4,18 @@ author:
       orcid: 0000-0002-7331-4751
       affiliations:
       - ref: know
+    - name: E. Kormann
+      orcid: 0009-0005-5680-3659
+      affiliations:
+      - ref: tug
 
 affiliations:
 - id: know
   name: Know-Center
+  city: Graz
+  country: Austria
+- id: tug
+  name: Graz University of Technology
   city: Graz
   country: Austria
 ---
@@ -19,7 +27,7 @@ affiliations:
 ## History
 
 | Version | Revision date | Revision | Author |
-|----|----|----|----|
+|-----------------|-----------------|-----------------|--------------------|
 | 1.0 | 2024-12-06 | General revisions | Thomas Klebel |
 | 0.3 | 2024-12-03 | Extending sections on measurement | Eva Kormann |
 | 0.2 | 2024-02-27 | Review comments | Nicki Lisa Cole, Vincent Traag, Ioanna Grypari, Tommaso Venturi |
