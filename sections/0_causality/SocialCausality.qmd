@@ -1,6 +1,24 @@
-## Causality Research on the Social Impact of Open Science
+---
+author:
+    - name: T. Venturini
+      orcid: 0000-0003-0004-5308
+      affiliations:
+      - ref: cis-cnrs
+      - ref: ugen
 
-Tommaso Venturini
+affiliations:
+- id: cis-cnrs
+  name: Centre national de la recherche scientifique
+  department: Centre for Internet and Society
+  city: Paris
+  country: France
+- id: ugen
+  name: University of Geneva
+  city: Geneva
+  country: Switzerland
+---
+
+# Causality Research on the Social Impact of Open Science {#causality-societal-impact .unnumbered}
 
 In the social sciences, the notion of causality is fraught with debate and controversies. Social phenomena are so complex and multidimensional, that many social scientists have abandoned the project of identifying clear causality pathways and instead decided to focus on the thick description of collective interactions (especially in the tradition of qualitative research) or on the detection of strong and weak association between variables and metrics describing different social dimension (but always keeping in mind the mantra that ‘correlation is not causation’). It is key to note that acknowledging these difficulties does not mean pronouncing the impossibility of demonstrating that some societal trends and political decisions are beneficial to society and have tangible and measurable effects. It means, however, accepting that this type of demonstration will always be tentative, reliant on case studies and illustrations and impossible to disentangle with certainty all from all possible confounding factors.
 
@@ -18,8 +36,7 @@ To investigate it, we analysed the data contained in the connection logs of the 
 
 As shown in the Miro board below, the idea is to check the access status of the items published in the database – not only if they are open or not, but also the OS ‘colour’ (diamond, gold green) – as well as of the journals/conferences/books in which they appeared, and to check for interesting associations with the consultations from the IPs of academic or industrial organisations. Of course, at this extremely aggregate level, nothing very interesting can be observed, but our protocol continued to develop an interactive visualisation platform allowing to cross-filter our datasets, by meta-data associated with the items (disciplines, topics, year of publication, language, type of publication, etc.), as well by specific types of organization (e.g., financial or tech-related).
 
-![A diagram of a diagram
-Description automatically generated](figures/adc879eafe002f15cb9df17ccf3dccfaa789624b.png)
+![A diagram of a diagram Description automatically generated](figures/adc879eafe002f15cb9df17ccf3dccfaa789624b.png)
 
 This protocol, of course, is not free of biases and limits. The platforms included in our research do not cover all publications by French scholars (though they do cover a vast majority of them). Access events recorded in the logs are an imperfect proxy of reading and use, because users can click on a page by mistake and close it right away – though care was invested in detecting and excluding bots which represents a large part of internet traffic. Finally, only large public and private organizations have stable and known IP ranges, which means that just about 20% of the IP tracked in the logs can be qualified. Still, the approach helped us and, more crucially, our partners in the three portals obtain new insights about the use of their websites and not only in an aggregated way but also drilling down to the individual publications that may have a remarkable visibility, for example being highly consulted by industrial organisations. Even more importantly maybe, our work has allowed creating an open-source middleware compatible with hundreds of OS platforms and now available to major French and foreign OS actors.
 
