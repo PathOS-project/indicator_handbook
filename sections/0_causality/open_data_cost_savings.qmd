@@ -1,3 +1,20 @@
+---
+author:
+    - name: Marla Scorrano
+      affiliations:
+      - ref: csil
+    - name: E. Delugas
+      orcid: 0009-0000-4638-1062
+      affiliations:
+      - ref: csil
+
+affiliations:
+- id: csil
+  name: Centre for Industrial Studies
+  city: Milan
+  country: Italy
+---
+
 # The effect of Open Data on cost savings {#the-effect-of-open-data-on-cost-savings .unnumbered}
 
 History (please fill out in reverse chronological order, latest revision on top):
