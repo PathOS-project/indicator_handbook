@@ -1,5 +1,5 @@
 ---
-title: "Causality in science studies"
+title: "Introduction to causality"
 author: 
   - name: Thomas Klebel
     orcid: 0000-0002-7331-4751
