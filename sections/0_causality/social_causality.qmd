@@ -20,6 +20,17 @@ affiliations:
 
 # Causality Research on the Social Impact of Open Science {#causality-societal-impact .unnumbered}
 
+<div>
+
+## History
+
+| Version | Revision date | Revision    | Author       |
+|---------|---------------|-------------|--------------|
+| 1.0     | 2024-11-30    | First draft | T. Venturini |
+
+</div>
+
+
 In the social sciences, the notion of causality is fraught with debate and controversies. Social phenomena are so complex and multidimensional, that many social scientists have abandoned the project of identifying clear causality pathways and instead decided to focus on the thick description of collective interactions (especially in the tradition of qualitative research) or on the detection of strong and weak association between variables and metrics describing different social dimension (but always keeping in mind the mantra that ‘correlation is not causation’). It is key to note that acknowledging these difficulties does not mean pronouncing the impossibility of demonstrating that some societal trends and political decisions are beneficial to society and have tangible and measurable effects. It means, however, accepting that this type of demonstration will always be tentative, reliant on case studies and illustrations and impossible to disentangle with certainty all from all possible confounding factors.
 
 This is particularly true for the social impacts of open science (OS) and science *tout court*. While policies that intervene directly on a specific social trend can be evaluated against their direct outcome (e.g. the impact of a tax break for newborns can be straightforwardly measured by the variation of natality rates), the promotion and funding of open science can have only indirect and diffuse social effects. OS policies, of course, may have direct impacts on scientific *productivity*, which, as described in other sections of this handbook, can be gauged by measuring scientific productions (e.g. publications, patents, research projects submitted or obtained, scientific employment...). The *social* impacts of OS, however, will be almost by definition indirect.
