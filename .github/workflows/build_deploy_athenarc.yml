@@ -29,7 +29,9 @@ jobs:
         run: quarto check
 
       - name: (Causal intro) Install system dependencies
-        run: sudo apt install -y libglpk40 libpoppler-cpp-dev poppler-data libjpeg-dev libmagick++-dev libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev
+        run: |
+          sudo apt update
+          sudo apt install -y libglpk40 libpoppler-cpp-dev poppler-data libjpeg-dev libmagick++-dev libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev
 
       - name: (Causal intro) Setup R
         uses: r-lib/actions/setup-r@v2
