@@ -1,0 +1,54 @@
+---
+author:
+    - name: T. Venturini
+      orcid: 0000-0003-0004-5308
+      affiliations:
+      - ref: cis-cnrs
+      - ref: ugen
+
+affiliations:
+- id: cis-cnrs
+  name: Centre national de la recherche scientifique
+  department: Centre for Internet and Society
+  city: Paris
+  country: France
+- id: ugen
+  name: University of Geneva
+  city: Geneva
+  country: Switzerland
+---
+
+# Causality Research on the Social Impact of Open Science {#causality-societal-impact .unnumbered}
+
+<div>
+
+## History
+
+| Version | Revision date | Revision    | Author       |
+|---------|---------------|-------------|--------------|
+| 1.0     | 2024-11-30    | First draft | T. Venturini |
+
+</div>
+
+
+In the social sciences, the notion of causality is fraught with debate and controversies. Social phenomena are so complex and multidimensional, that many social scientists have abandoned the project of identifying clear causality pathways and instead decided to focus on the thick description of collective interactions (especially in the tradition of qualitative research) or on the detection of strong and weak association between variables and metrics describing different social dimension (but always keeping in mind the mantra that 'correlation is not causation'). It is key to note that acknowledging these difficulties does not mean pronouncing the impossibility of demonstrating that some societal trends and political decisions are beneficial to society and have tangible and measurable effects. It means, however, accepting that this type of demonstration will always be tentative, reliant on case studies and illustrations and impossible to disentangle with certainty all from all possible confounding factors.
+
+This is particularly true for the social impacts of open science (OS) and science *tout court*. While policies that intervene directly on a specific social trend can be evaluated against their direct outcome (e.g. the impact of a tax break for newborns can be straightforwardly measured by the variation of natality rates), the promotion and funding of open science can have only indirect and diffuse social effects. OS policies, of course, may have direct impacts on scientific *productivity*, which, as described in other sections of this handbook, can be gauged by measuring scientific productions (e.g. publications, patents, research projects submitted or obtained, scientific employment, ...). The *social* impacts of OS, however, will be almost by definition indirect.
+
+Even if we were to imagine a perfect quasi-laboratory setting in which two similar scientific items – let's say two papers documenting the same connection between gender parity in classroom and school grades – were to be published in two different countries respectively under an open and a close license, their differential social outcome will still be indirect. The papers would have to obtain some prominence among education decision makers (probably after having been discovered and pushed by education activists or experts), make their way into school regulations, be actually implemented into schools, before their final societal impact (the amelioration of school grades) can be measured. And this is true even in the unlikely case in which the two countries of the experiments were perfectly comparable under all relevant respect and sufficiently separated so that the two publications cannot have effects in both at the same time. Not to mention the dozens, if not hundreds, of confounding factors affecting school grades.
+
+As this deliberately reductive example illustrates and as the scoping review carried out by the PathOS project demonstrated in much more detail [@cole_societal_2024], societal impact is better through of as a process than as an outcome: scientific resources may create awareness, which may affect attitude and beliefs, which may encourage mobilization, which may inspire transformation in policies or behaviours, which may lead to social change. While the complexity of this causal chain is humbling, it also suggests a possible solution to the conundrum of causality study: to break down an impossibly complex process in its composing links and consider each of them separately. Note that the purpose of a decomposition exercise is not necessarily to recompose everything at the end. This may be possible in some fortunate and relatively simple cases, but it will likely be impossible for most social trends, because some links will be impossible to study or fraught with confounding factors. Nonetheless, the value of examining each causal link persists. Yes, this approach will not yield indisputable and quantified evidence of a causal connection between OS and its social benefits, but it will provide a series of fragments of evidence that can help build trust in the value of OS and support for its funding.
+
+This approach is dominant in the scholarship on OS and is therefore not surprising that PathOS scoping review [@cole_societal_2024] found that the largest majority (83%) of the literature published on the social impacts of OS focuses on citizen science. While citizen science is unquestionably a very important part of OS, its prominence in the literature is also due to the fact that its effects on the education and awareness (itself the most studied type of impact – 57%) of its participants represent a precisely defined segment of the chain of causality.
+
+This approach is also illustrated by the French case study of the PathOS project. In this case study, we examined the very first step of the causality chain – the consultation of the OS resources – by collaborating with the three main OS platforms the make them available in France: HAL (the national OS repository for academic publications), OpenEdition (a large public publishing services specialized in open science), and [Recherche Data Gouv](https://recherche.data.gouv.fr/) (the open dataset portal created by the French government). Over the past decade in France, the three OS platforms have received significant public funding, and researchers have been increasingly incentivized to publish their work through them. For instance, the total amount of deposits in HAL has gone from 500k in 2010 to 3.5M in 2024. So far, however, little is known about the use of these scientific resources. Who are the main private and public organizations using these platforms? When are these platforms used the most and why? Who are the websites referring to these platforms, and how are they connected? Understanding this first step in the lifecycle and causality circle of OS is crucial as it is the comparison with the non-open resource contained in HAL (where researchers are encouraged and sometimes required to deposit both OS resources as well as references to their non-OS publications).
+
+To investigate it, we analysed the data contained in the connection logs of the three portals. We focussed, in particular, on the IP address from which the different resources were accessed. We enriched this log information with DOI-based data extracted from *OpenAlex* API – to qualify the resources (type, field, OS status, number of citations, ...) – and with IP-address-based data from [IPinfo.io](https://ipinfo.io/) and a hand-curated database – to qualify the users (geolocation, organisational affiliation, ...). This approach allows us to investigate which resources are accessed the most, when and by users affiliated (through the IP addresses) to which types of organization.
+
+As shown in the diagram below, the idea is to check the access status of the items published in the database – not only if they are open or not, but also the OS 'colour' (diamond, gold green) – as well as of the journals/conferences/books in which they appeared, and to check for interesting associations with the consultations from the IPs of academic or industrial organisations. Of course, at this extremely aggregate level, nothing very interesting can be observed, but our protocol continued to develop an interactive visualisation platform allowing to cross-filter our datasets, by meta-data associated with the items (disciplines, topics, year of publication, language, type of publication, etc.), as well by specific types of organization (e.g., financial or tech-related).
+
+![Diagram of Open Access](figures/social_diagram.png)
+
+This protocol, of course, is not free of biases and limits. The platforms included in our research do not cover all publications by French scholars (though they do cover a vast majority of them). Access events recorded in the logs are an imperfect proxy of reading and use, because users can click on a page by mistake and close it right away – though care was invested in detecting and excluding bots which represents a large part of internet traffic. Finally, only large public and private organizations have stable and known IP ranges, which means that just about 20% of the IP tracked in the logs can be qualified. Still, the approach helped us and, more crucially, our partners in the three portals obtain new insights about the use of their websites and not only in an aggregated way but also drilling down to the individual publications that may have a remarkable visibility, for example being highly consulted by industrial organisations. Even more importantly maybe, our work has allowed creating an open-source middleware compatible with hundreds of OS platforms and now available to major French and foreign OS actors.
+
+This case study, we believe, illustrates that the difficulty in defining a clear and straightforwardly quantifiable causality path does not prevent from studying the societal effects of OS with a more exploratory and case-study-based approach. Yes, such an approach will not deliver yes-or-no answers, but this is not only and arguably not the most important contribution that social research can offer. Instead, another approach to causality research consists in collaborating with public institutions to develop practical and conceptual tools that they can use to explore the always uncertain yet not unintelligible ways in which social phenomena unfold. In the case of the societal impacts of OS, this means for example, joining forces with the organizations that promote this type of science and helping them to make sense of the information that they collect in order to acquire a better understanding of the impacts generated by their work.
