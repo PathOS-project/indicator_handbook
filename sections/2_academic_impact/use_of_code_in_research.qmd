@@ -27,9 +27,11 @@ affiliations:
 
 ## Description
 
-Many, if not most, scientific analyses involve the use of code or software in one way or another. Code and software can be used for data handling, statistical estimation, visualisation, or various other tasks. Both open-source and closed-source software may be used for research. For instance, MATLAB and Mathematica are two commercial software packages that may be used in research, whereas Octave and SageMath are open-source alternatives. We here try to provide metrics that can serve as an indicator of the use of code in research, where “code” refers to any type of software (e.g. computer library, tool, package) or any set of computer instructions (e.g. like an R or Python script) used in the research cycle.
+Many, if not most, scientific analyses involve the use of code or software in one way or another. Code and software can be used for data handling, statistical estimation, visualisation, or various other tasks. Both open-source and closed-source software may be used for research. For instance, MATLAB and Mathematica are two commercial software packages that may be used in research, whereas Octave and SageMath are open-source alternatives. We here try to provide metrics that can serve as an indicator of the use of code in research, where "code" refers to any type of software (e.g. computer library, tool, package) or any set of computer instructions (e.g. like an R or Python script) used in the research cycle.
 
-One challenge is that we are typically interested in the use of “research software”, not in all software per se. Defining what this encompasses is not straightforward. [@gruenpeter2021] defines it as code “that \[was\] created during the research process or for a research purpose. Software components (e.g., operating systems, libraries, dependencies, packages, scripts, etc.) that are used for research but were not created during or with a clear research intent should be considered software in research and not Research Software” (Gruenpeter et al., 2021, p. 16) As this clarifies, this might also involve the creation of new software that is released for other researchers to work with., However, this is not considered in this indicator, but in the indicator on open code. Almost any code depends on other code to work properly. Some of these dependencies might constitute research software themselves, but this is not necessarily the case. Instead of trying to classify software as “research software” or not, we will take a more agnostic approach in the description of this indicator, and simply try to describe approaches to uncover the use of some code in research, regardless of whether it constitutes “research software” or not.
+One challenge is that we are typically interested in the use of "research software", not in all software per se. Defining what this encompasses is not straightforward. [@gruenpeter2021] defines it as code "that \[was\] created during the research process or for a research purpose. Software components (e.g., operating systems, libraries, dependencies, packages, scripts, etc.) that are used for research but were not created during or with a clear research intent should be considered software in research and not Research Software" [@gruenpeter2021, p. 16]. As this clarifies, this might also involve the creation of new software that is released for other researchers to work with., However, this is not considered in this indicator, but in the indicator on open code. Almost any code depends on other code to work properly. Some of these dependencies might constitute research software themselves, but this is not necessarily the case. Instead of trying to classify software as "research software" or not, we will take a more agnostic approach in the description of this indicator, and simply try to describe approaches to uncover the use of some code in research, regardless of whether it constitutes "research software" or not.
+
+Sometimes a distinction is made between "reuse" and "use", where "reuse" refers explicitly to the use of openly released software, whereas "use" refers to the use of software more generally. We do not make such a distinction here.
 
 This indicator can be useful to provide a more comprehensive view of the impact of the contributions by researchers. Some researchers might be more involved in publishing, whereas others might be more involved in developing and maintaining research software (and possibly a myriad other activities).
 
@@ -39,7 +41,7 @@ This indicator focuses on identifying and measuring the presence and contributio
 
 ## Metrics
 
-Most research software is not properly indexed. There are initiatives to have research software properly indexed and identified, such as the [Research Software Directory,](https://research-software-directory.org/) but these are far from comprehensive at the moment. Many repositories support uploading research software. For instance, Zenodo currently holds about 116,000 records of research software. However, there are also reports of the absence of support for including research software in repositories [@carlin2023].
+Most research software is not properly indexed. There are initiatives to have research software properly indexed and identified, such as the [Research Software Directory,](https://research-software-directory.org/) but these are far from comprehensive at the moment, and is the topic of ongoing research [@malviya-thakur_scicat_2023]. Many repositories support uploading research software. For instance, Zenodo currently holds about 116,000 records of research software. However, there are also reports of the absence of support for including research software in repositories [@carlin2023].
 
 ### Number of times code is cited/mentioned in scientific publications
 
@@ -49,9 +51,9 @@ The biggest limitation is that not all researchers report all research software 
 
 In addition, software might not be cited explicitly, and instead the paper associated with the software might be cited. The association between papers and software can be retrieved in various ways. Sometimes, software repositories are mentioned in papers, while vice-versa, the software repository may include citation information. This may take various forms, such as a [`CITATION.cff`](https://citation-file-format.github.io/) file in a GitHub repository, or a [`CITATION`](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/citation.html) file in an R package. The association between papers and code is also being tracked by <https://paperswithcode.com/>. However, it is difficult to distinguish between citations to a publication for the software it introduced, or other advances made in the paper. Nonetheless, it might be relevant to combine citations statistics to the paper with explicit citations or mentions of the research software.
 
-Measurement.
+#### Measurement
 
-##### Existing datasources:
+##### Existing datasources
 
 ###### Bibliometric databases
 
@@ -63,9 +65,11 @@ Not all bibliometric databases actively track research software, and therefore n
 
 ###### Extract software mentions from full text
 
-Especially because of the limited explicit references to software, it is important to also explore other possibilities to track the use of code in research. One possibility is to try to extract the mentions of a software package or tool from the full-text. This is done by [@istrate] who have trained a machine learning model to extract references to software from full-text. They rely on the manual annotation of software mentions in PDFs by [@du2021]. The resulting dataset of software mentions is available from <https://doi.org/10.5061/dryad.6wwpzgn2c>.
+Especially because of the limited explicit references to software, it is important to also explore other possibilities to track the use of code in research. One possibility is to try to extract the mentions of a software package or tool from the full-text. This is done by [@istrate] who have trained a machine learning model to extract references to software from full-text. They rely on the manual annotation of software mentions in PDFs by [@du2021]. The resulting dataset of software mentions is made available publicly [@istrate_cz_2022].
 
 Although the dataset of software mentions might provide a useful resource, it is a static dataset, and at the moment, there do not yet seem to be initiative to continuously monitor and scan the full-text of publications. Additionally, its coverage is limited to mostly biomedical literature. For that reason, it might be necessary to run the proposed machine learning algorithm itself. The code is available from <https://github.com/chanzuckerberg/software-mention-extraction>.
+
+A common "gold standard" dataset for training software mention extraction from full text is the so-called SoftCite dataset [@howison_softcite_2023].
 
 ### Repository statistics (# Forks/Clones/Stars/Downloads/Views)
 
@@ -75,7 +79,7 @@ There are some clear limitations to this approach. Firstly, not all research sof
 
 The most common version control system at the moment is [Git](https://git-scm.com/), which itself is open-source. There are other version control systems, such as Subversion or Mercurial, but these are less popular. The most common platform on which Git repositories are shared is GitHub, which is not open-source itself. There are also other repository platforms, such as [CodeBerg](https://codeberg.org/) (built on [Forgejo](https://forgejo.org/)) and [GitLab](https://gitlab.com/), which are themselves open-source, but they have not yet managed to reach the popularity of GitHub. We therefore limit ourselves to describing GitHub, although we might extend this in the future.
 
-#### Measurement.
+#### Measurement
 
 We propose three concrete metrics based on the GitHub API: the number of forks, the number of stars and the number of downloads of releases. There are additional metrics about traffic available from [GitHub API metrics](https://docs.github.com/en/rest/metrics), but these unfortunately require permissions from a specific repository.\
 
@@ -83,7 +87,7 @@ We propose three concrete metrics based on the GitHub API: the number of forks, 
 
 ###### Forks/Stars (GitHub API)
 
-On GitHub, people can make a personal copy of a repository, which is called a fork. In addition, they can “star” a repository, in order to "save” it in their list of “favourite” repositories. The number of forks of a repository hence provides a metric of how many people have made personal copies of a repository, and the number of stars provides a metric of how many people have marked it as a “favourite”.
+On GitHub, people can make a personal copy of a repository, which is called a fork. In addition, they can "star" a repository, in order to "save" it in their list of "favourite" repositories. The number of forks of a repository hence provides a metric of how many people have made personal copies of a repository, and the number of stars provides a metric of how many people have marked it as a "favourite".
 
 The calculation of the number of forks and the number of stars is really straightforward. For a particular `repo` from a particular `owner`, one can get the count from <https://api.github.com/repos/owner/repo>. For instance, for the repository `openalex-guts` from `ourresearch`, one can get the information from the URL [https://api.github.com/repos/ourresearch/openal](https://api.github.com/repos/ourresearch/openalex-guts)ex-guts. The number of forks are then listed in the field `forks_count` and the number of starts are listed in `stargazers_count`. See the API documentation for more details.
 

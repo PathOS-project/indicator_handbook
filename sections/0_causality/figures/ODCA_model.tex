@@ -1,0 +1,63 @@
+\documentclass[tikz]{standalone}
+
+\input{figure.tex}
+\input{styling.tex}
+
+\usetikzlibrary{calc}
+
+\begin{document}
+    \begin{tikzpicture}[x=100,y=100,
+                        every node/.style={n square},
+                        every edge/.style={e}]
+
+      \node (OD policy)                at (-2,0.5) {OD policy};
+      \node (open data)                at (-1.1,0.5) {open data};
+      \node (citations)                at (0.1,0.5) {citations};
+      \node (collaboration)            at (1.3,0.5) {collaboration};
+
+      \node (data reuse)               at (0.1,1.1) {data reuse};
+      \node (institutional reputation) at (1.3,1.5) {institutional reputation};
+      \node (funding)                  at (-2,1.5) {funding};
+      \node (institutional resources)  at (-0.3,1.7) {institutional resources};
+      \node (quality)                  at (-1.1,1.1) {quality};
+
+      \node (author reputation)        at (1.3,-0.4) {author reputation};
+      \node (publication year)         at (-1.1,-0.4) {publication year};
+      \node (field)                    at (0.1,-0.4) {field};
+      \node (journal)                  at (-2,-0.4) {journal};
+
+      \begin{scope}[on background layer]
+        \draw[->]
+          (funding)                  edge (OD policy)
+          (funding)                  edge (open data)
+          (funding)                  edge[out=0,in=130] (collaboration)
+          (OD policy)                edge (open data)
+          (open data)                edge (data reuse)
+          (open data)                edge (citations)
+          (author reputation)        edge (citations)
+          (author reputation)        edge (collaboration)
+          (collaboration)            edge (citations)
+          (data reuse)               edge (citations)
+          (institutional reputation) edge (citations)
+          (institutional reputation) edge (collaboration)
+          (institutional reputation) edge (funding)
+          (institutional reputation) edge (institutional resources)
+          (institutional resources)  edge (open data)
+          (publication year)         edge (open data)
+          (publication year)         edge (citations)
+          (publication year)         edge (collaboration)
+          (field)                    edge (open data)
+          (field)                    edge (citations)
+          (field)                    edge (collaboration)
+          (field)                    edge[out=170,in=-70] (funding)
+          (journal)                  edge (OD policy)
+          (journal)                  edge (citations)
+          (quality)                  edge (data reuse)
+          (quality)                  edge (open data)
+          (quality)                  edge (citations)
+          (quality)                  edge (funding);
+      \end{scope}
+
+  \end{tikzpicture}
+
+\end{document}

@@ -8,9 +8,9 @@ ROOT_DIR=$( realpath "${SCRIPT_DIR}/.." )
 
 # Then move to appropriate location
 mv "${ROOT_DIR}/sharepoint/WP2/Task 2.5 - Reproducibility/Indicator templates/"*.qmd \
-   "${ROOT_DIR}/quarto/5_reproducibility/"
+   "${ROOT_DIR}/sections/5_reproducibility/"
 
-(cd ${ROOT_DIR}/quarto/5_reproducibility/ # Change wd
+(cd ${ROOT_DIR}/sections/5_reproducibility/ # Change wd
 
        # from                                                 # to
     mv 'Consistency in reported numbers.qmd'                  'consistency_in_reported_numbers.qmd'

@@ -1,0 +1,30 @@
+---
+author:
+    - name: V.A Traag
+      orcid: 0000-0003-3170-3879
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
+# Introduction to Open Science {#intro-OS .unnumbered}
+
+<div>
+
+## History
+
+| Version | Revision date | Revision    | Author     |
+|---------|---------------|-------------|------------|
+| 1.0     | 2024-12-12    | First draft | V.A. Traag |
+
+</div>
+
+We here cover various aspects of Open Science. This section aims to cover most aspects of Open Science, ranging from infrastructure to policies and practices. All these aspects are somehow relevant for Open Science, and whereas some indicators capture aspects relevant in supporting Open Science (e.g. infrastructure such as [data repositories](availability_data_repositories.qmd)), other indicators cover what Open Science aspects are being practised (e.g. sharing of [code](prevalence_open_method_practices.qmd) or [data](prevalence_open_fair_data_practices.qmd)). Although we intend to cover Open Science broadly speaking, there may still be aspects missing from this handbook. Moreover, given that the concept of "Open Science" is a moving and evolving target [@rafols_monitoring_2024], we expect this handbook to reflect that, and remain in flux.
+
+While this handbook is constructed around "impact", it is obvious that we need to clarify the impact *of what* we are interested in. These are the various aspects of Open Science covered in this section. In a sense, we can consider many of the aspects in this section as potential causes, and many of the aspects covered in the various impact sections as potential effects. In some cases, terminology such as input, output, outcome and impact are used in this context, especially in the context of "theory of change". Although such terminology is useful, it should be clarified that not all aspects covered in this Open Science section can naturally be considered "inputs". Moreover, whether to consider something as "input", "output" or even "outcome" can be context-dependent. For instance, Open Data can be considered an outcome of an Open Data repository policy, but it can also be considered an input when considering downstream usage in academia, with outputs referring to publications that make use of Open Data.

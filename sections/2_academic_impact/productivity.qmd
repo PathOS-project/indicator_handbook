@@ -1,0 +1,86 @@
+---
+author:
+    - name: V.A Traag
+      orcid: 0000-0003-3170-3879
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
+
+# Productivity {#productivity .unnumbered}
+
+<div>
+
+## History
+
+| Version | Revision date | Revision    | Author     |
+|---------|---------------|-------------|------------|
+| 1.0     | 2024-12-06    | First draft | V.A. Traag |
+
+</div>
+
+## Description
+
+In general, productivity estimates the amount of output relative to the amount of input. In the context of academia, outputs can be various objects, varying from publications to data, code, or peer reviews. Although productivity is an aspect of interest, it should usually be considered jointly with something like quality. That is, a higher productivity may just stimulate more, but lower quality, outputs. There is some evidence of such a type of effect [@butler_explaining_2003], although this evidence is also disputed [@van_den_besselaar_perverse_2017].
+
+Output is usually only measured for a limited set of objects, with scholarly publications being the most typical example. Nonetheless, other relevant outputs should not be ignored, and limitations of productivity based on publications should be considered. Moreover, we should be aware of certain potential differences between productivity at the individual level and the collective level. For instance, consider a research group for which one individual is tasked with data quality assurance and code review. That individual might perhaps have a lower productivity in terms of publication outputs, yet her/his activities are a boon to the other researchers in the group, whose productivity might greatly increase as a result [@tiokhin_shifting_2023].
+
+In addition, one aspect of productivity that is usually missing is the overall input [@abramo_farewell_2016]. That is, we typically do not know how many people are employed at a certain institution. Even if part of that becomes visible in authorships, not every employee's contribution will become visible in authorship. Hence, institutions that have for example more research assistants who are not acknowledges as author may seem to have relatively few authors, but in reality there are much more people active at the institution. Moreover, even if we know whether a particular author as affiliated with a certain institution, we do not know the amount of time (s)he spends at that affiliation, which is particularly challenging with multiple affiliations. Going one step further, the input could also be specified in financial terms. Unfortunately, none of this data is typically available [@waltman_elephant_2016]. Nonetheless, this is an important limitation to taken into account when considering productivity.
+
+### Avg. number of papers per author
+
+#### Measurement
+
+For a certain institutions $i$ we can count how many authors $a_i$ are affiliated with institution $i$ and how many publications $n_i$ are published in a given year $y$. The ratio of $\frac{n_i}{a_i}$ then gives the average number of papers per author, which is an indicator of productivity. We typically observe an increase in productivity over time, such that in more recent years, the number of papers per author is usually larger than in earlier years.
+
+One relevant aspect in the context of counting number of papers per author is the increase in collaboration. If the total amount of publications remains the same in a given year, but more of them are co-authored, then the metric will be higher. Hence, it sometimes makes sense to use "fractional counting" for publications [@waltman2015]. This means that we can consider fractions, or weights, for all publications, based on the "fraction" of their authorship. For instance, if a publication has three authors: each has a fraction of 1/3. If two of the authors are affiliated with a single institution, say institution A, that institution will have a weight of 2/3. If, in addition, the third author would have two affiliations, one with the aforementioned institution A, and one with institution B, we could count that author as belonging to institution A for 1/2, bringing the total to 5/6.
+
+If we indicate $n_{ji}$ the fraction to which publication $j$ belongs to institution $i$, we can define $n'_i = \sum_j w_{ji}$ the number of fractionally counted publications. Similarly, if we indicate with $a_{ji}$ the fraction with which author $j$ belongs to institution $i$, we can define the fractionally counted number of authors as $a'_{i} = \sum_j a_{ji}$. The productivity can then be simply specified as $\frac{n'_i}{a'_i}$.
+
+If there is input data available, such that the total amount of budget of fte available is indicated by $f_i$, the average number of publications per currency unit or fte can be expressed as $\frac{n_i}{f_i}$.
+
+## Datasources
+
+### OpenAlex
+
+[OpenAlex](https://openalex.org/) covers publications based on previously gathered data from Microsoft Academic Graph, but mostly relies on Crossref to index new publications. OpenAlex offers a user interface that is at the moment still under active development, an open API, and the possibility to download the entire data snapshot. The API is rate-limited, but there are options of having a premium account. Documentation for the API is available at <https://docs.openalex.org/>.
+
+It is possible to retrieve the number of authors for a particular publication in OpenAlex, for example by using a third-party package for Python called `pyalex`.
+
+``` python
+import pyalex as alx
+alx.config.email = "mail@example.com"
+w = alx.Works()["W3128349626"]
+
+authors = w["author"]
+institutions = w["institutions"]
+countries = w["countries"]
+```
+
+Based on this type of data, the above-mentioned metrics can be calculated. When large amounts of data need to be processed, it is recommended to download the full [data snapshot](https://docs.openalex.org/download-all-data/snapshot-data-format), and work with it directly.
+
+OpenAlex provides disambiguated authors, institutes and countries. The institutions are matched to [Research Organization Registry (ROR)](https://ror.org/), the countries might be available, even if no specific institution is available.
+
+### Dimensions
+
+[Dimensions](https://app.dimensions.ai/discover/publication) is a bibliometric database that takes a comprehensive approach to indexing publications. It offers limited free access through its user interface. API access and access through its database via Google BigQuery can be arranged through payments. It also offers the possibility to apply for access to the API and/or Google BigQuery for [research purposes](https://www.dimensions.ai/request-access/). The API is documented at <https://docs.dimensions.ai/dsl>.
+
+The database is closed access, and we therefore do not provide more details about API usage.
+
+### Scopus
+
+[Scopus](https://www.scopus.com/) is a bibliometric database with a relatively broad coverage. Its data is closed and is generally available only through a paid subscription. It does offer the possibility to apply for access for research purposes through the [ICSR Lab](https://www.elsevier.com/insights/icsr/lab). Some additional documentation of their metrics is available at <https://www.elsevier.com/products/scopus/metrics>, in particular in the Research Metrics Guidebook, with documentation for the dataset available through ICSR Lab being available separately.
+
+The database is closed access, and we therefore do not provide more details about API usage.
+
+### Web of Science
+
+[Web of Science](https://webofscience.com/) is a bibliometric database that takes a more selective approach to indexing publications. Its data is closed and is only through a paid subscription.
+
+The database is closed access, and we therefore do not provide more details about API usage.
