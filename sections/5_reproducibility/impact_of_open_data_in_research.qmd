@@ -34,25 +34,21 @@ The indicator can be used to assess the level of openness and accessibility of r
 
 ### Connections to Academic Indicators
 
-This indicator examines the broader effects of making research data openly accessible, focusing on how transparency and accessibility enhance reproducibility, collaboration, and innovation within the scientific community. This builds upon the [Use of Data in Research](https://handbook.pathos-project.eu/indicator_templates/quarto/2_academic_impact/use_of_data_in_research.html), which evaluates how data is initially utilized within research activities, and the [Reuse of Data in Research](https://handbook.pathos-project.eu/indicator_templates/quarto/5_reproducibility/reuse_of_data_in_research.html), which measures the extent to which datasets are adopted in subsequent studies. Together, these indicators provide a comprehensive view of how data contributes to scientific outputs, reusability and reproducibility.
+This indicator examines the broader effects of making research data openly accessible, focusing on how transparency and accessibility enhance reproducibility, collaboration, and innovation within the scientific community. This builds upon the [Use of Data in Research](https://handbook.pathos-project.eu/indicator_templates/sections/2_academic_impact/use_of_data_in_research.html), which evaluates how data is initially utilized within research activities, and the [Reuse of Data in Research](https://handbook.pathos-project.eu/indicator_templates/sections/5_reproducibility/reuse_of_data_in_research.html), which measures the extent to which datasets are adopted in subsequent studies. Together, these indicators provide a comprehensive view of how data contributes to scientific outputs, reusability and reproducibility.
 
 ## Metrics
 
-### NCI for publications that have introduced Open Datasets
+### NCI for publications that have introduced/reused Open Data
 
-This metric calculates the Normalised Citation Impact (NCI) for publications that have introduced Open Datasets. By introducing Open Datasets, researchers enable others to access and verify their findings, thus enhancing the potential for reproducibility. The NCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the NCI for publications that have introduced Open Datasets can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
+This metric captures the Normalised Citation Impact (NCI) for publications that have either introduced or reused Open Data. By assessing citation impact, this indicator reflects the visibility and influence of research publications that contribute to or benefit from Open Data practices. Citation-based metrics, including the NCI, are extensively discussed under the academic indicator [Citation Impact](https://handbook.pathos-project.eu/sections/2_academic_impact/citation_impact.html). For general details on the methodology, limitations, and measurement of NCI, refer to the academic indicator and its corresponding metrics.
 
-One limitation of this metric is that the use of NCI has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend using this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
+In this metric, we focus specifically on publications that have directly contributed to reproducibility by either introducing new Open Data or reusing existing Open Data. The reuse of Open Data can be identified using methodologies and metrics outlined in the academic indicator [Use of Data in Research](https://handbook.pathos-project.eu/sections/2_academic_impact/use_of_data_in_research.html), which provides tools and techniques for tracking data usage in research publications. Additionally, this indicator highlights publications that explicitly document and share new Open Data repositories.
 
-#### Measurement.
+To measure the NCI for publications that have introduced Open Data, we identify relevant publications through metadata analysis of datasets, such as unique identifiers or DOIs associated with repositories like Zenodo, DataCite, or OpenAIRE. This process can be supported by automated tools, including the SciNoBo toolkit, which uses Deep Learning and Natural Language Processing (NLP) to extract metadata such as the dataset name, version, license, and URLs. These tools enable precise identification of publications introducing Open Data, making it possible to calculate their citation impact.
 
-To measure this metric, the process begins with the identification of publications that have introduced Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
+The NCI for publications that have introduced or reused Open Data is particularly relevant for reproducibility because it highlights how data sharing and reuse practices enable verification and extension of scientific findings. Highly cited publications introducing Open Data signal that the data provided novel, generalizable insights to scientific questions, thereby enabling other researchers to replicate and build upon the results. Similarly, publications with high NCI that reuse Open Data indicate that openly shared datasets are not only accessible but integral to advancing research transparency and reproducibility.
 
-Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), [Scopus](https://www.scopus.com) and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
-
-Finally, the NCI (Normalised Citation Impact) score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
-
-One potential limitation of this approach is that not all Open Datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
+By focusing on NCI, we can compare publications across disciplines and timeframes, overcoming disparities in citation practices. This ensures that the contribution of Open Data to reproducibility is evaluated equitably, identifying impactful practices and outputs. Furthermore, normalized metrics allow us to track trends in Open Data adoption, evaluate the effectiveness of Open Data policies, and identify areas where further incentives for Open Data practices might be beneficial. Such analysis provides critical insights into the evolving role of Open Data in enhancing scientific reliability and collaboration across research communities.
 
 ##### Datasources
 
@@ -64,12 +60,6 @@ For the NCI for publications that have introduced Open Datasets metric, we can u
 
 One limitation of using OpenAIRE for this metric is that not all Open Datasets may be registered in OpenAIRE, which could lead to underestimation of the number of publications that have introduced Open Datasets.
 
-###### Scopus
-
-Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
-
-One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
-
 ##### Existing methodologies
 
 ###### SciNoBo toolkit
@@ -78,55 +68,15 @@ The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scie
 
 Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the datasets has been introduced by the authors of the publication.
 
-To measure the proposed metric, the tool can be used to identify relevant publications that have introduced datasets and calculate their NCI score.
-
-### NCI for publications that have (re)used Open Datasets
-
-This metric calculates the Normalised Citation Impact (NCI) for publications that have (re)used Open Datasets. It is a measure of the citation impact of research publications that have utilized Open Datasets, adjusted for differences in citation practices across scientific fields. The NCI for publications that have (re)used Open Datasets can indicate the potential impact of data sharing and reuse practices on the visibility and influence of research findings. A higher NCI score indicates a greater level of scientific collaboration and data sharing within a specific scientific community or field, suggesting that the availability of Open Datasets can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
-
-A limitation of this metric is that the use of NCI has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend using this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
-
-#### Measurement.
-
-To measure this metric, the process begins with the identification of publications that have (re)used Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
-
-Upon identification of the relevant publications, it's crucial to categorize them into their respective disciplines. The assignment of disciplines is typically based on the journal where the paper is published, the author's academic department, or the thematic content of the paper. Several databases provide such categorizations, such as [OpenAIRE](https://explore.openaire.eu/fields-of-science), [Scopus](https://www.scopus.com) and [Web of Science](https://www.webofscience.com/wos/woscc/basic-search).
-
-Finally, the NCI (Normalised Citation Impact) score for each publication is calculated. The NCI measures the citation impact of a publication relative to the average for similar publications in the same discipline, publication year, and document type. It is computed by dividing the total number of citations the publication receives by the average number of citations received by all other similar publications.
-
-One potential limitation of this approach is that not all Open Datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
-
-##### Datasources
-
-###### Scopus
-
-[Scopus](https://www.scopus.com) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
-
-One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
-
-##### Existing methodologies
-
-###### SciNoBo toolkit
-
-The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
-
-Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the datasets has been (re)used by the authors of the publication.
-
-To measure the proposed metric, the tool can be used to identify relevant publications that have (re)used datasets and calculate their NCI score.
+To measure the proposed metric, the tool can be used to identify relevant publications that have introduced or (re)used datasets and calculate their NCI score.
 
 ### Dataset downloads/usage counts/stars from repositories
 
-This metric measures the number of downloads, usage counts, or stars (depending on the repository) of a given Open Dataset. It provides an indication of the level of interest and use of the dataset by the scientific community, and can serve as a proxy for the potential impact of the dataset on scientific research. It should be noted that this metric may not capture the full impact of Open Datasets on scientific research, as the number of downloads or usage counts may not necessarily reflect the quality or impact of the research that utilizes the dataset.
+This metric captures the level of interest and impact of Open Datasets by measuring repository activity such as downloads, usage counts, and stars. Metrics derived from repository platforms like Zenodo, DataCite, or GitHub can provide insight into how often datasets are accessed, favorited, or reused by other users. These indicators are extensively discussed under the academic indicator [Use of Data in Research](https://handbook.pathos-project.eu/sections/2_academic_impact/use_of_data_in_research.html), particularly in the metric "Number (Avg.) of views/clicks/downloads from repository." For detailed methodologies and measurement approaches, refer to the academic indicator.
 
-In terms of reproducibility, high usage counts or stars may indicate that a dataset is well-documented and easy to use. Furthermore, a widely used dataset is more likely to be updated and maintained over time, which can improve its reproducibility.
+In the context of reproducibility, this indicator highlights how repository usage statistics reflect the accessibility and usability of Open Datasets. High download counts, frequent views, or significant repository engagement often suggest that datasets are well-documented, standardized, and integral to the reproducibility of scientific findings. These metrics serve as proxies for the broader acceptance and utility of the datasets within the research community.
 
-One limitation of this metric is that it only captures usage of Open Datasets from specific repositories and may not reflect usage of the same dataset that is hosted elsewhere. Additionally, differences in repository usage and user behaviour may affect the comparability of download/usage count/star data across repositories. Finally, this metric does not capture non-public uses of Open Datasets, such as internal use within an organization or personal use by researchers, which may also contribute to the impact of Open Datasets on scientific research.
-
-#### Measurement.
-
-To measure this metric, we can use data from various data repositories, such as DataCite and Zenodo, or data from OpenAIRE, which provide download or usage statistics for hosted datasets. We can also use platforms such as GitHub or GitLab, which provide star counts as a measure of user engagement with Open Source code repositories that may include Open Datasets. However, it is important to note that different repositories may provide different types of usage statistics, and these statistics may not be directly comparable across repositories. Additionally, not all repositories may track usage statistics, making it difficult to obtain comprehensive data for all Open Datasets.
-
-The data can be computationally obtained using web scraping tools, API queries, or by manually accessing the download/usage count/star data for each dataset.
+Furthermore, repository metrics provide insights into the integration of Open Data practices within the research ecosystem. Datasets that are widely accessed and reused facilitate cumulative science by enabling researchers to verify existing results, build upon prior work, and avoid redundant data collection efforts. By monitoring repository engagement, we can evaluate the effectiveness of Open Data practices in promoting transparency and reproducibility while identifying gaps in documentation, accessibility, or usability that may hinder broader adoption and reuse of Open Data.
 
 ##### Datasources
 
