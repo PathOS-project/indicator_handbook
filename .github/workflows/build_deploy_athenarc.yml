@@ -43,6 +43,7 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         with:
           working-directory: sections/0_causality/causal_intro
+          cache-version: 2
 
       - name: (Causal intro) Cache targets
         id: cache-targets
