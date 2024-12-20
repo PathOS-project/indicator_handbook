@@ -87,15 +87,3 @@ To calculate the metric of code downloads/usage counts/stars from Bitbucket, we 
 To access this information, we can use the Bitbucket API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analysed using programming languages such as Python.
 
 ###### Existing methodologies
-
-###### Ensuring that repositories contain code
-
-To ensure that a code repository (i.e. Github, Gitlab, Bitbucket) primarily contains code and not data or datasets, one can consider the following checks:
-
--   Repository labelling: Look for repositories that are explicitly labelled as containing code or software. Many repository owners provide clear labels or descriptions indicating the nature of the content.
--   File extensions: Check for files with common code file extensions, such as .py, .java, or .cpp. These file extensions are commonly used for code files, while data files often have extensions like .csv, .txt, or .xlsx .
--   Repository descriptions and README files: Examine the repository descriptions and README files to gain insights into the content. Authors often provide information about the type of code included, its functionality, and its relevance to the project or software.
--   Documentation: Some repositories include extensive documentation that provides details on the software, its usage, and how to contribute to the project. This indicates a greater likelihood that the repository primarily contains code.
--   Existence of script and source folders: In some cases, the existence of certain directories like '/src' for source files or '/scripts' for scripts can indicate that the repository is primarily for code.
-
-By considering these checks, we can ensure that the repository primarily contains code rather than data or datasets.

@@ -79,6 +79,13 @@ There are some clear limitations to this approach. Firstly, not all research sof
 
 The most common version control system at the moment is [Git](https://git-scm.com/), which itself is open-source. There are other version control systems, such as Subversion or Mercurial, but these are less popular. The most common platform on which Git repositories are shared is GitHub, which is not open-source itself. There are also other repository platforms, such as [CodeBerg](https://codeberg.org/) (built on [Forgejo](https://forgejo.org/)) and [GitLab](https://gitlab.com/), which are themselves open-source, but they have not yet managed to reach the popularity of GitHub. We therefore limit ourselves to describing GitHub, although we might extend this in the future.
 
+To ensure that a repository primarily contains code and not data or datasets, one can consider the following checks:
+-   Repository labelling: Look for repositories that are explicitly labelled as containing code or software. Many repository owners provide clear labels or descriptions indicating the nature of the content.
+-   File extensions: Check for files with common code file extensions, such as .py, .java, or .cpp. These file extensions are commonly used for code files, while data files often have extensions like .csv, .txt, or .xlsx.
+-   Repository descriptions and README files: Examine the repository descriptions and README files to gain insights into the content. Authors often provide information about the type of code included, its functionality, and its relevance to the project or software.
+-   Documentation: Some repositories include extensive documentation that provides details on the software, its usage, and how to contribute to the project. This indicates a greater likelihood that the repository primarily contains code.
+-   Existence of script and source folders: In some cases, the existence of certain directories like '/src' for source files or '/scripts' for scripts can indicate that the repository is primarily for code.
+
 #### Measurement
 
 We propose three concrete metrics based on the GitHub API: the number of forks, the number of stars and the number of downloads of releases. There are additional metrics about traffic available from [GitHub API metrics](https://docs.github.com/en/rest/metrics), but these unfortunately require permissions from a specific repository.\
