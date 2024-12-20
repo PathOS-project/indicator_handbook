@@ -46,24 +46,6 @@ In the context of reproducibility, the reuse of code indicates that methods and 
 
 Furthermore, the act of reusing code fosters interdisciplinary collaboration and accelerates scientific progress. By building on shared resources rather than duplicating efforts, researchers save valuable time and energy. This collaborative approach to software reuse ensures that scientific communities can focus on advancing new knowledge rather than resolving redundant technical challenges. As a result, code reuse acts as a multiplier for reproducibility, allowing not only the original study but also derivative works to be verified and built upon, expanding the scope of reliable and impactful research.
 
-##### Datasources
-
-###### OpenAIRE
-
-[OpenAIRE](https://www.openaire.eu/) is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including code/software.
-
-To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/) can be used to find and access Open Software, study their usage statistics, and identify the research publications that reference them.
-
-However, it's important to note that OpenAIRE Explore does not provide comprehensive data for directly calculating the metric, but rather provides the publication references of each Open Software that need to be analysed.
-
-###### CZI Software Mentions
-
-The CZI Software Mentions Dataset [@istrate] is a resource released by the Chan Zuckerberg Initiative (CZI) that provides software mentions extracted from a large corpus of scientific literature. Specifically, the dataset provides access to 67 million software mentions derived from 3.8 million open-access papers in the biomedical literature from PubMed Central and 16 million full-text papers made available to CZI by various publishers.
-
-A key limitation of this dataset is its focus on biomedical science, meaning it may not provide a comprehensive view of software usage in other scientific disciplines.
-
-To calculate the proposed metric, one could use the CZI Software Mentions Dataset to identify the frequency and distribution of mentions of specific software tools across different scientific papers. The dataset also contains links to software repositories (like PyPI, CRAN, Bioconductor, SciCrunch, and GitHub) which can be used to gather more metadata about the software tools.
-
 ##### Existing methodologies
 
 ###### SciNoBo Toolkit
@@ -73,11 +55,3 @@ The SciNoBo toolkit [@gialitsis2022b; @kotitsas2023b] has a new component, curre
 To measure the proposed metric, the tool can be used to identify the reused code/software in the publication texts.
 
 One limitation of this methodology is that it may not capture all instances of code/software reuse if they are not explicitly mentioned in the text of the publication. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a code/software has been reused and may require manual validation.
-
-###### DataSeer.ai
-
-[DataSeer.ai](https://dataseer.ai/) is a platform that utilizes machine learning and Natural Language Processing (NLP) to facilitate the detection and extraction of datasets, methods, and software mentioned in academic papers. The platform can be used to identify instances of software/code reuse within the text of research articles and extract associated metadata.
-
-To measure the proposed metric, DataSeer.ai can scan the body of text in research articles and identify instances of code/software reuse.
-
-However, it is important to note that the ability of DataSeer.ai to determine actual code/software reuse may depend on the explicitness of the authors' writing about their code/software usage, thus not capturing all instances of code/software reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a code or software has been reused, and may require manual validation.
