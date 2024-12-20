@@ -21,11 +21,11 @@ website:
     - text: "Causality"
       href: sections/0_causality/causal_intro/article/intro-causality.qmd
     - text: "Open Science"
-      href: sections/1_open_science/APC_costs.qmd
+      href: sections/1_open_science/introduction_open_science.qmd
     - text: "Academic Impact"
-      href: sections/2_academic_impact/academic_readership.qmd
+      href: sections/2_academic_impact/introduction_academic_impact.qmd
     - text: "Societal Impact"
-      href: sections/3_societal_impact/uptake_and_impact_on_societal_issues.qmd
+      href: sections/3_societal_impact/introduction_societal_impact.qmd
     - text: "Economic Impact"
       href: sections/4_economic_impact/science_industry_collaboration.qmd
     - text: "Reproducibility"
