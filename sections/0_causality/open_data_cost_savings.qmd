@@ -17,7 +17,8 @@ affiliations:
 
 # The effect of Open Data on cost savings {#the-effect-of-open-data-on-cost-savings .unnumbered}
 
-History (please fill out in reverse chronological order, latest revision on top):
+::: {.callout collapse="true"}
+## History
 
 |  |  |  |  |
 |------------------|------------------|------------------|------------------|
@@ -27,6 +28,7 @@ History (please fill out in reverse chronological order, latest revision on top)
 | 1.2 | 2024-11-27 | Peer review | V.A. Traag |
 | 1.1 | 2024-11-22 | First draft | M. Scorrano, E. Delugas, S. Vignetti (reviewer) |
 | 1.0 | 2024-10-07 | Template outline | E. Delugas |
+:::
 
 ## Literature background
 
