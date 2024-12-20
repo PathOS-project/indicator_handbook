@@ -13,9 +13,9 @@ affiliations:
   country: the Netherlands
 ---
 
-<div>
+# The effect of Open Data on Citations {#open-data-citation-advantage .unnumbered}
 
-# Open Data Citation Advantage {#open-data-citation-advantage .unnumbered}
+<div>
 
 ## History
 
