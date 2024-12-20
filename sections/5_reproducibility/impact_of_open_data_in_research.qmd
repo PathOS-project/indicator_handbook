@@ -50,15 +50,6 @@ The NCI for publications that have introduced or reused Open Data is particularl
 
 By focusing on NCI, we can compare publications across disciplines and timeframes, overcoming disparities in citation practices. This ensures that the contribution of Open Data to reproducibility is evaluated equitably, identifying impactful practices and outputs. Furthermore, normalized metrics allow us to track trends in Open Data adoption, evaluate the effectiveness of Open Data policies, and identify areas where further incentives for Open Data practices might be beneficial. Such analysis provides critical insights into the evolving role of Open Data in enhancing scientific reliability and collaboration across research communities.
 
-##### Datasources
-
-###### OpenAIRE
-
-OpenAIRE is a European platform that provides Open Access to research outputs, including publications, datasets, and software. OpenAIRE collects metadata from various data sources, including institutional repositories, data repositories, and publishers.
-
-For the NCI for publications that have introduced Open Datasets metric, we can use OpenAIRE to identify publications that have introduced Open Datasets. We can search for publications by looking for OpenAIRE records that have a dataset identifier in the references section or by using OpenAIRE's API to search for publications that are linked to a specific dataset.
-
-One limitation of using OpenAIRE for this metric is that not all Open Datasets may be registered in OpenAIRE, which could lead to underestimation of the number of publications that have introduced Open Datasets.
 
 ##### Existing methodologies
 
@@ -78,53 +69,6 @@ In the context of reproducibility, this indicator highlights how repository usag
 
 Furthermore, repository metrics provide insights into the integration of Open Data practices within the research ecosystem. Datasets that are widely accessed and reused facilitate cumulative science by enabling researchers to verify existing results, build upon prior work, and avoid redundant data collection efforts. By monitoring repository engagement, we can evaluate the effectiveness of Open Data practices in promoting transparency and reproducibility while identifying gaps in documentation, accessibility, or usability that may hinder broader adoption and reuse of Open Data.
 
-##### Datasources
-
-###### DataCite
-
-DataCite is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics. This information can be used to measure the usage and impact of Open Datasets.
-
-To calculate the usage count of a dataset, we can use the "Views" field provided on the dataset landing page on DataCite, which indicates the number of times the landing page has been accessed. To calculate the number of downloads, we can use the "Downloads" field, which indicates the number of times the dataset has been downloaded. The number of stars or likes can be used as a measure of the popularity of the dataset among users.
-
-###### Zenodo
-
-[Zenodo](https://zenodo.org/) is a general-purpose open-access repository developed by CERN to store scientific data. It accepts various types of research outputs, including datasets, software, and publications. Zenodo assigns a unique digital object identifier (DOI) to each deposited item, which can be used to track its usage and citations.
-
-To calculate the metric of dataset views and downloads from Zenodo, we can extract the relevant metadata from the Zenodo API, which provides programmatic access to the repository's contents. The API allows us to retrieve information about a specific item, such as its title, author, publication date, and number of views / downloads. We can then aggregate this data to obtain usage statistics for a particular dataset or set of datasets.
-
-###### OpenAIRE
-
-OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including Open Datasets.
-
-To calculate this metric using OpenAIRE, we can retrieve the download and view counts for the relevant Open Datasets, which can be accessed through the OpenAIRE REST API. The API returns JSON-formatted metadata for each research output, which includes information such as the title, authors, publication date, download counts, and view counts. The download and view counts can be used to calculate the total number of times the dataset has been accessed or viewed, respectively.
-
-###### GitHub
-
-[GitHub](https://github.com/) is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Datasets.
-
-To measure this metric, we can search for the relevant repositories on GitHub and extract the relevant download, usage, and star data. This data can be accessed via the GitHub API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analysed using programming languages such as Python.
-
-###### GitLab
-
-[GitLab](https://about.gitlab.com/) is a web-based Git repository manager that provides source code management, continuous integration and deployment, and more. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
-
-To calculate the metric of dataset downloads/usage counts/stars from GitLab, we need to identify the relevant repositories and extract the relevant information. The number of downloads can be obtained by looking at the download statistics for a particular release of the repository. The number of stars can be obtained by looking at the number of users who have starred the repository. The number of forks can be obtained by looking at the number of users who have forked the repository.
-
-To access this information, we can use the GitLab API.
-
-###### Existing methodologies
-
-###### Ensuring that repositories contain data
-
-To ensure that a repository (i.e. Github, Gitlab) primarily contains research data and not code, we can consider the following methodology:
-
--   Repository labelling: Look for repositories that are explicitly labelled as containing data or datasets. Many repository owners provide clear labels or descriptions indicating the nature of the content.
--   File extensions: Check for files with common data file extensions, such as .csv, .txt, or .xlsx. These file extensions are commonly used for data files, while code files often have extensions like .py, .java, or .cpp.
--   Repository descriptions and README files: Examine the repository descriptions and README files to gain insights into the content. Authors often provide information about the type of data included and its relevance to research.
--   Data availability statements: Some repositories include data availability statements that provide details on where the data supporting the reported results can be found. These statements may include links to publicly archived datasets or references to specific repositories.
--   Supplementary materials: In some cases, authors may publish supplementary materials alongside their research articles. These materials can include datasets and provide additional information about the data and its relevance to the research.
-
-By considering these checks, we can ensure that the repository primarily contains research data rather than code.
 
 ### Downloads / views of published DMPs
 
