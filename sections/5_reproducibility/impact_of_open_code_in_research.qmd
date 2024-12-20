@@ -67,23 +67,3 @@ This metric captures the level of interest and impact of Open Code by measuring 
 In the context of reproducibility, this indicator emphasizes the implications of repository usage statistics for research transparency and validation. High download counts, numerous forks, or significant stars can signal that the code is well-documented, functional, and useful for replication and extension of research findings. Such engagement often indicates that the Open Code has met the standards required for reproducibility, including accessibility and usability by other researchers.
 
 Furthermore, widespread use of Open Code repositories reflects the extent to which shared computational tools are integrated into the research ecosystem. This integration supports cumulative science, where researchers build on existing work rather than duplicating efforts. By tracking these repository metrics, we can better understand how Open Code practices facilitate reproducibility and identify gaps or barriers preventing broader adoption and reuse.
-
-##### Datasources
-
-###### GitLab
-
-[GitLab](https://about.gitlab.com/) is a web-based Git repository manager that provides source code management, continuous integration and deployment, and more. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
-
-To calculate the metric of code downloads/usage counts/stars from GitLab, we need to identify the relevant repositories and extract the relevant information. The number of downloads can be obtained by looking at the download statistics for a particular release of the repository. The number of stars can be obtained by looking at the number of users who have starred the repository. The number of forks can be obtained by looking at the number of users who have forked the repository.
-
-To access this information, we can use the GitLab API.
-
-###### Bitbucket
-
-[Bitbucket](https://bitbucket.org/) is a web-based Git repository hosting service that allows users to host their code repositories, collaborate with other users and teams, and automate their software development workflows. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
-
-To calculate the metric of code downloads/usage counts/stars from Bitbucket, we need to identify the relevant repositories and extract the relevant information. The number of downloads can be obtained by looking at the download statistics for a particular release of the repository. The number of stars can be obtained by looking at the number of users who have starred the repository. The number of forks can be obtained by looking at the number of users who have forked the repository.
-
-To access this information, we can use the Bitbucket API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analysed using programming languages such as Python.
-
-###### Existing methodologies
