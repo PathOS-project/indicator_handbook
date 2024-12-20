@@ -41,7 +41,8 @@ website:
       contents:
         - sections/0_causality/causal_intro/article/intro-causality.qmd
         - sections/0_causality/open_data_citation_advantage.qmd
-        - sections/0_causality/social_causality.qmd
+        - sections/0_causality/social_causality.qmd        
+        - sections/0_causality/open_data_cost_savings.qmd
 
     - title: Open Science
       contents:
