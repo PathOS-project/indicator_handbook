@@ -14,7 +14,8 @@ affiliations:
 
 # Reuse of code in research {#reuse-of-code-in-research .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -24,7 +25,7 @@ affiliations:
 | 1.1     | 2023-07-21    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First draft | Petros Stavropoulos |
 
-</div>
+:::
 
 ## Description
 

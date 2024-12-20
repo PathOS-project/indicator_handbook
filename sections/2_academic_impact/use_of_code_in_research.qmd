@@ -15,7 +15,8 @@ affiliations:
 
 # Use of code in research {#use-of-code-in-research .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -23,7 +24,7 @@ affiliations:
 |---------|---------------|-------------|------------|
 | 1.0     | 2023-11-24    | First draft | V.A. Traag |
 
-</div>
+:::
 
 ## Description
 

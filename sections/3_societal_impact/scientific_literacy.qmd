@@ -22,7 +22,8 @@ affiliations:
 
 # Scientific literacy {#scientific-literacy .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -33,7 +34,7 @@ affiliations:
 | 0.2 | 2024-02-27 | Review comments | Nicki Lisa Cole, Vincent Traag, Ioanna Grypari, Tommaso Venturi |
 | 0.1 | 2024-02-02 | First draft | Thomas Klebel |
 
-</div>
+:::
 
 ## Description
 

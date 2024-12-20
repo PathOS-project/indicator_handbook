@@ -15,7 +15,8 @@ affiliations:
 
 # Interdisciplinary and novelty {#interdisciplinarity-novelty .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -24,7 +25,7 @@ affiliations:
 | 1.1     | 2023-12-17    | Add novelty | L. Waltman |
 | 1.0     | 2023-12-17    | First draft | L. Waltman |
 
-</div>
+:::
 
 ## Description
 

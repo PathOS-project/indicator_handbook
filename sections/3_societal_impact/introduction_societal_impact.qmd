@@ -20,7 +20,8 @@ affiliations:
 
 # Uptake in and impact on to societal issues {#uptake-in-and-impact-on-to-societal-issues .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -29,7 +30,7 @@ affiliations:
 | 1.0     | 2024-11-14    | First draft  | T. Venturini |
 | 1.1     | 2024-11-26    | second draft | T. Venturini |
 
-</div>
+:::
 
 ## Open Science Beyond Academia: An Exploration of Societal Uptake and Impact
 

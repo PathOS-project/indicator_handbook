@@ -26,7 +26,8 @@ affiliations:
 
 # Innovation output {#innovation-output .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -36,7 +37,7 @@ affiliations:
 | 1.2     | 2024-04-25    | Peer review  | V.A. Traag                            |
 | 1.1     | 2024-03-27    | First draft  | Delugas E., Consiglio G., Catalano G. |
 
-</div>
+:::
 
 ## Description
 

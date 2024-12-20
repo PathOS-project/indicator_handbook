@@ -15,7 +15,8 @@ affiliations:
 
 # Uptake in the legal sector {#uptake-in-the-legal-sector .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -26,7 +27,7 @@ affiliations:
 | 0.5     | 2024-03-26    | First draft          | Melanie Dulong de Rosnay         |
 | 0.1     | 2024-02-23    | Preliminary research | Melanie Dulong de Rosnay         |
 
-</div>
+:::
 
 ## Description
 

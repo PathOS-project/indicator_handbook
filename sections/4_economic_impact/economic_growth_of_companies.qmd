@@ -26,7 +26,8 @@ affiliations:
 
 # Economic growth of companies {#economic-growth-of-companies .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -37,7 +38,7 @@ affiliations:
 | 0.3 | 09-04-2024 | Updated draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL, reviewer) |
 | 0.2 | 15-03-2024 | First full draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB) |
 
-</div>
+:::
 
 ## Description
 

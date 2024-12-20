@@ -19,7 +19,8 @@ affiliations:
 
 # Prevalence of Open Science support and training {#prevalence-of-OS-support-training .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -28,7 +29,7 @@ affiliations:
 | 1.1     | 2024-12-12    | Integrated support and training | V.A. Traag |
 | 1.0     | 2023-07-12    | Initial draft | T. van Leeuwen |
 
-</div>
+:::
 
 ## Description
 

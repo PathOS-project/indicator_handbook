@@ -30,7 +30,8 @@ affiliations:
 
 # Labour market impact of OS {#labour-market-impact-of-os .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -42,7 +43,7 @@ affiliations:
 | 0.2 | 15-03-2024 | First full draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB) |
 | 0.1 |  | Labour efficiency indicator template | Istvan Karasz, Technopolis Consulting Group |
 
-</div>
+:::
 
 ## Description
 

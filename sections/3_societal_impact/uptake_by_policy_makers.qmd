@@ -16,7 +16,8 @@ affiliations:
 
 # Uptake by policy makers {#uptake-by-policy-makers .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -25,7 +26,7 @@ affiliations:
 | 1.2     | ??            | Draft review & comments | Simon Apartis, Tommaso Venturini |
 | 1.1     | ??            | First draft             | Rodrigo Costas Comesana          |
 
-</div>
+:::
 
 ## Description
 

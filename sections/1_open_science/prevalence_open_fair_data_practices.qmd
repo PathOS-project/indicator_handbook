@@ -15,7 +15,8 @@ affiliations:
 
 # Prevalence of open/FAIR data practices {#prevalence-of-openfair-data-practices .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -24,7 +25,7 @@ affiliations:
 | 1.1     | 2023-07-20    | Edited & revised | T. Willemse |
 | 1.0     | 2023-04-13    | First draft      | T. Willemse |
 
-</div>
+:::
 
 ## Description
 

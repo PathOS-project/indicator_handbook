@@ -15,7 +15,7 @@ affiliations:
 
 # The effect of Open Data on Citations {#open-data-citation-advantage .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
 ## History
 
@@ -24,7 +24,7 @@ affiliations:
 | 1.1     | 2024-11-27    | Revisions   | V.A. Traag |
 | 1.0     | 2024-11-13    | First draft | V.A. Traag |
 
-</div>
+:::
 
 We here provide some idea of what it would take to try to infer the causal effect of one specific Open Science practice on citation impact. In particular, we consider the effect of Open Data on citation impact. That is, papers that share their data might be more likely to be cited. This is something that has been called the "Open Data Citation Advantage", and in the PathOS scoping review of the academic impact of Open Science [@klebel_academic_2024], evidence was found for a small positive effect of sharing data.
 

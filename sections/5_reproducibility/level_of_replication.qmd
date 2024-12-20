@@ -22,7 +22,8 @@ affiliations:
 
 # Level of replication {#level-of-replication .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -33,7 +34,7 @@ affiliations:
 | 1.1     | 2023-07-20    | Revisions   | Thomas Klebel               |
 | 1.0     | 2023-04-26    | First draft | Eva Kormann                 |
 
-</div>
+:::
 
 ## Description
 

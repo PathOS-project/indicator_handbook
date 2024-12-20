@@ -15,7 +15,8 @@ affiliations:
 
 # Introduction to academic impact {#intro-academic-impact .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -23,7 +24,7 @@ affiliations:
 |---------|---------------|-------------|------------|
 | 1.0     | 2024-12-06    | First draft | V.A. Traag |
 
-</div>
+:::
 
 Of the various areas of impact (academic, societal and economic) of Open Science, academic impact is probably the most well-established and researched impact area. In particular, indicators of [citation impact](citation_impact.qmd) and [collaborations](collaboration_intensity.qmd) have a long history and a long development and are well-established. At the same time, there are also more recently developed indicators that are becoming relevant in this area, such as the [reuse of data](reuse_of_data_in_research.qmd) and [code](reuse_of_code_in_research.qmd) in research, and are still actively being developed. The rise of reference managers enabled tracking [readership](academic_readership.qmd) instead of only citations, making it possible to distinguish between papers that are read widely and papers that are cited widely. At the same time, aspects of academic impact such as “quality”, [“novelty” or “interdisciplinarity”](interdisciplinarity.qmd) remain complicated to develop robust indicators for based on existing data sources, thus requiring more in-depth manual assessments.
 

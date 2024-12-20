@@ -14,7 +14,8 @@ affiliations:
 
 # Impact of Open Code in research {#impact-of-open-code-in-research .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -24,7 +25,7 @@ affiliations:
 | 1.1     | 2023-07-20    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First Draft | Petros Stavropoulos |
 
-</div>
+:::
 
 ## Description
 

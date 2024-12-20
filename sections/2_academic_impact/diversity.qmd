@@ -15,7 +15,8 @@ affiliations:
 
 # Diversity {#diversity .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -23,7 +24,7 @@ affiliations:
 |---------|---------------|-------------|---------------|
 | 1.0     | 2023-11-16    | First draft | Simon Apartis |
 
-</div>
+:::
 
 ## Description
 

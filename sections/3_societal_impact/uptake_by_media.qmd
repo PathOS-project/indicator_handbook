@@ -15,7 +15,8 @@ affiliations:
 
 # Uptake by media {#uptake-by-media .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -25,7 +26,7 @@ affiliations:
 | 1.1 | 2024-03-04 | Revision after review | V.A. Traag |
 | 1.0 | 2024-02-07 | First Draft | V.A. Traag |
 
-</div>
+:::
 
 ## Description
 

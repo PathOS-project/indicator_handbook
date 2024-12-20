@@ -14,7 +14,8 @@ affiliations:
 
 # Uptake in education {#uptake-in-education .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -23,7 +24,7 @@ affiliations:
 | 1.1 | 2024-03-25 | Draft review & comments | Simon Apartis, Tommaso Venturini |
 | 1.0 | 2024-03-22 | First draft | Petros Stavropoulos |
 
-</div>
+:::
 
 ## Description
 

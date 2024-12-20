@@ -15,7 +15,8 @@ affiliations:
 
 # Evaluation of Open Science in research assessment {#evaluation-of-open-science-in-research-assessment .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -24,7 +25,7 @@ affiliations:
 | 1.1     | 2023-07-20    | Edited & revised | V.A. Traag     |
 | 1.0     | 2023-07-12    | Initial draft    | T. van Leeuwen |
 
-</div>
+:::
 
 ## Description
 

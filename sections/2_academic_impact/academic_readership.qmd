@@ -16,7 +16,8 @@ affiliations:
 
 # Readership impact {#readership-impact .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -24,7 +25,7 @@ affiliations:
 |---------|---------------|---------------|-----------|
 | 1.0     | 2023-12-12    | Initial draft | R. Costas |
 
-</div>
+:::
 
 ## Description
 

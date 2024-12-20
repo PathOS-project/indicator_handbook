@@ -22,7 +22,8 @@ affiliations:
 
 # Inclusion in systematic reviews or meta-analyses {#inclusion-in-systematic-reviews-or-meta-analyses .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -32,7 +33,7 @@ affiliations:
 | 1.1     | 2023-07-20    | Revisions   | Thomas Klebel               |
 | 1.0     | 2023-05-02    | First draft | Eva Kormann                 |
 
-</div>
+:::
 
 ## Description
 

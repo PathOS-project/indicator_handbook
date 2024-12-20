@@ -16,7 +16,8 @@ affiliations:
 
 # Citation Impact {#citation-impact .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -24,7 +25,7 @@ affiliations:
 |---------|---------------|-------------|------------|
 | 1.0     | 2023-11-23    | First draft | V.A. Traag |
 
-</div>
+:::
 
 ## Description
 

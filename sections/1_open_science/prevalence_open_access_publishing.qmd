@@ -15,7 +15,8 @@ affiliations:
 
 # Prevalence of Open Access publishing {#prevalence-of-open-access-publishing .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -24,7 +25,7 @@ affiliations:
 | 1.1     | 2023-07-12    | Revised based on review   | V.A. Traag |
 | 1.0     | 2023-02-08    | Added initial description | V.A. Traag |
 
-</div>
+:::
 
 ## Description
 

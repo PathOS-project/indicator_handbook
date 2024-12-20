@@ -15,7 +15,8 @@ affiliations:
 
 # Quality {#quality .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -23,7 +24,7 @@ affiliations:
 |---------|---------------|-------------|------------|
 | 1.0     | 2024-12-06    | First draft | V.A. Traag |
 
-</div>
+:::
 
 ## Description
 

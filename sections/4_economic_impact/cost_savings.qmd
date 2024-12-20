@@ -22,7 +22,8 @@ affiliations:
 
 # Cost savings {#cost-savings .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
+
 
 ## History
 
@@ -34,7 +35,7 @@ affiliations:
 | 1.2 | 2023-09-11 | Peer review | V.A. Traag |
 | 1.1 | 2023-07-04 | Draft indicator template | Caputo A., Delugas E., Vignetti S. |
 
-</div>
+:::
 
 ## Description
 
