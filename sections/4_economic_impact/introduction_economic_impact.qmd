@@ -1,8 +1,5 @@
 ---
 author:
-    - name: Marla Scorrano
-      affiliations:
-      - ref: csil
     - name: E. Delugas
       orcid: 0009-0000-4638-1062
       affiliations:
