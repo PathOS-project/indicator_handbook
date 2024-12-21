@@ -15,9 +15,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Prevalence of Open Science support and training
 ---
 
-# Prevalence of Open Science support and training {#prevalence-of-OS-support-training .unnumbered}
 
 ::: {.callout collapse="true"}
 

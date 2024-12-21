@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Internet and Society
   city: Paris
   country: France
+
+title: Uptake in the legal sector
 ---
 
-# Uptake in the legal sector {#uptake-in-the-legal-sector .unnumbered}
 
 ::: {.callout collapse="true"}
 

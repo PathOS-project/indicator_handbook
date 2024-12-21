@@ -22,9 +22,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: APC Costs
 ---
 
-# APC Costs {#apc-costs .unnumbered}
 
 ::: {.callout collapse="true"}
 

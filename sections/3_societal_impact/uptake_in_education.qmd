@@ -10,9 +10,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Uptake in education
 ---
 
-# Uptake in education {#uptake-in-education .unnumbered}
 
 ::: {.callout collapse="true"}
 

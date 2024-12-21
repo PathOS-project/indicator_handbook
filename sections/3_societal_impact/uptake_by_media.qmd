@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Uptake by media
 ---
 
-# Uptake by media {#uptake-by-media .unnumbered}
 
 ::: {.callout collapse="true"}
 

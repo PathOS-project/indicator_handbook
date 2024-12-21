@@ -22,9 +22,10 @@ affiliations:
   name: Technopolis Group
   city: Brussels
   country: Belgium
+
+title: Economic growth of companies
 ---
 
-# Economic growth of companies {#economic-growth-of-companies .unnumbered}
 
 ::: {.callout collapse="true"}
 

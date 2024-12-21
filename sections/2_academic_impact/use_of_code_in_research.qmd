@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Use of code in research
 ---
 
-# Use of code in research {#use-of-code-in-research .unnumbered}
 
 ::: {.callout collapse="true"}
 

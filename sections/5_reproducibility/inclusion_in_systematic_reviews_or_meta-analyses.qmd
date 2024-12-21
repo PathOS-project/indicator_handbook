@@ -18,9 +18,10 @@ affiliations:
   name: Graz University of Technology
   city: Graz
   country: Austria
+
+title: Inclusion in systematic reviews or meta-analyses
 ---
 
-# Inclusion in systematic reviews or meta-analyses {#inclusion-in-systematic-reviews-or-meta-analyses .unnumbered}
 
 ::: {.callout collapse="true"}
 

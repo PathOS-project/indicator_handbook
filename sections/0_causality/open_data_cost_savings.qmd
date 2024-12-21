@@ -13,9 +13,10 @@ affiliations:
   name: Centre for Industrial Studies
   city: Milan
   country: Italy
+
+title: The effect of Open Data on cost savings
 ---
 
-# The effect of Open Data on cost savings {#the-effect-of-open-data-on-cost-savings .unnumbered}
 
 ::: {.callout collapse="true"}
 ## History

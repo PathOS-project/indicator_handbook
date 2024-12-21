@@ -10,9 +10,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Science-industry collaboration
 ---
 
-# Science-industry collaboration {#science-industry-collaboration .unnumbered}
 
 ::: {.callout collapse="true"}
 

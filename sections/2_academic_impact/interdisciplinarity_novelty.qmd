@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Interdisciplinary and novelty
 ---
 
-# Interdisciplinary and novelty {#interdisciplinarity-novelty .unnumbered}
 
 ::: {.callout collapse="true"}
 

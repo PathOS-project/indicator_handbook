@@ -1,4 +1,19 @@
-# Open Science Impact Indicator Handbook {.unnumbered}
+---
+title: Open Science Impact Indicator Handbook
+
+author:
+    - name: V.A Traag
+      orcid: 0000-0003-3170-3879
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
 
 This is the Open Science Impact Indicator Handbook by PathOS. In this handbook we cover various indicators measuring various aspects around [Open Science](sections/1_open_science/introduction_open_science.qmd) itself, their [academic](sections/2_academic_impact/introduction_academic_impact.qmd), [societal](sections/3_societal_impact/introduction_societal_impact.qmd) and [economic impacts](sections/4_economic_impact/introduction_economic_impact.qmd), and [reproducibility](sections/5_reproducibility/introduction_reproducibility.qmd).
 

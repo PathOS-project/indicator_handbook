@@ -11,9 +11,9 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
----
 
-# Introduction to Open Science {#intro-OS .unnumbered}
+title: Introduction to Open Science
+---
 
 ::: {.callout collapse="true"}
 ## History

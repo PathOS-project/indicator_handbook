@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Quality
 ---
 
-# Quality {#quality .unnumbered}
 
 ::: {.callout collapse="true"}
 

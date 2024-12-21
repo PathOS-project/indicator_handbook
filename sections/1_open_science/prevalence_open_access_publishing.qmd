@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Prevalence of Open Access publishing
 ---
 
-# Prevalence of Open Access publishing {#prevalence-of-open-access-publishing .unnumbered}
 
 ::: {.callout collapse="true"}
 

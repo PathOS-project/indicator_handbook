@@ -18,9 +18,10 @@ affiliations:
   name: Graz University of Technology
   city: Graz
   country: Austria
+
+title: Scientific literacy
 ---
 
-# Scientific literacy {#scientific-literacy .unnumbered}
 
 ::: {.callout collapse="true"}
 

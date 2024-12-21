@@ -22,9 +22,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Distribution of Open Access journal models
 ---
 
-# Distribution of Open Access journal models {#open-access-journals .unnumbered}
 
 ::: {}
 

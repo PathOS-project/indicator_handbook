@@ -18,9 +18,10 @@ affiliations:
   name: Centre for Industrial Studies
   city: Milan
   country: Italy
+
+title: Cost savings
 ---
 
-# Cost savings {#cost-savings .unnumbered}
 
 ::: {.callout collapse="true"}
 ## History

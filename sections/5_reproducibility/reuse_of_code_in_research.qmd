@@ -10,9 +10,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Reuse of code in research
 ---
 
-# Reuse of code in research {#reuse-of-code-in-research .unnumbered}
 
 ::: {.callout collapse="true"}
 

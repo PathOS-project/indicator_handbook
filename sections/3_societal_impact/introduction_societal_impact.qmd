@@ -16,9 +16,10 @@ affiliations:
   name: University of Geneva
   city: Geneva
   country: Switzerland 
+
+title: Introduction to societal impact
 ---
 
-# Introduction to societal impact {#intro-societal-impact .unnumbered}
 
 ::: {.callout collapse="true"}
 ## History

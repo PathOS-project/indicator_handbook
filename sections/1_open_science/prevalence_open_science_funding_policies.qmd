@@ -14,9 +14,10 @@ affiliations:
   name: Technopologis Group
   city: Brussels
   country: Belgium
+
+title: Prevalence of Open Science funding policies
 ---
 
-# Prevalence of Open Science funding policies {#prevalence-of-open-science-funding-policies .unnumbered}
 
 ::: {.callout collapse="true"}
 

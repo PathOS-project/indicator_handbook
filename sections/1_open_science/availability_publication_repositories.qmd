@@ -22,9 +22,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Availability of publication repositories
 ---
 
-# Availability of publication repositories {#availability-of-publication-repositories .unnumbered}
 
 ::: {}
 

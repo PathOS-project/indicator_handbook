@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Prevalence of open/FAIR data practices
 ---
 
-# Prevalence of open/FAIR data practices {#prevalence-of-openfair-data-practices .unnumbered}
 
 ::: {.callout collapse="true"}
 

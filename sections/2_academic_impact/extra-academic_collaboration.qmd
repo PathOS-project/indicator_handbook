@@ -16,9 +16,10 @@ affiliations:
   name: University of Geneva
   city: Geneva
   country: Switzerland
+
+title: Extra-academic collaborations
 ---
 
-# Extra-academic collaborations {#extra-academic-collaborations .unnumbered}
 
 ::: {}
 

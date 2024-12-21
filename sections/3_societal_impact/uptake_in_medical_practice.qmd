@@ -13,7 +13,7 @@ affiliations:
 ---
 
 
-# Uptake in medical practice {#uptake-in-medical-practice .unnumbered}
+title: Uptake in medical practice
 
 ::: {}
 

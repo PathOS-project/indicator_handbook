@@ -10,9 +10,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Uptake by patient groups
 ---
 
-# Uptake by patient groups {#uptake-by-patient-groups .unnumbered}
 
 ::: {.callout collapse="true"}
 

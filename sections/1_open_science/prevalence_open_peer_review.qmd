@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Prevalence of Open Peer Review
 ---
 
-# Prevalence of Open Peer Review {#prevalence-of-open-peer-review .unnumbered}
 
 ::: {}
 

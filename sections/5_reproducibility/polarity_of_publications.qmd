@@ -10,9 +10,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Polarity of publications
 ---
 
-# Polarity of publications {#polarity-of-publications .unnumbered}
 
 ::: {.callout collapse="true"}
 

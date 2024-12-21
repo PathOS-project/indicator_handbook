@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: The effect of Open Data on Citations
 ---
 
-# The effect of Open Data on Citations {#open-data-citation-advantage .unnumbered}
 
 ::: {.callout collapse="true"}
 ## History

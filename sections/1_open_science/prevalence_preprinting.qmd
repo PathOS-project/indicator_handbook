@@ -22,9 +22,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Prevalence of preprinting
 ---
 
-# Prevalence of preprinting {#prevalence-of-preprinting .unnumbered}
 
 ::: {}
 

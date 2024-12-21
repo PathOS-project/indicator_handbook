@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Deposition of Open Metadata
 ---
 
-# Deposition of Open Metadata {#deposition-of-open-metadata .unnumbered}
 
 ::: {.callout collapse="true"}
 

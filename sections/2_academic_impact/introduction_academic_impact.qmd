@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Introduction to academic impact
 ---
 
-# Introduction to academic impact {#intro-academic-impact .unnumbered}
 
 ::: {.callout collapse="true"}
 

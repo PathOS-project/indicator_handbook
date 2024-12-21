@@ -22,9 +22,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Prevalence of replication studies
 ---
 
-# Prevalence of replication studies {#prevalence-of-replication-studies .unnumbered}
 
 ::: {}
 

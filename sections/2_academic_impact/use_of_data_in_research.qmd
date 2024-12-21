@@ -11,9 +11,10 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Use of data in research
 ---
 
-# Use of data in research {#use-of-data-in-research .unnumbered}
 
 ::: {.callout collapse="true"}
 

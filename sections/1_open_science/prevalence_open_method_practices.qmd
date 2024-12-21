@@ -22,9 +22,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Prevalence of Open Method practices
 ---
 
-# Prevalence of Open Method practices {#prevalence-of-open-method-practices .unnumbered}
 
 ::: {}
 

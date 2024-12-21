@@ -10,9 +10,10 @@ affiliations:
   name: Know-Center
   city: Graz
   country: Austria
+
+title: Consistency in reported numbers
 ---
 
-# Consistency in reported numbers {#consistency-in-reported-numbers .unnumbered}
 
 ::: {.callout collapse="true"}
 

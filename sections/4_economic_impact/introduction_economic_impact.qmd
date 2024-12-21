@@ -10,9 +10,10 @@ affiliations:
   name: Centre for Industrial Studies
   city: Milan
   country: Italy
+
+title: Introduction to Economic Impact
 ---
 
-# Introduction to Economic Impact {#intro-economic-impact .unnumbered}
 
 ::: {.callout collapse="true"}
 ## History

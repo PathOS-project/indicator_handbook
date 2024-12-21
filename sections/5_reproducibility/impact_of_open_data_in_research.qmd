@@ -10,9 +10,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Impact of Open Data in research
 ---
 
-# Impact of Open Data in research {#impact-of-open-data-in-research .unnumbered}
 
 ::: {.callout collapse="true"}
 

@@ -10,9 +10,10 @@ affiliations:
   name: Technopologis Group
   city: Brussels
   country: Belgium
+
+title: Transformative publishing agreements
 ---
 
-# Transformative publishing agreements {#transformative-publishing-agreements .unnumbered}
 
 ::: {}
 
