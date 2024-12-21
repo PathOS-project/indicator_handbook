@@ -10,14 +10,15 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Socially relevant products and processes
 ---
 
-# Socially relevant products and processes {#socially-relevant-products-and-processes .unnumbered}
 
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision | Author |
 |----------------|----------------|----------------|-------------------------|
@@ -27,13 +28,13 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 This indicator aims to identify and evaluate the impact of Open Science (OS) inputs on the development of socially relevant products and processes. These include advancements such as medical treatments, drugs, sustainable agricultural practices, and new renewable energy technologies that contribute to societal well-being (e.g., address key challenges outlined in the Sustainable Development Goals). By tracking the adoption and integration of OS inputs in these areas, the indicator sheds light on the practical benefits of open research practices and their contribution to societal progress and innovation.
 
-## Metrics
+# Metrics
 
-### Number / Percentage of “socially relevant products and processes” using OS resources
+## Number / Percentage of “socially relevant products and processes” using OS resources
 
 This metric calculates the proportion of socially relevant products and processes developed using OS inputs. It aggregates the impact of OS across different sectors by measuring its contribution to:
 
@@ -46,7 +47,7 @@ The combined measurement offers a holistic view of OS's role in fostering innova
 
 This metric can also be measured for a single innovation type, allowing for more focused assessments relevant to particular fields of study.
 
-#### Measurement
+### Measurement
 
 To measure the proposed metric a systematic approach is required to capture the multifaceted contributions of OS across various sectors. This measurement aims to quantify the extent to which OS inputs facilitate the development of innovations in healthcare, agriculture, and renewable energy that have significant societal impact. A primary challenge in this measurement process is the identification and accurate attribution of OS contributions to the final products or processes, given the complex and often opaque development pathways. Additionally, the availability and accessibility of reliable data sources that explicitly link OS resources to specific innovations pose significant measurement challenges. These challenges are compounded by the diversity of sectors involved, each with its own set of data availability and methodological approaches for tracking innovation development.
 
@@ -64,9 +65,9 @@ To measure the proposed metric a systematic approach is required to capture the 
 
 The measurement process, while systematic, may encounter limitations such as incomplete data records, the indirect impact of OS resources that are difficult to quantify, and the evolving nature of what constitutes "open science" practices. Additionally, the dynamic and interdisciplinary nature of innovation development often blurs the lines between direct and indirect contributions of OS, making the measurement challenging yet essential for understanding OS's true impact.
 
-##### Existing datasources:
+#### Existing datasources
 
-###### Lens.org
+##### Lens.org
 
 Lens.org is a comprehensive database that integrates patent data, scholarly communication, and regulatory information. It allows researchers to explore the connections between patents, research articles, and the impact of research on society. For the metric of socially relevant products and processes using OS resources, Lens can be instrumental in identifying patents and publications related to new medical treatments, drugs, sustainable agriculture practices, and renewable energy technologies developed with OS contributions.
 
@@ -77,7 +78,7 @@ To calculate the metric using Lens, one could follow these steps:
 3.  For each identified patent or publication, extract data on the innovation type (medical treatment, drug, etc.), development stage, and any direct mentions of OS contributions.
 4.  Use this extracted information to quantify the number and percentage of innovations developed with OS resources.
 
-###### ClinicalTrials.gov
+##### ClinicalTrials.gov
 
 ClinicalTrials.gov is a database of privately and publicly funded clinical studies conducted around the world. It offers information on the objectives, design, methodology, and status of clinical trials. For the metric at hand, it can provide data on new medical treatments and drugs being developed with Open Science resources by detailing the studies' aims, methodologies, and use of open data or collaborative frameworks.
 
@@ -88,7 +89,7 @@ To utilize ClinicalTrials.gov for the calculation of the metric:
 3.  Compile data on the number of clinical trials employing OS resources in their research processes.
 4.  Analyse this data to determine the proportion of studies within the domain of new medical treatments and drugs that are utilizing OS resources.
 
-###### Press/Media ReleasesPubMed
+##### Press/Media ReleasesPubMed
 
 PubMed is a free search engine accessing mainly the MEDLINE database of references and abstracts on life sciences and biomedical topics. It is invaluable for tracking developments in medical treatments and drugs, including those developed through OS resources. The database can provide insights into the research underpinning new medical innovations and the extent to which open access publications and open data have contributed to these advancements.
 
@@ -99,15 +100,15 @@ To leverage PubMed for this metric:
 3.  Extract information regarding the role of OS in the development of the innovations discussed in the articles.
 4.  Count and categorize these innovations to estimate the proportion developed with OS inputs within the healthcare sector.
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
 The OpenAIRE Graph provides access to a vast collection of open access publications, datasets, and research projects, making it a pivotal resource for identifying OS contributions across multiple disciplines. By aggregating content from repositories, journals, and archives, it facilitates the exploration of how Open Science principles are applied in the development of socially relevant products and processes.
 
 To complement the other datasources, use the OpenAIRE Research Graph to identify which of the publications, datasets and software identified are open access.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### SciNoBo Research Artifact Analysis (RAA) Tool
+##### SciNoBo Research Artifact Analysis (RAA) Tool
 
 This is an automated tool [@stavropoulos2023], leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 

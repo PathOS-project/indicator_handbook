@@ -1,8 +1,8 @@
-# Novelty {#novelty .unnumbered}
+title: Novelty
 
 ::: {}
 
-## History
+# History
 
 | Version | Revision date | Revision                     | Author                    |
 |---------|---------------|------------------------------|---------------------------|
@@ -10,40 +10,40 @@
 
 :::
 
-## Description
+# Description
 
 \[Add text here\]
 
-## Metrics
+# Metrics
 
-### &lt;metric name&gt;
-
-\[Add text here\]
-
-#### Measurement
+## &lt;metric name&gt;
 
 \[Add text here\]
 
-##### Existing datasources:
-
-###### &lt;datasource name&gt;
+### Measurement
 
 \[Add text here\]
 
-##### Existing methodologies
+#### Existing datasources
 
-###### &lt;methodology name&gt;
-
-\[Add text here\]
-
-## Known correlates
+##### &lt;datasource name&gt;
 
 \[Add text here\]
 
-## Notes
+#### Existing methodologies
+
+##### &lt;methodology name&gt;
 
 \[Add text here\]
 
-## References
+# Known correlates
+
+\[Add text here\]
+
+# Notes
+
+\[Add text here\]
+
+# References
 
 \[Add Zotero bibliography here\]

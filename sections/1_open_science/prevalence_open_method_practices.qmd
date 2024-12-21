@@ -22,13 +22,14 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Prevalence of Open Method practices
 ---
 
-# Prevalence of Open Method practices {#prevalence-of-open-method-practices .unnumbered}
 
 ::: {}
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author                                                  |
 |---------|---------------|-------------|---------------------------------------------------------|
@@ -36,7 +37,7 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 “*Methods describe the processes, procedures, and materials used in a research investigation. Methods can take many forms depending on the field and approach, including study designs, protocols, code, materials and reagents, databases and more.*”[^1]
 
@@ -46,9 +47,9 @@ Open methods refer to:
 2.  FAIRness of the same elements (i.e. following the FAIR principles), and,
 3.  an Open and FAIR documentation, that facilitates reproducibility and reuse of the study methods.
 
-## Metrics
+# Metrics
 
-### Number/share of publications with Open Source code
+## Number/share of publications with Open Source code
 
 **Description:** Number of publications with Open Source code: This is the number of publications for which the code that was developed in this context to produce the scientific outcomes included in the publication is shared/can be found with Open Access in Open Repositories.
 
@@ -58,7 +59,7 @@ Open methods refer to:
 
 **Differences:** ..?
 
-#### Measurement
+### Measurement
 
 There is no comprehensive list of publication-software pairs. The metric is partially covered by well-established repositories like GitHub or existing data sources like OpenAIRE. Automated approaches have been built (e.g., PapersWithCode) or are under development in the scientific community, scanning the publication text and spotting mentions of software/code and its FAIR metadata.
 

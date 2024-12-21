@@ -11,14 +11,15 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Use of code in research
 ---
 
-# Use of code in research {#use-of-code-in-research .unnumbered}
 
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|
@@ -26,7 +27,7 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 Many, if not most, scientific analyses involve the use of code or software in one way or another. Code and software can be used for data handling, statistical estimation, visualisation, or various other tasks. Both open-source and closed-source software may be used for research. For instance, MATLAB and Mathematica are two commercial software packages that may be used in research, whereas Octave and SageMath are open-source alternatives. We here try to provide metrics that can serve as an indicator of the use of code in research, where "code" refers to any type of software (e.g. computer library, tool, package) or any set of computer instructions (e.g. like an R or Python script) used in the research cycle.
 
@@ -36,11 +37,11 @@ Sometimes a distinction is made between "reuse" and "use", where "reuse" refers 
 
 This indicator can be useful to provide a more comprehensive view of the impact of the contributions by researchers. Some researchers might be more involved in publishing, whereas others might be more involved in developing and maintaining research software (and possibly a myriad other activities).
 
-## Metrics
+# Metrics
 
 Most research software is not properly indexed. There are initiatives to have research software properly indexed and identified, such as the [Research Software Directory,](https://research-software-directory.org/) but these are far from comprehensive at the moment, and is the topic of ongoing research [@malviya-thakur_scicat_2023]. Many repositories support uploading research software. For instance, Zenodo currently holds about 116,000 records of research software. However, there are also reports of the absence of support for including research software in repositories [@carlin2023].
 
-### Number of times code is cited/mentioned in scientific publications
+## Number of times code is cited/mentioned in scientific publications
 
 If software is cited/mentioned in scientific publications, it provides a direct indication of the use of that software in research. The metric of the number of times code is cited or mentioned in publications, is therefore a reasonable indicator for the use of code in research.
 
@@ -48,19 +49,19 @@ The biggest limitation is that not all researchers report all research software 
 
 In addition, software might not be cited explicitly, and instead the paper associated with the software might be cited. The association between papers and software can be retrieved in various ways. Sometimes, software repositories are mentioned in papers, while vice-versa, the software repository may include citation information. This may take various forms, such as a [`CITATION.cff`](https://citation-file-format.github.io/) file in a GitHub repository, or a [`CITATION`](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/citation.html) file in an R package. The association between papers and code is also being tracked by <https://paperswithcode.com/>. However, it is difficult to distinguish between citations to a publication for the software it introduced, or other advances made in the paper. Nonetheless, it might be relevant to combine citations statistics to the paper with explicit citations or mentions of the research software.
 
-#### Measurement
+### Measurement
 
-##### Existing datasources
+#### Existing datasources
 
-###### Bibliometric databases
+##### Bibliometric databases
 
 If software is indexed in a repository and is provided a DOI, it can in principle be cited. Zenodo for instance covers about 160,000 records that contain research software, each supplied a DOI through DataCite. Hence, if researchers actively cite software in their publication using the DOI of the repository, the citations can be counted.
 
 Not all bibliometric databases actively track research software, and therefore not all bibliometric databases can be used for this purpose. Dimensions does index research software (although it is referred to as data), but it is not clear whether citations to the research software are also being tracked. OpenAlex does not index research software, and also does not track citations to the research software. However, only very few research software citations should be expected.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Extract software mentions from full text
+##### Extract software mentions from full text
 
 Especially because of the limited explicit references to software, it is important to also explore other possibilities to track the use of code in research. One possibility is to try to extract the mentions of a software package or tool from the full-text. This is done by [@istrate] who have trained a machine learning model to extract references to software from full-text. They rely on the manual annotation of software mentions in PDFs by [@du2021]. The resulting dataset of software mentions is made available publicly [@istrate_cz_2022].
 
@@ -68,7 +69,7 @@ Although the dataset of software mentions might provide a useful resource, it is
 
 A common "gold standard" dataset for training software mention extraction from full text is the so-called SoftCite dataset [@howison_softcite_2023].
 
-### Repository statistics (# Forks/Clones/Stars/Downloads/Views)
+## Repository statistics (# Forks/Clones/Stars/Downloads/Views)
 
 Much (open-source) software is shared in version control repositories in online platforms. Various types of usage statistics can be derived from these online platforms, that somehow relate to the general level of interest in the software. These metrics vary from how many other users have copies of those repositories (often called forks), to how many people downloaded a particular release from this platform.
 
@@ -76,19 +77,19 @@ There are some clear limitations to this approach. Firstly, not all research sof
 
 The most common version control system at the moment is [Git](https://git-scm.com/), which itself is open-source. There are other version control systems, such as Subversion or Mercurial, but these are less popular. The most common platform on which Git repositories are shared is GitHub, which is not open-source itself. There are also other repository platforms, such as [CodeBerg](https://codeberg.org/) (built on [Forgejo](https://forgejo.org/)) and [GitLab](https://gitlab.com/), which are themselves open-source, but they have not yet managed to reach the popularity of GitHub. We therefore limit ourselves to describing GitHub, although we might extend this in the future.
 
-#### Measurement
+### Measurement
 
 We propose three concrete metrics based on the GitHub API: the number of forks, the number of stars and the number of downloads of releases. There are additional metrics about traffic available from [GitHub API metrics](https://docs.github.com/en/rest/metrics), but these unfortunately require permissions from a specific repository.\
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Forks/Stars (GitHub API)
+##### Forks/Stars (GitHub API)
 
 On GitHub, people can make a personal copy of a repository, which is called a fork. In addition, they can "star" a repository, in order to "save" it in their list of "favourite" repositories. The number of forks of a repository hence provides a metric of how many people have made personal copies of a repository, and the number of stars provides a metric of how many people have marked it as a "favourite".
 
 The calculation of the number of forks and the number of stars is really straightforward. For a particular `repo` from a particular `owner`, one can get the count from <https://api.github.com/repos/owner/repo>. For instance, for the repository `openalex-guts` from `ourresearch`, one can get the information from the URL [https://api.github.com/repos/ourresearch/openal](https://api.github.com/repos/ourresearch/openalex-guts)ex-guts. The number of forks are then listed in the field `forks_count` and the number of starts are listed in `stargazers_count`. See the API documentation for more details.
 
-###### Downloads (GitHub API)
+##### Downloads (GitHub API)
 
 Versions of repositories on GitHub can be made available as a release. In addition to the source code itself for a specific version, it also allows to include different files, for example binaries for different platforms. Releases can then be easily downloaded from GitHub.
 
@@ -108,13 +109,13 @@ total_downloads = sum(asset['download_count']
 
 See the [releases API documentation](https://docs.github.com/en/rest/releases/releases?apiVersion=2022-11-28#list-releases) for more details.
 
-### Software dependencies
+## Software dependencies
 
 Software dependencies indicate to what extent software is being used by other software. This metric provides some idea to which extent the software is being used by others.
 
 There are some clear limitations to this approach. First of all, such statistics can only be calculated when software is shared in a clear software ecosystem, such as the [Python Package Index (PyPI)](https://pypi.org/) or the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). Not all research software is shared in such packaging indices, and they cannot easily be tracked. Secondly, the type of dependencies is not limited to research only. Hence, some of these metrics might be equally well an indicator of usage by industry as it is an indicator of usage by researchers. How to distinguish between the various types of use is not evident.
 
-#### Measurement
+### Measurement
 
 Measurement of such dependencies can potentially be provided by tools targeted at the various software ecosystems. Here, we will limit ourselves to the [Python Package Index (PyPI)](https://pypi.org/) and the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). Dependencies are usually limited to within these package indices, and hence external packages that depend on some particular software packages are not captured.
 
@@ -122,15 +123,15 @@ One common issue in the measurement of dependencies, similar to references in pu
 
 One consideration is to also track transitive dependencies. That is, a package C might depend on package B, which in turn might depend on package A. In that case, package A has on direct dependent, namely package B, but package C is then a transitively dependent of package A.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Python Package Index (PyPI)
+##### Python Package Index (PyPI)
 
 Most Python Packages are shared on the [Python Package Index (PyPI)](https://pypi.org/), and declare their dependencies. Unfortunately, some of these dependencies can be dynamic in nature, and can depend on specific configurations and options. Nonetheless, it is possible to scan all packages in PyPI, in order to list all dependencies. One option that can be considered is this context is <https://www.wheelodex.org/>, which lists Python packages and their reverse dependencies. This also includes an [API](https://www.wheelodex.org/json-api/) for retrieving reverse dependencies, for instance for the package requests the reverse dependencies can retrieved via <https://www.wheelodex.org/json/projects/requests/rdepends>. Transitive dependencies are not directly tracked, but this could in principle be reconstructed manually.
 
 The code for gathering all the (reverse) dependencies from PyPI can be found at <https://github.com/wheelodex/wheelodex>.
 
-###### Comprehensive R Archive Network (CRAN)
+##### Comprehensive R Archive Network (CRAN)
 
 Most R packages are shared on the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). CRAN lists reverse dependencies on the webpage for any package, which allows for easy inspection for any package. For obtaining more extensive statistics, it is recommended to use automated tools. In this case, the [`tools:: dependsOnPkgs`](https://stat.ethz.ch/R-manual/R-devel/library/tools/html/dependsOnPkgs.html) function is particularly useful, for example
 

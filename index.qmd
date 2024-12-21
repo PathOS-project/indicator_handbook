@@ -1,8 +1,23 @@
-# Open Science Impact Indicator Handbook {.unnumbered}
+---
+title: Open Science Impact Indicator Handbook
+
+author:
+    - name: V.A Traag
+      orcid: 0000-0003-3170-3879
+      affiliations:
+      - ref: cwts
+
+affiliations:
+- id: cwts
+  name: Leiden University
+  department: Centre for Science and Technology Studies
+  city: Leiden
+  country: the Netherlands
+---
 
 This is the Open Science Impact Indicator Handbook by PathOS. In this handbook we cover various indicators measuring various aspects around [Open Science](sections/1_open_science/introduction_open_science.qmd) itself, their [academic](sections/2_academic_impact/introduction_academic_impact.qmd), [societal](sections/3_societal_impact/introduction_societal_impact.qmd) and [economic impacts](sections/4_economic_impact/introduction_economic_impact.qmd), and [reproducibility](sections/5_reproducibility/introduction_reproducibility.qmd).
 
-## Executive summary
+# Executive summary
 
 In the PathOS project we take a causal perspective on studying Open Science. This necessitates making a distinction between impact itself, and the effect of Open Science on impact. For instance, we could very well see an Open Source research tool being used frequently by industry. In that sense, the Open Source research tool can be said to have a type of economic impact. However, it could very well be that the research tool would have been similarly used by industry had it been released as closed software under a commercial licence. We are interested in the difference between its actual impact under the Open Science principles and its counterfactual impact under a closed principle. That is, we are interested in the *causal* effect of Open Science on the impact of the science.
 
@@ -14,6 +29,6 @@ Finally, not all indicators are equally well-developed. Some indicators, like [c
 
 We hope this handbook will be a central hub to keep track of Open Science related indicators. We hope to be able to contribute to keeping the impact indicator handbook up-to-date as part of the PathOS project. The handbook is open to community contributions. Together we may create a central resource that is useful to all.
 
-## Acknowledgements {.unnumbered}
+# Acknowledgements {.unnumbered}
 
 The PathOS project has received funding from the European Union’s Horizon Europe framework programme under grant agreement No. 101058728. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency. Neither the European Union nor the European Research Executive Agency can be held responsible for them.

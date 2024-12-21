@@ -16,14 +16,15 @@ affiliations:
   name: University of Geneva
   city: Geneva
   country: Switzerland
+
+title: Causality Research on the Social Impact of Open Science
 ---
 
-# Causality Research on the Social Impact of Open Science {#causality-societal-impact .unnumbered}
 
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author       |
 |---------|---------------|-------------|--------------|

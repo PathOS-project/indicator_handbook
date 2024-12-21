@@ -10,14 +10,15 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Impact of Open Data in research
 ---
 
-# Impact of Open Data in research {#impact-of-open-data-in-research .unnumbered}
 
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
@@ -27,21 +28,21 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 The impact of Open Data in research aims to capture the effect of making research data openly accessible and reusable on enhancing the reproducibility of research results, as open and accessible code is a cornerstone for verification and validation in science.
 
 The indicator can be used to assess the level of openness and accessibility of research data within a specific scientific community or field, and to identify potential barriers or incentives for the adoption of Open Data practices.
 
-## Metrics
+# Metrics
 
-### NCI for publications that have introduced Open Datasets
+## NCI for publications that have introduced Open Datasets
 
 This metric calculates the Normalised Citation Impact (NCI) for publications that have introduced Open Datasets. By introducing Open Datasets, researchers enable others to access and verify their findings, thus enhancing the potential for reproducibility. The NCI metric primarily measures the citation impact of a publication, adjusted for differences in citation practices across scientific fields. However, citation impact can also be an indicator of research quality and reproducibility. Therefore, the NCI for publications that have introduced Open Datasets can serve as an indicator of both the visibility, influence, and reproducibility of research findings.
 
 One limitation of this metric is that the use of NCI has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend using this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
-#### Measurement
+### Measurement
 
 To measure this metric, the process begins with the identification of publications that have introduced Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
 
@@ -51,9 +52,9 @@ Finally, the NCI (Normalised Citation Impact) score for each publication is calc
 
 One potential limitation of this approach is that not all Open Datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE
+##### OpenAIRE
 
 OpenAIRE is a European platform that provides Open Access to research outputs, including publications, datasets, and software. OpenAIRE collects metadata from various data sources, including institutional repositories, data repositories, and publishers.
 
@@ -61,15 +62,15 @@ For the NCI for publications that have introduced Open Datasets metric, we can u
 
 One limitation of using OpenAIRE for this metric is that not all Open Datasets may be registered in OpenAIRE, which could lead to underestimation of the number of publications that have introduced Open Datasets.
 
-###### Scopus
+##### Scopus
 
 Scopus is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
 One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### SciNoBo toolkit
+##### SciNoBo toolkit
 
 The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
@@ -77,13 +78,13 @@ Furthermore, a new component of the SciNoBo toolkit, currently undergoing evalua
 
 To measure the proposed metric, the tool can be used to identify relevant publications that have introduced datasets and calculate their NCI score.
 
-### NCI for publications that have (re)used Open Datasets
+## NCI for publications that have (re)used Open Datasets
 
 This metric calculates the Normalised Citation Impact (NCI) for publications that have (re)used Open Datasets. It is a measure of the citation impact of research publications that have utilized Open Datasets, adjusted for differences in citation practices across scientific fields. The NCI for publications that have (re)used Open Datasets can indicate the potential impact of data sharing and reuse practices on the visibility and influence of research findings. A higher NCI score indicates a greater level of scientific collaboration and data sharing within a specific scientific community or field, suggesting that the availability of Open Datasets can contribute to the impact and recognition of research, thus indirectly indicating its potential for reproducibility.
 
 A limitation of this metric is that the use of NCI has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend using this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
-#### Measurement
+### Measurement
 
 To measure this metric, the process begins with the identification of publications that have (re)used Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
 
@@ -93,17 +94,17 @@ Finally, the NCI (Normalised Citation Impact) score for each publication is calc
 
 One potential limitation of this approach is that not all Open Datasets may be registered in data repositories, making it challenging to identify all relevant publications. Additionally, the accuracy of the NCI score may be affected by the availability and quality of citation data in different scientific fields. Therefore, it is important to carefully consider the potential biases and limitations of the data sources and methodologies used to measure this metric.
 
-##### Datasources
+#### Datasources
 
-###### Scopus
+##### Scopus
 
 [Scopus](https://www.scopus.com) is a comprehensive expertly curated abstract and citation database that covers scientific journals, conference proceedings, and books across various disciplines. Scopus provides enriched metadata records of scientific articles, comprehensive author and institution profiles, citation counts, as well as calculation of the articles' NCI score using their API.
 
 One limitation of Scopus is that the calculation of NCI from Scopus only considers documents that are indexed in the Scopus database. This could lead to underestimation or overestimation of the NCI for some publications, depending on how these publications are cited in sources outside the Scopus database.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### SciNoBo toolkit
+##### SciNoBo toolkit
 
 The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
 
@@ -111,7 +112,7 @@ Furthermore, a new component of the SciNoBo toolkit, currently undergoing evalua
 
 To measure the proposed metric, the tool can be used to identify relevant publications that have (re)used datasets and calculate their NCI score.
 
-### Dataset downloads/usage counts/stars from repositories
+## Dataset downloads/usage counts/stars from repositories
 
 This metric measures the number of downloads, usage counts, or stars (depending on the repository) of a given Open Dataset. It provides an indication of the level of interest and use of the dataset by the scientific community, and can serve as a proxy for the potential impact of the dataset on scientific research. It should be noted that this metric may not capture the full impact of Open Datasets on scientific research, as the number of downloads or usage counts may not necessarily reflect the quality or impact of the research that utilizes the dataset.
 
@@ -119,39 +120,39 @@ In terms of reproducibility, high usage counts or stars may indicate that a data
 
 One limitation of this metric is that it only captures usage of Open Datasets from specific repositories and may not reflect usage of the same dataset that is hosted elsewhere. Additionally, differences in repository usage and user behaviour may affect the comparability of download/usage count/star data across repositories. Finally, this metric does not capture non-public uses of Open Datasets, such as internal use within an organization or personal use by researchers, which may also contribute to the impact of Open Datasets on scientific research.
 
-#### Measurement
+### Measurement
 
 To measure this metric, we can use data from various data repositories, such as DataCite and Zenodo, or data from OpenAIRE, which provide download or usage statistics for hosted datasets. We can also use platforms such as GitHub or GitLab, which provide star counts as a measure of user engagement with Open Source code repositories that may include Open Datasets. However, it is important to note that different repositories may provide different types of usage statistics, and these statistics may not be directly comparable across repositories. Additionally, not all repositories may track usage statistics, making it difficult to obtain comprehensive data for all Open Datasets.
 
 The data can be computationally obtained using web scraping tools, API queries, or by manually accessing the download/usage count/star data for each dataset.
 
-##### Datasources
+#### Datasources
 
-###### DataCite
+##### DataCite
 
 DataCite is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics. This information can be used to measure the usage and impact of Open Datasets.
 
 To calculate the usage count of a dataset, we can use the "Views" field provided on the dataset landing page on DataCite, which indicates the number of times the landing page has been accessed. To calculate the number of downloads, we can use the "Downloads" field, which indicates the number of times the dataset has been downloaded. The number of stars or likes can be used as a measure of the popularity of the dataset among users.
 
-###### Zenodo
+##### Zenodo
 
 [Zenodo](https://zenodo.org/) is a general-purpose open-access repository developed by CERN to store scientific data. It accepts various types of research outputs, including datasets, software, and publications. Zenodo assigns a unique digital object identifier (DOI) to each deposited item, which can be used to track its usage and citations.
 
 To calculate the metric of dataset views and downloads from Zenodo, we can extract the relevant metadata from the Zenodo API, which provides programmatic access to the repository's contents. The API allows us to retrieve information about a specific item, such as its title, author, publication date, and number of views / downloads. We can then aggregate this data to obtain usage statistics for a particular dataset or set of datasets.
 
-###### OpenAIRE
+##### OpenAIRE
 
 OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including Open Datasets.
 
 To calculate this metric using OpenAIRE, we can retrieve the download and view counts for the relevant Open Datasets, which can be accessed through the OpenAIRE REST API. The API returns JSON-formatted metadata for each research output, which includes information such as the title, authors, publication date, download counts, and view counts. The download and view counts can be used to calculate the total number of times the dataset has been accessed or viewed, respectively.
 
-###### GitHub
+##### GitHub
 
 [GitHub](https://github.com/) is a web-based platform used for version control and collaborative software development. It allows users to create and host code repositories, including those for Open Source software and datasets. The number of downloads, usage counts, and stars on GitHub can be used as a metric for the impact and popularity of Open Datasets.
 
 To measure this metric, we can search for the relevant repositories on GitHub and extract the relevant download, usage, and star data. This data can be accessed via the GitHub API, which provides programmatic access to repository data. The API can be queried using HTTP requests, and the resulting data can be parsed and analysed using programming languages such as Python.
 
-###### GitLab
+##### GitLab
 
 [GitLab](https://about.gitlab.com/) is a web-based Git repository manager that provides source code management, continuous integration and deployment, and more. It can be used as a data source for metrics related to the usage of open-source software projects, including the number of downloads, stars, and forks.
 
@@ -159,9 +160,9 @@ To calculate the metric of dataset downloads/usage counts/stars from GitLab, we 
 
 To access this information, we can use the GitLab API.
 
-###### Existing methodologies
+##### Existing methodologies
 
-###### Ensuring that repositories contain data
+##### Ensuring that repositories contain data
 
 To ensure that a repository (i.e. Github, Gitlab) primarily contains research data and not code, we can consider the following methodology:
 
@@ -173,13 +174,13 @@ To ensure that a repository (i.e. Github, Gitlab) primarily contains research da
 
 By considering these checks, we can ensure that the repository primarily contains research data rather than code.
 
-### Downloads / views of published DMPs
+## Downloads / views of published DMPs
 
 This metric measures the number of downloads or views of published Data Management Plans (DMPs) from data repositories, such as DataCite, Zenodo, or institutional repositories. A DMP is a document that outlines how research data will be managed throughout a research project, including details on data collection, storage, sharing, and preservation. The number of downloads or views of published DMPs can indicate the level of interest and engagement of researchers and other stakeholders in Open Data practices and the importance of data management planning in the research process, thereby reflecting the adoption of good data management practices that indirectly contribute to overall research reproducibility.
 
 A limitation of this metric is that it only captures the number of downloads or views of DMPs, which may not necessarily indicate the actual implementation of the DMP or the quality of the data management practices. Therefore, it is important to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
-#### Measurement
+### Measurement
 
 To measure this metric, we can start by identifying published DMPs in data repositories, such as DataCite, Zenodo, or institutional repositories. To identify the relevant DMPs, we can utilize search features and application programming interfaces (APIs) provided by these data repositories, conduct keyword searches related to the specific research or project, and review the metadata associated with each DMP for relevance. Once we have identified the relevant DMPs, we can track the number of downloads or views of these DMPs over a specified period of time.
 
@@ -187,35 +188,35 @@ Potential measurement problems and limitations of this metric include the possib
 
 Existing data sources and methodologies for this metric include the data repositories and web analytics tools mentioned above. DataCite and Zenodo provide download counts for their published content, including DMPs, while Google Analytics can be used to track views of DMPs on institutional or funder websites. However, there may be gaps in the availability of download or view counts for DMPs published on other platforms or websites. In such cases, it may be necessary to manually track the number of downloads or views through user surveys or by contacting individual users who have downloaded or viewed the DMP.
 
-##### Datasources
+#### Datasources
 
-###### DataCite
+##### DataCite
 
 [DataCite](https://datacite.org/) is a global registry for research data that provides persistent identifiers (DOIs) for research datasets. To measure the number of downloads or views of published DMPs in DataCite, we can use the DataCite REST API to search for DMPs by the keyword "Data Management Plan" and filter the results by the download count or view count metadata. The API also allows filtering by date range and repository location, which can provide additional context for the measurement.
 
 One potential limitation of using DataCite for this metric is that not all DMPs may be registered with DataCite, and the search results may not capture all relevant DMPs. Additionally, the download or view count metadata may not always accurately reflect the actual use or engagement with the DMP, as these metrics can be affected by factors such as availability, accessibility, and discoverability of the DMP.
 
-###### Zenodo
+##### Zenodo
 
 Zenodo is a data repository that allows researchers to upload and share research outputs, including DMPs. To calculate the number of downloads or views of published DMPs on Zenodo, we can use the Zenodo REST API to retrieve the relevant metadata for each DMP, such as the number of views and downloads. This can be done by searching for DMPs on Zenodo using their unique identifiers or keywords, and then extracting the relevant metadata for each search result.
 
 One limitation of using Zenodo to measure this metric is that not all DMPs may be published on this repository. Additionally, the number of views and downloads may not necessarily reflect the actual use or implementation of the DMP, as users may simply be browsing or downloading the document for reference purposes. Finally, the number of downloads and views may be influenced by factors such as the popularity of the topic or the visibility of the DMP on the repository.
 
-### Number of datasets reused inside DMPs
+## Number of datasets reused inside DMPs
 
 This metric measures the number of datasets that are reused in Data Management Plans (DMPs). A DMP is a document that outlines how research data will be managed throughout a research project, including details on data collection, storage, sharing, and preservation. The number of datasets reused in DMPs can indicate the level of engagement of researchers in Open Data practices and the potential impact of data sharing and reuse practices on research output. This metric can also serve as a proxy for reproducibility, as datasets explicitly cited and reused in multiple DMPs are likely to be more robust and have undergone scrutiny, thus facilitating other researchers in verifying or replicating results. Furthermore, the standardization of data storage, management, and processing practices encouraged by DMPs can indirectly promote reproducibility.
 
 A limitation of this metric is that it may not capture the full range of Open Data practices that are being utilized by researchers, such as the sharing of data outside of DMPs or the creation of new datasets for reuse. Additionally, the metric may not capture the quality or impact of the datasets being reused in DMPs. Therefore, it is important to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
-#### Measurement
+### Measurement
 
 To measure this metric, we can start by identifying published DMPs in data repositories, such as DataCite, Zenodo, or institutional repositories. We can then analyse the content of published DMPs to identify the datasets that are being reused through automated text mining techniques (e.g., using the SciNoBo toolkit).
 
 However, there are some limitations to this approach. One limitation is that not all DMPs are publicly available, which may limit the scope of the analysis. Additionally, automated techniques may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the DMP.
 
-##### Datasources
+#### Datasources
 
-###### DataCite
+##### DataCite
 
 [DataCite](https://datacite.org/) is a metadata repository that provides persistent identifiers for research datasets. It collects metadata from various sources, including data centres, publishers, and institutional repositories. The metadata includes information on the dataset, such as the title, author, publisher, date of publication, and the identifier of the dataset.
 
@@ -225,7 +226,7 @@ However, it is important to note that not all DMPs may be available in DataCite,
 
 To obtain the metadata for published DMPs in DataCite, we can use the DataCite REST API to search for DMPs that have been registered with DataCite. The metadata can be obtained in various formats, including JSON and XML.
 
-###### Zenodo
+##### Zenodo
 
 Zenodo is a general-purpose data repository that allows users to upload any kind of research output, including datasets and data management plans (DMPs). Zenodo assigns a unique Digital Object Identifier (DOI) to each uploaded item, which can be used to track usage and reuse.
 
@@ -233,9 +234,9 @@ To measure the number of datasets reused inside DMPs based on Zenodo, we can sea
 
 However, it is important to note that not all DMPs on Zenodo may contain information on reused datasets, and some datasets may not be explicitly mentioned in the text of the DMP. Additionally, the automated text mining techniques used to identify reused datasets may not capture all instances of reuse, particularly if the datasets are referred to in a non-standard way or if they are combined with other datasets.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### SciNoBo toolkit
+##### SciNoBo toolkit
 
 The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] has a new component, currently undergoing evaluation, which involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in scientific text (i.e., the text of a DMP) and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the dataset has been (re)used by the authors of the DMP.
 

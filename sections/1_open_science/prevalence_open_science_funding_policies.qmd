@@ -14,14 +14,15 @@ affiliations:
   name: Technopologis Group
   city: Brussels
   country: Belgium
+
+title: Prevalence of Open Science funding policies
 ---
 
-# Prevalence of Open Science funding policies {#prevalence-of-open-science-funding-policies .unnumbered}
 
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision     | Author             |
 |---------|---------------|--------------|--------------------|
@@ -30,7 +31,7 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 This indicator aims to capture the prevalence of funding being provided for Open Science. It is closely related to the indicator for prevalence of national policies for Open Science. Since Open Science can be considered a catch-all term for different practices and objectives, this may include different elements or distinct policies such as Open Access to publications, Open Data, fair data, research assessment reform, Citizen Science etc. Usually, the question whether funding is provided is part of a policy. I.e., the availability of funding implies the existence of a policy as well.
 
@@ -44,9 +45,9 @@ Beyond individual researchers, understanding the landscape of Open Science fundi
 
 In summary, knowledge of Open Science funding policies empowers researchers and stakeholders to make informed decisions, promote Open Science practices, and contribute to a more inclusive and accessible global research community.
 
-## Metrics
+# Metrics
 
-### Public supranational Open Science funding policies
+## Public supranational Open Science funding policies
 
 Public supranational Open Science funding policies refer to the funding initiatives and programs that are organized and administered at a level beyond that of individual countries or regions. These funding policies are typically established by international organizations or supranational entities that aim to promote Open Science practices on a global scale. Here are some key characteristics of public supranational Open Science funding policies:
 
@@ -60,21 +61,21 @@ Public supranational Open Science funding policies refer to the funding initiati
 
 Examples of organizations that promote supranational Open Science funding policies include the European Union through its research and innovation programs like Horizon Europe, as well as other international bodies such as the United Nations Educational, Scientific and Cultural Organization (UNESCO) and the World Health Organization (WHO).
 
-#### Datasources
+### Datasources
 
-##### UNESCO recommendations
+#### UNESCO recommendations
 
 <https://unesdoc.unesco.org/ark:/48223/pf0000383709>
 
-##### Implementation of the UNESCO recommendations
+#### Implementation of the UNESCO recommendations
 
 <https://www.unesco.org/en/open-science/implementation#open-science-working-groups>
 
-##### ROAR map
+#### ROAR map
 
 <https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name>
 
-### Public European Open Science funding policies
+## Public European Open Science funding policies
 
 European Open Science funding policies are an essential component of the European Union's research and innovation strategy. Open Science refers to the practice of making research findings, data, and methodologies openly accessible and transparent to the broader scientific community and the public. The EU is committed to fostering an open and collaborative research environment to accelerate scientific progress, improve the reproducibility of research, and maximize the societal impact of publicly funded research. Here are some key aspects of public European Open Science funding policies:
 
@@ -86,23 +87,23 @@ European Open Science funding policies are an essential component of the Europea
 -   Citizen Science and Public Involvement: Some funding initiatives may promote Citizen Science projects, where the public actively participates in research activities. Public engagement and involvement in research are seen as ways to strengthen the link between science and society.
 -   Compliance and Evaluation: Funders may require grantees to comply with Open Science principles as a condition for funding. Additionally, the impact of research funded through Open Science policies is evaluated not only based on academic metrics but also on its broader societal and economic impacts.
 
-#### Datasources
+### Datasources
 
-###### EOSC Observatory
+##### EOSC Observatory
 
 https://zenodo.org/communities/eoscobservatory/?page=1&size=20
 
 The datasource has a special focus on EOSC related investments which is the backbone of the European infrastructure of OS. It directly gathers data from Member States and Associated Countries on a yearly basis through individual surveys and then in-depth interviews within the frames of the EOSC Future project. After 2023 September, the information gathering activity is questionnable.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Interviews, surveys
+##### Interviews, surveys
 
-###### ROAR map
+##### ROAR map
 
 https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&\_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name
 
-### Public national Open Science funding policies
+## Public national Open Science funding policies
 
 Public national Open Science funding policies are specific strategies and guidelines established by individual countries to support and promote Open Science practices within their research funding programs. Open Science aims to increase transparency, accessibility, and collaboration in the scientific community by making research findings, data, and methodologies openly available to the public and other researchers. Here are some key characteristics of public national Open Science funding policies:
 
@@ -117,7 +118,7 @@ Public national Open Science funding policies are specific strategies and guidel
 
 It's important to note that the specific details and extent of Open Science policies may vary among different countries, reflecting the unique research landscape and priorities of each nation. Researchers and applicants seeking funding through national research programs should refer to the official guidelines and requirements provided by their respective funding agencies.
 
-### Private global Open Science funding policies
+## Private global Open Science funding policies
 
 Private global Open Science funding policies refer to the strategies and initiatives established by private organizations and foundations with a global reach to support and promote Open Science practices. These organizations recognize the importance of open and collaborative research in advancing scientific knowledge, addressing global challenges, and maximizing the societal impact of research. Private global Open Science funding policies often complement public funding efforts and provide additional resources and support to researchers worldwide. Here are some key characteristics of private global Open Science funding policies:
 
@@ -132,13 +133,13 @@ Private global Open Science funding policies refer to the strategies and initiat
 
 It's important to note that private global Open Science funding policies may vary widely among different organizations and foundations. Researchers seeking funding from private entities should carefully review the specific guidelines, requirements, and focus areas of each funding opportunity to ensure their research aligns with the objectives of the funding program.
 
-#### Datasources
+### Datasources
 
-##### ROAR map
+#### ROAR map
 
 <https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name>
 
-### Private national Open Science funding policies
+## Private national Open Science funding policies
 
 Private national Open Science funding policies refer to the strategies and guidelines established by private organizations or corporations within individual countries to support and promote Open Science practices. These funding policies are separate from public national research funding and are provided by private entities that recognize the value of Open Science principles in advancing research, innovation, and knowledge sharing. Private national Open Science funding policies typically focus on specific research areas or industries, complementing public funding efforts and contributing to the broader Open Science ecosystem. Here are some key characteristics of private national Open Science funding policies:
 
@@ -153,12 +154,12 @@ Private national Open Science funding policies refer to the strategies and guide
 
 It's essential to note that private national Open Science funding policies can vary significantly among different private organizations and industries within a country. Researchers seeking private funding should carefully review the specific guidelines, focus areas, and requirements of each funding opportunity to ensure their research aligns with the objectives of the funding program. Additionally, policies and initiatives may have evolved or changed since my last update, so researchers are encouraged to refer to the most recent guidelines provided by private funding organizations.
 
-#### Datasources
+### Datasources
 
-##### ROAR map
+#### ROAR map
 
 <https://roarmap.eprints.org/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search&policymaker_type=funder&policymaker_name_merge=ALL&policymaker_name=&policy_adoption=&policy_effecive=&mandate_content_types_merge=ANY&apc_fun_url_merge=ALL&apc_fun_url=&satisfyall=ALL&order=policymaker_name>
 
-## Notes
+# Notes
 
 This is an ongoing process that needs time until it can be considered as elaborated.

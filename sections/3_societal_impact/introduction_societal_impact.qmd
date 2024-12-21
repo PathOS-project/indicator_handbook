@@ -16,12 +16,13 @@ affiliations:
   name: University of Geneva
   city: Geneva
   country: Switzerland 
+
+title: Introduction to societal impact
 ---
 
-# Introduction to societal impact {#intro-societal-impact .unnumbered}
 
 ::: {.callout collapse="true"}
-## History
+# History
 
 | Version | Revision date | Revision     | Author       |
 |---------|---------------|--------------|--------------|
@@ -29,7 +30,7 @@ affiliations:
 | 1.1     | 2024-11-26    | second draft | T. Venturini |
 :::
 
-## Open Science Beyond Academia: An Exploration of Societal Uptake and Impact
+# Open Science Beyond Academia An Exploration of Societal Uptake and Impact
 
 Open Science is increasingly recognized as essential for advancing academic research and industrial innovation and a series of indicators have been developed in PathOS and elsewhere to assess the scientific and economic impacts of Open Science (covered in two sections of this handbook). Understanding the full impact of Open Science, however, requires looking beyond the boundaries of academia to examine how OS resonates in other societal sectors generating broader but subtler outcomes. This section of the handbook considers how a variety of stakeholders engage with Open Science, the challenges in measuring its influence, and the different approaches being taken to assess its real-world effects.
 

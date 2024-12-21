@@ -26,12 +26,13 @@ affiliations:
   name: Technopolis Group
   city: Brussels
   country: Belgium
+
+title: Labour market impact of OS
 ---
 
-# Labour market impact of OS {#labour-market-impact-of-os .unnumbered}
 
 ::: {.callout collapse="true"}
-## History
+# History
 
 | Version | Revision date | Revision | Author |
 |---------------|---------------|---------------|----------------------------|
@@ -42,7 +43,7 @@ affiliations:
 | 0.1 |  | Labour efficiency indicator template | Istvan Karasz, Technopolis Consulting Group |
 :::
 
-## Description
+# Description
 
 Open Science (OS) is increasingly recognised to have direct effects on the skills and competence needs of researchers and research support staff**.** For example, academic libraries and research infrastructures need skills and competence for research data management [@ocarroll2017; @manola2021; @digital]. The new role of Research Software Engineer is also gaining traction internationally^[See <https://researchsoftware.org>]. The changing requirements are also well-documented in the case of academic libraries [@mccaffrey2020]. Open Science is thus integrated into the European career and competence frameworks for researchers, such as ResearchComp [@almerud2022]. While initially emanating from public research organisatons, such skills may spill-over into industry, to make use of Open Science resources, but also through professionals moving into non-academic jobs and transferring their knowledge, skills, and competences.
 
@@ -57,37 +58,37 @@ Considering the possibilities to measure such effects currently available, this 
 
 These are not full-fledged instructions that can be implemented immediately. They are suggestions about approaches, with some suggestions for potential methods and data sources. Any use of them needs to be used carefully in the specific context of the respective research question at hand.
 
-## Metrics
+# Metrics
 
-### New Open Science skills and competences
+## New Open Science skills and competences
 
 Open Science requires specific skills and competence. These qualitative changes can be identified by investigating job descriptions and the types of skills and competences which they require. Job descriptions can be obtained from platforms such as LinkedIn, IEEE Jobs, indeed.com, or also directly from organisations recruiting specific profiles. This is a relatively well-established practice and has been done in the context of data science and research data management.
 
-#### Measurement
+### Measurement
 
 A tested methodology was employed by the EDISON Project [@datasci], which collected job advertisements in the context of data science to develop a body of knowledge and competence framework for data science profiles. A similar approach has been used during the FAIRsFAIR project to update the EDISON framework with specific insights on (FAIR) data skills and competence relevant to the “data steward” job title [@demchenko2021]. However, the application of this method in practice has been limited to Data Science and (FAIR) Data Management Skills so far. Using these approaches is in principle possible for other Open Science skills as well. This would likely require additional work in mapping specific competences, skills, and knowledge.
 
-##### Existing datasources:
+#### Existing datasources
 
-###### Job descriptions from employment platforms and company pages
+##### Job descriptions from employment platforms and company pages
 
 Recruitment platforms such as LinkedIn, IEEE Jobs, indeed.com and others can be used to collect job advertisements. Several platforms offer research access (see for example <https://www.linkedin.com/legal/l/research-api-terms>). Employment platforms also provide analysis themselves. For example, a [recent analysis of LinkedIn profiles](https://www.linkedin.com/pulse/linkedin-jobs-rise-2024-20-fastest-growing-netherlands-jfehf) found “data steward” to be the 2^nd^-fastest growing job in the Netherlands. Alternatively, job descriptions can also be collected directly from company pages.
 
 There are pros and cons to both approaches. Collecting information from company websites can be time consuming and requires a sampling strategy and a clear view and website access to relevant job descriptions, for example covering a specific industry in a specific country. Using information from employment platforms might offer easier access to large amounts of data, but there can be access and restrictions for the platform and the information itself.
 
-###### Lightcast data
+##### Lightcast data
 
 Another viable option for studying skill trends is to access Lightcast data. Lightcast (formerly known as EMSI Burning Glass) is a company that specialises in labour market data analysis and economic modelling. Lightcast provides comprehensive data and insights that are used by educational institutions, employers, and regional planners to understand and forecast labour market trends, skill needs, and economic conditions. The company has a robust methodology for mapping detailed skill requirements from job postings and resumes to specific occupations. This helps in identifying emerging skill needs and the evolution of roles across different industries. This data has been used in several scientific publication to study, e.g., digitalisation and AI skill jobs [@okane2020; @squicciarini2021].
 
-###### Stakeholder surveys or interviews
+##### Stakeholder surveys or interviews
 
 Besides the analysis of job descriptions available from employment and company websites, information can also be collected from relevant organisations or professionals directly. This can be done by surveying or interviewing, for example companies, professional organisations, or employees directly. Surveys can ask about the profiles a company is hiring, about the direct experience of changing requirements of professionals, or changing landscape in a given sector.
 
 Surveying and interviewing come with their own advantages and disadvantages. As with collecting data from company websites, these activities can be time consuming and require a sampling strategy, for example covering a specific industry or sector in a specific country. In addition, collecting contact information can be time consuming and responses rates may be low.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### EDISON and FAIRsFAIR
+##### EDISON and FAIRsFAIR
 
 **Developing an approach for Data Science competences**
 
@@ -103,33 +104,33 @@ The project firstly analysed competences, skills and knowledge topics available 
 
 The competence groups updated by FAIRsFAIR for research data management, but also other frameworks (such as the ELIXIR Data Stewardship Competence Framework (DSP4LS), EOSCpilot FAIR4S Data Stewardship Competence Framework, COAR Librarian’s Competencies for E-Research and Scholarly Communication and others) can be used for these activities.
 
-### Number of new job positions
+## Number of new job positions
 
 The measurement introduced above shows that it is possible to identify the qualitative change in job descriptions and that it can be applied to Open Science. With this information, it is possible to not just identify the qualitative change of profiles and but also to describe and possibly monitor the change in quantitative terms. While this is not common practice for Open Science skills so far, we describe two different approaches which could extend the metric with a quantitative element. The metric can be applied for different sectors, such as private companies, the public sector, or academia.
 
 In a different nuance, the number of new employees within a company has been proposed as a metric for “economic growth of companies” induced by Open Science. In this case, the metric might be obtained by comparing the growth trajectories of companies using and/or benefiting from Open Science practices with those that do not use/benefit from Open Science. Here, a benchmarking approach might be suitable, similar to other metrics proposed for the indicators on economic growth. However, this metric is so far untested and should be understood as a suggestion for such a metric and not as a fully developed and tested research method for this indicator.
 
-#### Measurement
+### Measurement
 
 Building on the previous metric, it is feasible to classify job advertisements according to the required Open Science skills, competences, and knowledge. This change can be quantified, e.g., by tracking the occurrence of such requirements in the collected data. As stipulated above, classifications for skills, competences, and knowledge exist in the context of Data Science and Research Data Management. These can be used to classify the requirements, which can be done manually or automatically (e.g., based on key words). The collected data can be compared, for example, over a specific time horizon or different sectors or countries.
 
-##### Existing datasources:
+#### Existing datasources
 
-###### Job descriptions from employment platforms and company pages
+##### Job descriptions from employment platforms and company pages
 
 Recruitment platforms such as LinkedIn, IEEE Jobs, indeed.com and others can be used to collect job advertisements and calculate the number of new job positions with Open Science dimension. Several platforms offer research access (see <https://www.linkedin.com/legal/l/research-api-terms>). Employment platforms also provide analysis themselves; for example, a [recent LinkedIn analysis](https://www.linkedin.com/pulse/linkedin-jobs-rise-2024-20-fastest-growing-netherlands-jfehf) found “data steward” to be the 2^nd^-fastest growing job in the Netherlands. Alternatively, job advertisements can be collected from company pages.
 
 There are pros and cons to both approaches. Collecting information from company websites can be time consuming and requires a sampling strategy, for example covering a specific industry in a specific country. Using information from employment platforms might offer easier access to large amounts of data, but there can be access and restrictions for the platform and the information itself.
 
-###### Stakeholder surveys or interviews
+##### Stakeholder surveys or interviews
 
 Besides the analysis of job descriptions available from employment and company websites, information can also be collected from relevant organisations or professionals directly. This can be done by surveying or interviewing, for example companies, professional organisations, or workers directly. Surveys can ask about the number of OS related positions within a company, but also about other aspects such as the profiles a company is hiring, about the direct experience of changing requirements of professionals, or changing landscape in a given sector.
 
 Surveying and interviewing come with their own advantages and disadvantages. As with collecting data from company websites, these activities can be time consuming and require a sampling strategy, for example covering a specific industry or sector in a specific country. In addition, collecting contact information can be time consuming. Responses are not guaranteed.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Frequency of Open Science-related job descriptions
+##### Frequency of Open Science-related job descriptions
 
 The approaches outlined under the metric “New Open Science skills and competence” can serve as the basis for the quantitative measurement of the number of new job positions. All challenges relating to the availability of data pertaining to the previous metric also apply in this case.
 

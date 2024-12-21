@@ -11,14 +11,15 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Interdisciplinary and novelty
 ---
 
-# Interdisciplinary and novelty {#interdisciplinarity-novelty .unnumbered}
 
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|
@@ -27,6 +28,6 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 There is an extensive scientometric literature on indicators of interdisciplinarity, novelty, and other related concepts. However, the level of agreement among the various indicators introduced in the literature turns out to be low [@wang2020]. This appears to be the result of both different understandings of the concepts such as interdisciplinarity and novelty and different approaches to operationalize these concepts [@fontana_new_2020]. Given the lack of agreement on how to understand and operationalize the concepts of interdisciplinarity and novelty, we advise against the use of scientometric indicators of interdisciplinarity and novelty, and we consequently do not describe any such indicators. For further discussion, including alternative approaches to 'measure' interdisciplinarity, we refer to [@ràfols2020].

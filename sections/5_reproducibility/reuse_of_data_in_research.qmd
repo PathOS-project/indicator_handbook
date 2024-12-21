@@ -10,14 +10,15 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Reuse of data in research
 ---
 
-# Reuse of data in research {#reuse-of-data-in-research .unnumbered}
 
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
@@ -27,27 +28,27 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 The reuse of data in research refers to the practice of utilizing existing data sets for new research questions. It is a common practice in various scientific fields, and it can lead to increased scientific efficiency, reduced costs, and enhanced scientific collaborations. Additionally, the reuse of well-documented data can serve as an independent verification of original findings, thereby enhancing the reproducibility of research. This indicator aims to capture the extent to which researchers engage in the reuse of data in their research, by quantifying the number and proportion of studies that utilize previously collected data. The indicator can be used to assess the level of scientific collaboration and sharing of data within a specific scientific community or field, and to identify potential barriers or incentives for the reuse of data in research. Additionally, it can serve as a measure of the quality and reliability of research, as the reuse of data can increase the transparency, validity, and replicability of research findings.
 
-## Metrics
+# Metrics
 
-### Number of datasets reused in publications
+## Number of datasets reused in publications
 
 This metric quantifies the number of datasets that have been reused in published research articles. A higher number of datasets reused in publications suggests a strong culture of data dissemination and building upon existing research within a scientific community or field.
 
 A limitation of this metric is that it may not capture all instances of data reuse, as some researchers may reuse data sets without explicitly citing the original source. This challenge is further exacerbated by the fact that standards of data citation are still relatively poor, making the identification of all instances of data reuse across research fields problematic. Additionally, this metric may not account for the quality or appropriateness of the reused data sets for the new research questions. Furthermore, it may be challenging to compare the number of datasets reused in publications across different fields, as some fields may rely more heavily on new data collection rather than data reuse.
 
-#### Measurement
+### Measurement
 
 An initial step to measure the number of reused datasets in publications can be to count the data citations linked with each dataset. This basic strategy, despite being prone to some noise, serves as a fundamental measure for this metric. For a more comprehensive and accurate estimate, we can use tools like text mining and machine learning, including Natural Language Processing (NLP) applied to full texts. These tools help us find data reuse statements, data availability statements, or directly pull out datasets from a publication and label them as reused.
 
 However, these methods may face challenges such as inconsistencies in reporting of reused data, and variations in the degree of specificity in the reporting of the reuse. Additionally, the availability and quality of the data extraction tools may vary across different research fields and may require domain-specific adaptations.
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE
+##### OpenAIRE
 
 OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including Open Datasets.
 
@@ -55,15 +56,15 @@ To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/)
 
 However, it's important to note that OpenAIRE Explore does not provide comprehensive data for directly calculating the metric, but rather provides the publication references of each Open Software that need to be analysed.
 
-###### DataCite
+##### DataCite
 
 [DataCite](https://datacite.org/) is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
 
 To measure the proposed metric, we can employ the DataCite REST API to identify relevant datasets, along with to find their DOI, metadata and usage statistics.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### SciNoBo Toolkit
+##### SciNoBo Toolkit
 
 The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused by the authors of the publication.
 
@@ -71,7 +72,7 @@ To measure the proposed metric, the tool can be used to identify the reused data
 
 One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the publication. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused and may require manual validation.
 
-###### DataSeer.ai
+##### DataSeer.ai
 
 [DataSeer.ai](https://dataseer.ai/) is a platform that utilizes machine learning and Natural Language Processing (NLP) to facilitate the detection and extraction of datasets, methods, and software mentioned in academic papers. The platform can be used to identify instances of dataset reuse within the text of research articles and extract associated metadata.
 
@@ -79,21 +80,21 @@ To measure the proposed metric, DataSeer.ai can scan the body of text in researc
 
 However, it is important to note that DataSeer.ai's ability to determine actual data reuse may depend on the explicitness of the authors' writing about their data usage, thus not capturing all instances of dataset reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
 
-### Number (%) of publications with reused datasets
+## Number (%) of publications with reused datasets
 
 This metric quantifies the number or percentage of publications that explicitly mention the reuse of previously collected datasets. It is a useful metric for assessing the extent to which researchers are engaging in the reuse of data in their research, within a specific scientific field or task.
 
 A limitation of this metric is that it may not capture all instances of data reuse, as some researchers may reuse data sets without explicitly citing the original source. Additionally, it may not account for the quality or appropriateness of the reused data sets for the new research questions. Furthermore, it may be challenging to compare the number or percentage of publications with reused datasets across different fields, as some fields may rely more heavily on new data collection rather than data reuse.
 
-#### Measurement
+### Measurement
 
 To measure the percentage of publications with reused datasets, we start by using automatic text mining and/or machine learning techniques to identify whether a publication uses/analyses data. This involves searching for keywords and phrases associated with data analysis within the text of the publications. Next, among the identified data-analysing publications, we search for data reuse statements, data availability statements, or directly extract the datasets from the publications and try to classify them as reused, reporting the percentage of those publications.
 
 However, these methods may face challenges such as inconsistencies in reporting of reused data, and variations in the degree of specificity in the reporting of the reuse. Additionally, the availability and quality of the data extraction tools may vary across different research fields and may require domain-specific adaptations.
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE
+##### OpenAIRE
 
 OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including Open Datasets.
 
@@ -101,15 +102,15 @@ To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/)
 
 However, it is important to note that OpenAIRE Explore does not provide comprehensive data for directly calculating the metric, but rather provides the publication references of each Open Software that need to be analysed.
 
-###### DataCite
+##### DataCite
 
 [DataCite](https://datacite.org/) is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
 
 To measure the proposed metric, we can employ the DataCite REST API to identify relevant datasets, along with to find their DOI, metadata and usage statistics.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### SciNoBo Toolkit
+##### SciNoBo Toolkit
 
 The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused by the authors of the publication.
 
@@ -117,7 +118,7 @@ To measure the proposed metric, the tool can be used to identify reused datasets
 
 One limitation of this methodology is that it may not capture all instances of dataset reuse if they are not explicitly mentioned in the text of the publication. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused and may require manual validation.
 
-###### DataSeer.ai
+##### DataSeer.ai
 
 [DataSeer.ai](https://dataseer.ai/) is a platform that utilizes machine learning and Natural Language Processing (NLP) to facilitate the detection and extraction of datasets, methods, and software mentioned in academic papers. The platform can be used to identify instances of dataset reuse within the text of research articles and extract associated metadata.
 
