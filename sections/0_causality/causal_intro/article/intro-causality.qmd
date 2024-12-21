@@ -56,11 +56,13 @@ Some are historical, examining a *single* history, while others are contemporary
 Some fields already have a long tradition with causal inference, while other fields have paid less attention to causal inference.
 We believe that science studies, regardless of whether that is scientometrics, science of science, science and technology studies, or sociology of science, have paid relatively little attention to questions of causality, with some notable exceptions [e.g., @aagaard_considerations_2017; @glaser_governing_2016].
 
-We here provide an introduction to causal inference for science studies.
+We here provide an introduction to causal inference for science studies, with a particular focus on effects on the impact of Open Science.
 Multiple introductions to structural causal modelling of varying complexity already exist [@rohrer2018; @arif2023; @elwert2013].
 @dong_beyond_2022 introduce matching strategies to information science.
 We believe it is beneficial to introduce causal thinking using familiar examples from science studies, making it easier for researchers in this area to learn about causal approaches.
 We avoid technicalities, so that the core ideas can be understood even with little background in statistics.
+We first introduce the general approach, which we then briefly illustrate in three short case studies.
+In addition, we provide some extensive descriptions of approaching causality in three specific case studies in academic impact (on the effect of [Open Data on citations](../../open_data_citation_advantage.qmd)), in [societal impact](../../social_causality.qmd) and in economic impact (on the effect of [Open Data on Cost Savings](../../open_data_cost_savings.qmd)).
 
 ## The fundamental problem
 
@@ -82,12 +84,10 @@ For instance, non-compliance in experimental settings might present difficulties
 Additionally, scholars might be interested in identifying mediating factors when running experiments, which further complicates identifying causality [@rohrer2022].
 In other words, causal inference presents a continuum of challenges, where experimental settings are typically easiest for identifying causal effects---but certainly no panacea---and observational settings are more challenging---but certainly not impossible.
 
-In this paper we introduce a particular view on causal inference, namely that of structural causal models [@pearl_causality_2009].
+In this Open Science Impact Indicator Handbook we introduce a particular view on causal inference, namely that of structural causal models [@pearl_causality_2009].
 This is a relatively straightforward approach to causal inference with a clear visual representation of causality.
 It should allow researchers to reason and discuss about their causal thinking more easily.
-In the next section, we explain structural causal models in more detail.
-We then cover some case studies based on simulated data to illustrate how causal estimates can be obtained in practice.
-We close with a broader discussion on causality.
+We explain structural causal models in more detail in the next section.
 
 # Causal inference - a brief introduction {#sec-causal-inference}
 
@@ -614,6 +614,9 @@ The example highlights that relatively simple DAGs are often sufficient to uncov
 For instance, if we had not measured *Field*, controlling for it and identifying the causal effect would become impossible.
 In that case, it is irrelevant whether there are any other confounding effects between *Citations* and *Open data*, since those effects do not alleviate the problem of being unable to control for *Field*.
 
+The discussion here focuses specifically on illustrating the general principles.
+In the case study on the effect of [Open Data on citations](../../open_data_citation_advantage.qmd) we examine this in greater detail and with a higher degree of realism.
+
 ## The effect of Open data on Reproducibility {#sec-open-data-on-repro}
 
 Suppose we are interested in the causal effect of *Open data* on *Reproducibility*.
@@ -800,7 +803,7 @@ Taking measurement seriously can expose additional challenges that need to be ad
 
 The study of science is a broad field with a variety of methods.
 Academics have employed a range of perspectives to understand science's inner workings, driven by the field's diversity in researchers' disciplinary backgrounds [@sugimoto2011; @liu2023].
-In this paper we highlight why causal thinking is important for the study of science, in particular for quantitative approaches.
+In this chapter we highlight why causal thinking is important for the study of science, in particular for quantitative approaches.
 In doing so, we do not mean to suggest that we always need to estimate causal effects.
 Descriptive research is valuable in itself, providing context for uncharted phenomena.
 Likewise, studies that predict certain outcomes are very useful.
@@ -876,32 +879,6 @@ Finally, developing explicit causal models can benefit qualitative research as w
 For example, when developing an interview guide to study a particular phenomenon, it is important to first develop a clear understanding of the potential causal pathways related to that phenomenon.
 Furthermore, even if qualitative data cannot easily quantify the precise strength of a causal relationship, it may corroborate the structure of a causal model.
 Ultimately, combining quantitative causal identification strategies with direct qualitative insights on mechanisms can lead to more comprehensive evidence [@munafò2018; @tashakkori2021], strengthening and validating our collective understanding of science.
-
-# Acknowledgements {.unnumbered}
-
-We thank Ludo Waltman, Tony Ross-Hellauer, Jesper W. Schneider and Nicki Lisa Cole for valuable feedback on an earlier version of the manuscript.
-TK used GPT-4 and Claude v2.1 to assist in language editing during the final revision stage.
-
-# Author contributions {.unnumbered}
-
-Thomas Klebel: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Software, Validation, Visualization, Writing - original draft, and Writing - review & editing.
-Vincent Traag: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Software, Validation, Visualization, Writing - original draft, and Writing - review & editing.
-
-# Competing interests {.unnumbered}
-
-The authors have no competing interests.
-
-# Funding information {.unnumbered}
-
-The authors received funding from the European Union’s Horizon Europe framework programme under grant agreement Nos. 101058728 and 101094817.
-Views and opinions expressed are however those of the authors only and do not necessarily reflect those of the European Union or the European Research Executive Agency.
-Neither the European Union nor the European Research Executive Agency can be held responsible for them.
-The Know-Center is funded within COMET—Competence Centers for Excellent Technologies—under the auspices of the Austrian Federal Ministry of Transport, Innovation and Technology, the Austrian Federal Ministry of Economy, Family and Youth and by the State of Styria.
-COMET is managed by the Austrian Research Promotion Agency FFG.
-
-# Data and code availability {.unnumbered}
-
-All data and code, as well as a reproducible version of the manuscript, are available at [@klebel_code].
 
 # Theoretical effect of Rigour on Reproducibility {#sec-appendix-rigour-on-reproducibility .appendix}
 
