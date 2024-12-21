@@ -71,7 +71,7 @@ There are also continuous measures that can be dichotomized:
 
 There is no single data source for this metric. Data needs to be extracted from existing publications or gathered newly by employing these methodologies.
 
-#### Existing methodologies:
+#### Existing methodologies
 
 ##### Replication projects/studies
 
@@ -97,7 +97,7 @@ In addition to directly measuring the success of replication studies, the level 
 
 There is no single data source for this metric. Data needs to be extracted from existing publications or gathered newly by employing these methodologies.
 
-#### Existing methodologies:
+#### Existing methodologies
 
 ##### Surveys
 
@@ -115,7 +115,7 @@ Levels of replication can be measured prospectively. This is done through expert
 
 There is no single data source for this metric. Data needs to be extracted from existing publications or gathered newly by employing these methodologies. The studies cited below made their data available, which can be used to re-analyse or extend existing analyses. Note however that Forsell and colleagues promised to populate a repository with the data but have not done so as of June 2023.
 
-#### Existing methodologies:
+#### Existing methodologies
 
 The following methodologies, namely surveys and prediction markets, are so far most often used in conjunction with each other. They also have been validated by subsequently conducting full replication studies. Automated tools have also been proposed but require further development.
 

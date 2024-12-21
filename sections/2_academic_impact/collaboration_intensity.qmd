@@ -87,7 +87,7 @@ $$\frac{1}{n} \sum_{i \in S} c_i,$$
 
 If we represent co-authorship at the institution level, this measures the percentage of institutional collaborations, and if we represent co-authorship at the country level, that this measures the percentage of international collaborations. Although this may be evident, it might therefore be possible that a publication is still authored by multiple authors, but in this definition they may not be counted as collaborative if they do not involve different institutions or different countries, respectively.
 
-# Datasources:
+# Datasources
 
 ## OpenAlex
 

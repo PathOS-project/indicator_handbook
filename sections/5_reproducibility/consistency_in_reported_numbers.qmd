@@ -58,7 +58,7 @@ The R package "statcheck" [@nuijten2023] implements the proposed metric. The pac
 
 statcheck takes into account rounding in reporting, reports the recomputed p-value, indicating whether the values are inconsistent or grossly inconsistent, in case the recomputed p-value leads to the opposite conclusion on the statistical significance of the results (e.g., the publication reporting a result as statistically significant, while the recomputed p-value is above the conventional threshold of 0.05).
 
-## Inconsistent means and standard deviations.
+## Inconsistent means and standard deviations
 
 The rationale for this indicator is similar to the one above, in exploiting mathematical properties of common summary statistics. Given a certain sample size, only specific values for means and standard deviations are possible. In small samples (n \< 100), this can be used to test the plausibility of means, using the GRIM test [@brown2016], and standard deviations, using the GRIMMER test [@anaya2016].
 

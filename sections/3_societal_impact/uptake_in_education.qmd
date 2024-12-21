@@ -53,7 +53,7 @@ Measuring the incorporation of Open Science (OS) inputs into educational materia
 
 **Step 5: Close reading**. If the size of the corpus and the available research resources allow it, close read all the mentions to OS input and assess the importance that OS resources play in syllabi or teaching materials in which they are mobilized.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### Open Syllabus Dataset
 

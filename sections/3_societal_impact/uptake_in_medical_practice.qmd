@@ -63,7 +63,7 @@ Firstly, the variation in referencing styles across different guidelines can mak
 
 **Step 6: Close reading**. If the size of the corpus and the available research resources allow it, closely read all the mentions to OS input and assess the importance that OS resources play in each medical treatment or practice to which they contribute.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### PubMed
 

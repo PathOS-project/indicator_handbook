@@ -24,7 +24,7 @@ title: Novelty
 
 \[Add text here\]
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### &lt;datasource name&gt;
 

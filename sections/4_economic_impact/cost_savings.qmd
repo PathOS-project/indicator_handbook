@@ -135,7 +135,7 @@ The metric “transaction cost savings” denotes the reduction in time that res
 
 This metric should be evaluated in the same way as the labour cost savings. Despite being related to both labour and access cost savings, given the weight of the transaction costs when research collaborations involve hundreds of facilities [@lee2015], it is worth keeping them separate from either labour or access cost savings. For this reason, the avoided cost method is the suitable way of quantifying transaction cost savings. In this case, the avoided cost allows for estimating the transaction-cost savings by forecasting or measuring the time saved by each worker thanks to the OS resources and evaluating it using the equivalent salary. Please refer to the avoid cost method presented above for the Labour-Cost Savings.
 
-#### Existing datasources for Labour and Transaction cost savings:
+#### Existing datasources for Labour and Transaction cost savings
 
 All the listed data sources are not intended to provide labour cost savings directly; rather, each of them is one of the potential sources for individual wage data that is necessary to measure the metric the following specific methodologies.
 
@@ -176,7 +176,7 @@ The metric “savings for data storage” quantifies the net cost savings achiev
 1.  The avoided cost method is one of the suitable ways of assessing these types of savings. It is particularly helpful since it is flexible enough to adapt to several contexts. In the case of data storage savings, the avoided cost method focuses on identifying and quantifying the costs that are avoided or reduced due to the availability of the OS resources that allow for substituting private data storage with open repositories or eliminating the need to store research outputs. The avoided cost method relies on the principle that if the OS resources were not implemented, certain costs would still be incurred to meet the needs or objectives OS seeks to address, such as storing data and other research outputs. The quantification implies forecasting the storage space needed over a span of time and the existence of the market price of a data storage service. No data source exists to extrapolate an absolute value of the savings since it varies depending on the beneficiaries’ needs. The approach to take would be to conduct market research that allows for comparing the paid alternatives in terms of features with the OS to choose the price of the most similar product. An example of a data storage fee can be retrieved, e.g., from the [Dryad](https://datadryad.org/stash/join_us) service.
 2.  However, when a similar storage service is not in the market, the benefit can be evaluated by adopting the Long Run Marginal Cost (LRMC) method, which measures the cost of increasing the production by one additional unit or the cost saved by reducing the production by one unit of output, holding the production levels of all other goods and services constant. This means that rather than valuing the money saved due to the reduced costs of buying the storage service, one values the saved production costs that would have been necessary to produce the equivalent in-house storage in a scenario where the OS is unavailable. LRMC of storage may include costs such as hardware, software development, personnel, and so on, and accurately avoid all the costs related, e.g., to collecting the data.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### Dryad
 

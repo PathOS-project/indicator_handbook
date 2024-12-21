@@ -65,7 +65,7 @@ To measure the proposed metric a systematic approach is required to capture the 
 
 The measurement process, while systematic, may encounter limitations such as incomplete data records, the indirect impact of OS resources that are difficult to quantify, and the evolving nature of what constitutes "open science" practices. Additionally, the dynamic and interdisciplinary nature of innovation development often blurs the lines between direct and indirect contributions of OS, making the measurement challenging yet essential for understanding OS's true impact.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### Lens.org
 

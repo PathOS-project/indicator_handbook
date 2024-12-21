@@ -60,7 +60,7 @@ Utilize the PATSTAT dataset (<https://www.epo.org/en/searching-for-patents/busin
 
 Other data source are Orbis IP, The Lens, EUIPO. Please refer to the “Innovation output” indicator to further details on The Lens and Orbis IP. The choice among the different resources depends on the information to be processed. For instance, Orbis IP includes information on patent authors, which is not available in other data sources, and also offers the possibility to link companies to balance sheet data that might be useful for a comprehensive analysis of the economic growth of companies.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### PATSTAT
 
@@ -124,7 +124,7 @@ Access OA publications from comprehensive databases (e.g., OpenAIRE Research Gra
 
 **Step 6: Reporting and Analysis**. Analyze the data to extract insights on the extent and nature of open science in academia-industry collaborations. Document any limitations encountered, such as incomplete citation records or inaccuracies in affiliation data.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### OpenAIRE Research Graph
 

@@ -72,7 +72,7 @@ The legal information industry shaped the availability of both legal texts and l
 
 A metric could be the proportion growth of the domain compared to other disciplines in HAL archive
 
-## Number of legal journals in Gold or Diamond OA:
+## Number of legal journals in Gold or Diamond OA
 
 A metric could be the growth of the legal open science journals among all Open Edition journals during the last 20 years
 
@@ -86,13 +86,13 @@ A metric could be the growth of the domain on data.gouv.fr or data.gov.nl.
 
 The limit of this indicator is that it doesn’t measure reuse and impact.
 
-## Number of citations of OA legal research and datasets in legal texts:
+## Number of citations of OA legal research and datasets in legal texts
 
 Both open and closed academic sources can be cited in justice opinions, parliamentary or governmental reports, and their influence in framing the policy or legal opinion might be deduced from the context.
 
 ### Measurement
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### Open Access repositories
 

@@ -68,7 +68,7 @@ Open Science requires specific skills and competence. These qualitative changes 
 
 A tested methodology was employed by the EDISON Project [@datasci], which collected job advertisements in the context of data science to develop a body of knowledge and competence framework for data science profiles. A similar approach has been used during the FAIRsFAIR project to update the EDISON framework with specific insights on (FAIR) data skills and competence relevant to the “data steward” job title [@demchenko2021]. However, the application of this method in practice has been limited to Data Science and (FAIR) Data Management Skills so far. Using these approaches is in principle possible for other Open Science skills as well. This would likely require additional work in mapping specific competences, skills, and knowledge.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### Job descriptions from employment platforms and company pages
 
@@ -114,7 +114,7 @@ In a different nuance, the number of new employees within a company has been pro
 
 Building on the previous metric, it is feasible to classify job advertisements according to the required Open Science skills, competences, and knowledge. This change can be quantified, e.g., by tracking the occurrence of such requirements in the collected data. As stipulated above, classifications for skills, competences, and knowledge exist in the context of Data Science and Research Data Management. These can be used to classify the requirements, which can be done manually or automatically (e.g., based on key words). The collected data can be compared, for example, over a specific time horizon or different sectors or countries.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### Job descriptions from employment platforms and company pages
 

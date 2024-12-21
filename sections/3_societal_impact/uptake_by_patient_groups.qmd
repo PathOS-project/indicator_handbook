@@ -63,7 +63,7 @@ Despite these challenges, leveraging existing web scraping and text analysis tec
 1.  documents or web pages that contain references to OS inputs. This involves tallying the occurrences of references and comparing them to the total number of documents or pages analyzed;
 2.  references or mentions to OS inputs over the total of the scientific resources mentioned in each website.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### Patient Group Websites and Reports
 

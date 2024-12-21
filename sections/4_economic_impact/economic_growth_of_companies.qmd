@@ -76,7 +76,7 @@ Change (+/-) in cost of personnel Each metric is related to different ways of me
 
 When the economic growth of a company due to Open Science is recognised to be clearly related to the innovation improvement, the researchers can use as a proxy of economic growth the “average increase in companies’ patent portfolio value”. This metric aims to quantify the monetary gains linked to patents. The monetary value of patents can be found in commercial databases like Orbis IP, along with the identification number of the company in Orbis, another commercial database that provides balance sheet data for companies. This metric is presented also under “innovation output” indicator, since it might also be considered a good proxy of innovation triggered by Open Science. Please refer to that indicator to further detail on how to use the metric in that context.
 
-# Measurement.
+# Measurement
 
 Ideally, researchers aiming to assess the impact of Open Science on the proposed metrics should gather data on both the proxy indicators for economic growth and the indicators for the use of Open Science practices at a company level. However, collecting data on individual companies can be quite complex. Furthermore, relying solely on a simple descriptive analysis of these metrics, such as comparing levels before and after the implementation or influence of Open Science, may not be enough to establish a clear attribution of impact.
 
@@ -86,7 +86,7 @@ Nevertheless, even in this case, the attribution to open science of the change i
 
 The analysis can be carried out by collecting data from existing data sources, where available, and/or through surveying the companies which growth is to be evaluated. As a proposed approach rather than a specific indicator, there are no specific data sources applying to all possible combinations of economic and Open Science metrics. The best sources and data collection strategies should be carefully selected based on the research question, scope, accessibility of data, and other potential factors.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### Company data bases Company data bases and official journals
 
