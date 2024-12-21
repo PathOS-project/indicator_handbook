@@ -19,7 +19,7 @@ title: Introduction to academic impact
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|

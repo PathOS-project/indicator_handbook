@@ -23,7 +23,7 @@ title: Prevalence of Open Science support and training
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision      | Author         |
 |---------|---------------|---------------|----------------|
@@ -32,19 +32,19 @@ title: Prevalence of Open Science support and training
 
 :::
 
-## Description
+# Description
 
 Open Science support and training is mostly organized at the institutional and even faculty level. This is often organized by the university or faculty libraries when it comes to scholarly publishing, that is, Open Access publishing. In addition, there may be national Open Science initiative that might provide Open Science training facilities. This might involve national research centres or institutions but could also be separately organised initiatives aimed specifically at Open Science. The support covers mostly things such as suggesting journals and helping with license details. When it relates to research data, support is nowadays organized in many institutions by data stewards. They take care of data management in general and consider issues related to for example FAIR principles.
 
 The creation of metrics should take into consideration what elements of Open Science practices are being selected for support and training. Given this potential diversity, and the absence of having generic or systematic data sources at hand for this aspect of Open Science, the data need to be collected by qualitative means, that is going through websites of institutions and/or faculties to identify Open Science support and training facilities.
 
-## Metrics
+# Metrics
 
-### Number/% of institutions that offer OS support and training
+## Number/% of institutions that offer OS support and training
 
 Open Science support and training might be often provided at the university level, or within the university at the faculty or even departmental level. This metric provides an institutional view of the extent to which Open Science support is offered.
 
-#### Measurement
+### Measurement
 
 This metric can be constructed by searching through university and faculty level websites to identify the presence of Open Science support and training facilities, and when present identify what kind of Open Science activity is being supported.
 
@@ -59,11 +59,11 @@ There are presently no generic and systematic data sources that contain such inf
 
 Automation of this metric is currently not possible.
 
-### Number/% of national OS support and training initiatives.
+## Number/% of national OS support and training initiatives.
 
 In some cases, there might be national Open Science initiatives or other national institutions that provide Open Science support or training initiatives. For instance, this could cover information around Open Access, or support for opening up data. This metric describes the extent to which there are national initiatives for Open Science support and training.
 
-#### Measurement
+### Measurement
 
 This metric can be constructed by searching through policy initiatives that support Open Science practices on the national level.
 
@@ -78,11 +78,11 @@ There are presently no generic and systematic data sources that contain such inf
 
 Automation of this metric is currently not possible.
 
-### Breadth of Open Science support and training
+## Breadth of Open Science support and training
 
 Open Science support and training can be broader or narrower. This metric provides an overview of the breadth of Open Science support and training, that is, to which extent it covers the diverse types of Open Science support and training, such as publishing, research data, Open Code, peer review, pre-registration and registered reports.
 
-#### Measurement
+### Measurement
 
 Based on data that might be collected for the first two metrics, we might be able to construct a third metric. That is, when collecting information about training facilities, we could collect additional information. This metric could be constructed by searching through any relevant training facilities, either at the institutional or national level, as explained above.
 
@@ -96,11 +96,11 @@ There are presently no generic and systematic data sources that contain such inf
 
 Automation is currently not possible.
 
-### Duration of Open Science training (hour/day/week).
+## Duration of Open Science training (hour/day/week).
 
 By providing an overview of the duration of Open Science training, we may capture the intensity of Open Science training. Having just a few hours of training, or more extensive training of course makes a difference with regards to the amount of knowledge that can be transferred.
 
-#### Measurement
+### Measurement
 
 This metric can be constructed in a similar manner as the previous metric, namely by looking at websites for what is offered as Open Science practice training facilities and collect the duration of such training facilities.
 

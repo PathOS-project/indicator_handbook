@@ -19,7 +19,7 @@ title: Prevalence of Open Access publishing
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision                  | Author     |
 |---------|---------------|---------------------------|------------|
@@ -28,7 +28,7 @@ title: Prevalence of Open Access publishing
 
 :::
 
-## Description
+# Description
 
 Open Access publishing is one of the pillars of Open Science. Whereas traditional academic publishing charges a fee for reading a publication, Open Access publications are free to read, not only by scientists, but also by the general public. In addition to being free to read, most definitions of Open Access also require publications to be reusable [@suber2012].
 
@@ -58,9 +58,9 @@ Books and other material can also be published Open Access, but Open Access publ
 
 There are some recurrent questions around Open Access publishing. Some questions concern effects of Open Access publications, for instance whether Open Access increases the impact of publications. Other questions focus on effect on Open Access, for instance whether certain Open Access mandates increasing Open Access publishing. By measuring the overall uptake of Open Access publishing, this indicator can help answer such questions.
 
-## Metrics
+# Metrics
 
-### Number/% of Open Access journal publications (per OA type)
+## Number/% of Open Access journal publications (per OA type)
 
 By counting he overall number of Open Access publications, we get a first impression of the overall uptake of Open Access publishing. If Open Access publishing becomes more widespread, we expect to see more Open Access publications, and hence, by counting the number of Open Access publications, we may get some idea of the overall uptake of Open Access publishing.
 
@@ -70,7 +70,7 @@ One limitation of simply counting the number of Open Access publications is that
 
 We can count the number of Open Access publications based on different selections. For instance, we may want to select only publications within a particular country, institution, field of science or publication year. We do not describe here how to make such selections, we here merely clarify how to count the Open Access publications, given a particular set of publications. As explained in the Description, we can distinguish between different types of Open Access publications: Hybrid, Gold, Diamond, Green and Bronze. We will clarify how to measure these aspects of Open Access publishing.
 
-#### Measurement
+### Measurement
 
 For each publication we need to measure whether it is Open Access at all, and if so, what specific type(s) of Open Access it is. In order to be able to do this, we need to know whether the publication is deposited in one or more publication repositories (for Green OA) and know whether the article is directly available from the publisher. In the latter case, we also need to be able to know whether the journal itself is fully Open Access or whether it is a hybrid journal. In addition, if it is a fully Open Access journal, we need to determine whether the journal charges any publishing fees (APC), if it does not, we can classify it additionally as Diamond Open Access.
 
@@ -80,9 +80,9 @@ By looking at the percentage of Open Access publications, we get an idea of the 
 
 We can study the percentage of Open Access publications based on different selections. For instance, we may want to select only publications within a particular country, institution, field of science or publication year. We do not describe here how to make such selections, we here merely clarify how to calculate the percentage of Open Access publications, given a particular set of publications.
 
-##### Datasources
+#### Datasources
 
-###### Unpaywall
+##### Unpaywall
 
 [Unpaywall](https://unpaywall.org/) is a database that contains information about online locations of scholarly publications and the Open Access status of these locations [@piwowar2018]. Unpaywall is organised on the basis of DOIs and is limited to Crossref DOIs. For each DOI, information about online locations and Open Access status is provided based on scraping journal websites and publication repositories. Sometimes, information from Unpaywall may be incorrect [@piwowar2018], so there is room for improvement.
 
@@ -127,6 +127,6 @@ To facilitate interaction with the Unpaywall API there are also supporting packa
 
 Once we know the Open Access status of each publication, we can easily calculate the percentage, simply as the number of publications out of the total that are Open Access. Additionally, we can do this for each separate Open Access type. We could for example refer to the % Green OA or % Gold OA. Note that percentages may not add up to 100%, but the total may also even exceed 100%, because publications can have both a Green Open Access status and another Open Access status. For that reason, you should not report percentages of Open Access statuses in a cumulative fashion (e.g. not in a stacked bar chart), in particular not when reporting on Green Open Access.
 
-## Known correlates
+# Known correlates
 
 There is a large ongoing debate whether Open Access publishing increases the citation impact of publications, known as the so-called Open Access citation advantage. A recent systematic review on the topic suggests that the evidence is inconclusive [@langham-putrow2021].

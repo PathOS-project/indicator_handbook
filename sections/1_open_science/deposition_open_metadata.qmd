@@ -18,7 +18,7 @@ title: Deposition of Open Metadata
 
 ::: {.callout collapse="true"}
 
-## History
+# History
 
 | Version | Revision date | Revision      | Author     |
 |---------|---------------|---------------|------------|
@@ -26,7 +26,7 @@ title: Deposition of Open Metadata
 
 :::
 
-## Description
+# Description
 
 Scientific publications have metadata that describes important properties of the publication, such as the title, the authors, the publication date, and the references. This metadata is used to help researchers and others find relevant literature. Metadata of publications is also often used in bibliometric analyses to support research evaluation and research management.
 
@@ -34,13 +34,13 @@ Traditionally the metadata of scientific publications is made available in propr
 
 Our focus is on openness of the metadata of research articles. We acknowledge the importance of openness of other types of publications, such as books, book chapters, and policy reports. Nevertheless, in most scientific fields, research articles are seen as the most important publication type, and we therefore restrict ourselves to this publication type.
 
-## Metrics
+# Metrics
 
-### Journal articles with Open References
+## Journal articles with Open References
 
 This metric provides the number or the percentage of journal articles for which the references are openly available.
 
-#### Measurement
+### Measurement
 
 Crossref is the datasource for this metric. Crossref makes the references of articles openly available, but it can do this only for articles for which the publisher submitted the references to Crossref. The metric is obtained by determining for each article whether it has a Crossref DOI and whether the metadata for this DOI includes references.
 
@@ -48,11 +48,11 @@ If the metadata of an article in Crossref does not include references, this mean
 
 The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5). To calculate the metric yourself, you may use the Crossref API, documented at [https://api.crossref.org/swagger-ui/index.html](https://api.crossref.org/swagger-ui/index.html%22%20\t%20%22_blank). The `references-count` field in the API output indicates whether the metadata of an article includes references. 
 
-### Journal articles with Open Abstracts
+## Journal articles with Open Abstracts
 
 This metric provides the number or the percentage of journal articles for which the abstract is openly available.
 
-#### Measurement
+### Measurement
 
 Crossref is the datasource for this metric. Crossref makes the abstracts of articles openly available, but it can do this only for articles for which the publisher submitted the abstract to Crossref. The metric is obtained by determining for each article whether it has a Crossref DOI and whether the metadata for this DOI includes an abstract.
 
@@ -60,11 +60,11 @@ If the metadata of an article in Crossref does not include an abstract, this mea
 
 The [Crossref Participation Reports](https://www.crossref.org/members/prep/) provide this metric at the level of publishers and journals. The metric is also used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5). To calculate the metric yourself, you may use the Crossref API, documented at <https://api.crossref.org/swagger-ui/index.html>. If the metadata of an article includes an abstract, it can be found in the `abstract` field in the API output.
 
-### Journal articles with Open Author Affiliations
+## Journal articles with Open Author Affiliations
 
 This metric provides the number or the percentage of journal articles for which author affiliations are openly available.
 
-#### Measurement
+### Measurement
 
 Crossref is the datasource for this metric. Crossref makes the affiliations of the authors of articles openly available, but it can do this only for articles for which the publisher submitted the author affiliations to Crossref. The metric is obtained by determining for each article whether it has a Crossref DOI and whether the metadata for this DOI includes author affiliations.
 
@@ -72,11 +72,11 @@ If the metadata of an article in Crossref does not include author affiliations, 
 
 This metric is used in [this article on Open Metadata in Crossref](https://doi.org/10.31222/osf.io/smxe5). To calculate the metric yourself, you may use the Crossref API, documented at <https://api.crossref.org/swagger-ui/index.html>. If the metadata of an article includes author affiliations, these can be found in the `affiliation` field in the API output.
 
-### Journal articles with Open Funding Information
+## Journal articles with Open Funding Information
 
 This metric provides the number or the percentage of journal articles for which funding information is openly available.
 
-#### Measurement
+### Measurement
 
 Crossref is the datasource for this metric. Crossref makes funding information of articles openly available, but it can do this only for articles for which the publisher submitted funding information to Crossref. The metric is obtained by determining for each article whether it has a Crossref DOI and whether the metadata for this DOI includes funding information.
 

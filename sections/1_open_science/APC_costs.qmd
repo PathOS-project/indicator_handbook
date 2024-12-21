@@ -30,7 +30,7 @@ title: APC Costs
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision | Author |
 |-------------|-------------|---------------|-------------------------------|
@@ -39,7 +39,7 @@ title: APC Costs
 
 :::
 
-## Description
+# Description
 
 Αrticle Processing Charges (APCs) represent the price that publishers demand from authors to pay in order to publish their articles and books under an open access license. They capture the affordability and accessibility of Open Access publishing for different types of stakeholders, such as researchers, institutions, and funding agencies. It is also relevant for policy-makers seeking to optimize Open Science policies.
 
@@ -47,9 +47,9 @@ Tracking and comparing APCs could also be used to encourage publishers to adopt 
 
 APCs have both benefits and drawbacks. In a strict sense, they do not remove the economic barriers between the writing and the reading of scientific results but shift these costs from the readers to the authors. In countries where funder reimbursement of APC costs or transformative agreements do not cover these costs, APCs can create a financial barrier that limits access to Open Access journals, often generating asymmetries between richer and poorer countries and academic institutions. On the other hand, APCs also incentivize publishers to offer Open Access publishing, which promotes Open Science.
 
-## Metrics
+# Metrics
 
-### Number/Share (%) of publications with an APC cost
+## Number/Share (%) of publications with an APC cost
 
 These metrics measure the number or share (in percentage - %) of publications in journals and have incurred an APC. The share provides a more nuanced understanding of the affordability and accessibility of Open Access publishing than the absolute number and it can be used to compare the affordability and accessibility of Open Access publishing across different journals, publishers, and regions in a more meaningful way.
 
@@ -58,11 +58,11 @@ Limitation:
 -   Not knowing who incurred that APC (funder, institution, author, etc.) limits the usefulness of this indicator.
 -   The share of publications with an APC could be more useful when put together with % Diamond OA publications, as opposed to stand alone.
 
-#### Measurement
+### Measurement
 
-##### Methodology
+#### Methodology
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
 The [OpenAIRE Graph](https://graph.openaire.eu) dump currently does not include OA color classifications, though they are already implemented in the OpenAIRE MONITOR and are expected to be integrated into the graph dump in Q1 2024.
 
@@ -75,7 +75,7 @@ Limitations:
 
 -   This methodology is a workaround chosen as it provides better coverage than any APC dataset we are aware of, however it is not a direct source of whether a publication has incurred an APC or not.
 
-### Average APC
+## Average APC
 
 Description:
 
@@ -90,11 +90,11 @@ Limitations:
 -   The cost of APCs can vary widely depending on the field of research, the region, and the specific publisher or journal, therefore taking an average may be misleading.
 -   Not knowing who incurred that APC (funder, institution, author, etc.) limits the usefulness of this metric.
 
-#### Measurement
+### Measurement
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
 The OpenAPC APC dataset, which is integrated in the [OpenAIRE Graph](https://graph.openaire.eu).
 
@@ -103,7 +103,7 @@ Limitations:
 -   Incomplete data: Publishers do not generally provide data on their APC fees, OpenAPC (openapc.net) has a growing collection but it is not complete.
 -   In an (organization, publication, APC cost) triplet of OpenAPC, to the best of our knowledge, it is not possible to distinguish if the APC cost is the entire cost of the publication or just the what the organization paid.
 
-##### Methodology
+#### Methodology
 
 Via OpenAIRE MONITOR (monitor.openaire.eu)
 
@@ -116,7 +116,7 @@ Limitations:
 
 -   Averages have the benefit of summarizing and normalizing information, however depending on the underlying distribution of costs, they may be misleading (e.g. via outliers)
 
-### Total APC
+## Total APC
 
 Description:
 
@@ -131,11 +131,11 @@ Limitations:
 -   Not knowing who incurred that APC (funder, institution, author, etc.) limits the usefulness of this metric, more than the previous ones.
 -   It does not contain information of the distribution of APCs across a subdomain, e.g. Total cost does not give info on how it is distributed across scientific domains.
 
-#### Measurement
+### Measurement
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
 The OpenAPC APC dataset, which is integrated in the [OpenAIRE Graph](https://graph.openaire.eu).
 
@@ -144,7 +144,7 @@ Limitations:
 -   Incomplete data: Publishers do not generally provide data on their APC fees, OpenAPC (openapc.net) has a growing collection but it is not complete.
 -   In an (organization, publication, APC cost) triplet of OpenAPC, to the best of our knowledge, it is not possible to distinguish if the APC cost is the entire cost of the publication or just the what the organization paid.
 
-##### Methodology
+#### Methodology
 
 Via OpenAIRE MONITOR
 
@@ -157,7 +157,7 @@ Limitations:
 
 -   Totals have the benefit of giving a bird's eye view, however depending on the underlying distribution of costs, they can have different implications.
 
-## Known correlates
+# Known correlates
 
 Via: <https://direct.mit.edu/qss/article/1/1/6/15582/Article-processing-charges-Mirroring-the-citation>
 
@@ -166,7 +166,7 @@ Via: <https://direct.mit.edu/qss/article/1/1/6/15582/Article-processing-charges-
 -   Hybrid vs. Gold OA
 -   SNIP
 
-### Estimating unknown APCs
+## Estimating unknown APCs
 
 An APC extrapolation exercise was conducted for the purpose of an EC study [@monitori2021]. The authors defined groupings, and imputed the average APC of the group to each publication in the group for which the APC is unknown. The groupings were based on the following variables, similar to the correlates above: - quantile of the Source Normalised Impact per Paper (SNIP) score in the [CWTS journal indicators](https://www.journalindicators.com/), - whether the publication is pure ‘gold’ open access or ‘hybrid’, - the year of publication.
 

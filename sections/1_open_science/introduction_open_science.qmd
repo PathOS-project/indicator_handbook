@@ -16,7 +16,7 @@ title: Introduction to Open Science
 ---
 
 ::: {.callout collapse="true"}
-## History
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|

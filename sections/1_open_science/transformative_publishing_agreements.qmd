@@ -17,7 +17,7 @@ title: Transformative publishing agreements
 
 ::: {}
 
-## History
+# History
 
 | Version | Revision date | Revision                               | Author  |
 |---------|---------------|----------------------------------------|---------|
@@ -26,7 +26,7 @@ title: Transformative publishing agreements
 
 :::
 
-## Description
+# Description
 
 Transformative publishing agreements are a catch-all term for different types of Open Access contracts that aim to facilitate Open Access publishing at national level. Usually, a transformative agreement is concluded between a publisher and a consortium of research organisations and/or their libraries. Single research institutions may conclude transformative agreements, too. Information on transformative agreements is collected by the ESAC initiative (<https://esac-initiative.org/about/transformative-agreements/>).
 
@@ -36,15 +36,15 @@ The power of transformative agreements lies in 'flipping' the entire publishing 
 
 Transformative agreements also touch upon the financial flows taking place in the research system. This concerns e.g., the allocation of costs between institutions to participate in the transformative agreement, the allocation of costs within libraries (from collections to publishing) and the costs the individual authors may face eventually. This can have structuring effects on both the academic sector and the scholarly publishing industry, and in particular the financial flows between actors.
 
-## Metrics
+# Metrics
 
-### Transformative agreements
+## Transformative agreements
 
 Considering that transformative agreements usually take place between a publisher and a national consortium, a basic metric is the existence of an agreement which could be coded as a binary yes-no indicator for a country-publisher pair.
 
 A challenge is the fact that many publishers exist, and each might be of different relevance for a given country. In other words, the impact of a transformative agreement is only directly related to the Open Access-status of publications with this publisher – and this part might be of little overall impact to a country's or institution's overall publishing output. Measuring this impact over time, e.g., affiliated authors choosing to publish through the transformative agreement, might be an interesting case to study as well.
 
-#### Measurement
+### Measurement
 
 The basic measurement is the existence of a national level agreement between a consortium and a publisher. This can be done using a binary variable (yes/no). However, more detailed information might be needed, depending on the type of analysis. Of major interest would likely be to capture the overall amount of Open Access publications, the share of OA publications published through this transformative agreement, and other information that yields insights into the impact of the agreement.
 
@@ -62,9 +62,9 @@ This information may include:
 
 These are measurements which are generally feasible but may require more in-depth study, for instance using bibliometric research, desk research into contracts and other methods and sources.
 
-##### Datasources
+#### Datasources
 
-###### ESAC Registry of Transformative Agreements
+##### ESAC Registry of Transformative Agreements
 
 The ESAC Registry of Transformative Agreements (<https://esac-initiative.org/about/transformative-agreements/agreement-registry/>) is a community-organised database of transformative agreements. As of writing, the database contains 662 ongoing or past agreements. These agreements can be done through national agreements or individual institutions.
 
@@ -96,7 +96,7 @@ More detailed information for each transformative agreement includes:
 
 Notably, the total cost of an agreement and per-article costs is not available through the ESAC Registry. This information is often publicly available but must be found individually for each agreement through the respective consortium or research conducted elsewhere.
 
-###### ESAC Market Watch
+##### ESAC Market Watch
 
 A sister service of the ESAC Registry, the ESAC Market Watch (<https://esac-initiative.org/market-watch/>) is provides information about the market share of publishers and the role of transformative agreements.
 
@@ -114,7 +114,7 @@ It should be noted that the data is not fully available for download.
 
 The limitations disclaimer should also be consulted before using the ESAC Market Watch information.
 
-###### OpenAPC
+##### OpenAPC
 
 The OpenAPC initiative provides some statistical information about transformative agreements. Data is available for the number of publications published through a transformative agreement for 12 countries. The data can be filtered by publisher, institution, hybrid status, country, journal, year, and agreement.
 

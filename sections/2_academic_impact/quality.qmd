@@ -19,7 +19,7 @@ title: Quality
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|
@@ -27,7 +27,7 @@ title: Quality
 
 :::
 
-## Description
+# Description
 
 Quality is a very complicated concept, and in the context of academic work, is very challenging to measure. To start with, it should be clarified what object is being considered, which could range from data to peer review. In most such cases, quality cannot be defined on the basis of any easily measurable data, and rather require some form of manual assessment.
 

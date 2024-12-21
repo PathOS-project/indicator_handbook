@@ -19,7 +19,7 @@ title: The effect of Open Data on cost savings
 
 
 ::: {.callout collapse="true"}
-## History
+# History
 
 |  |  |  |  |
 |------------------|------------------|------------------|------------------|
@@ -31,7 +31,7 @@ title: The effect of Open Data on cost savings
 | 1.0 | 2024-10-07 | Template outline | E. Delugas |
 :::
 
-## Literature background
+# Literature background
 
 Measuring the economic impact of open science and open data has proven to be challenging. Many theoretical studies highlight the benefits of making research results public, with strong support for Open Science from economic research on technological change [@chataway2018,@yozwiak_data_2015,@mazzucato_entrepreneurial_2011]. However, only few studies have attempted to measure the impacts of open science compared to closed science, and more robust evidence on how Open Science drives innovation and economic outcomes is needed to strengthen support and counter emerging criticisms [@karasz2024,@ali-khan2018]. The existing literature mainly concentrates on specific sectors, particularly health, medicine, and biosciences, which receive more attention due to early regulation by funders and significant interest in clinical trial outcomes. Another important stream of literature is focused on highlighting the economic value of Open Science through personal industry experiences, though lacking precise quantitative evidence, with contributions from @mcmanamay_openaccess_2014 on fisheries, @harding2017 on medicine, @chan_cost_2015 on the transition to an Open Science model, and @chen2017 on the role of open data in AI and machine learning applications. Although directly linking economic outcomes to open data initiatives can be challenging, with authors combining theoretical arguments and the limited quantitative evidence available at the time of their publication [@ali2022,@tennant2016,@fell2019,@wehn2021,@arzberger_promoting_2004], open access to findings and data is considered to lead to significant savings in access costs. By removing paywalls and subscription fees, open data allows researchers and businesses to access valuable information without incurring additional costs. A major economic benefit of lowering the cost of knowledge is the availability of an extra budget that can be reallocated for other purposes [@tennant2016].
 
@@ -45,13 +45,13 @@ To fully harness the potential of open data, it is important to develop the nece
 
 Despite the theoretical benefits of open data, several limitations hinder a comprehensive assessment of its economic impact fully. Implementing open data practices requires significant investments in infrastructure, technology, and training, potentially offsetting some cost savings [@vanvlijmen2020]. Moreover, the European Commission study emphasises that the benefits of open data are contingent on the quality and standardisation of the data provided [@EC-DGRI2018]. Finally, a major limitation is the scarcity of empirical evidence; few studies have attempted to measure the impacts of open science compared to closed science, making it challenging to generalise findings [@karasz2024]. @herala2016 review the benefits and challenges of open data initiatives in the private sector, highlighting advantages like enhanced collaboration and innovation, but caution that these are often based on speculative assumptions rather than empirical evidence, emphasising the need for further research to inform best practices and mitigate risks associated with increased costs and data privacy concerns.
 
-## Directed Acyclic Graph (DAG)
+# Directed Acyclic Graph (DAG)
 
 As discussed in the general [introduction on causal inference](causal_intro/article/intro-causality.qmd), we use DAGs to represent structural causal models. In the following, a DAG ([@fig-model]) is employed to examine the causal relationship between *Open Data* and *Cost Savings*. The visual illustrates multiple potential pathways, including a direct path from Open Data and Cost Savings, an indirect one involving Time Savings (i.e., a mediator), and additional paths that incorporate factors affecting either Open Data or Time Savings (i.e., confounders). These additional factors, such as technological infrastructure, data quality and availability, standardisation, user skills, innovation, and collaboration introduce layers of complexity to the model. As we will show in the subsequent sections, they are essential to discuss the causal and non-causal, open and closed, relationships among all these variables.
 
 ![Hypothetical structural causal model on Open Data](figures/DAG_open_data_cost_savings-0.png){#fig-model}
 
-## The effect of Open data on Cost Saving
+# The effect of Open data on Cost Saving
 
 In this section, we apply the concepts presented in the section Causality in Science Studies to potential research questions. We present a specific perspective on causal inference through the lens of structural causal models [@pearl_causality_2009].
 
@@ -89,7 +89,7 @@ In the [causality introduction](causal_intro/article/intro-causality.qmd) we emp
 
 This approach is effective in predicting how probability distributions shift under controlled changes when the causal structure is known. However, this approach depends on having an established causal graph, limiting its use for exploring causality from scratch. Critics suggest an alternative approach that allows causal discovery through experimentation without prior assumptions about mechanisms [@woodward2003]. This is especially useful in complex fields, such as social and biomedical sciences, where causal relationships are less understood. Considering this, @cunningham_causal_2021 argues that sample selection problems have been recognised long before the introduction of DAGs, with early solutions like @heckman1979, and emphasizes that an atheoretical approach to empiricism is inadequate. He asserts that causal inference requires a deep understanding of the behavioural processes behind the phenomenon being studied, and while DAGs are useful, they cannot replace the need for theoretical knowledge in creating credible identification strategies. Thus, causal inference is not solved by simply collecting more data, but by integrating theory with empirical analysis.
 
-## Discussing empirical issues
+# Discussing empirical issues
 
 The presented model illustrates how open data might drive cost savings by focusing on a limited set of variables commonly discussed in the literature. However, this approach presents challenges, as the existing literature reveals a significant gap in empirical studies that specifically measure the economic impact of open data on cost savings.
 

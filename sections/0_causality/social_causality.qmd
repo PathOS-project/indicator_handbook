@@ -24,7 +24,7 @@ title: Causality Research on the Social Impact of Open Science
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author       |
 |---------|---------------|-------------|--------------|

@@ -18,7 +18,7 @@ title: Polarity of publications
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
@@ -28,7 +28,7 @@ title: Polarity of publications
 
 :::
 
-## Description
+# Description
 
 The polarity of publications refers to the overall sentiment expressed in research publications through their citations and can be used as an indicator of the scientific community's perception of a certain topic or concept. This indicator aims to measure the degree to which research publications use citations to support, refute, or take no position on a claim, methodology, results, or research output of another publication. The polarity of publications can be used to assess the impact of research on a particular topic, identify potential controversies, and inform future research directions.
 
@@ -36,9 +36,9 @@ The polarity of publications is also useful in assessing the impact of reproduci
 
 However, it is important to note that polarity itself does not directly measure reproducibility. Rather, it provides insights into the perception and impact of research, including the potential influence of reproducibility efforts. Therefore, while polarity can be indicative of various factors, it should not be solely relied upon as a measure of reproducibility.
 
-## Metrics
+# Metrics
 
-### Number of supporting citations for publications
+## Number of supporting citations for publications
 
 This metric counts the number of citations in which a publication is cited in a way that supports its claims, methodology, results, or research output. It can be used to determine the level of support a publication has received from other researchers and can be indicative of the scientific community's perception of the publication.
 
@@ -48,15 +48,15 @@ Furthermore, it is important to note that the number of supporting citations can
 
 In addition to the variation in the number of supporting citations, there are other factors that can affect the interpretation of this metric. For example, the number of supporting citations may be influenced by the age of the publication, the number of citations overall, and the visibility of the publication. It is also important to consider the context in which the citations are made. For example, a citation that is used to support a claim may be different from a citation that is used to mention a publication or to refute a claim.
 
-#### Measurement
+### Measurement
 
 To measure the number of supporting citations for a publication, we can search for citations that explicitly mention the publication in a supportive way. This can be done by manually searching for citations, extracting them from the text, and classifying their mentions as "supporting", "refuting" or "neutral". However, this manual process can be time-consuming. Alternatively, automated tools can be leveraged to identify the supporting citation mentions (referred to as 'citances') from the publications text [@budi2022].
 
 One potential limitation of this metric is that it may be difficult to differentiate between citations that provide explicit support for a publication's claims and those that merely mention the publication in passing. In addition, not all citations may explicitly mention the publication's claims, methodology, results or research outputs, and some researchers may support a publication without necessarily citing it.
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE Research Graph
+##### OpenAIRE Research Graph
 
 [OpenAIRE](https://graph.openaire.eu/) Research Graph is a metadata infrastructure that provides a gateway to research publications and their associated data. It is possible to create citation graphs for publications using the OpenAIRE Research Graph by accessing and analysing the metadata provided by the infrastructure.
 
@@ -64,7 +64,7 @@ Using the OpenAIRE Research Graph, it is possible to identify other publications
 
 There are some limitations to the OpenAIRE Research Graph, such as incomplete or missing metadata, which can affect the accuracy of the citation graphs created. Additionally, the OpenAIRE Research Graph is limited to grant-supported research publications, which may not include all publications in each scientific field.
 
-###### Scite.ai
+##### Scite.ai
 
 [Scite.ai](https://scite.ai/) is a platform that uses natural language processing and machine learning algorithms to identify and classify the citances within a publication as supporting, refuting, or neutral.
 
@@ -74,9 +74,9 @@ Limitations of the platform include:
 -   This is an automated process, so there are limitations based on the underlying model's precision
 -   This is a paid service
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### SciNoBo Toolkit
+##### SciNoBo Toolkit
 
 The SciNoBo toolkit [@gialitsis2022a; @kotitsas2023a] has a new component, currently undergoing evaluation, which involves analysing a publication's text and identifying all citances to other publications. It then classifies these citances based on their intent (generic, reuse, comparison), polarity (supporting, refuting, neutral), and semantics (claim, methodology, results, artifact/output).
 

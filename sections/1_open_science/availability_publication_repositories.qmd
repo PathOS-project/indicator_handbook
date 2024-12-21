@@ -29,7 +29,7 @@ title: Availability of publication repositories
 
 ::: {}
 
-## History
+# History
 
 | Version | Revision date | Revision                      | Author                                                  |
 |---------|---------------|-------------------------------|---------------------------------------------------------|
@@ -38,13 +38,13 @@ title: Availability of publication repositories
 
 :::
 
-## Description
+# Description
 
 To determine the size or volume of content within publication repositories in a specific field, country, or organization using the OpenAIRE Graph, researchers can analyze the Graph dump available on Zenodo or use OpenAIRE Explore ([explore.openaire.eu](https://explore.openaire.eu/)). It's crucial to understand that while the OpenAIRE Graph has integrated over 129,000 data sources, the data derived will strictly represent repositories integrated into the graph, subject to the quality of information those sources provide (<https://graph.openaire.eu/docs/> can be consulted)
 
-## Metrics
+# Metrics
 
-#### Accessibility of publications repositories
+### Accessibility of publications repositories
 
 Evaluating the access model of publication repositories, specifically categorizing them as open access, subscription-based, or limited to specific users.
 
@@ -58,17 +58,17 @@ Limitation:
 
 Examine each repository's documented access model. This can be achieved by querying databases that list repositories.
 
-#### Measurement
+### Measurement
 
-##### Datasources
+#### Datasources
 
 OpenAIRE Graph and Directory of Open Access Repositories (DOAR) (integrated in the OpenAIRE Graph)
 
-##### Methodologies
+#### Methodologies
 
 All repositories in both data sources are Open Access.
 
-## Known correlates
+# Known correlates
 
 Various factors **may** influence the availability of publication repositories in specific fields, countries, or organizations such as: research output, research funding, technological infrastructure, Open Access mandates, research collaboration, overall research infrastructure.
 

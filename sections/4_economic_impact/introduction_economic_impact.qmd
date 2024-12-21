@@ -16,7 +16,7 @@ title: Introduction to Economic Impact
 
 
 ::: {.callout collapse="true"}
-## History
+# History
 
 |         |               |               |            |
 |---------|---------------|---------------|------------|

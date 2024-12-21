@@ -19,7 +19,7 @@ title: Productivity
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|
@@ -27,7 +27,7 @@ title: Productivity
 
 :::
 
-## Description
+# Description
 
 In general, productivity estimates the amount of output relative to the amount of input. In the context of academia, outputs can be various objects, varying from publications to data, code, or peer reviews. Although productivity is an aspect of interest, it should usually be considered jointly with something like quality. That is, a higher productivity may just stimulate more, but lower quality, outputs. There is some evidence of such a type of effect [@butler_explaining_2003], although this evidence is also disputed [@van_den_besselaar_perverse_2017].
 
@@ -35,9 +35,9 @@ Output is usually only measured for a limited set of objects, with scholarly pub
 
 In addition, one aspect of productivity that is usually missing is the overall input [@abramo_farewell_2016]. That is, we typically do not know how many people are employed at a certain institution. Even if part of that becomes visible in authorships, not every employee's contribution will become visible in authorship. Hence, institutions that have for example more research assistants who are not acknowledges as author may seem to have relatively few authors, but in reality there are much more people active at the institution. Moreover, even if we know whether a particular author as affiliated with a certain institution, we do not know the amount of time (s)he spends at that affiliation, which is particularly challenging with multiple affiliations. Going one step further, the input could also be specified in financial terms. Unfortunately, none of this data is typically available [@waltman_elephant_2016]. Nonetheless, this is an important limitation to taken into account when considering productivity.
 
-### Avg. number of papers per author
+## Avg. number of papers per author
 
-#### Measurement
+### Measurement
 
 For a certain institutions $i$ we can count how many authors $a_i$ are affiliated with institution $i$ and how many publications $n_i$ are published in a given year $y$. The ratio of $\frac{n_i}{a_i}$ then gives the average number of papers per author, which is an indicator of productivity. We typically observe an increase in productivity over time, such that in more recent years, the number of papers per author is usually larger than in earlier years.
 
@@ -47,9 +47,9 @@ If we indicate $n_{ji}$ the fraction to which publication $j$ belongs to institu
 
 If there is input data available, such that the total amount of budget of fte available is indicated by $f_i$, the average number of publications per currency unit or fte can be expressed as $\frac{n_i}{f_i}$.
 
-## Datasources
+# Datasources
 
-### OpenAlex
+## OpenAlex
 
 [OpenAlex](https://openalex.org/) covers publications based on previously gathered data from Microsoft Academic Graph, but mostly relies on Crossref to index new publications. OpenAlex offers a user interface that is at the moment still under active development, an open API, and the possibility to download the entire data snapshot. The API is rate-limited, but there are options of having a premium account. Documentation for the API is available at <https://docs.openalex.org/>.
 
@@ -69,19 +69,19 @@ Based on this type of data, the above-mentioned metrics can be calculated. When 
 
 OpenAlex provides disambiguated authors, institutes and countries. The institutions are matched to [Research Organization Registry (ROR)](https://ror.org/), the countries might be available, even if no specific institution is available.
 
-### Dimensions
+## Dimensions
 
 [Dimensions](https://app.dimensions.ai/discover/publication) is a bibliometric database that takes a comprehensive approach to indexing publications. It offers limited free access through its user interface. API access and access through its database via Google BigQuery can be arranged through payments. It also offers the possibility to apply for access to the API and/or Google BigQuery for [research purposes](https://www.dimensions.ai/request-access/). The API is documented at <https://docs.dimensions.ai/dsl>.
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
-### Scopus
+## Scopus
 
 [Scopus](https://www.scopus.com/) is a bibliometric database with a relatively broad coverage. Its data is closed and is generally available only through a paid subscription. It does offer the possibility to apply for access for research purposes through the [ICSR Lab](https://www.elsevier.com/insights/icsr/lab). Some additional documentation of their metrics is available at <https://www.elsevier.com/products/scopus/metrics>, in particular in the Research Metrics Guidebook, with documentation for the dataset available through ICSR Lab being available separately.
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
-### Web of Science
+## Web of Science
 
 [Web of Science](https://webofscience.com/) is a bibliometric database that takes a more selective approach to indexing publications. Its data is closed and is only through a paid subscription.
 

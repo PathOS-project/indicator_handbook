@@ -17,7 +17,7 @@ title: The effect of Open Data on Citations
 
 
 ::: {.callout collapse="true"}
-## History
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|

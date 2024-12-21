@@ -19,7 +19,7 @@ title: Collaboration intensity
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|
@@ -27,7 +27,7 @@ title: Collaboration intensity
 
 :::
 
-## Description
+# Description
 
 Collaboration is common in academia, and many activities in academia, such as conferences or workshops, are aimed at stimulating intellectual exchanges between scholars. Collaboration become visible in publications that are co-authored by multiple authors, institutions and countries, which has become increasingly more common over the years. Here, we will use co-authored publication as the basis for metrics that serve as indicators for collaboration.
 
@@ -41,11 +41,11 @@ The most relevant levels of co-authorship are the individual author level, the i
 
 We will detail three metrics of collaboration: one focusing on the number of authors, institutes or countries involved in collaboration, one on the number of joint papers, and another focusing on the % of papers that show some form of collaboration.
 
-### Avg. number of co-authors
+## Avg. number of co-authors
 
 The average number of co-authors is a metric about the degree of collaboration, and as such, represent an indicator for collaboration. This is a relatively good metric for collaboration. However, the average might hide differences between publications in terms of the degree of collaboration. For instance, some physics publications may involve many hundred co-authors, and if such a paper is included in the set, it may lead to misleading results.
 
-#### Measurement
+### Measurement
 
 Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. Let $S$ be the set of publications of interest, with in total $n = \|S\|$ publications. Then the average over the set of publications is simply the average as usual
 
@@ -53,11 +53,11 @@ $$c = \frac{1}{n} \sum_{i \in S} k_i.$$
 
 Possibly, this average can be weighted by the fraction to which a publication belongs to the set of publications of interest.
 
-### Number of joint papers
+## Number of joint papers
 
 The average number of joint papers is a metric about the degree of collaboration between two co-authors, and as such, represent an indicator for collaboration. This is a relatively good metric for collaboration, and brings in a network perspective on collaboration.
 
-#### Measurement
+### Measurement
 
 Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. From the perspective of a collaboration network, the strength of collaboration between a pair of co-authors is defined slightly differently [@perianes-rodriguez2016]. Let us focus on the collaboration between two co-authors $a$ and $b$. Let $S_{ab}$ be the set of publications on which $a$ and $b$ collaborated. They then have $n_{ab} = |S_{ab}|$ publications in common. However, perhaps $a$ and $b$ are only few of many co-authors on each of these publications, so that the actual collaboration between $a$ and $b$ is relatively less intense than the overall number of publications would suggest. Let us consider a paper $i$ that $a$ and $b$ collaborated on, which had $k_i$ collaborators in total. Then $a$ has collaborated with $k_i - 1$ collaborators, of which $b$ is one, and vice-versa, $b$ has also collaborated with $k_i – 1$ collaborators, of which $a$ is one. Hence, the fraction of collaboration of $a$ with $b$ is then $1/(k_i – 1)$. The total collaboration between $a$ and $b$ is then
 
@@ -71,11 +71,11 @@ Note that we indeed uncover the previous equation when using $w_{ia} = 1/k_i$.
 
 For more details, see [@perianes-rodriguez2016].
 
-### Number/% of co-authored publications
+## Number/% of co-authored publications
 
 The number or percentage of co-authored publications provides a good indicator of collaboration. However, it provides a more coarse view of collaboration than the number of co-authors involved. In principle, each publication is considered to be co-authored if there is at least more than one co-author involved, but any co-authors beyond the second are immaterial to this metric. At the same time, this can also be considered an advantage. Whereas the average number of co-authors is very sensitive to outliers, such as physics papers with hundreds of co-authors, this metric is more robust to that.
 
-#### Measurement
+### Measurement
 
 Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. Let $c_i$ then be $1$ if $k_i \geq 2$ and $0$ otherwise, so as to indicate when a paper is collaborative. Let $S$ be the set of publications of interest, with in total $n = \|S\|$ publications. Then the total number of publications that are collaborative is simply
 
@@ -87,9 +87,9 @@ $$\frac{1}{n} \sum_{i \in S} c_i,$$
 
 If we represent co-authorship at the institution level, this measures the percentage of institutional collaborations, and if we represent co-authorship at the country level, that this measures the percentage of international collaborations. Although this may be evident, it might therefore be possible that a publication is still authored by multiple authors, but in this definition they may not be counted as collaborative if they do not involve different institutions or different countries, respectively.
 
-## Datasources:
+# Datasources:
 
-### OpenAlex
+## OpenAlex
 
 [OpenAlex](https://openalex.org/) covers publications based on previously gathered data from Microsoft Academic Graph, but mostly relies on Crossref to index new publications. OpenAlex offers a user interface that is at the moment still under active development, an open API, and the possibility to download the entire data snapshot. The API is rate-limited, but there are options of having a premium account. Documentation for the API is available at <https://docs.openalex.org/>.
 
@@ -109,24 +109,24 @@ Based on this type of data, the above-mentioned metrics can be calculated. When 
 
 OpenAlex provides disambiguated authors, institutes and countries. The institutions are matched to [Research Organization Registry (ROR)](https://ror.org/), the countries might be available, even if no specific institution is available.
 
-### Dimensions
+## Dimensions
 
 [Dimensions](https://app.dimensions.ai/discover/publication) is a bibliometric database that takes a comprehensive approach to indexing publications. It offers limited free access through its user interface. API access and access through its database via Google BigQuery can be arranged through payments. It also offers the possibility to apply for access to the API and/or Google BigQuery for [research purposes](https://www.dimensions.ai/request-access/). The API is documented at <https://docs.dimensions.ai/dsl>.
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
-### Scopus
+## Scopus
 
 [Scopus](https://www.scopus.com/) is a bibliometric database with a relatively broad coverage. Its data is closed and is generally available only through a paid subscription. It does offer the possibility to apply for access for research purposes through the [ICSR Lab](https://www.elsevier.com/insights/icsr/lab). Some additional documentation of their metrics is available at <https://www.elsevier.com/products/scopus/metrics>, in particular in the Research Metrics Guidebook, with documentation for the dataset available through ICSR Lab being available separately.
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
-### Web of Science
+## Web of Science
 
 [Web of Science](https://webofscience.com/) is a bibliometric database that takes a more selective approach to indexing publications. Its data is closed and is only through a paid subscription.
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
-## Known correlates
+# Known correlates
 
 Collaboration is associated with citations [@larivière2015], but this is potentially driven by network effects [@schulz] and need not be a causal effect.

@@ -25,7 +25,7 @@ title: Uptake in and impact on to societal issues
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author       |
 |---------|---------------|-------------|--------------|
@@ -35,7 +35,7 @@ title: Uptake in and impact on to societal issues
 
 :::
 
-## Description
+# Description
 
 Increasing the capacity of scientific processes and outputs to help address societal issues is perhaps the most important objective of Open Science. It is also the objective whose achievement is the most difficult to assess. The issues challenging our societies are extremely diverse and influenced by a multiplicity of factors that are as complex as shifting. Assessing the impact of Open Science on societal problems requires five steps:
 
@@ -58,11 +58,11 @@ Increasing the capacity of scientific processes and outputs to help address soci
 
 None of the four steps above is straightforward. Luckily, however, a multiplicity of initiatives exists already to (1) define and (2) measure the evolution of different societal issues. Rather than duplicating these efforts, we recommend drawing on them, not only to dedicate more resources to tasks (3), (4) and (5), but also to open a dialog with these monitoring initiatives and make Open Science an integral part of their assessment.
 
-## Existing datasources:
+# Existing datasources:
 
 We should separate here the datasources exploitable for the tasks (1) and (2), from those necessary to cover tasks (3) and (4). Task (5) does not require specific data collection as it focusses on the comparative analysis of the data collected in the previous tasks.
 
-### Data for tasks 1 and 2: defining and monitoring societal issues
+## Data for tasks 1 and 2: defining and monitoring societal issues
 
 As suggested above, it is preferable to exploit already existing monitoring initiatives rather than collecting and analyzing data anew. Indeed, (1) defining and (2) measuring the evolution of different societal issues is an extremely complicated endeavor, and one which is to a large extent separated from the task of assessing the impact of Open Science on such evolution.
 
@@ -75,7 +75,7 @@ As a particularly fitting example, we can mention the United Nations recent prog
 
 It is well known, however, that SDGs do not cover all possible societal issues, that they are sometimes too broadly defined and that they may fail to capture more specific and localized dynamics. Other assessment initiatives, therefore, can and should be identified according to the precise objective of the evaluation.
 
-### Data for task 3: assessing available Open Science resources
+## Data for task 3: assessing available Open Science resources
 
 The data necessary for task (3) are the easiest to find, as they can be found in the existing datasets on Open Science in general (e.g., open publication portals, open-source platforms, etc.).
 
@@ -93,7 +93,7 @@ It is crucial here that all these different types of open resources are consider
 
 One particular challenge is to understand which publications are relevant for which societal issues. There are many efforts at trying to map the scientific literature into topics [@waltman2019], but these do not necessarily align with known societal issues [@rafols2022]. For existing schemas of societal, such as the UN SDGs mentioned earlier, there is considerable disagreement about the classification and assignment of academic literature to SDGs [@armitage2020].
 
-### Data for task 4: assessing Open Science uptake
+## Data for task 4: assessing Open Science uptake
 
 The first operation here is therefore to list all the actors active on the issues at stake. To be sure, it is not possible to provide a closed list of these actors as their identity and nature varyby issue and time. However, they can include, but are not limited to, public institutions, profit and nonprofit organizations, civil society groups, research institutions, advocacy groups, formal and informal lobbies, experts, consultants as well as lay experts and individual citizens.
 
@@ -105,16 +105,16 @@ Once a list of relevant actors has been established, the next step is to find in
     -   assembled and consolidated by journalistic and academic investigations;
     -   dispersed on the websites and social media accounts of these actors (and in the worst case in their private archives).
 
-## Metrics
+# Metrics
 
 Given the complexity of the assessment described in these pages, the metrics suggested below should never be trusted alone. As explained in the task 5b, these figures can only take meaning if contextualized by a thorough qualitative exploration of the nature of the OS resources mobilized, the identity of the actors mobilizing them, the role played by OS in their strategies, the reception/reaction of the other actors and, finally, the precise dynamic of evolution of the issue at stake.
 
-### Metrics for task 3: Open Science resources
+## Metrics for task 3: Open Science resources
 
 -   Total amount of OS resources (publications, data, educational materials, open-source software, open hardware) addressing each societal issue.
 -   Ratio of OS over non-OS resources addressing each societal issue.
 
-### Metrics for task 4: Open Science uptake
+## Metrics for task 4: Open Science uptake
 
 -   Number of references to OS resources in the statements and documents of each actor or actor type active on each societal issue.
 -   Ratio of OS over non-OS references to OS resources in the statements and documents of each actor or actor type active on each societal issue.

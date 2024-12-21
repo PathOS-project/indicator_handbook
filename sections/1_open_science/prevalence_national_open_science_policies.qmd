@@ -18,7 +18,7 @@ title: Prevalence of national Open Science policies
 ::: {.callout collapse="true"}
 
 
-## History
+# History
 
 | Version | Revision date | Revision                    | Author  |
 |---------|---------------|-----------------------------|---------|
@@ -28,7 +28,7 @@ title: Prevalence of national Open Science policies
 
 :::
 
-## Description
+# Description
 
 This indicator aims to capture the existence of country-level policies for Open Science. Since Open Science can be considered a catch-all term for different practices and objectives, as elaborated in the Recommendation on Open Science from the United Nations Educational, Scientific and Cultural Organization (UNESCO), this may include different elements or distinct policies such as Open Access to publications, Open Data, fair data, research assessment reform, Citizen Science etc. A
 
@@ -39,9 +39,9 @@ Measuring the proliferation of national Open Science policies is relevant for se
 -   First, knowing whether a specific policy exists and what it entails is crucial part of the impact analysis. A policy would take the place of the activity and intervention that, through specific outputs and outcomes, creates impact. In other words, it one of the first steps within Key Impact Pathways, in particular those of interest for national-level policy making.
 -   Second, there is an ongoing effort to monitor progress of Open Science policy implementation by proxy of national policies. This is evident, for example, in the UNESCO recommendation on Open Science, which asks member states to develop policies (Art. 17) and to invest in Open Science (Art. 18 and 19). In the European context, Open Science policies are monitored as part of the European Open Science Cloud (EOSC) initiative and the European Research Area (ERA). In the case of EOSC, there is a specific ambition to also measure impact indicators in the future [@oneill2022b].
 
-## Metrics
+# Metrics
 
-### Existence of Open Science policy
+## Existence of Open Science policy
 
 Measuring the existence of a national Open Science policy can be conceptualised at different levels and degrees of complexity.
 
@@ -57,7 +57,7 @@ Limitations but also advantages stemming from these approaches depend on the spe
 -   In the 'intermediate' case, granularity is provided through the specific areas, which allows more detailed analyses that the 'basic' case. Data collection can be expected to be done relatively simply by capturing which topics are covered in the policy.
 -   The 'advanced' case will provide more detailed information about area, nature, and scope of Open Science policies which in turn allows more complex analyses. Data collection will be more challenging due to the need to define specific dimensions and their measurements and the need for an in-depth analysis of the source documents. Unfortunately, there are no controlled vocabularies for this type of data collection.
 
-#### Measurement
+### Measurement
 
 As outlined in the previous section, the exact measurement of the existence of a national policy for Open Science depends on the chosen approach.
 
@@ -110,9 +110,9 @@ In the current framework, this matrix of 8 categories crossed with policies and 
 
 For each item, the questionnaire also includes an item about the public availability of the policy (measured as yes / no variable) and an open-text field to enter a URL to the corresponding website.
 
-##### Datasources
+#### Datasources
 
-###### EOSC Observatory
+##### EOSC Observatory
 
 As introduced above, the EOSC Observatory is a “policy intelligence tool” which contains information about Open Science policies in EU member states and associated countries. The EOSC Observatory is available as an online tool (<http://eoscobservatory.eosc-portal.eu>). Underlying data is made re-usable via a Zenodo community available at <https://zenodo.org/communities/eoscobservatory/>.
 
@@ -124,7 +124,7 @@ A detailed list of items asked for each policy category is included in the quest
 
 In addition, data is made available openly. The latest version is shared in .tsv format and therefore easily reusable. This availability also means that data can be re-coded with relatively little effort to adapt for specific research questions. Moreover, the data contains links to relevant policy sources, which reduces the effort to collect this information by researchers re-using the data [@oneill2022_data].
 
-###### SPARC Europe
+##### SPARC Europe
 
 SPARC Europe has commissioned several studies on national Open Science policies in Europe. The study is regularly updated and is now available in its 7^th^ version [@sveinsdottir2021].
 
@@ -151,7 +151,7 @@ The data includes information on variables such as
 
 The information is presented as narrative content of the study report, although several tables are included too. It is not available in spreadsheet format publicly. In addition, the reports contain country fiches which provide narrative data about national Open Science policies. In the seventh and latest version, the specific focus was on FAIR and Open Data. Previous versions focussed on other areas, such as Open Access to publications.
 
-###### OpenAIRE
+##### OpenAIRE
 
 OpenAIRE is providing information on national Open Science policies via its country pages (<https://www.openaire.eu/os-eu-countries>). The country pages are maintained by the respective National Open Access desks (NOAD). The information is spilt into several categories:
 
@@ -164,19 +164,19 @@ OpenAIRE is providing information on national Open Science policies via its coun
 
 This information is unstructured and not presented in a standardized fashion to facilitate re-use.
 
-###### Council for National Open Science Coordination (CoNOSC)
+##### Council for National Open Science Coordination (CoNOSC)
 
 The Council for National Open Science Coordination (CoNOSC) is providing information about member countries' national Open Science system and policies at <https://conosc.org/os-policies/#page-content>.
 
 This information is unstructured and not presented in a standardized fashion to facilitate re-use.
 
-###### National Points of Reference on Scientific Information
+##### National Points of Reference on Scientific Information
 
 The European Expert Group on National Points of Reference on Scientific Information provides occasional updates about the state of Open Access and Open Science policies in EU member states and associated countries. Information is available via the EU expert group registry: <https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups/consult?lang=en&groupID=3477>
 
 Reports of the group do contain qualitative and quantitative information, which is however not made available in standardized formats.
 
-###### ROARmap
+##### ROARmap
 
 The ROARMAP database contains information about policies concerning In total 87 funder-only policies are registered.
 
