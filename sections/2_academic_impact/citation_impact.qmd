@@ -31,6 +31,8 @@ affiliations:
 
 The citation impact of publications reflects the degree to which they have been taken up by other researchers in their publications. There are long-standing discussions about the interpretation of citations, where two theories can be discerned [@bellis2009]: a normative theory, proposing citations reflect acknowledgements of previous work [@merton1973]; and a constructivist theory, proposing citations are used as tools for argumentation [@latour1988]. Overall, citation impact seems to be most closely related to the relevance of the work for the academic community and should be distinguished from other considerations of scientific quality, where the relationship is less clear [@aksnes2019].
 
+Although it is out of scope to provide suggestions for causal inference of all possible Open Science aspects on citation, we discuss one case on the effect of [Open Data on citations](../0_causality/open_data_citation_advantage.qmd).
+
 ## Metrics
 
 Citations are affected by two major factors, that we expect to be irrelevant for considerations of impact: the field of research, and the year of publication[^pub-year]. That is, some fields, such as Cell Biology, are much more citation intensive than other fields, such as Mathematics. Additionally, publications that were published in 2010 have had more time to accumulate citations than publications published in 2020. Controlling for these factors[^normalisation-factors] is resulting in what are often called “normalised” citation indicators [@waltman2019]. Although such normalised citation indicators are more comparable across time and field, they are sometimes also more opaque. For that reason, we explain both normalised metrics and “raw”, non-normalised, citation metrics.
