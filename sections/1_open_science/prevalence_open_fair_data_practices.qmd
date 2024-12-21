@@ -45,7 +45,7 @@ In similar fashion the percentage of publications with shared data in the area o
 
 In addition, it is important to note that more targeted indications can be used than if a publication shares data or not. Alternatives like number of publications with data shared in a repository, data availability statements or including the level of fairness of the shared data can be used to reach more specific results.
 
-#### Measurement.
+#### Measurement
 
 The number of publications with shared data can be represented as a simple count measure of the sample of interest. The percentage can be calculated by dividing the total number of publications with shared data with the total number of units included.
 
@@ -69,7 +69,7 @@ PLOS also provides API's to search its database. This [page](https://api.plos.or
 
 Metrics on the level of FAIRness of data (sources) can support in establishing the prevalence of open/FAIR data practices. This metric attempts to show in a more nuanced manner where FAIR data practices are used and in some cases even to what extent they are used. Assessing whether or not a data source practices FAIR principles is not trivial with a quick glance, but there are some initiatives that developed methodologies that assist to determine this for (a large number of) data sources.
 
-#### Measurement.
+#### Measurement
 
 ##### Existing methodologies
 

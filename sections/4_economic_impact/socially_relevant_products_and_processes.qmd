@@ -46,7 +46,7 @@ The combined measurement offers a holistic view of OS's role in fostering innova
 
 This metric can also be measured for a single innovation type, allowing for more focused assessments relevant to particular fields of study.
 
-#### Measurement.
+#### Measurement
 
 To measure the proposed metric a systematic approach is required to capture the multifaceted contributions of OS across various sectors. This measurement aims to quantify the extent to which OS inputs facilitate the development of innovations in healthcare, agriculture, and renewable energy that have significant societal impact. A primary challenge in this measurement process is the identification and accurate attribution of OS contributions to the final products or processes, given the complex and often opaque development pathways. Additionally, the availability and accessibility of reliable data sources that explicitly link OS resources to specific innovations pose significant measurement challenges. These challenges are compounded by the diversity of sectors involved, each with its own set of data availability and methodological approaches for tracking innovation development.
 

@@ -59,7 +59,7 @@ Number of replication studies is a metric that counts the number of studies that
 
 Limitations of this metric include the potential for biased or incomplete reporting of replication studies, as well as the possibility that some replication studies may not be identified or counted due to differences in methodology or interpretation.
 
-#### Measurement.
+#### Measurement
 
 To measure the number of replication studies, besides manually testing, a suitable automatic approach is to use text mining and machine learning techniques to find candidate studies that define themselves as replications or provide evidence of replication. Another approach is to search for a specific tag or field in relevant databases that indicate replication studies, such as the Open Science Framework's Registered Reports database (<https://osf.io/registries/discover?provider=OSF>) or the Replication Wiki (<http://replication.uni-goettingen.de/wiki/index.php/Main_Page>). An alternative method would be to conduct a citation analysis, where relevant citations from the original publications are collected, referenced within the original text, and assessed using an automated tool to determine if they can be classified as replication studies.
 

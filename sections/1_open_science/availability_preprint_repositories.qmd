@@ -70,7 +70,7 @@ Limitations:
 
 -   Does not account for the quality or size of repositories .
 
-#### Measurement.
+#### Measurement
 
 Count
 
@@ -108,7 +108,7 @@ Limitation:
 
 Directly query the repository (if it offers such statistics) or query data bases that aggregate repositories.
 
-#### Measurement.
+#### Measurement
 
 ##### Datasources
 
@@ -132,7 +132,7 @@ Limitation:
 
 Examine each repository's documented access model. This can be achieved by querying databases that list repositories.
 
-#### Measurement.
+#### Measurement
 
 ##### Datasources
 

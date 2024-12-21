@@ -40,7 +40,7 @@ Nevertheless, this document attempts to summarize what indicators can be used to
 
 ### Number (Avg.) of times data is cited/mentioned in publications
 
-#### Measurement.
+#### Measurement
 
 The Number or percentage of times data is cited/mentioned in publications can be used to indicate data use in research. It specifically gives a representation of how often data is used to progress scientific publishing. However, it does not explicitly show what the data is being used for in the articles that cite the data, and it does not capture information on what academic activities the data is used for outside of scientific publishing.
 
@@ -86,7 +86,7 @@ Based on the data citation information from the DataCite Data Citation Corpus on
 
 The number or percentage of views/clicks/downloads from repositories can be used to indicate more broad data use. In contrast to data citations, this measure includes representation of the potential use of data outside of academic publishing. However, one has no insight in the scientific objective for which the dataset has been retrieved. Moreover, even though this measure focuses on academic data repositories, one cannot be certain that the data retrieval has been made for academic purposes. Additionally, across data repositories there is not yet a standardized method of keeping track of views/clicks/downloads. Resulting in the tracking of different figures (views or clicks or downloads) and different definitions for these figures, which makes cross platform comparisons more complex.
 
-#### Measurement.
+#### Measurement
 
 ##### *Existing datasources:*
 

@@ -58,7 +58,7 @@ Open methods refer to:
 
 **Differences:** ..?
 
-#### Measurement.
+#### Measurement
 
 There is no comprehensive list of publication-software pairs. The metric is partially covered by well-established repositories like GitHub or existing data sources like OpenAIRE. Automated approaches have been built (e.g., PapersWithCode) or are under development in the scientific community, scanning the publication text and spotting mentions of software/code and its FAIR metadata.
 

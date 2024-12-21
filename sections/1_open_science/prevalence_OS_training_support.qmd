@@ -43,7 +43,7 @@ The creation of metrics should take into consideration what elements of Open Sci
 
 Open Science support and training might be often provided at the university level, or within the university at the faculty or even departmental level. This metric provides an institutional view of the extent to which Open Science support is offered.
 
-#### Measurement.
+#### Measurement
 
 This metric can be constructed by searching through university and faculty level websites to identify the presence of Open Science support and training facilities, and when present identify what kind of Open Science activity is being supported.
 
@@ -62,7 +62,7 @@ Automation of this metric is currently not possible.
 
 In some cases, there might be national Open Science initiatives or other national institutions that provide Open Science support or training initiatives. For instance, this could cover information around Open Access, or support for opening up data. This metric describes the extent to which there are national initiatives for Open Science support and training.
 
-#### Measurement.
+#### Measurement
 
 This metric can be constructed by searching through policy initiatives that support Open Science practices on the national level.
 
@@ -81,7 +81,7 @@ Automation of this metric is currently not possible.
 
 Open Science support and training can be broader or narrower. This metric provides an overview of the breadth of Open Science support and training, that is, to which extent it covers the diverse types of Open Science support and training, such as publishing, research data, Open Code, peer review, pre-registration and registered reports.
 
-#### Measurement.
+#### Measurement
 
 Based on data that might be collected for the first two metrics, we might be able to construct a third metric. That is, when collecting information about training facilities, we could collect additional information. This metric could be constructed by searching through any relevant training facilities, either at the institutional or national level, as explained above.
 
@@ -99,7 +99,7 @@ Automation is currently not possible.
 
 By providing an overview of the duration of Open Science training, we may capture the intensity of Open Science training. Having just a few hours of training, or more extensive training of course makes a difference with regards to the amount of knowledge that can be transferred.
 
-#### Measurement.
+#### Measurement
 
 This metric can be constructed in a similar manner as the previous metric, namely by looking at websites for what is offered as Open Science practice training facilities and collect the duration of such training facilities.
 

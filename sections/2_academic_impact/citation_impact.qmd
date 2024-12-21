@@ -47,7 +47,7 @@ This metric provides a reasonable indicator for citation impact. The benefit of 
 
 However, since there are differences across fields and publication year, this metric cannot be compared across fields and years. If comparison across fields and years is important, or if they are relevant in other ways, such as when they may be confounding factors, it might be preferred to use normalised citation indicators (see section …).
 
-#### Measurement.
+#### Measurement
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
@@ -79,7 +79,7 @@ This metric provides a reasonable indicator of citation impact. The number or pe
 
 The simplification of citations to a binary distinction between highly cited or not also entails some limitations. It may limit the extent to which different publications can be compared. This is especially relevant for very small sets of publications, for which this metric might perhaps be too coarse grained. Another limitation is that the threshold for may not be equally meaningful across fields and years. The same threshold might be relatively difficult to reach in some fields, or may take many years before the threshold is reached. Hence, this metric cannot be compared across fields and years. If comparison across fields and years is important, or if they are relevant in other ways, such as when they may be confounding factors, it might be preferred to use normalised highly cited publications (see section …).
 
-#### Measurement.
+#### Measurement
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
@@ -123,7 +123,7 @@ This metric provides a good indicator for citation impact. The benefit of this m
 
 The disadvantage of normalised citation counts is that they are more opaque. People might be less familiar with these types of statistics and may have more difficulty in interpreting them. For that reason, it is advisable to work with “raw”, unnormalised, citation counts when sets of publications are more homogeneous or when they are relatively small. At the individual paper level, a normalised citation count is most likely less informative to most people than the “raw” citation count (see section …)
 
-#### Measurement.
+#### Measurement
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
@@ -167,7 +167,7 @@ This metric provides a good indicator of citation impact. The number or percenta
 
 The simplification of citations to a binary distinction between highly cited or not also entails some limitations. It may limit the extent to which different publications can be compared. This is especially relevant for very small sets of publications, for which this metric might perhaps be too coarse grained.
 
-#### Measurement.
+#### Measurement
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 

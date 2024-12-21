@@ -44,7 +44,7 @@ From a theoretical point of view, the count of policy citations can be leveraged
 
 As discussed above, to the best of our knowledge there are no specific proposals of concrete metrics of policy citation indicators beyond the current counts of policy citations provided in Altmetric.com and Overton. From a theoretical point of view, similar indicators as for citations and academic readership would be possible, however given the relatively low uptake of policy citations across scientific publications [@fang2024; @bornmann2016a], the most sensible metric to be consider would be the counts of policy citations, perhaps complemented with more qualitative exploration of the types of mentions in policy documents. Similarly, policy citations metrics could be complemented with the identification of mentions in policy documents to other larger scholarly entities like journals, repositories, individual researchers, universities, or scientific concepts, to name a few.
 
-#### Measurement.
+#### Measurement
 
 For any given set of scientific publications, utilizing their DOIs (or other unique publication identifiers), one can employ the Altmetric or Overton APIs, or use their search tools, to retrieve the total count of policy citations to each of the scientific publications. These counts can then be aggregated as the total count of citations for the set, or even averages or other statistics.
 

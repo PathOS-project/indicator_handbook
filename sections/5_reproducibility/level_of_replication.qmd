@@ -50,7 +50,7 @@ The level of successful replication represents a direct indicator for reproducib
 
 The level of replication can be measured by counting the number or calculating the proportion of studies that were found to successfully replicate. Data on success of replication attempts, however, is limited. Re-performing a study requires substantial resources. For a large share of the published literature no data on the number or share of successful replications is available. Additionally, it might be impossible for some studies to be replicated, e.g., because a one-time event was studied. For these types of studies, levels of replication cannot be assessed.
 
-#### Measurement.
+#### Measurement
 
 Levels of replication can directly be examined by analysing the proportion of successful replication attempts. Therefore, the number of replication attempts and their success/failure need to be measured. Then, the percentage can be calculated as the proportion of successful replications within all replication attempts. Difficulties, however, lie in the definition of what constitutes a successful replication. A common argument in the literature on replication and reproducibility is that exact replications are not possible, since the exact setting, context, sample, etc. usually cannot be recreated fully [@nosek2022; @schmidt2009]. A study might be seen as a replication "when the differences to the original study are believed to be irrelevant for obtaining the evidence about the same finding" [@nosek2022], but this cannot easily be determined and appears quite subjective.
 
@@ -88,7 +88,7 @@ Recently, automated tools have been developed and tested that are intended to di
 
 Replication attempts might not be published (especially in the case of repeated replications of the same study) and might for instance only be conducted internally within a research group. To gather information about these replications attempts, reports can be obtained from researchers about the total number of replications they attempt and the number of studies out of those that they were able to replicate.
 
-#### Measurement.
+#### Measurement
 
 In addition to directly measuring the success of replication studies, the level of replication can also be assessed by surveying researchers. They can report retrospectively about their replication attempts and indicate or estimate the level of replication they encountered. These reports, however, might be less systematic, detailed or objective than studies or projects directly reperforming studies. However, they can be acquired with fewer resources.
 
@@ -106,7 +106,7 @@ Experiences of researchers with replications and the level of replication they h
 
 Since replication attempts require substantial resources, they cannot be conducted for all studies. Without studies or researcher reports available to assess levels of replication, the number of studies to successfully replicate can also be estimated through expert predictions.
 
-#### Measurement.
+#### Measurement
 
 Levels of replication can be measured prospectively. This is done through expert predictions of the replicability of studies (mostly captured as the predicted probability of successful replication), without directly attempting a replication. A percentage or number of studies predicted to successfully replicate can be calculated after dichotomizing this probability (e.g., interpreting probability \> .5 as prediction of success). While these predictions might be less accurate compared to other measures of replicability, studies would not actually have to be reperformed when only employing this measure.
 

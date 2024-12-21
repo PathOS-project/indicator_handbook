@@ -50,7 +50,7 @@ A clear limitation is that typically only mentions of research that explicitly l
 
 We can discern two types of measurements: (1) counting the total number of mentions for a certain publication, and then aggregating over a certain set of publications, by for example taking the mean; or (2) considering whether a publication is mentioned at all, and then looking at the percentage of publications that are mentioned (i.e. at least once). Although the first metric might provide a richer picture, mentions in social media can be relatively sparse, limiting the value of this metric. The latter metric might then be especially relevant in such situations.
 
-#### Measurement.
+#### Measurement
 
 The metric can be measured by using existing datasources that already track the uptake of science in social media.
 
@@ -58,7 +58,7 @@ The metric can be measured by using existing datasources that already track the 
 
 This metric operationalises the uptake of science by Wikipedia. Most articles on Wikipedia have a formal way of citing scientific literature, in a way that is not unlike academic literature itself. However, the audience of Wikipedia is different, and broader than scientists themselves, although not everybody may make use of Wikipedia equally. Because of the formalisation of citations, it means that tracking citations from Wikipedia to scientific publications is relatively accurate. Nonetheless, there are still some challenges with correctly matching citations from Wikipedia to the correct publications, especially if identifiers such as DOIs are not included.
 
-#### Measurement.
+#### Measurement
 
 The metric can be measured by using existing datasources that already track the uptake of science in social media.
 
@@ -66,7 +66,7 @@ The metric can be measured by using existing datasources that already track the 
 
 This metric operationalises the uptake of science by newspapers. This typically tracks the explicit mention (usually the URL or DOI in a hyperlink in the online version of an article) of science. Arguably, science frequently appears in newspapers without it being explicitly mentioned or linked to. For example, some studies might be mentioned just informally (e.g. “a recent article by ...”). Moreover, scientists themselves regularly appear as commentators in newspapers, but this is usually not tracked systematically. So, overall, this metric is not necessarily the most accurate indicator, because it most likely underestimates the uptake of science by newspapers.
 
-#### Measurement.
+#### Measurement
 
 The metric can be measured by using existing datasources that already track the uptake of science in social media.
 

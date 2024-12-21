@@ -36,7 +36,7 @@ This indicator aims to capture the integration and utilization of Open Science (
 
 This metric tracks the frequency of OS resources within both educational handbooks and higher education syllabi. It serves as an operational measure of the indicator by quantifying the inclusion of OS materials in educational content, indicative of the educational sector's engagement with and valuation of OS practices. In addition, it provides insights into how OS is influencing educational trends and priorities, offering a combined view that enhances the understanding of OS resources' impact on academic teaching and learning.
 
-#### Measurement.
+#### Measurement
 
 Measuring the incorporation of Open Science (OS) inputs into educational materials involves a detailed process that aims to capture the extent and manner of their usage in educational handbooks and syllabi. The process faces challenges such as the diverse referencing of OS resources and the comprehensive collection of materials. Moreover, the dynamic nature of OS resources and educational content necessitates ongoing data collection and analysis efforts.
 

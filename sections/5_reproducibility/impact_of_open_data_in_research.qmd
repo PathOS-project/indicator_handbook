@@ -41,7 +41,7 @@ This metric calculates the Normalised Citation Impact (NCI) for publications tha
 
 One limitation of this metric is that the use of NCI has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend using this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
-#### Measurement.
+#### Measurement
 
 To measure this metric, the process begins with the identification of publications that have introduced Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
 
@@ -83,7 +83,7 @@ This metric calculates the Normalised Citation Impact (NCI) for publications tha
 
 A limitation of this metric is that the use of NCI has been criticized for its potential biases and limitations, such as the inability to fully account for differences in research quality or the influence of non-citation-based impact measures. Therefore, we recommend using this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
-#### Measurement.
+#### Measurement
 
 To measure this metric, the process begins with the identification of publications that have (re)used Open Datasets. This is typically achieved by scrutinizing metadata within the datasets and the publications, such as the DOI (Digital Object Identifier). Alternatively, explicit mentions of the dataset within the publication text can be extracted and verify their openness. This can be performed manually or using automated tools.
 
@@ -119,7 +119,7 @@ In terms of reproducibility, high usage counts or stars may indicate that a data
 
 One limitation of this metric is that it only captures usage of Open Datasets from specific repositories and may not reflect usage of the same dataset that is hosted elsewhere. Additionally, differences in repository usage and user behaviour may affect the comparability of download/usage count/star data across repositories. Finally, this metric does not capture non-public uses of Open Datasets, such as internal use within an organization or personal use by researchers, which may also contribute to the impact of Open Datasets on scientific research.
 
-#### Measurement.
+#### Measurement
 
 To measure this metric, we can use data from various data repositories, such as DataCite and Zenodo, or data from OpenAIRE, which provide download or usage statistics for hosted datasets. We can also use platforms such as GitHub or GitLab, which provide star counts as a measure of user engagement with Open Source code repositories that may include Open Datasets. However, it is important to note that different repositories may provide different types of usage statistics, and these statistics may not be directly comparable across repositories. Additionally, not all repositories may track usage statistics, making it difficult to obtain comprehensive data for all Open Datasets.
 
@@ -179,7 +179,7 @@ This metric measures the number of downloads or views of published Data Manageme
 
 A limitation of this metric is that it only captures the number of downloads or views of DMPs, which may not necessarily indicate the actual implementation of the DMP or the quality of the data management practices. Therefore, it is important to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
-#### Measurement.
+#### Measurement
 
 To measure this metric, we can start by identifying published DMPs in data repositories, such as DataCite, Zenodo, or institutional repositories. To identify the relevant DMPs, we can utilize search features and application programming interfaces (APIs) provided by these data repositories, conduct keyword searches related to the specific research or project, and review the metadata associated with each DMP for relevance. Once we have identified the relevant DMPs, we can track the number of downloads or views of these DMPs over a specified period of time.
 
@@ -207,7 +207,7 @@ This metric measures the number of datasets that are reused in Data Management P
 
 A limitation of this metric is that it may not capture the full range of Open Data practices that are being utilized by researchers, such as the sharing of data outside of DMPs or the creation of new datasets for reuse. Additionally, the metric may not capture the quality or impact of the datasets being reused in DMPs. Therefore, it is important to use this metric in conjunction with other metrics in this document to obtain a more comprehensive assessment of the impact of Open Data practices on research output.
 
-#### Measurement.
+#### Measurement
 
 To measure this metric, we can start by identifying published DMPs in data repositories, such as DataCite, Zenodo, or institutional repositories. We can then analyse the content of published DMPs to identify the datasets that are being reused through automated text mining techniques (e.g., using the SciNoBo toolkit).
 

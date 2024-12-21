@@ -87,7 +87,7 @@ Limitations:
 Count or share.
 
 
-#### Measurement.
+#### Measurement
 
 ##### Datasources
 
@@ -123,7 +123,7 @@ Limitations:
 -   The metric may not capture the nuances of each hybrid journal's open access policies.
 -   The prevalence of hybrid OA doesn't necessarily indicate the volume of OA content..
 
-#### Measurement.
+#### Measurement
 
 ##### Datasources
 
@@ -144,7 +144,7 @@ Limitations:
 
 -   Relying on APC data might not capture other potential costs or financial barriers associated with publishing in the journal.
 
-#### Measurement.
+#### Measurement
 
 ##### Datasources
 

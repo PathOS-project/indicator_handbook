@@ -39,7 +39,7 @@ This metric quantifies the number of datasets that have been reused in published
 
 A limitation of this metric is that it may not capture all instances of data reuse, as some researchers may reuse data sets without explicitly citing the original source. This challenge is further exacerbated by the fact that standards of data citation are still relatively poor, making the identification of all instances of data reuse across research fields problematic. Additionally, this metric may not account for the quality or appropriateness of the reused data sets for the new research questions. Furthermore, it may be challenging to compare the number of datasets reused in publications across different fields, as some fields may rely more heavily on new data collection rather than data reuse.
 
-#### Measurement.
+#### Measurement
 
 An initial step to measure the number of reused datasets in publications can be to count the data citations linked with each dataset. This basic strategy, despite being prone to some noise, serves as a fundamental measure for this metric. For a more comprehensive and accurate estimate, we can use tools like text mining and machine learning, including Natural Language Processing (NLP) applied to full texts. These tools help us find data reuse statements, data availability statements, or directly pull out datasets from a publication and label them as reused.
 
@@ -85,7 +85,7 @@ This metric quantifies the number or percentage of publications that explicitly 
 
 A limitation of this metric is that it may not capture all instances of data reuse, as some researchers may reuse data sets without explicitly citing the original source. Additionally, it may not account for the quality or appropriateness of the reused data sets for the new research questions. Furthermore, it may be challenging to compare the number or percentage of publications with reused datasets across different fields, as some fields may rely more heavily on new data collection rather than data reuse.
 
-#### Measurement.
+#### Measurement
 
 To measure the percentage of publications with reused datasets, we start by using automatic text mining and/or machine learning techniques to identify whether a publication uses/analyses data. This involves searching for keywords and phrases associated with data analysis within the text of the publications. Next, among the identified data-analysing publications, we search for data reuse statements, data availability statements, or directly extract the datasets from the publications and try to classify them as reused, reporting the percentage of those publications.
 

@@ -45,7 +45,7 @@ Systematic reviews and meta-analyses are very useful methodologies to synthesize
 
 The inclusion of a research paper can be indicated through the number of times it has already been cited in a systematic review or meta-analysis. This metric, however, has some limitations. Citation by a systematic review or meta-analysis by itself is not a reliable indicator for whether a given study was included in a review. It could also be cited within the background or discussion section, or as an excluded source.
 
-#### Measurement.
+#### Measurement
 
 This metric could be measured by analysing the sources a paper is cited by. The type of publication needs to be extracted for all citing sources. The number of citing sources that are systematic reviews or meta-analyses can then be counted.
 
@@ -59,7 +59,7 @@ Data sources for this metric are literature databases. These are suitable insofa
 
 For a specific paper the number of systematic reviews and meta-analyses that have included it in the data synthesis can be counted. Inclusion in a systematic review or meta-analysis does not only rely on the topic of a paper and the scope of the review or meta-analysis, but also on some quality assessment (e.g., of methods or results). This metric has its limitation, since quality assessment of studies might differ significantly between different conducted systematic reviews and meta-analyses in criteria, strictness, etc. While inclusion in a systematic review or meta-analysis indicates that some form of quality check was passed by a paper, the thoroughness of this assessment is not indicated by the number of inclusions.
 
-#### Measurement.
+#### Measurement
 
 All citing sources of a given paper are classified by their type, filtering out systematic reviews and meta-analyses. This could be done by retrieving keywords in the titles of publications, such as "systematic review", since publications adhering to the PRISMA guidelines must indicate this in the title. For the retrieved sources, one would have to manually determine whether they include the given paper in their data synthesis. The number of systematic reviews and meta-analyses where this is the case can then be counted.
 
@@ -83,7 +83,7 @@ Some systematic reviews or meta-analyses make data available that was gathered d
 
 Opposite to inclusion, the number of systematic reviews and meta-analyses that have excluded a specific paper in the data synthesis can also be counted. However, exclusion for the reason of being out of scope is no indicator of quality. Therefore, only exclusions specifically due to methodological issues (such as insufficient reporting, noticeable errors or questionable choice of methods) or suspected bias within a study can be of interest for this metric. To determine this, however, information on specific reasons for exclusion must be given which might be given less frequently than general information about inclusion.
 
-#### Measurement.
+#### Measurement
 
 All citing sources of a given paper should be classified by their type, and then be filtered on citing systematic reviews and meta-analyses. For these sources it should be checked whether they exclude the given paper due to methodological issues or bias that were identified (not because of scope). The number of systematic reviews and meta-analyses where this is the case can then be counted.
 

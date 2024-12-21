@@ -114,7 +114,7 @@ Software dependencies indicate to what extent software is being used by other so
 
 There are some clear limitations to this approach. First of all, such statistics can only be calculated when software is shared in a clear software ecosystem, such as the [Python Package Index (PyPI)](https://pypi.org/) or the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). Not all research software is shared in such packaging indices, and they cannot easily be tracked. Secondly, the type of dependencies is not limited to research only. Hence, some of these metrics might be equally well an indicator of usage by industry as it is an indicator of usage by researchers. How to distinguish between the various types of use is not evident.
 
-#### Measurement.
+#### Measurement
 
 Measurement of such dependencies can potentially be provided by tools targeted at the various software ecosystems. Here, we will limit ourselves to the [Python Package Index (PyPI)](https://pypi.org/) and the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). Dependencies are usually limited to within these package indices, and hence external packages that depend on some particular software packages are not captured.
 

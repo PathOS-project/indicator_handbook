@@ -69,7 +69,7 @@ One limitation of simply counting the number of Open Access publications is that
 
 We can count the number of Open Access publications based on different selections. For instance, we may want to select only publications within a particular country, institution, field of science or publication year. We do not describe here how to make such selections, we here merely clarify how to count the Open Access publications, given a particular set of publications. As explained in the Description, we can distinguish between different types of Open Access publications: Hybrid, Gold, Diamond, Green and Bronze. We will clarify how to measure these aspects of Open Access publishing.
 
-#### Measurement.
+#### Measurement
 
 For each publication we need to measure whether it is Open Access at all, and if so, what specific type(s) of Open Access it is. In order to be able to do this, we need to know whether the publication is deposited in one or more publication repositories (for Green OA) and know whether the article is directly available from the publisher. In the latter case, we also need to be able to know whether the journal itself is fully Open Access or whether it is a hybrid journal. In addition, if it is a fully Open Access journal, we need to determine whether the journal charges any publishing fees (APC), if it does not, we can classify it additionally as Diamond Open Access.
 

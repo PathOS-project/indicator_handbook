@@ -47,7 +47,7 @@ Furthermore, it is important to note that the number of supporting citations can
 
 In addition to the variation in the number of supporting citations, there are other factors that can affect the interpretation of this metric. For example, the number of supporting citations may be influenced by the age of the publication, the number of citations overall, and the visibility of the publication. It is also important to consider the context in which the citations are made. For example, a citation that is used to support a claim may be different from a citation that is used to mention a publication or to refute a claim.
 
-#### Measurement.
+#### Measurement
 
 To measure the number of supporting citations for a publication, we can search for citations that explicitly mention the publication in a supportive way. This can be done by manually searching for citations, extracting them from the text, and classifying their mentions as "supporting", "refuting" or "neutral". However, this manual process can be time-consuming. Alternatively, automated tools can be leveraged to identify the supporting citation mentions (referred to as 'citances') from the publications text [@budi2022].
 

@@ -41,7 +41,7 @@ This metric provides the number or the percentage of journals that support Open 
 
 Open review reports do not need to include the identities of the reviewers. Reviewers may remain anonymous.
 
-#### Measurement.
+#### Measurement
 
 There is no datasource that provides comprehensive data on the peer review models used by journals. However, there are a few datasources that provide partial data on journals that support Open Review reports:
 
@@ -55,7 +55,7 @@ Each of the above datasources is incomplete and some of the data is likely to be
 
 This metric provides the number or the percentage of journal articles that have Open Review reports. Open review reports do not need to include the identities of the reviewers. Reviewers may remain anonymous.
 
-#### Measurement.
+#### Measurement
 
 Some journals publish review reports and register DOIs for these reports at Crossref or DataCite. For these journals, metadata from Crossref and DataCite can be used to determine the number of articles with Open Review reports. This approach was used in [this blog post](https://www.leidenmadtrics.nl/articles/the-growth-of-open-peer-review), in which it was shown that eLife, PeerJ, and Wiley journals publish a relatively large number of articles with Open Review reports. For an article with a Crossref DOI, the Crossref API (see <https://api.crossref.org/swagger-ui/index.html)> can be used to identify links from the article to open review reports. If the metadata of the article includes links to open review reports, these links can be found in the 'has-review' field in the API output. Conversely, for an open review report with a Crossref DOI, a link to the corresponding article can be found in the `is-review-of` field in the API output.
 
@@ -67,7 +67,7 @@ This metric provides the number or the percentage of preprints that have Open Re
 
 Open review reports do not need to include the identities of the reviewers. Reviewers may remain anonymous.
 
-#### Measurement.
+#### Measurement
 
 There are a substantial number of services for peer review of preprints, especially in the life sciences ([ref](https://doi.org/10.31219/osf.io/8zj9w)). While these services all provide Open Review reports, most of them do not register DOIs for these reports. For many of these services, data on review reports can be obtained from [Sciety](https://sciety.org/), an aggregator of Open Review reports for preprints. Sciety can be accessed through a website. An API is not yet publicly available.
 

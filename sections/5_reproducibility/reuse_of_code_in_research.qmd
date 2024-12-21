@@ -39,7 +39,7 @@ This metric quantifies the number of times existing code or software has been re
 
 A limitation of this metric is that it may not capture all instances of code or software reuse, as some researchers may reuse code or software without explicitly citing the original source. This challenge is further exacerbated by the fact that standards of code/software citation are still relatively poor, making the identification of all instances of code/software reuse across research fields problematic. Additionally, this metric may not account for the quality or appropriateness of the reused code or software for the new research questions. Furthermore, it may be challenging to compare the number of instances of code or software reuse in publications across different fields, as some fields may rely more heavily on developing new code or software rather than reusing existing resources.
 
-#### Measurement.
+#### Measurement
 
 An initial step to measure the number of reused code/software in publications can be to count the code/software citations linked with each code/software. This basic strategy, despite being prone to some noise, serves as a fundamental measure for this metric. For a more comprehensive and accurate estimate, we can use tools like text mining and machine learning, including Natural Language Processing (NLP) applied to full texts. These tools help us find code or software reuse statements, or directly pull out datasets from a publication and label them as reused.
 
@@ -87,7 +87,7 @@ This metric quantifies the number or percentage of publications that explicitly 
 
 A limitation of this metric is that it may not capture all instances of code or software reuse, as some researchers may reuse code or software without explicitly citing the original source. Additionally, it may not account for the quality or appropriateness of the reused code or software for the new research questions. Furthermore, it may be challenging to compare the number or percentage of publications with reused code or software across different fields, as some fields may rely more heavily on developing new code or software rather than reusing existing resources.
 
-#### Measurement.
+#### Measurement
 
 To measure the number or percentage of publications with reused code or software, automatic text mining and machine learning techniques can be used to search for code or software reuse statements, or to identify reused code or software within published research articles, such as the new component of the SciNoBo toolkit.
 

@@ -39,7 +39,7 @@ This metric assesses the extent to which industrial patents resulting from acade
 
 This metric is a good operationalization of the indicator because it provides a direct measure of the output of collaborative efforts. However, it may not capture the quality or impact of the collaboration. It differs from other metrics by focusing on legal intellectual property outcomes rather than purely academic outputs.
 
-#### Measurement.
+#### Measurement
 
 Utilize the PATSTAT dataset (<https://www.epo.org/en/searching-for-patents/business/patstat>) to identify patents filed by industry partners in collaboration with academic institutions. Examine the citations within these patents for references to papers or other resources that are recognized as open science inputs. Specifically, determine if these patents cite papers that contribute to new open science resources or artifacts.
 
@@ -105,7 +105,7 @@ One limitation of this methodology is that it may not capture all instances of r
 
 This metric evaluates how often publications resulting from academia-industry collaborations incorporate or reference open science artifacts. It signifies the degree to which collaborative research between these sectors utilizes open science as a foundation. It highlights a different aspect of collaboration by focusing on scholarly publications. Similar to the first metric, it is a measure of output but from an academic perspective.
 
-#### Measurement.
+#### Measurement
 
 Access OA publications from comprehensive databases (e.g., OpenAIRE Research Graph), scanning for those with co-authors from both academia and industry. Analyze these publications for citations or mentions of open science inputs, indicating the reuse, or creation of open science artifacts.
 

@@ -112,7 +112,7 @@ The measurement introduced above shows that it is possible to identify the quali
 
 In a different nuance, the number of new employees within a company has been proposed as a metric for “economic growth of companies” induced by Open Science. In this case, the metric might be obtained by comparing the growth trajectories of companies using and/or benefiting from Open Science practices with those that do not use/benefit from Open Science. Here, a benchmarking approach might be suitable, similar to other metrics proposed for the indicators on economic growth. However, this metric is so far untested and should be understood as a suggestion for such a metric and not as a fully developed and tested research method for this indicator.
 
-#### Measurement.
+#### Measurement
 
 Building on the previous metric, it is feasible to classify job advertisements according to the required Open Science skills, competences, and knowledge. This change can be quantified, e.g., by tracking the occurrence of such requirements in the collected data. As stipulated above, classifications for skills, competences, and knowledge exist in the context of Data Science and Research Data Management. These can be used to classify the requirements, which can be done manually or automatically (e.g., based on key words). The collected data can be compared, for example, over a specific time horizon or different sectors or countries.
 

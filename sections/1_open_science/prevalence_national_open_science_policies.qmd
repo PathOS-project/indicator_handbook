@@ -56,7 +56,7 @@ Limitations but also advantages stemming from these approaches depend on the spe
 -   In the 'intermediate' case, granularity is provided through the specific areas, which allows more detailed analyses that the 'basic' case. Data collection can be expected to be done relatively simply by capturing which topics are covered in the policy.
 -   The 'advanced' case will provide more detailed information about area, nature, and scope of Open Science policies which in turn allows more complex analyses. Data collection will be more challenging due to the need to define specific dimensions and their measurements and the need for an in-depth analysis of the source documents. Unfortunately, there are no controlled vocabularies for this type of data collection.
 
-#### Measurement.
+#### Measurement
 
 As outlined in the previous section, the exact measurement of the existence of a national policy for Open Science depends on the chosen approach.
 

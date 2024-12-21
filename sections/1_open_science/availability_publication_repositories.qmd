@@ -57,7 +57,7 @@ Limitation:
 
 Examine each repository's documented access model. This can be achieved by querying databases that list repositories.
 
-#### Measurement.
+#### Measurement
 
 ##### Datasources
 

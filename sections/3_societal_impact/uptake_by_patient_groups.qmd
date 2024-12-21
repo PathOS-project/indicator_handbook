@@ -41,7 +41,7 @@ This metric represents the number of references or mentions of OS outputs (OA pu
 
 A limitation of this metric could be its potential variability based on the size and scope of the patient group websites and reports reviewed. Some groups have very rich and updated websites offering a reliable window into the activities of the group, but others are less thorough or quick in their online publishing strategies, which means that their websites can offer a less dependable or complete description of their actions. Some patient groups may also use OS publications for self-training, to enable them to understand their disease, request medical tests, and participate to the advocacy and care work with other patients, without any report or publication as an output citing the OS materials they read.
 
-#### Measurement.
+#### Measurement
 
 To measure the proposed metric of the percentage of references to open science (OS) outputs in patient group websites and reports, a structured methodology encompassing both automated and manual techniques could be employed. This approach aims to systematically identify and quantify mentions of OA publications, datasets, and software within the targeted content.
 

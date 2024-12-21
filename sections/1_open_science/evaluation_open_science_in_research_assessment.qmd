@@ -16,15 +16,12 @@ affiliations:
 # Evaluation of Open Science in research assessment {#evaluation-of-open-science-in-research-assessment .unnumbered}
 
 ::: {.callout collapse="true"}
-
-
 ## History
 
 | Version | Revision date | Revision         | Author         |
 |---------|---------------|------------------|----------------|
 | 1.1     | 2023-07-20    | Edited & revised | V.A. Traag     |
 | 1.0     | 2023-07-12    | Initial draft    | T. van Leeuwen |
-
 :::
 
 ## Description
@@ -56,7 +53,7 @@ Potential issues in designing this indicator are:
 
 This indicator could be aligned with other potential indicators on the uptake of Open Science practices, e.g., on the uptake of Open Access publishing, Preprinting, Data Sharing, Open Peer Review, Open Logbooks, but also Registered Reports, Preregistration, etc.
 
-#### Measurement.
+#### Measurement
 
 One could create this metric best by aiming at the national level, and on that national level at institutions (universities and other publicly funded research organizations). There one might expect a certain alignment to the national policies on Open Science and the way it should be rewarded. The international level does not supply such an alignment (except perhaps for internationally operating funding agencies).
 
@@ -83,7 +80,7 @@ Potential issues in designing this indicator are:
 -   How open are funding agencies in sharing such information on their grant evaluation policies ? Probably the public funders are more transparent, but are the private funders and charities equally transparent on their grant evaluation policies?
 -   Missions might be different, charities have a more urgent pressure to fund societally relevant research, given that charities are dependent on their donors, so how is that aligned with more general trends towards Open Science?
 
-#### Measurement.
+#### Measurement
 
 One could create this metric best by approaching funding agencies (Science Europe might play a role here, given its supra-national character) to inquire on their grant evaluation procedures, inquiring what elements are mentioned in funding calls that need a more open and transparent approach by the potential grantees. The outcome of such an inquiry delivers the total number of agencies that were approached, and the ones that consider Open Science practices in their assessment of grant proposals.
 
@@ -105,7 +102,7 @@ Potential issues in designing this metric are:
 -   Not all scholarly disciplines are equally aligned when it comes to the uptake of Open Science practices. Such field differences might need to be considered when constructing this indicator.
 -   The varied scopes of journals might lead to differences in what is required regarding openness of research and its results.
 
-#### Measurement.
+#### Measurement
 
 Based on various data sources, we can construct metrics about the number of journals that implement a particular policy. In principle, one could combine various such policies to get at an overall metric of journals that implement one or more policies that incentivises Open Science. To get at a percentage, we also need the total number of journals, which can be more challenging to describe. This could be based on the data source used to measure a particular policy, but this might come with limitations. Various bibliometric databases cover various journals, but few databases are truly comprehensive. One of the most comprehensive journal list is Ulrich's Periodical Directory.
 

@@ -43,7 +43,7 @@ Considering that transformative agreements usually take place between a publishe
 
 A challenge is the fact that many publishers exist, and each might be of different relevance for a given country. In other words, the impact of a transformative agreement is only directly related to the Open Access-status of publications with this publisher – and this part might be of little overall impact to a country's or institution's overall publishing output. Measuring this impact over time, e.g., affiliated authors choosing to publish through the transformative agreement, might be an interesting case to study as well.
 
-#### Measurement.
+#### Measurement
 
 The basic measurement is the existence of a national level agreement between a consortium and a publisher. This can be done using a binary variable (yes/no). However, more detailed information might be needed, depending on the type of analysis. Of major interest would likely be to capture the overall amount of Open Access publications, the share of OA publications published through this transformative agreement, and other information that yields insights into the impact of the agreement.
 

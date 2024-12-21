@@ -45,7 +45,7 @@ The number of data repositories in a given area of interest can provide an indic
 
 When looking for an indication of how widespread the availability of data repositories is, the percentage of territories, organisations etc., that provide a data repository service could be considered. If sufficient data can be found, this can serve as an indication without much calculation. Again however, this measure is limited, as it does not consider the characteristics of the data repositories.
 
-#### Measurement.
+#### Measurement
 
 The number of data repositories can be represented as a simple count measure. However, in addition to the previously mentioned limitations it might be difficult to obtain data on all existing data repositories, given the large number and variety. The number of accessible data repositories is not a widely adopted metric yet, so data on the (the number of) data repositories is not available on all mainstream platforms. Nevertheless, there are some sources that could help to find information on the number of data repositories. If the information sources allow it, count per field, organisation etc. or percentages can be calculated from these sources as well. This can be done by either limiting the count to the area of interest or in the case of percentages dividing the number of identified data repositories by the total number of units included.
 

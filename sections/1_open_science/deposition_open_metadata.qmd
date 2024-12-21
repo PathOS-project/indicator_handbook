@@ -39,7 +39,7 @@ Our focus is on openness of the metadata of research articles. We acknowledge th
 
 This metric provides the number or the percentage of journal articles for which the references are openly available.
 
-#### Measurement.
+#### Measurement
 
 Crossref is the datasource for this metric. Crossref makes the references of articles openly available, but it can do this only for articles for which the publisher submitted the references to Crossref. The metric is obtained by determining for each article whether it has a Crossref DOI and whether the metadata for this DOI includes references.
 
@@ -51,7 +51,7 @@ The [Crossref Participation Reports](https://www.crossref.org/members/prep/) pro
 
 This metric provides the number or the percentage of journal articles for which the abstract is openly available.
 
-#### Measurement.
+#### Measurement
 
 Crossref is the datasource for this metric. Crossref makes the abstracts of articles openly available, but it can do this only for articles for which the publisher submitted the abstract to Crossref. The metric is obtained by determining for each article whether it has a Crossref DOI and whether the metadata for this DOI includes an abstract.
 
@@ -63,7 +63,7 @@ The [Crossref Participation Reports](https://www.crossref.org/members/prep/) pro
 
 This metric provides the number or the percentage of journal articles for which author affiliations are openly available.
 
-#### Measurement.
+#### Measurement
 
 Crossref is the datasource for this metric. Crossref makes the affiliations of the authors of articles openly available, but it can do this only for articles for which the publisher submitted the author affiliations to Crossref. The metric is obtained by determining for each article whether it has a Crossref DOI and whether the metadata for this DOI includes author affiliations.
 
@@ -75,7 +75,7 @@ This metric is used in [this article on Open Metadata in Crossref](https://doi.o
 
 This metric provides the number or the percentage of journal articles for which funding information is openly available.
 
-#### Measurement.
+#### Measurement
 
 Crossref is the datasource for this metric. Crossref makes funding information of articles openly available, but it can do this only for articles for which the publisher submitted funding information to Crossref. The metric is obtained by determining for each article whether it has a Crossref DOI and whether the metadata for this DOI includes funding information.
 

@@ -89,7 +89,7 @@ The limit of this indicator is that it doesn’t measure reuse and impact.
 
 Both open and closed academic sources can be cited in justice opinions, parliamentary or governmental reports, and their influence in framing the policy or legal opinion might be deduced from the context.
 
-#### Measurement.
+#### Measurement
 
 ##### Existing datasources:
 

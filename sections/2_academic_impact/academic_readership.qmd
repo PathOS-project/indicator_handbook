@@ -45,7 +45,7 @@ The simplest indicator, at any level of analysis (publication, individual, journ
 
 For a more detailed explanation of how to calculate indicators based on Mendeley readership (TRS and derived) see @zahedi2017; @zahedi2020.
 
-#### Measurement.
+#### Measurement
 
 Starting from a collection of publications, considering their DOIs (or other unique publication identifiers) it is possible to query the API or search tools of Mendeley (see information above) to extract readership metrics. The metric extracted is the total number of Mendeley users that have saved the publication(s) in their Mendeley libraries up to the moment of the data collection.
 

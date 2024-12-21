@@ -71,7 +71,7 @@ Limitations:
 - The pre-prints that are early in the research cycle (early work in progress) may not be ready for dissemination and may not be useful in a repository (not written in a clear away, too much of a rough draft).
 - View also the limitations in section I.
 
-#### Measurement.
+#### Measurement
 
 Count
 
@@ -106,7 +106,7 @@ Limitations:
 
 - -   -   See limitations in previous metric.
 
-#### Measurement.
+#### Measurement
 
 % = 100\*(pubs with preprint)/(total number of pubs)
 
@@ -139,7 +139,7 @@ Limitations:
 - The "% of preprints that are published" metric has limitations because it does not account for the time lag between preprinting and formal publication in a peer-reviewed journal, which can vary widely depending on the field or research area.
 - This metric also does not account for the quality or impact of the preprint, which can affect its likelihood of being published in a peer-reviewed journal.
 
-#### Measurement.
+#### Measurement
 
 % = 100\*(preprints that are published)/(total number of preprints)
 

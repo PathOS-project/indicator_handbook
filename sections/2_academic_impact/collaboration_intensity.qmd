@@ -44,7 +44,7 @@ We will detail three metrics of collaboration: one focusing on the number of aut
 
 The average number of co-authors is a metric about the degree of collaboration, and as such, represent an indicator for collaboration. This is a relatively good metric for collaboration. However, the average might hide differences between publications in terms of the degree of collaboration. For instance, some physics publications may involve many hundred co-authors, and if such a paper is included in the set, it may lead to misleading results.
 
-#### Measurement.
+#### Measurement
 
 Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. Let $S$ be the set of publications of interest, with in total $n = \|S\|$ publications. Then the average over the set of publications is simply the average as usual
 
@@ -56,7 +56,7 @@ Possibly, this average can be weighted by the fraction to which a publication be
 
 The average number of joint papers is a metric about the degree of collaboration between two co-authors, and as such, represent an indicator for collaboration. This is a relatively good metric for collaboration, and brings in a network perspective on collaboration.
 
-#### Measurement.
+#### Measurement
 
 Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. From the perspective of a collaboration network, the strength of collaboration between a pair of co-authors is defined slightly differently [@perianes-rodriguez2016]. Let us focus on the collaboration between two co-authors $a$ and $b$. Let $S_{ab}$ be the set of publications on which $a$ and $b$ collaborated. They then have $n_{ab} = |S_{ab}|$ publications in common. However, perhaps $a$ and $b$ are only few of many co-authors on each of these publications, so that the actual collaboration between $a$ and $b$ is relatively less intense than the overall number of publications would suggest. Let us consider a paper $i$ that $a$ and $b$ collaborated on, which had $k_i$ collaborators in total. Then $a$ has collaborated with $k_i - 1$ collaborators, of which $b$ is one, and vice-versa, $b$ has also collaborated with $k_i – 1$ collaborators, of which $a$ is one. Hence, the fraction of collaboration of $a$ with $b$ is then $1/(k_i – 1)$. The total collaboration between $a$ and $b$ is then
 
@@ -74,7 +74,7 @@ For more details, see [@perianes-rodriguez2016].
 
 The number or percentage of co-authored publications provides a good indicator of collaboration. However, it provides a more coarse view of collaboration than the number of co-authors involved. In principle, each publication is considered to be co-authored if there is at least more than one co-author involved, but any co-authors beyond the second are immaterial to this metric. At the same time, this can also be considered an advantage. Whereas the average number of co-authors is very sensitive to outliers, such as physics papers with hundreds of co-authors, this metric is more robust to that.
 
-#### Measurement.
+#### Measurement
 
 Let $k_i$ represent the number of co-authors of publication $i$, either at the level of individual authors, institutions or countries. Let $c_i$ then be $1$ if $k_i \geq 2$ and $0$ otherwise, so as to indicate when a paper is collaborative. Let $S$ be the set of publications of interest, with in total $n = \|S\|$ publications. Then the total number of publications that are collaborative is simply
 

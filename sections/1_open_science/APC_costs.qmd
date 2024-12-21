@@ -57,7 +57,7 @@ Limitation:
 -   Not knowing who incurred that APC (funder, institution, author, etc.) limits the usefulness of this indicator.
 -   The share of publications with an APC could be more useful when put together with % Diamond OA publications, as opposed to stand alone.
 
-#### Measurement.
+#### Measurement
 
 ##### Methodology
 
@@ -89,7 +89,7 @@ Limitations:
 -   The cost of APCs can vary widely depending on the field of research, the region, and the specific publisher or journal, therefore taking an average may be misleading.
 -   Not knowing who incurred that APC (funder, institution, author, etc.) limits the usefulness of this metric.
 
-#### Measurement.
+#### Measurement
 
 ##### Datasources
 
@@ -130,7 +130,7 @@ Limitations:
 -   Not knowing who incurred that APC (funder, institution, author, etc.) limits the usefulness of this metric, more than the previous ones.
 -   It does not contain information of the distribution of APCs across a subdomain, e.g. Total cost does not give info on how it is distributed across scientific domains.
 
-#### Measurement.
+#### Measurement
 
 ##### Datasources
 

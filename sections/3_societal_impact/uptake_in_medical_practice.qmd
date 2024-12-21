@@ -43,7 +43,7 @@ This metric represents the proportion of medical guidelines or clinical trials t
 
 However, a limitation is that it may not capture the quality or significance of the referenced OS inputs, which could be assessed by a more qualitative close reading of medical guidelines to examine the specific use they make of OS inputs. It also differs from other potential metrics that might focus on the impact of specific types of OS inputs (e.g., datasets vs. publications).
 
-#### Measurement.
+#### Measurement
 
 Measuring this metric involves a systematic approach to searching and analysing medical guidelines and clinical trials for mentions of OA publications, datasets, or software. This process, while straightforward in theory, is subject to several potential challenges and limitations.
 
