@@ -31,23 +31,20 @@ affiliations:
 # Labour market impact of OS {#labour-market-impact-of-os .unnumbered}
 
 ::: {.callout collapse="true"}
-
-
 ## History
 
 | Version | Revision date | Revision | Author |
-|-------------|-------------|--------------|---------------------------------|
+|---------------|---------------|---------------|----------------------------|
 | 0.5 | 30-04-2024 | Second Draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL) |
 | 0.4 | 25-04-2024 | Peer Review | V.A. Traag |
 | 0.3 | 09-04-2024 | Revised draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL, reviewer) |
 | 0.2 | 15-03-2024 | First full draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB) |
 | 0.1 |  | Labour efficiency indicator template | Istvan Karasz, Technopolis Consulting Group |
-
 :::
 
 ## Description
 
-Open Science (OS) is increasingly recognised to have direct effects on the skills and competence needs of researchers and research support staff**.** For example, academic libraries and research infrastructures need skills and competence for research data management [@ocarroll2017; @manola2021; @digital]. The new role of Research Software Engineer is also gaining traction internationally.^[\[1\]](#footnote-2){#footnote-ref-2}^ The changing requirements are also well-documented in the case of academic libraries [@mccaffrey2020]. Open Science is thus integrated into the European career and competence frameworks for researchers, such as ResearchComp [@almerud2022]. While initially emanating from public research organisatons, such skills may spill-over into industry, to make use of Open Science resources, but also through professionals moving into non-academic jobs and transferring their knowledge, skills, and competences.
+Open Science (OS) is increasingly recognised to have direct effects on the skills and competence needs of researchers and research support staff**.** For example, academic libraries and research infrastructures need skills and competence for research data management [@ocarroll2017; @manola2021; @digital]. The new role of Research Software Engineer is also gaining traction internationally^[See <https://researchsoftware.org>]. The changing requirements are also well-documented in the case of academic libraries [@mccaffrey2020]. Open Science is thus integrated into the European career and competence frameworks for researchers, such as ResearchComp [@almerud2022]. While initially emanating from public research organisatons, such skills may spill-over into industry, to make use of Open Science resources, but also through professionals moving into non-academic jobs and transferring their knowledge, skills, and competences.
 
 In addition, the creation and use of Open Science resources may have indirect impacts on the labour market at large, although this remains speculative at this stage. On the one hand, effects such as the reduced access and transaction costs, achieved through Open Access to research results, enhanced findability and interoperability of resources, or the potential reduction of double funding, may influence the demand for specific job profiles in both academic and non-academic sectors. In the long term, this evolution could lead to the displacement of occupations and job profiles that have become obsolete. On the other hand, using or creating Open Science resources could also spur a demand for new skill sets and eventually trigger the emergence of new occupational profiles. It is thus equally possible that the need for profiles equipped with Open Science skills might increase across all sectors, to make better use of the results and opportunities, which may be facilitated by cost savings incurred through Open Science and other effects.
 
@@ -68,13 +65,13 @@ Open Science requires specific skills and competence. These qualitative changes 
 
 #### Measurement
 
-A tested methodology was employed by the EDISON Project [@datasci], which collected job advertisements in the context of data science to develop a body of knowledge and competence framework for data science profiles. A similar approach has been used during the FAIRsFAIR project to update the EDISON framework with specific insights on (FAIR) data skills and competence relevant to the “data steward” job title.^[\[2\]](#footnote-3){#footnote-ref-3}^ However, the application of this method in practice has been limited to Data Science and (FAIR) Data Management Skills so far. Using these approaches is in principle possible for other Open Science skills as well. This would likely require additional work in mapping specific competences, skills, and knowledge.
+A tested methodology was employed by the EDISON Project [@datasci], which collected job advertisements in the context of data science to develop a body of knowledge and competence framework for data science profiles. A similar approach has been used during the FAIRsFAIR project to update the EDISON framework with specific insights on (FAIR) data skills and competence relevant to the “data steward” job title [@demchenko2021]. However, the application of this method in practice has been limited to Data Science and (FAIR) Data Management Skills so far. Using these approaches is in principle possible for other Open Science skills as well. This would likely require additional work in mapping specific competences, skills, and knowledge.
 
 ##### Existing datasources:
 
 ###### Job descriptions from employment platforms and company pages
 
-Recruitment platforms such as LinkedIn, IEEE Jobs, indeed.com and others can be used to collect job advertisements. Several platforms offer research access (see for example <https://www.linkedin.com/legal/l/research-api-terms>). Employment platforms also provide analysis themselves. For example, a recent analysis of LinkedIn profiles found “data steward” to be the 2^nd^-fastest growing job in the Netherlands.^[\[3\]](#footnote-4){#footnote-ref-4}^ Alternatively, job descriptions can also be collected directly from company pages.
+Recruitment platforms such as LinkedIn, IEEE Jobs, indeed.com and others can be used to collect job advertisements. Several platforms offer research access (see for example <https://www.linkedin.com/legal/l/research-api-terms>). Employment platforms also provide analysis themselves. For example, a [recent analysis of LinkedIn profiles](https://www.linkedin.com/pulse/linkedin-jobs-rise-2024-20-fastest-growing-netherlands-jfehf) found “data steward” to be the 2^nd^-fastest growing job in the Netherlands. Alternatively, job descriptions can also be collected directly from company pages.
 
 There are pros and cons to both approaches. Collecting information from company websites can be time consuming and requires a sampling strategy and a clear view and website access to relevant job descriptions, for example covering a specific industry in a specific country. Using information from employment platforms might offer easier access to large amounts of data, but there can be access and restrictions for the platform and the information itself.
 
@@ -120,7 +117,7 @@ Building on the previous metric, it is feasible to classify job advertisements a
 
 ###### Job descriptions from employment platforms and company pages
 
-Recruitment platforms such as LinkedIn, IEEE Jobs, indeed.com and others can be used to collect job advertisements and calculate the number of new job positions with Open Science dimension. Several platforms offer research access (see <https://www.linkedin.com/legal/l/research-api-terms>). Employment platforms also provide analysis themselves; for example, a recent LinkedIn analysis found “data steward” to be the 2^nd^-fastest growing job in the Netherlands.^[\[4\]](#footnote-5){#footnote-ref-5}^ Alternatively, job advertisements can be collected from company pages.
+Recruitment platforms such as LinkedIn, IEEE Jobs, indeed.com and others can be used to collect job advertisements and calculate the number of new job positions with Open Science dimension. Several platforms offer research access (see <https://www.linkedin.com/legal/l/research-api-terms>). Employment platforms also provide analysis themselves; for example, a [recent LinkedIn analysis](https://www.linkedin.com/pulse/linkedin-jobs-rise-2024-20-fastest-growing-netherlands-jfehf) found “data steward” to be the 2^nd^-fastest growing job in the Netherlands. Alternatively, job advertisements can be collected from company pages.
 
 There are pros and cons to both approaches. Collecting information from company websites can be time consuming and requires a sampling strategy, for example covering a specific industry in a specific country. Using information from employment platforms might offer easier access to large amounts of data, but there can be access and restrictions for the platform and the information itself.
 
@@ -139,19 +136,3 @@ The approaches outlined under the metric “New Open Science skills and competen
 As a simple measure, this measurement could be done by calculating, for example, the frequency at which Open Science-related job descriptions occur in the sampled data. This can compare different sectors, e.g., to check if there are differences in the relevance of Open Science-related profiles in a sector, or longitudinal in a single sector, or both.
 
 The measurement can be applied for academia, the private sector, or industry and other sectors.
-
-1.  ::: {#footnote-2}
-    See <https://researchsoftware.org> [↑](#footnote-ref-2)
-    :::
-
-2.  ::: {#footnote-3}
-    [@demchenko2021]. D7.3 FAIR Competence Framework for Higher Education (Data Stewardship Professional Competence Framework) (1.0). Zenodo. <https://doi.org/10.5281/zenodo.5361917> [↑](#footnote-ref-3)
-    :::
-
-3.  ::: {#footnote-4}
-    <https://www.linkedin.com/pulse/linkedin-banen-opkomst-2024-de-20-snelstgroeiende-beroepen-y31of%3FtrackingId=WQsyNHnJSlKsrToDlO2S5w%253D%253D/?trackingId=WQsyNHnJSlKsrToDlO2S5w%3D%3D> [↑](#footnote-ref-4)
-    :::
-
-4.  ::: {#footnote-5}
-    <https://www.linkedin.com/pulse/linkedin-banen-opkomst-2024-de-20-snelstgroeiende-beroepen-y31of%3FtrackingId=WQsyNHnJSlKsrToDlO2S5w%253D%253D/?trackingId=WQsyNHnJSlKsrToDlO2S5w%3D%3D> [↑](#footnote-ref-5)
-    :::

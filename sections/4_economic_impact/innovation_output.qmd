@@ -27,16 +27,13 @@ affiliations:
 # Innovation output {#innovation-output .unnumbered}
 
 ::: {.callout collapse="true"}
-
-
 ## History
 
 | Version | Revision date | Revision     | Author                                |
-|--------------|--------------|-------------------|--------------------------|
+|----------------|----------------|-----------------|-----------------------|
 | 1.3     | 2024-04-26    | Second draft | Delugas E., Consiglio G., Catalano G. |
 | 1.2     | 2024-04-25    | Peer review  | V.A. Traag                            |
 | 1.1     | 2024-03-27    | First draft  | Delugas E., Consiglio G., Catalano G. |
-
 :::
 
 ## Description
@@ -45,7 +42,7 @@ Innovation is the process of creating, developing, and implementing new products
 
 Open science practices enhance the prospects for innovation by facilitating wider dissemination of research outputs to all relevant stakeholders. Open science practices play a pivotal role, especially in industry-related innovation, by significantly widening access and enabling the open reuse of publicly funded research and data. This is crucial in disseminating scientific knowledge to businesses, particularly benefiting small companies with limited resources. Since scientific journals are the main channel through which the industry accesses cutting-edge research [@cohen2002], the academic norms dictating journal access and pricing are critically important, paving the way for the creation of novel outputs and potentially leading to an uptick in patent filings [@bryan2021]. Open science practices could accelerate the pace at which they translate into research outputs, also increasing the number of stakeholders accessing it, which would have been otherwise prevented due to budget constraints. The indicator “innovation output” aims to capture the extent to which OS triggers innovation in industry and the scientific community without limiting its focus only to specific innovation domains. It considers both the development and enhancement of products, services, technologies and the filing of patents. This is because, especially for firms, it has been argued that patents represent an imperfect proxy for innovation, more tailored to measure the firms’ R&D output rather than their whole innovation activity e.g. [@castelnovo2023]. Other economic indicators presented in this handbook concentrate on the impact of OS on innovation from a narrowed perspective and can somehow be considered as a subset of this more general one. These include the development of socially relevant products and processes, focusing on sectors such as health, agriculture, and energy; and science-industry collaboration, which emphasises a specific way of knowledge transmission and interaction between academia and industry.
 
-Here, four metrics are proposed: 1) new products and services developed by using OS input, 2) new technologies developed by using OS input, 3) patents filed citing OS inputs, and 4) average increase in companies’ patent portfolio value thanks to the patent filed using OS resources.^[\[1\]](#footnote-2){#footnote-ref-2}^
+Here, four metrics are proposed: 1) new products and services developed by using OS input, 2) new technologies developed by using OS input, 3) patents filed citing OS inputs, and 4) average increase in companies’ patent portfolio value thanks to the patent filed using OS resources[^contexts].
 
 The suggested metrics may be relevant to measure innovation output on individual organisations in the private sector, like companies, or in the public sector, including universities and research centres. In specific cases, some of these metrics could be applied to a more comprehensive analytical unit, such as a geographical region, or used to evaluate the innovation outputs of a particular sector, which encompasses different types of organisations or measure the innovation outputs triggered by a specific project among its beneficiaries. Nevertheless, determining the extent to which OS influences innovation output involves numerous challenges, especially given that OS is not the exclusive pathway for accessing research findings.
 
@@ -162,6 +159,5 @@ The innovation output indicator correlates with the following set of indicators:
 
 Catalano G., with the contribution of Florio M., Articolo R., Consiglio G., Eggleton, D. (forthcoming), Diamond contribution to the development of an innovative vaccine for the Foot-and-Mouth Disease: a veterinary pathology of global significance, case study report.
 
-1.  ::: {#footnote-2}
-    These metrics build on indicators adopted in different contexts. For instance, the [Open Science Monitor](https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science/open-science-monitor/about-open-science-monitor_en) mentioned that new products, services and technologies has been used in the [White Rabbit Project](https://white-rabbit.web.cern.ch/) of CERN to measure how companies were able to reuse and sell White Rabbit switches and nodes, along with their services, to different organisations in multiple industrial settings. Similarly, Florio et al. (2018) have used similar metrics to measure innovation triggered by CERN in its supplier firms. Also, they have been indicated as monitoring indicators in the [RIPATHS](https://ri-paths-tool.eu/en) framework. [↑](#footnote-ref-2)
-    :::
+[^contexts]:
+    These metrics build on indicators adopted in different contexts. For instance, the [Open Science Monitor](https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science/open-science-monitor/about-open-science-monitor_en) mentioned that new products, services and technologies has been used in the [White Rabbit Project](https://white-rabbit.web.cern.ch/) of CERN to measure how companies were able to reuse and sell White Rabbit switches and nodes, along with their services, to different organisations in multiple industrial settings. Similarly, Florio et al. (2018) have used similar metrics to measure innovation triggered by CERN in its supplier firms. Also, they have been indicated as monitoring indicators in the [RIPATHS](https://ri-paths-tool.eu/en) framework.
