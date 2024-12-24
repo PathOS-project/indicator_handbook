@@ -37,6 +37,14 @@ Sometimes a distinction is made between "reuse" and "use", where "reuse" refers 
 
 This indicator can be useful to provide a more comprehensive view of the impact of the contributions by researchers. Some researchers might be more involved in publishing, whereas others might be more involved in developing and maintaining research software (and possibly a myriad other activities).
 
+### Connections to Reproducibility Indicators
+
+This indicator focuses on identifying and measuring the presence and contribution of code or software within research activities, providing insight into how these tools support the research process itself. In contrast, reproducibility-focused indicators such as [Reuse of Code in Research](https://handbook.pathos-project.eu/indicator_templates/quarto/5_reproducibility/reuse_of_code_in_research.html) examine the extent to which code or software is adopted and utilized in subsequent studies, reflecting its broader applicability, reusability and role in reproducibility. Additionally, the [Impact of Open Code in Research](https://handbook.pathos-project.eu/indicator_templates/quarto/5_reproducibility/impact_of_open_code_in_research.html) highlights the value of openly shared code or software in fostering transparency, collaboration, and validation across the scientific community.
+
+### Connections to Reproducibility Indicators
+
+This indicator focuses on identifying and measuring the presence and contribution of code or software within research activities, providing insight into how these tools support the research process itself. In contrast, reproducibility-focused indicators such as [Reuse of Code in Research](https://handbook.pathos-project.eu/indicator_templates/quarto/5_reproducibility/reuse_of_code_in_research.html) examine the extent to which code or software is adopted and utilized in subsequent studies, reflecting its broader applicability, reusability and role in reproducibility. Additionally, the [Impact of Open Code in Research](https://handbook.pathos-project.eu/indicator_templates/quarto/5_reproducibility/impact_of_open_code_in_research.html) highlights the value of openly shared code or software in fostering transparency, collaboration, and validation across the scientific community.
+
 # Metrics
 
 Most research software is not properly indexed. There are initiatives to have research software properly indexed and identified, such as the [Research Software Directory,](https://research-software-directory.org/) but these are far from comprehensive at the moment, and is the topic of ongoing research [@malviya-thakur_scicat_2023]. Many repositories support uploading research software. For instance, Zenodo currently holds about 116,000 records of research software. However, there are also reports of the absence of support for including research software in repositories [@carlin2023].
@@ -65,7 +73,10 @@ Not all bibliometric databases actively track research software, and therefore n
 
 Especially because of the limited explicit references to software, it is important to also explore other possibilities to track the use of code in research. One possibility is to try to extract the mentions of a software package or tool from the full-text. This is done by [@istrate] who have trained a machine learning model to extract references to software from full-text. They rely on the manual annotation of software mentions in PDFs by [@du2021]. The resulting dataset of software mentions is made available publicly [@istrate_cz_2022].
 
+The SciNoBo toolkit [@gialitsis2022b; @kotitsas2023b] has a new component, currently undergoing evaluation, which involves an automated tool, leveraging Deep Learning and Natural Language Processing techniques to identify code/software mentioned in the text of publications and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the code/software has been reused by the authors of the publication.
+
 Although the dataset of software mentions might provide a useful resource, it is a static dataset, and at the moment, there do not yet seem to be initiative to continuously monitor and scan the full-text of publications. Additionally, its coverage is limited to mostly biomedical literature. For that reason, it might be necessary to run the proposed machine learning algorithm itself. The code is available from <https://github.com/chanzuckerberg/software-mention-extraction>.
+
 
 A common "gold standard" dataset for training software mention extraction from full text is the so-called SoftCite dataset [@howison_softcite_2023].
 
@@ -77,7 +88,9 @@ There are some clear limitations to this approach. Firstly, not all research sof
 
 The most common version control system at the moment is [Git](https://git-scm.com/), which itself is open-source. There are other version control systems, such as Subversion or Mercurial, but these are less popular. The most common platform on which Git repositories are shared is GitHub, which is not open-source itself. There are also other repository platforms, such as [CodeBerg](https://codeberg.org/) (built on [Forgejo](https://forgejo.org/)) and [GitLab](https://gitlab.com/), which are themselves open-source, but they have not yet managed to reach the popularity of GitHub. We therefore limit ourselves to describing GitHub, although we might extend this in the future.
 
-### Measurement
+To ensure that a repository primarily contains code and not data or datasets, one can consider the following checks: - Repository labelling: Look for repositories that are explicitly labelled as containing code or software. Many repository owners provide clear labels or descriptions indicating the nature of the content. - File extensions: Check for files with common code file extensions, such as .py, .java, or .cpp. These file extensions are commonly used for code files, while data files often have extensions like .csv, .txt, or .xlsx. - Repository descriptions and README files: Examine the repository descriptions and README files to gain insights into the content. Authors often provide information about the type of code included, its functionality, and its relevance to the project or software. - Documentation: Some repositories include extensive documentation that provides details on the software, its usage, and how to contribute to the project. This indicates a greater likelihood that the repository primarily contains code. - Existence of script and source folders: In some cases, the existence of certain directories like '/src' for source files or '/scripts' for scripts can indicate that the repository is primarily for code.
+
+#### Measurement
 
 We propose three concrete metrics based on the GitHub API: the number of forks, the number of stars and the number of downloads of releases. There are additional metrics about traffic available from [GitHub API metrics](https://docs.github.com/en/rest/metrics), but these unfortunately require permissions from a specific repository.\
 
