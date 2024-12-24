@@ -11,21 +11,23 @@ affiliations:
   department: Centre for Internet and Society
   city: Paris
   country: France
+
+title: Diversity
 ---
 
-# Diversity {#diversity .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision    | Author        |
 |---------|---------------|-------------|---------------|
 | 1.0     | 2023-11-16    | First draft | Simon Apartis |
 
-</div>
+:::
 
-## Description
+# Description
 
 The concept of diversity draws attention to forms of diffused oppression and minorization processes and how they take place at a micro-political or even intimate scale, which are dimensions of social life that sometimes go unnoticed by a more macroscopic socio-economic inequality analysis framework. On the other hand, it tends to convey a depoliticized view of social inequalities by framing them as mere horizontal differences requiring *inclusion* rather than the product of power dynamics requiring *redistribution*\[1\].
 
@@ -48,43 +50,43 @@ Last, it is important to look at the way the needs of diverse scholars participa
 
 One could also reflexively add that it is crucial in the very process of measuring diversity that the scientists who do it are themselves somehow diverse, and in any case, aware of specific tools they could use to control for the epistemological biases that comes with their situated position.
 
-## Metrics
+# Metrics
 
-### Diversity in the topics of science
+## Diversity in the topics of science
 
-#/% of books, articles, thesis, research blogs, datasets or even piece of software related to or mentioning diversity topics
+/% of books, articles, thesis, research blogs, datasets or even piece of software related to or mentioning diversity topics
 
-##### Existing datasourcesWeb of Science, Scopus, any Open Science Platform where the abstract or the full-text can be analysed to extract and clusterize the concepts and topics of the resourcesExisting methodologies
+#### Existing datasourcesWeb of Science, Scopus, any Open Science Platform where the abstract or the full-text can be analysed to extract and clusterize the concepts and topics of the resourcesExisting methodologies
 
 Scientometry, NLP
 
 Note that this metrics supposes to have clearly defined what “diversity related topics” are, which is not easy to do.
 
-### Diversity amongst the producers of science
+## Diversity amongst the producers of science
 
 -   #/% of queer / handicapped / female / racialized researcher who (co-)authored a book, article, thesis, research blog, dataset or a piece of software
 -   Income and wealth level, access to health services, housing conditions, geographical location of the author(s) of a book, article, thesis, research blog, dataset or a piece of software
 -   Same aforementioned features but broken down by scientific process step (design, development, data collection, processing, analysis, interpretation, dissemination, and ownership of results)
 
-##### Existing datasources
+#### Existing datasources
 
 Many of these data are considered sensitive by GDPR [@whatper], and very often, as a result of a very lack of diversity, the categories needed to measure diversity in existing datasets are lacking or follow normative principles that fail at representing and capturing diversity [@guyan2022].
 
-##### Existing methodologies
+#### Existing methodologies
 
 Semi-structured survey
 
-### Diversity in the mode of production of science
+## Diversity in the mode of production of science
 
 -   #/% of books, articles, thesis, research blogs, datasets or pieces of software produced in a research context where significant effort is made to include participants from diverse backgrounds
 -   #/% of books, articles, thesis, research blogs, datasets or pieces of software generated in a research context where participants from diverse backgrounds have the agency to address their unique needs.
 -   #/% of books, articles, thesis, research blogs, datasets or even piece of software authored by authors who frequently co-publish articles with participants from diverse backgrounds
 
-##### Existing datasources
+#### Existing datasources
 
 See previous.
 
-##### Existing methodologies
+#### Existing methodologies
 
 This metrics supposes to have clearly defined what the specific needs of people from diverse backgrounds are.
 

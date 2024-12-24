@@ -11,21 +11,23 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Quality
 ---
 
-# Quality {#quality .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|
 | 1.0     | 2024-12-06    | First draft | V.A. Traag |
 
-</div>
+:::
 
-## Description
+# Description
 
 Quality is a very complicated concept, and in the context of academic work, is very challenging to measure. To start with, it should be clarified what object is being considered, which could range from data to peer review. In most such cases, quality cannot be defined on the basis of any easily measurable data, and rather require some form of manual assessment.
 

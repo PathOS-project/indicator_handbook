@@ -14,9 +14,10 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Introduction to Reproducibility 
 ---
 
-# Introduction to Reproducibility  {#introduction-to-reproducibility .unnumbered}
 
 Large-scale computation and the rise of data-driven methodologies have transformed the way scientific research is conducted in many disciplines. Open Science with its overarching goals of sharing research outcomes (resources, methods, or tools) as well as the flow of the actual research processes has become a key enabler for scientific discovery and faster knowledge spillover, contributing or leading those major shifts in science.
 

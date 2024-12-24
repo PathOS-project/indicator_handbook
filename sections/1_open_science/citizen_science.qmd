@@ -16,13 +16,15 @@ affiliations:
   name: University of Geneva
   city: Geneva
   country: Switzerland
+
+title: Citizen Science Indicators
 ---
 
-# Citizen Science Indicators {#citizen-science-indicators .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision    | Author       |
 |---------|---------------|-------------|--------------|
@@ -30,9 +32,9 @@ affiliations:
 | 1.1     | 2024-11-14    | Revision    | T. Venturini |
 
 
-</div>
+:::
 
-## Description
+# Description
 
 While there are many competing definitions of citizen science (also called participatory, community, civic, crowd-sourced volunteer science), the notion is generally used to refer to scientific knowledge production with the active and genuine participation of the public (i.e., lay people or non-experts, who are not professionally affiliated with academic or industrial research initiatives).
 
@@ -58,7 +60,7 @@ Notably principle 7 also claims that "citizen science project data and metadata 
 
 This document describes a series of metrics to quantify (but also qualify) each of these nine different forms of citizen participation in science, as well as a tenth indicator accounting for the capacity of a citizen sciences project to span across multiple forms of participation \[10. Span\].
 
-## Open Science in European research programmes
+# Open Science in European research programmes
 
 Citizen Science is possibly the most studied aspect of Open Science and one that has been heavily supported by the European Union in the FP7 and Horizon 2020 programs. At the time of writing (November 2024), a search for Citizen Science in the Cordis database (https://cordis.europa.eu) returns 93 programmes and 443 projects.
 
@@ -67,15 +69,15 @@ Founded in 2013 ECSA supports a network of citizen science initiatives, promotin
 
 In the United Kingdom a similar role has been played by the Open Air Laboratories (OPAL) since 2007. Focussing on environmental monitoring, OPAL promotes education and awareness and has influenced national environmental policy and public awareness about air, soil, and water quality.
 
-## Existing data sources
+# Existing data sources
 
-###### Scientific project portals
+##### Scientific project portals
 
 While they tend to have a distinctive approach, many citizen science projects still consider themselves as research projects and are generally funded as such. This means that these projects will be listed in national and international directories, particularly those kept by research funders (e.g., <https://data.jrc.ec.europa.eu/collection/CITSCI>) . Information extracted from these portals can therefore be used to know more about the subjects, the institutions and the finance of citizen science (cf. for example <https://op.europa.eu/en/publication-detail/-/publication/770d9270-cbc7-11ea-adf7-01aa75ed71a1>) as well as to compare these projects to the rest of the scientific project financed in the same years or addressing the same topics.
 
 Yet, it is important to note that the project collections by portals overseen by formal research organizations may focus on citizen science projects initiated by researchers and may overlook projects that have a less academic and more activist nature. It is therefore important not to limit data collection to this source alone.
 
-###### Individual project websites
+##### Individual project websites
 
 Because they need to recruit citizens willing to contribute to their research effort, many citizen science projects have developed websites that describe the objectives, activities and results (see a growing portal of this type of projects compiled by the MICS platform: <https://mics.tools/>). These websites can be harvested to collect information about the projects and calculate the metrics described below. Examples include:
 
@@ -92,7 +94,7 @@ Because they need to recruit citizens willing to contribute to their research ef
 
 This type of research has been carried out notably by the project CSTrack (<https://cstrack.eu>), which extracted information about almost 5000 citizen science projects extracted for more than 59 websites (<https://zenodo.org/record/7356627>)
 
-###### Citizen science web portals
+##### Citizen science web portals
 
 The problem with collecting information from individual websites is that their content and architecture may vary significantly from one another and thus require considerable efforts for manual collection and standardisation of data. Indeed global efforts exist to make project descriptions interoperable via an agreed upon metadata schema and vocabulary - see <https://core.citizenscience.org/docs/history>
 
@@ -107,33 +109,33 @@ Alternatively, an increasing number of citizen science projects tend to rely on 
 
 There is also another layer of portals curated by national citizen science associations, for example: <https://www.citizen-science.at/en/>, <https://www.schweizforscht.ch/>, <https://www.buergerschaffenwissen.de/>, and <https://www.iedereenwetenschapper.be/>.
 
-###### Bibliographic database
+##### Bibliographic database
 
 As for all research projects, an important output of citizen sciences projects consists of scientific publications (particularly projects that are initiated by research, less so for 'activists-initiated' projects which tend to focus more on data, policy recommendations and social innovation actions etc.). These publications are stored in bibliographic databases and are often available as open access publications (because of the obvious affinity between this type of publication and the approach of civic science). Most of these publications will mention the fact that their results are based on a participatory initiative, cite one of the main citizen science portals or be signed with a collective name (for a couple of examples of how this can be done see [@hunter2015] and [@ozolinciute2022]). All these signs facilitate the identification of publications from citizen science initiatives, allowing analyzing their publication results and to compare them with the rest of the scientific literature.
 
 At the same time, not unlike what noted in relation to the 1^st^ source of data, relying on bibliographic databases will miss all the "academically invisible' citizen science projects that never publish in academic journals, which are in fact in a very large number. This is why none of the sources described here should be used in isolation.
 
-###### Data portals
+##### Data portals
 
 Besides their publication, many citizen science projects also tend to openly publish their dataset in an effort to give back to the public the information collected through its cooperation. Some of these datasets will be released through the individual websites of each project (and sometime in formats that do not necessarily facilitate the reuse), but some others may be published through general data portals, making it possible to collect information that is standardized and comparable with non-participatory projects.
 
-## Metrics
+# Metrics
 
 Many citizen science projects, particularly when they are initiated by the researchers, tend to concentrate on the central steps of the research process (the collection, processing and analysis of data) as these steps can be externalized (or crowd-sourced) without losing control of the research. These are also the steps on which more information is available since, by dealing with data, these activities are also the easiest to datafy. It is however crucial to gauge the participatory nature of all the stages of a research because real openness tends to be better achieved if all or most of these stages are truly receptive to public input (for a complete typology of citizen science models see [@shirk2012].
 
-### Citizen science design
+## Citizen science design
 
 This metric is meant to assess to what extent citizens have been involved in the decisions surrounding the design of the research approach, as well as the nature of their implication: Does the project address concerns that have been surfaced by the community that participate to the project? Have the research questions been defined in collaboration with the public? Is the project led by academic publication/career objectives or is it also guided by civic preoccupations? Open science practioners have developed a standard vocabulary to talk about these aspects (see <https://core.citizenscience.org/>)
 
 Assessing whether projects truly support co-creation or co-design is a particularly difficult task and can only be assessed by qualitative analysis. To assess citizen science design, researchers can investigate the history of the projects and discuss with their protagonists, or they can closely read the project documentations to detect if people and concerns from outside the academia are considered and highlighted.
 
-### Citizen science development
+## Citizen science development
 
 In researcher-led citizen science project, this step is often the one that is the least often open to citizen participation. Some scientists (particularly those who follow a "deficit model" thinking) would indeed argue that this step should be kept under the control of the expert to assure that the development of the research protocol and methodology remain strictly adherent to scientific best practices, thus guaranteeing the value of the data as well as their comparability (but see [@downs2021]). Proponents of a more widely participatory approach, however, will argue (not without reason) that this is the key step of any research project and that if this stage is not open to the public, then citizens cannot truly be the protagonists of the research (and will instead be relegated to the role of useful, but powerless helpers).
 
 As the previous one (and maybe even more than it), this metric can only be assessed through careful qualitative inspection, considering the description of the research protocol and the way in which it has been put together.
 
-### Citizen science data collection
+## Citizen science data collection
 
 This is one of the research steps that has been more traditionally crowdsourced to lay people. Since the Renaissance amateur naturalists have participated in the effort of logging and cataloguing different species of plants and animals together with their counterparts in academia. This tradition continues today as biodiversity loss demands to observe and count the movement of different species of insects, birds and amphibians.
 
@@ -145,7 +147,7 @@ Because this step concerns the harvesting of data it is easy to imagine metrics 
 
 For another example of this type of measuring see [@fraisl2020] as well as the Global Biodiversity Information Facility (<https://www.gbif.org>).
 
-### Citizen science processing
+## Citizen science processing
 
 If data collection is the most classic of crowdsourced scientific activities, the cleaning and (pre)processing of data is the step that is most often crowd-sourced through micro-labor platforms. A classic hurdle of all current research is an overabundance of poor quality. In the last decades, sensors and other digital technologies have multiplied the number of records collected and stored by scientific projects but have also increased the noise associated with them. Duplicates, errors, impossible outliers need to be detected manually and carefully removed before moving on with the analysis.
 
@@ -155,7 +157,7 @@ The role played by citizens in this work of data processing can be measured thro
 -   Number of hours (or days) invested in manual data cleaning.
 -   Increase in the quality of data (how such quality is measured depends of course on the specific project)
 
-### Citizen science analysis
+## Citizen science analysis
 
 This step is very close to the previous one and in some cases overlaps with it. Yet, the distinction points at the difference between the relatively low-level work of detecting and removing errors, and the more high-level effort of detecting meaningful patterns and trends in the datasets. Despite the stunning progress of artificial intelligence and other computational techniques, human being remains crucial in the process of pattern recognition and unreplaceable in the constitution of qualified datasets that can be used for machine learning training.
 
@@ -165,7 +167,7 @@ Possible metrics includes:
 -   Number of hours (or days) invested in the analysis.
 -   Absolute or relative numbers of pattern detected by citizens (as compared to expert or automatic detection).
 
-### Citizen science interpretation
+## Citizen science interpretation
 
 While the two previous steps (processing and analysis) can be simplified (and sometime gamified) to the point of being accessible to anyone – and for this reason represent the standard crowdsourced activities – this step is less often assigned to citizens as it typically involves a different kind of data interface (for example, some advanced statistical software) requiring greater training or technical skills. However, the more the citizens are associated with the work of data interpretation (which is the step where the greatest scientific value is produced) and the more they have agency in it, the more the research can be said to be truly open and participatory.
 
@@ -175,7 +177,7 @@ To assess the role of lay experts in the interpretation of data and generation o
 -   Possibility for citizen participants to complete findings/results autonomously (as opposed to intervening only in low level activities, but not being able to achieve the results).
 -   Participation of citizens in the writing up of the research conclusions.
 
-### Citizen science societal impact and participant learning
+## Citizen science societal impact and participant learning
 
 Many observers and organizers of citizen science projects have argued that, even when it fails to produce new data or findings, one of the main advantages of this approach is that it sensitizes the public to the work of research and helps build science literacy [@roche2020]. Because it involves people outside academia (sometimes in large numbers) citizen science has built-in dissemination effects.
 
@@ -185,7 +187,7 @@ The significance of these effects can be measure by
 -   Increase of the number or quality of contributions over time.
 -   Diversification of the projects that citizens contribute to (when using the same account to participate in different projects within the same portal, see [@jackson2016]).
 
-### Citizen science ownership
+## Citizen science ownership
 
 Because, in participatory science projects, citizens provide an important part of the work, bring in insights and contextual information that greatly improves the quality of the research and its impacts, and sometimes fill major spatial and temporal data gaps, it is crucial that results are also shared with them – be them datasets, scientific findings, policy briefs, intervention recommendations, governance decisions, individual and collective action, social innovation and possibly their intellectual or commercial offshoots. The last of 10 ECSA Principle 10 explicitly states that "the leaders of citizen science projects take into consideration legal and ethical issues surrounding copyright, intellectual property, data-sharing agreements, confidentiality, attribution and the environmental impact of any activities".
 
@@ -195,7 +197,7 @@ To assess how ownership is shared among all the actors who participated to a cit
 -   Organizational mechanisms assuring that members/representatives of the public are associated with all decisions related to the research and all the benefits generated by it.
 -   Political, economic or civil society initiatives deriving from the project and the way in which they are carried out by the same people VS a subset of the people who contributed to the research.
 
-### Citizen science credit
+## Citizen science credit
 
 Crediting the people who have contributed to the production of science can be as important as granting them the actual ownership of the data or of the results of the research. Sometimes, crediting (in the form of signing or otherwise authoring the projects results of the project) is actually more important than ownership as the primary source of recognition and can provide a stronger form of participants motivation  (cf. [@land2021participants], [@Levontin2022])
 
@@ -204,7 +206,7 @@ Crediting can be assessed by:
 -   Number of documents (scientific publications, policy briefs, legal interventions, recommendations, governance decisions, technical blueprints, etc.) that mention the use of a citizen science approach.
 -   Number of documents that mention the name of all the individuals or of the citizen organizations that have contributed to the research.
 
-### Citizen science span
+## Citizen science span
 
 The metrics described above refer to specific stages of the research process, but (as explained in section I) the opening of multiple steps is even more important.
 

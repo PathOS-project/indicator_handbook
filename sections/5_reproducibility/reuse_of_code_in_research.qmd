@@ -10,13 +10,15 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Reuse of code in research
 ---
 
-# Reuse of code in research {#reuse-of-code-in-research .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
@@ -24,9 +26,9 @@ affiliations:
 | 1.1     | 2023-07-21    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First draft | Petros Stavropoulos |
 
-</div>
+:::
 
-## Description
+# Description
 
 The reuse of code or software in research refers to the practice of utilising existing code or software to develop new research tools, methods, or applications. It is becoming increasingly important in various scientific fields, including computer science, engineering, and data analysis, because it directly contributes to scientific reproducibility by enabling other researchers to validate the findings without the need to recreate the software or tools from scratch. Additionally, it is an indicator of research quality, as repeated use of code or software often signals robustness and reliability. Furthermore, a high percentage of research projects reusing code within a particular field could be an indication of strong collaboration and trust within the scientific community. This indicator aims to capture the extent to which researchers engage in the reuse of code or software in their research by quantifying the number and proportion of studies that utilise existing code or software. The indicator can be used to assess the level of collaboration and sharing of resources within a specific scientific community or field and to identify potential barriers or incentives for the reuse of code or software in research. Additionally, it can serve as a measure of the quality and reliability of research, as the reuse of code or software can increase the transparency, replicability, and scalability of research findings.
 
@@ -34,13 +36,13 @@ The reuse of code or software in research refers to the practice of utilising ex
 
 This indicator emphasizes the adoption and utilization of existing code or software in subsequent studies, focusing on its role in enhancing reproducibility, collaboration, and research quality. In contrast, the [Use of Code in Research](https://handbook.pathos-project.eu/indicator_templates/sections/2_academic_impact/use_of_code_in_research.html) measures the initial incorporation of code or software into research activities, providing insights into its contribution to the research process itself. Furthermore, the [Impact of Open Code in Research](https://handbook.pathos-project.eu/indicator_templates/sections/5_reproducibility/impact_of_open_code_in_research.html) extends this perspective by evaluating the broader effects of making code or software openly accessible, fostering transparency, and driving innovation across the scientific community.
 
-## Metrics
+# Metrics
 
-### Number of code/software reused in publications
+## Number of code/software reused in publications
 
-This metric emphasizes the adoption and utilization of existing code or software in subsequent studies, focusing specifically on its role in enhancing reproducibility, collaboration, and research quality. The reuse of code in research strengthens reproducibility by allowing other researchers to validate findings and build upon existing methods and tools. 
+This metric emphasizes the adoption and utilization of existing code or software in subsequent studies, focusing specifically on its role in enhancing reproducibility, collaboration, and research quality. The reuse of code in research strengthens reproducibility by allowing other researchers to validate findings and build upon existing methods and tools.
 
-This closely aligns with the metrics in the [Use of Code in Research](https://handbook.pathos-project.eu/sections/2_academic_impact/use_of_code_in_research.html) under the academic indicators, specifically the number of mentions of code or software in publications. For further details on measurement, including text mining tools, and bibliometric databases, refer to the academic indicator. 
+This closely aligns with the metrics in the [Use of Code in Research](https://handbook.pathos-project.eu/sections/2_academic_impact/use_of_code_in_research.html) under the academic indicators, specifically the number of mentions of code or software in publications. For further details on measurement, including text mining tools, and bibliometric databases, refer to the academic indicator.
 
 In the context of reproducibility, the reuse of code indicates that methods and processes described in research publications are transparent and accessible. When researchers reuse code, they signal that the original research is sufficiently documented and functional to support replication. This is a cornerstone of open science, as reproducible research enables validation of results, ensuring the robustness of scientific knowledge and minimizing errors. The extent of code reuse also highlights the community’s trust in the reliability and quality of the code, as widely adopted software is likely to have undergone rigorous validation by multiple users.
 

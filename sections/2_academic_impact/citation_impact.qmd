@@ -12,33 +12,37 @@ affiliations:
   city: Leiden
   country: the Netherlands
 
+
+title: Citation Impact
 ---
 
-# Citation Impact {#citation-impact .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|
 | 1.0     | 2023-11-23    | First draft | V.A. Traag |
 
-</div>
+:::
 
-## Description
+# Description
 
 The citation impact of publications reflects the degree to which they have been taken up by other researchers in their publications. There are long-standing discussions about the interpretation of citations, where two theories can be discerned [@bellis2009]: a normative theory, proposing citations reflect acknowledgements of previous work [@merton1973]; and a constructivist theory, proposing citations are used as tools for argumentation [@latour1988]. Overall, citation impact seems to be most closely related to the relevance of the work for the academic community and should be distinguished from other considerations of scientific quality, where the relationship is less clear [@aksnes2019].
 
-## Metrics
+Although it is out of scope to provide suggestions for causal inference of all possible Open Science aspects on citation, we discuss one case on the effect of [Open Data on citations](../0_causality/open_data_citation_advantage.qmd).
 
-Citations are affected by two major factors, that we expect to be irrelevant for considerations of impact: the field of research, and the year of publication^[\[1\]](#footnote-7540){#footnote-ref-7540}^. That is, some fields, such as Cell Biology, are much more citation intensive than other fields, such as Mathematics. Additionally, publications that were published in 2010 have had more time to accumulate citations than publications published in 2020. Controlling for these factors^[\[2\]](#footnote-23959){#footnote-ref-23959}^ is resulting in what are often called “normalised” citation indicators [@waltman2019]. Although such normalised citation indicators are more comparable across time and field, they are sometimes also more opaque. For that reason, we explain both normalised metrics and “raw”, non-normalised, citation metrics.
+# Metrics
+
+Citations are affected by two major factors, that we expect to be irrelevant for considerations of impact: the field of research, and the year of publication[^pub-year]. That is, some fields, such as Cell Biology, are much more citation intensive than other fields, such as Mathematics. Additionally, publications that were published in 2010 have had more time to accumulate citations than publications published in 2020. Controlling for these factors[^normalisation-factors] is resulting in what are often called “normalised” citation indicators [@waltman2019]. Although such normalised citation indicators are more comparable across time and field, they are sometimes also more opaque. For that reason, we explain both normalised metrics and “raw”, non-normalised, citation metrics.
 
 In addition, we can distinguish between two approaches to calculating metrics based on citations. We can count the citations somehow, and provide a metric based on those citation count. Alternatively, we can use citations to identify which publications are highly cited [@waltman2013]. The reason for doing this is because citation counts themselves are typically very skewed [@radicchi2008], and statistics based on them might be less robust. For example, when taking the average, it might be affected by a single publication that is very highly cited.
 
 When calculating the citation impact of a set of publications it might be necessary to consider that many publications involve collaboration. When a paper is a collaboration between multiple authors, institutes or countries, the citation impact for these authors, institutes or countries might be affected by this collaboration. For instance, a publication that is a collaboration between institute A and institute B will then be counted both for institute A and institute B. In particular, since collaborative publications tend to be more highly cited, this leads to an artificial inflation of citations, sometimes called the “full counting bonus”. This is especially relevant with normalised citation indicators. For these reasons, it is sometimes advisable to use what is called “fractional counting”. This means that we can consider fractions, or weights, for all publications, based on the “fraction” of their authorship. For instance, if a publication has three authors: each has a fraction of 1/3. If two of the authors are affiliated with a single institution, say institution A, that institution will have a weight of 2/3. If, in addition, the third author would have two affiliations, one with the aforementioned institution A, and one with institution B, we could count that author as belonging to institution A for ½, bringing the total to 5/6.
 
-### Avg. / Total Citations (MCS / TCS)
+## Avg. / Total Citations (MCS / TCS)
 
 When counting the total number of citations of publications, we can aggregate this citation count in different ways. We call the count of citations for the individual papers the *citation score*. Whatever the set of publications is, we can calculate the mean of the individual citation scores, which we call the *mean citation score* (MCS), or we can calculate the sum of the individual citation scores, which we call the *total citation score* (TCS)*.*
 
@@ -46,7 +50,7 @@ This metric provides a reasonable indicator for citation impact. The benefit of 
 
 However, since there are differences across fields and publication year, this metric cannot be compared across fields and years. If comparison across fields and years is important, or if they are relevant in other ways, such as when they may be confounding factors, it might be preferred to use normalised citation indicators (see section …).
 
-#### Measurement.
+### Measurement
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
@@ -70,7 +74,7 @@ where $w = \sum_{i \in S} w_i$.
 
 Indeed, if we set $w_i = 1$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The MCS is simply the TCS divided by the total weight $\text{MCS} = \frac{1}{w} \text{TCS}$.
 
-### Number / % of Highly Cited Publications
+## Number / % of Highly Cited Publications
 
 Although the actual number of citations to a publication might be of interest, it might also be of interest whether a publication is “highly cited”. To implement this metric, a threshold in terms of number of citations needs to be specified, above which a publication would be classified as highly cited. There is no universal definition of such a threshold, and any threshold is a bit arbitrary, and one could set this for example to 10, 20, 50 or 100 citations, depending on how stringent the metric should be.
 
@@ -78,7 +82,7 @@ This metric provides a reasonable indicator of citation impact. The number or pe
 
 The simplification of citations to a binary distinction between highly cited or not also entails some limitations. It may limit the extent to which different publications can be compared. This is especially relevant for very small sets of publications, for which this metric might perhaps be too coarse grained. Another limitation is that the threshold for may not be equally meaningful across fields and years. The same threshold might be relatively difficult to reach in some fields, or may take many years before the threshold is reached. Hence, this metric cannot be compared across fields and years. If comparison across fields and years is important, or if they are relevant in other ways, such as when they may be confounding factors, it might be preferred to use normalised highly cited publications (see section …).
 
-#### Measurement.
+### Measurement
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
@@ -108,7 +112,7 @@ $$\text{PHCP} = \frac{1}{w} \sum_{i \in S} w_i h_i$$
 
 Indeed, if we set $w_i = 1$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The percentage of highly cited publications is simply the number of highly cited publications divided by the total weight $\text{PHCP} = \frac{1}{w} \text{NHCP}$.
 
-### Avg. / Total Normalised Citations (MNCS / TNCS)
+## Avg. / Total Normalised Citations (MNCS / TNCS)
 
 One limitation of citation counts is that they are not comparable across fields and publication years. This is, in part, because different fields have different citations practices: for instance, publications in Cell Biology can easily have 60 references, while in Mathematics publications typically only have about 20 references. In addition, publications that were published longer ago have had longer time to accumulate citations. Neither of these two factors is considered relevant to citation impact. Getting rid of these informative differences may make the citation counts more informative about citation impact and may render them more comparable across fields and publication years.
 
@@ -122,11 +126,11 @@ This metric provides a good indicator for citation impact. The benefit of this m
 
 The disadvantage of normalised citation counts is that they are more opaque. People might be less familiar with these types of statistics and may have more difficulty in interpreting them. For that reason, it is advisable to work with “raw”, unnormalised, citation counts when sets of publications are more homogeneous or when they are relatively small. At the individual paper level, a normalised citation count is most likely less informative to most people than the “raw” citation count (see section …)
 
-#### Measurement.
+### Measurement
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
-In addition, this metric requires to calculate expected citation counts. Calculating expected citation counts can be challenging, and requires access to many other publications, typically all publications in a database. For this reason, reason, calculating normalised indicators can present considerable challenges. We will here explain the calculation of the expected citation counts for publications in the same field and in the same year, where we assume publications are assigned to exactly one field only^[\[3\]](#footnote-27519){#footnote-ref-27519}^. Note that the normalisation hence depends on the field classification used. See our indicator of fields for more details.
+In addition, this metric requires to calculate expected citation counts. Calculating expected citation counts can be challenging, and requires access to many other publications, typically all publications in a database. For this reason, reason, calculating normalised indicators can present considerable challenges. We will here explain the calculation of the expected citation counts for publications in the same field and in the same year, where we assume publications are assigned to exactly one field only[^field-overlap]. Note that the normalisation hence depends on the field classification used. See our indicator of fields for more details.
 
 In more formal notation, let $c_i$ be the citation score of a paper $i$, let $f_i$ be the field of paper $i$ and let $y_i$ be the year of publication of paper $i$. The expected number of citations $e_{fy}$ for a publication in field $f$ and year $y$ is then calculated as the average number of citations for publications in the same field and the same year. Let $S_{fy} = \{i \mid f_i = f \text{~and~} y_i = y\}$ be the set of publications in the same field and year. Let $n_{fy} = |S_{fy}|$ be the number of such publications. Then, the expected number of citations in the same field and year can be defined as
 
@@ -158,7 +162,7 @@ Indeed, if we set $w_i = 1$, this definition is consistent with the non-fraction
 
 The MNCS indicator is also implemented in several data sources under different names. In InCites, based on Web of Science, this indicator is known as the [Category Normalised Citation Impact](https://incites.help.clarivate.com/Content/Indicators-Handbook/ih-normalized-indicators.htm) (CNCI). In SciVal and Scopus, this indicator is known as [Field-Weighted Citation Impact](https://service.elsevier.com/app/answers/detail/a_id/14894/supporthub/scopus/) (FWCI). In Dimensions, this indicator is known as the [Field Citation Ratio](https://plus.dimensions.ai/support/solutions/articles/23000018848-what-is-the-fcr-how-is-it-calculated-) (FCR). In OpenAlex, this indicator is not (yet) available.
 
-### Number / % of Highly Normalised Cited Publications
+## Number / % of Highly Normalised Cited Publications
 
 One limitation of the Highly Cited publications metric is that it is not comparable across fields and years. A single threshold is used, while different fields and publications years might require different thresholds. In order to normalise this indicator, one could therefore choose different thresholds for different fields and publications. To have comparable thresholds across contexts, the thresholds are usually defined in terms of the percentile of interest. That is, “Highly Cited” is then operationalised as belonging to the top x% of their field and publication year in terms of citations. Different thresholds of the top x% can be set, with common choices being top 50%, 10%, 5% or 1%. For this reason, this metric is sometimes also known as the “Top x%” indicator.
 
@@ -166,7 +170,7 @@ This metric provides a good indicator of citation impact. The number or percenta
 
 The simplification of citations to a binary distinction between highly cited or not also entails some limitations. It may limit the extent to which different publications can be compared. This is especially relevant for very small sets of publications, for which this metric might perhaps be too coarse grained.
 
-#### Measurement.
+### Measurement
 
 The basis of this metric is counting citations. Counting citations implies that references of publications need to be linked to the publication for which we need to count its citations. There are some challenges and limitations involved with counting citations. This is described in more detail in the data source section. Here, we assume that we somehow have obtained citations counts for all papers of interest.
 
@@ -196,7 +200,7 @@ $$\text{PHCP} = \frac{1}{w} \sum_{i \in S} w_i h_i$$
 
 Indeed, if we set $w_i = 1$, this definition is consistent with the non-fractionalised (i.e. full counting) definition. The percentage of highly cited publications is simply the number of highly cited publications divided by the total weight $\text{PHCP} = \frac{1}{w} \text{NHCP}$.
 
-##### Ties
+#### Ties
 
 When counting citations there are often multiple publications that have exactly the same number of citations. Defining whether a publication belongs to the top x% can then be challenging, if we want to ensure that overall, exactly x% of the publications are in the top x%. Consider for example the following publications and citations:
 
@@ -217,9 +221,9 @@ $$w = \frac{x n - n_{>}}{n_=}$$
 
 Note that indeed $0 < w \leq 1$, so that we always assign a valid fraction of each publication to the top x%. For more details, please refer to @waltman2013.
 
-## Datasources
+# Datasources
 
-### OpenAlex
+## OpenAlex
 
 [OpenAlex](https://openalex.org/) covers citations based on previously gathered data from Microsoft Academic Graph, but mostly relies on Crossref to index new citations. OpenAlex offers a user interface that is at the moment still under active development, an open API, and the possibility to download the entire data snapshot. The API is rate-limited, but there are options of having a premium account. Documentation for the API is available at <https://docs.openalex.org/>.
 
@@ -237,36 +241,33 @@ Doing this for multiple publications allows to calculate citation indicators for
 
 At the moment, OpenAlex doesn’t make normalised citation counts or highly cited indicators available. Although these can be constructed based on the entire database, this requires more effort, and cannot directly be done by a single API call.
 
-### Dimensions
+## Dimensions
 
 [Dimensions](https://app.dimensions.ai/discover/publication) is a citation database that takes a comprehensive approach to indexing publications. It offers limited free access through its user interface. API access and access through its database via Google BigQuery can be arranged through payments. It also offers the possibility to apply for access to the API and/or Google BigQuery for [research purposes](https://www.dimensions.ai/request-access/). The API is documented at <https://docs.dimensions.ai/dsl>. The (mean) normalised citation score (NCS), is called the [Field Citation Ratio](https://plus.dimensions.ai/support/solutions/articles/23000018848-what-is-the-fcr-how-is-it-calculated-) in Dimensions.
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
-### Scopus
+## Scopus
 
 [Scopus](https://www.scopus.com/) is a citation database with a relatively broad coverage. Its data is closed, and citation scores are generally available only through a paid subscription. It does offer the possibility to apply for access for research purposes through the [ICSR Lab](https://www.elsevier.com/insights/icsr/lab). Some additional documentation of their metrics is available at <https://www.elsevier.com/products/scopus/metrics>, in particular in the Research Metrics Guidebook, with documentation for the dataset available through ICSR Lab being available separately. The (mean) normalised citation score (NCS) is called [Field-Weighted Citation Impact](https://service.elsevier.com/app/answers/detail/a_id/14894/supporthub/scopus/) (FWCI) in Scopus.
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
-### Web of Science
+## Web of Science
 
 [Web of Science](https://webofscience.com/) is a citation database that takes a more selective approach to indexing publications. Its data is closed and citation scores are available only through a paid subscription. InCites, an analytical tool based on Web of Science, also offers normalised citation scores and the ability to identify highly cited publications. Its normalised citation score is termed the [Category Normalised Citation Impact](https://incites.help.clarivate.com/Content/Indicators-Handbook/ih-normalized-indicators.htm) (CNCI).
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
-## Known correlates
+# Known correlates
 
 As already clarified, citations are affected in general by field and publication year, and these are quite clearly causal effects. There are many other factors that correlate with citations [@onodera2015], for which most it is unclear whether the effect is causal. One factor that is consistently associated with more citations is collaboration [@larivière2015], which is potentially driven by network effects [@schulz]. In addition, there is evidence for a clear causal effect of the journal where something is published on citations [@traag2021].
 
-1.  ::: {#footnote-7540}
-    The publication year can also be relevant still, even when we take similar so-called citation windows. For example, we can count citations for only 10 years after the year of publication. However, even then, publications published in 1990 (with counting citations until 2000) will show a different average number of citations from publications published in 2000 (with counting citations until 2010). This is because there has been a growth in the number of publications each year, and additionally an increase in the number of references in publications. [↑](#footnote-ref-7540)
-    :::
+[^pub-year]:
+    The publication year can also be relevant still, even when we take similar so-called citation windows. For example, we can count citations for only 10 years after the year of publication. However, even then, publications published in 1990 (with counting citations until 2000) will show a different average number of citations from publications published in 2000 (with counting citations until 2010). This is because there has been a growth in the number of publications each year, and additionally an increase in the number of references in publications.
 
-2.  ::: {#footnote-23959}
-    Sometimes, normalisation also considers the “document type” of publications, differentiating for example between editorial letters, research articles or reviews. This would be reasonable if we expect the document type to be unrelated to the impact, as we expect for field of research and year of publication. Whether this is the case can be debated. [↑](#footnote-ref-23959)
-    :::
+[^normalisation-factors]:
+    Sometimes, normalisation also considers the “document type” of publications, differentiating for example between editorial letters, research articles or reviews. This would be reasonable if we expect the document type to be unrelated to the impact, as we expect for field of research and year of publication. Whether this is the case can be debated.
 
-3.  ::: {#footnote-27519}
-    That is, we assume that the used field classifications do not overlap. Some field classifications do overlap, in which case the normalisation becomes more complicated. One approach to this is to fractionalise publications per field, and then perform normalisation within each field separately, and then average across fields afterwards [@waltman2011]. [↑](#footnote-ref-27519)
-    :::
+[^field-overlap]:
+    That is, we assume that the used field classifications do not overlap. Some field classifications do overlap, in which case the normalisation becomes more complicated. One approach to this is to fractionalise publications per field, and then perform normalisation within each field separately, and then average across fields afterwards [@waltman2011].

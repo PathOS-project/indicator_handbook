@@ -1,8 +1,11 @@
+[![DOI](https://zenodo.org/badge/654523223.svg)](https://doi.org/10.5281/zenodo.14538442)
+
+
 # Introduction
 
 This repository contains the source files in Quarto for the PathOS impact indicator handbook available from https://handbook.pathos-project.eu/. Quarto is a file format that can be used to write technical documents, including support for equations, citations, cross-references and code. Extensive documentation about the file format is available from https://quarto.org/docs/guide/.
 
-Each indicator is available from a particular indicator template, which are stored in the directory `indicator_template/quarto`. There are various subdirectories, corresponding with the various parts of the website: (1) Open Science indicators; (2) Academic impact; (3) Economic impact; (4) Societal impact; (5) Reproducibility. In each directory, there are various `.qmd` files, which contain the specific chapters describing a particular indicator.
+The indicators, and other related material, are stored in the various `sections`, corresponding to the various parts of the website: (1) Causality; (2) Open Science indicators; (3) Academic impact; (4) Economic impact; (5) Societal impact; (6) Reproducibility. In each directory, there are various `.qmd` files, which contain the specific indicators or chapters.
 
 # Contributing
 

@@ -10,13 +10,15 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Science-industry collaboration
 ---
 
-# Science-industry collaboration {#science-industry-collaboration .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision | Author |
 |--------------|--------------|-----------------|----------------------------|
@@ -24,21 +26,21 @@ affiliations:
 | 1.2 | 2024-04-24 | Peer review | V.A. Traag |
 | 1.1 | 2024-03-19 | First draft | Petros Stavropoulos, Erica Delugas (reviewer) |
 
-</div>
+:::
 
-## Description
+# Description
 
 This indicator aims to capture the collaborative efforts between science (academia) and industry for open science (OS). It focuses on the exchange of knowledge and resources that facilitate the development of new technologies, processes, or products, thereby advancing scientific understanding and commercial applications. By measuring the interactions between these sectors, particularly those leading to tangible outputs like publications, OS outputs and patents, this indicator sheds light on how OS principles are being integrated into collaborative efforts and how these collaborations contribute to economic development and innovation.
 
-## Metrics
+# Metrics
 
-### Number / Percentage of patents filed by industry in collaboration with academia that cites Open Science (OS) resources.
+## Number / Percentage of patents filed by industry in collaboration with academia that cites Open Science (OS) resources.
 
 This metric assesses the extent to which industrial patents resulting from academic collaborations acknowledge or build upon OS resources, such as data, publications, or methodologies. A high number or percentage of such patents indicate a strong science-industry linkage and a productive exchange of OS resources.
 
 This metric is a good operationalization of the indicator because it provides a direct measure of the output of collaborative efforts. However, it may not capture the quality or impact of the collaboration. It differs from other metrics by focusing on legal intellectual property outcomes rather than purely academic outputs.
 
-#### Measurement.
+### Measurement
 
 Utilize the PATSTAT dataset (<https://www.epo.org/en/searching-for-patents/business/patstat>) to identify patents filed by industry partners in collaboration with academic institutions. Examine the citations within these patents for references to papers or other resources that are recognized as open science inputs. Specifically, determine if these patents cite papers that contribute to new open science resources or artifacts.
 
@@ -58,9 +60,9 @@ Utilize the PATSTAT dataset (<https://www.epo.org/en/searching-for-patents/busin
 
 Other data source are Orbis IP, The Lens, EUIPO. Please refer to the “Innovation output” indicator to further details on The Lens and Orbis IP. The choice among the different resources depends on the information to be processed. For instance, Orbis IP includes information on patent authors, which is not available in other data sources, and also offers the possibility to link companies to balance sheet data that might be useful for a comprehensive analysis of the economic growth of companies.
 
-##### Existing datasources:
+#### Existing datasources
 
-###### PATSTAT
+##### PATSTAT
 
 PATSTAT is a global patent statistical database maintained by the European Patent Office (EPO) that offers a detailed set of patent data, including bibliographic data, citations, family links, and legal status information for patents across multiple jurisdictions. It is designed to facilitate statistical analysis on patents and their citations to understand trends in innovation.
 
@@ -70,7 +72,7 @@ To calculate the number / percentage of patents filed by industry in collaborati
 2.  Examine the citations within these patents for references to open science inputs, such as open access publications or datasets.
 3.  Count the patents that cite these open science inputs and calculate this as a percentage of the total patents analyzed.
 
-###### OpenAIRE Research Graph
+##### OpenAIRE Research Graph
 
 The OpenAIRE Research Graph is a comprehensive open access database that aggregates metadata on publications, research data, and project information across various disciplines. It includes details on open access publications and datasets, making it a valuable resource for tracking the output of academic-industry collaborations and their adherence to open science principles.
 
@@ -79,7 +81,7 @@ To complement PATSTAT data, use the OpenAIRE Research Graph to identify which of
 1.  Extracting publication references from identified patents in PATSTAT.
 2.  Querying the OpenAIRE Research Graph to determine which cited publications are open access.
 
-###### Research Organization Registry (ROR)
+##### Research Organization Registry (ROR)
 
 The Research Organization Registry (ROR) is a comprehensive, open, and community-driven registry that assigns unique identifiers to research organizations worldwide. It aims to solve the issue of institution name disambiguation by providing persistent identifiers, thus facilitating the accurate linking of research organizations to scholarly outputs and researchers. ROR is instrumental in tracking changes in organization names, mergers, and closures, thereby maintaining a current and accessible record of research entities.
 
@@ -92,7 +94,7 @@ Utilizing the ROR API to distinguish between academic institutions and industry 
 
 There may be limitations in the coverage of certain types of organizations and the evolving nature of the ROR dataset as new organizations are added or existing records are updated.
 
-##### Existing methodologies
+#### Existing methodologies
 
 This is an automated tool [@stavropoulos2023], leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 
@@ -100,11 +102,11 @@ To measure the proposed metric, the tool can be used to identify the reused and 
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created and may require manual validation.
 
-### Number / Percentage of Publications Produced by Academia in Collaboration with Industry that Cites Open Science Resources.
+## Number / Percentage of Publications Produced by Academia in Collaboration with Industry that Cites Open Science Resources.
 
 This metric evaluates how often publications resulting from academia-industry collaborations incorporate or reference open science artifacts. It signifies the degree to which collaborative research between these sectors utilizes open science as a foundation. It highlights a different aspect of collaboration by focusing on scholarly publications. Similar to the first metric, it is a measure of output but from an academic perspective.
 
-#### Measurement.
+### Measurement
 
 Access OA publications from comprehensive databases (e.g., OpenAIRE Research Graph), scanning for those with co-authors from both academia and industry. Analyze these publications for citations or mentions of open science inputs, indicating the reuse, or creation of open science artifacts.
 
@@ -122,9 +124,9 @@ Access OA publications from comprehensive databases (e.g., OpenAIRE Research Gra
 
 **Step 6: Reporting and Analysis**. Analyze the data to extract insights on the extent and nature of open science in academia-industry collaborations. Document any limitations encountered, such as incomplete citation records or inaccuracies in affiliation data.
 
-##### Existing datasources:
+#### Existing datasources
 
-###### OpenAIRE Research Graph
+##### OpenAIRE Research Graph
 
 The OpenAIRE Research Graph is a comprehensive open access database that aggregates metadata on publications, research data, and project information across various disciplines. It includes details on open access publications and datasets, making it a valuable resource for tracking the output of academic-industry collaborations and their adherence to open science principles.
 
@@ -135,7 +137,7 @@ To calculate the number / percentage of publications produced by academia in col
 3.  For each publication, examine the references field to identify citations of datasets or software.
 4.  Count and calculate the percentage of these publications out of the total number of academia-industry collaborative publications identified in the dataset.
 
-###### Research Organization Registry (ROR)
+##### Research Organization Registry (ROR)
 
 The Research Organization Registry (ROR) is a comprehensive, open, and community-driven registry that assigns unique identifiers to research organizations worldwide. It aims to solve the issue of institution name disambiguation by providing persistent identifiers, thus facilitating the accurate linking of research organizations to scholarly outputs and researchers. ROR is instrumental in tracking changes in organization names, mergers, and closures, thereby maintaining a current and accessible record of research entities.
 
@@ -148,9 +150,9 @@ Utilizing the ROR API to distinguish between academic institutions and industry 
 
 There may be limitations in the coverage of certain types of organizations, potential inaccuracies in metadata, and the evolving nature of the ROR dataset as new organizations are added or existing records are updated.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### SciNoBo Research Artifact Analysis (RAA) Tool
+##### SciNoBo Research Artifact Analysis (RAA) Tool
 
 This is an automated tool [@stavropoulos2023], leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 

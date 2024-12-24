@@ -11,22 +11,21 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: The effect of Open Data on Citations
 ---
 
-<div>
 
-# Open Data Citation Advantage {#open-data-citation-advantage .unnumbered}
-
-## History
+::: {.callout collapse="true"}
+# History
 
 | Version | Revision date | Revision    | Author     |
 |---------|---------------|-------------|------------|
 | 1.1     | 2024-11-27    | Revisions   | V.A. Traag |
 | 1.0     | 2024-11-13    | First draft | V.A. Traag |
+:::
 
-</div>
-
-We here provide some idea of what it would take to try to infer the causal effect of one specific Open Science practice on citation impact. In particular, we consider the effect of Open Data on citation impact. That is, papers that share their data might be more likely to be cited. This is something that has been called the "Open Data Citation Advantage", and in the PathOS scoping review of the academic impact of Open Science [@klebel_academic_2024], evidence was found for a small positive effect of sharing data.
+We here provide some idea of what it would take to try to infer the causal effect of one specific Open Science practice on citation impact. In particular, we consider the effect of [Open Data](../1_open_science/prevalence_open_fair_data_practices.qmd) on [citation impact](../2_academic_impact/citation_impact.qmd). That is, papers that share their data might be more likely to be cited. This is something that has been called the "Open Data Citation Advantage", and in the PathOS scoping review of the academic impact of Open Science [@klebel_academic_2024], evidence was found for a small positive effect of sharing data.
 
 Inferring the causal effect of open data on citation impact is not straightforward and cannot easily be done in an experimental setting. Although an experiment study could in principle be done, it would require researchers to participate and follow the experimental, randomised "treatment" of sharing data or not, which will be challenging, especially where more and more data policies mandate that data should be shared. This means that, barring such experiments, we have to rely on observational studies of citations to publications that have (not) shared their data. Note that we here only focus on whether data was shared or not, not whether the data is FAIR or not, or the extent to which it is FAIR, although that might be a relevant confounder to consider.
 
@@ -35,7 +34,7 @@ We will try to produce a relevant structural causal model by going through the f
 1.  Consider causal factors that affect or are affected by X or Y
 2.  Consider effects between the identified factors.
 
-Let us start by considering factors that have a causal effect on the number of citations to a paper. As suggested above, there are many factors that correlate with citations [@onodera2015]. The scientific field and the year of publications are two very clear causal factors. One other relevant aspect is obviously something like the quality or relevance of the research: higher quality or research that is more relevant to more researchers, will be more likely to be cited. Unfortunately, such a quality or relevance is not directly observable. Where something is published, i.e. which journal, is likely to have a causal effect on the citations [@traag2021]. In addition, there are most likely some reputational effects of the author and the institution [@way2019]. Finally, (international) collaboration might be likely to have some effect on citations as well, potentially mediated by network effects.
+Let us start by considering factors that have a causal effect on the number of citations to a paper. As suggested above, there are many factors that correlate with citations [@onodera2015]. The scientific field and the year of publications are two very clear causal factors, and are usually also considered when [normalising citations](../2_academic_impact/citation_impact.qmd#avg.-total-normalised-citations-mncs-tncs). One other relevant aspect is obviously something like the quality or relevance of the research: higher quality or research that is more relevant to more researchers, will be more likely to be cited. Unfortunately, such a quality or relevance is not directly observable. Where something is published, i.e. which journal, is likely to have a causal effect on the citations [@traag2021]. In addition, there are most likely some reputational effects of the author and the institution [@way2019]. Finally, (international) collaboration might be likely to have some effect on citations as well, potentially mediated by network effects.
 
 Let us then consider factors that have a causal effect on the sharing of open data. One clearly relevant factor is the open data policy of the journal where the publication is published: if a journal has a clear open data policy that requires authors to make data available (e.g. [PLOS’ Data Policy](https://journals.plos.org/plosone/s/data-availability)), publications in that journal might be more likely to be make their data available. Similarly, if research is funded by a funder that has a clear open data policy (e.g. [Wellcome Trust’s Data Policy](https://wellcome.org/grant-funding/guidance/policies-grant-conditions/data-software-materials-management-and-sharing-policy)), the data might be more likely to be made available. Funding might also make it more likely that authors make their data openly available due to an increase in resources (e.g. data support). Similarly, institutional resources (e.g. data support or training) might help make data open. Some fields may have an academic culture in which scholars are more accustomed to making their data openly available. In addition, some research approaches in a field might be more likely to make their data available than others (e.g. it might be easier to share anonymised quantitative data from surveys as opposed to thick interview data). Lastly, open data has increasingly become a standard, meaning that more recent publications might be more likely to share their data.
 

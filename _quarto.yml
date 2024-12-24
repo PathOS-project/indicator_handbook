@@ -21,13 +21,13 @@ website:
     - text: "Causality"
       href: sections/0_causality/causal_intro/article/intro-causality.qmd
     - text: "Open Science"
-      href: sections/1_open_science/APC_costs.qmd
+      href: sections/1_open_science/introduction_open_science.qmd
     - text: "Academic Impact"
-      href: sections/2_academic_impact/academic_readership.qmd
+      href: sections/2_academic_impact/introduction_academic_impact.qmd
     - text: "Societal Impact"
-      href: sections/3_societal_impact/uptake_and_impact_on_societal_issues.qmd
+      href: sections/3_societal_impact/introduction_societal_impact.qmd
     - text: "Economic Impact"
-      href: sections/4_economic_impact/science_industry_collaboration.qmd
+      href: sections/4_economic_impact/introduction_economic_impact.qmd
     - text: "Reproducibility"
       href: sections/5_reproducibility/introduction_reproducibility.qmd
 
@@ -41,7 +41,8 @@ website:
       contents:
         - sections/0_causality/causal_intro/article/intro-causality.qmd
         - sections/0_causality/open_data_citation_advantage.qmd
-        - sections/0_causality/social_causality.qmd
+        - sections/0_causality/social_causality.qmd        
+        - sections/0_causality/open_data_cost_savings.qmd
 
     - title: Open Science
       contents:
@@ -101,6 +102,7 @@ website:
       contents:
         - section: Economic Impact
           contents:
+            - sections/4_economic_impact/introduction_economic_impact.qmd
             - sections/4_economic_impact/science_industry_collaboration.qmd
             - sections/4_economic_impact/innovation_output.qmd
             - sections/4_economic_impact/socially_relevant_products_and_processes.qmd
@@ -193,9 +195,9 @@ citation:
       orcid: 0000-0001-8249-1752
     - name: T. Willemse
       orcid: 0000-0002-3778-8247
-  title: PathOS - D2.1 - D2.2 - Open Science Impact Indicator Handbook
+  title: Open Science Impact Indicator Handbook
   container-title: Zenodo
-  issued: 2023
-  doi: 10.5281/zenodo.8305626
+  issued: 2024
+  doi: 10.5281/zenodo.14538442
 
 google-scholar: true

@@ -22,13 +22,14 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Availability of preprint repositories
 ---
 
-# Availability of preprint repositories {#availability-of-preprint-repositories .unnumbered}
 
 ::: {}
 
-## History
+# History
 
 | Version | Revision date | Revision                      | Author                                                  |
 |---------|---------------|-------------------------------|---------------------------------------------------------|
@@ -37,7 +38,7 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 Description:
 
@@ -54,9 +55,9 @@ Limitations:
 -   Not all fields or research areas may have a culture of preprinting, which can affect the applicability of the indicator in different contexts.
 -   There may be good preprint practices in general repositories (such as Zenodo) that would not be identifiable via this indicator.
 
-## Metrics
+# Metrics
 
-### Number of preprint repositories
+## Number of preprint repositories
 
 Description:
 
@@ -70,17 +71,17 @@ Limitations:
 
 -   Does not account for the quality or size of repositories .
 
-#### Measurement.
+### Measurement
 
 Count
 
-##### Datasources
+#### Datasources
 
-###### ASAPbio
+##### ASAPbio
 
 ASAPbio maintains a list of preprint repositories, available from <https://asapbio.org/preprint-servers>.
 
-### Quality of preprint repositories
+## Quality of preprint repositories
 
 Evaluating pre-print repositories based on predetermined standards encompassing metadata consistency, user interface, search functionalities, etc.
 
@@ -94,7 +95,7 @@ Limitation:
 
 Use established repository ranking or rating systems, if available. Alternatively, develop a criteria checklist and review each repository against it.
 
-### Size of pre-print repositories
+## Size of pre-print repositories
 
 Assessing the volume of content or number of publications each repository holds.
 
@@ -108,17 +109,17 @@ Limitation:
 
 Directly query the repository (if it offers such statistics) or query data bases that aggregate repositories.
 
-#### Measurement.
+### Measurement
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
-##### Methodologies
+#### Methodologies
 
 To determine the size or volume of content within specific pre-print repositories in a field, country, or organization using the OpenAIRE Graph, researchers can analyze the Graph dump available on Zenodo or browse OpenAIRE EXPLORE (explore.openaire.eu). It's crucial to understand that while the OpenAIRE Graph has integrated over 129,000 data sources, the data derived will strictly represent repositories integrated into the graph, subject to the quality of information those sources provide (https://graph.openaire.eu/docs/ can be consulted)
 
-### Accessibility of pre-print repositories
+## Accessibility of pre-print repositories
 
 Evaluating the access model of publication repositories, specifically categorizing them as open access, subscription-based, or limited to specific users.
 
@@ -132,17 +133,17 @@ Limitation:
 
 Examine each repository's documented access model. This can be achieved by querying databases that list repositories.
 
-#### Measurement.
+### Measurement
 
-##### Datasources
+#### Datasources
 
 OpenAIRE Graph and Directory of Open Access Repositories (DOAR) (integrated in the OpenAIRE Graph)
 
-###### Methodologies
+##### Methodologies
 
 All repositories in both data sources are Open Access.
 
-## Known correlates
+# Known correlates
 
 The availability of preprint repositories **may** correlate with specific fields of study, given that certain scientific disciplines are more inclined to use preprints than others. Furthermore, regional or national open science policies, funding opportunities, and research culture can also influence the presence or absence of preprint repositories in a particular country or region.
 

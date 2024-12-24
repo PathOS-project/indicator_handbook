@@ -22,13 +22,14 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Prevalence of preprinting
 ---
 
-# Prevalence of preprinting {#prevalence-of-preprinting .unnumbered}
 
 ::: {}
 
-## History
+# History
 
 | Version | Revision date | Revision                      | Author                                                  |
 |---------|---------------|-------------------------------|---------------------------------------------------------|
@@ -37,7 +38,7 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 Description:
 
@@ -54,9 +55,9 @@ Limitations:
 - Not all fields or research areas may have a culture of preprinting, which can affect the applicability of the indicator in different contexts.
 - As a standalone this indicator also does not account for other forms of informal communication, such as conference presentations, personal communications, or social media discussions, which can also play a role in the dissemination of research findings.
 
-## Metrics
+# Metrics
 
-### Number of preprints
+## Number of preprints
 
 Description:
 
@@ -71,13 +72,13 @@ Limitations:
 - The pre-prints that are early in the research cycle (early work in progress) may not be ready for dissemination and may not be useful in a repository (not written in a clear away, too much of a rough draft).
 - View also the limitations in section I.
 
-#### Measurement.
+### Measurement
 
 Count
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
 1.  Identify the preprints in the OpenAIRE graph using the publication classification type "Preprint"
 2.  Identify any repositories that only take preprints (preprint servers) and use those publications.
@@ -92,7 +93,7 @@ Limitations
 - For 2. Different preprint servers may have different policies regarding the types of preprints they accept, the length of time they allow preprints to be available, and the types of metadata that are included with preprints. These variations can affect the completeness and accuracy of the data used to calculate the metric.
 - For step 3.c. date of deposition is not a metadata element regularly exposed by repositories. This provides an additional problem as this metric is most meaningful if one can identify how long before publication something was deposited (if it is right before it shouldn't be counted for this indicators).
 
-### % of Publications that have preprints
+## % of Publications that have preprints
 
 Description:
 
@@ -106,13 +107,13 @@ Limitations:
 
 - -   -   See limitations in previous metric.
 
-#### Measurement.
+### Measurement
 
 % = 100\*(pubs with preprint)/(total number of pubs)
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
 1.  Take all the publications for unit of analysis
 2.  Identify those with a preprint available, from the set of preprints as in previous metric
@@ -122,7 +123,7 @@ Limitations
 
 - Like previous metric
 
-### % of preprints that are published
+## % of preprints that are published
 
 Description:
 
@@ -139,13 +140,13 @@ Limitations:
 - The "% of preprints that are published" metric has limitations because it does not account for the time lag between preprinting and formal publication in a peer-reviewed journal, which can vary widely depending on the field or research area.
 - This metric also does not account for the quality or impact of the preprint, which can affect its likelihood of being published in a peer-reviewed journal.
 
-#### Measurement.
+### Measurement
 
 % = 100\*(preprints that are published)/(total number of preprints)
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
 1.  Identify preprints as in previous metrics
 2.  Find those that are published
@@ -155,7 +156,7 @@ Limitations
 
 - -   -   Like previous metric
 
-## Known correlates
+# Known correlates
 
 We are unsure whether these are known but we would assume the following are correlates:
 

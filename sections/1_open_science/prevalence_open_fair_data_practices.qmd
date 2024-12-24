@@ -11,22 +11,24 @@ affiliations:
   department: Centre for Science and Technology Studies
   city: Leiden
   country: the Netherlands
+
+title: Prevalence of open/FAIR data practices
 ---
 
-# Prevalence of open/FAIR data practices {#prevalence-of-openfair-data-practices .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision         | Author      |
 |---------|---------------|------------------|-------------|
 | 1.1     | 2023-07-20    | Edited & revised | T. Willemse |
 | 1.0     | 2023-04-13    | First draft      | T. Willemse |
 
-</div>
+:::
 
-## Description
+# Description
 
 The Open Science discourse has been fuelled by the prospect of a more open and collaborative scientific effort that can accelerate scientific development and innovation. A big step in this direction is the development of Open Data practices that make it easier for scientist to share and reuse data for research. Often this agenda is pushed forward with the Findability, Accessibility, Interoperability and Reusability (FAIR) principles [@wilkinson2016]. Taking these principles in mind serves to open up data practices in science and thereby improve scientific data practices, data reuse and reproducibility. Accordingly, it is important to get an indication of the prevalence of such practices in the scientific system to get an overview of the status of data sharing and Open Science in general.
 
@@ -34,9 +36,9 @@ The FAIR principles and Open Data management try to establish a data environment
 
 Different stakeholders, such as researchers, data publishers and funding agencies stand to benefit from these practices. More insight in the application and presence of FAIR data principles could be very relevant in their profession. Questions typically relate to how to improve the implementation and development of FAIR principles. In order to improve (FAIR) data sharing practices, it is important to first have an overview of the current practices. Hence, relevant questions are where, how and what FAIR data practices are used in an area of interest.
 
-## Metrics
+# Metrics
 
-### Number of publications with shared data
+## Number of publications with shared data
 
 The number of publications with shared data can serve as a quick measure to assess to what extent Open Data practices are used in the area of interest. It does however not take into account how and to what extent the FAIR principles were followed and the nature of the data itself. Due to these shortcomings, it can give a skewed representation in areas where poor quality or partly available data is documented as shared data. An additional challenge is to identify not only shared data that is shared through official repositories, but also data that is shared as supplementary material.
 
@@ -44,19 +46,19 @@ In similar fashion the percentage of publications with shared data in the area o
 
 In addition, it is important to note that more targeted indications can be used than if a publication shares data or not. Alternatives like number of publications with data shared in a repository, data availability statements or including the level of fairness of the shared data can be used to reach more specific results.
 
-#### Measurement.
+### Measurement
 
 The number of publications with shared data can be represented as a simple count measure of the sample of interest. The percentage can be calculated by dividing the total number of publications with shared data with the total number of units included.
 
-##### Datasources
+#### Datasources
 
-###### DataCite/Crossref
+##### DataCite/Crossref
 
 DataCite and Crossref are both organizations that provide services for identifying and citing research data. They maintain large databases of metadata about research articles and associated datasets, including information on Open Access data. Besides providing DOIs for datasets, DataCite and Crossref also maintain metadata about the datasets, including information on data availability, access restrictions, and licensing information. This metadata can be accessed programmatically through APIs provided by DataCite and Crossref, making it a valuable data source for researchers interested in Open Access data.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Extract dataset sharing based on Natural Language Processing
+##### Extract dataset sharing based on Natural Language Processing
 
 The Public Library of Science (PLOS) is a non-profit publisher of open-access journals. PLOS provides indicators on data repository use in PLOS articles as well as overall data repository use. PLOS uses a combination of manual curation and automated methods to generate information on Open Access data. This includes reviewing data availability statements provided by authors, checking data repositories for publicly accessible data associated with articles, and using natural language processing and machine learning algorithms to identify mentions of data availability in articles. PLOS also encourages authors to provide detailed data availability statements and to deposit their data in public repositories to facilitate Open Data access.
 
@@ -64,15 +66,15 @@ PLOS has developed the indicators on data sharing and data use through DataSeer.
 
 PLOS also provides API's to search its database. This [page](https://api.plos.org/solr/examples/) provides some example Solr queries, the specific queries will depend on the research question.
 
-### Level of FAIRness of data
+## Level of FAIRness of data
 
 Metrics on the level of FAIRness of data (sources) can support in establishing the prevalence of open/FAIR data practices. This metric attempts to show in a more nuanced manner where FAIR data practices are used and in some cases even to what extent they are used. Assessing whether or not a data source practices FAIR principles is not trivial with a quick glance, but there are some initiatives that developed methodologies that assist to determine this for (a large number of) data sources.
 
-#### Measurement.
+### Measurement
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Research Data Alliance
+##### Research Data Alliance
 
 The Research Data Alliance developed a FAIR Data Maturity Model [@group_fair_2020] that can help to assess whether or not data adheres to the FAIR principles. This document is not meant to be a normative model, but provide guidelines for informed assessment.
 
@@ -86,7 +88,7 @@ The FAIR Data Maturity Model includes a set of indicators for each of the four F
 
 By following this methodology, one could assess to what extent the FAIR data practices are adhered to and create comprehensive overviews, for instance by showing the scores in radar charts.
 
-###### Data life cycle assessment
+##### Data life cycle assessment
 
 Determining the level of FAIR data practices can involve assessing how well data adheres to the FAIR principles at each stage of the data lifecycle, from creation to sharing and reuse [@jacob2019].
 
@@ -96,20 +98,20 @@ Evaluate adherence to FAIR principles at each stage: For each stage of the data 
 
 Determine the overall level of FAIR data practices: Once the scores for each principle and stage have been assigned, determine the overall level of FAIR data practices. This can be done by using a summary score that takes into account the scores for each principle and stage, or by assigning a level of FAIR data practices based on the average score across the principles and stages.
 
-###### Automated detection of FAIRness
+##### Automated detection of FAIRness
 
 There are some attempts at trying to establish the FAIRness of data automatically. One such a tool, called F-UJI is available from <https://www.f-uji.net>, developed by @devaraju_f-uji_2024. The accuracy of the tool is not reported.
 
-### Availability of data statement
+## Availability of data statement
 
 A data availability statement in a publication describes how the reader could get access to the data of the research. Having such a statement in place improves transparency on data availability and can be considered as an Open Data practice. However, having a data availability statement in place does not necessarily imply that the data is openly available or that it is more likely that the data can be shared [@gabelica2022]. Nevertheless, a description of how to access an Open Data repository, how to make a request for data access or an explanation why some data cannot be shared due to ethical considerations are all examples of Open Data practices that make data reuse more accessible and transparent [@federer2018]. Indeed, even if data itself cannot be shared, metadata can typically be shared.
 
-#### Measurement
+### Measurement
 
-##### Existing methodology
+#### Existing methodology
 
 All PLOS journals require publications to include a data availability statement. Moreover, it is strongly recommended that procedures on how to access research data are described in the data availability statement and that the data is stored in a public repository. Other practices that comply with this recommendation are including a data file, data requests through an approving committee and providing contact information for a third party that owns the data [@federer2018]. A detailed description of how to use PLOS data availability statements for quantitative research can be found in the [@colavizza2020] publication.
 
-## Known correlates
+# Known correlates
 
 Some research suggests that openly sharing data is positively related to the citation rate of publications [@piwowar2007; @piwowar2013].

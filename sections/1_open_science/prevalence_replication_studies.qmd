@@ -22,13 +22,14 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Prevalence of replication studies
 ---
 
-# Prevalence of replication studies {#prevalence-of-replication-studies .unnumbered}
 
 ::: {}
 
-## History
+# History
 
 
 | Version | Revision date | Revision    | Author                                                  |
@@ -39,7 +40,7 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 Reproducibility and replicability are closely related concepts in scientific research. Reproducibility refers to the ability of independent researchers to obtain consistent results when using the same data and methods. It involves analyzing existing data in a similar manner to validate the findings. On the other hand, replicability focuses on the ability to repeat the entire experiment or study using new data collection and similar methods employed in the original study. This includes collecting new data to ensure the accuracy and robustness of the findings.
 
@@ -51,23 +52,23 @@ Prevalence of replication studies is an indicator of the extent to which replica
 
 This indicator can be used to assess the level of adoption of Open Science practices related to replication in a particular field, and to identify potential barriers or incentives for the adoption of such practices. Additionally, the prevalence of replication studies can be used to assess the impact of Open Science policies and initiatives aimed at promoting reproducibility and transparency in research.
 
-## Metrics
+# Metrics
 
-### Number of replication studies
+## Number of replication studies
 
 Number of replication studies is a metric that counts the number of studies that replicate previous research findings.
 
 Limitations of this metric include the potential for biased or incomplete reporting of replication studies, as well as the possibility that some replication studies may not be identified or counted due to differences in methodology or interpretation.
 
-#### Measurement.
+### Measurement
 
 To measure the number of replication studies, besides manually testing, a suitable automatic approach is to use text mining and machine learning techniques to find candidate studies that define themselves as replications or provide evidence of replication. Another approach is to search for a specific tag or field in relevant databases that indicate replication studies, such as the Open Science Framework's Registered Reports database (<https://osf.io/registries/discover?provider=OSF>) or the Replication Wiki (<http://replication.uni-goettingen.de/wiki/index.php/Main_Page>). An alternative method would be to conduct a citation analysis, where relevant citations from the original publications are collected, referenced within the original text, and assessed using an automated tool to determine if they can be classified as replication studies.
 
 Potential measurement problems and limitations include the possibility of incomplete or inaccurate reporting of replication studies, as well as differences in definitions and methodologies for identifying replication studies. Additionally, not all replication studies may be published in a way that makes them easily identifiable, which could lead to undercounting. There may also be variations in the level of adoption of Open Science practices related to replication across different fields or scientific communities, which could make it challenging to compare the prevalence of replication studies across different domains.
 
-##### Datasources
+#### Datasources
 
-###### Open Science Framework (OSF) - Registered Reports
+##### Open Science Framework (OSF) - Registered Reports
 
 The Open Science Framework (OSF) provides a platform for researchers to pre-register their studies, including replication studies, as Registered Reports. These reports undergo peer review prior to data collection, ensuring transparency and credibility. The OSF Registered Reports database can be accessed at <https://osf.io/registries/discover?provider=OSF>. The database can be queried using specific search terms to find replication
 
@@ -75,13 +76,13 @@ For the calculation of the metric, the database can be queried using specific se
 
 Limitations of this datasource include the reliance on researchers voluntarily registering their studies as Registered Reports, which may introduce selection bias. Additionally, not all replication studies may be registered or reported in this database, limiting its coverage.
 
-###### Replication Wiki
+##### Replication Wiki
 
 The Replication Wiki (<http://replication.uni-goettingen.de/wiki/index.php/Main_Page>) is an online resource that catalogs a curated list of replication studies.
 
 However, it is important to note that the Replication Wiki may not cover all replication studies, and its coverage may vary across different fields or scientific domains.
 
-##### Existing methodology
+#### Existing methodology
 
 To our knowledge there is no existing methodology to automatically find replication studies. Some suggested methods are the following:
 
@@ -89,7 +90,7 @@ To our knowledge there is no existing methodology to automatically find replicat
 2.  Search relevant fields or tags in specific databases to find publications that are replication studies.
 3.  Perform citation analysis, where relevant citations from the original publications are collected, referenced within the original text, and assessed using an automated tool to determine if they can be classified as replication studies.
 
-### Number (%) of publications that are replication studies
+## Number (%) of publications that are replication studies
 
 Metric that measures the percentage of publications within a specific field or scientific community that are replication studies. This metric provides a more nuanced perspective on the prevalence of replication studies than simply counting the number of replication studies, as it considers the total number of publications within a specific scientific field or task.
 

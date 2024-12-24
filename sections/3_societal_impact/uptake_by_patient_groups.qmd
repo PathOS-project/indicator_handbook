@@ -10,13 +10,15 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Uptake by patient groups
 ---
 
-# Uptake by patient groups {#uptake-by-patient-groups .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision | Author |
 |-------------|-------------|-------------|---------------------------------|
@@ -24,23 +26,23 @@ affiliations:
 | 1.1 | 2024-03-29 | Review | Tommaso Venturini, Melanie Dulong de Rosnay |
 | 1.0 | 2024-03-26 | First draft | Petros Stavropoulos |
 
-</div>
+:::
 
-## Description
+# Description
 
 A patient group, often referred to as a patient advocacy group or a patient organization, is a non-profit entity designed to support and advocate for individuals suffering from specific diseases, conditions, or health-related issues. These groups aim to improve the quality of life for their members by offering support, education, and resources. They often engage in activities such as raising public awareness, advocating for patient rights, funding research, providing direct support to patients and their families, and influencing health policy and research topics.
 
 This indicator aims to capture the extent to which open science (OS) outputs such as code, data, and OA publications are being utilized by patient advocacy groups. By analyzing the mentions or references to these OS outputs within patient group websites and reports, we can gauge the influence and integration of OS in societal and patient-focused discussions and resources. This can serve as a measure of how well the knowledge generated through OS is disseminated beyond the academic community, impacting patient education, policy and research advocacy, and policy-making.
 
-## Metrics
+# Metrics
 
-### Number / Percentage of References to OS Inputs in Patient Group Websites/Reports
+## Number / Percentage of References to OS Inputs in Patient Group Websites/Reports
 
 This metric represents the number of references or mentions of OS outputs (OA publications, datasets, software) found within the content of patient group websites and reports as well as the ratio of OS resources over the total number of scientific references or mentions. It provides an operationalization of the indicator by offering a quantifiable measure of OS uptake. The metric highlights the integration of OS practices in the resources produced by patient groups, which can reflect the value and relevance of these outputs to patient advocacy and education.
 
 A limitation of this metric could be its potential variability based on the size and scope of the patient group websites and reports reviewed. Some groups have very rich and updated websites offering a reliable window into the activities of the group, but others are less thorough or quick in their online publishing strategies, which means that their websites can offer a less dependable or complete description of their actions. Some patient groups may also use OS publications for self-training, to enable them to understand their disease, request medical tests, and participate to the advocacy and care work with other patients, without any report or publication as an output citing the OS materials they read.
 
-#### Measurement.
+### Measurement
 
 To measure the proposed metric of the percentage of references to open science (OS) outputs in patient group websites and reports, a structured methodology encompassing both automated and manual techniques could be employed. This approach aims to systematically identify and quantify mentions of OA publications, datasets, and software within the targeted content.
 
@@ -61,9 +63,9 @@ Despite these challenges, leveraging existing web scraping and text analysis tec
 1.  documents or web pages that contain references to OS inputs. This involves tallying the occurrences of references and comparing them to the total number of documents or pages analyzed;
 2.  references or mentions to OS inputs over the total of the scientific resources mentioned in each website.
 
-##### Existing datasources:
+#### Existing datasources
 
-###### Patient Group Websites and Reports
+##### Patient Group Websites and Reports
 
 The "Patient Groups Websites and Reports" data are not within a singular, pre-existing database but instead must be meticulously compiled through the scraping and crawling of numerous patient advocacy group websites and their published reports.
 
@@ -81,7 +83,7 @@ Example short list of patient group websites:
 | National Alliance on Mental Illness (NAMI) | Mental health | [nami.org](https://www.nami.org/){target="_new"} |
 | European Patient Advocacy Groups (ePAGs) - EURORDIS | Rare diseases | [eurordis.org](https://www.eurordis.org/){target="_new"} |
 
-###### OpenAIRE Research Graph
+##### OpenAIRE Research Graph
 
 The OpenAIRE Research Graph is a comprehensive open access database that aggregates metadata on publications, research data, and project information across various disciplines. It includes details on open access publications and datasets, making it a valuable resource for tracking the output of academic-industry collaborations and their adherence to open science principles.
 
@@ -90,9 +92,9 @@ We can use the OpenAIRE Research Graph to identify which of the publications cit
 -   Extracting publication references with unique identifiers (e.g. DOIs) from the patient group websites / reports.
 -   Querying the OpenAIRE Research Graph to determine which of these publications are open access (OA).
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### SciNoBo Research Artifact Analysis (RAA) Tool
+##### SciNoBo Research Artifact Analysis (RAA) Tool
 
 This is an automated tool [@stavropoulos2023], leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 

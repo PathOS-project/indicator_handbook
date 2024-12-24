@@ -1,0 +1,38 @@
+{
+    "creators": [
+        {"name": "S. Apartis",          "orcid": "0000-0003-0140-1351"},
+        {"name": "G. Catalano",         "orcid": "0000-0002-3638-1904"},
+        {"name": "G. Consiglio"},
+        {"name": "R. Costas",           "orcid": "0000-0002-7465-6462"},
+        {"name": "E. Delugas",          "orcid": "0009-0000-4638-1062"},
+        {"name": "M. Dulong de Rosnay", "orcid": "0000-0002-0297-7603"},
+        {"name": "I. Grypari",          "orcid": "0000-0002-7485-1591"},
+        {"name": "I. Karasz",           "orcid": "0000-0002-3344-1975"},
+        {"name": "Thomas Klebel",       "orcid": "0000-0002-7331-4751"},
+        {"name": "E. Kormann",          "orcid": "0009-0005-5680-3659"},
+        {"name": "N. Manola",           "orcid": "0000-0002-3477-3082"},
+        {"name": "H. Papageorgiou",     "orcid": "0000-0002-7352-2403"},
+        {"name": "E. Seminaroti",       "orcid": "0009-0003-1476-4052"},
+        {"name": "P. Stavropoulos",     "orcid": "0000-0003-1664-6554"},
+        {"name": "L. Stoy",             "orcid": "0000-0002-3827-9815"},
+        {"name": "V.A. Traag",          "orcid": "0000-0003-3170-3879"},
+        {"name": "T. van Leeuwen",      "orcid": "0000-0001-7238-6289"},
+        {"name": "T. Venturini",        "orcid": "0000-0003-0004-5308"},
+        {"name": "S. Vignetti",         "orcid": "0000-0002-6234-0735"},
+        {"name": "L. Waltman",          "orcid": "0000-0001-8249-1752"},
+        {"name": "T. Willemse",         "orcid": "0000-0002-3778-8247"}
+    ],
+
+    "license": "cc-by-nc-4.0",
+
+    "title": "Open Science Impact Indicator Handbook",
+
+    "communities": [
+        {"identifier": "pathos"}
+    ],
+
+    "grants": [{"id":"10.13039/501100000780::101058728"}],
+
+    "upload_type": "publication",
+    "publication_type": "book"
+}

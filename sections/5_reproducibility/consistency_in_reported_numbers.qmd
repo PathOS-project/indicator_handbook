@@ -10,13 +10,15 @@ affiliations:
   name: Know-Center
   city: Graz
   country: Austria
+
+title: Consistency in reported numbers
 ---
 
-# Consistency in reported numbers {#consistency-in-reported-numbers .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision                | Author                      |
 |---------------|---------------|--------------------|-----------------------|
@@ -24,31 +26,31 @@ affiliations:
 | 1.1     | 2023-07-20    | Incorporating revisions | Thomas Klebel               |
 | 1.0     | 2023-05-11    | First draft             | Thomas Klebel               |
 
-</div>
+:::
 
-## Description
+# Description
 
 Not all publications allow for verification of computational reproducibility by re-running the analysis on the original data. Reasons include code and/or data not being available, or potentially computations being too costly. One proxy used by researchers aiming to determine whether the numbers reported in a publication are credible is to check them for internal consistency. The general idea is to assess whether a given combination of numbers is mathematically possible. In finite samples, only certain combinations of mean values and standard deviations, or t-statistics with degrees of freedom and p-values are possible. If the reported numbers are found to be inconsistent, this might have multiple reasons, among them "human error, sloppiness, or questionable research practices" [@nuijten2020]. Consequently, if reported numbers are found to be inconsistent, the publication's findings are not reproducible, and results from meta-analyses might be biased due to the inclusion of erroneous results [@nuijten2020]. In the absence of more direct measures, such proxies can be a useful way to assess general levels of rigour and reproducibility.
 
 It must be re-emphasised that inconsistencies in reporting can have multiple sources, some of which also relate to the re-analysis itself. While the re-analysis of p-values (as in the implementation of statcheck, reported below) is relatively straightforward, checking means and standard deviations for internal validity presupposes a correct understanding of the reported experiments (e.g., how many respondents were assigned to a certain group/category, etc.). Inconsistencies in reported numbers and statistics therefore do not by themselves provide proof for fraud or scientific misconduct more broadly.
 
-## Metrics
+# Metrics
 
-### Inconsistent p-values
+## Inconsistent p-values
 
 Null-hypothesis significance testing (NHST) is a wide-spread practice in academic research. Conclusions are often drawn based on the distinction between statistically significant and insignificant results. Yet, many reported statistics in leading psychological journals have been found to be inconsistent [@nuijten2016]. Checking reported p-values for consistency is therefore a good metric to gauge the overall consistency and internal validity of reported findings.
 
 The metric has limitations in at least two domains: (a) in terms of measurement (see below), and (b) in terms of its applicability. Not all studies use NHST, and no similar metrics exist for e.g., Bayesian analyses.
 
-#### Measurement.
+### Measurement
 
 Many test statistics in the realm of NHST allow for the calculation of p-values. Given a test statistic (e.g., *t, χ2*) and a value for *degrees of freedom*, the p-value can be calculated. Reporting standards differ, and not all necessary elements might be provided by authors. However, for manuscripts that adhere to the American Psychological Association (APA) format for reporting test statistics (which mandates reporting test statistic, degrees of freedom, and the p-value), it is possible to recalculate the reported p-value based on the test statistic and the reported degrees of freedom. A key precondition for this measurement is thus the availability of reported statistics that adhere to the APA format.
 
 There is no single data source for this metric. The metric can be computed based on any set of publications for which full texts are available.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Statcheck
+##### Statcheck
 
 The R package "statcheck" [@nuijten2023] implements the proposed metric. The package can process text strings, PDF and HTML documents, and whole folders containing PDF or HTML documents. In addition, a [web-app based on statcheck](https://michelenuijten.shinyapps.io/statcheck-web/) is available. As discussed above, a key precondition and thus also a limitation for the approach used by statcheck is the availability of reported statistics that adhere to the APA format. If all necessary statistics are provided, statcheck can analyse results from correlations (r) and t, F, χ^2^, Z tests and Q tests[^1].
 
@@ -56,35 +58,35 @@ The R package "statcheck" [@nuijten2023] implements the proposed metric. The pac
 
 statcheck takes into account rounding in reporting, reports the recomputed p-value, indicating whether the values are inconsistent or grossly inconsistent, in case the recomputed p-value leads to the opposite conclusion on the statistical significance of the results (e.g., the publication reporting a result as statistically significant, while the recomputed p-value is above the conventional threshold of 0.05).
 
-### Inconsistent means and standard deviations.
+## Inconsistent means and standard deviations
 
 The rationale for this indicator is similar to the one above, in exploiting mathematical properties of common summary statistics. Given a certain sample size, only specific values for means and standard deviations are possible. In small samples (n \< 100), this can be used to test the plausibility of means, using the GRIM test [@brown2016], and standard deviations, using the GRIMMER test [@anaya2016].
 
-#### Measurement.
+### Measurement
 
 Consider the case of Likert-style answers (scale 1-5) and sample sizes from n = 1 to n = 3. The mean will always be a full integer for n = 1, multiples of 0.5 for n = 2, and multiples of 0.33 for n = 3. The sample sizes in this example are implausibly small, but the general principle holds for samples up to n = 100 when means are reported as rounded towards two decimals [@brown2016]. The logic of granularity in reported statistics has been extended to analyse measures of variation [@anaya2016], and to more general solutions that aim to recover possible datasets for a given combination of summary statistics (e.g., sample size, mean SD).
 
 There is no single data source for this metric. The metric can be computed based on any set of publications for which full texts are available.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### GRIM test
+##### GRIM test
 
 The GRIM test exploits the property of granularity of means in small samples (n \< 100). Given a certain sample size, and the use of Likert-style items that are based on integers, only certain values for the mean are possible. If a reported mean falls outside the range of possible mean values, it can be understood as being inconsistent.
 
 An online implementation is available [here](http://www.prepubmed.org/grim_test/), and multiple implementations in statistical software environments are also available, e.g., in [@jung2023].
 
-###### GRIMMER test
+##### GRIMMER test
 
 The GRIMMER test is an extension of the GRIM test, introduced by [@anaya2016], to test "the validity of reported measures of variability", i.e., testing variances, standard deviations, and standard errors. An online calculator is available [here](http://www.prepubmed.org/grimmer/), and other implementations can be found in common statistical software environments, e.g., in [@jung2023].
 
-###### SPRITE
+##### SPRITE
 
 The SPRITE technique builds on the intuition of the other two methodologies introduced above but avoids the limitation to small samples of the GRIM and GRIMMER tests [@heathers2018]. Furthermore, it also lets the analyst check whether a reported *combination* of mean and SD is mathematically possible. Through the inspection of graphical output from the algorithm, it is also possible to spot pairs of means and SDs which are mathematically possible but highly unlikely in practice (e.g., responses on a five-point Likert scale, with most responses being "1", a few responses being "5", and no responses for values 2-4). The SPRITE algorithm is only approximate. If SPRITE is unable to recover a potential dataset given input parameters, exhaustive searches of potential datasets should be performed in addition (see below on CORVIDS).
 
 Implementations of SPRITE for R, Python and Matlab are available at <https://osf.io/pwjad/> [@heathers2018a].
 
-###### CORVIDS
+##### CORVIDS
 
 Although computationally efficient, the SPRITE algorithm is only approximate, and can therefore fail to uncover underlying datasets for given summary statistics. Building on the logic behind Diophantine equations, the CORVIDS algorithm can reliably uncover whether a given combination of summary statistics is mathematically possible and can provide all possible datasets that could lead to these statistics [@wilner].
 

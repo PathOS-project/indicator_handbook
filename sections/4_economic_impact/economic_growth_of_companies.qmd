@@ -22,13 +22,15 @@ affiliations:
   name: Technopolis Group
   city: Brussels
   country: Belgium
+
+title: Economic growth of companies
 ---
 
-# Economic growth of companies {#economic-growth-of-companies .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision | Author |
 |-------------|-------------|-------------|-----------------------------------|
@@ -37,9 +39,9 @@ affiliations:
 | 0.3 | 09-04-2024 | Updated draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB), Erica Delugas (CSIL, reviewer) |
 | 0.2 | 15-03-2024 | First full draft | Lennart Stoy (TGB), Elisa Seminaroti (TGB) |
 
-</div>
+:::
 
-## Description
+# Description
 
 Economic growth of companies is a potential effect of Open Science (OS) practices. The idea is that Open Science reduces barriers to access to scientific knowledge, which has positive effects on economic growth. For example, Open Access makes research publications freely available and open and/or FAIR data are accessible and re-usable by economic actors. This reduces companies’ costs, for example for licenses to access to publications and data, and related transaction costs, as well as creating potential efficiency gains, for example by reducing the hours worked on data wrangling. In addition, Open Science is said to improve reproducibility of results, which may affect companies as well, since knowledge is more reliable and less likely to lead to wasteful activities in companies conducting R&D based on irreproducible research. By being accessible to the public, knowledge can more easily lead to innovation and be used in private-sector R&D. Such savings and inefficiencies could be invested elsewhere, spurring economic growth of companies. Intellectual Property (e.g., patents) derived from Open Science practices may lead to higher valuations and assets of companies. Indirectly, the availability of data, knowledge, or software, might lead to the creation of new companies which seek to capitalise on the opportunities provided by Open Science.
 
@@ -51,11 +53,11 @@ Some studies have attempted to investigate Open Science impacts, such as the pot
 
 While difficult to measure and largely untested, the PathOS project nonetheless has the intention to better quantify the impact of different Open Science practices. This indicator therefore proposes an approach to research the impact of Open Science on the growth of companies.
 
-## Metrics
+# Metrics
 
-### Company performance changes due to OS
+## Company performance changes due to OS
 
-The economic growth of companies is typically measured using various widely-used economic proxy indicators at the company level, which are commonly derived from balance sheets. These include changes in the company variation in turnover, profits, assets, expenditures, personnel, and others.\^^[\[1\]](#footnote-2){#footnote-ref-2}^\^ Economic growth of company may also encompass improvements in efficiency, innovation, and competitiveness within the company. Nevertheless, assessing a change in any of the economic growth proxy indicators associated with Open Science practices is inherently challenging. The economic growth of companies is the result of a number of strictly interrelated factors. For this reason, measuring the impact triggered by Open Science might not be so straightforward, as there might be a large list of confounding variables hampering the capture of the impact. The list below provides a set of possible proxy metrics for measuring the potential impact of Open Science on economic growth of companies:
+The economic growth of companies is typically measured using various widely-used economic proxy indicators at the company level, which are commonly derived from balance sheets. These include changes in the company variation in turnover, profits, assets, expenditures, personnel, and others[^indicator-details]. Economic growth of company may also encompass improvements in efficiency, innovation, and competitiveness within the company. Nevertheless, assessing a change in any of the economic growth proxy indicators associated with Open Science practices is inherently challenging. The economic growth of companies is the result of a number of strictly interrelated factors. For this reason, measuring the impact triggered by Open Science might not be so straightforward, as there might be a large list of confounding variables hampering the capture of the impact. The list below provides a set of possible proxy metrics for measuring the potential impact of Open Science on economic growth of companies:
 
 -   Change (+/-) in turnover
 -   Change (+/-) in profit
@@ -70,11 +72,11 @@ The economic growth of companies is typically measured using various widely-used
 
 Change (+/-) in cost of personnel Each metric is related to different ways of measuring the economic growth of a company and should be carefully chosen depending on the context. For instance, if the aim is to measure economic growth in terms of innovation, one might opt for changes in intangible assets. Conversely, if the goal is to gauge overall improvement in the production process, productivity could be the appropriate metric. The number of employees and the cost of personnel are often used interchangeably, as they are related either to overall growth (where an increase is desired) or, for example, they might be used to assess efficiency improvements resulting from automation in production (where a decrease might be desired).
 
-### Average increase in companies’ patent portfolio value
+## Average increase in companies’ patent portfolio value
 
 When the economic growth of a company due to Open Science is recognised to be clearly related to the innovation improvement, the researchers can use as a proxy of economic growth the “average increase in companies’ patent portfolio value”. This metric aims to quantify the monetary gains linked to patents. The monetary value of patents can be found in commercial databases like Orbis IP, along with the identification number of the company in Orbis, another commercial database that provides balance sheet data for companies. This metric is presented also under “innovation output” indicator, since it might also be considered a good proxy of innovation triggered by Open Science. Please refer to that indicator to further detail on how to use the metric in that context.
 
-## Measurement.
+# Measurement
 
 Ideally, researchers aiming to assess the impact of Open Science on the proposed metrics should gather data on both the proxy indicators for economic growth and the indicators for the use of Open Science practices at a company level. However, collecting data on individual companies can be quite complex. Furthermore, relying solely on a simple descriptive analysis of these metrics, such as comparing levels before and after the implementation or influence of Open Science, may not be enough to establish a clear attribution of impact.
 
@@ -84,9 +86,9 @@ Nevertheless, even in this case, the attribution to open science of the change i
 
 The analysis can be carried out by collecting data from existing data sources, where available, and/or through surveying the companies which growth is to be evaluated. As a proposed approach rather than a specific indicator, there are no specific data sources applying to all possible combinations of economic and Open Science metrics. The best sources and data collection strategies should be carefully selected based on the research question, scope, accessibility of data, and other potential factors.
 
-##### Existing datasources:
+#### Existing datasources
 
-###### Company data bases Company data bases and official journals
+##### Company data bases Company data bases and official journals
 
 The proposed proxy indicators are based on company performance indicators including turnover, profit, assets, CAPEX, ROE, ROA, OPEX, productivity, number of employees and others. Data for these indicators is often available from several database providers commonly used in economic and business research. This includes Orbis, LSEG, Nexis and others.
 
@@ -95,30 +97,28 @@ The proposed proxy indicators are based on company performance indicators includ
 -   [LSEG](https://www.lseg.com/en/data-analytics/financial-data/company-data/fundamentals-data) is a company offering access to a proprietary database including company fundamentals (income statement, balance sheet) which can be used to construct the selected indicators.
 -   Company and financial data for 480m companies worldwide can also be accessed through the proprietary [Nexis® Data+](https://www.lexisnexis.com/en-us/professional/data/company-financial-data.page).
 
-###### Reporting data from EU research programme
+##### Reporting data from EU research programme
 
 Companies which participate in EU-funded projects are required to report specific data. In addition, the programme monitoring of the European Commission encompasses a range of indicators. This includes, for example for Horizon 2020, turnover of SMEs and number of employees, as well as reporting on Open Science practices (open data, publications, etc.). The data is captured by the European Commission and partially made available as open data sets through the Horizon Dashboard (<https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/horizon-dashboard>) or as downloadable file (<https://data.europa.eu/data/datasets/cordis-eu-research-projects-under-horizon-europe-2021-2027?locale=en> Here, data on specific participants and their profiles, including companies, can be accessed. For the evaluations of the programme performance, applicants for non-funded projects are used as a control group and compared with the performance of the funded applicants.
 
-###### Company websites and reports
+##### Company websites and reports
 
 Company websites and reports can provide information on the economic performance of individual companies. Companies are often required by law to publish annual reports on their performance. The data can be collected manually, through official registers where annual reports are published, or mined through webscraping techniques.
 
 Paired with organisational information from companies, such as collected from publicly available information and reports mentioned under the previous heading, this can provide data about the Open Science practices within companies.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Benchmark analysis
+##### Benchmark analysis
 
-Benchmark analysis is a viable attempt to estimate at least a correlation between Open Science and economic growth of companies. In the context of Horizon Europe monitoring [@EC2023], the causal effect on the economic growth of companies of participating in the programme is measured using a [difference-in-difference analysis](https://diff.healthpolicydatascience.org/), a statistical technique used in econometrics and social sciences to measure the effect of a treatment or intervention by comparing the changes in outcomes over time between two groups.^[\[2\]](#footnote-3){#footnote-ref-3}^ As it is more of a research framework than a methodology tailored specifically to assess HE metrics, it can easily be adopted in our framework.
+Benchmark analysis is a viable attempt to estimate at least a correlation between Open Science and economic growth of companies. In the context of Horizon Europe monitoring [@EC2023], the causal effect on the economic growth of companies of participating in the programme is measured using a [difference-in-difference analysis](https://diff.healthpolicydatascience.org/), a statistical technique used in econometrics and social sciences to measure the effect of a treatment or intervention by comparing the changes in outcomes over time between two groups[^seminal-books]. As it is more of a research framework than a methodology tailored specifically to assess HE metrics, it can easily be adopted in our framework.
 
 In the case of Open Science, two groups of companies can be compared: a group of companies not using Open Science practices (a “control group”) and second a group of companies which do use Open Science practices (a “treated group”). The objective is to discover whether there are differences in the company performance that are correlated and potentially attributable to the use of Open Science practices. As a first step, statistical tests might be used to investigate whether the two groups are different in terms of average outcomes, namely the metric chosen to proxy economic growth. Furthermore, computing the correlation between Open Science and the outcome variable can help determine if there is a connection between the variations of the two.
 
 A second step of the benchmark analysis might involve more advanced econometric methods such as causal inference techniques like difference-in-difference. This step further requires more technical resources and involves building a robust identification strategy for the causal impact. For instance, as mentioned in the introduction on causality, recognising the confounding factors, either time-invariant or time-varying, is critical to estimating a true causal relationship. In fact, when adopting such causal inference techniques, the indicator of economic growth of companies may attempt to be considered as measuring the causal impact of Open Science. Otherwise, the indicator merely reflects a contribution and correlation, rather than a causal effect.
 
-1.  ::: {#footnote-2}
-    See for further details on how these indicator are defined and composed the two main sets of accounting standards, which are the [US GAAP](https://www.fasb.org/home) and the [IFRS](https://www.ifrs.org/groups/international-accounting-standards-board/). Alternatively, for a simpler approach, one can consult any accounting book to retrieve a detailed definition of any of them. [↑](#footnote-ref-2)
-    :::
+[^indicator-details]:
+    See for further details on how these indicator are defined and composed the two main sets of accounting standards, which are the [US GAAP](https://www.fasb.org/home) and the [IFRS](https://www.ifrs.org/groups/international-accounting-standards-board/). Alternatively, for a simpler approach, one can consult any accounting book to retrieve a detailed definition of any of them.
 
-2.  ::: {#footnote-3}
-    Seminal books on how to perform a causal impact evaluation include “[@angrist2009]. Mostly harmless econometrics: An empiricist's companion. Princeton university press” and “[@cunningham2021]. Causal inference: The mixtape. Yale university press.” [↑](#footnote-ref-3)
-    :::
+[^seminal-books]:
+    Seminal books on how to perform a causal impact evaluation include “[@angrist2009]. Mostly harmless econometrics: An empiricist's companion. Princeton university press” and “[@cunningham2021]. Causal inference: The mixtape. Yale university press.”

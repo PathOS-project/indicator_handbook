@@ -16,13 +16,14 @@ affiliations:
   name: University of Geneva
   city: Geneva
   country: Switzerland
+
+title: Extra-academic collaborations
 ---
 
-# Extra-academic collaborations {#extra-academic-collaborations .unnumbered}
 
 ::: {}
 
-## History
+# History
 
 | Version | Revision date | Revision    | Author       |
 |---------|---------------|-------------|--------------|
@@ -30,7 +31,7 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 This family of indicators is meant to assesses the degree to open science projects fosters and are supported by collaborations with *actors outside the academia* – and in particular with
 
@@ -50,7 +51,7 @@ Instead, this family of indicators focus specifically on tracing how the four di
 5.  Logistical, legal or commercial support for marketing or publication
 6.  Other types of resources
 
-## Existing datasources
+# Existing datasources
 
 The six types of collaborations listed above are not all equally easy to assess and quantify. Indeed, different types of extra-academic collaborations tend to be credited in scientific production in four main ways:
 
@@ -61,25 +62,25 @@ The six types of collaborations listed above are not all equally easy to assess 
 
 Clearly, these four types do not cover the six types of collaborations in a one-to-one way. Authoring a paper can indeed be a marker for any type of involvement in a research and non-financial contributions are sometimes declared by translating them into their financial equivalent – though they not always are. Finally, written acknowledgments are often used to declare collaborations, but their format is not standardized. This means that all the three metrics described below should be accompanied with some qualitative investigation necessary to untangle the different types of collaborations that the same quantity can erroneously lump together.
 
-### Extra-academic authorship
+## Extra-academic authorship
 
 Considering the signatures of the authors of scientific publications and the affiliations attached to those signatures is often the most straightforward way of detecting whether members of non-academic organisations have collaborated on a scientific project. Most forms of scientific publication (books, papers, conferences proceedings, book chapters, etc.) are signed and signed not only with the names of their authors, but also with the name of the organisations to which these authors belong.
 
 Signature affiliations have been used in all sorts of bibliometric research to measure the diversity or homogeneity of the authorship of a given piece of research – by considering, for instance, the geographical or disciplinary spread of the author teams. A similar approach can and has been used to assess which authors of a publication all come from within or beyond the Academia. While such a decision may seem easy, however, it actually entails many ambiguities and difficulties. For one thing, authors often sign with multiple affiliations, and it is not always clear which one is relevant in each situation. People can sign with the name of a given organisation because they want to acknowledge their belonging to it even if they participated in the research under consideration as private individuals or under the aegis of other organisations. Similarly, the distinction between academic and non-academic organisation is not always clear-cut and some research groups can be categorized differently according to different definitions of societal sectors. Finally knowing that someone from a given organisation has signed a given publication tells us that they have contributed to the associated research but not in which precise way.
 
-### Extra-academic authorship
+## Extra-academic authorship
 
 Signatures are not the only way to assess research authorship. Research that went through a formal process of pre- or post-evaluation are generally carefully described either in the *ex-ante* proposal that describe the plan of the research or (even better) in the ex-post reporting documents that illustrate the work that has been done. These documents, when available, can be extremely useful not only to have a precise sense of who has done what in the research, but also to estimate to what extent the collaboration has been fruitful. Unfortunately, however, this type of document is generally only available for the largest most institutionalized projects and smaller research endeavors might not be subjected to this type of reporting. Even when these documents exist, they are sometimes only available to the funding institutions, but not made public because of questions of confidentiality. Finally, proposals and intermediary of final reports rarely follow standard formats, which makes it difficult to examine them quantitatively and on a large scale (though close qualitative reading can provide extremely interesting insights).
 
-### Funding to or from extra-academic organisations
+## Funding to or from extra-academic organisations
 
 We described above how research reporting documents can be useful to investigate collaboration, be them within the academia or beyond its boundaries. We also notice, however, that these documents are not always accessible to investigation. Among them the most frequently available type of reporting document are budgets. Funding records often contains cues about the different contributions that supported a given research. Some budgets contain even the precise dates at which the expenses were made, and the type of expense carried out. This typology of expenses is generally relatively standard, distinguishing between direct and indirect costs, personnel, travel, data acquisition, subcontracting, equipment, etc. Furthermore, budgets come with an inherent quantification, offered by the very effort of “monetization” intrinsic to this accounting exercise. Of course, monetary quantities are neither the only nor the most important measures of scientific effort, yet they can sometime offer an interesting albeit very partial proxy of it.
 
-### Acknowledgment of extra-academic support
+## Acknowledgment of extra-academic support
 
 Finally, scientific publications (be them academic papers, popularization pieces, research blogs) often come with some form of acknowledgments or credits describing the different contributions given to a project, and especially the contributions coming from outside academia. This type of information is the richest of the ones considered in this document, but also the least standardized. However, if researchers can find the time and the patience to consider these acknowledgments qualitatively and manually annotate them, they can provide a mine of information for investigating collaborations across and beyond the Academia.
 
-## Metrics
+# Metrics
 
 The four types of non-academic organisations and the six types of possible collaboration introduced in the “description” section design a matrix of indicator that one can take into consideration in investigating how scientific research is supported by external partnerships:
 

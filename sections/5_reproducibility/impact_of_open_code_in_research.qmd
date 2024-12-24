@@ -10,13 +10,15 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Impact of Open Code in research
 ---
 
-# Impact of Open Code in research {#impact-of-open-code-in-research .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
@@ -24,9 +26,9 @@ affiliations:
 | 1.1     | 2023-07-20    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First Draft | Petros Stavropoulos |
 
-</div>
+:::
 
-## Description
+# Description
 
 The impact of Open Code in research aims to capture the effect of making research code openly accessible and reusable on enhancing the reproducibility of research results, as open and accessible code is a cornerstone for verification and validation in science.
 
@@ -36,9 +38,9 @@ This indicator can be used to assess the level of openness and accessibility of 
 
 This indicator examines the broader effects of making code or software openly accessible, focusing on its role in fostering transparency, collaboration, and reproducibility across the scientific community. This builds upon the [Use of Code in Research](https://handbook.pathos-project.eu/indicator_templates/sections/2_academic_impact/use_of_code_in_research.html), which assesses the initial incorporation of code or software into research, and the [Reuse of Code in Research](https://handbook.pathos-project.eu/indicator_templates/sections/5_reproducibility/reuse_of_code_in_research.html), which measures the extent to which existing code or software is adopted in subsequent studies. Together, these indicators provide a comprehensive view of how code or software contributes to research outputs, reusability, reproducibility, and the wider adoption of Open Code practices.
 
-## Metrics
+# Metrics
 
-### NCI for publications that have introduced/reused Open Code
+## NCI for publications that have introduced/reused Open Code
 
 This metric captures the Normalised Citation Impact (NCI) for publications that have either introduced or reused Open Code. By assessing citation impact, this indicator reflects the visibility and influence of research publications that contribute to or benefit from Open Code practices. Citation-based metrics, including the NCI, are extensively discussed under the academic indicator [Citation Impact](https://handbook.pathos-project.eu/sections/2_academic_impact/citation_impact.html). For general details on the methodology, limitations, and measurement of NCI, refer to the academic indicator and its corresponding metrics.
 
@@ -50,7 +52,7 @@ The NCI for publications that have introduced or reused Open Code is particularl
 
 By focusing on NCI, we can compare publications across disciplines and timeframes, overcoming disparities in citation practices. This ensures that the contribution of Open Code to reproducibility is evaluated on a level playing field, highlighting those practices and outputs that have the greatest impact. Furthermore, normalized metrics allow us to monitor trends in Open Code practices, assess the effectiveness of reproducibility policies, and identify fields or communities where additional incentives for Open Code adoption might be needed.
 
-### Code downloads/usage counts/stars from repositories
+## Code downloads/usage counts/stars from repositories
 
 This metric captures the level of interest and impact of Open Code by measuring repository activity such as downloads, usage counts, and stars. Metrics derived from repository platforms like GitHub, GitLab, or Bitbucket can provide insight into how often code is accessed, favorited, or replicated by other users. These indicators are extensively discussed under the academic indicator [Use of Code in Research](https://handbook.pathos-project.eu/sections/2_academic_impact/use_of_code_in_research.html), particularly in the metric "Repository statistics (# Forks/Clones/Stars/Downloads/Views)." For detailed methodologies and measurement approaches, refer to the academic indicator.
 

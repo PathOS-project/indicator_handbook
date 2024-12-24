@@ -22,13 +22,14 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Distribution of Open Access journal models
 ---
 
-# Distribution of Open Access journal models {#open-access-journals .unnumbered}
 
 ::: {}
 
-## History
+# History
 
 | Version | Revision date | Revision                      | Author                                                  |
 |---------|---------------|-------------------------------|---------------------------------------------------------|
@@ -37,7 +38,7 @@ affiliations:
 
 :::
 
-## Description
+# Description
 
 Description:
 
@@ -65,9 +66,9 @@ Can inform policy decisions, grant funding requirements, and authors' publicatio
 -   Not all fields or research areas may have a culture of OA publishing, which can affect the comparison of the indicator across different contexts.
 -   This indicator also does not account for other forms of OA publishing, such as OA monographs or book chapters, which can also play a role in the dissemination of research findings.
 
-## Metrics
+# Metrics
 
-### Number/Share (%) of Fully OA Journals
+## Number/Share (%) of Fully OA Journals
 
 Description:
 
@@ -87,19 +88,19 @@ Limitations:
 Count or share.
 
 
-#### Measurement.
+### Measurement
 
-##### Datasources
+#### Datasources
 
-###### DOAJ (included in the OpenAIRE Graph)
+##### DOAJ (included in the OpenAIRE Graph)
 
 Limitations:
 
 -   While DOAJ is comprehensive, not all OA journals may be listed, especially if they are newer or have not met the DOAJ's criteria.
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
-##### Methodology
+#### Methodology
 
 This methodology is taken from [OpenAIRE MONITOR](https://monitor.openaire.eu/methodology/terminology%22%20\l%20%22constructed-attributes) and uses the OpenAIRE Graph as the input database.
 
@@ -109,7 +110,7 @@ A journal is defined as fully Open Access if one or more of the following occur:
 -   It has a known fully OA Publisher (curated list that will be included in the OpenAIRE Graph in Q1 2024).
 -   It only publishes OA articles.
 
-### Number/Share (%) of Hybrid OA Journals
+## Number/Share (%) of Hybrid OA Journals
 
 **A hybrid OA journal is a subscription journal where some of its articles are open access.**
 
@@ -123,15 +124,15 @@ Limitations:
 -   The metric may not capture the nuances of each hybrid journal's open access policies.
 -   The prevalence of hybrid OA doesn't necessarily indicate the volume of OA content..
 
-#### Measurement.
+### Measurement
 
-##### Datasources
+#### Datasources
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
 Count or take the share (%) of journals in OpenAIRE with open access articles that are not fully OA journals as defined in the previous metric.
 
-### Number/Share (%) of Diamond OA Journals
+## Number/Share (%) of Diamond OA Journals
 
 A diamond OA journal is a fully OA journal that does not charge article processing charges (APCs). In other words the diamond OA journals are a subset of the fully Open Access journals (described in 10.3.1).
 
@@ -144,13 +145,13 @@ Limitations:
 
 -   Relying on APC data might not capture other potential costs or financial barriers associated with publishing in the journal.
 
-#### Measurement.
+### Measurement
 
-##### Datasources
+#### Datasources
 
-###### DOAJ
+##### DOAJ
 
-###### OpenAIRE Graph
+##### OpenAIRE Graph
 
 Use APC data from DOAJ (integrated in the OpenAIRE Graph or using DOAJ's Public Data Dump - an exportable version of the journal metadata). Used it to determine whether a particular fully OA journal charges APCs.
 

@@ -11,13 +11,15 @@ affiliations:
   department: Centre for Internet and Society
   city: Paris
   country: France
+
+title: Uptake in the legal sector
 ---
 
-# Uptake in the legal sector {#uptake-in-the-legal-sector .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision             | Author                           |
 |---------------|---------------|-----------------|---------------------------|
@@ -26,9 +28,9 @@ affiliations:
 | 0.5     | 2024-03-26    | First draft          | Melanie Dulong de Rosnay         |
 | 0.1     | 2024-02-23    | Preliminary research | Melanie Dulong de Rosnay         |
 
-</div>
+:::
 
-## Description
+# Description
 
 This section presents two aspects of the indicator on the legal sector: the scope of legal open science (A), the context and the specificities of the legal sector (B).
 
@@ -64,13 +66,13 @@ A short **history** of the sector is necessary to understand how open applies to
 
 The legal information industry shaped the availability of both legal texts and legal scholarship, especially in the Anglo-Saxon and Common Law world: oligopoly situation made it difficult to access before the development of public alternatives and open science repositories changed the market [@arewa; @janssens]. Legal texts and case law databases, before national portals offering open government data, started to structure primary legal sources (legal information in the form of law, regulation, administrative texts, and courts decision, offering an alternative to commercial platforms and market aggregators. In the early 2000, the 2003 PSI Directive revised in furthered legal access to public sector information (defined as public sector information, geographic data, cultural heritage, scientific publications and data). Together with the open data and open government movements, and the development of public sector information platforms such as Etalab or data.gov.nl, this Directive participated to removing legal obstacles to open data [@dulongderosnay2014]. Amended in 2019, the Directive focusing on open data and the re-use of public sector information has been instrumental in the development of legal open data.
 
-## Metrics
+# Metrics
 
-### Number of legal articles deposit in Green OA repositories
+## Number of legal articles deposit in Green OA repositories
 
 A metric could be the proportion growth of the domain compared to other disciplines in HAL archive
 
-### Number of legal journals in Gold or Diamond OA:
+## Number of legal journals in Gold or Diamond OA
 
 A metric could be the growth of the legal open science journals among all Open Edition journals during the last 20 years
 
@@ -78,21 +80,21 @@ These measures the growth of open legal research as a field as opposed to closed
 
 This indicator may not reflect very well some national markets, as close to 100% of European universities have a subscription to the main private databases and do not have problems to access to their own literature, unlike to researchers from non-law universities, governmental officers and private citizens who hugely benefit from OA publications.
 
-### Number of legal open datasets made available on public portals
+## Number of legal open datasets made available on public portals
 
 A metric could be the growth of the domain on data.gouv.fr or data.gov.nl.
 
 The limit of this indicator is that it doesn’t measure reuse and impact.
 
-### Number of citations of OA legal research and datasets in legal texts:
+## Number of citations of OA legal research and datasets in legal texts
 
 Both open and closed academic sources can be cited in justice opinions, parliamentary or governmental reports, and their influence in framing the policy or legal opinion might be deduced from the context.
 
-#### Measurement.
+### Measurement
 
-##### Existing datasources:
+#### Existing datasources
 
-###### Open Access repositories
+##### Open Access repositories
 
 -   SSRN, the main venue for legal academics
 -   institutional repositories
@@ -100,12 +102,12 @@ Both open and closed academic sources can be cited in justice opinions, parliame
 -   Scielo in Latinamerica
 -   HAL in France
 
-###### Open Acces journals
+##### Open Acces journals
 
 -   Open Edition journals: 22 in law
 -   SciELO journals: 20 active journals with the query Derecho (law in Spanish)
 
-###### Legal datasets on open data governmental portals
+##### Legal datasets on open data governmental portals
 
 -   There are 35 149 datasets on data.gouv.fr, 23218 datasets on the Dutch portal data.
 -   All similar open governmental national, regional and municipal platforms may be queried.
@@ -115,7 +117,7 @@ Both open and closed academic sources can be cited in justice opinions, parliame
 
 The limit of this indicator is that it doesn’t measure reuse and impact, only availability of legal datasets.
 
-###### Datasources for citations
+##### Datasources for citations
 
 Both open and closed academic sources can be cited in justice opinions, parliamentary or governmental reports, and their influence in framing the policy or legal opinion can be deduced from the context.
 
@@ -123,9 +125,9 @@ The OpenAIRE Research Graph, as underlined in the Patients groups indicator, can
 
 Similarly to the indicator on the uptake by Policy-makers, which is very close to the legal sector, since they write the law, altmetrics tools can be used to analyse legal text such as Overton (<https://www.overton.io/>) indexing policy sources and how a scientific article has been mentioned in a policy document.
 
-##### Existing methodologies
+#### Existing methodologies
 
-###### Cultural heritage information
+##### Cultural heritage information
 
 Cultural heritage information, a subpart of public sector information and in that sense legal open science, must be made available for reuse under open terms and conditions since the 2013 Directive [@keller2014].
 
@@ -135,11 +137,11 @@ Quantitative indicators can be number of visits of the Cultural Heritage Institu
 
 More narrowly, open science metadata availability as open science data benefits research and education in art, art history, cultural studies and library information sciences and citations in those academic journals could be counted.
 
-###### Value of open data ecosystems
+##### Value of open data ecosystems
 
 For a more qualitative analysis of the value created by open data, the current European project ODECO (Towards a sustainable Open Data ECOsystem) is studying the value of open data ecosystems [@loenen2021], with several research interesting for PathOS: on the relation between open gov data and NGOs, on value creation in open data and its redistribution, on the co-creation of services between governments and companies. In particular, the methodology of the work-in-progress of ESR3 research could be an inspiration “To develop a framework for assessing the distribution of value of open data ecosystems, based on a detailed investigation of relevant literature and related practices, to measure value distribution in the open data ecosystem by applying the assessment framework to real cases in Belgium and Finland (comparative case study approach), to investigate models and approaches for redistributing value across different stakeholders in open data ecosystems (on value creation in garden data ecosystems [@cazacu2023].
 
-###### Qualitative assessment of the impact of legal open science beyond citations
+##### Qualitative assessment of the impact of legal open science beyond citations
 
 There are many limits to a quantitative citation approach.
 
@@ -157,10 +159,10 @@ Finally, it is crucial to include in any qualitative study or questionnaire a sa
 
 Once these limitations and pointers to qualitative assessment have been acknowledged, it is nevertheless possible to perform the same automatic queries than for other indicators, for instance the patient groups community or the policy-makers, in order to provide a possibly limited, top of the iceberg understanding of the reuse of OS by the legal sector, without evidencing all the real impact.
 
-## Known correlates
+# Known correlates
 
 In the absence of citation, it is difficult to assert that a legal decision has been taken following a research result published in an Open Access journal possibly relying on an Open Data set. Correlation (or coincidence, as explained in the Societal Issues indicator) cannot be interpreted as causation, or direct and only impact.
 
-## Notes
+# Notes
 
 A systematic literature review on the topic on the impact of open science in the legal sector seems difficult to perform , because keywords lead to references addressing different research questions, such as the legal aspects of open science.

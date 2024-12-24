@@ -10,13 +10,15 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
+
+title: Reuse of data in research
 ---
 
-# Reuse of data in research {#reuse-of-data-in-research .unnumbered}
 
-<div>
+::: {.callout collapse="true"}
 
-## History
+
+# History
 
 | Version | Revision date | Revision    | Author              |
 |---------|---------------|-------------|---------------------|
@@ -24,9 +26,9 @@ affiliations:
 | 1.1     | 2023-07-20    | Revisions   | Petros Stavropoulos |
 | 1.0     | 2023-05-11    | First draft | Petros Stavropoulos |
 
-</div>
+:::
 
-## Description
+# Description
 
 The reuse of data in research refers to the practice of utilizing existing data sets for new research questions. It is a common practice in various scientific fields, and it can lead to increased scientific efficiency, reduced costs, and enhanced scientific collaborations. Additionally, the reuse of well-documented data can serve as an independent verification of original findings, thereby enhancing the reproducibility of research. This indicator aims to capture the extent to which researchers engage in the reuse of data in their research, by quantifying the number and proportion of studies that utilize previously collected data. The indicator can be used to assess the level of scientific collaboration and sharing of data within a specific scientific community or field, and to identify potential barriers or incentives for the reuse of data in research. Additionally, it can serve as a measure of the quality and reliability of research, as the reuse of data can increase the transparency, validity, and replicability of research findings.
 
@@ -34,9 +36,9 @@ The reuse of data in research refers to the practice of utilizing existing data 
 
 This indicator emphasizes the adoption and utilization of existing datasets for new research purposes, highlighting its role in enhancing reusability, reproducibility, collaboration, and research efficiency. In contrast, the [Use of Data in Research](https://handbook.pathos-project.eu/indicator_templates/sections/2_academic_impact/use_of_data_in_research.html) focuses on the initial incorporation of data into research activities and its contributions to academic outputs. Furthermore, the [Impact of Open Data in Research](https://handbook.pathos-project.eu/indicator_templates/sections/5_reproducibility/impact_of_open_data_in_research.html) extends this perspective by evaluating how openly shared datasets foster transparency, accessibility, and innovation across the scientific community.
 
-## Metrics
+# Metrics
 
-### Number of datasets reused in publications
+## Number of datasets reused in publications
 
 This metric emphasizes the reuse of datasets in research publications, highlighting its importance in fostering reproducibility, collaboration, and research efficiency. The reuse of datasets serves as an essential mechanism for validating findings and building upon prior research, enhancing the transparency and replicability of scientific outputs.
 
