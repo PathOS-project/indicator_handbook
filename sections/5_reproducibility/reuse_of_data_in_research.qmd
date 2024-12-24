@@ -45,30 +45,3 @@ This aligns closely with the metrics discussed in the [Use of Data in Research](
 In the context of reproducibility, the reuse of datasets reflects the scientific community's ability to leverage existing data to answer new research questions. It underscores the importance of effective data sharing practices, robust metadata, and clear licensing, as these enable other researchers to trust, access, and incorporate datasets into their work. Furthermore, higher levels of data reuse often indicate stronger collaboration and trust within a scientific field, which are critical for advancing reproducible research.
 
 By interpreting dataset reuse through the lens of reproducibility, this indicator also highlights the extent to which researchers adopt transparent and open research practices. The repeated utilization of datasets ensures that original findings are validated and that the data itself is robust, reliable, and suitable for diverse applications.
-
-##### Datasources
-
-###### OpenAIRE
-
-OpenAIRE is a European Open Science platform that provides access to millions of openly available research publications, datasets, software, and other research outputs. OpenAIRE aggregates content from various sources, including institutional and thematic repositories, data archives, and publishers. This platform provides usage statistics for each research output in the form of downloads, views, and citations, which can be used to measure the impact and reuse of research outputs, including Open Datasets.
-
-To measure the proposed metric, [OpenAIRE Explore](https://explore.openaire.eu/) can be used to find and access Open Datasets, study their usage statistics, and identify the research publications that reference them.
-
-However, it's important to note that OpenAIRE Explore does not provide comprehensive data for directly calculating the metric, but rather provides the publication references of each Open Software that need to be analysed.
-
-###### DataCite
-
-[DataCite](https://datacite.org/) is a global registry of research data repositories and datasets, providing persistent identifiers for research data to ensure that they are discoverable, citable, and reusable. The dataset landing pages on DataCite contain information about the dataset, such as metadata, version history, and download statistics.
-
-To measure the proposed metric, we can employ the DataCite REST API to identify relevant datasets, along with to find their DOI, metadata and usage statistics.
-
-##### Existing methodologies
-
-
-###### DataSeer.ai
-
-[DataSeer.ai](https://dataseer.ai/) is a platform that utilizes machine learning and Natural Language Processing (NLP) to facilitate the detection and extraction of datasets, methods, and software mentioned in academic papers. The platform can be used to identify instances of dataset reuse within the text of research articles and extract associated metadata.
-
-To measure the proposed metric, DataSeer.ai can scan the body of text in research articles and identify instances of dataset reuse.
-
-However, it is important to note that DataSeer.ai's ability to determine actual data reuse may depend on the explicitness of the authors' writing about their data usage, thus not capturing all instances of dataset reuse if they are not explicitly mentioned in the text. Moreover, the machine learning algorithms used by the tool may not always accurately classify whether a dataset has been reused, and may require manual validation.
