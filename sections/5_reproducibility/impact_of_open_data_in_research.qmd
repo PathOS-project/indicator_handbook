@@ -50,17 +50,6 @@ The NCI for publications that have introduced or reused Open Data is particularl
 
 By focusing on NCI, we can compare publications across disciplines and timeframes, overcoming disparities in citation practices. This ensures that the contribution of Open Data to reproducibility is evaluated equitably, identifying impactful practices and outputs. Furthermore, normalized metrics allow us to track trends in Open Data adoption, evaluate the effectiveness of Open Data policies, and identify areas where further incentives for Open Data practices might be beneficial. Such analysis provides critical insights into the evolving role of Open Data in enhancing scientific reliability and collaboration across research communities.
 
-
-##### Existing methodologies
-
-###### SciNoBo toolkit
-
-The SciNoBo toolkit [@gialitsis2022; @kotitsas2023] can be used to classify scientific publications into specific fields of science, which can then be used to calculate their NCI score. The tool utilizes the citation-graph of a publication and its references to identify its discipline and assign it to a specific Field-of-Science (FoS) taxonomy. The classification system of publications is based on the structural properties of a publication and its citations and references organized in a multilayer network.
-
-Furthermore, a new component of the SciNoBo toolkit, currently undergoing evaluation, involves an automated tool that employs Deep Learning and Natural Language Processing techniques to identify datasets mentioned in the text of publications and extract metadata associated with them, such as name, version, license, URLs etc. This tool can also classify whether the datasets has been introduced by the authors of the publication.
-
-To measure the proposed metric, the tool can be used to identify relevant publications that have introduced or (re)used datasets and calculate their NCI score.
-
 ### Dataset downloads/usage counts/stars from repositories
 
 This metric captures the level of interest and impact of Open Datasets by measuring repository activity such as downloads, usage counts, and stars. Metrics derived from repository platforms like Zenodo, DataCite, or GitHub can provide insight into how often datasets are accessed, favorited, or reused by other users. These indicators are extensively discussed under the academic indicator [Use of Data in Research](https://handbook.pathos-project.eu/sections/2_academic_impact/use_of_data_in_research.html), particularly in the metric "Number (Avg.) of views/clicks/downloads from repository." For detailed methodologies and measurement approaches, refer to the academic indicator.
@@ -68,7 +57,6 @@ This metric captures the level of interest and impact of Open Datasets by measur
 In the context of reproducibility, this indicator highlights how repository usage statistics reflect the accessibility and usability of Open Datasets. High download counts, frequent views, or significant repository engagement often suggest that datasets are well-documented, standardized, and integral to the reproducibility of scientific findings. These metrics serve as proxies for the broader acceptance and utility of the datasets within the research community.
 
 Furthermore, repository metrics provide insights into the integration of Open Data practices within the research ecosystem. Datasets that are widely accessed and reused facilitate cumulative science by enabling researchers to verify existing results, build upon prior work, and avoid redundant data collection efforts. By monitoring repository engagement, we can evaluate the effectiveness of Open Data practices in promoting transparency and reproducibility while identifying gaps in documentation, accessibility, or usability that may hinder broader adoption and reuse of Open Data.
-
 
 ### Downloads / views of published DMPs
 
