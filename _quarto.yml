@@ -79,7 +79,6 @@ website:
             - sections/2_academic_impact/diversity.qmd
             - sections/2_academic_impact/extra-academic_collaboration.qmd
             - sections/2_academic_impact/interdisciplinarity_novelty.qmd
-            - sections/2_academic_impact/novelty.qmd
             - sections/2_academic_impact/quality.qmd
             - sections/2_academic_impact/use_of_code_in_research.qmd
             - sections/2_academic_impact/use_of_data_in_research.qmd
