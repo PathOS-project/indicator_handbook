@@ -10,12 +10,11 @@ affiliations:
   name: Athena Research Center
   city: Athena
   country: Greece
----
-
 
 title: Uptake in medical practice
+---
 
-::: {}
+<div>
 
 # History
 
@@ -25,11 +24,11 @@ title: Uptake in medical practice
 | 1.1     | 2024-03-29    | Review      | Tommaso Venturini   |
 | 1.0     | 2024-03-22    | First draft | Petros Stavropoulos |
 
-:::
+</div>
 
 # Description
 
-This indicator aims to capture the extent to which Open Science (OS) inputs such as code, data, and OA publications are integrated into medical practice, as evidenced by their mentions or references in medical guidelines and clinical trials. 
+This indicator aims to capture the extent to which Open Science (OS) inputs such as code, data, and OA publications are integrated into medical practice, as evidenced by their mentions or references in medical guidelines and clinical trials.
 
 A clinical trial is a research study that tests the safety and effectiveness of new medical interventions through structured phases involving participants who receive either the treatment or a placebo. In contrast, medical guidelines are comprehensive recommendations for healthcare providers, developed from a thorough review of existing evidence, including clinical trials, to standardize and improve patient care. While clinical trials generate new data about specific interventions, medical guidelines synthesize this data to offer evidence-based advice on best practices in clinical settings.
 
@@ -51,7 +50,7 @@ Firstly, the variation in referencing styles across different guidelines can mak
 
 **Methodology**:
 
-**Step 1: Database Selection.** Choose databases that extensively []{#_Int_cDGukZbn}indexes medical guidelines, with PubMed being the primary source due to its wide coverage of biomedical literature.
+**Step 1: Database Selection.** Choose databases that extensively indexes medical guidelines, with PubMed being the primary source due to its wide coverage of biomedical literature.
 
 **Step 2: Search Strategy Development.** Develop a search strategy with terms (or filters in the case of PubMed) related to medical guidelines and optionally combine them with keywords identifying datasets, or software. This strategy should be tailored to capture the broadest possible range of relevant references while minimizing irrelevant results.
 
@@ -84,11 +83,11 @@ In steps:
 
 To utilize ClinicalTrials.gov for the calculation of the metric:
 
-1. Identify clinical trials mentioning OA resources using relevant keywords.
-2. Collect details on the use of OA publications, datasets, or software.
-3. Calculate the proportion of trials referencing OS inputs.
-4. Verify OA status using the OpenAIRE Research Graph.
-5. Manually validate data for accuracy.
+1.  Identify clinical trials mentioning OA resources using relevant keywords.
+2.  Collect details on the use of OA publications, datasets, or software.
+3.  Calculate the proportion of trials referencing OS inputs.
+4.  Verify OA status using the OpenAIRE Research Graph.
+5.  Manually validate data for accuracy.
 
 ##### OpenAIRE Research Graph
 
