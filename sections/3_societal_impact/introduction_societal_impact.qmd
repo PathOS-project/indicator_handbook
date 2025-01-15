@@ -18,8 +18,9 @@ affiliations:
   country: Switzerland 
 
 title: Introduction to societal impact
----
 
+repo-actions: true
+---
 
 ::: {.callout collapse="true"}
 # History

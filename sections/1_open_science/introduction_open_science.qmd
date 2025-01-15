@@ -13,6 +13,8 @@ affiliations:
   country: the Netherlands
 
 title: Introduction to Open Science
+
+repo-actions: true
 ---
 
 ::: {.callout collapse="true"}
