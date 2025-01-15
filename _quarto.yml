@@ -31,6 +31,10 @@ website:
     - text: "Reproducibility"
       href: sections/5_reproducibility/introduction_reproducibility.qmd
 
+    tools:
+      - icon: github
+        href:  https://github.com/PathOS-project/indicator_handbook/
+
   sidebar:
 
     - title: Home
