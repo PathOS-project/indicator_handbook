@@ -1,0 +1,92 @@
+---
+title: Thematic Persistence Score (TPS)
+author:
+  - name: P. Stavropoulos
+    orcid: 0000-0003-1664-6554
+    affiliations:
+      - ref: arc
+affiliations:
+  - id: arc
+    name: Athena Research Center
+    city: Athena
+    country: Greece
+---
+
+::: {.callout collapse="true"}
+
+# History
+
+| Version | Revision date | Revision    | Author              |
+|---------|---------------|-------------|---------------------|
+| 1.0     | 2025-05-09    | First Draft | Petros Stavropoulos |
+
+:::
+
+# Description
+
+The *Thematic Persistence Score (TPS)* quantifies the continuity and growing relevance of research topics over time. Unlike single-moment impact metrics, TPS focuses on the sustained presence and development of a topic within the scientific literature. This allows the detection of emerging themes that gain traction and helps distinguish persistent research agendas from fleeting trends.
+
+Persistent topics can signal strategic areas for funding, guide curriculum development, or highlight shifts in disciplinary focus. They provide insight into the structural evolution of research fields and identify which topics have lasting influence in the academic community.
+
+TPS is especially relevant in the context of Open Science, where transparent tracking of trends contributes to reproducibility, research evaluation, and strategic foresight.
+
+## Thematic Persistence Score (TPS)
+
+TPS is a composite metric based on:
+
+- **Sequence Length**: Number of consecutive years a topic appears, with exponential weighting.
+- **Growth Pattern**: Increase in the number of publications over time.
+- **Volume**: Total number of papers on the topic.
+- **Citation Impact**: Field-Weighted Citation Impact (FWCI) for publications in the topic.
+- **Recency**: Preference for topics that remain active in recent years.
+
+Together, these factors help identify which research themes demonstrate durable engagement by the academic community.
+
+### Measurement
+
+#### Mathematical Formula
+
+For each topic, sequences of consecutive years are identified where the topic appears in publications. For each such sequence `s`, the score is computed as:
+
+$$
+\text{Score}_s = (\text{Length}_s)^{1.5} \times \text{Count}_s \times \text{Growth}_s \times \text{FWCI}_s \times \text{Recency}_s
+$$
+
+Where:
+- $\text{Length}_s$: Length of the sequence (in years)
+- $\text{Count}_s$: Number of publications in the sequence
+- $\text{Growth}_s = \frac{\text{LastYearCount}}{\text{FirstYearCount}}$ (capped at 3)
+- $\text{FWCI}_s$: Mean Field-Weighted Citation Impact for publications in the sequence
+- $\text{Recency}_s = 1 + \frac{w (\text{LastYear}_s - \text{MaxYear} + 10)}{10}$, with $w$ as a recency weight (e.g. 0.2)
+
+The final TPS is the sum of the scores for all sequences of the topic:
+
+$$
+\text{TPS}_{\text{topic}} = \sum_s \text{Score}_s
+$$
+
+#### Datasources
+
+##### OpenAIRE Research Graph
+
+The [OpenAIRE Research Graph](https://graph.openaire.eu/) offers extensive metadata on publications, including:
+- **Publication year**, which is crucial for identifying consecutive topic appearances.
+- **Citation metadata**, enabling FWCI computation via connected sources.
+
+##### Semantic Scholar
+
+[Semantic Scholar](https://www.semanticscholar.org/) offers full-text access and machine-readable metadata, including:
+- Year of publication
+- Citation counts
+
+#### Existing Methodologies
+
+##### SciNoBo Toolkit
+
+The [SciNoBo Toolkit](https://scinobo.ilsp.gr/toolkit) provides essential functionalities for TPS:
+
+- **Field of Science (FoS) classification**: Uses a hierarchical taxonomy (6 levels) to assign topics to publications, capturing both broad disciplines and fine-grained emerging themes. This allows robust tracking of how topics evolve across scientific fields.
+  
+- **Citation Analysis**: Aggregates citation metrics across publications, facilitating computation of Field-Weighted Citation Impact (FWCI) for each topic-year combination.
+
+These tools make it feasible to apply the TPS metric across large bibliographic datasets with a rich contextual understanding of scientific domains.
