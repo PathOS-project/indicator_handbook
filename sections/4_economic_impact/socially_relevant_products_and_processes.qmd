@@ -29,7 +29,7 @@ title: Socially relevant products and processes
 
 :::
 
-# Description {#description .unnumbered}
+# Description
 
 This indicator aims to identify and evaluate the impact of Open Science (OS) inputs on the development of socially relevant products and processes. For the purposes of this metric, societal relevance is defined as the ability of a product or process to address critical societal needs, such as healthcare challenges, sustainability goals, or equitable access to resources. Societal relevance may be contextual and is determined through expert evaluation or stakeholder consultation.
 
@@ -37,7 +37,7 @@ Examples of socially relevant advancements include medical treatments, drugs, su
 
 This metric acknowledges inherent limitations, such as the contextual and multifaceted nature of societal relevance and the trade-offs associated with technological innovations. These limitations are detailed in the **Notes** section.
 
-# Metrics {#metrics .unnumbered}
+# Metrics
 
 ## Number / Percentage of “socially relevant products and processes” using OS resources
 
@@ -52,7 +52,7 @@ This metric calculates the proportion of socially relevant products and processe
 
 This combined measurement offers a holistic view of OS's role in fostering innovations that benefit society. The challenge lies in accurately capturing and attributing the role of OS inputs across diverse domains. This metric can also be measured for a single innovation type, allowing for more focused assessments relevant to particular fields of study.
 
-### Measurement.
+### Measurement
 
 To measure the proposed metric a systematic approach is required to capture the multifaceted contributions of OS across various sectors. This measurement aims to quantify the extent to which OS inputs facilitate the development of innovations in healthcare, agriculture, and renewable energy that have significant societal impact. A primary challenge in this measurement process is the identification and accurate attribution of OS contributions to the final products or processes, given the complex and often opaque development pathways. Additionally, the availability and accessibility of reliable data sources that explicitly link OS resources to specific innovations pose significant measurement challenges. These challenges are compounded by the diversity of sectors involved, each with its own set of data availability and methodological approaches for tracking innovation development.
 
@@ -74,7 +74,7 @@ To measure the proposed metric a systematic approach is required to capture the 
 
 The measurement process, while systematic, may encounter limitations such as incomplete data records, the indirect impact of OS resources that are difficult to quantify, and the evolving nature of what constitutes "open science" practices. Additionally, the dynamic and interdisciplinary nature of innovation development often blurs the lines between direct and indirect contributions of OS, making the measurement challenging yet essential for understanding OS's true impact.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### Patent Databases (Lens.org, PATSTAT, USPTO)
 
@@ -172,13 +172,13 @@ By integrating these databases with other datasources, researchers can comprehen
 
 ##### SciNoBo Research Artifact Analysis (RAA) Tool
 
-This is an automated tool (Stavropoulos et al., 2023), leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
+This is an automated tool [@stavropoulos2023], leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 
 To measure the proposed metric, the tool can be used to identify the reused and created OS resources in the OA publication texts.
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
 
-# Known correlatesNotes {#known-correlatesnotes .unnumbered}
+# Notes
 
 This section outlines key considerations, limitations, and areas for future work regarding the metric for socially relevant products and processes using Open Science (OS) resources. These points aim to provide clarity on the metric's scope, highlight challenges, and suggest potential directions for refinement and expansion.
 
