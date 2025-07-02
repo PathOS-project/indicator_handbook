@@ -6,3 +6,5 @@
 /.luarc.json
 **/_targets
 **/_freeze/
+
+*.docx
