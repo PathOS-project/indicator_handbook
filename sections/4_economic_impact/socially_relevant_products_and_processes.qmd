@@ -1,38 +1,25 @@
----
-author:
-    - name: P. Stavropoulos
-      orcid: 0000-0003-1664-6554
-      affiliations:
-      - ref: arc
+# Socially relevant products and processes {#socially-relevant-products-and-processes .unnumbered}
 
-affiliations:
-- id: arc
-  name: Athena Research Center
-  city: Athena
-  country: Greece
+History (please fill out in reverse chronological order, latest revision on top):
 
-title: Socially relevant products and processes
----
-
-
-::: {.callout collapse="true"}
-
-
-# History
-
+|  |  |  |  |
+|----|----|----|----|
 | Version | Revision date | Revision | Author |
-|----------------|----------------|----------------|-------------------------|
+| 1.4 | 2024-12-16 | Feedback incorporation | Petros Stavropoulos |
 | 1.3 | 2024-04-29 | Second Draft | Petros Stavropoulos |
 | 1.2 | 2024-04-24 | Peer review | V.A. Traag |
 | 1.1 | 2024-03-19 | First draft | Petros Stavropoulos, Erica Delugas (reviewer) |
+| 1.0 | 2023-02-07 | Finalised indicator template | T.P. Willemse, V.A. Traag |
 
-:::
+# Description {#description .unnumbered}
 
-# Description
+This indicator aims to identify and evaluate the impact of Open Science (OS) inputs on the development of socially relevant products and processes. For the purposes of this metric, societal relevance is defined as the ability of a product or process to address critical societal needs, such as healthcare challenges, sustainability goals, or equitable access to resources. Societal relevance may be contextual and is determined through expert evaluation or stakeholder consultation.
 
-This indicator aims to identify and evaluate the impact of Open Science (OS) inputs on the development of socially relevant products and processes. These include advancements such as medical treatments, drugs, sustainable agricultural practices, and new renewable energy technologies that contribute to societal well-being (e.g., address key challenges outlined in the Sustainable Development Goals). By tracking the adoption and integration of OS inputs in these areas, the indicator sheds light on the practical benefits of open research practices and their contribution to societal progress and innovation.
+Examples of socially relevant advancements include medical treatments, drugs, sustainable agricultural practices, and renewable energy technologies that contribute to societal well-being. Additionally, “breakthrough innovations,” such as transformative treatments for rare diseases or the creation of new clinical guidelines with substantial societal impact, can also represent societal relevance. By tracking the adoption and integration of OS inputs in these areas, this indicator sheds light on the practical benefits of open research practices and their contribution to societal progress and innovation.
 
-# Metrics
+This metric acknowledges inherent limitations, such as the contextual and multifaceted nature of societal relevance and the trade-offs associated with technological innovations. These limitations are detailed in the **Notes** section.
+
+# Metrics {#metrics .unnumbered}
 
 ## Number / Percentage of “socially relevant products and processes” using OS resources
 
@@ -42,22 +29,26 @@ This metric calculates the proportion of socially relevant products and processe
 -   New drugs
 -   Sustainable agriculture practices
 -   New renewable energy technologies
+-   Breakthrough innovations (e.g., treatments for rare diseases)
+-   New clinical guidelines
 
-The combined measurement offers a holistic view of OS's role in fostering innovations that benefit society. The challenge lies in accurately capturing and attributing the role of OS inputs across diverse domains.
+This combined measurement offers a holistic view of OS's role in fostering innovations that benefit society. The challenge lies in accurately capturing and attributing the role of OS inputs across diverse domains. This metric can also be measured for a single innovation type, allowing for more focused assessments relevant to particular fields of study.
 
-This metric can also be measured for a single innovation type, allowing for more focused assessments relevant to particular fields of study.
-
-### Measurement
+### Measurement.
 
 To measure the proposed metric a systematic approach is required to capture the multifaceted contributions of OS across various sectors. This measurement aims to quantify the extent to which OS inputs facilitate the development of innovations in healthcare, agriculture, and renewable energy that have significant societal impact. A primary challenge in this measurement process is the identification and accurate attribution of OS contributions to the final products or processes, given the complex and often opaque development pathways. Additionally, the availability and accessibility of reliable data sources that explicitly link OS resources to specific innovations pose significant measurement challenges. These challenges are compounded by the diversity of sectors involved, each with its own set of data availability and methodological approaches for tracking innovation development.
 
 **Methodology**:
 
-**Step 1: Identification of Innovations.** Initiate the measurement process by identifying recent developments in the targeted sectors (healthcare, agriculture, renewable energy) that qualify as socially relevant products or processes.
+**Step 1: Identification of Innovations.** Initiate the measurement process by identifying recent developments in the targeted sectors (healthcare, agriculture, renewable energy) that qualify as socially relevant products or processes. These include:
+
+-   Medical treatments, drugs, sustainable agriculture practices, and renewable energy technologies.
+-   Breakthrough innovations (e.g., novel therapies for rare diseases as identified in regulatory databases or research outputs).
+-   Clinical guidelines, which often consolidate evidence into impactful recommendations for societal benefit.
 
 **Step 2: Verification of OS Inputs.** For each identified innovation, investigate the use and contribution of OS inputs during its development. This involves examining research publications, development reports, and any available documentation that mentions or suggests the use of open data, open-source software/methodologies, or collaborative efforts facilitated by OS principles.
 
-**Step 3: Data Collection.** Utilize existing datasources such as press releases, Lens.org, ClinicalTrials.gov, PubMed, and OpenAIRE to gather detailed information about each innovation. This includes the nature of the innovation, the role of OS in its development, and the impact on society.
+**Step 3: Data Collection.** Utilize existing datasources such as press releases, Lens.org, ClinicalTrials.gov, PubMed, and OpenAIRE to gather detailed information about each innovation. Additionally, FDA and EMA databases can be used to track approved drugs and medical devices, while patent databases like PATSTAT and USPTO provide insights into OS-related patents. For sustainable agricultural advancements, AGRIS serves as a valuable resource. Together, these datasources offer comprehensive insights into the nature of innovations, the role of OS in their development, and their societal impact.
 
 **Step 4: Analysis and Quantification.** Analyze the collected data to determine the extent of OS contributions to the development of each innovation. Calculate the number and percentage of these innovations attributed to OS resources compared to the total number of innovations in each sector. This step involves assessing the reliability of the data and dealing with any inconsistencies or gaps in information.
 
@@ -65,17 +56,21 @@ To measure the proposed metric a systematic approach is required to capture the 
 
 The measurement process, while systematic, may encounter limitations such as incomplete data records, the indirect impact of OS resources that are difficult to quantify, and the evolving nature of what constitutes "open science" practices. Additionally, the dynamic and interdisciplinary nature of innovation development often blurs the lines between direct and indirect contributions of OS, making the measurement challenging yet essential for understanding OS's true impact.
 
-#### Existing datasources
+#### Existing datasources:
 
-##### Lens.org
+##### Patent Databases (Lens.org, PATSTAT, USPTO)
 
 Lens.org is a comprehensive database that integrates patent data, scholarly communication, and regulatory information. It allows researchers to explore the connections between patents, research articles, and the impact of research on society. For the metric of socially relevant products and processes using OS resources, Lens can be instrumental in identifying patents and publications related to new medical treatments, drugs, sustainable agriculture practices, and renewable energy technologies developed with OS contributions.
 
-To calculate the metric using Lens, one could follow these steps:
+PATSTAT is a global patent statistical database maintained by the European Patent Office (EPO) that offers a detailed set of patent data, including bibliographic data, citations, family links, and legal status information for patents across multiple jurisdictions. It is designed to facilitate statistical analysis on patents and their citations to understand trends in innovation.
+
+The USPTO database, primarily accessed through the Patent Public Search (PPUBS) tool, is a comprehensive resource for searching U.S. patents and patent application publications. It features two interfaces—Basic and Advanced—allowing users to conduct detailed searches using various indices such as assignee names, inventor names, and patent numbers. The database includes full-text and image representations of patents, enabling users to retrieve and review documents from as far back as 1790. This tool is essential for inventors, patent examiners, and researchers seeking to explore existing patents and assess the novelty of inventions.
+
+To calculate the metric using these databases, one could follow these steps:
 
 1.  Use relevant keywords and phrases related to the specific innovations of interest (e.g., "open source medical treatment," "sustainable agriculture open data") in combination with sector-specific terms.
 2.  Apply filters to narrow down search results to patents and publications within a relevant timeframe and those explicitly mentioning OS principles or resources.
-3.  For each identified patent or publication, extract data on the innovation type (medical treatment, drug, etc.), development stage, and any direct mentions of OS contributions.
+3.  For each identified patent or publication, extract data on the innovation type (e.g., medical treatment, drug), development stage, and any direct mentions of OS contributions. Leverage text mining and NLP techniques, such as the SciNoBo Research Artifact Analysis (RAA) Tool, to extract mentions of OS-related contributions, including datasets, software, and methodologies cited in the text.
 4.  Use this extracted information to quantify the number and percentage of innovations developed with OS resources.
 
 ##### ClinicalTrials.gov
@@ -85,20 +80,26 @@ ClinicalTrials.gov is a database of privately and publicly funded clinical studi
 To utilize ClinicalTrials.gov for the calculation of the metric:
 
 1.  Conduct searches using terms related to the medical treatments or drugs of interest.
-2.  Examine the study's detailed descriptions for mentions of OS resources, such as open data use, collaborative research models, or open-source methodologies and software.
+2.  Examine the study's detailed descriptions for mentions of OS resources. To improve accuracy, employ text mining and Natural Language Processing (NLP) techniques, such as the SciNoBo Research Artifact Analysis (RAA) Tool, to identify OS resources like datasets, software, and methodologies referenced in the trial descriptions.
 3.  Compile data on the number of clinical trials employing OS resources in their research processes.
 4.  Analyse this data to determine the proportion of studies within the domain of new medical treatments and drugs that are utilizing OS resources.
 
-##### Press/Media ReleasesPubMed
+##### PubMed
 
 PubMed is a free search engine accessing mainly the MEDLINE database of references and abstracts on life sciences and biomedical topics. It is invaluable for tracking developments in medical treatments and drugs, including those developed through OS resources. The database can provide insights into the research underpinning new medical innovations and the extent to which open access publications and open data have contributed to these advancements.
 
+Clinical guidelines are systematically developed statements that assist healthcare providers and patients in making decisions about appropriate health interventions. They are a form of non-commercial innovation and can have a substantial societal impact by improving healthcare quality and efficiency. PubMed includes a large collection of clinical guidelines, which can be accessed using advanced search filters.
+
 To leverage PubMed for this metric:
 
-1.  Use relevant medical and OS terms to find articles related to new treatments and drugs developed with OS resources.
-2.  For identified articles, review abstracts and available full texts for mentions of OS practices or data.
-3.  Extract information regarding the role of OS in the development of the innovations discussed in the articles.
-4.  Count and categorize these innovations to estimate the proportion developed with OS inputs within the healthcare sector.
+1.  Use relevant medical and OS terms to find articles related to new treatments and drugs developed with OS resources. To search specifically for clinical guidelines, you can use a specific URL format that includes your search term and filters for guidelines. For example:
+
+-   https://pubmed.ncbi.nlm.nih.gov/?term=&lt;SEARCH_TERM&gt;&filter=pubt.guideline&filter=pubt.practiceguideline
+-   Replace &lt;SEARCH_TERM&gt; with your desired keywords. This will filter the results to show only clinical guidelines and practice guidelines relevant to your search.
+
+1.  For identified articles, review abstracts and available full texts for mentions of OS practices or data.
+2.  Utilize text mining and Natural Language Processing (NLP) techniques, such as the SciNoBo Research Artifact Analysis (RAA) Tool, to extract OS resources (e.g., datasets, software, or other research artifacts) mentioned in scientific texts. The RAA tool can identify and classify these artifacts as reused or newly created, providing clarity on the role of OS inputs in the development of the innovations or guidelines.
+3.  Count and categorize these innovations to estimate the proportion developed with OS inputs within the healthcare sector.
 
 ##### OpenAIRE Graph
 
@@ -106,12 +107,98 @@ The OpenAIRE Graph provides access to a vast collection of open access publicati
 
 To complement the other datasources, use the OpenAIRE Research Graph to identify which of the publications, datasets and software identified are open access.
 
+##### AGRIS database
+
+AGRIS, the International System for Agricultural Science and Technology, is a comprehensive database managed by the Food and Agriculture Organization (FAO) of the United Nations. Established in 1974, AGRIS aims to improve the visibility and accessibility of agricultural research outputs worldwide. The database contains over 14 million bibliographic records in 117 languages, covering a wide range of topics in food and agriculture. It serves as a critical resource for researchers, policymakers, and practitioners, offering access to scholarly articles, technical reports, datasets, and grey literature.
+
+How to Use:
+
+-   Access AGRIS at <https://agris.fao.org>.
+-   Use the platform’s simple or advanced search functionalities to input keywords or phrases relevant to the innovations of interest (e.g., "open data for sustainable agriculture").
+-   Analyze search results for OS-related contributions in agricultural innovations. For each record, check for full-text links under the "Access the full text" option or use the "Lookup at Google Scholar" feature for additional access.
+-   Export metadata in formats like CSV or EndNote for further analysis or reference management.
+-   Employ text mining and Natural Language Processing (NLP) techniques, such as the **SciNoBo Research Artifact Analysis (RAA) Tool**, to extract OS resources such as datasets, software, and research outputs. These techniques help identify and classify OS contributions in the retrieved records.
+
+By leveraging AGRIS and utilizing tools like the RAA, users can explore the role of OS in advancing sustainable agriculture and gain valuable insights into global agricultural research.
+
+##### FDA (Food and Drug Administration) and EMA (European Medicines Agency) Databases
+
+The **Drugs@FDA** and **EMA Databases** serve as essential regulatory resources for understanding the approval, development, and safety of drugs and medicines in the United States and the European Union. These databases are instrumental for assessing the societal relevance of medical innovations and exploring the role of Open Science (OS) in their development.
+
+**Drugs@FDA** (United States):\
+This database provides detailed information about prescription brand-name and generic drugs approved for human use. It includes:
+
+-   Comprehensive drug descriptions, including active ingredients, dosage forms, and application numbers.
+-   FDA-approved labeling, such as prescribing information and patient leaflets.
+-   Regulatory histories, documenting submission dates, labeling changes, and key milestones in the approval process.
+-   FDA reviews, offering evaluations of drug safety and effectiveness that underpin approval decisions. Search the database by drug name, active ingredient, or application number through the [Drugs@FDA platform](https://www.accessdata.fda.gov/scripts/cder/daf/){target="_new"}.
+
+**EMA Database** (European Union):\
+The EMA database provides in-depth information on medicines authorized in the EU, including:
+
+-   Medicinal product information, such as summaries of product characteristics (SmPC), patient leaflets, and scientific assessment reports.
+-   Data on clinical trials conducted within the EU, detailing trial phases, intervention types, and trial statuses.
+-   Safety reports, including adverse drug reaction data monitored through EudraVigilance.
+-   Regulatory documents, such as European Public Assessment Reports (EPARs), which detail scientific evaluations and regulatory decisions. Use targeted filters to search for specific medicines or clinical trials via the [EMA search platform](https://www.ema.europa.eu/en/search?f%5B0%5D=ema_search_categories%3A83&f%5B1%5D=ema_search_categories%3A84&f%5B2%5D=ema_search_categories%3A85&landing_from=73303){target="_new"}.
+
+How to Use:
+
+1.  Use Drugs@FDA or EMA databases to identify approved drugs, clinical trials, or medicinal products.
+2.  Extract relevant information, such as regulatory histories, clinical trial details, and safety profiles.
+3.  Cross-reference findings with other datasources (e.g., Lens.org, PubMed) to link approvals or trials to OS-related contributions (e.g., open data or collaborative frameworks).
+4.  Evaluate societal relevance by analyzing the drug or product's development pathway, approval history, and potential impact.
+
+By integrating these databases with other datasources, researchers can comprehensively assess the societal impact of OS resources on the development and approval of drugs, therapies, and clinical innovations.
+
 #### Existing methodologies
 
 ##### SciNoBo Research Artifact Analysis (RAA) Tool
 
-This is an automated tool [@stavropoulos2023], leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
+This is an automated tool (Stavropoulos et al., 2023), leveraging Deep Learning and Natural Language Processing techniques to identify research artifacts (datasets, software) mentioned in the scientific text and extract metadata associated with them, such as name, version, license, etc. This tool can also classify whether the dataset has been reused or created by the authors of the scientific text.
 
 To measure the proposed metric, the tool can be used to identify the reused and created OS resources in the OA publication texts.
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
+
+# Known correlatesNotes {#known-correlatesnotes .unnumbered}
+
+This section outlines key considerations, limitations, and areas for future work regarding the metric for socially relevant products and processes using Open Science (OS) resources. These points aim to provide clarity on the metric's scope, highlight challenges, and suggest potential directions for refinement and expansion.
+
+**Considerations**
+
+1.  **Contextual Definition of Societal Relevance**\
+    The concept of societal relevance is inherently contextual and may vary across geographical, cultural, and sectoral perspectives. Determining what qualifies as socially relevant often requires stakeholder consultations or expert evaluations to align with local or global priorities. It is closely related to "relevance for society," but the nuances between the two concepts must be addressed.
+2.  **Incorporating Breakthrough Innovations and Clinical Guidelines**\
+    Certain outputs, such as breakthrough innovations (e.g., transformative treatments for rare diseases) and clinical guidelines, can serve as proxies for societal impact. Breakthrough innovations often solve previously intractable challenges, while clinical guidelines translate scientific advancements into practical, high-impact recommendations for healthcare systems.
+3.  **Trade-Offs in Technological Innovations**\
+    While technologies like wind turbines or solar panels advance sustainability goals, they can also have localized negative impacts, such as habitat disruption or challenges with recycling. These trade-offs underscore the need for a balanced assessment of societal benefits and drawbacks when evaluating innovations.
+
+**Limitations**
+
+1.  **Complexity of Societal Relevance**\
+    Societal relevance exists on a spectrum and is influenced by factors like accessibility, affordability, and actual impact on underserved populations. Simplistic classifications (e.g., binary assessments) may fail to capture the complexity of this concept.
+2.  **Challenges in Attribution of OS Contributions**\
+    Accurately identifying and attributing OS contributions to the development of socially relevant innovations is difficult. Many datasources lack explicit references to OS inputs, and development processes are often complex and opaque.
+3.  **Overestimating Positive Contributions**\
+    New drugs or medical treatments should not be presumed inherently beneficial. Research (e.g., Schnog et al., 2021; Vivot et al., 2017) highlights cases where treatments offer limited clinical benefits while imposing high societal or healthcare costs. Similarly, pharmaceuticals can indirectly influence healthcare expenditures (Ci̇van and Köksal, 2010).
+
+**Future Work**
+
+1.  **Refining Criteria for Societal Relevance**\
+    Develop a framework to evaluate societal relevance comprehensively, considering factors such as accessibility, affordability, longevity, cost-effectiveness, and impact on underserved communities. Such a framework would move beyond binary assessments and enable nuanced evaluations.
+2.  **Comparative Studies on OS-Derived Products**\
+    Explore whether OS-derived products deliver better societal outcomes compared to non-OS-derived products. Potential metrics include reduced time to market, cost savings, and enhanced accessibility for disadvantaged populations.
+3.  **Expanding Scope to Include Impact of Breakthrough Innovations**\
+    Create specialized metrics to systematically track the impact of breakthrough innovations. For example, breakthroughs could be identified through regulatory designations like the FDA’s Breakthrough Therapy program (Chandra et al., 2024).
+
+# References {#references .unnumbered}
+
+Stavropoulos, P., Lyris, I., Manola, N., Grypari, I., & Papageorgiou, H. (2023). Empowering Knowledge Discovery from Scientific Literature: A novel approach to Research Artifact Analysis. In L. Tan, D. Milajevs, G. Chauhan, J. Gwinnup, & E. Rippeth (Eds.), Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023) (pp. 37–53). Association for Computational Linguistics. <https://doi.org/10.18653/v1/2023.nlposs-1.5>
+
+Chandra, A., Kao, J., Miller, K. L., & Stern, A. D. (2024). Regulatory Incentives for Innovation: The FDA's Breakthrough Therapy Designation. *The Review of Economics and Statistics,* 1–46. DOI: 10.1162/rest_a_01434
+
+Ci̇van, A., & Köksal, B. (2010). The effect of newer drugs on health spending: Do they really increase the costs? *Health Economics, 19*(5), 581–595. DOI: 10.1002/hec.1494
+
+Schnog, J.-J. B., Samson, M. J., Gans, R. O. B., & Duits, A. J. (2021). An urgent call to raise the bar in oncology. *British Journal of Cancer, 125*(11), 1477–1485. DOI: 10.1038/s41416-021-01495-7
+
+Vivot, A., Jacot, J., Zeitoun, J.-D., Ravaud, P., Crequit, P., & Porcher, R. (2017). Clinical benefit, price, and approval characteristics of FDA-approved new drugs for treating advanced solid cancer, 2000–2015. *Annals of Oncology, 28*(5), 1111–1116. DOI: 10.1093/annonc/mdx053

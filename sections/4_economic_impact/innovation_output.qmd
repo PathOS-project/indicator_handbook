@@ -1,134 +1,171 @@
----
-author:
-    - name: E. Delugas
-      orcid: 0009-0000-4638-1062
-      affiliations:
-      - ref: csil
-    - name: G. Consiglio
-      orcid:
-      affiliations:
-      - ref: csil
-    - name: G. Catalano
-      orcid: 0000-0002-3638-1904
-      affiliations:
-      - ref: csil
+# Innovation output {#innovation-output .unnumbered}
 
-affiliations:
-- id: csil
-  name: Centre for Industrial Studies
-  city: Milan
-  country: Italy
-- id: tgb
-  name: Technopolis Group
-  city: Brussels
-  country: Belgium
+History (please fill out in reverse chronological order, latest revision on top):
 
-title: Innovation output
----
+|  |  |  |  |
+|----|----|----|----|
+| Version | Revision date | Revision | Author |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+| 1.4 | 2025-03-07 | Third draft | Delugas E., Catalano G., Caputo A. (reviewer) |
+| 1.3 | 2024-04-26 | Second draft | Delugas E., Consiglio G., Catalano G. |
+| 1.2 | 2024-04-25 | Peer review | V.A. Traag |
+| 1.1 | 2024-03-27 | First draft | Delugas E., Consiglio G., Catalano G. |
+| 1.0 | 2023-02-07 | Finalised indicator template | T.P. Willemse, V.A. Traag |
 
+# Description {#description .unnumbered}
 
-::: {.callout collapse="true"}
-# History
+The innovation process can be defined as the transformation of ideas into valuable outputs, such as new products, services, or processes. It consists of a series of stages in which inputs are converted into intermediate outputs, which are subsequently refined to generate an innovation (Janger et al., 2017). These inputs often include research findings, investments in R&D, creative ideas, and human resource capabilities. Intermediate outputs may be tangible or intangible results generated during the innovation process, including patent families,^[\[1\]](#footnote-2){#footnote-ref-2}^ prototypes, conceptual designs, process improvements, or validated business models. According to the Oslo Manual (2023), innovation represents a step beyond intermediate outputs, referring to a new or significantly improved product or process (or a combination of both) that substantially differs from a unit’s previous offerings. Innovations can range from incremental improvements to disruptive changes that reshape markets or societal practices. For a product to be considered an innovation, it must be made available to users, while a process innovation must be implemented within the organisation.
 
-| Version | Revision date | Revision     | Author                                |
-|----------------|----------------|-----------------|-----------------------|
-| 1.3     | 2024-04-26    | Second draft | Delugas E., Consiglio G., Catalano G. |
-| 1.2     | 2024-04-25    | Peer review  | V.A. Traag                            |
-| 1.1     | 2024-03-27    | First draft  | Delugas E., Consiglio G., Catalano G. |
-:::
+Open Science (OS) resources serve as inputs in the innovation process, contributing to productivity and economic growth. While empirical studies remain limited, open practices are suggested to enhance early-stage research by improving efficiency, reducing access costs, and enabling broader exploration.^[\[2\]](#footnote-3){#footnote-ref-3}^ More substantial evidence supports the role of open/FAIR data in fostering multidisciplinary collaboration, accelerating product development, and facilitating technology deployment, though it requires adjustments in business models and policies (Williams, 2013; Arshad et al., 2016; Giovani, 2017; Nielsen et al., 2023). Open access to scientific journals increases accessibility to academic research, leading to higher patent citations and greater integration into technological advancements, particularly in biomedicine and technology sectors, though its impact remains difficult to measure (Bryan & Özcan, 2021; Jahn et al., 2022). Similarly, open-source software fosters innovation by enabling collaboration, reducing development barriers, and setting de facto standards, benefiting start-ups and emerging technologies like AI and blockchain, despite challenges in balancing openness with intellectual property concerns (Conti et al., 2021; European Commission et al., 2021).
 
-# Description
+Emerging literature suggests that OS resources may play varying roles in the innovation process. In some cases, they are critical to the development of intermediate outputs and innovations. For example, open protein data are essential for drug development, significantly accelerating or even enabling the discovery process. In other cases, their contribution is more nuanced, such as facilitating companies’ access to research papers, which increases exposure to new ideas that may eventually lead to innovations in the production process.
 
-Innovation is the process of creating, developing, and implementing new products, services, processes, or ideas that bring significant improvements over existing solutions. These innovations can be incremental, representing slight improvements to current offerings, or disruptive, introducing fundamentally new concepts that dramatically change markets or societal practices. The genesis of innovative technologies, products, and services often begins with accessing research findings [@tennant2016]. Specifically, it involves the process by which scientific outputs, such as publications, data, or protocols, enable the development of innovation outputs, although of different degrees of disruption, by the scientific communities, research infrastructures, and industry.
+The proposed indicator “Innovation Output” aims to measure the extent to which the OS contributes to the outputs of the innovation process, encompassing both intermediate outputs and innovations.^[\[3\]](#footnote-4){#footnote-ref-4}^ Building on previous studies accurately discussed in Dziallas and Blind (2019), it envisages metrics that capture impacts at the organisational and ecosystem levels. Similarly, they can be understood as metrics capturing innovation at different stages of the innovation process, the development and outcome phases.^[\[4\]](#footnote-5){#footnote-ref-5}^ In some cases, these metrics may also apply to broader analytical units, such as geographical regions, specific industry sectors, or projects influencing multiple beneficiaries. While not exhaustive, the following metrics are suggested to assess the impact of OS on innovation outputs:^[\[5\]](#footnote-6){#footnote-ref-6}^
 
-Open science practices enhance the prospects for innovation by facilitating wider dissemination of research outputs to all relevant stakeholders. Open science practices play a pivotal role, especially in industry-related innovation, by significantly widening access and enabling the open reuse of publicly funded research and data. This is crucial in disseminating scientific knowledge to businesses, particularly benefiting small companies with limited resources. Since scientific journals are the main channel through which the industry accesses cutting-edge research [@cohen2002], the academic norms dictating journal access and pricing are critically important, paving the way for the creation of novel outputs and potentially leading to an uptick in patent filings [@bryan2021]. Open science practices could accelerate the pace at which they translate into research outputs, also increasing the number of stakeholders accessing it, which would have been otherwise prevented due to budget constraints. The indicator “innovation output” aims to capture the extent to which OS triggers innovation in industry and the scientific community without limiting its focus only to specific innovation domains. It considers both the development and enhancement of products, services, technologies and the filing of patents. This is because, especially for firms, it has been argued that patents represent an imperfect proxy for innovation, more tailored to measure the firms’ R&D output rather than their whole innovation activity e.g. [@castelnovo2023]. Other economic indicators presented in this handbook concentrate on the impact of OS on innovation from a narrowed perspective and can somehow be considered as a subset of this more general one. These include the development of socially relevant products and processes, focusing on sectors such as health, agriculture, and energy; and science-industry collaboration, which emphasises a specific way of knowledge transmission and interaction between academia and industry.
+1.  Number and % of new technologies developed using OS resources (organisation level)
+2.  Number and % of start-ups/spin-offs founded based on OS technologies (ecosystem level)
+3.  Number and % of patents filed using OS resources (organisation and ecosystem levels)
+4.  Number, %, and value of new products or services developed using OS resources (organisation level)
+5.  Average increase in companies’ patent portfolio value thanks to patent filed using OS resources (organisation level)
 
-Here, four metrics are proposed: 1) new products and services developed by using OS input, 2) new technologies developed by using OS input, 3) patents filed citing OS inputs, and 4) average increase in companies’ patent portfolio value thanks to the patent filed using OS resources[^contexts].
+Assessing the impact of OS on innovation outputs in industry presents several challenges, primarily due to limited empirical evidence and the difficulty of distinguishing between open and closed knowledge sources. Key challenges include:
 
-The suggested metrics may be relevant to measure innovation output on individual organisations in the private sector, like companies, or in the public sector, including universities and research centres. In specific cases, some of these metrics could be applied to a more comprehensive analytical unit, such as a geographical region, or used to evaluate the innovation outputs of a particular sector, which encompasses different types of organisations or measure the innovation outputs triggered by a specific project among its beneficiaries. Nevertheless, determining the extent to which OS influences innovation output involves numerous challenges, especially given that OS is not the exclusive pathway for accessing research findings.
+-   *The lack of systematic data sources*: A major obstacle is the absence of comprehensive, systematic data sources that capture the extent to which innovation relies on OS versus proprietary knowledge. Without reliable quantitative metrics, assessing OS’s role in driving innovation remains imprecise. For instance, OS adoption may enhance organisational culture by fostering innovative business models, improving business strategies, opening new markets, or contributing to new ideas within an organisation. Measuring these impacts requires the design of ad-hoc surveys - although costly and time-consuming - as automation is not yet a viable option for data collection.^[\[6\]](#footnote-7){#footnote-ref-7}^
+-   *Time lag between OS use and innovation outcomes*. Another challenge stems from the inherent time lag between the use of OS inputs and the eventual materialisation of innovation. Developing novel products or technologies often takes years, making observing short-term impacts difficult. Early indicators may be subtle or difficult to detect, increasing the risk of underestimating OS’s contributions simply because it is too early to measure them. Without longitudinal studies, tracking OS’s influence over time becomes even more complex.
+-   *Measuring the Causal Impact of OS on Innovation*. Determining whether OS directly drives innovation remains a fundamental challenge. Even with extensive quantitative indicators, establishing causality is difficult. If all scientific knowledge were open, isolating OS’s effect on innovation from other contributing factors would be impossible. As discussed in \[INTRODUCTION ON CAUSALITY LINK\], rigorous research designs are required, specifically for economic impacts in \[COST SAVING CAUSAL INDICATOR LINK\]. One approach involves comparing the innovation performance of similar organisations using identical research inputs, with the only difference being whether the source is open or proprietary. However, just as data collection cannot be fully automated, assessing causal impact requires a complex research framework. For these reasons, none of the metrics proposed below claim any causal impact determined by OS.
+-   *Selecting the appropriate metrics.* Selecting the right metrics to measure innovation is another challenge. Identifying new products, processes, or technologies is neither straightforward nor entirely objective. For clarity, we refer to the definitions outlined in the Oslo Manual. While patent families are a widely used proxy for innovation (e.g., Wuchty et al., 2007; Schoenmakers & Duysters, 2010), they do not always translate into actual commercialised innovations. However, to introduce simple indicators to track OS’s impact across different organisations, patents serve as a reasonable proxy for several reasons. Patent data are systematically collected and widely available, facilitating a degree of automation in impact assessment. They provide objective, long-term insights while mitigating biases associated with survey-based research, such as self-selection, over-optimism, and subjectivity (Castelnovo et al., 2023). Patent citation analysis can distinguish whether references were initially used by the inventor or introduced during the evaluation process, helping to assess the influence of OS on technological advancement. Moreover, patent databases can support rigorous research designs, potentially enabling causal assessments. For example, linking patent citations to the scientific sources they reference could help determine whether an innovation is disruptive or incremental. Some databases even classify citations by novelty level. A more advanced measure proposed by Funk & Owen-Smith (2017) applies network analysis to assess whether a patent consolidates or disrupts existing technology landscapes. Nonetheless, patents alone cannot fully capture OS’s impact. Surveys could provide deeper insights into how OS is integrated into innovation processes, its interaction with proprietary research, and the extent to which organisations leverage OS without relying on patents.
 
--   A notable challenge is the lack of systematic data sources for establishing quantitative metrics to measure the extent to which innovation outputs rely on OS resources to be developed. If, for instance, this issue could be encompassed for tracking filed patents, which are tracked by several data sources, it is not possible to map technologies, products, and services. For those, at present, data collection is largely dependent on survey methods, and automation is not yet a viable option. The adoption of the patent metric, as opposed to analysing products, services, and technologies, is then tied to the availability of time, resources, and the measurement’s scope.
--   OS research outputs are typically merged with those from closed research, making it difficult to single out the innovation outcomes directly linked to OS activities. Without a survey, little can be said about the mechanism through which OS is integrated into the innovation process of companies. This means that the relative importance of OS resources over closed resource outcomes remains quite approximate. If the analysis of patents allows for detecting how many OS resources might have contributed, without a survey, it is challenging to ascertain the specific role of OS in the innovation process.
--   Another fundamental challenge is to accurately evaluate OS’s causal impact on innovation. Even if we had all possible quantitative indicators at our disposal, it would still be very difficult to measure the causal impact of open science on innovation. Indeed, if all scientific knowledge were open, we could not definitively state that there would be more innovation. For this reason, to estimate the causal impact of open science on innovation, a rigorous research design would be necessary. For example, one could compare the innovation output of similar organisations that access and integrate the same or similar research outputs into their production processes, with the only difference being that one is open, and the other is closed.
-
-On the one hand, opting to gauge innovation output solely through patents derived from OS contributions can be seen as more straightforward and expedient. This method not only leverages objective data that is accessible over extended periods but also effectively circumvents the biases typically associated with survey methodologies, such as self-selection, over-optimism, and subjectivity [@castelnovo2023]. To enhance the metric further, one could link the patents to the relative importance of the scientific outcome and try to determine whether the innovation qualifies as disruptive or incremental. Although the true impact of technology is difficult to measure, citations of papers and patents are a common proxy (e.g., [@wuchty2007; @schoenmakers2010]). A more comprehensive measure, based on network analysis, has been proposed by [@funk2017]. Their index aims at measuring, through network analysis, the extent to which an impactful patent has been consolidating or disrupting a technology. However, conducting a survey could provide a more detailed description of how OS inputs are incorporated into the innovation process, their integration with proprietary research outputs, and, importantly, identify the entities utilising OS resources without resorting to patenting.
-
-# Metrics
-
-## Number and percentage of new products or services developed using OS resources
-
-The metric “new products and services developed using OS resources”, expressed as an absolute number or percentage over the total of products and services developed within the unit of analysis, gauges the influence that OS research outputs might have had on the development of innovative products or services within the unit of analysis. It can be measured by carrying out a survey, but without the integration into a proper research design it will never capture a causal impact of Open Science resources.
+# Metrics {#metrics .unnumbered}
 
 ## \# / % of new technologies developed using OS resources
 
-The metric “new technologies developed using OS resources”, expressed as an absolute number or percentage over the total of technologies developed within the unit of analysis. It can be measured by carrying out a survey. Alike the previous metric, to be considered a causal impact indicator, it would need to be integrated into a research design.
+The metric “new technologies developed using OS resources”- expressed as an absolute number or percentage over the total technologies developed by the organisations under analysis - can be measured through surveys. However, without being embedded within a rigorous research design, such surveys alone cannot establish a causal relationship between OS resources and innovation outcomes.
 
-## \# / % of patents filed citing OS resources
+## \# / % of new start-ups and spin-offs founded based on OS technologies
 
-The metric “number and percentage of patents filed citing OS resources” evaluates the contribution of OS to legally recognised innovations. This measure highlights the role of OS resources in developing proprietary technologies and creating new intellectual property. It can be assessed through surveys, patent analysis, or a combination of both. Alike the previous metrics, to be considered a causal impact indicator, it would need to be integrated into a research design.
+The metric “new start-ups and spin-offs founded based on OS technologies” - expressed as an absolute number or percentage of total start-ups or spin-offs within a given ecosystem (e.g., industry or region) - can be measured through surveys to assess the significance of OS in the start-up’s business model. Alternative data sources such as crowdfunding platforms (e.g., Kickstarter) and start-up databases (e.g., Crunchbase, PitchBook, Dealroom) can also provide valuable insights.
 
-## Average increase in companies’ patent portfolio value thanks to patent filed using OS resources
+## \# / % of patent families filed citing OS resources
 
-This metric aims to quantify the monetary gains linked to the patents filed due to the uptake of OS research findings. In particular, this is done by measuring the average increase in companies’ patent portfolio value thanks to patents filed using OS resources. This can be a good operationalisation of the indicator since it provides a monetary indication of the size of the uptake of research results by industry. Moreover, compared to metrics that measure the overall numbers of patents produced, this type of quantification is more easily understandable and comparable for industry stakeholders.
+The metric “number and percentage of patent families filed citing OS resources” evaluates the contribution of OS to legally recognised innovations. By highlighting the role of OS in developing proprietary technologies and intellectual property, this measure provides insights into how openly available knowledge supports innovation. This metric can be measured through surveys, patent and citation analysis, or a combination of both. Whenever the OS resource under analysis does not have a detailed reference (e.g., open data), the citation analysis might be implemented by means of “mention analysis”. A concrete example is provided in the UniProt case study.
 
-However, since this metric provides the average value of patents that use OS resources, computing this metric alone would not provide information on how much value has been generated by OS resources. Indeed, it should always be coupled with patent analysis to at least have the number of open-source resources cited in the patent over the total citation. Moreover, as already mentioned, only with in-depth qualitative information would it be possible to gather the relative importance of open-source resources over the total scientific resources adopted. 
+Going beyond a simple count of the legally recognised innovations and analysing the actor responsible for the citation, this metric can help assess the degree of novelty that OS resources contribute to a given patent family. When measuring impacts at the organisational level, it is crucial to focus on citations included in the patent text by the inventor rather than those introduced during the patent examination process, as the former more accurately reflects the direct usage and influence of OS on innovation.
 
-# Measurement
+## Average increase in companies’ patent portfolio value thanks to patents filed using OS resources
 
-1.  A *survey* is a viable option for assessing all three metrics suggested for this indicator and to comprehensively understand how OS inputs have contributed to the innovation process. The survey should target a representative sample of the group of entities or sectors expected to have possibly used OS inputs in developing new products, services, technologies, and proprietary technologies. It involves collecting quantitative data on the overall number of developed by a specific group of entities or sectors to ascertain which were made possible through OS research outputs within a certain period, along with a more qualitative set of information. For a thorough attribution of the OS impact, it is indeed critical to obtain details about the organisation, which type of OS research resources are used, and whether they are blended with closed research outputs.
-2.  For what concerns the measurement of “patents filed by the industry citing OS resources” and “increase in companies’ patent portfolio value thanks to patent filed using OS resources”, another viable option is to carry out a patent analysis. This type of analysis exploits the online data sources that collect patents’ documents and organise their information in structured databases. Among these are The Lens, PATSTAT, and Orbis IP. The choice among the different resources depends on the information to be processed. For instance, Orbis IP includes information on patent authors, which is not available in other data sources, and also offers the possibility to link companies to balance sheet data that might be useful for a comprehensive analysis of the economic growth of companies. These data sources allow advanced search in their databases and, as a result, return a list of patents with their main information (e.g., title, abstract, citations, classification codes etc.). The results can then be filtered, downloaded and analysed in various ways. The main limitations in measuring the metric with a patent analysis are the possibility of incorrect citation of the OS resources and the data gaps in the data sources. That is, in the case of an innovation that has been developed also by using OS resources, but the patent does not cite or correctly cite the OS resource, there is no way of linking that specific patent to the resource. Moreover, the data sources are not always complete, and the patents included do not always share the same level of detail. While patent analysis enables the mere quantification of this metric in an automated manner, it does not offer insights into the relative importance of OS resources within the patent compared to other elements. In other words, relying solely on the quantitative analysis of patent information would miss qualitative details that explain the extent to which the patent could have been developed without the OS resources. Furthermore, since patent citations are not always accurately recorded, it could result in underestimating the metric. Conversely, surveys provide a deeper understanding of how OS inputs are integrated into the patenting process, since they allow for the collection of qualitative information that might explicitly describe the true impact of the OS resource on the patent, albeit being a method that cannot be automated. A combination of the two is recommended to have a full picture of the impact of OS on innovation.
+This metric aims to quantify the monetary gains linked to the patents filed due to the uptake of OS research findings. In particular, this is done by measuring the average increase in companies’ patent portfolio value thanks to patents filed using OS resources. This approach provides a monetary estimation of industry adoption of OS research, making it a practical and easily interpretable indicator for industry stakeholders compared to broader metrics that simply count patent families.
+
+However, this metric alone does not fully capture the total value generated by OS resources. To enhance its explanatory power, it should be complemented by patent citation analysis, at a minimum, to determine the proportion of OS-derived citations within the total references in a patent. Furthermore, as previously noted, qualitative insights are essential to assess the relative importance of OS resources compared to other scientific inputs. Only through in-depth qualitative analysis can the true impact of OS on innovation be accurately determined.
+
+## #, %, and value of new products or services developed using OS resources
+
+The metric “new products and services developed using OS resources” measures the influence of OS research outputs on developing organisational innovations. It can be expressed in three ways:
+
+-   Absolute number of new products and services developed using OS resources.
+-   Percentage of total products and services based on OS.
+-   Monetary value, represented by the share of profits generated from these OS-driven innovations.
+
+By capturing both quantitative and financial dimensions, this metric provides a comprehensive view of how OS contributes to product and service innovation within organisations. It helps assess the tangible impact of OS research on market offerings and economic performance.
+
+# Measurement {#measurement .unnumbered}
+
+Two complementary approaches can be used to measure this indicators: surveys and patent and citation analyses.
+
+1.  Surveys offer a robust approach to evaluating the proposed metrics for this indicator while providing a comprehensive understanding of OS’s role in the innovation process. They can be conducted within a single organisation or across a representative sample of organisations and sectors that have likely used OS inputs in developing new products, services, technologies, and proprietary innovations. In particular, surveys are valuable for capturing data on new start-ups and spin-offs. Surveys help determine the extent to which OS research outputs have facilitated innovation over a given period by collecting quantitative data on the total number of innovations within specific entities or sectors. Additionally, they provide qualitative insights into the use of OS resources, including details about the organisations involved, the types of OS research resources used, and whether they are combined with closed research outputs.
+2.  Patent and citation analyses are valuable for measuring metrics such as “patent families filed by the industry citing OS resources” and “increase in companies’ patent portfolio value thanks to patent filed using OS resources”. This approach relies on structured online databases that collect and organise patent documents, including The Lens, PATSTAT, and Orbis IP. The choice of the database depends on the specific information required. For instance, Orbis IP enables the linkage between patents’ applicants and their financial data, especially when the applicant is a company, , offering a more comprehensive analysis of corporate economic growth. These data sources facilitate advanced searches, returning a list of patents and key details such as titles, abstracts, citations, and international patent classification codes, backward and forward citations, and so on. The extracted data can then be filtered, downloaded, and analysed to quantify OS-related patents. However, patent analysis has limitations. One key challenge is the possibility of incorrect or missing citations – or mentions – of OS resources. If an innovation relies on OS inputs, but the corresponding patent fails to cite or mention them—or is doing it inaccurately—it becomes difficult to establish a direct connection. Patent databases are not always complete, and patent metadata provided may vary between sources. While patent analysis allows for automated quantification of OS’s impact, it does not capture the qualitative significance of OS contributions compared to other innovation factors. In other words, relying solely on patent data may overlook the extent to which OS resources were critical to developing a given patent. Similarly, citation or mention inaccuracies could lead to underestimating OS’s role in innovation. To address these limitations, surveys can complement patent analysis by providing qualitative insights into how OS inputs are integrated into the patenting process. Unlike automated analysis, surveys enable a deeper exploration of the extent to which OS resources contributed to a patent. While surveys require manual data collection and cannot be automated, they offer a richer understanding of OS’s impact.
+
+A combined approach—leveraging both patent analysis and surveys—is recommended to comprehensively assess OS's role in innovation. This dual methodology ensures quantifiable measurement and a nuanced interpretation of OS’s influence on technological and economic advancements.
 
 #### Existing methodologies
 
 ##### Survey
 
-Ideally, the survey questionnaire should include a list of separate questions to gather this information. Examples of question types are:
+An effective survey questionnaire should include a structured set of questions designed to collect both quantitative and qualitative data on the role of OS in innovation. The questionnaire should aim to assess how OS resources contribute to business models, start-up survival, product and service development, and patent filings. Examples of key question types include:
 
--   How many new products and/or services have been developed within the organisation during the last year?
--   How many of those products and/or services have been developed by using OS resources?
--   How many technologies have been developed within the organisation during the last year?
--   How many of those technologies have been developed by using OS resources?
--   How many new patents has the organisation filed during the last year?
--   How many of those new patents have been developed by using OS resources?
--   Can you provide an estimate of these patents’ economic and monetary value?
+Assessing OS’s Impact on Business and Start-ups
 
-In this way, these innovation outputs can be expressed as the actual number of new products and/or services, technologies, and patents developed using OS resources or as the percentage of these innovations over the total innovations within the organisation.
+-   Can you explain in detail the importance of using OS resources for your business model?
+-   Do OS resources contribute to the probability of survival of your start-up?
+-   Without OS resources, do you believe the start-up would have been founded anyway?
+-   What aspects of your business would have been different without OS resources?
 
-In the questionnaire development, it would be appropriate to include additional questions to quantify and qualify the extent to which OS resources contributed to products and services development by fully understanding which type of OS resources are used and to which other close research outputs have been blended. For this reason, one should also investigate which type of OS practices are adopted by the organisation(s) within the unit of analysis and then determine the type of research output, both closed and open, they utilise. Examples of question types are:
+Measuring Innovation Outputs
+
+-   How many new products and/or services has your organisation developed in the last year?
+-   How many of these products and/or services were developed using OS resources?
+-   How many technologies has your organisation developed in the last year?
+-   How many of these technologies were developed using OS resources?
+-   Can you provide an estimate of the monetary value of these innovations?
+
+Assessing OS’s Role in Patent Development
+
+-   How many new patent applications (i.e., earliest filing) has the organisation filed during the last year?
+-   How many of those new patent applications were developed using OS resources?
+-   To what extent the OS resources use have been crucial to develop those new patent applications?
+-   Which value added have the OS resources used provided you with?
+-   Can you provide an estimate of these patents' economic and monetary value?
+
+To better understand the extent to which OS resources contribute to product and service development, additional questions can be included to identify the types of OS resources used and their integration with closed research outputs. This requires investigating the OS practices adopted by organisations and how different research outputs are combined. Examples of relevant questions include:
 
 -   What types of OS resources (e.g., software, libraries, tools) does your organisation commonly use to develop products/services/technologies?
--   What is the average share of OS resources/of closed research used in the development of patents developed in the last year?
+-   What is the average share of OS resources/of closed research used in patents developed in the last year?
 -   How are OS resources blended with proprietary or closed research outputs in your development process?
 -   Does your organisation prioritise open or closed research outputs in its innovation processes?
 -   How has the adoption of OS resources impacted the innovative capabilities of your organisation?
 
-When conducting such a survey, it has to be acknowledged that some issues might arise. In the first place, there is a risk of *overestimating or underestimating* the role of OS input if not all research inputs contributing to the innovation outputs are thoroughly investigated. This can also be related to the *temporal dimension*. Assessing the actual impact of OS on innovation output development in a single survey may be difficult, as the materialisation of impact may not be immediate, and follow-ups might be necessary.
+While surveys can provide valuable insights, several challenges must be considered. In the first place, there is a risk of *overestimating or underestimating* the role of OS input if not all research inputs contributing to the innovation outputs are thoroughly investigated. This can also be related to the *temporal dimension*. Assessing the actual impact of OS on innovation output development in a single survey may be difficult, as the materialisation of impact may not be immediate, and follow-ups might be necessary.
 
-Other issues might be related to the *technical design* of the survey and its representativeness. When the metric aims to measure contributions across multiple organisations, particularly for getting a metric representative of an entire industry (e.g., pharmaceutical sector) or a geographical area (e.g., a region), ensuring a representative sample can be challenging. Further, *self-selection and other subjective biases* might affect the representativeness of the analysis. For instance, when evaluating these metrics across various types of organisations, such as for-profit and non-profit entities, there may be variations in their willingness to disclose information. Private companies, which often link patent filings to innovation output, may exhibit reluctance in revealing their use of OS inputs in product development. Additionally, profit-oriented organisations might be cautious about publicising their reliance on OS inputs, fearing customer backlash regarding the pricing of their products and services.
+Other issues might be related to the *technical design* of the survey and its representativeness. When the metric aims to measure contributions across multiple organisations, particularly for getting a metric representative of an entire industry (e.g., pharmaceutical sector) or a geographical area (e.g., a region), ensuring a representative sample can be challenging. Further, *self-selection and other subjective biases* might affect the representativeness of the analysis. Different types of organisations, such as for-profit and non-profit entities, may vary in their willingness to disclose OS usage data.. Private companies, particularly those linking patents to innovation output, may be reluctant to reveal their reliance on OS resources. Additionally, profit-oriented organisations may avoid publicly acknowledging OS contributions to avoid potential customer concerns about product pricing.
 
-##### Patent Analysis
+Addressing these challenges requires careful survey design, ensuring a balanced sample, and considering follow-up methodologies to track OS’s long-term impact on innovation.
 
-This methodology allows tracking the impact a given OS practice has had on legally recognised inventions. This methodology has been tested and developed in the context of the evaluation of Alba and Diamond facilities [@catalano2021; @catalano_forthcoming], two synchrotron light facilities employed for scientific research. These research infrastructures provide support research in multiple fields, including physics, chemistry, biology, and health to environmental sciences. The methodology description refers to using The Lens and Orbis IP. Please refer to the indicator "Science-industry collaboration" for an application of patent/citation analysis using PATSTAT.
+##### Patent and Citation Analyses
 
-Although it must be tailored to the specific characteristics of the resource or instrument at the centre of the analysis, three main steps can be identified.
+This methodology allows tracking a given OS resource impact on legally recognised inventions. As mentioned above, two different analyses can be performed.
 
-1.  Identification of the OS resources under evaluation.
-2.  Search and download of patents’ data mentioning the OS resource.
+Examples of these applications can be found in evaluating Alba (Catalano et al. 2021), two synchrotron light facilities employed for scientific research. These research infrastructures support research in multiple fields, including physics, chemistry, biology, health, and environmental sciences. Further, it has been employed in the UniProt case study, using a “mention analysis” approach to account for the fact that UniProt data are not cited in the conventional manner of academic papers.
+
+The methodology primarily involves the use of Lens and Orbis IP. Please refer to the indicator \[Science-industry collaboration LINK\] for an application of patent/citation analysis using PATSTAT. The analysis can be conducted at the level of individual patent applications or patent families. However, focusing on patent families is generally preferred, as it establishes a more precise linkage between OS resources and inventions and avoid double-counting, thereby enhancing the assessment of their contribution to innovation. Although it must be tailored to the specific characteristics of the OS practices under assessment, three main steps can be identified.
+
+1.  Definition of the search strategy
+2.  Conducting the Patent Search and Data Retrieval.
 3.  Analysis of patents’ data.
 
-*(1) Identification of the inputs*
+*(1) Definition of the search strategy*
 
-In performing a patent analysis, the inputs refer to a given OS practice or resource used to guide the patent search. The choice of input is critical, as it directly affects all subsequent steps. These inputs can be keywords that are univocally linked to the instrument. For example, these can be the names of the OS practice or a specific process unambiguously related to the OS practice. Inputs can also be scientific papers that are known to have originated from the use of the resource, as in the case of Alba and Diamond evaluations. Finally, note that the results of a first-level search (see next step) can be used as inputs for a second-level search. In other words, patents directly related to the instrument or resource can serve as inputs for the search for other patents. These will constitute the second-level results.
+The first step consists of defining the search strategy for the analysis. This may follow two complementary approaches:
 
-*(2) Search and download of patents’ data mentioning the inputs*
+1.  Publication-Based patent search: this method focuses on identifying patents that have been generated from scientific papers that either open access or result from the use of an OS resource. To implement this approach, it is necessary to compile, as a first step, a detailed list of relevant publications, which can be obtained through Open Science resource managers (e.g., institutional repositories, research infrastructure databases) or searching in Open-access databases (e.g., OpenAIRE, which aggregates scientific publications). Once the publication list is established, patent databases can be searched for patents that cite these papers, thereby providing insights into the direct and indirect influence of OS on patented innovations.
+2.  Keyword-Based patent search: this approach involves identifying and defining a set of keywords associated with the OS resource under evaluation. These keywords should be unambiguously linked to the resource, such as the name of the OS practice or tool (e.g., a software package, database, methodology) and technical terms or concepts that are directly tied to the OS resource. The identified keywords are then used to search patent databases to assess their presence in patent documents (e.g., in titles, abstracts, claims, or citations). The search strategy can combine these two approaches. This enables the capture of both direct and indirect influences of OS resources on patent development, ensuring a more comprehensive understanding of their role in technological advancements.
 
-The search and download of patent data mentioning the inputs are carried out through one of the data sources listed in the next section. Different data sources might be preferred depending on the inputs selected in the previous step. In particular, most of the listed data sources allow searching for a specific keyword among all sections of a patent (e.g., title, main text, citations, etc.). Therefore, in the case of keyword input, the search might be performed across various data sources, and subsequently, the results can be combined to form the largest possible set of patents. In the case of scientific publications being used as inputs, a valid data source is The Lens. Its application, PatCite, allows for searching all the patents that cite a given publication(s). The results can then be filtered to restrict the selection to, among others, patents classified in a specific sector of application or patents owned by specific categories of entities (such as firms, universities, public institutions, etc.). In particular, when there is an interest in the owner characteristics, Orbis IP is the most complete data source since it links patent data to companies’ data. Finally, all the data sources allow the download of the search results in a dataset format. These datasets store the information related to the patens such as the publication number, the country of the applicant, the owner, the patent classification code, year of publication, value of the patent, patent family, authors, etc. Additional sources of patent data are PATSTAT and EUIPO.
+*(2) Conducting the Patent Search and Data Retrieval*
+
+Once the search strategy has been defined (see Step 1), the next step involves executing the search and retrieving patent data that cites and/or mentions the selected publications and/or keywords. This process requires accessing specialised patent databases, which vary in scope and functionality. The choice of the database depends on the type of input (publications and/or keywords) identified in the previous step. The most relevant databases include:
+
+-   The Lens (via PatCite) is best suited for publication-based searches (i.e., identifying patents citing specific scientific papers and keyword searches). It allows users to filter results by factors such as sector of application or type of patent owner (e.g., firms, universities, public institutions). Moreover, it also incorporates data analysis tools on the online platform.
+-   Orbis IP provides a comprehensive linkage between patent data and company financial information. It is ideal when analysing patent ownership characteristics, as it integrates patent records with financial and corporate data.
+-   PATSTAT (EPO Worldwide Patent Statistical Database) is a valuable source for conducting large-scale statistical analysis on patent trends. It enables advanced querying of patent families, citations, and classification codes.
+-   EUIPO (European Union Intellectual Property Office) helps retrieve patents related to trademarks and intellectual property rights registered within the EU.
+
+A more detailed description of these sources is provided in Section 4 below. For keyword-based patent searches, most data sources allow searches across various sections of a patent (e.g., title, abstract, main text, claims, citations). Searches can be performed across multiple databases to maximise coverage, and results can be combined to form a comprehensive dataset. The Lens (PatCite) is particularly useful for publication-based patent search, as it enables direct retrieval of all patents that cite a given scientific publication. Results can be further filtered and refined based on patent classification codes (to focus on specific technology sectors), geographical origin (to analyse patents filed in specific countries or regions), and type of applicant (e.g., distinguishing between corporate, academic, and public sector patents).). All the data sources allow for the export of search results in structured dataset formats (e.g., CSV, Excel, JsonL, SQL databases). These datasets typically contain key patent details, including the publication number, the country of the applicant, the owner, the patent classification code, the year of publication, the value of the patent (only Orbis IP), patent family, authors/inventors, citations (both patent and non-patent references) and the origin of the citation (whether cited by the inventor or by examiners) (only in PatStat and Lens), degree of novelty associated with the citation (only PatStat), etc.
+
+By systematically searching, retrieving, and organising patent data, this step ensures a robust foundation for subsequent analysis, providing valuable insights into the role of OS resources in technological innovation.
 
 *(3) Analysis of patents’ data*
 
-The analysis of patent data is performed on the dataset(s) downloaded in the previous step (see point 2). The analyses are always tailored to the specific needs of the project. In addition to overall figures (such as the number of patents filed citing OS resource), patents can be counted and analysed with different levels of disaggregation. For example, there might be an interest in tracking the evolution of the number of patents published over the years. Another analysis could concern the application of patents in different sectors. By exploiting the patents’ classification codes, the most common sectors of application can be extracted. Finally, when restricted to a specific sector and timeframe, the number of patents that mention the inputs can be compared to the total number of patents published in that specific sector and timeframe (these are obtained via the same data sources used in the previous step). In this way, the impact of the instrument or resource in a specific sector can be more easily interpreted.
+After retrieving and compiling the relevant patent datasets (see Step 2 above), the next phase involves conducting a detailed analysis tailored to the specific objectives of the assessment. This step provides quantitative and qualitative insights into the role of OS resources in driving technological innovation and patent activity. The analysis can be structured along several key dimensions:
 
-# Data Sources for Patent Analysis
+-   Overall citation metrics. This includes the total number of patents citing OS resources, categorised into total citations (all references to OS resources in patents) and inventor citations (explicit references made by the patent inventor). It also involves comparing OS citations with closed-source citations to evaluate the relative importance of OS inputs.
+-   Patent novelty and knowledge diffusion. This examines the level of novelty associated with OS citations compared to closed-source references. It includes identifying whether OS-cited patents contribute more to breakthrough innovations (e.g., through forward citation analysis), incremental improvements, or high-impact innovations.
+-   Temporal trends in patent publications. This involves tracking the evolution of OS-citing patents over time to detect adoption patterns and their impact on innovation. It includes analysing the growth rates of OS-related patents compared to general patent trends and assessing whether notable increases in activity follow major OS advancements or policy changes.
+-   Sectoral analysis. By leveraging patent classification codes (e.g., IPC, CPC), this aspect identifies the key industries where OS-cited patents are most prevalent. It assesses whether specific sectors, such as pharmaceuticals, biotechnology, or artificial intelligence, rely more heavily on OS inputs and identifies emerging fields where OS resources are more significant in accelerating innovation.
+-   Comparative analysis within specific sectors. Within a defined industry and timeframe, this involves comparing the number of patents citing OS resources against the total patents published in that sector. It also examines the proportion of OS-influenced patents as a percentage of overall industry patents.
+
+[]{#_Data_Sources_for}
+
+# Data Sources for Patent Analysis {#data-sources-for-patent-analysis .unnumbered}
 
 ##### The Lens
 
@@ -142,7 +179,7 @@ As an example, to obtain the widest result possible, a keyword known to be unequ
 
 Orbis IP is a private database that merges company and patent information. Its interface enables searches within a collection of approximately 110 million patent documents. Similar to The Lens, it allows for keyword searches in specific patent fields. Various variables can also filter the results (e.g., jurisdiction, document type, etc.). Furthermore, the results obtained through Orbis IP can be downloaded in a structured Excel file for further local analysis. Unlike The Lens, all the patents available in Orbis IP include the full text, broadening the potential results obtainable through a keyword search. Also, Orbis IP is the only one that includes the monetary value of the patent.
 
-As an example, to achieve the broadest result possible, a keyword known to be unequivocally related to the OS instrument can be searched by selecting “Patents” in the main search bar. This will search the given word across all possible sections of the patent. The result will be a list of all the patents that include the keyword in one of their sections. This list can then be downloaded and further analysed. In this case, the patents can be filtered by the CPC Classification code, allowing for comparing patents relating to a specific domain with the total number of patents classified in that domain. Unlike other data sources, Orbis IP does not allow for searches based on the scientific publication mentioned in the patents. This means that it is not possible to use papers known to have used OS inputs as inputs for patent searches through this database. Finally, it is important to note that access to this data source requires the purchase of a license.
+As an example, to achieve the broadest result possible, a keyword known to be unequivocally related to the OS instrument can be searched by selecting “Patents” in the main search bar or using the “Patent text” tool. This will search the given word across all possible sections of the patent. The result will be a list of all the patents that include the keyword in one of their sections. This list can then be downloaded and further analysed. In this case, the patents can be filtered by the CPC Classification code, allowing for comparing patents relating to a specific domain with the total number of patents classified in that domain. Unlike other data sources, Orbis IP does not allow for searches based on the scientific publication mentioned in the patents. This means that it is not possible to use papers known to have used OS inputs as inputs for patent searches through this database. Finally, it is important to note that access to this data source requires the purchase of a license.
 
 ##### Patstat
 
@@ -152,13 +189,112 @@ As an example, to achieve the broadest result possible, a keyword known to be un
 
 The European Union Intellectual Property Office ([EUIPO](https://www.euipo.europa.eu/en)) is the agency responsible for managing the EU trade mark and the registered Community design. The EUIPO website provides comprehensive resources, including databases for EU trade marks and registered designs, information on intellectual property law and practice, and access to online applications and management systems for EU trade marks and designs. Additionally, the site offers learning resources, news, and updates on IP matters relevant to the European Union.
 
-# Known correlates
+##### Kikstarter, Cruchbase, Pitchbook, and Dealroom
 
-The innovation output indicator correlates with the following set of indicators: uptake of research outputs by industry, socially relevant products and processes and science-industry collaboration, as they can be seen as specific subsets of this broader one. The indicator also correlates with cost savings, since, as also mentioned in the [CBA methodological note](https://zenodo.org/records/10277642) [@delugas2023a], gains from enablement due to OS materialise after the efficiency gains. Therefore, it is also associated with the economic growth of companies since innovation is one of the key ingredients for increasing sales and profits.
+Kickstarter is a crowdfunding platform that enables entrepreneurs, artists, and creators to raise funds for their projects through public contributions. It primarily supports creative ventures, including technology, design, film, music, and gaming. Unlike traditional investment platforms, Kickstarter operates on an all-or-nothing funding model, meaning projects only receive funds if they reach their funding goal. It provides insights into early-stage innovation trends, emerging products, and consumer interest in novel ideas.
 
-# References
+Crunchbase is a business intelligence platform that provides comprehensive data on start-ups, investors, funding rounds, acquisitions, and industry trends. It is widely used by investors, analysts, and entrepreneurs to track company growth, funding history, and market positioning. Crunchbase aggregates data from various sources, including press releases, self-reported company information, and automated tracking of investment activities. It is particularly useful for identifying trends in venture capital, mapping start-up ecosystems, and analysing funding patterns across industries.
 
-Catalano G., with the contribution of Florio M., Articolo R., Consiglio G., Eggleton, D. (forthcoming), Diamond contribution to the development of an innovative vaccine for the Foot-and-Mouth Disease: a veterinary pathology of global significance, case study report.
+PitchBook is a financial data and research platform that offers in-depth information on private and public market investments, including venture capital (VC), private equity (PE), and mergers & acquisitions (M&A). It provides detailed financial metrics, investor portfolios, and deal histories, making it a key resource for finance, investment, and corporate strategy professionals. Compared to Crunchbase, PitchBook offers more granular financial data, including valuations, deal multiples, and revenue estimates, often sourced from regulatory filings and proprietary research.
 
-[^contexts]:
-    These metrics build on indicators adopted in different contexts. For instance, the [Open Science Monitor](https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science/open-science-monitor/about-open-science-monitor_en) mentioned that new products, services and technologies has been used in the [White Rabbit Project](https://white-rabbit.web.cern.ch/) of CERN to measure how companies were able to reuse and sell White Rabbit switches and nodes, along with their services, to different organisations in multiple industrial settings. Similarly, Florio et al. (2018) have used similar metrics to measure innovation triggered by CERN in its supplier firms. Also, they have been indicated as monitoring indicators in the [RIPATHS](https://ri-paths-tool.eu/en) framework.
+Dealroom is a business intelligence platform that provides data and insights on start-ups, venture capital, private equity, and innovation ecosystems. It is widely used by investors, corporations, and policymakers to track emerging companies, funding trends, and market developments. Dealroom aggregates data from public sources, proprietary research, and partnerships with governments and industry organizations, offering a comprehensive view of the European and global start-up landscape. Compared to Crunchbase and PitchBook, Dealroom places a strong emphasis on mapping start-up ecosystems, providing network intelligence, and analysing sector-specific innovation trends, making it a valuable tool for understanding high-growth industries and investment opportunities.
+
+# Known correlates {#known-correlates .unnumbered}
+
+In addition to this general indicator measuring the impact of OS on innovation, two other indicators examine specific aspects of OS’s role in the innovation process: \[Science-Industry Collaboration LINK\] and \[Socially Relevant Products and Processes LINK\]. The impact of OS on innovation within the academic sphere, such as its effects on publications and citations, is covered in the \[Academic Impact Section LINK\]. Likewise, the cost savings generated by OS—through reduced time and increased R&D efficiency as discussed in the [CBA methodological note](https://zenodo.org/records/10277642) —are addressed in \[Cost Savings LINK\], while its contribution to the economic value of innovation is discussed in \[Economic Growth LINK\].
+
+# Notes {#notes .unnumbered}
+
+The authors are grateful to Bastian Rake, Katharina Lauer, and Angelo Romasanta for their fruitful comments and suggestions.
+
+# References {#references .unnumbered}
+
+Bakker, J., Verhoeven, D., Zhang, L., & Van Looy, B. (2016). Patent citation indicators: One size fits all?. Scientometrics, 106, 187-211.
+
+Basberg, B. L. (1987). Patents and the measurement of technological change: a survey of the literature. Research Policy, 16(2-4), 131-141.
+
+Branstetter, L., & Ogura, Y. (2005). Is academic science driving a surge in industrial innovation? Evidence from patent citations (No. w11561), National Bureau of Economic Research.
+
+Bryan, K. A., & Ozcan, Y. (2021). The impact of open access mandates on invention. The Review of Economics and Statistics, 103(5), 954-967.
+
+Callaert, Julie, Van Looy, B., Verbeek, A., Debackere, K., & Thijs, B.2006. ‘Traces of prior art: An analysis of non-patent references found in patent documents’. Scientometrics, 69(1), 3-20.
+
+Castelnovo, P., Clò, S., & Florio, M. (2023). A quasi-experimental design to assess the innovative impact of public procurement: An application to the Italian space industry. Technovation, 121, 102683.
+
+Catalano, G., López, G. G., Sánchez, A., & Vignetti, S. (2021). From scientific experiments to innovation: Impact pathways of a Synchrotron Light Facility. Annals of Public and Cooperative Economics, 92(3), 447-472.
+
+Cohen, W. M., Nelson, R. R., & Walsh, J. P. (2002). Links and impacts: the influence of public research on industrial R&D. Management Science, 48(1), 1-23.
+
+Conti, A., Peukert, C., & Roche, M. (2021). Beefing IT up for your Investor? Open Sourcing and Start-up Funding: Evidence from GitHub. SSRN Journal. [https://doi.org/10.2139/ssrn.3883936](https://doi.org/10.2139/ssrn.3883936){target="_new"}
+
+Delugas, E., Catalano, G., & Vignetti, S. (2023). PathOS - D4.1 Methodological note on the CBA of open science practices. Zenodo. [https://doi.org/10.5281/zenodo.10277642](https://doi.org/10.5281/zenodo.10277642){target="_new"}
+
+European Commission, Directorate-General for Communications Networks, Content and Technology, Blind, K., Böhm, M., Grzegorzewska, P., Katz, A., Muto, S., & Schubert, T. (2021). The impact of Open Source Software and Hardware on technological independence, competitiveness and innovation in the EU economy. Publications Office. [https://data.europa.eu/doi/10.2759/430161](https://data.europa.eu/doi/10.2759/430161){target="_new"}
+
+Eurostat. (2018). The measurement of scientific, technological and innovation activities Oslo manual 2018 guidelines for collecting, reporting and using data on innovation. OECD Publishing.
+
+Fukuzawa, N., & Ida, T. (2016). Science linkages between scientific articles and patents for leading scientists in the life and medical sciences field: The case of Japan. Scientometrics, 106(2), 629-644.
+
+Funk, R. J., & Owen-Smith, J. (2017). A dynamic network measure of technological change. Management Science, 63, 791–817.
+
+Gazni, A. (2020). The growing number of patent citations to scientific papers: Changes in the world, nations, and fields. Technology in Society, 101276.
+
+Giovani, B. (2017). Open Data for Research and Strategic Monitoring in the Pharmaceutical and Biotech Industry. Data Science Journal, 16, 18. [https://doi.org/10.5334/dsj-2017-018](https://doi.org/10.5334/dsj-2017-018){target="_new"}
+
+Halevi, G., & Moed, H.F. (2012). The technological impact of library science research: A patent analysis. In E. Archambault, Y. Gingras, & V. Larivière (Eds.), *Proceedings of 17th International Conference on Science and Technology Indicators* (Vol. *1*, pp. 371–380). Montréal: Science-Metrix and OST.
+
+Han, F., & Magee, C. L. (2018). Testing the science/technology relationship by analysis of patent citations of scientific papers after decomposition of both science and technology. Scientometrics, 116(2), 767-796.
+
+Jahn, N., Klebel, T., Pride, D., Knoth, P., & Ross-Hellauer, T. (2022). Quantifying the influence of Open Access on innovation and patents. Open Research Europe, 2, 64. [https://doi.org/10.12688/openreseurope.14680.1](https://doi.org/10.12688/openreseurope.14680.1){target="_new"}
+
+Janger, J., Schubert, T., Andries, P., Rammer, C., & Hoskens, M. (2017). The EU 2020 innovation indicator: A step forward in measuring innovation outputs and outcomes? Research Policy, 46(1), 30-42.
+
+Jonkers, K., Derrick, G. E., Lopez-Illescas, C., & Van den Besselaar, P. (2014). Measuring the scientific impact of e-research infrastructures: a citation based approach?. Scientometrics, 101(2), 1179-1194.
+
+Karki, M. M. S. (1997). Patent citation analysis: A policy analysis tool. World Patent Information, 19(4), 269-272.
+
+Lee, W. H. (2015). Open Access Target Validation Is a More Efficient Way to Accelerate Drug Discovery. PLoS Biology, 13, e1002164. [https://doi.org/10.1371/journal.pbio.1002164](https://doi.org/10.1371/journal.pbio.1002164){target="_new"}
+
+Murray, F., Aghion, P., Dewatripont, M., Kolev, J., & Stern, S. (2016). Of Mice and Academics: Examining the Effect of Openness on Innovation. American Economic Journal: Economic Policy, 8, 212–252. [https://doi.org/10.1257/pol.20140062](https://doi.org/10.1257/pol.20140062){target="_new"}
+
+Nielsen, A. F., Michelmann, J., Akac, A., Palts, K., Zilles, A., Anagnostopoulou, A., & Langeland, O. (2023). Using the future wheel methodology to assess the impact of open science in the transport sector. Scientific Reports, 13, 6000. [https://doi.org/10.1038/s41598-023-33102-5](https://doi.org/10.1038/s41598-023-33102-5){target="_new"}
+
+Ribeiro, B., & Shapira, P. (2020). Private and public values of innovation: A patent analysis of synthetic biology. Research Policy, 49(1), 103875.
+
+Schmoch, U. (1993). Tracing the knowledge transfer from science to technology as reflected in patent indicators. Scientometrics, 26(1), 193-211.
+
+Schoenmakers, W., & Duysters, G. (2010). The technological origins of radical inventions. Research Policy, 39(8), 1051–1059.
+
+Tennant, J. P., Waldner, F., Jacques, D. C., et al. (2016). The academic, economic and societal impacts of Open Access: an evidence-based review \[version 3; peer review: 4 approved, 1 approved with reservations\]. F1000Research, 5, 632. [https://doi.org/10.12688/f1000research.8460.3](https://doi.org/10.12688/f1000research.8460.3){target="_new"}
+
+Tsipouri, L., Liarti, S., Vignetti, S., & Grapengiesser, I. M. (2025, February 26). The Economic Impact of Open Science: A Scoping Review. <https://doi.org/10.31222/osf.io/kqse5_v1>
+
+Williams, H. L. (2013). Intellectual Property Rights and Innovation: Evidence from the Human Genome. Journal of Political Economy, 121, 1–27. [https://doi.org/10.1086/669706](https://doi.org/10.1086/669706){target="_new"}
+
+Wuchty, S., Jones, B. F., & Uzzi, B. (2007). The increasing dominance of teams in production of knowledge. Science, 316(5827), 1036–1039.
+
+Yamashita, Y. (2018). Exploring Characteristics of Patent-Paper Citations and Development of New Indicators. Scientometrics, 151.
+
+1.  ::: {#footnote-2}
+    A patent family differs from a patent application by offering a broader view of innovation. A patent application is a formal request for legal protection, including technical details, claims, and drawings, initiating an examination process to assess novelty and utility. In contrast, a patent DOCDB family groups related patent’s applications across countries based on a shared priority application, enabling global tracking of an invention's variations. [↑](#footnote-ref-2)
+    :::
+
+2.  ::: {#footnote-3}
+    See for further details on the literature on OS economic impact Tsipouri et al (2025). [↑](#footnote-ref-3)
+    :::
+
+3.  ::: {#footnote-4}
+    With this labelling, we do not claim that patents or patent families, for instance, are all innovation outputs in the sense of the Oslo Manual, but rather that they are outputs resulting from the use of different innovation inputs, including OS. [↑](#footnote-ref-4)
+    :::
+
+4.  ::: {#footnote-5}
+    Other metrics can be identified at the initial “research phase” of innovation process, but they are left to the academic sphere. [↑](#footnote-ref-5)
+    :::
+
+5.  ::: {#footnote-6}
+    These metrics build on indicators adopted in different contexts. For instance, the Open Science Monitor (The Lisbon Council et al. 2019) mentioned that new products, services and technologies has been used in the [White Rabbit Project](https://white-rabbit.web.cern.ch/) of CERN to measure how companies were able to reuse and sell White Rabbit switches and nodes, along with their services, to different organisations in multiple industrial settings. Similarly, Florio et al. (2018) have used similar metrics to measure innovation triggered by CERN in its supplier firms. Also, they have been indicated as monitoring indicators in the [RIPATHS](https://ri-paths-tool.eu/en) framework. [↑](#footnote-ref-6)
+    :::
+
+6.  ::: {#footnote-7}
+    Dziallas and Blind (2019) provide a comprehensive list of references on indicators, factors, methods, and other details related to innovation measurement throughout the innovation process not in the context of OS. [↑](#footnote-ref-7)
+    :::
