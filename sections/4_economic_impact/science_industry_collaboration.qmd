@@ -35,7 +35,7 @@ This indicator aims to capture the collaborative efforts between science (academ
 
 # Metrics
 
-## Number / Percentage of Joint Projects between Academia and Industry.
+## \# / % of Joint Projects between Academia and Industry
 
 This metric measures the number or percentage of joint projects conducted between academia and industry. These projects could include research collaborations, funded grants, or other forms of cooperative endeavors. By capturing the extent of these joint activities, this metric offers insights into the intensity and nature of science-industry collaboration.
 
@@ -43,7 +43,7 @@ The inclusion of joint projects as a metric provides a broader view of collabora
 
 Joint projects are a key indicator of active collaboration between academia and industry. They often lead to significant innovations and knowledge transfer. Tracking these projects can also highlight the alignment between research priorities in academia and the practical needs of industry.
 
-### Measurement.
+### Measurement
 
 **Step 1: Data Collection.** Identify databases and repositories that catalog joint projects between academia and industry. Possible sources include:
 
@@ -67,7 +67,7 @@ Joint projects are a key indicator of active collaboration between academia and 
 -   Duration of the projects.
 -   Number of repeat collaborations.
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### CORDIS
 
@@ -97,9 +97,7 @@ Use CIS data to analyze the innovation outcomes of joint projects. Specifically:
 -   Assess innovation outputs, such as product and process innovations, linked to joint projects.
 -   Examine funding sources, barriers, and drivers of innovation to contextualize collaborative efforts.
 
-#### Existing methodologies
-
-## -Number / Percentage of Data and Code Repositories with Science-Industry Collaborations
+## \# / % of Data and Code Repositories with Science-Industry Collaborations
 
 This metric captures the number or percentage of data and code repositories that demonstrate collaborations between academia and industry. Such repositories are typically hosted on platforms like GitHub, GitLab, Huggingface, or other collaborative software and data-sharing platforms. By analyzing repository metadata and contributor affiliations, this metric provides insights into the extent of collaborative efforts in creating and maintaining shared scientific and technological resources.
 
@@ -113,7 +111,7 @@ Some limitations to this approach are:
 -   Contributors may not always disclose affiliations, leading to underestimation.
 -   Collaboration types and intensity may not be easily discernible from repository metadata alone
 
-### Measurement.
+### Measurement
 
 **Step 1: Data Collection.** Identify repositories from major platforms (e.g., GitHub, GitLab, Huggingface) that are relevant to science and industry collaboration. Use APIs and publicly available datasets to extract repository data, including:
 
@@ -137,7 +135,7 @@ Some limitations to this approach are:
 -   Examining the types of projects (e.g., datasets, software).
 -   Assessing the depth of collaboration (e.g., co-maintenance, joint contributions).
 
-#### Existing datasources:
+#### Existing datasources
 
 ##### GitHub / Gitlab / etc
 
@@ -161,9 +159,7 @@ Use Huggingface to:
 -   Analyze repositories for co-maintenance by academic and industrial entities.
 -   Use metadata fields and descriptions to validate affiliations and collaborations.
 
-#### Existing methodologies
-
-## -Number / Percentage of patents filed by industry in collaboration with academia that cites Open Science (OS) resources.
+## \# / % of patents filed by industry in collaboration with academia that cites Open Science (OS) resources
 
 This metric assesses the extent to which industrial patents resulting from academic collaborations acknowledge or build upon OS resources, such as data, publications, or methodologies. A high number or percentage of such patents indicate a strong science-industry linkage and a productive exchange of OS resources.
 
@@ -239,7 +235,7 @@ To measure the proposed metric, the tool can be used to identify the reused and 
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created and may require manual validation.
 
-## Number / Percentage of Publications Produced by Academia in Collaboration with Industry that Cites Open Science Resources.
+## \# / % of Publications Produced by Academia in Collaboration with Industry that Cites Open Science Resources
 
 This metric evaluates how often publications resulting from academia-industry collaborations incorporate or reference open science artifacts. It signifies the degree to which collaborative research between these sectors utilizes open science as a foundation. It highlights a different aspect of collaboration by focusing on scholarly publications. Similar to the first metric, it is a measure of output but from an academic perspective.
 
@@ -297,21 +293,19 @@ To measure the proposed metric, the tool can be used to identify the reused and 
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
 
-### Existing datasources (applicable to all metrics)
+## Existing datasources (applicable to all metrics)
 
-#### ORBIS
+### ORBIS
 
 ORBIS is a global database that contains detailed information on companies, including financial data, ownership structures, and industry classifications. It is particularly valuable for tracking established firms and linking companies to their activities and affiliations. ORBIS provides insights into company performance, size, and economic connections, making it ideal for robust analysis of industry players.
 
 ORBIS can be utilized to validate and categorize company affiliations in academic-industry collaborations. It allows users to verify company profiles and gather detailed information such as industry sector, revenue, and geographic presence. This data is essential for distinguishing industry participants from academic institutions and for analyzing the economic dimensions of collaborations. ORBIS is particularly useful when deeper financial or structural insights into the companies involved are required.
 
-#### Crunchbase
+### Crunchbase
 
 Crunchbase is a comprehensive platform that aggregates data on companies, founders, and their funding activities. It includes detailed metadata on company profiles, such as industry, location, funding rounds, and associated personnel. Crunchbase provides extensive information about startups, established firms, and their interconnections, making it a valuable resource for identifying industry affiliations.
 
 Crunchbase can be used to identify the names and metadata of companies involved in academic-industry collaborations. By cross-referencing organizations from research outputs or project data, researchers can determine whether affiliations are from industry. Crunchbase’s metadata can also help uncover patterns such as funding sources, company size, and sectoral focus, which are crucial for understanding the scope and impact of collaborations.
-
-Known correlates
 
 # Notes {#notes .unnumbered}
 
