@@ -198,7 +198,7 @@ This section outlines key considerations, limitations, and areas for future work
 2.  **Challenges in Attribution of OS Contributions**\
     Accurately identifying and attributing OS contributions to the development of socially relevant innovations is difficult. Many datasources lack explicit references to OS inputs, and development processes are often complex and opaque.
 3.  **Overestimating Positive Contributions**\
-    New drugs or medical treatments should not be presumed inherently beneficial. Research (e.g., Schnog et al., 2021; Vivot et al., 2017) highlights cases where treatments offer limited clinical benefits while imposing high societal or healthcare costs. Similarly, pharmaceuticals can indirectly influence healthcare expenditures (Ci̇van and Köksal, 2010).
+    New drugs or medical treatments should not be presumed inherently beneficial. Research [e.g., @schnog2021;@vivot2017] highlights cases where treatments offer limited clinical benefits while imposing high societal or healthcare costs. Similarly, pharmaceuticals can indirectly influence healthcare expenditures [@civan2010].
 
 **Future Work**
 
@@ -207,16 +207,4 @@ This section outlines key considerations, limitations, and areas for future work
 2.  **Comparative Studies on OS-Derived Products**\
     Explore whether OS-derived products deliver better societal outcomes compared to non-OS-derived products. Potential metrics include reduced time to market, cost savings, and enhanced accessibility for disadvantaged populations.
 3.  **Expanding Scope to Include Impact of Breakthrough Innovations**\
-    Create specialized metrics to systematically track the impact of breakthrough innovations. For example, breakthroughs could be identified through regulatory designations like the FDA’s Breakthrough Therapy program (Chandra et al., 2024).
-
-# References {#references .unnumbered}
-
-Stavropoulos, P., Lyris, I., Manola, N., Grypari, I., & Papageorgiou, H. (2023). Empowering Knowledge Discovery from Scientific Literature: A novel approach to Research Artifact Analysis. In L. Tan, D. Milajevs, G. Chauhan, J. Gwinnup, & E. Rippeth (Eds.), Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023) (pp. 37–53). Association for Computational Linguistics. <https://doi.org/10.18653/v1/2023.nlposs-1.5>
-
-Chandra, A., Kao, J., Miller, K. L., & Stern, A. D. (2024). Regulatory Incentives for Innovation: The FDA's Breakthrough Therapy Designation. *The Review of Economics and Statistics,* 1–46. DOI: 10.1162/rest_a_01434
-
-Ci̇van, A., & Köksal, B. (2010). The effect of newer drugs on health spending: Do they really increase the costs? *Health Economics, 19*(5), 581–595. DOI: 10.1002/hec.1494
-
-Schnog, J.-J. B., Samson, M. J., Gans, R. O. B., & Duits, A. J. (2021). An urgent call to raise the bar in oncology. *British Journal of Cancer, 125*(11), 1477–1485. DOI: 10.1038/s41416-021-01495-7
-
-Vivot, A., Jacot, J., Zeitoun, J.-D., Ravaud, P., Crequit, P., & Porcher, R. (2017). Clinical benefit, price, and approval characteristics of FDA-approved new drugs for treating advanced solid cancer, 2000–2015. *Annals of Oncology, 28*(5), 1111–1116. DOI: 10.1093/annonc/mdx053
+    Create specialized metrics to systematically track the impact of breakthrough innovations. For example, breakthroughs could be identified through regulatory designations like the FDA’s Breakthrough Therapy program [@chandra2024].
