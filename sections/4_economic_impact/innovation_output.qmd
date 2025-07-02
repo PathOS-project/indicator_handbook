@@ -26,16 +26,15 @@ affiliations:
 title: Innovation output
 ---
 
-
 ::: {.callout collapse="true"}
 # History
 
-| Version | Revision date | Revision     | Author                                |
-|----------------|----------------|-----------------|-----------------------|
+| Version | Revision date | Revision | Author |
+|-----------------|-----------------|-----------------|---------------------|
 | 1.4 | 2025-03-07 | Third draft | Delugas E., Catalano G., Caputo A. (reviewer) |
-| 1.3     | 2024-04-26    | Second draft | Delugas E., Consiglio G., Catalano G. |
-| 1.2     | 2024-04-25    | Peer review  | V.A. Traag                            |
-| 1.1     | 2024-03-27    | First draft  | Delugas E., Consiglio G., Catalano G. |
+| 1.3 | 2024-04-26 | Second draft | Delugas E., Consiglio G., Catalano G. |
+| 1.2 | 2024-04-25 | Peer review | V.A. Traag |
+| 1.1 | 2024-03-27 | First draft | Delugas E., Consiglio G., Catalano G. |
 :::
 
 # Description {#description .unnumbered}
