@@ -39,7 +39,7 @@ This metric acknowledges inherent limitations, such as the contextual and multif
 
 # Metrics
 
-## Number / Percentage of “socially relevant products and processes” using OS resources
+## \# / % of “socially relevant products and processes” using OS resources
 
 This metric calculates the proportion of socially relevant products and processes developed using OS inputs. It aggregates the impact of OS across different sectors by measuring its contribution to:
 
