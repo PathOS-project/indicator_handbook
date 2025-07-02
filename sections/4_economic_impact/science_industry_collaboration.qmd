@@ -311,17 +311,9 @@ Crunchbase can be used to identify the names and metadata of companies involved 
 
 The proposed metrics offer a solid foundation for measuring the collaboration between science and industry, however some aspects require further exploration:
 
-1.  **Broader Identification of Academic Patents**: Current reliance on co-assigned patents may underestimate academic contributions. Identifying academic inventors using methodologies like those by Ljungberg and McKelvey (2012) and Crescenzi et al. (2017) could provide a more comprehensive view.
+1.  **Broader Identification of Academic Patents**: Current reliance on co-assigned patents may underestimate academic contributions. Identifying academic inventors using methodologies like those by [@ljungberg2021] and [@crescenzi2017] could provide a more comprehensive view.
 2.  **Patent Novelty**: Future work could leverage NLP and category analysis to assess the novelty of patents, complementing existing quality measures.
 3.  **Personnel Mobility**: Data on personnel transitions between academia and industry (e.g., LinkedIn) could reveal valuable insights into collaboration dynamics, though privacy and data access pose challenges.
 4.  **Collaboration Types**: Expanding analysis to include collaboration forms like licensing, consulting, and outsourcing would enrich understanding of interaction patterns.
 
 Addressing these areas will deepen insights into the nature and impact of science-industry collaboration.
-
-# References {#references .unnumbered}
-
-Stavropoulos, P., Lyris, I., Manola, N., Grypari, I., & Papageorgiou, H. (2023). Empowering Knowledge Discovery from Scientific Literature: A novel approach to Research Artifact Analysis. In L. Tan, D. Milajevs, G. Chauhan, J. Gwinnup, & E. Rippeth (Eds.), Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023) (pp. 37–53). Association for Computational Linguistics. <https://doi.org/10.18653/v1/2023.nlposs-1.5>
-
-Crescenzi, Riccardo; Filippetti, Andrea; Iammarino, Simona (2017): Academic inventors: collaboration and proximity with industry. In The Journal of Technology Transfer 42 (4), pp. 730–762. DOI: 10.1007/s10961-016-9550-z.
-
-Ljungberg, Daniel; McKelvey, Maureen (2012): What Characterizes Firms' Academic Patents? Academic Involvement in Industrial Inventions in Sweden. In Industry and Innovation 19 (7), pp. 585–606. DOI: 10.1080/13662716.2012.726808.
