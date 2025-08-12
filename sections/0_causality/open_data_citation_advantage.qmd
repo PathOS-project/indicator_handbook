@@ -15,7 +15,6 @@ affiliations:
 title: The effect of Open Data on Citations
 ---
 
-
 ::: {.callout collapse="true"}
 # History
 
@@ -25,7 +24,7 @@ title: The effect of Open Data on Citations
 | 1.0     | 2024-11-13    | First draft | V.A. Traag |
 :::
 
-We here provide some idea of what it would take to try to infer the causal effect of one specific Open Science practice on citation impact. In particular, we consider the effect of [Open Data](../1_open_science/prevalence_open_fair_data_practices.qmd) on [citation impact](../2_academic_impact/citation_impact.qmd). That is, papers that share their data might be more likely to be cited. This is something that has been called the "Open Data Citation Advantage", and in the PathOS scoping review of the academic impact of Open Science [@klebel_academic_2024], evidence was found for a small positive effect of sharing data.
+We here provide some idea of what it would take to try to infer the causal effect of one specific Open Science practice on citation impact. In particular, we consider the effect of [Open Data](../1_open_science/prevalence_open_fair_data_practices.qmd) on [citation impact](../2_academic_impact/citation_impact.qmd). That is, papers that share their data might be more likely to be cited. This is something that has been called the "Open Data Citation Advantage", and in the PathOS scoping review of the academic impact of Open Science [@klebel_academic_2025], evidence was found for a small positive effect of sharing data.
 
 Inferring the causal effect of open data on citation impact is not straightforward and cannot easily be done in an experimental setting. Although an experiment study could in principle be done, it would require researchers to participate and follow the experimental, randomised "treatment" of sharing data or not, which will be challenging, especially where more and more data policies mandate that data should be shared. This means that, barring such experiments, we have to rely on observational studies of citations to publications that have (not) shared their data. Note that we here only focus on whether data was shared or not, not whether the data is FAIR or not, or the extent to which it is FAIR, although that might be a relevant confounder to consider.
 
