@@ -36,7 +36,7 @@ The indicator can be used to assess the level of openness and accessibility of r
 
 ### Connections to Academic Indicators
 
-This indicator examines the broader effects of making research data openly accessible, focusing on how transparency and accessibility enhance reproducibility, collaboration, and innovation within the scientific community. This builds upon the [Use of Data in Research](https://handbook.pathos-project.eu/indicator_templates/sections/2_academic_impact/use_of_data_in_research.html), which evaluates how data is initially utilized within research activities, and the [Reuse of Data in Research](https://handbook.pathos-project.eu/indicator_templates/sections/5_reproducibility/reuse_of_data_in_research.html), which measures the extent to which datasets are adopted in subsequent studies. Together, these indicators provide a comprehensive view of how data contributes to scientific outputs, reusability and reproducibility.
+This indicator examines the broader effects of making research data openly accessible, focusing on how transparency and accessibility enhance reproducibility, collaboration, and innovation within the scientific community. This builds upon the [Use of Data in Research](../2_academic_impact/use_of_data_in_research.html), which evaluates how data is initially utilized within research activities, and the [Reuse of Data in Research](../5_reproducibility/reuse_of_data_in_research.html), which measures the extent to which datasets are adopted in subsequent studies. Together, these indicators provide a comprehensive view of how data contributes to scientific outputs, reusability and reproducibility.
 
 # Metrics
 
