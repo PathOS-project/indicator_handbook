@@ -34,7 +34,7 @@ The reuse of code or software in research refers to the practice of utilising ex
 
 ### Connections to Academic Indicators
 
-This indicator emphasizes the adoption and utilization of existing code or software in subsequent studies, focusing on its role in enhancing reproducibility, collaboration, and research quality. In contrast, the [Use of Code in Research](https://handbook.pathos-project.eu/indicator_templates/sections/2_academic_impact/use_of_code_in_research.html) measures the initial incorporation of code or software into research activities, providing insights into its contribution to the research process itself. Furthermore, the [Impact of Open Code in Research](https://handbook.pathos-project.eu/indicator_templates/sections/5_reproducibility/impact_of_open_code_in_research.html) extends this perspective by evaluating the broader effects of making code or software openly accessible, fostering transparency, and driving innovation across the scientific community.
+This indicator emphasizes the adoption and utilization of existing code or software in subsequent studies, focusing on its role in enhancing reproducibility, collaboration, and research quality. In contrast, the [Use of Code in Research](../2_academic_impact/use_of_code_in_research.html) measures the initial incorporation of code or software into research activities, providing insights into its contribution to the research process itself. Furthermore, the [Impact of Open Code in Research](../5_reproducibility/impact_of_open_code_in_research.html) extends this perspective by evaluating the broader effects of making code or software openly accessible, fostering transparency, and driving innovation across the scientific community.
 
 # Metrics
 
