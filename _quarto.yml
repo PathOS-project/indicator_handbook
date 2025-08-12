@@ -127,10 +127,6 @@ website:
             - sections/5_reproducibility/reuse_of_code_in_research.qmd
             - sections/5_reproducibility/reuse_of_data_in_research.qmd
 
-comments:
-  hypothesis:
-    theme: clean
-
 format:
   html:
     toc: true
