@@ -100,7 +100,7 @@ This approach emphasizes **continuity**, while integrating **growth, impact, and
 
 ##### Longitudinal Co-word Analysis (SciMAT)
 
-The [SciMAT framework](https://doi.org/10.1016/j.joi.2010.09.002) (Cobo et al., 2011) measures persistence by detecting **continuing themes** across consecutive time periods.
+The SciMAT framework [@Cobo2011AnAF] measures persistence by detecting **continuing themes** across consecutive time periods.
 
 
 - Topics identified via keyword co-occurrence networks.  
@@ -116,7 +116,7 @@ This approach emphasizes **structural continuity of thematic vocabularies**.
 
 ##### Direct-Citation Topic Survival
 
-The [CWTS publication-level classification system](https://doi.org/10.1002/asi.22748) enables persistence analysis based on citation-linked topic clusters.
+The CWTS publication-level classification system [@Waltman2012ANM] enables persistence analysis based on citation-linked topic clusters.
 
 -   Topics are defined via **direct citation clustering**.\
 -   Persistence is measured through indicators such as:
@@ -127,7 +127,7 @@ This approach measures persistence at the **topic-cluster level**, grounded in c
 
 ##### Continuity Typologies
 
-The [continuity framework](https://doi.org/10.1016/j.joi.2013.11.006) quantifies persistence by categorizing topics into distinct evolutionary types:
+The continuity framework [@Yan2014ResearchDM] quantifies persistence by categorizing topics into distinct evolutionary types:
 
 -   **Steady**: stable over time\
 -   **Concentrating**: narrowing focus while persisting\
