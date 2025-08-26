@@ -86,6 +86,7 @@ website:
             - sections/2_academic_impact/quality.qmd
             - sections/2_academic_impact/use_of_code_in_research.qmd
             - sections/2_academic_impact/use_of_data_in_research.qmd
+            - sections/2_academic_impact/thematic_persistence.qmd
 
     - title: Societal Impact
       contents:
