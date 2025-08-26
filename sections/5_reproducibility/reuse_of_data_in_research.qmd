@@ -34,7 +34,7 @@ The reuse of data in research refers to the practice of utilizing existing data 
 
 ### Connections to Academic Indicators
 
-This indicator emphasizes the adoption and utilization of existing datasets for new research purposes, highlighting its role in enhancing reusability, reproducibility, collaboration, and research efficiency. In contrast, the [Use of Data in Research](https://handbook.pathos-project.eu/indicator_templates/sections/2_academic_impact/use_of_data_in_research.html) focuses on the initial incorporation of data into research activities and its contributions to academic outputs. Furthermore, the [Impact of Open Data in Research](https://handbook.pathos-project.eu/indicator_templates/sections/5_reproducibility/impact_of_open_data_in_research.html) extends this perspective by evaluating how openly shared datasets foster transparency, accessibility, and innovation across the scientific community.
+This indicator emphasizes the adoption and utilization of existing datasets for new research purposes, highlighting its role in enhancing reusability, reproducibility, collaboration, and research efficiency. In contrast, the [Use of Data in Research](../2_academic_impact/use_of_data_in_research.html) focuses on the initial incorporation of data into research activities and its contributions to academic outputs. Furthermore, the [Impact of Open Data in Research](../5_reproducibility/impact_of_open_data_in_research.html) extends this perspective by evaluating how openly shared datasets foster transparency, accessibility, and innovation across the scientific community.
 
 # Metrics
 
@@ -42,7 +42,7 @@ This indicator emphasizes the adoption and utilization of existing datasets for 
 
 This metric emphasizes the reuse of datasets in research publications, highlighting its importance in fostering reproducibility, collaboration, and research efficiency. The reuse of datasets serves as an essential mechanism for validating findings and building upon prior research, enhancing the transparency and replicability of scientific outputs.
 
-This aligns closely with the metrics discussed in the [Use of Data in Research](https://handbook.pathos-project.eu/indicator_templates/sections/2_academic_impact/use_of_data_in_research.html) under the academic indicators. Specifically, the measurement of dataset mentions or citations in publications provides the foundation for assessing both the use and reuse of data. For further details on measurement methodologies, such as text mining, and the role of data repositories, refer to the academic indicator.
+This aligns closely with the metrics discussed in the [Use of Data in Research](../2_academic_impact/use_of_data_in_research.html) under the academic indicators. Specifically, the measurement of dataset mentions or citations in publications provides the foundation for assessing both the use and reuse of data. For further details on measurement methodologies, such as text mining, and the role of data repositories, refer to the academic indicator.
 
 In the context of reproducibility, the reuse of datasets reflects the scientific community's ability to leverage existing data to answer new research questions. It underscores the importance of effective data sharing practices, robust metadata, and clear licensing, as these enable other researchers to trust, access, and incorporate datasets into their work. Furthermore, higher levels of data reuse often indicate stronger collaboration and trust within a scientific field, which are critical for advancing reproducible research.
 

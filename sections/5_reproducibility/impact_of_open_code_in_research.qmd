@@ -36,7 +36,7 @@ This indicator can be used to assess the level of openness and accessibility of 
 
 ### Connections to Academic Indicators
 
-This indicator examines the broader effects of making code or software openly accessible, focusing on its role in fostering transparency, collaboration, and reproducibility across the scientific community. This builds upon the [Use of Code in Research](https://handbook.pathos-project.eu/indicator_templates/sections/2_academic_impact/use_of_code_in_research.html), which assesses the initial incorporation of code or software into research, and the [Reuse of Code in Research](https://handbook.pathos-project.eu/indicator_templates/sections/5_reproducibility/reuse_of_code_in_research.html), which measures the extent to which existing code or software is adopted in subsequent studies. Together, these indicators provide a comprehensive view of how code or software contributes to research outputs, reusability, reproducibility, and the wider adoption of Open Code practices.
+This indicator examines the broader effects of making code or software openly accessible, focusing on its role in fostering transparency, collaboration, and reproducibility across the scientific community. This builds upon the [Use of Code in Research](../2_academic_impact/use_of_code_in_research.html), which assesses the initial incorporation of code or software into research, and the [Reuse of Code in Research](../5_reproducibility/reuse_of_code_in_research.html), which measures the extent to which existing code or software is adopted in subsequent studies. Together, these indicators provide a comprehensive view of how code or software contributes to research outputs, reusability, reproducibility, and the wider adoption of Open Code practices.
 
 # Metrics
 
