@@ -1,0 +1,139 @@
+---
+title: Thematic Persistence
+author:
+  - name: P. Stavropoulos
+    orcid: 0000-0003-1664-6554
+    affiliations:
+      - ref: arc
+affiliations:
+  - id: arc
+    name: Athena Research Center
+    city: Athena
+    country: Greece
+---
+
+::: {.callout collapse="true"}
+# History
+
+| Version | Revision date | Revision    | Author              |
+|---------|---------------|-------------|---------------------|
+| 1.1     | 2025-08-25    | Additions   | Petros Stavropoulos |
+| 1.0     | 2025-05-09    | First Draft | Petros Stavropoulos |
+:::
+
+# Description
+
+*Thematic Persistence* captures the ability of a research topic to remain present and influential in the scientific record over extended periods of time. It reflects the **continuity, longevity, and stability** of themes, distinguishing enduring areas of inquiry from those that are short-lived or sporadic.
+
+Persistent topics often indicate fields with strong conceptual foundations, long-term societal or technological relevance, or strategic importance for research policy. Conversely, non-persistent topics may point to fleeting interests or speculative research directions.
+
+Measuring thematic persistence helps assess the structural evolution of science, identify durable agendas, and guide funding, policy, and curriculum decisions.
+
+## Thematic Persistence Score (TPS)
+
+One way to operationalize persistence is through composite indicators such as the *Thematic Persistence Score (TPS)*. TPS combines multiple aspects of a topic’s evolution (continuity across years, growth, impact, and recency) into a single measure.
+
+Other methodologies apply different approaches, such as linking clusters across time periods, defining continuity typologies, or evaluating the survival of citation-based topics.
+
+### Measurement
+
+Thematic persistence can be measured through a combination of:
+
+- **Temporal continuity**: duration and uninterrupted presence of topics across consecutive years or periods.  
+- **Growth dynamics**: how the volume of publications on a topic changes over time.  
+- **Impact measures**: the influence of topic publications relative to their fields.  
+- **Structural stability**: whether a topic maintains coherence in its conceptual or citation network.  
+- **Recency**: whether a topic remains active in the most recent period.  
+
+The precise operationalization depends on the chosen methodology, as outlined below.
+
+#### Datasources
+
+##### OpenAIRE Research Graph
+
+The [OpenAIRE Research Graph](https://graph.openaire.eu/) offers extensive metadata on publications, including:
+
+- **Publication year**, which is crucial for identifying consecutive topic appearances.
+- **Citation metadata**, enabling FWCI computation via connected sources.
+
+##### Semantic Scholar
+
+[Semantic Scholar](https://www.semanticscholar.org/) offers full-text access and machine-readable metadata, including:
+
+- Year of publication
+- Citation counts
+
+#### Existing Methodologies
+
+##### SciNoBo Toolkit
+
+The [SciNoBo Toolkit](https://scinobo.ilsp.gr/toolkit) provides essential functionalities for TPS:
+
+-   **Field of Science (FoS) classification**: Uses a hierarchical taxonomy (6 levels) to assign topics to publications, capturing both broad disciplines and fine-grained emerging themes. This allows robust tracking of how topics evolve across scientific fields.
+-   **Citation Analysis**: Aggregates citation metrics across publications, facilitating computation of Field-Weighted Citation Impact (FWCI) for each topic-year combination.
+
+These tools make it feasible to apply the TPS metric across large bibliographic datasets with a rich contextual understanding of scientific domains.
+
+**TPS Formula:**
+
+For each topic, sequences of consecutive years are identified where the topic appears in publications. For each such sequence `s`, the score is computed as:
+
+$$
+\text{Score}_s = (\text{Length}_s)^{1.5} \times \text{Count}_s \times \text{Growth}_s \times \text{FWCI}_s \times \text{Recency}_s
+$$
+
+Where: 
+
+- $\text{Length}_s$: Length of the sequence (in years) 
+- $\text{Count}_s$: Number of publications in the sequence - 
+- $\text{Growth}_s = \frac{\text{LastYearCount}}{\text{FirstYearCount}}$ (capped at 3)
+- $\text{FWCI}_s$: Mean Field-Weighted Citation Impact for publications in the sequence 
+- $\text{Recency}_s = 1 + \frac{w (\text{LastYear}_s - \text{MaxYear} + 10)}{10}$, with $w$ as a recency weight (e.g. 0.2)
+
+The final TPS is the sum of the scores for all sequences of the topic:
+
+$$
+\text{TPS}_{\text{topic}} = \sum_s \text{Score}_s
+$$
+
+This approach emphasizes **continuity**, while integrating **growth, impact, and recency**.
+
+##### Longitudinal Co-word Analysis (SciMAT)
+
+The SciMAT framework [@Cobo2011AnAF] measures persistence by detecting **continuing themes** across consecutive time periods.
+
+
+- Topics identified via keyword co-occurrence networks.  
+- Continuity measured using the **Inclusion Index**:  
+
+$$
+\text{Inclusion}(U,V) = \frac{|U \cap V|}{\min(|U|,|V|)}
+$$
+
+- Topics linked across periods with high inclusion are *continuing*; absence of links indicates *new* or *discontinued* themes.  
+
+This approach emphasizes **structural continuity of thematic vocabularies**.
+
+##### Direct-Citation Topic Survival
+
+The CWTS publication-level classification system [@Waltman2012ANM] enables persistence analysis based on citation-linked topic clusters.
+
+-   Topics are defined via **direct citation clustering**.\
+-   Persistence is measured through indicators such as:
+    -   **Survival length**: number of years a cluster remains active.\
+    -   **Activity stability**: whether publication volume is maintained or growing.
+
+This approach measures persistence at the **topic-cluster level**, grounded in citation networks.
+
+##### Continuity Typologies
+
+The continuity framework [@Yan2014ResearchDM] quantifies persistence by categorizing topics into distinct evolutionary types:
+
+-   **Steady**: stable over time\
+-   **Concentrating**: narrowing focus while persisting\
+-   **Diluting**: broadening and dispersing\
+-   **Sporadic**: intermittent appearance\
+-   **Emerging**: new and growing
+
+Continuity is evaluated by the **strength of inter-year linkages** among topic clusters.\
+This allows distinguishing different **modes of persistence** and topic evolution.
