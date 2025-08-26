@@ -101,6 +101,7 @@ website:
             - sections/3_societal_impact/uptake_in_education.qmd
             - sections/3_societal_impact/uptake_in_medical_practice.qmd
             - sections/3_societal_impact/uptake_in_the_legal_sector.qmd
+            - sections/3_societal_impact/OS_access_advantage.qmd
 
     - title: Economic Impact
       contents:
@@ -128,10 +129,6 @@ website:
             - sections/5_reproducibility/reuse_of_code_in_research.qmd
             - sections/5_reproducibility/reuse_of_data_in_research.qmd
 
-comments:
-  hypothesis:
-    theme: clean
-
 format:
   html:
     toc: true
@@ -147,8 +144,6 @@ format:
     callout-appearance: simple
 zotero: PathOS
 bibliography: references.bib
-
-editor: visual
 
 license:
   text: >
