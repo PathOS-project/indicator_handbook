@@ -114,7 +114,7 @@ Where:
 - Complements [Impact of Open Data in Research](../5_reproducibility/impact_of_open_data_in_research.qmd), which uses Normalised Citation Impact (NCI) to evaluate the influence of Open Data publications.  
 
 **Relation to methodologies and tools:**  
-- Reuse detection requires analysing **citation statements** with Natural Language Processing and machine learning, as implemented in platforms such the **SciNoBo toolkit** [@gialitsis2022; @kotitsas2023].  
+- Reuse detection requires analysing **citation statements** with Natural Language Processing and machine learning, as implemented in platforms such the [SciNoBo Toolkit](https://scinobo.ilsp.gr/toolkit).  
 - The SciNoBo toolkit in particular can identify and classify citances by intent (reuse, comparison, generic), polarity (supporting, refuting, neutral), and semantics (claim, method, results, artefact/output), making it possible to operationalise FWRI.  
 
 ---
@@ -122,7 +122,7 @@ Where:
 #### 3. FAIR Index (FI)
 
 **Definition:**  
-The FAIR Index (FI) measures the extent to which a research artefact (dataset, code, software) complies with the **FAIR principles**: *Findable, Accessible, Interoperable, and Reusable* [@wilkinson2016].  
+The FAIR Index (FI) measures the extent to which a research artefact (dataset, code, software) complies with the **FAIR principles**: *Findable, Accessible, Interoperable, and Reusable*.  
 The indicator provides a simple, computational way of assessing FAIRness by checking for the presence and completeness of key metadata elements that are essential for discovery, access, licensing, and reuse.  
 
 **Formula:**  
@@ -179,7 +179,7 @@ $$
 
 **Relation to methodologies and tools:**  
 - **OpenAIRE Research Graph** supports linkage of citations, which can be enriched with polarity classification.  
-- The **SciNoBo toolkit** [@gialitsis2022; @kotitsas2023] includes functionality for automated citance classification by intent (reuse, comparison, generic), polarity (supporting, refuting, neutral), and semantics (claim, method, results, artefact/output).  
+- The [SciNoBo Toolkit](https://scinobo.ilsp.gr/toolkit) includes functionality for automated citance classification by intent (reuse, comparison, generic), polarity (supporting, refuting, neutral), and semantics (claim, method, results, artefact/output).  
 
 ---
 
@@ -221,7 +221,7 @@ The following datasources provide alternative ways to obtain this information. N
 
 ## SciNoBo Toolkit
 
-The **SciNoBo toolkit** [@gialitsis2022a; @kotitsas2023a] has implemented and operationalised the RCCI and its component indicators into a **working monitoring dashboard**.  
+The [SciNoBo Toolkit](https://scinobo.ilsp.gr/toolkit) has implemented and operationalised the RCCI and its component indicators into a **working monitoring dashboard**.  
 
 - In the **TIER2 project**, SciNoBo was used to extract artefacts from project deliverables and publications, link them to citation and reuse data, and compute FWCI, FWRI, FI, RCI, and RCCI.  
 - The RCCI results were presented in **pilot dashboards** for funders and RPOs.  
