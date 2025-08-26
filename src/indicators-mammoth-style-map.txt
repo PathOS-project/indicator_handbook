@@ -1,10 +1,10 @@
 p[style-name='Title'] => h1
 p[style-name='Description'] => !
-p[style-name='Heading 1'] => h2
-p[style-name='Heading 2'] => h3
-p[style-name='Heading 3'] => h4
-p[style-name='Heading 4'] => h5
-p[style-name='Heading 5'] => h6
+p[style-name='Heading 1'] => h1
+p[style-name='Heading 2'] => h2
+p[style-name='Heading 3'] => h3
+p[style-name='Heading 4'] => h4
+p[style-name='Heading 5'] => h5
 p[style-name='Code'] => pre.python > code:separator('\n')
 r[style-name='Code Char'] => code
 p[style-name='Bibliography'] => p:fresh
