@@ -54,7 +54,7 @@ The indicator is meant to be used comparatively in three different ways:
 2.  Second, the indicator is meant to compare specifically the access to OS resources to the access to non-OS resources, thus serving the objectives of the PathOS project in which it was created.
 3.  Third and last, the indicator is meant to investigate not only the overall access of a given set of scientific resources, but also to drill down to examine specific access advantage within specific disciplines, specific countries or societal sectors if revealed by their IP addresses.
 
-Closed access can be defined as follows:
+Closed access can be defined as follows (see also [Prevalence of Open Access publishing](../1_open_science/prevalence_open_access_publishing.html)):
 
 ![](figures/oa_status.png)
 
