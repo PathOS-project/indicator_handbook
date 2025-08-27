@@ -168,27 +168,19 @@ We do not specify what function exactly, so it can be a linear function, an expo
 Interactions between variables, moderators, hurdles, or any other functional specifications are not indicated separately, and all can be part of the function.
 A variable $X$ that has a direct causal effect on $Y$ is called a parent of $Y$.
 
-```{=latex}
-\begin{table*}
-\caption{Overview of concepts for Directed Acyclic Graphs (DAG).}
-\label{tbl-concepts}
-\begin{tabular}{lp{13cm}}
-  \toprule
-  Concept      & Explanation  \\
-  \midrule
-  Node, vertex & Represents a variable in a DAG \\
-  Link, edge   & Represents a causal effect from one node on another in a DAG. \\
-  Acyclic      & No cycles (e.g. $X \rightarrow Y \rightarrow Z \rightarrow X$) are present. \\
-  Parents      & The parents of a node $Y$ are the nodes that point to $Y$. \\
-  Path         & A series of nodes connected through links. Can be directed, when respecting the direction of the link (e.g. $X \rightarrow Y \rightarrow Z$) or undirected, when ignoring the direction of the link (e.g. $X \rightarrow Y \leftarrow Z$). \\
-  Causal path  & A path from $X$ to $Y$ is causal if it is directed, i.e. all links respect the direction (e.g. $X \rightarrow Z \rightarrow Y$) \\
-  Non-causal path  & A path between $X$ and $Y$ is non-causal if it is undirected, i.e. some links do not respect the direction (e.g. $X \rightarrow Z \leftarrow Y$). \\
-  Open path    & When a path between two nodes $X$ and $Y$ is open, there is an association between $X$ and $Y$. See also Figure \ref{fig-d-separation}. \\
-  Closed path  & When all paths between two nodes $X$ and $Y$ are closed, there is no association between $X$ and $Y$. See also Figure \ref{fig-d-separation}. \\
-  \bottomrule
-\end{tabular}
-\end{table*}
-```
+| Concept      | Explanation  |
+|:---|:----------------------------|
+| Node, vertex | Represents a variable in a DAG. |
+| Link, edge   | Represents a causal effect from one node on another in a DAG.  |
+| Acyclic      | No cycles (e.g. $X \rightarrow Y \rightarrow Z \rightarrow X$) are present.  |
+| Parents      | The parents of a node $Y$ are the nodes that point to $Y$.  |
+| Path         | A series of nodes connected through links. Can be directed, when respecting the direction of the link (e.g. $X \rightarrow Y \rightarrow Z$) or undirected, when ignoring the direction of the link (e.g. $X \rightarrow Y \leftarrow Z$).  |
+| Causal path  | A path from $X$ to $Y$ is causal if it is directed, i.e. all links respect the direction (e.g. $X \rightarrow Z \rightarrow Y$)  |
+| Non-causal path  | A path between $X$ and $Y$ is non-causal if it is undirected, i.e. some links do not respect the direction (e.g. $X \rightarrow Z \leftarrow Y$).  |
+| Open path    | When a path between two nodes $X$ and $Y$ is open, there is an association between $X$ and $Y$. See also @fig-d-separation.  |
+| Closed path  | When all paths between two nodes $X$ and $Y$ are closed, there is no association between $X$ and $Y$. See also @fig-d-separation.  |
+
+: Overview of concepts for Directed Acyclic Graphs (DAG). {#tbl-concepts}
 
 Throughout this introduction, we work with a single example DAG on Open Science (see @fig-overall-model).
 In this DAG, *Novelty* and *Rigour* are both assumed to affect the number of *Citations* and whether something will be *Published* or not.
