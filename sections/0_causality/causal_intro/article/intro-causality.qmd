@@ -1,5 +1,5 @@
 ---
-title: "Introduction to causality"
+title: "Introduction to structural causal models in science studies"
 author: 
   - name: Thomas Klebel
     orcid: 0000-0002-7331-4751
@@ -39,34 +39,41 @@ code-summary: "Show the code"
 
 # Introduction
 
-Causal questions are pervasive in science studies: what are the effects of peer review on the quality of publications [@goodman_manuscript_1994]?
-What is the influence of mentorship on protegees success [@malmgren_role_2010]?
-Do incentives to share research data lead to higher rates of data sharing [@woods2022]?
-Yet, answers to such questions are rarely causal.
-Often, researchers investigate causal questions, but fail to employ adequate methods to make causal claims.
+Causal questions are pervasive in science studies: what are the effects of peer review on the quality of publications [@goodman_manuscript_1994; @altman2002; @jefferson2002; @smith2006; @bornmann2011; @bornmann2005; @altman2002]?
+What is the influence of mentorship on protegees success [@malmgren_role_2010; @ma2020; @liénard2018]?
+Do incentives to share research data lead to higher rates of data sharing [@woods2022; @rowhani-farid2017]?
+Yet, answers to such questions rarely consider causality properly.
+Often, researchers investigate causal questions, but fail to employ adequate methods to make justified causal claims.
 As an example, there is a burgeoning literature investigating whether publishing Open Access leads to more citations.
-While the observational evidence seems to suggest such an effect, few studies use methods that would permit causal claims [@klebel2023].
-Most scientists acknowledge that we should be "thinking clearly about correlation and causation" [@rohrer2018], but the implications of causal considerations are often ignored.
+While the observational evidence seems to suggest such an effect, few studies use methods that would permit justified causal claims [@klebel2023].
+Many scientists acknowledge that we should be "thinking clearly about correlation and causation" [@rohrer2018], but the implications of causal considerations are often ignored.
 Similar concerns were raised in the context of biases in science, such as gender bias [@traag_causal_2022].
 
 Uncovering causal effects is a challenge shared by many scientific fields.
 There are large methodological differences between fields, also with regards to inferring causality.
 Some fields are experimental, while others are observational.
-Some are historical, examining a *single* history, while others are contemporary, where observations can be repeated.
+Some fields are historical, examining a single unfolded history, while others are contemporary, allowing to repeat observations.
 Some fields already have a long tradition with causal inference, while other fields have paid less attention to causal inference.
-We believe that science studies, regardless of whether that is scientometrics, science of science, science and technology studies, or sociology of science, have paid relatively little attention to questions of causality, with some notable exceptions [e.g., @aagaard_considerations_2017; @glaser_governing_2016].
+We believe that science studies, regardless of whether that is scientometrics, science of science, science and technology studies, or sociology of science, have paid relatively little attention to questions of causality, with some notable exceptions [e.g., @aagaard_considerations_2017; @glaser_governing_2016; @bol2018;@tomkins_reviewer_2017;@simsek2024;@luc_does_2021;@davis_reanalysis_2020;@davis_open_2008].
+Quantitative science studies, like quantitative social sciences more generally, has a long history of working with regression models, and sometimes with more advanced statistical and mathematical models.
+However, it is not always clear how to interpret results from such approaches, and we believe a more explicit discussion of causality helps in clarifying and strengthening the interpretation.
 
-We here provide an introduction to causal inference for science studies, with a particular focus on effects on the impact of Open Science.
-Multiple introductions to structural causal modelling of varying complexity already exist [@rohrer2018; @arif2023; @elwert2013].
-@dong_beyond_2022 introduce matching strategies to information science.
-We believe it is beneficial to introduce causal thinking using familiar examples from science studies, making it easier for researchers in this area to learn about causal approaches.
+We here provide an introduction to causal inference for science studies.
+In particular, we rely on structural causal models, which we believe are easier to communicate and relate to compared to the (formally equivalent) framework of potential outcomes.
+Multiple introductions to structural causal modelling already exist, typically covering specific fields [@rohrer2018; @arif2023; @elwert2013; @hunermund_causal_2023; @deffner2022].
+Beyond these shorter and domain-specific introductions, there are also comprehensive text-books [@huntington-klein_effect_2021; @cunningham_causal_2021; @pearl_causality_2009] that provide much more detail and explanation than we can provide here.
+
+Bridging the broader tradition of econometric methods to infer causality to science studies, @liu_data_2023 discuss several other approaches to causal inference in science studies, such as matching (see also @dong_beyond_2022), fixed effects, quasi-experiments, difference-in-difference, and regression discontinuity.
+Some of these approaches have been applied in sub-domains of science studies that are closer related to economics and the management of science literature (see for example @schmal2023; @jacob2011; @azoulay2019).
+Yet, sufficient consideration of causal mechanisms and the application of appropriate methods are still lacking in science studies more broadly.
+
+By applying structural causal models to familiar examples from science studies, we aim to make causal inference more accessible to researchers who are unfamiliar with these approaches.
+We believe structural causal models are relevant to science studies broadly, but they are particularly relevant in quantitative science studies.
 We avoid technicalities, so that the core ideas can be understood even with little background in statistics.
-We first introduce the general approach, which we then briefly illustrate in three short case studies.
+Although we focus on structural causal models, not all causal thinking can necessarily be easily expressed in these models.
 In addition, we provide some extensive descriptions of approaching causality in three specific case studies in academic impact (on the effect of [Open Data on citations](../../open_data_citation_advantage.qmd)), in [societal impact](../../social_causality.qmd) and in economic impact (on the effect of [Open Data on Cost Savings](../../open_data_cost_savings.qmd)).
 
-## The fundamental problem
-
-The fundamental problem in causal inference is that we never have the answer to the "what-if" question.
+The fundamental problem in causal inference is that we never know for sure the answer to the "what-if" question.
 For instance, suppose that a professor received tenure.
 We can observe her publications when she received tenure.
 Would she also have received tenure, if she had not published that one paper in a high-impact journal?
@@ -75,30 +82,34 @@ The so-called counterfactual scenario, where she did not publish that paper and 
 This unobservable counterfactual scenario is the fundamental problem.
 
 Experiments are often helpful in getting causal answers.
-By controlling the exact conditions, and only actively varying one condition, we can recreate counterfactual scenarios, at least on average, assuming conditions are properly randomised.
+By controlling the conditions, and only actively varying one condition, we can recreate counterfactual scenarios, at least on average, assuming conditions are properly randomised.
 There are also some experimental studies in science studies, for instance studying the effect of randomly tweeting about a paper or not [@luc_does_2021; @davis_reanalysis_2020], making papers randomly openly available [@davis_open_2008], or studying affiliation effects by experimentally comparing double-anonymous peer review with single-anonymous peer review [@tomkins_reviewer_2017].
 However, there are many questions that do not allow for an experimental setup.
 For example, randomising scholars' career age or research field is impossible.
 But even in experimental settings there are limitations to causal inference.
 For instance, non-compliance in experimental settings might present difficulties [@balke2012], such as certain types of reviewers being more likely to try to identify authors in a double-anonymous peer review experiment.
 Additionally, scholars might be interested in identifying mediating factors when running experiments, which further complicates identifying causality [@rohrer2022].
-In other words, causal inference presents a continuum of challenges, where experimental settings are typically easiest for identifying causal effects---but certainly no panacea---and observational settings are more challenging---but certainly not impossible.
+In other words, causal inference presents a continuum of challenges, where experimental settings are typically easier for identifying causal effects---but certainly no panacea---and observational settings are more challenging---but certainly not impossible.
 
 In this Open Science Impact Indicator Handbook we introduce a particular view on causal inference, namely that of structural causal models [@pearl_causality_2009].
-This is a relatively straightforward approach to causal inference with a clear visual representation of causality.
-It should allow researchers to reason and discuss about their causal thinking more easily.
-We explain structural causal models in more detail in the next section.
+Structural causal models are formally equivalent to another causal inference framework known as potential outcomes [@imbens_causal_2015].
+We believe structural causal models are a relatively intuitive approach to causal inference with a clear visual representation of causality.
+It should help researchers to reason and discuss their causal thinking more easily, even though not all causal considerations can be expressed as structural causal models.
+In the next section, we explain structural causal models in more detail.
+We then cover some case studies based on simulated data to illustrate how causal estimates can be obtained in practice.
+We close with a broader discussion on causality.
 
-# Causal inference - a brief introduction {#sec-causal-inference}
+# Structural causal models {#sec-structural-causal-models}
 
 Structural causal models focus, as the name suggests, on the structure of causality, not on the exact details.
 That is, structural causal models are only concerned with whether a certain factor is causally affected by another factor, not whether that effect is linear, exponential, or an "interaction" with some other effects.
-Such structural models can be represented by simple causal diagrams.
+Such structural models can be represented by causal diagrams.
 This graphical approach makes it relatively easy to discuss about causal models and assumptions, because it does not necessarily involve complicated mathematics.
 
 Sometimes, assumptions about specific functional dependencies can be made, and this might help causal inference.
-For instance, a well-known general causal inference strategy is called "difference-in-difference".
+For instance, a well-known causal inference strategy is called "difference-in-difference".
 A key assumption in that strategy is something called "parallel trends".
+Several such approaches are discussed by @liu_data_2023 in the context of science studies.
 Not having to deal with such details simplifies the approach and makes it easier to understand the core concepts.
 But sometimes it also simplifies too much.
 We can always make stronger assumptions, and sometimes, these stronger assumptions allow us to draw stronger conclusions.
@@ -107,25 +118,28 @@ But without assumptions, we cannot conclude anything.
 The overall approach to causal inference using structural causal models would be the following:
 
 1.  Assume a certain structural causal model.
-2.  Use the assumed structural causal to understand how to identify causal effects.
+2.  Use the assumed structural causal model to understand how to identify causal effects.
 3.  Identified effects can be interpreted causally *under the assumed structural causal model*.
 
 Whatever structural causal model we construct, it will always be an assumption.
 Constructing such a structural causal model can be based on domain expertise and prior literature in the area.
-Whether a structural causal is realistic or not might be debated.
-This is a good thing, because by making causal assumptions explicit, we can clarify the discussion, and perhaps advance our common understanding.
+Whether a structural causal model is realistic or not might be debated.
+In particular, a common issue is what is sometimes referred to as "omitted-variable bias", which refers to variables that are incorrectly omitted from the structural causal model.
+By making causal assumptions explicit, we can clarify such discussions, and advance our common understanding.
+
 We cannot always use empirical observations to discern between different structural causal models.
-That is, different structural causal models can have the same observable implications, and so no observations would help discern between them.
-However, there might also be observable implications that do differ between different structural causal models.
+That is, different structural causal models can have the same testable implications, and no observations would help discern between them.
+However, there might also be testable implications that do differ between different structural causal models.
 We can then put the two (or more) proposed theoretical structural causal models to the test, using empirical evidence to decide which structural causal model is *incorrect*.
 Note the emphasis on incorrect: we cannot say that a structural causal model is correct, but we can say that a structural causal model is incorrect, if it is inconsistent with the observations.
-In summary, if we propose a certain structural causal model to try to identify a causal effect, we should make sure that its observable implications are at least consistent with the empirical evidence we have.
+In summary, if we propose a certain structural causal model to try to identify a causal effect, we should make sure that its testable implications are at least consistent with the empirical evidence we have.
 
 Nonetheless, any structural causal model always remains a simplification of reality, and is usually designed for a specific causal question.
 For example, a structural causal model of the entire academic system, containing each and every detail about potential effects, is overly detailed and likely not useful for the majority of empirical studies.
-For most studies, a simpler structural causal model is probably more productive.
+For many studies, a simpler structural causal model is probably more productive.
+In general, it is advisable to aim for structural causal models that are as simple as possible, but as complex as necessary.
 In some cases, problems of causal identification might emerge in simple structural causal models, and are not heavily dependent on specific details.
-That is, adding more nuance to a structural causal model will not necessarily solve a problem that was identified in a simpler structural causal model.
+Adding more nuance to a structural causal model may then not solve the problem that was identified in a simpler structural causal model.
 However, sometimes problems might only become apparent with more complex structural causal models, and additional nuance might reveal that identifying a causal effect is more challenging.
 We encounter and discuss this in some examples later.
 
@@ -134,75 +148,75 @@ We introduce an answer to that question in the next subsection.
 The introduction we provide here only covers the basics.
 We explicitly provide an introduction that is as simple as possible, in order to be understandable to a broad audience.
 Our introduction covers many typical situations that can be encountered, but there are other cases that cannot be understood without using a more formal logic known as do-calculus [@pearl_causality_2009].
-Beyond existing introductions to causal inference, typically covering specific fields [@rohrer2018; @arif2023; @hunermund_causal_2023; @deffner2022], there are also comprehensive text-books [@huntington-klein_effect_2021; @cunningham_causal_2021; @pearl_causality_2009], that provide much more detail and explanation than we can provide here.
 
-To provide an introduction useful to readers and scholars in science studies, we consider the case of Open Science, a movement and practice of making research processes more transparent [@fecher2014].
+To provide an introduction useful to readers and scholars in science studies, we consider the case of Open Science, a movement and practice of making research processes more open and transparent [@fecher2014].
 Many studies have been conducted on the potential impacts Open Science might have on academia, society, and the economy [@klebel2023; @tennant2016].
 However, studies on specific types of Open Science impact, such as those on the Open Access citation advantage, often lack a clear understanding of causal pathways and thus fail to develop a meaningful strategy for estimating causal effects.
 Our introduction shows how causal inference could be leveraged to improve these and similar studies.
 
 ## Introducing DAGs
 
-![Hypothetical structural causal model on Open Science](figures/overall_model.svg){#fig-overall-model fig-align="center"}
+![Hypothetical structural causal model on Open Science.](figures/overall_model.svg){#fig-overall-model fig-align="center"}
 
 It is convenient to represent a structural causal model using a directed acyclic graph (DAG).
 A DAG is a directed graph (sometimes called a network) where the nodes (sometimes called vertices) represent variables, and the links (sometimes called edges) represent causal effects.
-A DAG is acyclic, meaning that there cannot be directed cycles, so that if $X \rightarrow Z \rightarrow Y$, there cannot be a link $Y \rightarrow X$ (or $Y \rightarrow Z$ or $Z \rightarrow X$).
-If there is a $X \rightarrow Y$, it means that $Y$ directly depends on $X$, that is, $Y$ is a function of $X$.
-We do not specify what function exactly, so it can be a linear function, an exponential function, or any complicated type of function.
-Interactions between variables, moderators, hurdles, or any other type of functional specification are not indicated separately, and all can be part of the function.
+A DAG is acyclic, meaning there are no directed cycles, so that if $X \rightarrow Z \rightarrow Y$, there cannot be a link $Y \rightarrow X$ (or $Y \rightarrow Z$ or $Z \rightarrow X$).
+See @tbl-concepts for an overview of some of the concepts related to DAGs.
 
-The variables that influence $Y$ directly, i.e. for which there is a link from that variable to $Y$, are called the *parents* of $Y$.
-If any of the parents of $Y$ change, $Y$ will also change[^1].
-If any parents of the parents change, i.e. variables that are further upstream, $Y$ will also change.
-Hence, if there are any paths from $X$ to $Y$, possibly through other variables $Z$, i.e. $X \rightarrow Z \rightarrow Y$, the variable $X$ has a causal effect on $Y$.
+If $X \rightarrow Y$, it means that $Y$ directly depends on $X$, that is, $Y$ is a function of $X$.
+We do not specify what function exactly, so it can be a linear function, an exponential function, or any other function.
+Interactions between variables, moderators, hurdles, or any other functional specifications are not indicated separately, and all can be part of the function.
+A variable $X$ that has a direct causal effect on $Y$ is called a parent of $Y$.
 
-[^1]: Depending on the functional specification, $Y$ might only change in specific circumstances.
-    For example, suppose our functional specification includes a hurdle, such that $$Y = f(X,Z) = \begin{cases}
-                 0   & \text{if~} 0 < X < 5, \\
-                 Z^2 & \text{if~} X \geq 5. \\
-               \end{cases}$$ In this case, only a change in $X$ that crosses the threshold of 5 results in a change in $Y$; anything else will not change $Y$.
-    A more precise formulation therefore is that if $X$ is not a parent of $Y$ (nor a further ancestor) then changes in $X$ never lead to changes in $Y$.
-    This also makes clear that leaving out a link in a DAG is a stronger assumption than keeping a link in.
-    A link that is present in a DAG indicates that there might be some dependency.
-    A link that is absent indicates that there is no (direct) dependency at all.
+| Concept      | Explanation  |
+|:---|:----------------------------|
+| Node, vertex | Represents a variable in a DAG. |
+| Link, edge   | Represents a causal effect from one node on another in a DAG.  |
+| Acyclic      | No cycles (e.g. $X \rightarrow Y \rightarrow Z \rightarrow X$) are present.  |
+| Parents      | The parents of a node $Y$ are the nodes that point to $Y$.  |
+| Path         | A series of nodes connected through links. Can be directed, when respecting the direction of the link (e.g. $X \rightarrow Y \rightarrow Z$) or undirected, when ignoring the direction of the link (e.g. $X \rightarrow Y \leftarrow Z$).  |
+| Causal path  | A path from $X$ to $Y$ is causal if it is directed, i.e. all links respect the direction (e.g. $X \rightarrow Z \rightarrow Y$)  |
+| Non-causal path  | A path between $X$ and $Y$ is non-causal if it is undirected, i.e. some links do not respect the direction (e.g. $X \rightarrow Z \leftarrow Y$).  |
+| Open path    | When a path between two nodes $X$ and $Y$ is open, there is an association between $X$ and $Y$. See also @fig-d-separation.  |
+| Closed path  | When all paths between two nodes $X$ and $Y$ are closed, there is no association between $X$ and $Y$. See also @fig-d-separation.  |
+
+: Overview of concepts for Directed Acyclic Graphs (DAG). {#tbl-concepts}
 
 Throughout this introduction, we work with a single example DAG on Open Science (see @fig-overall-model).
 In this DAG, *Novelty* and *Rigour* are both assumed to affect the number of *Citations* and whether something will be *Published* or not.
-Here, we use *Published* to refer to a journal publication, but research can also be made available in different ways, for example as preprints or working papers.
-Preprints or working papers can also be considered published, but for the sake of simplicity we use the term *Published* to refer to journal publications only.
+Although preprints or working papers can also be considered published, for the sake of simplicity we here use the term *Published* to refer to journal publications only.
 Unlike *Novelty*, *Rigour* influences whether data is made available openly: scholars that are doing more rigorous research may be more likely to share their data openly.
-Unlike *Rigour*, *Novelty* affects *Data reuse*; data from a rigorous study that did not introduce anything new may be less likely to be reused by other researchers.
+Unlike *Rigour*, *Novelty* affects *Data reuse*; open data from a more novel study may be more likely to be reused by other researchers.
 If data is reused, the original study might be cited again, so *Data reuse* is assumed to affect *Citations*.
 In some cases, *Open data* will be mandated by a journal, and so whether something will be *Published* may also depend on *Open data*.
-Whether something is *Reproducible* is assumed to be affected by the *Rigour* of the study, and also by *Open data* itself: studies that share data might lead scholars to double check all their results to make sure they align exactly with the shared data.
-Finally, *Citations* are also influenced by the *Field* of study (some fields are more citation intensive), as is *Open data* (data sharing culture is not the same across fields).
+Whether something is *Reproducible* is assumed to be affected by the *Rigour* of the study, and also by *Open data* itself: studies that share data might make it easier for other scientists to reproduce their findings.
+Finally, *Citations* are also influenced by the *Field* of study (some fields are more citation intensive), as is *Open data* (data sharing is more common in some fields).
 
 As explained earlier, this DAG is a simplification, and we can debate whether it should be changed in some way.
-However, the DAG is consistent with most results from the literature, although there is typically also disagreement within the literature itself.
+Although the DAG is perhaps not fully realistic, it is plausible and, by and large, consistent with the Open Science literature.
 This DAG is constructed without one particular causal question in mind.
 Instead, we illustrate all the necessary concepts using this example, and use this DAG for multiple possible causal questions.
 For a particular study, it might be best to construct a particular DAG for the specific causal question.
 A reasonable starting point for constructing a DAG for a particular causal question of $X$ on $Y$ might be the following: (1) consider all factors that affect and are affected by $X$ and/or $Y$; (2) consider how these factors are causally related between each other.
 There might be additional relevant considerations, but it should provide a reasonable simplification to start with.
 
-A useful tool for working with DAGs is called `dagitty`, which is available from the website <http://dagitty.net>, which also contains many useful pointers to additional introductions and tutorials.
+A useful tool for working with DAGs is called `dagitty` [@textor_robust_2016], which is available from the website <http://dagitty.net>, which also contains many useful pointers to additional introductions and tutorials.
 
 ## Using DAGs to identify causal effects
-
-Most scholars will be acquainted with problems of confounding effects, and that we somehow need to "control" for confounding effects.
-But there are also other factors besides confounders.
-Most scholars will also be acquainted with mediating factors, i.e. mediators.
-Fewer scholars will be acquainted with colliding factors, i.e. colliders.
-Controlling for a collider often leads to incorrect causal inferences.
-Hence, the question of what variables to control for is more complicated than just controlling for confounders.
-In particular, colliders raise the question what we should *not* control for.
-In this section, we use DAGs to understand which factors we should control for, and which factors we should *not* control for.
 
 We are interested in the causal effect of one variable $X$ on another variable $Y$.
 As the popular adage goes, correlation does not imply causation.
 That is, $X$ and $Y$ might be correlated, even if $X$ does not affect $Y$.
 For instance, in [@fig-overall-model] *Reproducibility* and *Published* are correlated because both are affected by *Open data*, but *Reproducibility* does not have any causal effect on *Published* or vice versa.
+
+Most scholars will be acquainted with problems of confounding effects, and that we somehow need to "control" for confounders.
+But there are also other factors besides confounders.
+Most scholars will also be acquainted with mediators.
+Fewer scholars may be acquainted with colliders.
+Controlling for a collider often leads to incorrect causal inferences.
+Hence, the question of what variables to control for is more complicated than just controlling for confounders.
+In particular, colliders raise the question what we should *not* control for.
+In this section, we explain confounders, mediators and colliders in more detail, and use DAGs to understand which factors we should control for, and which factors we should *not* control for.
 
 ### Paths in DAGs
 
@@ -219,7 +233,7 @@ In addition, there is also a link directly from *Novelty* to *Citations*, which 
 The combination of the two indirect effects and the direct effect is known as the total causal effect.
 
 In addition, there are also paths that do not follow the direction of the links.
-This can be most easily done by simply ignoring the directions, and also allowing to traverse links upstream, so to speak.
+This can be done by simply ignoring the directions, and also allowing to traverse links upstream, so to speak.
 There is then a path between *Open data* and *Citations* through *Field*.
 There is not a single direction that we follow, and the path looks like *Open data* $\leftarrow$ *Field* $\rightarrow$ *Citations*.
 Paths that do not follow a single direction do not represent a causal effect, and we refer to them as non-causal paths.
@@ -233,24 +247,19 @@ Both causal paths and non-causal paths can be open or closed.
 Indeed, if there is a non-causal path that is open, two variables are correlated, but this "correlation does not imply causation".
 
 Formalising this slightly, two variables $X$ and $Y$ are correlated if there is an open path between $X$ and $Y$.
-If there are no open paths between $X$ and $Y$, they are not correlated[^2].
+If there are no open paths between $X$ and $Y$, they are not correlated.
 We can identify a causal effect of $X$ on $Y$ by *closing* all non-causal paths between $X$ and $Y$ and by *opening* all causal paths from $X$ to $Y$.
 Whether a path is open or closed depends on the types of variables on a path, and whether those variables are conditioned on.
-We explain this in more detail below, and provide a visual summary of the explanation in [@fig-d-separation].
+We explain this in more detail in the next subsection, and provide a visual summary of the explanation in [@fig-d-separation].
 
-[^2]: In technical terms, two variables $X$ and $Y$ that are not correlated are said to be $d$-separated, sometimes denoted by $X \perp Y$.
-    Two variables $X$ and $Y$ that are correlated are said to be $d$-connected, sometimes denoted by $X \not\perp Y$.
-    Whether two variables $X$ and $Y$ are $d$-separated or $d$-connected depends on whether other variables $\mathcal{Z} = Z_1, Z_2, \ldots$ are controlled for or not.
-    If two variables $X$ and $Y$ are $d$-separated, conditional on controlling for variables $\mathcal{Z}$, this is denoted as $X \perp Y \mid \mathcal{Z}$.
-    We do not use this notation here, but you might encounter the notation in other texts.
-
-![Overview of open and closed nodes. Open nodes are marked in green, closed nodes are marked in orange.](figures/d-separation.svg){#fig-d-separation}
+![Overview of open and closed nodes. This illustrates the various roles a node can assume on a path: mediator, confounder or collider, with the arrows illustrating the causal effects. Open nodes are marked in green, closed nodes are marked in orange. If all nodes on a path are open, the path is open. If any node on a path is closed, the path is closed. Two variables connected through an an open path are associated, while if there are no open paths they are not associated. Nodes that are conditioned on are encircled by a thick black line. Conditioning on a on a node switches open nodes to closed nodes and closed nodes to open nodes: mediators and confounders are open when not conditioned on and closed when conditioned on, while colliders are closed when not conditioned on and open when conditioned on.](figures/d-separation.svg){#fig-d-separation}
 
 As explained, all paths between $X$ and $Y$ need to be considered, regardless of their direction.
-That is, $X \rightarrow Z \rightarrow Y$ is a path that we should consider, but also $X \leftarrow Z \rightarrow Y$ and $X \rightarrow Z \leftarrow Y$.
-Going back to the paths we considered earlier: if we are interested in the causal effect of *Open data* on *Citations*, there is a directed, causal path from *Open data* to *Data reuse* to *Citations*, but there is also a non-causal path between *Open data* and *Citations* that runs through *Field*.[^3]
+That is, $X \rightarrow Z \rightarrow Y$ is a type of path that we should consider, but also $X \leftarrow Z \rightarrow Y$ and $X \rightarrow Z \leftarrow Y$.
+Going back to the paths we considered earlier: if we are interested in the causal effect of *Open data* on *Citations*, there is a directed, causal path from *Open data* to *Data reuse* to *Citations*, but there is also a non-causal path between *Open data* and *Citations* that runs through *Field*.[^path]
 
-[^3]: Note that there are many additional paths in this example: *Open data* $\leftarrow$ *Rigour* $\rightarrow$ *Citations*, *Open data* $\rightarrow$ *Reproducibility* $\leftarrow$ *Rigour* $\rightarrow$ *Citations*, etc.
+[^path]:
+Note that there are many additional paths in this example: *Open data* $\leftarrow$ *Rigour* $\rightarrow$ *Citations*, *Open data* $\rightarrow$ *Reproducibility* $\leftarrow$ *Rigour* $\rightarrow$ *Citations*, etc.
 
 We call a path open when all the nodes, i.e. variables, on the path are open.
 If there is a single closed variable on a path, the entire path is closed.
@@ -266,7 +275,7 @@ For example, we can condition on *Field* by performing an analysis for each fiel
 This can be thought of as comparing cases only within these categories.
 Other approaches include for example so-called matching procedures.
 When matching cases on a certain variable, we only compare cases which are the same (or similar) on that variable.
-Finally, in science studies, indicators are frequently "normalised", especially citation indicators [@waltman_field_2019], which amounts to conditioning on the variables used for the normalisation.
+Finally, in science studies, indicators are frequently "normalised", especially citation indicators [@waltman_field_2019], which aim to control for confounding effects, although derived variables may require separate considerations [@berrie_depicting_2025].
 
 ### Confounders, colliders and mediators
 
@@ -294,8 +303,7 @@ That path is closed; we can open it by conditioning on *Published*.
 
 Finally, the third type of variable that we consider is a mediator.
 A mediator $Z$ is always connected like $X \rightarrow Z \rightarrow Y$.
-Here, $Z$ is affected by $X$ and in turn $Z$ affects $Y$.
-Indirectly, namely through $Z$, $X$ affects $Y$.
+Here, $Z$ is affected by $X$ and in turn $Z$ affects $Y$, so that $Z$ mediates the indirect causal effect of $X$ on $Y$.
 A mediator is open when not conditioned on.
 If we condition on a mediator, it is closed.
 Usually, we want to keep paths with mediators open, as the paths represent a causal effect.
@@ -312,11 +320,13 @@ The former path is open, while the latter path is closed.
 If we are interested in the causal effect, both paths should be closed, since neither represents a causal effect.
 However, if we condition on *Open data*, we close the path where *Open data* is a confounder, while we open the path where *Open data* is a collider.
 Hence, we cannot close both paths by conditioning on *Open data*.
-If we cannot condition on other variables, for example because we did not collect such variables for a study, we have no way of identifying the causal effect[^4] of *Reproducibility* on *Citations*.
+If we cannot condition on other variables, for example because we did not collect such variables for a study, we have no way of identifying the causal effect of *Reproducibility* on *Citations*.
 
-[^4]: In this case, our assumed DAG implies that there should be no causal effect of *Reproducibility* on *Citations*.
-    If we condition on *Open data* and *Rigour* all non-causal paths are closed, meaning that we then expect to find no correlation.
-    If, in contrast, we still find a non-zero correlation after conditioning on *Open data* and *Rigour*, it means our DAG is incorrect, and we need to revise it.
+Our assumed DAG implies that there should be no causal effect of *Reproducibility* on *Citations*.
+If we condition on *Open data* and *Rigour* all non-causal paths are closed, meaning that we then expect to find no correlation.
+If, in contrast, we still find a non-zero correlation after conditioning on *Open data* and *Rigour*, it means our DAG is incorrect, and we need to revise it.
+This is only one of the testable implications of our DAG, but there are also others, and each offers an opportunity to falsify our DAG.
+Even if all testable implications find empirical support, this does not imply the DAG is correct, since other DAGs might have the same testable implications.
 
 # Case studies
 
@@ -326,22 +336,18 @@ We use the DAG introduced earlier (@fig-overall-model) to illustrate our estimat
 
 For the purposes of these hypothetical examples, we simulate data according to the DAG in [@fig-overall-model].
 As explained, a DAG only specifies that a variable is affected by another variable, but it does not specify how.
-For simulating data, we do need to specify the model in more detail.
-In particular, we sample *Field* uniformly from two fields; we sample *Rigour* and *Novelty* from standard normal distributions (i.e. with a mean of 0 and a standard deviation of 1); we sample *Open data* and *Published* from Bernoulli distributions (i.e. Yes or No); and we sample *Data reuse*, *Reproducibility* and *Citations* again from standard normal distributions.
-The effects of some variables on other variables are represented by simple linear equations (using a logistic specification for the Bernoulli distributions), with particular coefficients for the effects (see @tbl-coefs).
-These distributions are not necessarily realistic.
-Yet, our aim is not to provide a realistic simulation, but to illustrate how causal inference can be applied.
-Relying on standard normal distributions and linear equations simplifies the simulation model and the analyses of the simulated data.
+In [Appendix -@sec-appendix-simulation] we provide more details of how we simulate data.
 
 Regression analysis is the common workhorse of quantitative analysis, also in science studies.
-We use regression analysis to illustrate how a researcher might analyse their data to provide causal estimates[^5].
+We use regression analysis to illustrate how a researcher might analyse their data to provide causal estimates[^model_style].
 Of course, more complex analytical approaches, such as Bayesian models or non-linear models can also be used.
 Such models might have great scientific, philosophical, or practical benefits, but they are certainly no prerequisite for sound causal inference.
 Moreover, having complex models is no substitute for sound causal inference, and wrong causal conclusions can still be drawn from complex models.
 From that point of view, using simpler methods while paying proper attention to causality might be preferred over using complex methods while ignoring issues of causality.
 
-[^5]: We will write the equation in the typical style of R.
-    For example, $Y \sim X + A$, refers to the linear equation $Y = \alpha + \beta_X X + \beta_A A$, where we are interested in estimating the coefficients $\alpha$, $\beta_X$ and $\beta_A$.
+[^model_style]:
+We will write the equation in the typical style of R.
+For example, $Y \sim X + A$, refers to the linear equation $Y = \alpha + \beta_X X + \beta_A A$, where we are interested in estimating the coefficients $\alpha$, $\beta_X$ and $\beta_A$.
 
 ```{r, echo=FALSE}
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
@@ -356,13 +362,7 @@ if (!is.null(knitr::opts_knit$get("rmarkdown.pandoc.to"))) {
 }
 ```
 
-```{r, echo=FALSE}
-# explicitly list libraries to load as dependency for renv
-library(quarto)
-library(pdftools)
-library(downlit)
-# end renv dependency
-
+```{r}
 library(dplyr)
 library(here)
 
@@ -383,7 +383,6 @@ library(ggplotify)
 
 # pretty tables
 library(modelsummary)
-library(flextable)
 
 # some helper functions
 source(here("sections/0_causality/causal_intro/src/functions.R"))
@@ -405,25 +404,19 @@ coefs <- targets::tar_read(coefs, store = here("sections/0_causality/causal_intr
 sigma <- get_coefs("sigma", "none")
 ```
 
-```{r, echo=FALSE}
-#| label: tbl-coefs
-#| tbl-cap: "Coefficients for simulated data"
-
-# We might want to split this into three segments: intercept, coefficient, sigma
-coefs %>%
-  rename(From = from, To = to, Coefficient = coef) %>%
-  knitr::kable()
+```{=latex}
+\setlength{\LTcapwidth}{\columnwidth}
 ```
 
 ## The effect of Rigour on Reproducibility
 
-To provide a first impression of the simulated data, and some intuition of how we can estimate causal effects, we first analyse the effects of *Rigour* and *Open data* on *Reproducibility* (see @fig-rigour-reproducibility).
+To provide a first impression of the simulated data, and some intuition of how we can estimate causal effects, we first analyse the effect of *Rigour* on *Reproducibility* (see @fig-rigour-reproducibility).
 *Rigour* and *Reproducibility* are clearly positively correlated: higher *Rigour* is associated with higher *Reproducibility*.
-We also see that the overall level of reproducibility tends to be higher if there is *Open Data*.
+We also see that the overall level of reproducibility tends to be higher if there is *Open data*.
 
 ```{r rigour-on-reproducibility, message=FALSE, fig.width=4, fig.height=3.5}
 #| label: fig-rigour-reproducibility
-#| fig-cap: "Effect of *Rigour* and *Open data* on *Reproducibility*"
+#| fig-cap: "Scatterplot of of *Rigour* and *Reproducibility* coloured for *Open data*."
 df %>% 
   mutate(open_data = case_when(!open_data ~ "Closed data",
                                TRUE ~ "Open data")) %>% 
@@ -468,7 +461,7 @@ Point estimates derived from the simulated data thus only approximate the theore
 
 ```{r rigour-on-reproducibility, fig.height=2.5, fig.width=4.5}
 #| label: fig-rigour-on-reproducibility
-#| fig-cap: "Effect of *Rigour* on *Reproducibility*, estimated with a simple linear regression."
+#| fig-cap: "Effect of *Rigour* on *Reproducibility*, estimated with a simple linear regression. This shows the effect estimate on the x-axis including the 95% CI and the true effect from the simulation."
 model_coefs <- tidy(m_rigour_reprod, conf.int = TRUE) %>% 
     mutate(term = case_match(term, 
                            "rigour" ~ "Rigour"))
@@ -488,15 +481,15 @@ model_coefs %>%
   ggdist::geom_pointinterval(aes(estimate, term, 
                                  xmin = conf.low, xmax = conf.high), size = 8,
                              colour = base_col) +
-  # annotate("point", y = "Open Data", x = open_data_effect_on_reproducibility,
-  #          colour = highlight_col, size = 8, shape = "|") + 
+  # annotate("point", y = "Open data", x = open_data_effect_on_reproducibility,
+  #          colour = highlight_col, size = 8, shape = "|") +
   annotate("point", y = "Rigour", x = rigour_effect_on_reproducibility,
            colour = highlight_col, size = 8, shape = "|") +
   scale_x_continuous(breaks = c(1, 2), labels = c(1, 2)) +
   geom_text_repel(data = text_label, aes(x = x, y = y, label = label), 
                   nudge_x = .15, nudge_y = .4, colour = highlight_col) +
   labs(y = NULL, x = "Model estimate") +
-  theme_ipsum_rc(grid = "XY") +
+  theme_ipsum_rc(grid = "XY", plot_margin = margin(15, 15, 15, 15)) +
   coord_cartesian(xlim = c(1, 2))
 ```
 
@@ -514,15 +507,15 @@ According to our model ([@fig-overall-model]), there are multiple pathways from 
 To estimate the causal effect, we need to make sure that all causal paths are open, and all non-causal paths are closed (see panel A in @fig-od-on-citations).
 
 There are two causal paths, both indirect: one mediated by *Data reuse* and one mediated by *Published*.
-To estimate the total causal effect of *Open data* on *Citations* we hence should not control for either *Data reuse* or *Published*.
-In contrast, typical approaches in scientometrics examine only the literature published in journals and hence implicitly condition on *Published*.
+To estimate the total causal effect of *Open data* on *Citations* we should not control for either *Data reuse* or *Published*.
+In contrast, typical approaches in scientometrics examine only the literature published in journals and thereby implicitly condition on *Published*.
 This implicit conditioning closes the causal path, and thus biases our estimate of the total causal effect of *Open data* on *Citations*.
 
-The non-causal paths pass through *Rigour*, *Field* or *Reproducibility*.
+The non-causal paths pass through *Rigour*, *Field*, *Reproducibility* or *Novelty*.
 On all paths passing through *Rigour*, it acts as a confounder, and we can hence close all these non-causal paths by controlling for *Rigour*.
-There is only one non-causal path where *Field* is acting as a confounder, and we can close it by conditioning on it.
-The remaining paths pass through *Reproducibility*, and it acts as a collider on all those paths.
-Hence, those paths are already closed.
+There is only one non-causal path passing through *Field*, where it acts as a confounder, and we can close the path by conditioning on it.
+The non-causal paths that pass through *Reproducibility* are already closed, because it acts as a collider on those paths.
+Finally, all non-causal paths passing through *Novelty* are already closed because *Data reuse* and *Published* act as colliders on those paths.
 In summary, we should control for *Rigour* and *Field*.
 
 The final regression model to estimate the causal effect of *Open data* on *Citations* is thus as follows:
@@ -552,18 +545,18 @@ m_od_citations <- lm(citations ~ open_data + field + rigour, data = df)
 
 ```{r open-data-on-citations, fig.height=5, fig.width=8}
 #| label: fig-od-on-citations
-#| fig-cap: "Effect of Open data on Citations. A: DAG illustrating which variables to condition on (or not). Open nodes are marked in green, closed nodes are marked in orange, and nodes that are open in one path but closed in another are marked semi-green and semi-orange. Nodes that are controlled for are marked by a thick outline. B: Effect estimate (regression coefficients with 95%-CI)."
+#| fig-cap: "Effect of Open data on Citations. A: DAG illustrating which variables to condition on (or not). Open nodes are marked in green, closed nodes are marked in orange; nodes that are open in one path but closed in another are marked semi-green and semi-orange. Nodes that are controlled for are marked by a thick outline. B: Effect estimates on the x-axis based on regression coefficients with 95% CI and the true effect from the simulation."
 #| fig-env: "figure*"
 
 # plot
 model_coefs <- tidy(m_od_citations, conf.int = TRUE) %>% 
   mutate(term = case_match(term, 
                            "rigour" ~ "Rigour",
-                           "open_dataTRUE" ~ "Open Data",
+                           "open_dataTRUE" ~ "Open data",
                            "field" ~ "Field"))
 
 text_label <- tibble(x = open_data_effect_on_citations,
-                     y = "Open Data",
+                     y = "Open data",
                      label = "True effect")
 
 p <- model_coefs %>% 
@@ -572,7 +565,7 @@ p <- model_coefs %>%
   ggdist::geom_pointinterval(aes(estimate, term, 
                                  xmin = conf.low, xmax = conf.high), size = 5,
                              colour = base_col) +
-  annotate("point", y = "Open Data", x = open_data_effect_on_citations,
+  annotate("point", y = "Open data", x = open_data_effect_on_citations,
            colour = highlight_col, size = 8, shape = "|") +
   geom_text_repel(data = text_label, aes(x = x, y = y, label = label), 
                   nudge_x = 1.5, nudge_y = .3, colour = highlight_col, size = 3) +
@@ -598,14 +591,15 @@ wrap_elements(dag_grob) + p +
   theme(plot.tag = element_text(size = 15))
 ```
 
-@fig-od-on-citations (B) shows the effect estimates from our regression, alongside the true effect of *Open data* on *Citations*, which is `r round(open_data_effect_on_citations, 2)`.
+
+Panel B of @fig-od-on-citations shows the effect estimates from our regression, alongside the true effect of *Open data* on *Citations*, which is `r round(open_data_effect_on_citations, 2)`.
 We can see that our model is indeed able to estimate the causal effect of *Open data* on *Citations*.
 
 This example highlights key components of causal inference: controlling for confounders (*Rigour* and *Field*), not controlling for mediators (*Data reuse* and *Published*), and not controlling for colliders (*Reproducibility*).
-This shows that constructing an appropriate DAG is crucial when aiming to draw causal conclusions.
-Without making assumptions explicit via a DAG, it would be unclear which variables should be controlled for and which not.
+This shows that constructing an appropriate DAG is very helpful when aiming to draw causal conclusions.
+Without making assumptions explicit via a DAG, it would be much more difficult to discuss which variables should be controlled for and which not.
 
-Some researchers might be tempted to defer the decision of what variables to control for to the data (for example via stepwise regression) or not make any decision at all by simply including all available variables (an approach termed "causal salad" by @mcelreath2020).
+Some researchers might be tempted to defer the decision of what variables to control for to the data (for example via stepwise regression) or not make any decision at all by simply including all available variables, an approach termed "causal salad" by @mcelreath2020.
 However, neither approach is able to correctly identify the correct variables to control for.
 Stepwise regression would in this case suggest including the mediating variables (and even excluding *Open data*), leading to wrong causal conclusions (see [Appendix -@sec-stepwise-regression]).
 Including all variables could similarly lead the researcher to conclude that *Open data* has no effect on *Citations* (see [Appendix -@sec-causal-salad]).
@@ -628,19 +622,19 @@ Although the DAG does not specify these parametric assumptions, in our simulatio
 
 ### Conditioning on a collider may bias estimates
 
-Many bibliometric databases predominantly cover research published in journals or conferences, which result from a clear selection process.
+Many bibliometric databases predominantly cover research published in journals or conferences.
 Science studies frequently relies on such bibliometric databases for analysis.
-By only considering the literature published in journals, we (implicitly) condition on *Published*.
+By only considering the literature published in journals, we implicitly condition on *Published*.
 On the path *Open data* $\rightarrow$ *Published* $\leftarrow$ *Rigour* $\rightarrow$ *Reproducibility*, *Published* acts as a collider.
-As discussed in @sec-causal-inference, conditioning on a collider can bias our estimates.
+As discussed in @sec-structural-causal-models, conditioning on a collider can bias our estimates.
 
-We show the level of *Reproducibility* for *Open data* after conditioning on *Published* in @fig-od-reprod-pub.
-The level of *Reproducibility* is higher for research published in journals without *Open data* than with *Open data*.
-This might seem counterintuitive, since the causal effect of *Open data* on *Reproducibility* is in fact positive in our model.
+We show the level of *Reproducibility* for *Open data* when considering only research that is *Published* in @fig-od-reprod-pub.
+The level of *Reproducibility* is then lower with *Open data* than without *Open data*.
+This is rather counterintuitive, since the causal effect of *Open data* on *Reproducibility* is in fact positive in our model.
 
-```{r open-data-on-reproducibility-published, fig.height=3, fig.width=5}
+```{r open-data-on-reproducibility-published, fig.height=3, fig.width=3}
 #| label: fig-od-reprod-pub
-#| fig-cap: "Reproducibility of research published in journals with and without *Open data*. Displaying means with 95%-CI."
+#| fig-cap: "Reproducibility of research published in journals with and without *Open data* on the y-axis, including 95% CI."
 # plot
 
 df %>%
@@ -655,9 +649,8 @@ df %>%
   ggdist::geom_pointinterval(aes(ymin = lower, ymax = higher), size = 6,
                              colour = base_col) +
   labs(y = "Reproducibility", x = NULL) +
-  theme_ipsum_rc(grid = "YX") +
-  # coord_cartesian(ylim = c(1, 2)) +
-  coord_flip(ylim  = c(1.2, 2))
+  theme_ipsum_rc(grid = "YX", plot_margin = margin(15, 15, 15, 15)) +
+  coord_cartesian(ylim = c(1.2, 2)) 
 ```
 
 The apparent negative effect is due to the fact that we conditioned on *Published*, by analysing only the published research.
@@ -666,14 +659,16 @@ How conditioning on a collider biases the estimates is difficult to foresee, esp
 In this case, however, there is a reasonably intuitive explanation.
 In our model, *Published* depends on both *Open data* and *Rigour* (and *Novelty*, but that is not relevant here): research is more likely to be published in a journal if it has *Open data* and if it is more rigorous.
 As a result, research that is published in a journal without *Open data* tends to have higher *Rigour*.
-If research had neither *Open data* nor sufficiently high *Rigour*, it would be less likely to be published in a journal at all[^6].
-Therefore, published research without *Open data* has higher *Rigour*. This higher *Rigour* in turn affects *Reproducibility*, leading to higher *Reproducibility* for published research without *Open data*.
+If research had neither *Open data* nor sufficiently high *Rigour*, it would be less likely to be published in a journal at all[^pub_novelty].
+Therefore, published research without *Open data* has higher *Rigour*.
+This higher *Rigour* in turn affects *Reproducibility*, leading to higher *Reproducibility* for published research without *Open data*.
 
-[^6]: In our DAG, *Published* is also affected by *Novelty*, and the same reasoning applies there.
-    In this case, research that is published in a journal, but that does not share *Open data* and has low *Rigour*, is then more likely to have high *Novelty*.
-    Otherwise, it again would most likely not have been published in a journal at all.
+[^pub_novelty]:
+In our DAG, *Published* is also affected by *Novelty*, and the same reasoning applies there.
+In this case, research that is published in a journal, but that does not share *Open data* and has low *Rigour*, is then more likely to have high *Novelty*.
+Otherwise, it again would most likely not have been published in a journal at all.
 
-The example shows how we can draw completely wrong conclusions if we do not use clear causal thinking.
+The example shows how we can draw wrong, and even opposite, conclusions if we do not use clear causal thinking.
 Based on the results in @fig-od-reprod-pub, some might incorrectly conclude that *Open data* has a negative causal effect on *Reproducibilty*.
 However, in our model, *Open data* has a positive causal effect on *Reproducibility*.
 Hence, we should take great care in interpreting empirical results without causal reflection.
@@ -682,7 +677,7 @@ Sometimes, when determining what variables to control for, scholars are inclined
 Although the intuition is understandable, its application is only limited, and at times can be misleading.
 That is, using the "like with like" intuition, we might be inclined to condition on *Published*, because we then compare published papers with other published papers.
 If we do so, we bias the estimation of the causal effect of *Open data* on *Reproducibility*, as explained above.
-In this case, comparing "like with like" may create problems.
+Comparing "like with like" may thus create problems.
 
 ### Identifying the causal effect
 
@@ -695,7 +690,9 @@ In short, we close both non-causal paths by conditioning on *Rigour*.
 
 Panel A in @fig-od-reprod shows the DAG for this question.
 There are no other non-causal paths that are open, and no causal paths that are closed.
-The regression model is thus $$\textrm{Reproducibility} \sim \textrm{Open data} + \textrm{Rigour}$$ but still restricted to only published research.
+The regression model is thus
+$$\textrm{Reproducibility} \sim \textrm{Open data} + \textrm{Rigour}$$
+but still restricted to only published research.
 
 ```{r}
 open_data_effect_on_reproducibility <- get_coefs("open_data", "reproducibility")
@@ -705,20 +702,22 @@ m_od_reprod <- lm(reproducibility ~ open_data + rigour,
                   data = df %>% filter(published == TRUE))
 # summary(m_od_reprod)
 # coef(m_od_reprod)["open_dataTRUE"]
+m_od_reprod_all <- lm(reproducibility ~ open_data + rigour,
+                      data = df)
 ```
 
 ```{r open-data-on-reproducibility, fig.height=5, fig.width=8}
 #| label: fig-od-reprod
-#| fig-cap: "Effect of *Open data* on *Reproducibility*. A: DAG illustrating which variables to condition on (or not). Open nodes are marked in green, closed nodes are marked in orange, and nodes that are open in one path but closed in another are marked semi-green and semi-orange. Nodes that are controlled for are marked by a thick outline. B: Effect estimate (regression coefficients with 95%-CI)."
+#| fig-cap: "Effect of *Open data* on *Reproducibility*. A: DAG illustrating which variables to condition on (or not). Open nodes are marked in green, closed nodes are marked in orange, and nodes that are open in one path but closed in another are marked semi-green and semi-orange. Nodes that are controlled for are marked by a thick outline. B: Effect estimates on the x-axis based on regression coefficients with 95% CI and the true effect from the simulation."
 #| fig-env: "figure*"
 # plot
 model_coefs <- tidy(m_od_reprod, conf.int = TRUE) %>% 
     mutate(term = case_match(term, 
                            "rigour" ~ "Rigour",
-                           "open_dataTRUE" ~ "Open Data"))
+                           "open_dataTRUE" ~ "Open data"))
 
 text_label <- tibble(x = open_data_effect_on_reproducibility,
-                     y = "Open Data",
+                     y = "Open data",
                      label = "True effect")
 
 pal <- colorspace::diverge_hcl(palette = "Tropic", n = 2)
@@ -731,7 +730,7 @@ p <- model_coefs %>%
   ggdist::geom_pointinterval(aes(estimate, term, 
                                  xmin = conf.low, xmax = conf.high), size = 5,
                              colour = base_col) +
-  annotate("point", y = "Open Data", x = open_data_effect_on_reproducibility,
+  annotate("point", y = "Open data", x = open_data_effect_on_reproducibility,
            colour = highlight_col, size = 8, shape = "|") +
   geom_text_repel(data = text_label, aes(x = x, y = y, label = label), 
                   nudge_x = .2, nudge_y = .2, colour = highlight_col, size = 3) +
@@ -759,12 +758,12 @@ wrap_elements(dag_grob) + p +
   theme(plot.tag = element_text(size = 15))
 ```
 
-The true effect of *Open data* on *Reproducibility* is simply the coefficient of the effect of *Open data* on *Reproducibility* that we used in our simulation: it is `r get_coefs("open_data", "reproducibility")` (see @tbl-coefs).
+The true effect of *Open data* on *Reproducibility* in our simulation is `r get_coefs("open_data", "reproducibility")` (see @tbl-coefs).
 After controlling for *Rigour*, our regression model is able to estimate this parameter correctly (panel B of @fig-od-reprod), although we are only considering research published in journal articles, therefore "conditioning on a collider".
 
 The reason we can estimate the parameter correctly is that conditioning on *Rigour* closes the path *Open data* $\rightarrow$ *Published* $\leftarrow$ *Rigour* $\rightarrow$ *Reproducibility*.
 Whether *Published* is conditioned on is then irrelevant for the identification of the causal effect.
-If we consider all research instead of only research published in journal articles, our estimates only change minimally.
+If we consider all research instead of only research published in journal articles, our estimate only changes from `r round(coef(m_od_reprod)["open_dataTRUE"], 3)` to `r round(coef(m_od_reprod_all)["open_dataTRUE"], 3)`.
 
 In identifying the causal effect of *Open data* on *Reproducibility*, we do not need to control for other variables, such as *Novelty*.
 If there were an additional confounder between *Published* and *Data reuse*, this would not change anything in terms of what variables we should control for to identify the effect of *Open data* on *Reproducibility*.
@@ -789,21 +788,21 @@ In the example above, we should interpret the estimate of the effect of *Rigour*
 In other cases, coefficients for the controlled factors might not correspond to any causal effect.
 Indeed, we should carefully reason about any effect we wish to identify, and not interpret any estimates for controlled variables as causal without further reflection.
 
-Additionally, most empirical studies will suffer from measurement problems.
+Additionally, many empirical studies will suffer from measurement problems.
 That is, the concept of interest is often not observed directly, but measured indirectly through some other proxies or indicators.
 These issues can be readily incorporated in structural causal models, and might make certain limitations explicit.
 For example, in the analysis above we controlled for *Rigour* to infer the causal effect of *Open data* on *Reproducibility*, but in reality, we most likely cannot control for *Rigour* directly.
 Instead, we are controlling for the measurement of *Rigour*, for example as measured by expert assessment of the level of rigour.
 We could include this in the structural causal model as *Rigour* $\rightarrow$ *Rigour measurement*.
-We cannot directly control for *Rigour*, and we can only control for *Rigour measurement*, which does not (fully) close the backdoor path between *Open Data* and *Reproducibility*, and might hence still bias the estimate of the causal effect.
+We cannot directly control for *Rigour*, and we can only control for *Rigour measurement*, which does not (fully) close the non-causal path between *Open data* and *Reproducibility*, and might hence still bias the estimate of the causal effect.
 If *Rigour measurement* would additionally be affected by other factors, such as *Published*, this might introduce additional complications.
-Taking measurement seriously can expose additional challenges that need to be addressed [@mcelreath2020, Chapter 15].
+Taking measurement seriously can expose additional challenges that need to be addressed [@mcelreath2020, Chapter 15; @esterling_necessity_2025].
 
 # Discussion
 
 The study of science is a broad field with a variety of methods.
-Academics have employed a range of perspectives to understand science's inner workings, driven by the field's diversity in researchers' disciplinary backgrounds [@sugimoto2011; @liu2023].
-In this chapter we highlight why causal thinking is important for the study of science, in particular for quantitative approaches.
+Academics have employed a range of perspectives to understand science's inner workings, driven by the field's diversity in researchers' disciplinary backgrounds [@sugimoto2011; @liu_data_2023].
+In this chapter we used structural causal models to highlight why causal thinking is important for the study of science, in particular for quantitative approaches.
 In doing so, we do not mean to suggest that we always need to estimate causal effects.
 Descriptive research is valuable in itself, providing context for uncharted phenomena.
 Likewise, studies that predict certain outcomes are very useful.
@@ -824,8 +823,8 @@ Only with an adequate causal model can we try to answer such questions.
 The difference between prediction and causation becomes critical when we make policy recommendations.
 Should research funders mandate open data, in an attempt to improve reproducibility?
 Besides the problems that such a one-size-fits-all approach might have [@ross-hellauer2022], the crucial question is whether or not such an intervention would increase reproducibility.
-In our DAG, we have assumed that *Open data* has a moderate but positive effect on *Reproducibility*.
-As discussed in @sec-open-data-on-repro, naively analysing the published literature might lead one to incorrectly conclude that *Open data* is detrimental to *Reproducibility*.
+In our simulation, we have assumed that *Open data* has a moderate but positive effect on *Reproducibility*. 
+As discussed in @sec-open-data-on-repro, naively analysing the published literature might lead one to incorrectly conclude that *Open data* is detrimental to *Reproducibility*. 
 It is therefore imperative that policy recommendations are grounded in careful causal analysis of empirical findings to avoid serious unintended consequences.
 
 More fundamentally, causal thinking is a useful device to connect theories to empirical analyses.
@@ -836,9 +835,9 @@ Without causal thinking, it is impossible to improve our theoretical understandi
 While building increasingly rich causal diagrams is important in revealing underlying assumptions, this might also reveal deeper problems with our theoretical accounts [@nettle2023].
 Deciding on which parts of the system under study to include and which to omit [@smaldino2023, 318], as well as resisting the urge to add nuance on every turn [@healy2017], need to accompany any empirical attempt of inferring causality.
 
-Methodologically, structural causal models only make minimal assumptions.
+Methodologically, structural causal models do not make any assumptions about the functional relationship between variables.
 If identifying a certain causal effect based on a structural causal model is not possible, stronger assumptions might still allow to identify causal effects.
-As we have outlined in @sec-causal-inference, well-known causal inference techniques, such as instrumental variables, difference-in-difference, and regression discontinuity, rely on stronger assumptions, making assumptions about the functional form of the relationships (e.g. linear, or parallel trends), or about thresholds or hurdles.
+As we have outlined in @sec-structural-causal-models, well-known causal inference techniques, such as instrumental variables, difference-in-difference, and regression discontinuity, rely on stronger assumptions, making assumptions about the functional form of the relationships (e.g. linear, or parallel trends), or about thresholds or hurdles.
 That is the essence of causal inference: we make assumptions to build a causal model, and use these assumptions to argue whether we can identify the causal effect given the observations we make.
 
 Any claims of causal effects derived via causal inference will always depend on the assumptions made.
@@ -846,6 +845,10 @@ Often, we cannot verify the assumptions empirically, but they might have *implic
 If we find no empirical support for these testable implications, we might need to go back to the drawing board.
 Finding empirical support for testable implications still does not imply that our assumptions are correct; other assumptions might have similar testable implications.
 Indeed, we already emphasised this in the context of the DAGs: we cannot say whether a DAG is correct, but we might be able to say whether a DAG is incorrect.
+
+Not everything can be modelled as a structural causal model, particularly phenomena involving complex sociocultural, political, and epistemic dynamics, as well as feedback loops and specific parametric assumptions that resist representation as causal paths. 
+There is also broader thinking and reflection of causality beyond structural models, from historical and ethnographic approaches to narrative and critical perspectives on how science develops. 
+Nonetheless, we believe that structural causal models are a very helpful tool to communicate causal thinking among (quantitative) science study researchers, even if not the only one.
 
 ## Going beyond---why causal thinking is useful even if causal inference is impossible
 
@@ -857,7 +860,9 @@ Researchers might be able to build on the model in subsequent studies, and refin
 Secondly, causal models make explicit researchers' beliefs of how specific causal mechanisms work.
 Other researchers might disagree with those causal models.
 This is a feature, not a bug.
-By making disagreement visible, it might be possible to deduce different empirically testable implications, thus advancing the research further, and building a cumulative evidence base.
+By making disagreement visible, it might be possible to uncover whether the various suggested causal models have different empirically testable implications.
+Empirical evidence for these testable implications could then adjudicate between these various causal models.
+Directing research towards studying such adjudicating empirically testable implications advances research further, and helps to build a more cumulative evidence base.
 
 Thirdly, causal models make explicit why causal estimates might be impossible in a given study.
 Often, researchers state in their conclusion that there might be missing confounders and that they therefore cannot draw causal conclusions (but they may nonetheless proceed to provide advice that implicitly assumes causality).
@@ -876,25 +881,59 @@ We could talk to researchers who have reused openly available datasets, asking w
 Responses like these might uncover causal evidence where quantitative methods encounter more difficulties.
 
 Finally, developing explicit causal models can benefit qualitative research as well.
-For example, when developing an interview guide to study a particular phenomenon, it is important to first develop a clear understanding of the potential causal pathways related to that phenomenon.
+For example, when developing an interview guide to study a particular phenomenon, it could be helpful to first develop a clear understanding of the potential causal pathways related to that phenomenon.
 Furthermore, even if qualitative data cannot easily quantify the precise strength of a causal relationship, it may corroborate the structure of a causal model.
 Ultimately, combining quantitative causal identification strategies with direct qualitative insights on mechanisms can lead to more comprehensive evidence [@munafò2018; @tashakkori2021], strengthening and validating our collective understanding of science.
 
-# Theoretical effect of Rigour on Reproducibility {#sec-appendix-rigour-on-reproducibility .appendix}
 
+# Simulations of DAG {.appendix #sec-appendix-simulation}
+
+As explained, a DAG only specifies that a variable is affected by another variable, but it does not specify how.
+For simulating data, we do need to specify our DAG in @fig-overall-model in more detail.
+In particular, we sample *Field* uniformly from two fields; we sample *Rigour* and *Novelty* from standard normal distributions (i.e. with a mean of 0 and a standard deviation of 1); we sample *Open data* and *Published* from Bernoulli distributions (i.e. Yes or No); and we sample *Data reuse*, *Reproducibility* and *Citations* again from standard normal distributions.
+The effects of some variables on other variables are represented by simple linear equations (using a logistic specification for the Bernoulli distributions), with particular coefficients for the effects (see @tbl-coefs).
+These distributions are not necessarily realistic.
+Yet, our aim is not to provide a realistic simulation, but to illustrate how causal inference can be applied.
+Relying on standard normal distributions and linear equations simplifies the simulation model and the analyses of the simulated data.
+
+```{r}
+#| label: tbl-coefs
+#| tbl-cap: "Coefficients for simulated data. They represent the 'true' effects for each path in the DAG, as well as basic properties for the equations (intercepts, sigma)."
+
+# We might want to split this into three segments: intercept, coefficient, sigma
+coefs %>%
+  rename(From = from, To = to, Coefficient = coef) %>%
+  knitr::kable()
+```
+
+
+# Theoretical effect of Rigour on Reproducibility {.appendix #sec-appendix-rigour-on-reproducibility}
 There is a direct effect of *Rigour* on *Reproducibility* and a indirect effect, mediated by *Open data*.
-Let $X$ be *Rigour*, $Z$ *Open Data* and $Y$ *Reproducibility*.
-We then have $$X \sim \text{Normal}(0, 1)$$ $$Z \sim \text{Bernoulli}(\text{logistic}(\alpha_Z + \beta X + \phi_F))$$ $$Y \sim \text{Normal}(\alpha_Y + \gamma X + \theta Z, \sigma)$$
+Let $X$ be *Rigour*, $Z$ *Open data* and $Y$ *Reproducibility*.
+We then have
+$$X \sim \text{Normal}(0, 1)$$
+$$Z \sim \text{Bernoulli}(\text{logistic}(\alpha_Z + \beta X + \phi_F))$$
+$$Y \sim \text{Normal}(\alpha_Y + \gamma X + \theta Z, \sigma)$$
 
-If we try to estimate a simple OLS $Y = \hat{\alpha} + \hat{\beta}X$, then $$\hat{\beta} = \frac{\text{Cov}(X, Y)}{\text{Var(X)}}.$$ Working out $\text{Cov}(X, Y)$, we can use that $Y = \alpha_Y + \gamma X + \theta Z + \epsilon_\sigma$ where $\epsilon_\sigma \sim \text{Normal}(0, \sigma)$, and obtain that $$\text{Cov}(X, Y) = \gamma \text{Cov}(X, X) + \theta \text{Cov}(X, Z) + \text{Cov}(X, \epsilon_\sigma),$$ where $\text{Cov}(X,X) = \text{Var}(X, X) = 1^2 = 1$ and $\text{Cov}(X, \epsilon_\sigma) = 0$, because $\epsilon_\sigma$ is independent of $X$.
-Hence, we obtain $$\text{Cov}(X, Y) = \gamma + \theta \text{Cov}(X, Z).$$ Writing out $\text{Cov}(X, Z)$, we find that $\text{Cov}(X, Z) = E(X Z)$ because $E(X) = 0$.
-Then elaborating $E(X Z) = E(E(X Z | F))$, we can expand $E(X Z | F)$ as a sum $$E(X Z | F) = \int_x \sum_{z=0}^1 x z P(Z = z \mid X = x, F) P(X = x) \mathrm{d}x$$ Obviously, $x z = 0$ when $z = 0$, while $x z = x$ when $z = 1$.
-Hence, this simplifies to only the $z = 1$ part, such that $$E(X Z | F) = \int_x x P(Z = 1 \mid X = x, F) P(X = x) \mathrm{d}x$$ or $$E(X Z \mid F) = \int_x x \cdot \text{logistic}(\alpha_Z + \beta x + \phi_F) \cdot f(x) \mathrm{d}x,$$ where $f(x)$ is the pdf of $X \sim \text{Normal}(0,1)$.
+If we try to estimate a simple OLS $Y = \hat{\alpha} + \hat{\beta}X$, then
+$$\hat{\beta} = \frac{\text{Cov}(X, Y)}{\text{Var(X)}}.$$
+Working out $\text{Cov}(X, Y)$, we can use that $Y = \alpha_Y + \gamma X + \theta Z + \epsilon_\sigma$ where $\epsilon_\sigma \sim \text{Normal}(0, \sigma)$, and obtain that
+$$\text{Cov}(X, Y) = \gamma \text{Cov}(X, X) + \theta \text{Cov}(X, Z) + \text{Cov}(X, \epsilon_\sigma),$$
+where $\text{Cov}(X,X) = \text{Var}(X, X) = 1^2 = 1$ and $\text{Cov}(X, \epsilon_\sigma) = 0$, because $\epsilon_\sigma$ is independent of $X$. Hence, we obtain
+$$\text{Cov}(X, Y) = \gamma + \theta \text{Cov}(X, Z).$$
+Writing out $\text{Cov}(X, Z)$, we find that $\text{Cov}(X, Z) = E(X Z)$ because $E(X) = 0$.
+Then elaborating $E(X Z) = E(E(X Z | F))$, we can expand $E(X Z | F)$ as a sum
+$$E(X Z | F) = \int_x \sum_{z=0}^1 x z P(Z = z \mid X = x, F) P(X = x) \mathrm{d}x$$
+Obviously, $x z = 0$ when $z = 0$, while $x z = x$ when $z = 1$. Hence, this simplifies to only the $z = 1$ part, such that
+$$E(X Z | F) = \int_x x P(Z = 1 \mid X = x, F) P(X = x) \mathrm{d}x$$
+or
+$$E(X Z \mid F) = \int_x x \cdot \text{logistic}(\alpha_Z + \beta x + \phi_F) \cdot f(x) \mathrm{d}x,$$
+where $f(x)$ is the pdf of $X \sim \text{Normal}(0,1)$.
 Unfortunately, this does not seem to have an analytical solution, so we numerically integrate this.
 
-The total causal effect of *Rigour* on *Reproducibility* is very close to the direct causal effect of *Rigour* on *Reproducibility* (which is `r get_coefs("rigour", "reproducibility")`), because the indirect effect via *Rigour* $\rightarrow$ *Open data* is small.
+The total causal effect of *Rigour* on *Reproducibility* is very close to the direct causal effect of *Rigour* on *Reproducibility* (which is `r get_coefs("rigour", "reproducibility")`), because the indirect effect via *Rigour* $\rightarrow$ *Open data* is small. 
 
-# Theoretical effect of Open data on citations {#sec-appendix-od-citations .appendix}
+# Theoretical effect of Open data on citations {.appendix #sec-appendix-od-citations}
 
 There are two causal paths of the effect of *Open data* on *Citations*.
 The first causal path is mediated by *Data reuse* and the second is mediated by *Published*.
@@ -902,7 +941,8 @@ Let $X$ be *Open data*, $Y$ be *Citations*, $D$ be *Data reuse* and $P$ be *Publ
 Since we use a normal distribution for *Citations* we can simply write $$E(Y) = \alpha + \beta_{DY} D + \beta_{PY} P + 
           \beta_{\text{novelty,Y}} \cdot \textit{Novelty} +
           \beta_{\text{rigour,Y}} \cdot \textit{Rigour} +
-          \beta_{\text{field,Y}} \cdot \textit{Field},$$ where we can consider *Field* a dummy variable, representing the effect of field 2 relative to field 1 (i.e. field 1 is the reference category).
+          \beta_{\text{field,Y}} \cdot \textit{Field},$$
+where we can consider *Field* a dummy variable, representing the effect of field 2 relative to field 1 (i.e. field 1 is the reference category).
 
 The change in $Y$, i.e. $\Delta Y$, relative to changing $X$, i.e. $\Delta X$, from $0$ to $1$ is then $$ \frac{\Delta Y(X)}{\Delta X} =
       \beta_{DY} \frac{\Delta D(X)}{\Delta X} +
@@ -911,9 +951,9 @@ The change in $Y$, i.e. $\Delta Y$, relative to changing $X$, i.e. $\Delta X$, f
 The second part is more convoluted, since $P$ is a logistic distribution of a normal variable.
 For that reason, we calculate $\frac{\Delta P(X)}{\Delta X}$ numerically using `logitnorm::momentsLogitnorm` (version 0.8.38) in R.
 
-# Validation of argument against stepwise regression {#sec-stepwise-regression .appendix}
-
-In @sec-open-data-on-citations, we claimed that stepwise regression would suggest to include the mediating variables *Published* and *Open data* and to remove Open Data from the regression model.
+# Validation of argument against stepwise regression {.appendix #sec-stepwise-regression}
+In @sec-open-data-on-citations, we claimed that stepwise regression to identify the effect of *Open data* on *Citations* would not work.
+In particular, it suggests to include the mediating variables *Data reuse* and *Published* and to remove *Open data* from the regression model.
 The output below demonstrates this behaviour.
 
 We first start with a full model that includes all variables.
@@ -921,7 +961,6 @@ We first start with a full model that includes all variables.
 ```{r echo=TRUE}
 full_model <- lm(citations ~ ., data = df)
 ```
-
 Next, we let R select variables in a stepwise fashion, considering both directions (including or excluding variables) at each step.
 
 ```{r echo=TRUE}
@@ -931,12 +970,12 @@ step_model <- MASS::stepAIC(full_model, direction = "both", trace = TRUE)
 We can see that the algorithm first removes *Open data*, and then *Reproducibility*.
 The final model is then as follows:
 
+
 ```{r echo=TRUE}
 summary(step_model)
 ```
 
-# The case against causal salad {#sec-causal-salad .appendix}
-
+# The case against causal salad {.appendix #sec-causal-salad}
 @tbl-causal-salad illustrates the result of the 'causal salad' approach of including all variables.
 Because this model controls for mediators, the effect of *Open data* on *Citations* appears to be zero.
 The researcher could thus be led to conclude that *Open data* has no effect on *Citations*, which is incorrect.
@@ -949,6 +988,7 @@ caption <- paste0(
 )
 ```
 
+
 ```{r}
 #| label: tbl-causal-salad
 #| tbl-cap: !expr caption
@@ -957,17 +997,13 @@ named_models <- list("Correct model" = m_od_citations,
                      "'Causal salad' model" = full_model)
 
 coef_names <- c("(Intercept)" = "Intercept",
-                "open_dataTRUE" = "Open Data",
+                "open_dataTRUE" = "Open data",
                 "field" = "Field", "rigour" = "Rigour",
                 "novelty" = "Novelty",
                 "data_reuse" = "Data reuse",
                 "publishedTRUE" = "Published",
                 "reproducibility" = "Reproducibility")
 
-modelsummary(named_models, output = "flextable", statistic = "p.value",
-             gof_omit = 'IC|Log|Adj|RMSE', coef_map = coef_names) %>%
-  align(align = "center", part = "all") %>%
-  bg(i = 3:4, j = 2, bg = "grey90") %>%
-  bg(i = 3:4, j = 3, bg = "coral1") %>%
-  autofit(add_w = .1)
+modelsummary(named_models, output = "latex", statistic = "p.value",
+             gof_omit = 'IC|Log|Adj|RMSE', coef_map = coef_names)
 ```
