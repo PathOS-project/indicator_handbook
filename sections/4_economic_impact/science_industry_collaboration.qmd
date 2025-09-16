@@ -307,6 +307,16 @@ Crunchbase is a comprehensive platform that aggregates data on companies, founde
 
 Crunchbase can be used to identify the names and metadata of companies involved in academic-industry collaborations. By cross-referencing organizations from research outputs or project data, researchers can determine whether affiliations are from industry. Crunchbase’s metadata can also help uncover patterns such as funding sources, company size, and sectoral focus, which are crucial for understanding the scope and impact of collaborations.
 
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- Impact of Artefact Reuse in COVID-19 Publications
+- Impact of Open Access Routes on Topic Persistence
+- Portuguese Repository Infrastructure RCAAP
+- ELIXIR´s Bioinformatics Resources
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
+
 # Notes {#notes .unnumbered}
 
 The proposed metrics offer a solid foundation for measuring the collaboration between science and industry, however some aspects require further exploration:
