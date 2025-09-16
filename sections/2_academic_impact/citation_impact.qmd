@@ -259,6 +259,16 @@ The database is closed access, and we therefore do not provide more details abou
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- Impact of Artefact Reuse in COVID-19 Publications
+- Impact of Open Access Routes on Topic Persistence
+- Portuguese Repository Infrastructure RCAAP
+- ELIXIR´s Bioinformatics Resources
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
+
 # Known correlates
 
 As already clarified, citations are affected in general by field and publication year, and these are quite clearly causal effects. There are many other factors that correlate with citations [@onodera2015], for which most it is unclear whether the effect is causal. One factor that is consistently associated with more citations is collaboration [@larivière2015], which is potentially driven by network effects [@schulz]. In addition, there is evidence for a clear causal effect of the journal where something is published on citations [@traag2021].
