@@ -95,3 +95,13 @@ This metrics supposes to have clearly defined what the specific needs of people 
 The academic field is characterized by certain set of subnorms that define a specific scientific ethos. Without settling immense debate of defining those norms, it is important to note that this specific ethos has implications for how diversity functions in and on science. Complying to the scientific ethos, in order to be able to “play the game of science” requires specific socio-economic conditions such as stable income, decent housing, access to higher education etc. that enable individuals to acquire the set of scientific skills needed to produce scientifically valid statements, that is to say peer recognized and compliant to scientific discursive norms.
 
 The socio-economic preconditions of this "scholastic view" [@bourdieu2000], may act as a barrier for the underprivileged. Conversely, a series of paradigm shifts in the history, sociology, and philosophy of science (Kuhn, Longino, Wylie) has demonstrated that science is more infused with social values and hierarchies than previously believed and stressed out the fact that well-orchestrated diversity in research communities could lead to more efficient and scientifically relevant research. Last, it is important to note that in recent years, policymakers have implemented initiatives mandating that science take a more direct role in confronting immediate and urgent societal challenges; “Science with and for society” subprogram in the Horizon 2020 2014-2021 Program, followed by the full integration of the Responsible Research and Innovation principles in the 2021-2027 Horizon Europe Program.
+
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- Impact of Artefact Reuse in COVID-19 Publications
+- Impact of Open Access Routes on Topic Persistence
+- Portuguese Repository Infrastructure RCAAP
+- ELIXIR´s Bioinformatics Resources
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
