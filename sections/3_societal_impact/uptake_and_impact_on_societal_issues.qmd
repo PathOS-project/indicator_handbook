@@ -118,3 +118,10 @@ Given the complexity of the assessment described in these pages, the metrics sug
 
 -   Number of references to OS resources in the statements and documents of each actor or actor type active on each societal issue.
 -   Ratio of OS over non-OS references to OS resources in the statements and documents of each actor or actor type active on each societal issue.
+
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- French Open Access Infrastructure
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).

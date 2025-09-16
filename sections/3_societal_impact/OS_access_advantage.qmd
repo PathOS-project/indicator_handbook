@@ -91,3 +91,10 @@ The indicator described in these pages is meant to be computed based on access d
 As an example, one can (1) focus on the scientific domains associated with the accessed resources and (2) aggregate the IP-related information in countries and industrial sectors, for example follwiong the NACE typology ([ec.europa.eu/eurostat/web/nace](https://ec.europa.eu/eurostat/web/nace)).
 
 This data structure allows to observe not only the general access advantage (or disadvantage) of different type of scientific ressource, but to break the calculation down to different combination of scientific domains, countries and industrial sectors, in order to facilitate comparison and detect potential confounding factors.
+
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- French Open Access Infrastructure
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).

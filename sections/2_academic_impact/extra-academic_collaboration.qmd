@@ -150,3 +150,10 @@ The four types of non-academic organisations and the six types of possible colla
 The data sources described in the previous section can be used to populate this double entry table for a given piece of research, a set of researches or (even more interestingly) several sets of researches whose different collaboration-profile can be assessed comparing their value for each of the cell, row or column as well as for the entire table.
 
 In particular, all the metrics matrix and the data source described above can be employed to assess collaboration in OS but also in non-OS projects, allowing to investigate whether open science is less or more prone to facilitate specific types of collaboration. Similarly, the comparison can be carried out by disciplinary field, type of research, project size or duration, type of funding, etc.
+
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- ELIXIR´s Bioinformatics Resources
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).

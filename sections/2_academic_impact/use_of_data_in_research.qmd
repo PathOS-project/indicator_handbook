@@ -114,3 +114,10 @@ Based on the data retrieval information from the data repositories one can compi
 ##### Standardization protocols
 
 To combat the issue of standardization for the tracking of clicks/views/downloads of data use in research [The COUNTER Code of Practice for Research Data](https://www.countermetrics.org/code-of-practice/) gives guidance on how to standardize count systems for data use. The guidelines provided by The COUNTER Code of Practice for Research Data can be followed to make inquiries in data retrieval information more comparable among researchers.
+
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- Effects of Data Repositories on Data Usage
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).

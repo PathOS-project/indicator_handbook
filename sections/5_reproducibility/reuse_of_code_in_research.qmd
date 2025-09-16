@@ -47,3 +47,10 @@ This closely aligns with the metrics in the [Use of Code in Research](https://ha
 In the context of reproducibility, the reuse of code indicates that methods and processes described in research publications are transparent and accessible. When researchers reuse code, they signal that the original research is sufficiently documented and functional to support replication. This is a cornerstone of open science, as reproducible research enables validation of results, ensuring the robustness of scientific knowledge and minimizing errors. The extent of code reuse also highlights the community’s trust in the reliability and quality of the code, as widely adopted software is likely to have undergone rigorous validation by multiple users.
 
 Furthermore, the act of reusing code fosters interdisciplinary collaboration and accelerates scientific progress. By building on shared resources rather than duplicating efforts, researchers save valuable time and energy. This collaborative approach to software reuse ensures that scientific communities can focus on advancing new knowledge rather than resolving redundant technical challenges. As a result, code reuse acts as a multiplier for reproducibility, allowing not only the original study but also derivative works to be verified and built upon, expanding the scope of reliable and impactful research.
+
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- Impact of Artefact Reuse in COVID-19 Publications
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).

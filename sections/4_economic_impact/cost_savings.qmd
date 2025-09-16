@@ -209,6 +209,13 @@ Where:
 -   is the production cost expressed per unit of storage space;
 -   is the span of time over which the benefit should be computed and can be expressed in any unit of time.
 
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- Portuguese Repository Infrastructure RCAAP
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
+
 # Known correlates
 
 Cost savings are directly linked to the metrics of “Innovation output” and “Industry adoption of research findings”. The rationale is that the savings accrued in both time and finances could potentially be redirected towards R&D investments. Over time, this reallocation could result in a significant increase in R&D productivity and innovation. Furthermore, the cost savings over time might trigger “Economic growth of companies” in terms of variations in productivity and assets. For instance, the money saved from lower access and storage costs can be reinvested in the company. This reinvestment could go towards R&D – which also relates to the innovation output indicator – and expanding operational capacity, which can drive revenue growth and increase the company’s assets and innovation capability, both key ingredients of company growth. Similarly, by saving time, companies can achieve more with the same or fewer resources. This means that businesses can offer more products or services or improve the quality of their offerings without a corresponding increase in costs. Over time, this contributes to economic growth by enhancing the company’s competitive edge and market share. The direct involvement of efficiency improvements in the economic growth of companies is also evident in asset optimisation. By maximising the utility of existing assets (mostly intangibles), companies can achieve higher returns on investment (ROI) over time.

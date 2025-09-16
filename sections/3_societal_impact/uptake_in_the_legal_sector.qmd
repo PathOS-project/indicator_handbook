@@ -159,6 +159,13 @@ Finally, it is crucial to include in any qualitative study or questionnaire a sa
 
 Once these limitations and pointers to qualitative assessment have been acknowledged, it is nevertheless possible to perform the same automatic queries than for other indicators, for instance the patient groups community or the policy-makers, in order to provide a possibly limited, top of the iceberg understanding of the reuse of OS by the legal sector, without evidencing all the real impact.
 
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- French Open Access Infrastructure
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
+
 # Known correlates
 
 In the absence of citation, it is difficult to assert that a legal decision has been taken following a research result published in an Open Access journal possibly relying on an Open Data set. Correlation (or coincidence, as explained in the Societal Issues indicator) cannot be interpreted as causation, or direct and only impact.

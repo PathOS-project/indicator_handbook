@@ -62,3 +62,10 @@ While the PISA instrument is not publicly available, the framework includes deta
 Besides the PISA instrument, there is a great variety of other instruments used to assess scientific literacy, commonly aligned with vision II and the PISA conceptualization. In general, the focus seems to have shifted from viewing scientific literacy as one single ability to defining it as a multidimensional construct. Most of the instruments' contents focus on a specific domain or context (e.g., biology), employing various formats to test skills. The majority of instruments have been developed for use in (secondary school) students and have mainly been employed in that context [@coppi2023; @opitz2017].
 
 A relatively recent and broadly used instrument is the Test of Scientific Literacy Skills (TOSLS), developed to be a comprehensive and psychometrically sound measure that can be employed on a large scale. The TOSLS includes 28 multiple-choice questions presented through realistic scenarios and requiring respondents to use skills that relate to understanding scientific methods and interpreting data [@gormally2012]. The instrument is available as the supplement to @gormally2012.
+
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- French Open Access Infrastructure
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).

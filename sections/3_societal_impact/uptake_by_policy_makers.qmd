@@ -67,6 +67,13 @@ Overton was founded in 2019 also by Euan Adie. It is a novel database with the g
 
 Beyond the methodologies of the different data providers mentioned above (Overton and Altmetric), and other past applications related to the extractions of mentions to scientific concepts, there are no other large methodologies focused on extracting mentions to scientific publications or scholarly entities from policy sources.
 
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- French Open Access Infrastructure
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
+
 # Known correlates
 
 Previous studies have reported mostly positive weak correlations between policy citations and other metrics, including scholarly citations [@fang2024; @bornmann2016a; @szomszor2022].

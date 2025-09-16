@@ -137,3 +137,10 @@ The continuity framework [@Yan2014ResearchDM] quantifies persistence by categori
 
 Continuity is evaluated by the **strength of inter-year linkages** among topic clusters.\
 This allows distinguishing different **modes of persistence** and topic evolution.
+
+# Operationalization in PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- Impact of Open Access Routes on Topic Persistence
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
