@@ -98,7 +98,9 @@ To measure the proposed metric, the tool can be used to identify the reused and 
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - French Open Access Infrastructure

@@ -209,7 +209,9 @@ Where:
 -   is the production cost expressed per unit of storage space;
 -   is the span of time over which the benefit should be computed and can be expressed in any unit of time.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - Portuguese Repository Infrastructure RCAAP

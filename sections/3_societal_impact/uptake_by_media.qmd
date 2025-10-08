@@ -123,7 +123,9 @@ In addition to citation, views and download information, PlumX collects data fro
 -   Wikipedia
 -   Facebook
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - French Open Access Infrastructure

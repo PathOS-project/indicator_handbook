@@ -63,7 +63,9 @@ Besides the PISA instrument, there is a great variety of other instruments used 
 
 A relatively recent and broadly used instrument is the Test of Scientific Literacy Skills (TOSLS), developed to be a comprehensive and psychometrically sound measure that can be employed on a large scale. The TOSLS includes 28 multiple-choice questions presented through realistic scenarios and requiring respondents to use skills that relate to understanding scientific methods and interpreting data [@gormally2012]. The instrument is available as the supplement to @gormally2012.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - French Open Access Infrastructure

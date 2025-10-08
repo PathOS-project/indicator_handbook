@@ -143,7 +143,9 @@ OpenAIRE Graph and Directory of Open Access Repositories (DOAR) (integrated in t
 
 All repositories in both data sources are Open Access.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - French Open Access Infrastructure

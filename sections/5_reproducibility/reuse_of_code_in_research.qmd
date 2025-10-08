@@ -48,7 +48,9 @@ In the context of reproducibility, the reuse of code indicates that methods and 
 
 Furthermore, the act of reusing code fosters interdisciplinary collaboration and accelerates scientific progress. By building on shared resources rather than duplicating efforts, researchers save valuable time and energy. This collaborative approach to software reuse ensures that scientific communities can focus on advancing new knowledge rather than resolving redundant technical challenges. As a result, code reuse acts as a multiplier for reproducibility, allowing not only the original study but also derivative works to be verified and built upon, expanding the scope of reliable and impactful research.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - Impact of Artefact Reuse in COVID-19 Publications

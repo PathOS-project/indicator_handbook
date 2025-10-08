@@ -92,7 +92,9 @@ As an example, one can (1) focus on the scientific domains associated with the a
 
 This data structure allows to observe not only the general access advantage (or disadvantage) of different type of scientific ressource, but to break the calculation down to different combination of scientific domains, countries and industrial sectors, in order to facilitate comparison and detect potential confounding factors.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - French Open Access Infrastructure

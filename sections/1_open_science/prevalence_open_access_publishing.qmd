@@ -127,7 +127,9 @@ To facilitate interaction with the Unpaywall API there are also supporting packa
 
 Once we know the Open Access status of each publication, we can easily calculate the percentage, simply as the number of publications out of the total that are Open Access. Additionally, we can do this for each separate Open Access type. We could for example refer to the % Green OA or % Gold OA. Note that percentages may not add up to 100%, but the total may also even exceed 100%, because publications can have both a Green Open Access status and another Open Access status. For that reason, you should not report percentages of Open Access statuses in a cumulative fashion (e.g. not in a stacked bar chart), in particular not when reporting on Green Open Access.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - French Open Access Infrastructure

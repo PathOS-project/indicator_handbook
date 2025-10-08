@@ -151,7 +151,9 @@ The data sources described in the previous section can be used to populate this 
 
 In particular, all the metrics matrix and the data source described above can be employed to assess collaboration in OS but also in non-OS projects, allowing to investigate whether open science is less or more prone to facilitate specific types of collaboration. Similarly, the comparison can be carried out by disciplinary field, type of research, project size or duration, type of funding, etc.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - ELIXIR´s Bioinformatics Resources

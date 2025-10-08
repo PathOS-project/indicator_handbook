@@ -233,7 +233,9 @@ PitchBook is a financial data and research platform that offers in-depth informa
 
 Dealroom is a business intelligence platform that provides data and insights on start-ups, venture capital, private equity, and innovation ecosystems. It is widely used by investors, corporations, and policymakers to track emerging companies, funding trends, and market developments. Dealroom aggregates data from public sources, proprietary research, and partnerships with governments and industry organizations, offering a comprehensive view of the European and global start-up landscape. Compared to Crunchbase and PitchBook, Dealroom places a strong emphasis on mapping start-up ecosystems, providing network intelligence, and analysing sector-specific innovation trends, making it a valuable tool for understanding high-growth industries and investment opportunities.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - ELIXIR´s Bioinformatics Resources

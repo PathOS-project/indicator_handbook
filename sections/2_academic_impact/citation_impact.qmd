@@ -259,7 +259,9 @@ The database is closed access, and we therefore do not provide more details abou
 
 The database is closed access, and we therefore do not provide more details about API usage.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - Impact of Artefact Reuse in COVID-19 Publications

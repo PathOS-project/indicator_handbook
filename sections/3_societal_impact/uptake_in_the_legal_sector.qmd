@@ -159,7 +159,9 @@ Finally, it is crucial to include in any qualitative study or questionnaire a sa
 
 Once these limitations and pointers to qualitative assessment have been acknowledged, it is nevertheless possible to perform the same automatic queries than for other indicators, for instance the patient groups community or the policy-makers, in order to provide a possibly limited, top of the iceberg understanding of the reuse of OS by the legal sector, without evidencing all the real impact.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - French Open Access Infrastructure

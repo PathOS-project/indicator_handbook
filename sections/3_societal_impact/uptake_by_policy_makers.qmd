@@ -67,7 +67,9 @@ Overton was founded in 2019 also by Euan Adie. It is a novel database with the g
 
 Beyond the methodologies of the different data providers mentioned above (Overton and Altmetric), and other past applications related to the extractions of mentions to scientific concepts, there are no other large methodologies focused on extracting mentions to scientific publications or scholarly entities from policy sources.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - French Open Access Infrastructure

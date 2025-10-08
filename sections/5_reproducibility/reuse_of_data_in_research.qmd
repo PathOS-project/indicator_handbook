@@ -48,7 +48,9 @@ In the context of reproducibility, the reuse of datasets reflects the scientific
 
 By interpreting dataset reuse through the lens of reproducibility, this indicator also highlights the extent to which researchers adopt transparent and open research practices. The repeated utilization of datasets ensures that original findings are validated and that the data itself is robust, reliable, and suitable for diverse applications.
 
-# Operationalization in PathOS Case Studies
+# Operationalization in Case Studies
+
+## PathOS Case Studies
 
 This indicator has been operationalized in the following case studies:
 - Impact of Artefact Reuse in COVID-19 Publications
