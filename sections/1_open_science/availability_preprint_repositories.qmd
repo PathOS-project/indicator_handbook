@@ -143,6 +143,15 @@ OpenAIRE Graph and Directory of Open Access Repositories (DOAR) (integrated in t
 
 All repositories in both data sources are Open Access.
 
+# Operationalization in Case Studies
+
+## PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- French Open Access Infrastructure
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
+
 # Known correlates
 
 The availability of preprint repositories **may** correlate with specific fields of study, given that certain scientific disciplines are more inclined to use preprints than others. Furthermore, regional or national open science policies, funding opportunities, and research culture can also influence the presence or absence of preprint repositories in a particular country or region.

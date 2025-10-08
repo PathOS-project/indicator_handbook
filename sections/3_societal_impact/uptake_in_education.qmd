@@ -97,3 +97,12 @@ This is an automated tool [@stavropoulos2023], leveraging Deep Learning and Natu
 To measure the proposed metric, the tool can be used to identify the reused and created OS inputs in the texts of the educational material.
 
 One limitation of this methodology is that it may not capture all instances of research artifacts if they are not explicitly mentioned in the scientific text. Additionally, the machine learning algorithms used by the tool may not always accurately classify whether a research artifact has been reused or created, and may require manual validation.
+
+# Operationalization in Case Studies
+
+## PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- French Open Access Infrastructure
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).

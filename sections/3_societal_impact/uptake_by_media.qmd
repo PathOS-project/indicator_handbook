@@ -123,6 +123,15 @@ In addition to citation, views and download information, PlumX collects data fro
 -   Wikipedia
 -   Facebook
 
+# Operationalization in Case Studies
+
+## PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- French Open Access Infrastructure
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
+
 # Known correlates
 
 Correlations among various measure of uptake by media have been studies [@fang2020].

@@ -68,6 +68,15 @@ OpenAIRE Graph and Directory of Open Access Repositories (DOAR) (integrated in t
 
 All repositories in both data sources are Open Access.
 
+# Operationalization in Case Studies
+
+## PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- French Open Access Infrastructure
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
+
 # Known correlates
 
 Various factors **may** influence the availability of publication repositories in specific fields, countries, or organizations such as: research output, research funding, technological infrastructure, Open Access mandates, research collaboration, overall research infrastructure.

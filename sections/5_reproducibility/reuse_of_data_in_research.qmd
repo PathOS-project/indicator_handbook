@@ -47,3 +47,12 @@ This aligns closely with the metrics discussed in the [Use of Data in Research](
 In the context of reproducibility, the reuse of datasets reflects the scientific community's ability to leverage existing data to answer new research questions. It underscores the importance of effective data sharing practices, robust metadata, and clear licensing, as these enable other researchers to trust, access, and incorporate datasets into their work. Furthermore, higher levels of data reuse often indicate stronger collaboration and trust within a scientific field, which are critical for advancing reproducible research.
 
 By interpreting dataset reuse through the lens of reproducibility, this indicator also highlights the extent to which researchers adopt transparent and open research practices. The repeated utilization of datasets ensures that original findings are validated and that the data itself is robust, reliable, and suitable for diverse applications.
+
+# Operationalization in Case Studies
+
+## PathOS Case Studies
+
+This indicator has been operationalized in the following case studies:
+- Impact of Artefact Reuse in COVID-19 Publications
+
+Further details are available in Deliverable D3.3 of PathOS, accessible through the [PathOS Zenodo community](https://zenodo.org/communities/pathos/records?q=&l=list&p=1&s=10&sort=newest).
